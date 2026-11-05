@@ -46,11 +46,11 @@
     "description": "At Fort Street High School, there are a range of safe transport options. Check our location map, driving details and public transport options to help make the journey to school safe and easy. We are located at 620 PARRAMATTA ROAD, NSW 2049 PETERSHAM.",
     "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school"
   },
-  "migratedAt": "2026-11-05T10:28:30Z",
+  "migratedAt": "2026-11-05T20:22:13Z",
   "designMdSha": "187c3f2f159f",
   "designJsonSha": "2d96d5b1c55f",
   "sourceCurrentSha": "72ff841b9b85",
-  "sourceProposedSha": "a8bcce9c40c9",
+  "sourceProposedSha": "6f94fbcda1dd",
   "fidelityTier": "archetype",
   "archetypeSource": null,
   "archetypeSha": null,

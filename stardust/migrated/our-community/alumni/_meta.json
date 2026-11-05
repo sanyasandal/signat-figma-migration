@@ -36,11 +36,11 @@
     "description": "Welcome to the Fort Street Alumni Community. Fortians are forever connected by their shared experiences at the Fort.",
     "url": "https://fortstreet-h.schools.nsw.gov.au/our-community/alumni"
   },
-  "migratedAt": "2026-11-05T10:28:30Z",
+  "migratedAt": "2026-11-05T20:22:13Z",
   "designMdSha": "187c3f2f159f",
   "designJsonSha": "2d96d5b1c55f",
   "sourceCurrentSha": "d5230ba3984f",
-  "sourceProposedSha": "9f7dd72cd565",
+  "sourceProposedSha": "a6d67b0be3e8",
   "fidelityTier": "archetype",
   "archetypeSource": null,
   "archetypeSha": null,

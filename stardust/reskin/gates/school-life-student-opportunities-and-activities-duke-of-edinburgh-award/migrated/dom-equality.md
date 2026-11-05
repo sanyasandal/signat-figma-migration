@@ -2,7 +2,7 @@
 
 - Source: https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/duke-of-edinburgh-award (scopes: `nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!`, normalize: `/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/school-life-student-opportunities-and-activities-duke-of-edinburgh-award.mjs`)
 - Rendered: stardust/migrated/school-life/student-opportunities-and-activities/duke-of-edinburgh-award/index.html (scope: `main`)
-- Generated: 2026-11-05T10:32:28.730Z
+- Generated: 2026-11-05T20:27:24.425Z
 
 ## Primary checks (gating)
 
@@ -16,7 +16,7 @@
 
 ## Informational (non-gating — a reskin re-structures markup by design)
 
-- Element count: source=351 rendered=282 (delta -69)
+- Element count: source=354 rendered=282 (delta -72)
 - Tag+class sequence: diverges at position 0 of 282
 
 ## Declared deltas

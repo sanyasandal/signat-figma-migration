@@ -2,7 +2,7 @@
 
 - Source: https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives (scopes: `nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!`, normalize: `/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/about-us-school-history-and-archives.mjs`)
 - Rendered: stardust/migrated/about-us/school-history-and-archives/index.html (scope: `main`)
-- Generated: 2026-11-05T10:29:37.713Z
+- Generated: 2026-11-05T20:23:42.096Z
 
 ## Primary checks (gating)
 

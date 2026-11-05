@@ -3,7 +3,7 @@
 - Tokens: stardust/reskin/donor-tokens.json
 - Rendered: stardust/migrated/school-life/travel-to-school/index.html
 - Spec: default (rendered-page conventions)
-- Generated: 2026-11-05T10:33:00.707Z
+- Generated: 2026-11-05T20:28:21.002Z
 
 ## Assertions — 10/10 pass (5 skipped)
 

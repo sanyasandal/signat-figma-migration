@@ -2,7 +2,7 @@
 
 - Source: https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/clubs-and-committees (scopes: `nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!`, normalize: `/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/school-life-student-opportunities-and-activities-clubs-and-committees.mjs`)
 - Rendered: stardust/migrated/school-life/student-opportunities-and-activities/clubs-and-committees/index.html (scope: `main`)
-- Generated: 2026-11-05T10:32:07.091Z
+- Generated: 2026-11-05T20:26:59.493Z
 
 ## Primary checks (gating)
 

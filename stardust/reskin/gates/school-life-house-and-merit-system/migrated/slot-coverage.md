@@ -2,7 +2,7 @@
 
 - Model: stardust/reskin/content-model/school-life-house-and-merit-system/content-model.json
 - Rendered: stardust/migrated/school-life/house-and-merit-system/index.html (scope: `main`)
-- Generated: 2026-11-05T10:31:46.397Z
+- Generated: 2026-11-05T20:26:24.966Z
 
 ## slot-coverage — 30/31 pass
 

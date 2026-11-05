@@ -36,11 +36,11 @@
     "description": "At Fort Street High School, we have multiple clubs and committees for students to get involved in. They help students build new skills, make friends and explore new interests.",
     "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/clubs-and-committees"
   },
-  "migratedAt": "2026-11-05T10:28:30Z",
+  "migratedAt": "2026-11-05T20:22:13Z",
   "designMdSha": "187c3f2f159f",
   "designJsonSha": "2d96d5b1c55f",
   "sourceCurrentSha": "9d54bb258e6f",
-  "sourceProposedSha": "fa63cb832837",
+  "sourceProposedSha": "8e2df3867291",
   "fidelityTier": "archetype",
   "archetypeSource": null,
   "archetypeSha": null,

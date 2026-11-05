@@ -3,7 +3,7 @@
 - Tokens: stardust/reskin/donor-tokens.json
 - Rendered: stardust/migrated/our-community/pandc/index.html
 - Spec: default (rendered-page conventions)
-- Generated: 2026-11-05T10:31:10.831Z
+- Generated: 2026-11-05T20:25:34.746Z
 
 ## Assertions — 13/15 pass
 

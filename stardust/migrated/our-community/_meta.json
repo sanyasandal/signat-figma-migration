@@ -37,11 +37,11 @@
     "description": "Fort Street has a strong and supportive community of both past and present students and families.",
     "url": "https://fortstreet-h.schools.nsw.gov.au/our-community"
   },
-  "migratedAt": "2026-11-05T10:28:30Z",
+  "migratedAt": "2026-11-05T20:22:13Z",
   "designMdSha": "187c3f2f159f",
   "designJsonSha": "2d96d5b1c55f",
   "sourceCurrentSha": "7a382abec94a",
-  "sourceProposedSha": "1de31f748be3",
+  "sourceProposedSha": "a74fd5a04521",
   "fidelityTier": "archetype",
   "archetypeSource": null,
   "archetypeSha": null,

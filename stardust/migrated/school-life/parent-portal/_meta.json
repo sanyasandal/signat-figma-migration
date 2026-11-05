@@ -42,11 +42,11 @@
     "description": "At Fort Street High School, we use parent portal apps to communicate to our families. Our apps are for student attendance matters, booking parent and teacher interviews, accessing academic reports, making payments, viewing financial records and giving parental consent for school events.",
     "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal"
   },
-  "migratedAt": "2026-11-05T10:28:29Z",
+  "migratedAt": "2026-11-05T20:22:12Z",
   "designMdSha": "187c3f2f159f",
   "designJsonSha": "2d96d5b1c55f",
   "sourceCurrentSha": "e24e23ae14b9",
-  "sourceProposedSha": "8d22fe907c20",
+  "sourceProposedSha": "5222b9195006",
   "fidelityTier": "archetype",
   "archetypeSource": null,
   "archetypeSha": null,

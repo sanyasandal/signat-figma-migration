@@ -2,7 +2,7 @@
 
 - Model: stardust/reskin/content-model/our-community-pandc/content-model.json
 - Rendered: stardust/migrated/our-community/pandc/index.html (scope: `main`)
-- Generated: 2026-11-05T10:31:07.568Z
+- Generated: 2026-11-05T20:25:31.472Z
 
 ## slot-coverage — 42/43 pass
 

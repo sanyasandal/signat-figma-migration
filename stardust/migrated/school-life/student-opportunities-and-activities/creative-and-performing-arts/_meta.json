@@ -36,11 +36,11 @@
     "description": "Fort Street High School provides multiple avenues for the creative arts, from visual arts, drama, and theatre sports.",
     "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/creative-and-performing-arts"
   },
-  "migratedAt": "2026-11-05T10:28:30Z",
+  "migratedAt": "2026-11-05T20:22:13Z",
   "designMdSha": "187c3f2f159f",
   "designJsonSha": "2d96d5b1c55f",
   "sourceCurrentSha": "141cbac558e6",
-  "sourceProposedSha": "16e1c002c524",
+  "sourceProposedSha": "8f6dcb6cfcc1",
   "fidelityTier": "archetype",
   "archetypeSource": null,
   "archetypeSha": null,

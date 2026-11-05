@@ -38,11 +38,11 @@
     "description": "Our school is one of more than 2,200 NSW public schools working together to give every student a strong start in life. Being part of this network means your child benefits from consistent policies, shared values, high teaching standards and access to statewide resources, assets, programs and support.",
     "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports/nsw-public-school-information"
   },
-  "migratedAt": "2026-11-05T10:28:29Z",
+  "migratedAt": "2026-11-05T20:22:12Z",
   "designMdSha": "187c3f2f159f",
   "designJsonSha": "2d96d5b1c55f",
   "sourceCurrentSha": "a66c090d9b5d",
-  "sourceProposedSha": "a045163c9bd1",
+  "sourceProposedSha": "417dfc73fbd4",
   "fidelityTier": "archetype",
   "archetypeSource": null,
   "archetypeSha": null,

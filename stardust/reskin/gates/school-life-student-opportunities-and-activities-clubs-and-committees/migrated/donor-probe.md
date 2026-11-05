@@ -3,7 +3,7 @@
 - Tokens: stardust/reskin/donor-tokens.json
 - Rendered: stardust/migrated/school-life/student-opportunities-and-activities/clubs-and-committees/index.html
 - Spec: default (rendered-page conventions)
-- Generated: 2026-11-05T10:32:14.126Z
+- Generated: 2026-11-05T20:27:06.508Z
 
 ## Assertions — 9/9 pass (6 skipped)
 

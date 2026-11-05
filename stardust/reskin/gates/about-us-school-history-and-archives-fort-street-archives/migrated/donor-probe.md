@@ -3,7 +3,7 @@
 - Tokens: stardust/reskin/donor-tokens.json
 - Rendered: stardust/migrated/about-us/school-history-and-archives/fort-street-archives/index.html
 - Spec: default (rendered-page conventions)
-- Generated: 2026-11-05T10:29:38.558Z
+- Generated: 2026-11-05T20:23:26.021Z
 
 ## Assertions — 9/9 pass (6 skipped)
 

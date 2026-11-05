@@ -40,11 +40,11 @@
     "description": "At Fort Street High School, our policies and reports help families understand how our school works. Our annual report and school plan show what we’ve done and how we’re improving each year.  Our polices address attendance, absences, behaviour, uniform and how we respond to your concerns.",
     "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports"
   },
-  "migratedAt": "2026-11-05T10:28:29Z",
+  "migratedAt": "2026-11-05T20:22:12Z",
   "designMdSha": "187c3f2f159f",
   "designJsonSha": "2d96d5b1c55f",
   "sourceCurrentSha": "9a8df1a6a4bd",
-  "sourceProposedSha": "293bb83c598a",
+  "sourceProposedSha": "d9f39ef4cc35",
   "fidelityTier": "archetype",
   "archetypeSource": null,
   "archetypeSha": null,

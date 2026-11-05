@@ -7,7 +7,7 @@
     {
       "check": "S2",
       "verdict": "ok",
-      "detail": "settled in 1510ms, 0 late chars captured"
+      "detail": "settled in 1508ms, 0 late chars captured"
     },
     {
       "check": "S3",
@@ -21,8 +21,9 @@
       "check": "S4",
       "key": "s05",
       "source": "rail-start",
-      "target": "rail-start",
-      "verdict": "carried",
+      "target": "top",
+      "verdict": "declared",
+      "why": "the Kay donor has no side column (M3 is a tab row): the source's section sidebar is carried as a band above the content, after the breadcrumb (owner's call, 2026-11-06)",
       "sample": "Section navigation | About us | Enrol"
     }
   ]

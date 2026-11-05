@@ -35,11 +35,11 @@
     "description": "In Year 7 parents are provided with a list of stationery requirements for their child(ren). Parents may choose to purchase these items from any supplier or store of their choosing.",
     "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/stationery"
   },
-  "migratedAt": "2026-11-05T10:28:30Z",
+  "migratedAt": "2026-11-05T20:22:13Z",
   "designMdSha": "187c3f2f159f",
   "designJsonSha": "2d96d5b1c55f",
   "sourceCurrentSha": "261a665e54af",
-  "sourceProposedSha": "e3b30fcc5284",
+  "sourceProposedSha": "32f1f776a5ce",
   "fidelityTier": "archetype",
   "archetypeSource": null,
   "archetypeSha": null,

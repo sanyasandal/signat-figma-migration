@@ -2,7 +2,7 @@
 
 - Model: stardust/reskin/content-model/learning-and-support-wellbeing/content-model.json
 - Rendered: stardust/migrated/learning-and-support/wellbeing/index.html (scope: `main`)
-- Generated: 2026-11-05T10:30:26.357Z
+- Generated: 2026-11-05T20:24:45.293Z
 
 ## slot-coverage — 74/75 pass
 

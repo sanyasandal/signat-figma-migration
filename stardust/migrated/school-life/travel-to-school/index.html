@@ -3,7 +3,7 @@
 <head>
 <!-- stardust:migrate
   writtenBy:        stardust:migrate
-  writtenAt:        2026-11-05T10:28:30Z
+  writtenAt:        2026-11-05T20:22:13Z
   page:             Travel to school
   slug:             school-life-travel-to-school
   pagePath:         migrated/school-life/travel-to-school/index.html
@@ -389,7 +389,11 @@
     .site-main.has-rail.rail-reorder > section.rail-mobile-top { order: -1; }
     .site-main.has-rail.rail-reorder > section.rail-mobile-bottom { order: 1; }
     .site-main.has-rail > section.rail-mobile-hidden { display: none; }
+    .site-main.rail-top > section.rail-mobile-hidden { display: none; }
+    .site-main.rail-top > section.rail-mobile-bottom { order: 9999; }
   }
+  .site-main.rail-top { display: flex; flex-direction: column; }
+  .site-main.rail-top > section { min-width: 0; }
   .site-main h2.heading { font-size: var(--type-h2-font-size); line-height: var(--type-h2-line-height); font-weight: var(--type-h2-font-weight); }
   .site-main h3.heading { font-size: var(--type-h3-font-size); line-height: var(--type-h3-line-height); font-weight: var(--type-h3-font-weight); }
   .site-main h4.heading { font-size: var(--type-h4-font-size); line-height: var(--type-h4-line-height); font-weight: var(--type-h4-font-weight); }
@@ -555,7 +559,7 @@
 </style>
 <!-- stardust:prototype
   writtenBy:        stardust:reskin/stream-render
-  writtenAt:        2026-11-05T10:13:23.520Z
+  writtenAt:        2026-11-05T20:05:33.925Z
   page:             school-life-travel-to-school
   pageUrl:          https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school
   template:         learning-and-support-learning
@@ -602,14 +606,14 @@
       <div class="nav-actions"><a class="sr-only" href="../../index.html#main-nav" data-source-href="https://fortstreet-h.schools.nsw.gov.au/#main-nav">Skip to navigation</a><a class="sr-only" href="../../index.html#main" data-source-href="https://fortstreet-h.schools.nsw.gov.au/#main">Skip to content</a><button class="icon-btn" type="button"><span class="glyph glyph-search" aria-hidden="true">search</span></button><button class="sr-only" type="button"><span class="sr-only">Show</span></button><button class="sr-only" type="button"><span class="sr-only">Search</span></button><button class="icon-btn nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><span class="glyph glyph-menu" aria-hidden="true"></span></button></div>
     </div></div>
 </header>
-<main class="site-main has-rail rail-start" style="--rail-width: 400px" data-template="learning-and-support-learning">
-  <section class="band layout-stack width-wide inset in-band" style="--band-inset: 16px; grid-row: 1" data-slot="s01" data-module="M3" data-section="1">
+<main class="site-main rail-top" data-template="learning-and-support-learning">
+  <section class="band layout-stack width-wide inset" style="--band-inset: 16px; order: 1" data-slot="s01" data-module="M3" data-section="1">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <ul class="list list-inline"><li><a class="link" href="../../index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/">Home</a></li><li><a class="link" href="../../school-life/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life">School life</a></li><li><a class="link" aria-current="page">Travel to school</a></li></ul>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px; grid-row: 2" data-slot="s02" data-module="M5b" data-section="2">
+  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px; order: 3" data-slot="s02" data-module="M5b" data-section="2">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h1 class="heading">Travel to school</h1>
@@ -618,7 +622,7 @@
         <p class="lead">Our central location, and being situated close to Petersham Station and Parramatta Road, means that we are well served by public transport.</p>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 3" data-slot="s03" data-module="M5b" data-section="3">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; order: 4" data-slot="s03" data-module="M5b" data-section="3">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Location map</h2>
@@ -627,7 +631,7 @@
         <p class="aux">Use <a class="link" href="https://schoolfinder.education.nsw.gov.au/">School Finder</a> to confirm if you live in our local intake area.</p>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 4" data-slot="s04" data-module="M5b" data-section="4">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; order: 5" data-slot="s04" data-module="M5b" data-section="4">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Getting to and from school safely</h2>
@@ -643,26 +647,26 @@
         <ul class="list"><li>Free travel to and from home and school on approved metro, train, bus, ferry and light rail services during school term.</li><li>Discounted travel on buses between home and school with a <a class="link" href="https://apps.transport.nsw.gov.au/ssts/#/termBusPass">School Term Bus Pass <span class="sr-only">(opens in new window)</span></a> <a class="link" href="https://transportnsw.info/school-term-bus-pass">https://transportnsw.info/school-term-bus-pass <span class="sr-only">(opens in new window)</span></a></li><li>Subsidised Travel to and from school in private vehicles in areas where there is no public transport available</li><li>Students with a disability who are unable to travel to and from school under the School Student Transport Scheme may be eligible for assistance under the Department of Education Assisted School Travel Program. Find out more on the Department of Education website <a class="link" href="https://education.nsw.gov.au/public-schools/astp">https://education.nsw.gov.au/public-schools/astp</a></li></ul>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 5" data-slot="s05" data-module="M5b" data-section="5">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; order: 6" data-slot="s05" data-module="M5b" data-section="5">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h3 class="heading">What will my free school travel pass look like?</h3>
         <p class="lead">Depending on where they are travelling, students may receive a free school travel pass, School Opal card or both.</p>
       </div></div></div>
     </section>
-  <section class="band layout-split width-wide tone-light heading-h3 inset bleed media-first" style="--band-inset: 16px; grid-row: 6" data-slot="s06" data-module="M6" data-section="6">
+  <section class="band layout-split width-wide tone-light heading-h3 inset bleed media-first" style="--band-inset: 16px; order: 7" data-slot="s06" data-module="M6" data-section="6">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <p class="lead">Free school travel passes and School Term Bus Passes are issued by operators to students travelling on buses outside the Opal network. Some operators in rural and regional areas may choose not to issue passes to students.</p>
       </div><img class="split-img" src="../../assets/img/fortstreet-h.schools.nsw.gov.au/school-life/media_114d8d396fd3c9a2583c3c42bb095078ae6fca916-3d5a5588.png" data-source-src="https://fortstreet-h.schools.nsw.gov.au/school-life/media_114d8d396fd3c9a2583c3c42bb095078ae6fca916.png?width=2000&amp;format=webply&amp;optimize=medium" alt=""></div></div>
     </section>
-  <section class="band layout-split width-wide tone-light heading-h3 inset bleed media-first" style="--band-inset: 16px; grid-row: 7" data-slot="s07" data-module="M6" data-section="7">
+  <section class="band layout-split width-wide tone-light heading-h3 inset bleed media-first" style="--band-inset: 16px; order: 8" data-slot="s07" data-module="M6" data-section="7">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <p class="lead">School Opal cards are issued for free school travel and for School Term Bus Passes by Transport for NSW for travel on metro, train, bus, ferry and light rail trips in the Opal network.</p>
       </div><img class="split-img" src="../../assets/img/fortstreet-h.schools.nsw.gov.au/school-life/media_114fbf8f775c6dee8eef8a74172c529d380cb188b-3d5a5588.png" data-source-src="https://fortstreet-h.schools.nsw.gov.au/school-life/media_114fbf8f775c6dee8eef8a74172c529d380cb188b.png?width=2000&amp;format=webply&amp;optimize=medium" alt=""></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 8" data-slot="s08" data-section="8">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; order: 9" data-slot="s08" data-section="8">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <p class="lead">Secondary school students from Years 7-12 are eligible if:</p>
@@ -687,7 +691,7 @@
         <p class="aux">Lost Property <a class="link" href="https://transportnsw.info/contact-us/lost-property#/">https://transportnsw.info/contact-us/lost-property#/ <span class="sr-only">(opens in new window)</span></a></p>
       </div></div></div>
     </section>
-  <section class="band layout-media-band width-wide tone-dark heading-h2" style="grid-row: 9" data-slot="s09" data-module="M9" data-section="9">
+  <section class="band layout-media-band width-wide tone-dark heading-h2" style="order: 10" data-slot="s09" data-module="M9" data-section="9">
       <img class="band-img" src="../../assets/img/fortstreet-h.schools.nsw.gov.au/school-life/media_15124adb48c3d4ede901a753e834e4da10759318a-3d5a5588.jpg" data-source-src="https://fortstreet-h.schools.nsw.gov.au/school-life/media_15124adb48c3d4ede901a753e834e4da10759318a.jpg?width=2000&amp;format=webply&amp;optimize=medium" alt="students">
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h3 class="heading">Apply for a travel pass</h3>
@@ -695,7 +699,7 @@
         <div class="actions"><a class="btn" href="https://www.service.nsw.gov.au/transaction/apply-for-a-school-travel-pass">Travel pass (opens in new window)</a></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 10" data-slot="s10" data-module="M5b" data-section="10">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; order: 11" data-slot="s10" data-module="M5b" data-section="10">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Driving and parking</h2>
@@ -706,7 +710,7 @@
         <p class="lead">There is no parking available on school grounds.</p>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px; grid-row: 11" data-slot="s11" data-module="M9b" data-section="11">
+  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px; order: 12" data-slot="s11" data-module="M9b" data-section="11">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Need help getting to school?</h2>
@@ -714,7 +718,7 @@
         <div class="actions"><a class="btn" href="../../contact-us/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/contact-us">Contact us</a></div>
       </div></div></div>
     </section>
-  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 12" data-slot="s12" data-module="M11b" data-section="12">
+  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px; order: 13" data-slot="s12" data-module="M11b" data-section="12">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <div class="cards" style="--cards-columns: 2"><div class="card"><p class="aux"><a class="link" href="../../school-life/bell-times/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/bell-times">Bell times</a></p>
@@ -724,10 +728,10 @@
         <span class="glyph glyph-right" aria-hidden="true">east</span></div></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h4 inset in-rail rail-mobile-hidden" style="--band-inset: 16px; grid-row: 2 / 13" data-slot="s13" data-module="M3" data-section="13">
+  <section class="band layout-stack width-wide heading-h4 inset in-top rail-mobile-hidden" style="--band-inset: 16px; order: 2" data-slot="s13" data-module="M3" data-section="13">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
-          <h2 class="heading">Section navigation</h2>
+          <h2 class="heading sr-only">Section navigation</h2>
         <p class="aux"><a class="link" href="../../school-life/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life">School life</a></p>
         <ul class="list"><li><a class="link" href="../../school-life/bell-times/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/bell-times">Bell times</a></li><li><a class="link" href="../../school-life/bring-your-own-device/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/bring-your-own-device">Bring your own device</a></li><li><a class="link" href="../../school-life/canteen/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/canteen">Canteen</a></li><li><a class="link" href="../../school-life/events/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/events">Events</a></li><li><a class="link" href="../../school-life/forms/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/forms">Forms</a></li><li><a class="link" href="../../school-life/house-and-merit-system/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/house-and-merit-system">House and Merit System</a></li><li><a class="link" href="../../school-life/lockers-and-lost-property/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/lockers-and-lost-property">Lockers and lost property</a></li><li><a class="link" href="../../school-life/newsletters/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters">Newsletters</a></li><li><a class="link" href="../../school-life/parent-portal/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal">Parent portal</a></li><li><a class="link" href="../../school-life/stationery/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/stationery">Stationery</a></li><li><a class="link" href="../../school-life/student-opportunities-and-activities/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities">Student opportunities and activities</a></li><li><a class="link" href="../../school-life/travel-to-school/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school">Travel to school</a></li><li><a class="link" href="../../school-life/uniform/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/uniform">Uniform</a></li></ul>
       </div></div></div>

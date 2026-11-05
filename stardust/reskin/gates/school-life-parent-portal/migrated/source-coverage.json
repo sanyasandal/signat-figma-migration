@@ -13,16 +13,16 @@
       "check": "S3",
       "slot": "s04",
       "source": "tinted",
-      "target": "page",
-      "verdict": "WARN",
+      "target": "tinted",
+      "verdict": "carried",
       "probe": "Sentral"
     },
     {
       "check": "S3",
       "slot": "s06",
       "source": "tinted",
-      "target": "page",
-      "verdict": "WARN",
+      "target": "tinted",
+      "verdict": "carried",
       "probe": "School Bytes"
     },
     {
@@ -37,8 +37,9 @@
       "check": "S4",
       "key": "s10",
       "source": "rail-start",
-      "target": "rail-start",
-      "verdict": "carried",
+      "target": "top",
+      "verdict": "declared",
+      "why": "the Kay donor has no side column (M3 is a tab row): the source's section sidebar is carried as a band above the content, after the breadcrumb (owner's call, 2026-11-06)",
       "sample": "Section navigation | School life | Bell times"
     }
   ]

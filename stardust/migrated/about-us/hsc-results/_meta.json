@@ -35,11 +35,11 @@
     "description": "Fort Street’s outstanding reputation for academic excellence is reflected in the consistently high results that students achieve in the Higher School Certificate.",
     "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/hsc-results"
   },
-  "migratedAt": "2026-11-05T10:28:29Z",
+  "migratedAt": "2026-11-05T20:22:12Z",
   "designMdSha": "187c3f2f159f",
   "designJsonSha": "2d96d5b1c55f",
   "sourceCurrentSha": "a2a3108b168f",
-  "sourceProposedSha": "ccd7237f94d5",
+  "sourceProposedSha": "188e5150dd62",
   "fidelityTier": "archetype",
   "archetypeSource": null,
   "archetypeSha": null,

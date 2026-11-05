@@ -2,7 +2,7 @@
 
 - Model: stardust/reskin/content-model/school-life-student-opportunities-and-activities-academic-competitions/content-model.json
 - Rendered: stardust/migrated/school-life/student-opportunities-and-activities/academic-competitions/index.html (scope: `main`)
-- Generated: 2026-11-05T10:32:08.697Z
+- Generated: 2026-11-05T20:26:59.104Z
 
 ## slot-coverage — 36/37 pass
 

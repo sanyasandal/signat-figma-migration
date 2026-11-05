@@ -3,7 +3,7 @@
 <head>
 <!-- stardust:migrate
   writtenBy:        stardust:migrate
-  writtenAt:        2026-11-05T10:28:30Z
+  writtenAt:        2026-11-05T20:22:13Z
   page:             The Fort Street Foundation
   slug:             our-community-foundation
   pagePath:         migrated/our-community/foundation/index.html
@@ -389,7 +389,11 @@
     .site-main.has-rail.rail-reorder > section.rail-mobile-top { order: -1; }
     .site-main.has-rail.rail-reorder > section.rail-mobile-bottom { order: 1; }
     .site-main.has-rail > section.rail-mobile-hidden { display: none; }
+    .site-main.rail-top > section.rail-mobile-hidden { display: none; }
+    .site-main.rail-top > section.rail-mobile-bottom { order: 9999; }
   }
+  .site-main.rail-top { display: flex; flex-direction: column; }
+  .site-main.rail-top > section { min-width: 0; }
   .site-main h2.heading { font-size: var(--type-h2-font-size); line-height: var(--type-h2-line-height); font-weight: var(--type-h2-font-weight); }
   .site-main h3.heading { font-size: var(--type-h3-font-size); line-height: var(--type-h3-line-height); font-weight: var(--type-h3-font-weight); }
   .site-main h4.heading { font-size: var(--type-h4-font-size); line-height: var(--type-h4-line-height); font-weight: var(--type-h4-font-weight); }
@@ -555,7 +559,7 @@
 </style>
 <!-- stardust:prototype
   writtenBy:        stardust:reskin/stream-render
-  writtenAt:        2026-11-05T10:12:13.948Z
+  writtenAt:        2026-11-05T20:04:22.722Z
   page:             our-community-foundation
   pageUrl:          https://fortstreet-h.schools.nsw.gov.au/our-community/foundation
   template:         learning-and-support-learning
@@ -602,14 +606,14 @@
       <div class="nav-actions"><a class="sr-only" href="../../index.html#main-nav" data-source-href="https://fortstreet-h.schools.nsw.gov.au/#main-nav">Skip to navigation</a><a class="sr-only" href="../../index.html#main" data-source-href="https://fortstreet-h.schools.nsw.gov.au/#main">Skip to content</a><button class="icon-btn" type="button"><span class="glyph glyph-search" aria-hidden="true">search</span></button><button class="sr-only" type="button"><span class="sr-only">Show</span></button><button class="sr-only" type="button"><span class="sr-only">Search</span></button><button class="icon-btn nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><span class="glyph glyph-menu" aria-hidden="true"></span></button></div>
     </div></div>
 </header>
-<main class="site-main has-rail rail-start" style="--rail-width: 400px" data-template="learning-and-support-learning">
-  <section class="band layout-stack width-wide inset in-band" style="--band-inset: 16px; grid-row: 1" data-slot="s01" data-module="M3" data-section="1">
+<main class="site-main rail-top" data-template="learning-and-support-learning">
+  <section class="band layout-stack width-wide inset" style="--band-inset: 16px; order: 1" data-slot="s01" data-module="M3" data-section="1">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <ul class="list list-inline"><li><a class="link" href="../../index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/">Home</a></li><li><a class="link" href="../../our-community/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/our-community">Our community</a></li><li><a class="link" aria-current="page">The Fort Street Foundation</a></li></ul>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px; grid-row: 2" data-slot="s02" data-module="M5b" data-section="2">
+  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px; order: 3" data-slot="s02" data-module="M5b" data-section="2">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h1 class="heading">The Fort Street Foundation</h1>
@@ -644,13 +648,13 @@
         <p class="aux">Online payments can be accessed <a class="link" href="https://portal.schoolbytes.education/other-payment/1657">here <span class="sr-only">(opens in new window)</span></a></p>
       </div></div></div>
     </section>
-  <section class="band layout-split width-wide tone-light heading-h3 inset bleed media-first" style="--band-inset: 16px; grid-row: 3" data-slot="s03" data-module="M6" data-section="3">
+  <section class="band layout-split width-wide tone-light heading-h3 inset bleed media-first" style="--band-inset: 16px; order: 4" data-slot="s03" data-module="M6" data-section="3">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <p class="lead">Many Australian companies offer a matching gifts program, where any donation made to an Australian based registered charity is matched by the employer. The Fort Street Foundation is an eligible registered charity and we encourage donors to ask their employer about registering their gifts via this program. Matching gifts is a simple and easy way to double the impact.</p>
       </div><img class="split-img" src="../../assets/img/fortstreet-h.schools.nsw.gov.au/our-community/media_1ad593501f4b5a0c864032550623888cff9b2510c-3d5a5588.jpg" data-source-src="https://fortstreet-h.schools.nsw.gov.au/our-community/media_1ad593501f4b5a0c864032550623888cff9b2510c.jpg?width=2000&amp;format=webply&amp;optimize=medium" alt=""></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 4" data-slot="s04" data-section="4">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; order: 5" data-slot="s04" data-section="4">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <div class="table-wrap"><table class="table"><tbody><tr><th><p class="lead">Foundation Directors</p></th><th></th></tr><tr><td><p class="lead">Mr Colin Long</p></td><td><p class="lead">President</p></td></tr><tr><td><p class="lead">Mr Mark Lindsay</p></td><td><p class="lead">Public Officer and Director</p></td></tr><tr><td><p class="lead">Ms Juliette McMurray</p></td><td><p class="lead">Principal</p></td></tr><tr><td><p class="lead">Ms David Sherwin</p></td><td><p class="lead">Staff Director</p></td></tr><tr><td><p class="lead">Ms Kylie Salisbury</p></td><td><p class="lead">Staff Director</p></td></tr><tr><td><p class="lead">Mr Don Newby</p></td><td><p class="lead">Fortians Union Director</p></td></tr><tr><td><p class="lead">Ms Caroline Aow</p></td><td><p class="lead">P&amp;C Director</p></td></tr><tr><td><p class="lead">Ms Karen Charles</p></td><td><p class="lead">Further Director</p></td></tr><tr><td><p class="lead">Mr Iain Wallace</p></td><td><p class="lead">Executive Officer</p></td></tr></tbody></table></div>
@@ -658,7 +662,7 @@
         <p class="aux">Minutes are available by request from <a class="link" href="http://iain.wallace@det.nsw.edu.au/">iain.wallace@det.nsw.edu.au <span class="sr-only">(opens in new window)</span></a></p>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px; grid-row: 5" data-slot="s05" data-module="M9b" data-section="5">
+  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px; order: 6" data-slot="s05" data-module="M9b" data-section="5">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Reunions</h2>
@@ -666,7 +670,7 @@
         <p class="aux">Contact: Mr Iain Wallace Executive Officer Email: <a class="link" href="http://iain.wallace@det.nsw.edu.au/">iain.wallace@det.nsw.edu.au <span class="sr-only">(opens in new window)</span></a></p>
       </div></div></div>
     </section>
-  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 6" data-slot="s06" data-module="M11b" data-section="6">
+  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px; order: 7" data-slot="s06" data-module="M11b" data-section="6">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <div class="cards" style="--cards-columns: 2"><div class="card"><p class="aux"><a class="link" href="../../school-life/newsletters/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters">Newsletters</a></p>
@@ -676,10 +680,10 @@
         <span class="glyph glyph-right" aria-hidden="true">east</span></div></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h4 inset in-rail rail-mobile-hidden" style="--band-inset: 16px; grid-row: 2 / 7" data-slot="s07" data-module="M3" data-section="7">
+  <section class="band layout-stack width-wide heading-h4 inset in-top rail-mobile-hidden" style="--band-inset: 16px; order: 2" data-slot="s07" data-module="M3" data-section="7">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
-          <h2 class="heading">Section navigation</h2>
+          <h2 class="heading sr-only">Section navigation</h2>
         <p class="aux"><a class="link" href="../../our-community/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/our-community">Our community</a></p>
         <ul class="list"><li><a class="link" href="../../our-community/alumni/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/our-community/alumni">Alumni</a></li><li><a class="link" href="../../our-community/fortians-union/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/our-community/fortians-union">The Fortians Union</a></li><li><a class="link" href="../../our-community/foundation/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/our-community/foundation">The Fort Street Foundation</a></li><li><a class="link" href="../../our-community/foundation-tertiary-bursaries/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/our-community/foundation-tertiary-bursaries">Foundation Tertiary Bursaries</a></li><li><a class="link" href="../../our-community/pandc/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/our-community/pandc">Parents and Citizens Association</a></li></ul>
       </div></div></div>

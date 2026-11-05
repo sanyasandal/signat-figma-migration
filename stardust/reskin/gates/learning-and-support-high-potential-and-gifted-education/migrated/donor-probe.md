@@ -3,7 +3,7 @@
 - Tokens: stardust/reskin/donor-tokens.json
 - Rendered: stardust/migrated/learning-and-support/high-potential-and-gifted-education/index.html
 - Spec: default (rendered-page conventions)
-- Generated: 2026-11-05T10:30:28.141Z
+- Generated: 2026-11-05T20:24:49.373Z
 
 ## Assertions — 12/14 pass (1 skipped)
 

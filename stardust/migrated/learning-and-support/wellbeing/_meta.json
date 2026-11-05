@@ -40,11 +40,11 @@
     "description": "At Fort Street High School, student wellbeing and learning support go hand in hand. We want every student to feel safe, included and ready to learn.",
     "url": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/wellbeing"
   },
-  "migratedAt": "2026-11-05T10:28:30Z",
+  "migratedAt": "2026-11-05T20:22:13Z",
   "designMdSha": "187c3f2f159f",
   "designJsonSha": "2d96d5b1c55f",
   "sourceCurrentSha": "ce0c1a83d6b4",
-  "sourceProposedSha": "0feaae588dcc",
+  "sourceProposedSha": "44a4d09683a9",
   "fidelityTier": "archetype",
   "archetypeSource": null,
   "archetypeSha": null,

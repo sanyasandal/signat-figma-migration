@@ -39,11 +39,11 @@
     "description": "Students at Fort Street High School are able to bring their own computing device to school. This allows for richer learning experiences across all subjects. It also enables teaching staff use technology to immerse students in real world examples on a daily basis.",
     "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/bring-your-own-device"
   },
-  "migratedAt": "2026-11-05T10:28:30Z",
+  "migratedAt": "2026-11-05T20:22:13Z",
   "designMdSha": "187c3f2f159f",
   "designJsonSha": "2d96d5b1c55f",
   "sourceCurrentSha": "f7496fa47283",
-  "sourceProposedSha": "8ce060315654",
+  "sourceProposedSha": "3cc6ce6ffab5",
   "fidelityTier": "archetype",
   "archetypeSource": null,
   "archetypeSha": null,

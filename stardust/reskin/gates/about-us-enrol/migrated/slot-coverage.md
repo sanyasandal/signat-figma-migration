@@ -2,7 +2,7 @@
 
 - Model: stardust/reskin/content-model/about-us-enrol/content-model.json
 - Rendered: stardust/migrated/about-us/enrol/index.html (scope: `main`)
-- Generated: 2026-11-05T10:28:53.052Z
+- Generated: 2026-11-05T20:22:52.543Z
 
 ## slot-coverage — 35/36 pass
 

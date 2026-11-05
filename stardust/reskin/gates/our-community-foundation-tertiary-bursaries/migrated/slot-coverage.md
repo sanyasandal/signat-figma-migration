@@ -2,7 +2,7 @@
 
 - Model: stardust/reskin/content-model/our-community-foundation-tertiary-bursaries/content-model.json
 - Rendered: stardust/migrated/our-community/foundation-tertiary-bursaries/index.html (scope: `main`)
-- Generated: 2026-11-05T10:30:47.210Z
+- Generated: 2026-11-05T20:25:17.097Z
 
 ## slot-coverage — 23/24 pass
 

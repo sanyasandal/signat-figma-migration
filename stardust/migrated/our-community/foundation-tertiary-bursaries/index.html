@@ -3,7 +3,7 @@
 <head>
 <!-- stardust:migrate
   writtenBy:        stardust:migrate
-  writtenAt:        2026-11-05T10:28:30Z
+  writtenAt:        2026-11-05T20:22:13Z
   page:             Foundation Tertiary Bursaries
   slug:             our-community-foundation-tertiary-bursaries
   pagePath:         migrated/our-community/foundation-tertiary-bursaries/index.html
@@ -389,7 +389,11 @@
     .site-main.has-rail.rail-reorder > section.rail-mobile-top { order: -1; }
     .site-main.has-rail.rail-reorder > section.rail-mobile-bottom { order: 1; }
     .site-main.has-rail > section.rail-mobile-hidden { display: none; }
+    .site-main.rail-top > section.rail-mobile-hidden { display: none; }
+    .site-main.rail-top > section.rail-mobile-bottom { order: 9999; }
   }
+  .site-main.rail-top { display: flex; flex-direction: column; }
+  .site-main.rail-top > section { min-width: 0; }
   .site-main h2.heading { font-size: var(--type-h2-font-size); line-height: var(--type-h2-line-height); font-weight: var(--type-h2-font-weight); }
   .site-main h3.heading { font-size: var(--type-h3-font-size); line-height: var(--type-h3-line-height); font-weight: var(--type-h3-font-weight); }
   .site-main h4.heading { font-size: var(--type-h4-font-size); line-height: var(--type-h4-line-height); font-weight: var(--type-h4-font-weight); }
@@ -555,7 +559,7 @@
 </style>
 <!-- stardust:prototype
   writtenBy:        stardust:reskin/stream-render
-  writtenAt:        2026-11-05T10:12:14.923Z
+  writtenAt:        2026-11-05T20:04:22.981Z
   page:             our-community-foundation-tertiary-bursaries
   pageUrl:          https://fortstreet-h.schools.nsw.gov.au/our-community/foundation-tertiary-bursaries
   template:         learning-and-support-learning
@@ -602,14 +606,14 @@
       <div class="nav-actions"><a class="sr-only" href="../../index.html#main-nav" data-source-href="https://fortstreet-h.schools.nsw.gov.au/#main-nav">Skip to navigation</a><a class="sr-only" href="../../index.html#main" data-source-href="https://fortstreet-h.schools.nsw.gov.au/#main">Skip to content</a><button class="icon-btn" type="button"><span class="glyph glyph-search" aria-hidden="true">search</span></button><button class="sr-only" type="button"><span class="sr-only">Show</span></button><button class="sr-only" type="button"><span class="sr-only">Search</span></button><button class="icon-btn nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><span class="glyph glyph-menu" aria-hidden="true"></span></button></div>
     </div></div>
 </header>
-<main class="site-main has-rail rail-start" style="--rail-width: 400px" data-template="learning-and-support-learning">
-  <section class="band layout-stack width-wide inset in-band" style="--band-inset: 16px; grid-row: 1" data-slot="s01" data-module="M3" data-section="1">
+<main class="site-main rail-top" data-template="learning-and-support-learning">
+  <section class="band layout-stack width-wide inset" style="--band-inset: 16px; order: 1" data-slot="s01" data-module="M3" data-section="1">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <ul class="list list-inline"><li><a class="link" href="../../index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/">Home</a></li><li><a class="link" href="../../our-community/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/our-community">Our community</a></li><li><a class="link" aria-current="page">Foundation Tertiary Bursaries</a></li></ul>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px; grid-row: 2" data-slot="s02" data-module="M5b" data-section="2">
+  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px; order: 3" data-slot="s02" data-module="M5b" data-section="2">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h1 class="heading">Fort Street Foundation Tertiary Bursary Application</h1>
@@ -619,7 +623,7 @@
         <p class="lead">Each bursary offered consists of an annual payment of up to $3,000 provided at the commencement of each academic year, up to a maximum of 3 years. For students relocating from Sydney, an additional one-off payment of up to $2,000 may be provided to assist with initial relocation expenses. The value of the bursary offered to successful students will be based on their personal circumstances and choice of post-school education.</p>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 3" data-slot="s03" data-module="M5b" data-section="3">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; order: 4" data-slot="s03" data-module="M5b" data-section="3">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h3 class="heading">How to Apply</h3>
@@ -637,7 +641,7 @@
         <p class="lead">Applications need to be submitted by October 12, 2026.</p>
       </div></div></div>
     </section>
-  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 4" data-slot="s04" data-module="M11b" data-section="4">
+  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px; order: 5" data-slot="s04" data-module="M11b" data-section="4">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <div class="cards" style="--cards-columns: 2"><div class="card"><p class="aux"><a class="link" href="../../school-life/newsletters/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters">Newsletters</a></p>
@@ -647,10 +651,10 @@
         <span class="glyph glyph-right" aria-hidden="true">east</span></div></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h4 inset in-rail rail-mobile-hidden" style="--band-inset: 16px; grid-row: 2 / 5" data-slot="s05" data-module="M3" data-section="5">
+  <section class="band layout-stack width-wide heading-h4 inset in-top rail-mobile-hidden" style="--band-inset: 16px; order: 2" data-slot="s05" data-module="M3" data-section="5">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
-          <h2 class="heading">Section navigation</h2>
+          <h2 class="heading sr-only">Section navigation</h2>
         <p class="aux"><a class="link" href="../../our-community/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/our-community">Our community</a></p>
         <ul class="list"><li><a class="link" href="../../our-community/alumni/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/our-community/alumni">Alumni</a></li><li><a class="link" href="../../our-community/fortians-union/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/our-community/fortians-union">The Fortians Union</a></li><li><a class="link" href="../../our-community/foundation/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/our-community/foundation">The Fort Street Foundation</a></li><li><a class="link" href="../../our-community/foundation-tertiary-bursaries/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/our-community/foundation-tertiary-bursaries">Foundation Tertiary Bursaries</a></li><li><a class="link" href="../../our-community/pandc/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/our-community/pandc">Parents and Citizens Association</a></li></ul>
       </div></div></div>

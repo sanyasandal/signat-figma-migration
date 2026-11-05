@@ -2,7 +2,7 @@
 
 - Model: stardust/reskin/content-model/about-us-facilities-and-resources/content-model.json
 - Rendered: stardust/migrated/about-us/facilities-and-resources/index.html (scope: `main`)
-- Generated: 2026-11-05T10:29:14.729Z
+- Generated: 2026-11-05T20:22:53.278Z
 
 ## slot-coverage — 25/26 pass
 

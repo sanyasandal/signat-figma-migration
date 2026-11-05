@@ -38,11 +38,11 @@
     "description": "At Fort Street High School, our uniforms make students feel included in our school community. Learn about our uniform and where to buy it.",
     "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform"
   },
-  "migratedAt": "2026-11-05T10:28:30Z",
+  "migratedAt": "2026-11-05T20:22:13Z",
   "designMdSha": "187c3f2f159f",
   "designJsonSha": "2d96d5b1c55f",
   "sourceCurrentSha": "cc47343cdfe1",
-  "sourceProposedSha": "fd7805a5bf4a",
+  "sourceProposedSha": "fa90ab0baeeb",
   "fidelityTier": "archetype",
   "archetypeSource": null,
   "archetypeSha": null,

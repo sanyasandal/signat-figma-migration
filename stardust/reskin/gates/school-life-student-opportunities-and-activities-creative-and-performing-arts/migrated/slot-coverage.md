@@ -2,7 +2,7 @@
 
 - Model: stardust/reskin/content-model/school-life-student-opportunities-and-activities-creative-and-performing-arts/content-model.json
 - Rendered: stardust/migrated/school-life/student-opportunities-and-activities/creative-and-performing-arts/index.html (scope: `main`)
-- Generated: 2026-11-05T10:32:11.426Z
+- Generated: 2026-11-05T20:27:08.170Z
 
 ## slot-coverage — 36/37 pass
 

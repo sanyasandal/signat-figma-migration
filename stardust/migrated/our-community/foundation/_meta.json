@@ -39,11 +39,11 @@
     "description": "The Fort Street Foundation was formed in 1998 as the brainchild of a group of 1949 Fortians who were returning to the School for their 50th year anniversary.",
     "url": "https://fortstreet-h.schools.nsw.gov.au/our-community/foundation"
   },
-  "migratedAt": "2026-11-05T10:28:30Z",
+  "migratedAt": "2026-11-05T20:22:13Z",
   "designMdSha": "187c3f2f159f",
   "designJsonSha": "2d96d5b1c55f",
   "sourceCurrentSha": "7958dd0ce920",
-  "sourceProposedSha": "9550f48601a5",
+  "sourceProposedSha": "e658bed0124b",
   "fidelityTier": "archetype",
   "archetypeSource": null,
   "archetypeSha": null,

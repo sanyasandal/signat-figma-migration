@@ -2,7 +2,7 @@
 
 - Model: stardust/reskin/content-model/school-life-lockers-and-lost-property/content-model.json
 - Rendered: stardust/migrated/school-life/lockers-and-lost-property/index.html (scope: `main`)
-- Generated: 2026-11-05T10:31:49.512Z
+- Generated: 2026-11-05T20:26:36.163Z
 
 ## slot-coverage — 26/27 pass
 

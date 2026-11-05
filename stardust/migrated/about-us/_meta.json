@@ -32,11 +32,11 @@
     "description": "Learn more about Fort Street High School.",
     "url": "https://fortstreet-h.schools.nsw.gov.au/about-us"
   },
-  "migratedAt": "2026-11-05T10:28:29Z",
+  "migratedAt": "2026-11-05T20:22:13Z",
   "designMdSha": "187c3f2f159f",
   "designJsonSha": "2d96d5b1c55f",
   "sourceCurrentSha": "83893e2a58e5",
-  "sourceProposedSha": "0ca2c9c8b1db",
+  "sourceProposedSha": "d3a0b72019bf",
   "fidelityTier": "archetype",
   "archetypeSource": null,
   "archetypeSha": null,

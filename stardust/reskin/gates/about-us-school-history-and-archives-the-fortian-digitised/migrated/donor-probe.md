@@ -3,7 +3,7 @@
 - Tokens: stardust/reskin/donor-tokens.json
 - Rendered: stardust/migrated/about-us/school-history-and-archives/the-fortian-digitised/index.html
 - Spec: default (rendered-page conventions)
-- Generated: 2026-11-05T10:29:41.878Z
+- Generated: 2026-11-05T20:23:40.901Z
 
 ## Assertions — 12/14 pass (1 skipped)
 

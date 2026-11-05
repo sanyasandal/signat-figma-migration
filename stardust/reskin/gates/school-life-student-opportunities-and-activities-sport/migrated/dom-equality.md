@@ -2,7 +2,7 @@
 
 - Source: https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/sport (scopes: `nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!`, normalize: `/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/school-life-student-opportunities-and-activities-sport.mjs`)
 - Rendered: stardust/migrated/school-life/student-opportunities-and-activities/sport/index.html (scope: `main`)
-- Generated: 2026-11-05T10:32:29.410Z
+- Generated: 2026-11-05T20:27:49.712Z
 
 ## Primary checks (gating)
 

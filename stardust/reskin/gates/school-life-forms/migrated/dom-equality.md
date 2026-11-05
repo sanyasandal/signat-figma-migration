@@ -2,7 +2,7 @@
 
 - Source: https://fortstreet-h.schools.nsw.gov.au/school-life/forms (scopes: `nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!`, normalize: `/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/school-life-forms.mjs`)
 - Rendered: stardust/migrated/school-life/forms/index.html (scope: `main`)
-- Generated: 2026-11-05T10:31:25.854Z
+- Generated: 2026-11-05T20:26:11.415Z
 
 ## Primary checks (gating)
 

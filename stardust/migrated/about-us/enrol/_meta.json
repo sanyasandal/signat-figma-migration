@@ -42,11 +42,11 @@
     "description": "At Fort Street High School, we welcome enrolments throughout the school year. Enrol today or talk to us to find out how your family can join our school community.",
     "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/enrol"
   },
-  "migratedAt": "2026-11-05T10:28:29Z",
+  "migratedAt": "2026-11-05T20:22:12Z",
   "designMdSha": "187c3f2f159f",
   "designJsonSha": "2d96d5b1c55f",
   "sourceCurrentSha": "b2f19cc0801c",
-  "sourceProposedSha": "3f3e850e7056",
+  "sourceProposedSha": "8375267b6706",
   "fidelityTier": "archetype",
   "archetypeSource": null,
   "archetypeSha": null,

@@ -3,7 +3,7 @@
 - Tokens: stardust/reskin/donor-tokens.json
 - Rendered: stardust/migrated/school-life/bell-times/index.html
 - Spec: default (rendered-page conventions)
-- Generated: 2026-11-05T10:31:12.149Z
+- Generated: 2026-11-05T20:25:56.773Z
 
 ## Assertions — 9/9 pass (6 skipped)
 

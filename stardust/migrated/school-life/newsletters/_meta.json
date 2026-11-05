@@ -41,11 +41,11 @@
     "description": "At Fort Street High School, our school newsletter helps you stay connected with our school community. We use them to share our latest events, achievements and important updates.",
     "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters"
   },
-  "migratedAt": "2026-11-05T10:28:30Z",
+  "migratedAt": "2026-11-05T20:22:13Z",
   "designMdSha": "187c3f2f159f",
   "designJsonSha": "2d96d5b1c55f",
   "sourceCurrentSha": "58e32526c2cd",
-  "sourceProposedSha": "7f9c880a3703",
+  "sourceProposedSha": "7e20ddcd0518",
   "fidelityTier": "archetype",
   "archetypeSource": null,
   "archetypeSha": null,

@@ -2,7 +2,7 @@
 
 - Source: https://fortstreet-h.schools.nsw.gov.au/school-life/uniform (scopes: `nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!`, normalize: `/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/school-life-uniform.mjs`)
 - Rendered: stardust/migrated/school-life/uniform/index.html (scope: `main`)
-- Generated: 2026-11-05T10:33:12.024Z
+- Generated: 2026-11-05T20:30:37.787Z
 
 ## Primary checks (gating)
 
@@ -16,7 +16,7 @@
 
 ## Informational (non-gating — a reskin re-structures markup by design)
 
-- Element count: source=228 rendered=134 (delta -94)
+- Element count: source=225 rendered=134 (delta -91)
 - Tag+class sequence: diverges at position 0 of 134
 
 ## Declared deltas

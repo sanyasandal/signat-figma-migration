@@ -38,11 +38,11 @@
     "description": "At Fort Street High School, our school day is structured around a clear timetable. We have set times for learning sessions, activities and lunch. Learn more about our bell times.",
     "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/bell-times"
   },
-  "migratedAt": "2026-11-05T10:28:30Z",
+  "migratedAt": "2026-11-05T20:22:13Z",
   "designMdSha": "187c3f2f159f",
   "designJsonSha": "2d96d5b1c55f",
   "sourceCurrentSha": "5b499d5dc670",
-  "sourceProposedSha": "93ccc8d30b5b",
+  "sourceProposedSha": "4ac02c4dcdea",
   "fidelityTier": "archetype",
   "archetypeSource": null,
   "archetypeSha": null,

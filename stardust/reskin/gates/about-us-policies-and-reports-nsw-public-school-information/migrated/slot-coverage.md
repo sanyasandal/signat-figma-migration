@@ -2,7 +2,7 @@
 
 - Model: stardust/reskin/content-model/about-us-policies-and-reports-nsw-public-school-information/content-model.json
 - Rendered: stardust/migrated/about-us/policies-and-reports/nsw-public-school-information/index.html (scope: `main`)
-- Generated: 2026-11-05T10:29:13.740Z
+- Generated: 2026-11-05T20:23:13.902Z
 
 ## slot-coverage — 26/27 pass
 

@@ -3,7 +3,7 @@
 <head>
 <!-- stardust:migrate
   writtenBy:        stardust:migrate
-  writtenAt:        2026-11-05T10:28:29Z
+  writtenAt:        2026-11-05T20:22:12Z
   page:             Enrol
   slug:             about-us-enrol
   pagePath:         migrated/about-us/enrol/index.html
@@ -389,7 +389,11 @@
     .site-main.has-rail.rail-reorder > section.rail-mobile-top { order: -1; }
     .site-main.has-rail.rail-reorder > section.rail-mobile-bottom { order: 1; }
     .site-main.has-rail > section.rail-mobile-hidden { display: none; }
+    .site-main.rail-top > section.rail-mobile-hidden { display: none; }
+    .site-main.rail-top > section.rail-mobile-bottom { order: 9999; }
   }
+  .site-main.rail-top { display: flex; flex-direction: column; }
+  .site-main.rail-top > section { min-width: 0; }
   .site-main h2.heading { font-size: var(--type-h2-font-size); line-height: var(--type-h2-line-height); font-weight: var(--type-h2-font-weight); }
   .site-main h3.heading { font-size: var(--type-h3-font-size); line-height: var(--type-h3-line-height); font-weight: var(--type-h3-font-weight); }
   .site-main h4.heading { font-size: var(--type-h4-font-size); line-height: var(--type-h4-line-height); font-weight: var(--type-h4-font-weight); }
@@ -555,7 +559,7 @@
 </style>
 <!-- stardust:prototype
   writtenBy:        stardust:reskin/stream-render
-  writtenAt:        2026-11-05T10:10:59.749Z
+  writtenAt:        2026-11-05T20:02:59.986Z
   page:             about-us-enrol
   pageUrl:          https://fortstreet-h.schools.nsw.gov.au/about-us/enrol
   template:         learning-and-support-learning
@@ -602,14 +606,14 @@
       <div class="nav-actions"><a class="sr-only" href="../../index.html#main-nav" data-source-href="https://fortstreet-h.schools.nsw.gov.au/#main-nav">Skip to navigation</a><a class="sr-only" href="../../index.html#main" data-source-href="https://fortstreet-h.schools.nsw.gov.au/#main">Skip to content</a><button class="icon-btn" type="button"><span class="glyph glyph-search" aria-hidden="true">search</span></button><button class="sr-only" type="button"><span class="sr-only">Show</span></button><button class="sr-only" type="button"><span class="sr-only">Search</span></button><button class="icon-btn nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><span class="glyph glyph-menu" aria-hidden="true"></span></button></div>
     </div></div>
 </header>
-<main class="site-main has-rail rail-start" style="--rail-width: 400px" data-template="learning-and-support-learning">
-  <section class="band layout-stack width-wide inset in-band" style="--band-inset: 16px; grid-row: 1" data-slot="s01" data-module="M3" data-section="1">
+<main class="site-main rail-top" data-template="learning-and-support-learning">
+  <section class="band layout-stack width-wide inset" style="--band-inset: 16px; order: 1" data-slot="s01" data-module="M3" data-section="1">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <ul class="list list-inline"><li><a class="link" href="../../index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/">Home</a></li><li><a class="link" href="../../about-us/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/about-us">About us</a></li><li><a class="link" aria-current="page">Enrol</a></li></ul>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px; grid-row: 2" data-slot="s02" data-module="M5b" data-section="2">
+  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px; order: 3" data-slot="s02" data-module="M5b" data-section="2">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h1 class="heading">Application and enrolment information</h1>
@@ -619,7 +623,7 @@
         <p class="lead">Learn more about the application and enrolment process for Fort Street High School:</p>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 3" data-slot="s03" data-section="3">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; order: 4" data-slot="s03" data-section="3">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <div class="disclosure"><button class="disclosure-toggle" type="button" aria-expanded="false" aria-controls="disclosure-1">Entry into Year 7 <span class="glyph glyph-down" aria-hidden="true">keyboard_arrow_down</span></button><div class="disclosure-panel" id="disclosure-1" hidden="until-found"><p class="lead">Entry into Year 7 is managed through the NSW Department of Education - Selective Education Team. All enquiries should be directed to this Unit.</p>
@@ -650,14 +654,14 @@
         <p class="aux">Further information about how to apply can be found <a class="link" href="https://education.nsw.gov.au/schooling/parents-and-carers/choosing-a-school-setting/selective-high-schools/application-process/selective-high-schools---years-8-to-12-applications#tabs_copy1">here</a>.</p></div></div>
       </div></div></div>
     </section>
-  <section class="band layout-split width-wide heading-h3 inset" style="--band-inset: 16px; grid-row: 4" data-slot="s04" data-module="M6b" data-section="4">
+  <section class="band layout-split width-wide heading-h3 inset" style="--band-inset: 16px; order: 5" data-slot="s04" data-module="M6b" data-section="4">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Visit us before you enrol</h2>
         <p class="lead">Starting a new school is a big step. We're here to help make the transition a smooth and positive experience for every student and their family.</p>
       </div><img class="split-img" src="../../assets/img/fortstreet-h.schools.nsw.gov.au/about-us/media_1041211bbbef9171abe5644d79d167331061a37ac-3d5a5588.jpg" data-source-src="https://fortstreet-h.schools.nsw.gov.au/about-us/media_1041211bbbef9171abe5644d79d167331061a37ac.jpg?width=2000&amp;format=webply&amp;optimize=medium" alt=""></div></div>
     </section>
-  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px; grid-row: 5" data-slot="s05" data-module="M9b" data-section="5">
+  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px; order: 6" data-slot="s05" data-module="M9b" data-section="5">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Open Days</h2>
@@ -675,7 +679,7 @@
         <p class="aux"><a class="link" href="https://www.trybooking.com/DPCLA">https://www.trybooking.com/DPCLA <span class="sr-only">(opens in new window)</span></a></p>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 6" data-slot="s06" data-module="M5b" data-section="6">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; order: 7" data-slot="s06" data-module="M5b" data-section="6">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Orientation Days</h2>
@@ -683,14 +687,14 @@
         <p class="lead">Year 7 orientation is held on the same day as all public high schools.</p>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 7" data-slot="s07" data-module="M5b" data-section="7">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; order: 8" data-slot="s07" data-module="M5b" data-section="7">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <p class="lead">To learn more about our school, please watch the virtual tour below.</p>
         <p class="aux"><a class="link" href="../../about-us/enrol/index.html#after-map" data-source-href="https://fortstreet-h.schools.nsw.gov.au/about-us/enrol#after-map">Skip Google Map</a></p>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px; grid-row: 8" data-slot="s08" data-module="M9b" data-section="8">
+  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px; order: 9" data-slot="s08" data-module="M9b" data-section="8">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Ready to apply?</h2>
@@ -698,7 +702,7 @@
         <div class="actions"><a class="btn" href="https://education.nsw.gov.au/schooling/parents-and-carers/choosing-a-school-setting/selective-high-schools">Selective high schools</a></div>
       </div></div></div>
     </section>
-  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 9" data-slot="s09" data-module="M11b" data-section="9">
+  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px; order: 10" data-slot="s09" data-module="M11b" data-section="9">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <div class="cards" style="--cards-columns: 2"><div class="card"><p class="aux"><a class="link" href="../../about-us/why-choose-us/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/about-us/why-choose-us">Why choose us?</a></p>
@@ -708,10 +712,10 @@
         <span class="glyph glyph-right" aria-hidden="true">east</span></div></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h4 inset in-rail rail-mobile-hidden" style="--band-inset: 16px; grid-row: 2 / 10" data-slot="s10" data-module="M3" data-section="10">
+  <section class="band layout-stack width-wide heading-h4 inset in-top rail-mobile-hidden" style="--band-inset: 16px; order: 2" data-slot="s10" data-module="M3" data-section="10">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
-          <h2 class="heading">Section navigation</h2>
+          <h2 class="heading sr-only">Section navigation</h2>
         <p class="aux"><a class="link" href="../../about-us/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/about-us">About us</a></p>
         <ul class="list"><li><a class="link" href="../../about-us/enrol/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/about-us/enrol">Enrol</a></li><li><a class="link" href="../../about-us/facilities-and-resources/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources">Facilities and resources</a></li><li><a class="link" href="../../about-us/hsc-results/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/about-us/hsc-results">HSC Results</a></li><li><a class="link" href="../../about-us/our-principal-and-staff/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff">Our principal and staff</a></li><li><a class="link" href="../../about-us/policies-and-reports/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports">Policies and reports</a></li><li><a class="link" href="../../about-us/school-history-and-archives/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives">School history and archives</a></li><li><a class="link" href="../../about-us/stories-and-highlights/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/about-us/stories-and-highlights">Stories and highlights</a></li><li><a class="link" href="../../about-us/transition-to-high-school/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/about-us/transition-to-high-school">Transition to high school</a></li><li><a class="link" href="../../about-us/why-choose-us/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/about-us/why-choose-us">Why choose us?</a></li></ul>
       </div></div></div>

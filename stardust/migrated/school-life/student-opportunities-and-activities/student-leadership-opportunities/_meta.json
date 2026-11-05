@@ -39,11 +39,11 @@
     "description": "Student leadership opportunities at Fort Street High School include our student representative council (SRC), peer support groups, Duke of Edinburgh leadership, and the careers adviser university programs.",
     "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/student-leadership-opportunities"
   },
-  "migratedAt": "2026-11-05T10:28:30Z",
+  "migratedAt": "2026-11-05T20:22:13Z",
   "designMdSha": "187c3f2f159f",
   "designJsonSha": "2d96d5b1c55f",
   "sourceCurrentSha": "4c4efdeed158",
-  "sourceProposedSha": "d5c374c900ca",
+  "sourceProposedSha": "4417ebdcfc05",
   "fidelityTier": "archetype",
   "archetypeSource": null,
   "archetypeSha": null,

@@ -2,7 +2,7 @@
 
 - Source: https://fortstreet-h.schools.nsw.gov.au/learning-and-support/wellbeing (scopes: `nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!`, normalize: `/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/learning-and-support-wellbeing.mjs`)
 - Rendered: stardust/migrated/learning-and-support/wellbeing/index.html (scope: `main`)
-- Generated: 2026-11-05T10:30:22.229Z
+- Generated: 2026-11-05T20:24:41.147Z
 
 ## Primary checks (gating)
 
@@ -16,7 +16,7 @@
 
 ## Informational (non-gating — a reskin re-structures markup by design)
 
-- Element count: source=503 rendered=401 (delta -102)
+- Element count: source=506 rendered=401 (delta -105)
 - Tag+class sequence: diverges at position 0 of 401
 
 ## Declared deltas

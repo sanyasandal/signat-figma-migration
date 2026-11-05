@@ -3,7 +3,7 @@
 - Tokens: stardust/reskin/donor-tokens.json
 - Rendered: stardust/migrated/about-us/policies-and-reports/nsw-public-school-information/index.html
 - Spec: default (rendered-page conventions)
-- Generated: 2026-11-05T10:29:17.068Z
+- Generated: 2026-11-05T20:23:17.189Z
 
 ## Assertions — 10/10 pass (5 skipped)
 

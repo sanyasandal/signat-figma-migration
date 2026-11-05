@@ -34,11 +34,11 @@
     "description": "Learn more about learning and support at Fort Street High School.",
     "url": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support"
   },
-  "migratedAt": "2026-11-05T10:28:30Z",
+  "migratedAt": "2026-11-05T20:22:13Z",
   "designMdSha": "187c3f2f159f",
   "designJsonSha": "2d96d5b1c55f",
   "sourceCurrentSha": "0dd7f60cd047",
-  "sourceProposedSha": "29b3ed992114",
+  "sourceProposedSha": "83eed14b8050",
   "fidelityTier": "archetype",
   "archetypeSource": null,
   "archetypeSha": null,

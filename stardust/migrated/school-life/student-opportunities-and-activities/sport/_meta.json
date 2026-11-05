@@ -35,11 +35,11 @@
     "description": "At Fort Street High School, we offer a variety of co-curricular (extra-curricular) programs and activities. They help students build new skills, make friends and explore new interests.",
     "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/sport"
   },
-  "migratedAt": "2026-11-05T10:28:30Z",
+  "migratedAt": "2026-11-05T20:22:13Z",
   "designMdSha": "187c3f2f159f",
   "designJsonSha": "2d96d5b1c55f",
   "sourceCurrentSha": "9a085a95216a",
-  "sourceProposedSha": "d75017abd353",
+  "sourceProposedSha": "1a866dbefcd1",
   "fidelityTier": "archetype",
   "archetypeSource": null,
   "archetypeSha": null,

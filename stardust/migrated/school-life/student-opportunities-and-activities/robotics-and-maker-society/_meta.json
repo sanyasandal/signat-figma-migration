@@ -36,11 +36,11 @@
     "description": "Robotics is a student led club where teams learn about robots and how to build them using a range of technologies. The teams compete against each other at school and then progress to the Robocup Junior competition.",
     "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/robotics-and-maker-society"
   },
-  "migratedAt": "2026-11-05T10:28:30Z",
+  "migratedAt": "2026-11-05T20:22:13Z",
   "designMdSha": "187c3f2f159f",
   "designJsonSha": "2d96d5b1c55f",
   "sourceCurrentSha": "bc97887e05ee",
-  "sourceProposedSha": "0d0bc29f19fa",
+  "sourceProposedSha": "808ac4d6658e",
   "fidelityTier": "archetype",
   "archetypeSource": null,
   "archetypeSha": null,

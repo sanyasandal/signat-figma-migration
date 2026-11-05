@@ -2,7 +2,7 @@
 
 - Source: https://fortstreet-h.schools.nsw.gov.au/school-life/bring-your-own-device (scopes: `nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!`, normalize: `/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/school-life-bring-your-own-device.mjs`)
 - Rendered: stardust/migrated/school-life/bring-your-own-device/index.html (scope: `main`)
-- Generated: 2026-11-05T10:31:19.342Z
+- Generated: 2026-11-05T20:25:50.232Z
 
 ## Primary checks (gating)
 

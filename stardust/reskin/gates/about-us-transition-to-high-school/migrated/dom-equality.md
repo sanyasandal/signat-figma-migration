@@ -2,7 +2,7 @@
 
 - Source: https://fortstreet-h.schools.nsw.gov.au/about-us/transition-to-high-school (scopes: `nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!`, normalize: `/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/about-us-transition-to-high-school.mjs`)
 - Rendered: stardust/migrated/about-us/transition-to-high-school/index.html (scope: `main`)
-- Generated: 2026-11-05T10:29:53.541Z
+- Generated: 2026-11-05T20:23:56.472Z
 
 ## Primary checks (gating)
 

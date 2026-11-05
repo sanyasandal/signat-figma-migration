@@ -2,7 +2,7 @@
 
 - Source: https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/academic-competitions (scopes: `nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!`, normalize: `/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/school-life-student-opportunities-and-activities-academic-competitions.mjs`)
 - Rendered: stardust/migrated/school-life/student-opportunities-and-activities/academic-competitions/index.html (scope: `main`)
-- Generated: 2026-11-05T10:32:04.862Z
+- Generated: 2026-11-05T20:26:55.096Z
 
 ## Primary checks (gating)
 

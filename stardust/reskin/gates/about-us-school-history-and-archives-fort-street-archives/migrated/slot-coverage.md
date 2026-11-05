@@ -2,7 +2,7 @@
 
 - Model: stardust/reskin/content-model/about-us-school-history-and-archives-fort-street-archives/content-model.json
 - Rendered: stardust/migrated/about-us/school-history-and-archives/fort-street-archives/index.html (scope: `main`)
-- Generated: 2026-11-05T10:29:35.284Z
+- Generated: 2026-11-05T20:23:22.689Z
 
 ## slot-coverage — 41/42 pass
 

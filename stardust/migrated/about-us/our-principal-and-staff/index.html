@@ -3,7 +3,7 @@
 <head>
 <!-- stardust:migrate
   writtenBy:        stardust:migrate
-  writtenAt:        2026-11-05T10:28:29Z
+  writtenAt:        2026-11-05T20:22:12Z
   page:             Our principal and staff
   slug:             about-us-our-principal-and-staff
   pagePath:         migrated/about-us/our-principal-and-staff/index.html
@@ -390,7 +390,11 @@
     .site-main.has-rail.rail-reorder > section.rail-mobile-top { order: -1; }
     .site-main.has-rail.rail-reorder > section.rail-mobile-bottom { order: 1; }
     .site-main.has-rail > section.rail-mobile-hidden { display: none; }
+    .site-main.rail-top > section.rail-mobile-hidden { display: none; }
+    .site-main.rail-top > section.rail-mobile-bottom { order: 9999; }
   }
+  .site-main.rail-top { display: flex; flex-direction: column; }
+  .site-main.rail-top > section { min-width: 0; }
   .site-main h2.heading { font-size: var(--type-h2-font-size); line-height: var(--type-h2-line-height); font-weight: var(--type-h2-font-weight); }
   .site-main h3.heading { font-size: var(--type-h3-font-size); line-height: var(--type-h3-line-height); font-weight: var(--type-h3-font-weight); }
   .site-main h4.heading { font-size: var(--type-h4-font-size); line-height: var(--type-h4-line-height); font-weight: var(--type-h4-font-weight); }
@@ -556,7 +560,7 @@
 </style>
 <!-- stardust:prototype
   writtenBy:        stardust:reskin/stream-render
-  writtenAt:        2026-11-05T10:11:08.145Z
+  writtenAt:        2026-11-05T20:03:10.020Z
   page:             about-us-our-principal-and-staff
   pageUrl:          https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff
   template:         learning-and-support-learning
@@ -603,20 +607,20 @@
       <div class="nav-actions"><a class="sr-only" href="../../index.html#main-nav" data-source-href="https://fortstreet-h.schools.nsw.gov.au/#main-nav">Skip to navigation</a><a class="sr-only" href="../../index.html#main" data-source-href="https://fortstreet-h.schools.nsw.gov.au/#main">Skip to content</a><button class="icon-btn" type="button"><span class="glyph glyph-search" aria-hidden="true">search</span></button><button class="sr-only" type="button"><span class="sr-only">Show</span></button><button class="sr-only" type="button"><span class="sr-only">Search</span></button><button class="icon-btn nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><span class="glyph glyph-menu" aria-hidden="true"></span></button></div>
     </div></div>
 </header>
-<main class="site-main has-rail rail-start" style="--rail-width: 400px" data-template="learning-and-support-learning">
-  <section class="band layout-stack width-wide inset in-band" style="--band-inset: 16px; grid-row: 1" data-slot="s01" data-module="M3" data-section="1">
+<main class="site-main rail-top" data-template="learning-and-support-learning">
+  <section class="band layout-stack width-wide inset" style="--band-inset: 16px; order: 1" data-slot="s01" data-module="M3" data-section="1">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <ul class="list list-inline"><li><a class="link" href="../../index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/">Home</a></li><li><a class="link" href="../../about-us/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/about-us">About us</a></li><li><a class="link" aria-current="page">Our principal and staff</a></li></ul>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px; grid-row: 2" data-slot="s02" data-module="M5b" data-section="2">
+  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px; order: 3" data-slot="s02" data-module="M5b" data-section="2">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h1 class="heading">Our principal and staff</h1>
       </div></div></div>
     </section>
-  <section class="band layout-media-band width-wide tone-dark heading-h2" style="grid-row: 3" data-slot="s03" data-module="M9" data-section="3">
+  <section class="band layout-media-band width-wide tone-dark heading-h2" style="order: 4" data-slot="s03" data-module="M9" data-section="3">
       <img class="band-img" src="../../assets/img/fortstreet-h.schools.nsw.gov.au/about-us/media_13dcbb9f5356ec249a8874132689ecb7fb8cb9235-3d5a5588.jpg" data-source-src="https://fortstreet-h.schools.nsw.gov.au/about-us/media_13dcbb9f5356ec249a8874132689ecb7fb8cb9235.jpg?width=2000&amp;format=webply&amp;optimize=medium" alt="Ms Juliette McMurray, Principal of Fort Street High School">
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Welcome from our principal</h2>
@@ -632,7 +636,7 @@
         <p class="lead">Ms Juliette McMurray, Principal of Fort Street High School</p>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 4" data-slot="s04" data-module="M5b" data-section="4">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; order: 5" data-slot="s04" data-module="M5b" data-section="4">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">School Staff for 2025</h2>
@@ -641,7 +645,7 @@
         <figure class="media media-wide"><img src="../../assets/img/fortstreet-h.schools.nsw.gov.au/about-us/media_1ba00797ddbc6e94f5e8a139b3035d73ec904a82b-3d5a5588.png" data-source-src="https://fortstreet-h.schools.nsw.gov.au/about-us/media_1ba00797ddbc6e94f5e8a139b3035d73ec904a82b.png?width=2000&amp;format=webply&amp;optimize=medium" alt="Executive staff"></figure>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 5" data-slot="s05" data-section="5">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; order: 6" data-slot="s05" data-section="5">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Senior Executive</h2>
@@ -649,7 +653,7 @@
         <div class="table-wrap"><table class="table"><tbody><tr><td><p class="lead">Principal</p></td><td><p class="lead">Ms Juliette McMurray</p></td></tr><tr><td><p class="lead">Deputy Principal (Years 7, 9 and 11)</p></td><td><p class="lead">Ms Kate Dunn</p></td></tr><tr><td><p class="lead">Deputy Principal (Years 8, 10 and 12)</p></td><td><p class="lead">Mr David Sherwin (Relieving)</p></td></tr></tbody></table></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 6" data-slot="s06" data-section="6">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; order: 7" data-slot="s06" data-section="6">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Our executive team</h2>
@@ -657,14 +661,14 @@
         <div class="table-wrap"><table class="table"><tbody><tr><td><p class="lead">Head Teacher – Administration</p></td><td><p class="lead">Ms Manar Hussein</p></td></tr><tr><td><p class="lead">Head Teacher – English</p></td><td><p class="lead">Mr Edmund McMahon</p></td></tr><tr><td><p class="lead">Head Teacher – Mathematics</p></td><td><p class="lead">Mr Ali Razzaghi</p></td></tr><tr><td><p class="lead">Head Teacher – Languages</p></td><td><p class="lead">Ms Melinda Wark</p></td></tr><tr><td><p class="lead">Head Teacher – History</p></td><td><p class="lead">Ms Melinda Wark</p></td></tr><tr><td><p class="lead">Head Teacher – Science</p></td><td><p class="lead">Mr Brian Webb</p></td></tr><tr><td><p class="lead">Head Teacher – Social Science</p></td><td><p class="lead">Mr Garth Chapman</p></td></tr><tr><td><p class="lead">Head Teacher – Creative and Performing Arts</p></td><td><p class="lead">Ms Helen Thompson (Relieving)</p></td></tr><tr><td><p class="lead">Head Teacher – Wellbeing</p></td><td><p class="lead">Ms Jenny Xu (Relieving)</p></td></tr><tr><td><p class="lead">Head Teacher – Technology</p></td><td><p class="lead">Mr Dai Dong</p></td></tr><tr><td><p class="lead">Head Teacher – Teaching and Learning</p></td><td><p class="lead">Mr Michael Galvin</p></td></tr></tbody></table></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 7" data-slot="s07" data-section="7">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; order: 8" data-slot="s07" data-section="7">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Our Year Advisors</h2>
         <div class="table-wrap"><table class="table"><tbody><tr><td><p class="lead">Year Group</p></td><td><p class="lead">Adviser</p></td><td><p class="lead">Assistant Adviser</p></td></tr><tr><td><p class="lead">Year 7</p></td><td><p class="lead">Mr Andrew Tennent</p></td><td><p class="lead">Ms Amelia Drinkwater</p></td></tr><tr><td><p class="lead">Year 8</p></td><td><p class="lead">Mr Ben Clark</p></td><td><p class="lead">Ms Fiona Richards</p></td></tr><tr><td><p class="lead">Year 9</p></td><td><p class="lead">Ms Maddy Cove</p></td><td><p class="lead">Mr Brad Sarif</p></td></tr><tr><td><p class="lead">Year 10</p></td><td><p class="lead">Mr Arkady De Jong</p></td><td><p class="lead">Mr Hugh O'Neill</p></td></tr><tr><td><p class="lead">Year 11</p></td><td><p class="lead">Mr David Latimer</p></td><td><p class="lead">Ms Hyun Cho</p></td></tr><tr><td><p class="lead">Year 12</p></td><td><p class="lead">Mr Derek Patulny</p></td><td><p class="lead">Ms Helen Thompson</p></td></tr></tbody></table></div>
       </div></div></div>
     </section>
-  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 8" data-slot="s08" data-module="M11b" data-section="8">
+  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px; order: 9" data-slot="s08" data-module="M11b" data-section="8">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h3 class="heading">Our teachers make the difference</h3>
@@ -679,7 +683,7 @@
         <span class="glyph glyph-right" aria-hidden="true">east</span></div></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 9" data-slot="s09" data-section="9">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; order: 10" data-slot="s09" data-section="9">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Wellbeing and support staff</h2>
@@ -687,7 +691,7 @@
         <div class="table-wrap"><table class="table"><tbody><tr><td><p class="lead">Head Teacher - Wellbeing</p></td><td><p class="lead">Ms Jenny Xu (Relieving)</p></td></tr><tr><td><p class="lead">SPE - Senior Psychologist Education Department</p></td><td><p class="lead">Ms Jean Kidd</p></td></tr><tr><td><p class="lead">School Counsellors</p></td><td><p class="lead">Ms Miori Shino</p></td></tr><tr><td><p class="lead">Student Support Officers (SSO)</p></td><td><p class="lead">Ms Sintra Zorlu</p></td></tr><tr><td><p class="lead">Learning Support</p></td><td><p class="lead">Ms Jill Ryan and Ms Alissa Tan</p></td></tr></tbody></table></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 10" data-slot="s10" data-section="10">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; order: 11" data-slot="s10" data-section="10">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Administrative and operations staff</h2>
@@ -695,7 +699,7 @@
         <div class="table-wrap"><table class="table"><tbody><tr><td><p class="lead">School Administration Manager</p></td><td><p class="lead">Ms Kirrily Druery</p></td></tr><tr><td><p class="lead">School Business Manager</p></td><td><p class="lead">Ms Vivien Davies</p></td></tr><tr><td><p class="lead">Assistant to the Principal</p></td><td><p class="lead">Ms Kellorin Long</p></td></tr><tr><td><p class="lead">Teacher Librarian</p></td><td><p class="lead">Ms Donna Page</p></td></tr><tr><td><p class="lead">School Counsellor</p></td><td><p class="lead">Ms Miori Shino</p></td></tr><tr><td><p class="lead">Careers Adviser</p></td><td><p class="lead">Ms Kylie Salisbury</p></td></tr><tr><td><p class="lead">Sports Coordinator</p></td><td><p class="lead">Mr Edmund Feng</p></td></tr><tr><td><p class="lead">Sports CHS Knockout Coordinator</p></td><td><p class="lead">Mr Bradley Sarif</p></td></tr><tr><td><p class="lead">Instrumental Music Program Director</p></td><td><p class="lead">Mr Matt Manchester</p></td></tr><tr><td><p class="lead">Technology Technical Support</p></td><td><p class="lead">Mr Zerly Nazar</p></td></tr><tr><td><p class="lead">Anti-Racism Contact Officer (ARCO)</p></td><td><p class="lead">Ms Jenny Xu</p></td></tr><tr><td><p class="lead">SRC Coordinator</p></td><td><p class="lead">Mr Bambul Shakibaei</p></td></tr><tr><td><p class="lead">Debating Co-ordinator</p></td><td><p class="lead">Mr Andrew Tennant</p></td></tr></tbody></table></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-narrow tone-light heading-display bleed align-center" style="grid-row: 11" data-slot="s11" data-module="M5" data-section="11">
+  <section class="band layout-stack width-narrow tone-light heading-display bleed align-center" style="order: 12" data-slot="s11" data-module="M5" data-section="11">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Have a question for our principal or teachers?</h2>
@@ -703,7 +707,7 @@
         <div class="actions"><a class="btn" href="../../contact-us/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/contact-us">Contact us</a></div>
       </div></div></div>
     </section>
-  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 12" data-slot="s12" data-module="M11b" data-section="12">
+  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px; order: 13" data-slot="s12" data-module="M11b" data-section="12">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <div class="cards" style="--cards-columns: 2"><div class="card"><p class="aux"><a class="link" href="../../learning-and-support/additional-learning-support/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support">Additional learning support</a></p>
@@ -713,10 +717,10 @@
         <span class="glyph glyph-right" aria-hidden="true">east</span></div></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h4 inset in-rail rail-mobile-hidden" style="--band-inset: 16px; grid-row: 2 / 13" data-slot="s13" data-module="M3" data-section="13">
+  <section class="band layout-stack width-wide heading-h4 inset in-top rail-mobile-hidden" style="--band-inset: 16px; order: 2" data-slot="s13" data-module="M3" data-section="13">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
-          <h2 class="heading">Section navigation</h2>
+          <h2 class="heading sr-only">Section navigation</h2>
         <p class="aux"><a class="link" href="../../about-us/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/about-us">About us</a></p>
         <ul class="list"><li><a class="link" href="../../about-us/enrol/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/about-us/enrol">Enrol</a></li><li><a class="link" href="../../about-us/facilities-and-resources/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources">Facilities and resources</a></li><li><a class="link" href="../../about-us/hsc-results/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/about-us/hsc-results">HSC Results</a></li><li><a class="link" href="../../about-us/our-principal-and-staff/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff">Our principal and staff</a></li><li><a class="link" href="../../about-us/policies-and-reports/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports">Policies and reports</a></li><li><a class="link" href="../../about-us/school-history-and-archives/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives">School history and archives</a></li><li><a class="link" href="../../about-us/stories-and-highlights/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/about-us/stories-and-highlights">Stories and highlights</a></li><li><a class="link" href="../../about-us/transition-to-high-school/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/about-us/transition-to-high-school">Transition to high school</a></li><li><a class="link" href="../../about-us/why-choose-us/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/about-us/why-choose-us">Why choose us?</a></li></ul>
       </div></div></div>

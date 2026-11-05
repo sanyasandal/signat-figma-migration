@@ -3,7 +3,7 @@
 - Tokens: stardust/reskin/donor-tokens.json
 - Rendered: stardust/migrated/school-life/student-opportunities-and-activities/duke-of-edinburgh-award/index.html
 - Spec: default (rendered-page conventions)
-- Generated: 2026-11-05T10:32:37.414Z
+- Generated: 2026-11-05T20:27:33.338Z
 
 ## Assertions — 14/14 pass (1 skipped)
 

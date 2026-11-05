@@ -39,11 +39,11 @@
     "description": "At Fort Street High School, our school canteen offers healthy, affordable food options for students. Learn about our canteen opening hours, our menu and how to order lunch.",
     "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/canteen"
   },
-  "migratedAt": "2026-11-05T10:28:30Z",
+  "migratedAt": "2026-11-05T20:22:13Z",
   "designMdSha": "187c3f2f159f",
   "designJsonSha": "2d96d5b1c55f",
   "sourceCurrentSha": "2b1e92869a53",
-  "sourceProposedSha": "b759412c410c",
+  "sourceProposedSha": "c86ca7f791b7",
   "fidelityTier": "archetype",
   "archetypeSource": null,
   "archetypeSha": null,

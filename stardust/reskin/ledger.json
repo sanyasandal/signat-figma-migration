@@ -43,6 +43,14 @@
           "by": "user",
           "note": "owner approved as-is (2026-11-05)",
           "at": "2026-11-05T06:17:03Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "the live Facebook feed has a newer post (2026-11-06) than the static snapshot EDS serves (dynamic dependency, dynamic-features.md: the feed is a client-side widget carried as a snapshot); every other block matches",
+          "verdict": "accepted",
+          "note": "refresh the snapshot with eds-content + DA media rehost when the owner wants the latest posts",
+          "at": "2026-11-05T20:23:38Z"
         }
       ],
       "flags": [],
@@ -85,7 +93,7 @@
         "deployed": {
           "regime": "preview",
           "url": "https://reskin--signat-figma-migration--sanyasandal.aem.page/reskin/",
-          "content": "PASS",
+          "content": "FAIL 1/2",
           "tokens": "FAIL 2/68",
           "parity": "FAIL 1/11",
           "sanity": {
@@ -111,7 +119,7 @@
             "waiverBudget": 55,
             "invocation": "figma-gate.mjs all --page home --url https://reskin--signat-figma-migration--sanyasandal.aem.page/reskin/ --target preview --reskin stardust/reskin/pages/home.html --waiver-budget 55 --dir stardust"
           },
-          "codeStamp": "24dd45ca8c0606db",
+          "codeStamp": "02b83ab1cece9f35",
           "invocation": "deployed-gate.mjs all --page home --waiver-budget 55"
         },
         "step10": {
@@ -127,7 +135,7 @@
       "status": "gated",
       "prototypeSha": "715044d86445",
       "prototypePath": "stardust/reskin/pages/home.html",
-      "recordedAt": "2026-11-05T10:28:19Z",
+      "recordedAt": "2026-11-05T20:23:38Z",
       "residualHistory": [
         {
           "at": "2026-11-05T03:53:22Z",
@@ -255,7 +263,7 @@
           "regime": "local",
           "figmaVersion": "2418082557428609783",
           "join": "PASS",
-          "geometry": "PASS 1/1 (7 unasserted)",
+          "geometry": "PASS 8/8",
           "ramp": "FAIL 36/133 (15 unserved)",
           "pixel": "s01 n/a: frame content differs, s02 n/a: frame content differs, s03 n/a: frame content differs, s05 n/a: frame content differs, s06 n/a: frame content differs, s07 n/a: frame content differs, s08 n/a: frame content differs, s09 n/a: frame content differs",
           "register": "mandated 0 · waived 11 · unmandated 36 · out-of-kit 1 · conflict 2 · pre-existing 0",
@@ -293,7 +301,7 @@
             "waiverBudget": 55,
             "invocation": "figma-gate.mjs all --page learning-and-support-learning --url https://reskin--signat-figma-migration--sanyasandal.aem.page/reskin/learning-and-support/learning --target preview --reskin stardust/reskin/pages/learning-and-support-learning.html --waiver-budget 55 --dir stardust"
           },
-          "codeStamp": "24dd45ca8c0606db",
+          "codeStamp": "02b83ab1cece9f35",
           "invocation": "deployed-gate.mjs all --page learning-and-support-learning --waiver-budget 55"
         },
         "step10": {
@@ -307,9 +315,9 @@
         }
       },
       "status": "gated",
-      "prototypeSha": "e70b1e36fc56",
+      "prototypeSha": "7a4478271f97",
       "prototypePath": "stardust/reskin/pages/learning-and-support-learning.html",
-      "recordedAt": "2026-11-05T10:28:21Z",
+      "recordedAt": "2026-11-05T20:22:11Z",
       "residualHistory": [
         {
           "at": "2026-11-05T05:04:14Z",
@@ -380,7 +388,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:40Z"
+      "recordedAt": "2026-11-05T20:30:50Z"
     },
     "about-us-our-principal-and-staff": {
       "residuals": [
@@ -444,7 +452,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:39Z",
+      "recordedAt": "2026-11-05T20:30:49Z",
       "gates": {
         "reskin-dom-equality": {
           "verdict": "PASS",
@@ -529,7 +537,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:39Z"
+      "recordedAt": "2026-11-05T20:30:49Z"
     },
     "school-life-parent-portal": {
       "residuals": [
@@ -593,7 +601,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:39Z",
+      "recordedAt": "2026-11-05T20:30:49Z",
       "gates": {
         "reskin-dom-equality": {
           "verdict": "PASS",
@@ -697,7 +705,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:39Z"
+      "recordedAt": "2026-11-05T20:30:49Z"
     },
     "about-us-facilities-and-resources": {
       "residuals": [
@@ -737,7 +745,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:39Z"
+      "recordedAt": "2026-11-05T20:30:49Z"
     },
     "about-us-hsc-results": {
       "residuals": [
@@ -793,7 +801,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:39Z",
+      "recordedAt": "2026-11-05T20:30:49Z",
       "gates": {
         "reskin-dom-equality": {
           "verdict": "PASS",
@@ -878,7 +886,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:39Z"
+      "recordedAt": "2026-11-05T20:30:49Z"
     },
     "about-us-policies-and-reports": {
       "residuals": [
@@ -918,7 +926,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:39Z"
+      "recordedAt": "2026-11-05T20:30:49Z"
     },
     "about-us-school-history-and-archives-fort-street-archives": {
       "residuals": [
@@ -958,7 +966,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:39Z"
+      "recordedAt": "2026-11-05T20:30:49Z"
     },
     "about-us-school-history-and-archives-the-fort-street-museum": {
       "residuals": [
@@ -998,7 +1006,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:39Z"
+      "recordedAt": "2026-11-05T20:30:49Z"
     },
     "about-us-school-history-and-archives-the-fortian-digitised": {
       "residuals": [
@@ -1045,7 +1053,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:39Z"
+      "recordedAt": "2026-11-05T20:30:49Z"
     },
     "about-us-school-history-and-archives": {
       "residuals": [
@@ -1085,7 +1093,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:39Z"
+      "recordedAt": "2026-11-05T20:30:49Z"
     },
     "about-us-stories-and-highlights": {
       "residuals": [
@@ -1103,12 +1111,19 @@
           "verdict": "accepted",
           "note": null,
           "at": "2026-11-05T07:20:01Z"
+        },
+        {
+          "gate": "reskin-dom-equality",
+          "cause": "the live Facebook feed has a newer post (2026-11-06) than the static snapshot the page and EDS carry (dynamic dependency, dynamic-features.md); every other slot matches",
+          "verdict": "accepted",
+          "note": "refresh the snapshot when the owner wants the latest posts",
+          "at": "2026-11-05T20:34:37Z"
         }
       ],
       "flags": [],
       "migratedGates": {
         "reskin-dom-equality": {
-          "verdict": "PASS",
+          "verdict": "FAIL",
           "report": "stardust/reskin/gates/about-us-stories-and-highlights/migrated/dom-equality.md"
         },
         "reskin-slot-coverage": {
@@ -1125,7 +1140,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:39Z"
+      "recordedAt": "2026-11-05T20:34:37Z"
     },
     "about-us-transition-to-high-school": {
       "residuals": [
@@ -1165,7 +1180,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:39Z"
+      "recordedAt": "2026-11-05T20:30:49Z"
     },
     "about-us-why-choose-us": {
       "residuals": [
@@ -1205,7 +1220,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:38:29Z"
+      "recordedAt": "2026-11-05T20:30:49Z"
     },
     "about-us": {
       "residuals": [
@@ -1245,7 +1260,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:39Z"
+      "recordedAt": "2026-11-05T20:30:49Z"
     },
     "contact-us": {
       "residuals": [
@@ -1309,7 +1324,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:39Z",
+      "recordedAt": "2026-11-05T20:30:49Z",
       "residualHistory": [
         {
           "at": "2026-11-05T10:28:12Z",
@@ -1371,7 +1386,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:40Z"
+      "recordedAt": "2026-11-05T20:30:49Z"
     },
     "learning-and-support-high-potential-and-gifted-education": {
       "residuals": [
@@ -1418,7 +1433,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:40Z"
+      "recordedAt": "2026-11-05T20:30:49Z"
     },
     "learning-and-support-wellbeing": {
       "residuals": [
@@ -1465,7 +1480,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:40Z"
+      "recordedAt": "2026-11-05T20:30:49Z"
     },
     "learning-and-support": {
       "residuals": [
@@ -1505,7 +1520,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:40Z"
+      "recordedAt": "2026-11-05T20:30:49Z"
     },
     "our-community-alumni": {
       "residuals": [
@@ -1545,7 +1560,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:40Z"
+      "recordedAt": "2026-11-05T20:30:50Z"
     },
     "our-community-fortians-union": {
       "residuals": [
@@ -1585,7 +1600,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:40Z"
+      "recordedAt": "2026-11-05T20:30:50Z"
     },
     "our-community-foundation-tertiary-bursaries": {
       "residuals": [
@@ -1625,7 +1640,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:40Z"
+      "recordedAt": "2026-11-05T20:30:50Z"
     },
     "our-community-pandc": {
       "residuals": [
@@ -1672,7 +1687,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:40Z"
+      "recordedAt": "2026-11-05T20:30:50Z"
     },
     "our-community": {
       "residuals": [
@@ -1712,7 +1727,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:40Z"
+      "recordedAt": "2026-11-05T20:30:50Z"
     },
     "school-life-bell-times": {
       "residuals": [
@@ -1752,7 +1767,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:40Z"
+      "recordedAt": "2026-11-05T20:30:50Z"
     },
     "school-life-bring-your-own-device": {
       "residuals": [
@@ -1792,7 +1807,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:40Z"
+      "recordedAt": "2026-11-05T20:30:50Z"
     },
     "school-life-canteen": {
       "residuals": [
@@ -1832,7 +1847,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:40Z"
+      "recordedAt": "2026-11-05T20:30:50Z"
     },
     "school-life-events": {
       "residuals": [
@@ -1874,12 +1889,19 @@
           "verdict": "needs-owner",
           "note": null,
           "at": "2026-11-05T07:47:01Z"
+        },
+        {
+          "gate": "reskin-dom-equality",
+          "cause": "the live Facebook feed has a newer post (2026-11-06) than the static snapshot the page and EDS carry (dynamic dependency, dynamic-features.md); every other slot matches",
+          "verdict": "accepted",
+          "note": "refresh the snapshot when the owner wants the latest posts",
+          "at": "2026-11-05T20:34:17Z"
         }
       ],
       "flags": [],
       "migratedGates": {
         "reskin-dom-equality": {
-          "verdict": "PASS",
+          "verdict": "FAIL",
           "report": "stardust/reskin/gates/school-life-events/migrated/dom-equality.md"
         },
         "reskin-slot-coverage": {
@@ -1896,7 +1918,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:38:29Z",
+      "recordedAt": "2026-11-05T20:34:17Z",
       "gates": {
         "reskin-dom-equality": {
           "verdict": "PASS",
@@ -1981,7 +2003,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:40Z"
+      "recordedAt": "2026-11-05T20:30:50Z"
     },
     "school-life-lockers-and-lost-property": {
       "residuals": [
@@ -2021,7 +2043,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:40Z"
+      "recordedAt": "2026-11-05T20:30:50Z"
     },
     "school-life-stationery": {
       "residuals": [
@@ -2061,7 +2083,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:40Z"
+      "recordedAt": "2026-11-05T20:30:50Z"
     },
     "school-life-student-opportunities-and-activities-academic-competitions": {
       "residuals": [
@@ -2101,7 +2123,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:40Z"
+      "recordedAt": "2026-11-05T20:30:50Z"
     },
     "school-life-student-opportunities-and-activities-clubs-and-committees": {
       "residuals": [
@@ -2141,7 +2163,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:40Z"
+      "recordedAt": "2026-11-05T20:30:50Z"
     },
     "school-life-student-opportunities-and-activities-creative-and-performing-arts": {
       "residuals": [
@@ -2181,7 +2203,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:40Z"
+      "recordedAt": "2026-11-05T20:30:50Z"
     },
     "school-life-student-opportunities-and-activities-debating-and-public-speaking": {
       "residuals": [
@@ -2221,7 +2243,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:41Z"
+      "recordedAt": "2026-11-05T20:30:50Z"
     },
     "school-life-student-opportunities-and-activities-duke-of-edinburgh-award": {
       "residuals": [
@@ -2261,7 +2283,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:41Z"
+      "recordedAt": "2026-11-05T20:30:50Z"
     },
     "school-life-student-opportunities-and-activities-instrumental-music-program": {
       "residuals": [
@@ -2301,7 +2323,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:41Z"
+      "recordedAt": "2026-11-05T20:30:50Z"
     },
     "school-life-student-opportunities-and-activities-robotics-and-maker-society": {
       "residuals": [
@@ -2341,7 +2363,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:41Z"
+      "recordedAt": "2026-11-05T20:30:50Z"
     },
     "school-life-student-opportunities-and-activities-sport": {
       "residuals": [
@@ -2381,7 +2403,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:41Z"
+      "recordedAt": "2026-11-05T20:30:51Z"
     },
     "school-life-student-opportunities-and-activities-student-leadership-opportunities": {
       "residuals": [
@@ -2421,7 +2443,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:41Z"
+      "recordedAt": "2026-11-05T20:30:51Z"
     },
     "school-life-student-opportunities-and-activities": {
       "residuals": [
@@ -2468,7 +2490,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:38:29Z"
+      "recordedAt": "2026-11-05T20:30:51Z"
     },
     "school-life-travel-to-school": {
       "residuals": [
@@ -2508,7 +2530,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:41Z"
+      "recordedAt": "2026-11-05T20:30:51Z"
     },
     "school-life-uniform-uniform-shop": {
       "residuals": [
@@ -2556,7 +2578,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:41Z",
+      "recordedAt": "2026-11-05T20:30:51Z",
       "gates": {
         "reskin-dom-equality": {
           "verdict": "PASS",
@@ -2648,7 +2670,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:41Z"
+      "recordedAt": "2026-11-05T20:30:51Z"
     },
     "school-life": {
       "residuals": [
@@ -2688,7 +2710,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:41Z"
+      "recordedAt": "2026-11-05T20:30:51Z"
     },
     "our-community-foundation": {
       "residuals": [
@@ -2735,7 +2757,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:40Z"
+      "recordedAt": "2026-11-05T20:30:50Z"
     },
     "school-life-newsletters": {
       "residuals": [
@@ -2782,7 +2804,7 @@
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T10:36:40Z"
+      "recordedAt": "2026-11-05T20:30:50Z"
     }
   },
   "handoff": {
@@ -2796,7 +2818,6 @@
           "mobile-adapt-runtime": "PASS",
           "figma.join": "PASS",
           "figma.geometry": "PASS",
-          "deployed.content": "PASS",
           "deployed.sanity": "PASS",
           "deployed.inherited": "PASS",
           "deployed.chrome": "PASS",
@@ -2821,7 +2842,7 @@
       "archetype": "home",
       "prototypePath": "stardust/reskin/pages/home.html",
       "prototypeSha": "715044d86445",
-      "registeredAt": "2026-11-05T10:28:19Z",
+      "registeredAt": "2026-11-05T20:23:38Z",
       "tier": {
         "claimed": "reskin-archetype",
         "passed": [
@@ -2832,7 +2853,6 @@
           "mobile-adapt-runtime",
           "figma.join",
           "figma.geometry",
-          "deployed.content",
           "deployed.sanity",
           "deployed.inherited",
           "deployed.chrome",
@@ -2936,7 +2956,8 @@
           "gate": "gated",
           "residuals": [
             "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
-            "source renders sections progressively: live reads measured 242/3532/4961/5121 chars across runs; the capture and the preview hold all 5121; current-page crumb has an empty href"
+            "source renders sections progressively: live reads measured 242/3532/4961/5121 chars across runs; the capture and the preview hold all 5121; current-page crumb has an empty href",
+            "the live Facebook feed has a newer post (2026-11-06) than the static snapshot the page and EDS carry (dynamic dependency, dynamic-features.md); every other slot matches"
           ]
         },
         "school-life-uniform": {
@@ -3000,7 +3021,8 @@
             "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
             "first-match probes: the first heading/button sits on a dark band (light variant, correct) or the page has no primary CTA; section-rhythm reads 0px on hero/quote bands whose block owns its 80px padding",
             "qa-gate pairs schema sections with block instances by order; table blocks authored inside prose sections shift the pairing (tooling limitation; block-roundtrip and davids-model-lint pass)",
-            "event-card grid pixel 21% / 29% vs the reskin page; content identical"
+            "event-card grid pixel 21% / 29% vs the reskin page; content identical",
+            "the live Facebook feed has a newer post (2026-11-06) than the static snapshot the page and EDS carry (dynamic dependency, dynamic-features.md); every other slot matches"
           ]
         },
         "learning-and-support-learning": {
@@ -3300,8 +3322,8 @@
       },
       "archetype": "learning-and-support-learning",
       "prototypePath": "stardust/reskin/pages/learning-and-support-learning.html",
-      "prototypeSha": "e70b1e36fc56",
-      "registeredAt": "2026-11-05T10:28:21Z",
+      "prototypeSha": "7a4478271f97",
+      "registeredAt": "2026-11-05T20:22:11Z",
       "tier": {
         "claimed": "reskin-archetype",
         "passed": [

@@ -1390,7 +1390,7 @@
     }
   ],
   "migrate": {
-    "at": "2026-11-05T10:28:30Z",
+    "at": "2026-11-05T20:22:13Z",
     "outputDir": "stardust/migrated/",
     "selfContained": true,
     "pageMap": [
@@ -1707,7 +1707,7 @@
         "outputPathDefault": "trailing-slash"
       }
     ],
-    "totalAssetsBundled": 168,
+    "totalAssetsBundled": 170,
     "bundledAssets": [
       "canon.css",
       "img/assets.schools.nsw.gov.au/content/dam/doe/sws/master/photos-master/nsw-logo.svg",
@@ -1786,11 +1786,13 @@
       "img/fortstreet-h.schools.nsw.gov.au/media_16a3027ca49fb0a72b31b276bd481c1414e996aa6-3d5a5588.jpg",
       "img/fortstreet-h.schools.nsw.gov.au/media_17fb3efe581b222b0208cd33946fc48ddc4e6473e-957b21a4.jpg",
       "img/fortstreet-h.schools.nsw.gov.au/media_18584905c9b96fbe7d14e44b6d96839a4f70737dc-957b21a4.png",
+      "img/fortstreet-h.schools.nsw.gov.au/media_187890be11be32aebae7a65c2def69dc96c89be8d-2f4d9dd0.jpg",
       "img/fortstreet-h.schools.nsw.gov.au/media_187890be11be32aebae7a65c2def69dc96c89be8d-957b21a4.jpg",
       "img/fortstreet-h.schools.nsw.gov.au/media_18bb10f67ea8be0529af26bad2784911d2d942349-957b21a4.png",
       "img/fortstreet-h.schools.nsw.gov.au/media_1913535566a844ac4c3f57444ff37412ecec941d1-957b21a4.jpg",
       "img/fortstreet-h.schools.nsw.gov.au/media_1980e057ec6ccea2088683d84b46c8c6d07a4dfab-957b21a4.png",
       "img/fortstreet-h.schools.nsw.gov.au/media_19c6cff9975b6320859bc465733d151e7d7f317f2-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/media_19ef0ac1f3b662bac6ce8ee537dc93be686fa662e-2f4d9dd0.jpg",
       "img/fortstreet-h.schools.nsw.gov.au/media_19ef0ac1f3b662bac6ce8ee537dc93be686fa662e-957b21a4.jpg",
       "img/fortstreet-h.schools.nsw.gov.au/media_1a72e6895af8d0d7c473a4807758e2c2d1de74794-957b21a4.jpg",
       "img/fortstreet-h.schools.nsw.gov.au/media_1a7c7e671d59df64bf0f761d0872228c9f66e69b8-3d5a5588.jpg",
@@ -2143,7 +2145,7 @@
     "missingAssets": [],
     "cleanedAssets": [],
     "lastRun": {
-      "at": "2026-11-05T10:28:30Z",
+      "at": "2026-11-05T20:22:13Z",
       "rendered": [
         "about-us-our-principal-and-staff",
         "learning-and-support-additional-learning-support",

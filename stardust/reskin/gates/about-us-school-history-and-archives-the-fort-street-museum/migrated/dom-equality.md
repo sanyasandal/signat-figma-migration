@@ -2,7 +2,7 @@
 
 - Source: https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives/the-fort-street-museum (scopes: `nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!`, normalize: `/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/about-us-school-history-and-archives-the-fort-street-museum.mjs`)
 - Rendered: stardust/migrated/about-us/school-history-and-archives/the-fort-street-museum/index.html (scope: `main`)
-- Generated: 2026-11-05T10:29:32.256Z
+- Generated: 2026-11-05T20:23:31.903Z
 
 ## Primary checks (gating)
 

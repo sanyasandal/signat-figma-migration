@@ -2,7 +2,7 @@
 
 - Model: stardust/reskin/content-model/learning-and-support-careers/content-model.json
 - Rendered: stardust/migrated/learning-and-support/careers/index.html (scope: `main`)
-- Generated: 2026-11-05T10:30:22.544Z
+- Generated: 2026-11-05T20:24:34.466Z
 
 ## slot-coverage — 20/21 pass
 

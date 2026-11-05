@@ -3,7 +3,7 @@
 - Tokens: stardust/reskin/donor-tokens.json
 - Rendered: stardust/migrated/school-life/student-opportunities-and-activities/instrumental-music-program/index.html
 - Spec: default (rendered-page conventions)
-- Generated: 2026-11-05T10:32:35.755Z
+- Generated: 2026-11-05T20:27:35.245Z
 
 ## Assertions — 9/9 pass (6 skipped)
 

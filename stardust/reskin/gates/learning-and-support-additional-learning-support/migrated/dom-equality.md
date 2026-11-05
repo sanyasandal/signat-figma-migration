@@ -2,7 +2,7 @@
 
 - Source: https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support (scopes: `nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!`, normalize: `/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/learning-and-support-additional-learning-support.mjs`)
 - Rendered: stardust/migrated/learning-and-support/additional-learning-support/index.html (scope: `main`)
-- Generated: 2026-11-05T10:28:49.669Z
+- Generated: 2026-11-05T20:22:26.414Z
 
 ## Primary checks (gating)
 

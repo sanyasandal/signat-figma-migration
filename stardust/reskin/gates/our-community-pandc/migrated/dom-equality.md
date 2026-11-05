@@ -2,7 +2,7 @@
 
 - Source: https://fortstreet-h.schools.nsw.gov.au/our-community/pandc (scopes: `nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!`, normalize: `/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/our-community-pandc.mjs`)
 - Rendered: stardust/migrated/our-community/pandc/index.html (scope: `main`)
-- Generated: 2026-11-05T10:31:03.414Z
+- Generated: 2026-11-05T20:25:27.269Z
 
 ## Primary checks (gating)
 

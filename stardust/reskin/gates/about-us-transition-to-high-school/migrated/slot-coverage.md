@@ -2,7 +2,7 @@
 
 - Model: stardust/reskin/content-model/about-us-transition-to-high-school/content-model.json
 - Rendered: stardust/migrated/about-us/transition-to-high-school/index.html (scope: `main`)
-- Generated: 2026-11-05T10:29:57.270Z
+- Generated: 2026-11-05T20:24:00.336Z
 
 ## slot-coverage — 36/37 pass
 

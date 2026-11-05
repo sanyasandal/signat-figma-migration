@@ -3,7 +3,7 @@
 <head>
 <!-- stardust:migrate
   writtenBy:        stardust:migrate
-  writtenAt:        2026-11-05T10:28:30Z
+  writtenAt:        2026-11-05T20:22:13Z
   page:             Creative and Performing Arts
   slug:             school-life-student-opportunities-and-activities-creative-and-performing-arts
   pagePath:         migrated/school-life/student-opportunities-and-activities/creative-and-performing-arts/index.html
@@ -390,7 +390,11 @@
     .site-main.has-rail.rail-reorder > section.rail-mobile-top { order: -1; }
     .site-main.has-rail.rail-reorder > section.rail-mobile-bottom { order: 1; }
     .site-main.has-rail > section.rail-mobile-hidden { display: none; }
+    .site-main.rail-top > section.rail-mobile-hidden { display: none; }
+    .site-main.rail-top > section.rail-mobile-bottom { order: 9999; }
   }
+  .site-main.rail-top { display: flex; flex-direction: column; }
+  .site-main.rail-top > section { min-width: 0; }
   .site-main h2.heading { font-size: var(--type-h2-font-size); line-height: var(--type-h2-line-height); font-weight: var(--type-h2-font-weight); }
   .site-main h3.heading { font-size: var(--type-h3-font-size); line-height: var(--type-h3-line-height); font-weight: var(--type-h3-font-weight); }
   .site-main h4.heading { font-size: var(--type-h4-font-size); line-height: var(--type-h4-line-height); font-weight: var(--type-h4-font-weight); }
@@ -556,7 +560,7 @@
 </style>
 <!-- stardust:prototype
   writtenBy:        stardust:reskin/stream-render
-  writtenAt:        2026-11-05T10:13:01.665Z
+  writtenAt:        2026-11-05T20:05:13.292Z
   page:             school-life-student-opportunities-and-activities-creative-and-performing-arts
   pageUrl:          https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/creative-and-performing-arts
   template:         learning-and-support-learning
@@ -603,14 +607,14 @@
       <div class="nav-actions"><a class="sr-only" href="../../../index.html#main-nav" data-source-href="https://fortstreet-h.schools.nsw.gov.au/#main-nav">Skip to navigation</a><a class="sr-only" href="../../../index.html#main" data-source-href="https://fortstreet-h.schools.nsw.gov.au/#main">Skip to content</a><button class="icon-btn" type="button"><span class="glyph glyph-search" aria-hidden="true">search</span></button><button class="sr-only" type="button"><span class="sr-only">Show</span></button><button class="sr-only" type="button"><span class="sr-only">Search</span></button><button class="icon-btn nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><span class="glyph glyph-menu" aria-hidden="true"></span></button></div>
     </div></div>
 </header>
-<main class="site-main has-rail rail-start" style="--rail-width: 400px" data-template="learning-and-support-learning">
-  <section class="band layout-stack width-wide inset in-band" style="--band-inset: 16px; grid-row: 1" data-slot="s01" data-module="M3" data-section="1">
+<main class="site-main rail-top" data-template="learning-and-support-learning">
+  <section class="band layout-stack width-wide inset" style="--band-inset: 16px; order: 1" data-slot="s01" data-module="M3" data-section="1">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <ul class="list list-inline"><li><a class="link" href="../../../index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/">Home</a></li><li><a class="link" href="../../../school-life/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life">School life</a></li><li><a class="link" href="../../../school-life/student-opportunities-and-activities/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities">Student opportunities and activities</a></li><li><a class="link" aria-current="page">Creative and Performing Arts</a></li></ul>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px; grid-row: 2" data-slot="s02" data-module="M5b" data-section="2">
+  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px; order: 3" data-slot="s02" data-module="M5b" data-section="2">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h1 class="heading">Creative and Performing Arts</h1>
@@ -634,7 +638,7 @@
         <p class="lead">Contact: Ms Liz Propsting Head Teacher Creative and Performing Arts (Rowe Staffroom)</p>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px; grid-row: 3" data-slot="s03" data-module="M9b" data-section="3">
+  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px; order: 4" data-slot="s03" data-module="M9b" data-section="3">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Need to make a payment?</h2>
@@ -642,7 +646,7 @@
         <div class="actions"><a class="btn" href="../../../school-life/parent-portal/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal">Parent portal</a></div>
       </div></div></div>
     </section>
-  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 4" data-slot="s04" data-module="M11b" data-section="4">
+  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px; order: 5" data-slot="s04" data-module="M11b" data-section="4">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <div class="cards" style="--cards-columns: 2"><div class="card"><div class="actions"><a class="btn" href="../../../about-us/facilities-and-resources/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources">Facilities and resources</a></div>
@@ -652,10 +656,10 @@
         <span class="glyph glyph-right" aria-hidden="true">east</span></div></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h4 inset in-rail rail-mobile-hidden" style="--band-inset: 16px; grid-row: 2 / 5" data-slot="s05" data-module="M3" data-section="5">
+  <section class="band layout-stack width-wide heading-h4 inset in-top rail-mobile-hidden" style="--band-inset: 16px; order: 2" data-slot="s05" data-module="M3" data-section="5">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
-          <h2 class="heading">Section navigation</h2>
+          <h2 class="heading sr-only">Section navigation</h2>
         <p class="aux"><a class="link" href="../../../school-life/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life">School life</a></p>
         <ul class="list"><li><a class="link" href="../../../school-life/bell-times/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/bell-times">Bell times</a></li><li><a class="link" href="../../../school-life/bring-your-own-device/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/bring-your-own-device">Bring your own device</a></li><li><a class="link" href="../../../school-life/canteen/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/canteen">Canteen</a></li><li><a class="link" href="../../../school-life/events/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/events">Events</a></li><li><a class="link" href="../../../school-life/forms/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/forms">Forms</a></li><li><a class="link" href="../../../school-life/house-and-merit-system/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/house-and-merit-system">House and Merit System</a></li><li><a class="link" href="../../../school-life/lockers-and-lost-property/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/lockers-and-lost-property">Lockers and lost property</a></li><li><a class="link" href="../../../school-life/newsletters/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters">Newsletters</a></li><li><a class="link" href="../../../school-life/parent-portal/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal">Parent portal</a></li><li><a class="link" href="../../../school-life/stationery/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/stationery">Stationery</a></li><li><a class="link" href="../../../school-life/student-opportunities-and-activities/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities">Student opportunities and activities</a> <a class="link" href="../../../school-life/student-opportunities-and-activities/academic-competitions/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/academic-competitions">Academic Competitions</a> <a class="link" href="../../../school-life/student-opportunities-and-activities/clubs-and-committees/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/clubs-and-committees">Clubs and Committees</a> <a class="link" href="../../../school-life/student-opportunities-and-activities/creative-and-performing-arts/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/creative-and-performing-arts">Creative and Performing Arts</a> <a class="link" href="../../../school-life/student-opportunities-and-activities/debating-and-public-speaking/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/debating-and-public-speaking">Debating and Public Speaking</a> <a class="link" href="../../../school-life/student-opportunities-and-activities/duke-of-edinburgh-award/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/duke-of-edinburgh-award">Duke of Edinburgh Award</a> <a class="link" href="../../../school-life/student-opportunities-and-activities/instrumental-music-program/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/instrumental-music-program">Instrumental Music Program</a> <a class="link" href="../../../school-life/student-opportunities-and-activities/robotics-and-maker-society/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/robotics-and-maker-society">Robotics and Maker Society</a> <a class="link" href="../../../school-life/student-opportunities-and-activities/sport/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/sport">Sport</a> <a class="link" href="../../../school-life/student-opportunities-and-activities/student-leadership-opportunities/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/student-leadership-opportunities">Student Leadership Opportunities</a></li><li><a class="link" href="../../../school-life/travel-to-school/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school">Travel to school</a></li><li><a class="link" href="../../../school-life/uniform/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/uniform">Uniform</a></li></ul>
       </div></div></div>

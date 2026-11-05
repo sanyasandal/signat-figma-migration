@@ -2,7 +2,7 @@
 
 - Model: stardust/reskin/content-model/our-community-fortians-union/content-model.json
 - Rendered: stardust/migrated/our-community/fortians-union/index.html (scope: `main`)
-- Generated: 2026-11-05T10:30:45.865Z
+- Generated: 2026-11-05T20:25:07.781Z
 
 ## slot-coverage — 23/24 pass
 

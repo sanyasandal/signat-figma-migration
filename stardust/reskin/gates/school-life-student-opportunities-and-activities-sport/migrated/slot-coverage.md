@@ -2,7 +2,7 @@
 
 - Model: stardust/reskin/content-model/school-life-student-opportunities-and-activities-sport/content-model.json
 - Rendered: stardust/migrated/school-life/student-opportunities-and-activities/sport/index.html (scope: `main`)
-- Generated: 2026-11-05T10:32:32.953Z
+- Generated: 2026-11-05T20:27:53.443Z
 
 ## slot-coverage — 36/37 pass
 

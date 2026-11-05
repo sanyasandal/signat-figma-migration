@@ -44,11 +44,11 @@
     "description": "At Fort Street High School, we are proud to be part of a strong public education system and welcome students from all backgrounds and cultures.",
     "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/why-choose-us"
   },
-  "migratedAt": "2026-11-05T10:28:29Z",
+  "migratedAt": "2026-11-05T20:22:13Z",
   "designMdSha": "187c3f2f159f",
   "designJsonSha": "2d96d5b1c55f",
   "sourceCurrentSha": "19e86633ccdb",
-  "sourceProposedSha": "7c55633a9cdd",
+  "sourceProposedSha": "cf100001cb2e",
   "fidelityTier": "archetype",
   "archetypeSource": null,
   "archetypeSha": null,

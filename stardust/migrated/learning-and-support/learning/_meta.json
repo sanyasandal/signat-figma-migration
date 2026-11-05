@@ -41,11 +41,11 @@
     "description": "At Fort Street High School, we follow the NSW curriculum. We offer a wide range of subjects to support every student’s learning journey. Our teachers use effective teaching strategies to help students reach their goals. We also provide learning support to assist students who need extra help, so all students can succeed.",
     "url": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/learning"
   },
-  "migratedAt": "2026-11-05T10:28:29Z",
+  "migratedAt": "2026-11-05T20:22:12Z",
   "designMdSha": "187c3f2f159f",
   "designJsonSha": "2d96d5b1c55f",
   "sourceCurrentSha": "be60aef79956",
-  "sourceProposedSha": "e70b1e36fc56",
+  "sourceProposedSha": "7a4478271f97",
   "fidelityTier": "archetype",
   "archetypeSource": null,
   "archetypeSha": null,

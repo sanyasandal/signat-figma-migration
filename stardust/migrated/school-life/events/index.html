@@ -3,7 +3,7 @@
 <head>
 <!-- stardust:migrate
   writtenBy:        stardust:migrate
-  writtenAt:        2026-11-05T10:28:30Z
+  writtenAt:        2026-11-05T20:22:13Z
   page:             Events
   slug:             school-life-events
   pagePath:         migrated/school-life/events/index.html
@@ -390,7 +390,11 @@
     .site-main.has-rail.rail-reorder > section.rail-mobile-top { order: -1; }
     .site-main.has-rail.rail-reorder > section.rail-mobile-bottom { order: 1; }
     .site-main.has-rail > section.rail-mobile-hidden { display: none; }
+    .site-main.rail-top > section.rail-mobile-hidden { display: none; }
+    .site-main.rail-top > section.rail-mobile-bottom { order: 9999; }
   }
+  .site-main.rail-top { display: flex; flex-direction: column; }
+  .site-main.rail-top > section { min-width: 0; }
   .site-main h2.heading { font-size: var(--type-h2-font-size); line-height: var(--type-h2-line-height); font-weight: var(--type-h2-font-weight); }
   .site-main h3.heading { font-size: var(--type-h3-font-size); line-height: var(--type-h3-line-height); font-weight: var(--type-h3-font-weight); }
   .site-main h4.heading { font-size: var(--type-h4-font-size); line-height: var(--type-h4-line-height); font-weight: var(--type-h4-font-weight); }
@@ -556,7 +560,7 @@
 </style>
 <!-- stardust:prototype
   writtenBy:        stardust:reskin/stream-render
-  writtenAt:        2026-11-05T10:12:39.056Z
+  writtenAt:        2026-11-05T20:08:17.689Z
   page:             school-life-events
   pageUrl:          https://fortstreet-h.schools.nsw.gov.au/school-life/events
   template:         learning-and-support-learning
@@ -603,14 +607,14 @@
       <div class="nav-actions"><a class="sr-only" href="../../index.html#main-nav" data-source-href="https://fortstreet-h.schools.nsw.gov.au/#main-nav">Skip to navigation</a><a class="sr-only" href="../../index.html#main" data-source-href="https://fortstreet-h.schools.nsw.gov.au/#main">Skip to content</a><button class="icon-btn" type="button"><span class="glyph glyph-search" aria-hidden="true">search</span></button><button class="sr-only" type="button"><span class="sr-only">Show</span></button><button class="sr-only" type="button"><span class="sr-only">Search</span></button><button class="icon-btn nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><span class="glyph glyph-menu" aria-hidden="true"></span></button></div>
     </div></div>
 </header>
-<main class="site-main has-rail rail-start" style="--rail-width: 400px" data-template="learning-and-support-learning">
-  <section class="band layout-stack width-wide inset in-band" style="--band-inset: 16px; grid-row: 1" data-slot="s01" data-module="M3" data-section="1">
+<main class="site-main rail-top" data-template="learning-and-support-learning">
+  <section class="band layout-stack width-wide inset" style="--band-inset: 16px; order: 1" data-slot="s01" data-module="M3" data-section="1">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <ul class="list list-inline"><li><a class="link" href="../../index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/">Home</a></li><li><a class="link" href="../../school-life/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life">School life</a></li><li><a class="link" aria-current="page">Events</a></li></ul>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px; grid-row: 2" data-slot="s02" data-module="M5b" data-section="2">
+  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px; order: 3" data-slot="s02" data-module="M5b" data-section="2">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h1 class="heading">Events</h1>
@@ -620,7 +624,7 @@
         <p class="aux"><a class="link" href="../../contact-us/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/contact-us">Contact us</a> to learn more about our events.</p>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 3" data-slot="s03" data-section="3">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; order: 4" data-slot="s03" data-section="3">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Important Calendar Dates to start 2027</h2>
@@ -628,14 +632,14 @@
         <p class="lead">Year 7 first day</p></th><th><p class="lead">For Year 7 - Introduction to Fort Street High School commences at 9:00am.</p></th></tr><tr><td><p class="lead">Monday February 8</p></td><td><p class="lead">Swimming Carnival</p></td><td><p class="lead">Canterbury Leisure &amp; Aquatic Centre</p></td></tr><tr><td><p class="lead">Wednesday 10 – Friday 12 February</p></td><td><p class="lead">Year 7 Camp</p></td><td><p class="lead">Information will be provided to parents and carers before the end of Term 4, 2026.</p></td></tr><tr><td><p class="lead">Wednesday 10 – Friday 12 February</p></td><td><p class="lead">Year 11 Camp</p></td><td><p class="lead">Information will be provided to parents and carers before the end of Term 4, 2026.</p></td></tr><tr><td><p class="lead">Wednesday 24 February</p></td><td><p class="lead">School Photographs Day</p></td><td><p class="lead">Information and Photo Sheets will be sent home for parents/carers to place their order and return to the photographer on the day. Students are to wear full school uniform which includes the school tie.</p></td></tr><tr><td><p class="lead">Tuesday 2 March</p></td><td><p class="lead">Catchup Photographs Day</p></td><td><p class="lead">For students absent on School Photographs Day, this will be the final opportunity to have their individual photo taken.</p></td></tr><tr><td><p class="lead">Friday 26 February; commencing at 10:00am</p></td><td><p class="lead">Speech Day at the State Theatre</p></td><td><p class="lead">The annual school Speech Day is a compulsory event for all students. Students must be in full school uniform at this event which includes the school tie. A permission to attend note will be sent to all parents/carers. Year 7 students make their way to State Theatre and released at the end of Speech Day, around 1:00pm. Roll Call will occur before students enter State Theatre. Parents will receive a text message if their child is unexplained absence or have arrived late. Students who require teacher supervision will be escorted back to school until 3.15pm.</p></td></tr></tbody></table></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 4" data-slot="s04" data-module="M5b" data-section="4">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; order: 5" data-slot="s04" data-module="M5b" data-section="4">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Featured events</h2>
         <p class="aux">See what’s happening at our school. Visit <a class="link" href="../../our-community/pandc/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/our-community/pandc">Our community</a> to volunteer at our events.</p>
       </div></div></div>
     </section>
-  <section class="band layout-cards width-wide tone-light heading-h2 inset bleed" style="--band-inset: 16px; grid-row: 5" data-slot="s05" data-module="M11" data-section="5">
+  <section class="band layout-cards width-wide tone-light heading-h2 inset bleed" style="--band-inset: 16px; order: 6" data-slot="s05" data-module="M11" data-section="5">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <div class="cards" style="--cards-columns: 2"><div class="card"><figure class="media"><img src="../../assets/img/fortstreet-h.schools.nsw.gov.au/school-life/media_133142d6772d8942887edc23546ef02d22611eda6-957b21a4.jpg" data-source-src="https://fortstreet-h.schools.nsw.gov.au/school-life/media_133142d6772d8942887edc23546ef02d22611eda6.jpg?width=750&amp;format=webply&amp;optimize=medium" alt=""></figure>
@@ -678,7 +682,7 @@
         <p class="lead">Date: Thursday 17 December</p></div></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px; grid-row: 6" data-slot="s06" data-module="M9b" data-section="6">
+  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px; order: 7" data-slot="s06" data-module="M9b" data-section="6">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Need to make a payment?</h2>
@@ -686,7 +690,7 @@
         <div class="actions"><a class="btn" href="../../school-life/parent-portal/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal">Visit Parent portal</a></div>
       </div></div></div>
     </section>
-  <section class="band layout-split width-wide tone-light heading-h3 inset bleed media-first" style="--band-inset: 16px; grid-row: 7" data-slot="s07" data-module="M6" data-section="7">
+  <section class="band layout-split width-wide tone-light heading-h3 inset bleed media-first" style="--band-inset: 16px; order: 8" data-slot="s07" data-module="M6" data-section="7">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Key dates</h2>
@@ -694,7 +698,7 @@
         <div class="actions"><a class="btn" href="https://education.nsw.gov.au/schooling/calendars">View key school dates for NSW public schools</a></div>
       </div><img class="split-img" src="../../assets/img/fortstreet-h.schools.nsw.gov.au/school-life/media_1a7c7e671d59df64bf0f761d0872228c9f66e69b8-3d5a5588.jpg" data-source-src="https://fortstreet-h.schools.nsw.gov.au/school-life/media_1a7c7e671d59df64bf0f761d0872228c9f66e69b8.jpg?width=2000&amp;format=webply&amp;optimize=medium" alt="Illustration of two NSW Department of Education calendars."></div></div>
     </section>
-  <section class="band layout-cards width-wide heading-h2 inset align-center" style="--band-inset: 16px; grid-row: 8" data-slot="s08" data-module="M10" data-section="8">
+  <section class="band layout-cards width-wide heading-h2 inset align-center" style="--band-inset: 16px; order: 9" data-slot="s08" data-module="M10" data-section="8">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Discover more events</h2>
@@ -708,7 +712,7 @@
         <span class="glyph glyph-right" aria-hidden="true">east</span></div></div>
       </div></div></div>
     </section>
-  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 9" data-slot="s09" data-module="M11b" data-section="9">
+  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px; order: 10" data-slot="s09" data-module="M11b" data-section="9">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <div class="cards" style="--cards-columns: 2"><div class="card"><p class="aux"><a class="link" href="../../school-life/newsletters/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters">Newsletters</a></p>
@@ -718,10 +722,10 @@
         <span class="glyph glyph-right" aria-hidden="true">east</span></div></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h4 inset in-rail rail-mobile-hidden" style="--band-inset: 16px; grid-row: 2 / 10" data-slot="s10" data-module="M3" data-section="10">
+  <section class="band layout-stack width-wide heading-h4 inset in-top rail-mobile-hidden" style="--band-inset: 16px; order: 2" data-slot="s10" data-module="M3" data-section="10">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
-          <h2 class="heading">Section navigation</h2>
+          <h2 class="heading sr-only">Section navigation</h2>
         <p class="aux"><a class="link" href="../../school-life/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life">School life</a></p>
         <ul class="list"><li><a class="link" href="../../school-life/bell-times/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/bell-times">Bell times</a></li><li><a class="link" href="../../school-life/bring-your-own-device/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/bring-your-own-device">Bring your own device</a></li><li><a class="link" href="../../school-life/canteen/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/canteen">Canteen</a></li><li><a class="link" href="../../school-life/events/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/events">Events</a></li><li><a class="link" href="../../school-life/forms/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/forms">Forms</a></li><li><a class="link" href="../../school-life/house-and-merit-system/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/house-and-merit-system">House and Merit System</a></li><li><a class="link" href="../../school-life/lockers-and-lost-property/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/lockers-and-lost-property">Lockers and lost property</a></li><li><a class="link" href="../../school-life/newsletters/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters">Newsletters</a></li><li><a class="link" href="../../school-life/parent-portal/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal">Parent portal</a></li><li><a class="link" href="../../school-life/stationery/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/stationery">Stationery</a></li><li><a class="link" href="../../school-life/student-opportunities-and-activities/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities">Student opportunities and activities</a></li><li><a class="link" href="../../school-life/travel-to-school/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school">Travel to school</a></li><li><a class="link" href="../../school-life/uniform/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/uniform">Uniform</a></li></ul>
       </div></div></div>

@@ -3,7 +3,7 @@
 - Tokens: stardust/reskin/donor-tokens.json
 - Rendered: stardust/migrated/our-community/foundation-tertiary-bursaries/index.html
 - Spec: default (rendered-page conventions)
-- Generated: 2026-11-05T10:30:50.518Z
+- Generated: 2026-11-05T20:25:20.397Z
 
 ## Assertions — 9/9 pass (6 skipped)
 
