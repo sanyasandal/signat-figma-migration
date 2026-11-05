@@ -1,0 +1,31 @@
+.table .table-wrap {
+  overflow-x: auto;
+  margin: 0 0 24px;
+}
+
+.table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table :is(th, td) {
+  padding: 16px;
+  border-bottom: 1px solid var(--palette-light-band-bg);
+  text-align: left;
+  vertical-align: top;
+}
+
+.table th {
+  background: var(--palette-light-band-bg);
+  color: var(--palette-heading-fg);
+}
+
+.table :is(th, td) p {
+  margin: 0;
+}
+
+@media (width <= 640px) {
+  .table :is(th, td) {
+    padding: 8px;
+  }
+}
