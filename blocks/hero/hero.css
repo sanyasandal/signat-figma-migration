@@ -9,7 +9,7 @@ main > .section.hero-container > .hero-wrapper {
 .hero {
   position: relative;
   overflow: hidden;
-  padding: var(--layout-section-padding-y) 24px;
+  padding: var(--layout-section-padding-y) 0;
   background: var(--palette-light-band-bg);
 }
 
@@ -23,8 +23,10 @@ main > .section.hero-container > .hero-wrapper {
 
 .hero .hero-inner {
   position: relative;
+  box-sizing: content-box;
   max-width: var(--layout-container-max-width);
   margin: 0 auto;
+  padding: 0 24px;
 }
 
 .hero .hero-panel {
@@ -52,13 +54,14 @@ main > .section.hero-container > .hero-wrapper {
 
 /* banner with no photograph: the whole band is the dark ground (quote band) */
 .hero.no-media {
-  padding: var(--layout-section-padding-y) var(--layout-gutter);
+  padding: var(--layout-section-padding-y) 0;
   background: var(--palette-dark-band-bg);
   color: var(--palette-dark-band-fg);
 }
 
 .hero.no-media .hero-inner {
   max-width: none;
+  padding: 0 var(--layout-gutter);
 }
 
 .hero.no-media .hero-panel {
@@ -68,7 +71,11 @@ main > .section.hero-container > .hero-wrapper {
 
 @media (width <= 640px) {
   .hero {
-    padding: var(--layout-mobile-section-padding-y) var(--layout-mobile-gutter);
+    padding: var(--layout-mobile-section-padding-y) 0;
+  }
+
+  .hero .hero-inner {
+    padding: 0 var(--layout-mobile-gutter);
   }
 
   .hero .hero-panel {
@@ -80,7 +87,11 @@ main > .section.hero-container > .hero-wrapper {
   }
 
   .hero.no-media {
-    padding: var(--layout-section-padding-y) var(--layout-mobile-gutter);
+    padding: var(--layout-section-padding-y) 0;
+  }
+
+  .hero.no-media .hero-inner {
+    padding: 0 var(--layout-mobile-gutter);
   }
 
   .hero.no-media .hero-panel {

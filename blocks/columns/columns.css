@@ -51,6 +51,10 @@ main .section.columns-container:has(.columns.tinted) {
 }
 
 @media (width <= 640px) {
+  .columns h2 {
+    font-size: min(var(--type-display-font-size), 11vw);
+  }
+
   main .section.columns-container:has(.columns.tinted) {
     padding: var(--layout-section-padding-y) 0;
   }

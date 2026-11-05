@@ -20,12 +20,14 @@
   font-family: var(--type-body-font-family);
   font-size: var(--type-h4-font-size);
   line-height: 1.25;
+  letter-spacing: normal;
   color: var(--cards-primary-title-color);
 }
 
 .cards .card :is(h3, h4) a:any-link {
   text-decoration: none;
 }
+
 
 .cards .card.has-media {
   overflow: hidden;
@@ -113,16 +115,14 @@ main .section.cards-container:has(.cards:not(.value, .social)) > .cards-wrapper 
   gap: 1px;
 }
 
-/* social strip: centred head, post excerpts clamp at three lines */
+/* social strip: centred head (the heading shrinks to its text, as on the reskin page) */
 main .section.cards-container:has(.cards.social) .default-content-wrapper {
   text-align: center;
 }
 
-.cards.social .card p {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-  overflow: hidden;
+main .section.cards-container:has(.cards.social) .default-content-wrapper h2 {
+  width: fit-content;
+  margin-inline: auto;
 }
 
 @media (width <= 900px) {
@@ -137,6 +137,10 @@ main .section.cards-container:has(.cards.social) .default-content-wrapper {
 }
 
 @media (width <= 640px) {
+  main .section.cards-container:has(.cards:not(.value, .social)) > .cards-wrapper {
+    padding: 0 var(--layout-mobile-gutter);
+  }
+
   main .section.cards-container:has(.cards.tinted) {
     padding: var(--layout-section-padding-y) 0;
   }

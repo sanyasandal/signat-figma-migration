@@ -53,8 +53,13 @@ header .header .brand {
   min-width: 0;
 }
 
+header .header .brand picture {
+  flex: none;
+}
+
 header .header .brand .logo {
   width: auto;
+  max-width: none;
   height: 56px;
 }
 
@@ -183,6 +188,15 @@ header .header .nav-toggle {
 
   header.nav-open .header .chrome-row .container {
     flex-wrap: wrap;
+  }
+
+  header.nav-open .header .utility-bar {
+    display: block;
+    order: 4;
+  }
+
+  header.nav-open .header .utility-bar .container {
+    justify-content: flex-start;
   }
 
   header.nav-open .header nav {

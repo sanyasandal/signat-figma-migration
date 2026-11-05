@@ -54,8 +54,13 @@ footer .footer .footer-brand > p {
   max-width: 300px;
 }
 
+footer .footer .footer-brand picture {
+  display: block;
+}
+
 footer .footer .footer-brand .logo {
   display: block;
+  max-width: none;
   width: auto;
   height: 48px;
   min-height: 48px;

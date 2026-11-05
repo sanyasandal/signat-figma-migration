@@ -369,10 +369,16 @@ main .section.statement {
 }
 
 main .section.statement > div {
-  max-width: 550px;
+  box-sizing: content-box;
+  max-width: var(--layout-container-max-width);
   margin: 0 auto;
-  padding: 0;
+  padding: 0 24px;
   text-align: center;
+}
+
+main .section.statement > div > * {
+  max-width: 550px;
+  margin-inline: auto;
 }
 
 main .section.statement h1,
@@ -382,8 +388,9 @@ main .section.statement h2 {
   letter-spacing: var(--type-display-letter-spacing);
 }
 
-main .section.statement p:has(> :is(picture, img):only-child) {
-  margin: 13px 40px;
+main .section.statement > div > p:has(> :is(picture, img):only-child) {
+  max-width: 470px;
+  margin: 13px auto;
 }
 
 main .section.statement p > :is(picture img, img) {
@@ -436,11 +443,19 @@ main .section.section-nav h2 {
   }
 
   main .section.statement {
-    padding: var(--layout-section-padding-y) var(--layout-mobile-gutter);
+    padding: var(--layout-section-padding-y) 0;
   }
 
   main .section.statement > div {
-    padding: 32px var(--layout-mobile-gutter);
+    padding: 32px calc(var(--layout-mobile-gutter) * 2);
+  }
+
+  main .section.statement > div > p:has(> :is(picture, img):only-child) {
+    max-width: calc(100% - 80px);
+  }
+
+  main .section.section-nav h2 {
+    font-size: min(var(--type-display-font-size), 11vw);
   }
 
   main .section.statement :is(h1, h2) {
