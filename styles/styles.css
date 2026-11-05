@@ -353,8 +353,8 @@ main .section:empty {
   display: none;
 }
 
-/* default-content images (a paragraph holding only a picture) */
-/* 13px 40px is the reskin figure's margin; +5px below is its inline-image descender */
+/* default-content images (a paragraph holding only a picture): 13px 40px is the reskin figure's
+   margin, +5px below is its inline-image descender */
 main .default-content-wrapper p:has(> :is(picture, img):only-child) {
   margin: 13px 40px 18px;
 }
