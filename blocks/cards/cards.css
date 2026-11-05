@@ -141,6 +141,10 @@ main .section.cards-container:has(.cards.social) .default-content-wrapper h2 {
     padding: 0 var(--layout-mobile-gutter);
   }
 
+  main .section.cards-container:has(.cards:not(.value, .social)) > .default-content-wrapper {
+    padding: 0 calc(var(--layout-mobile-gutter) * 2);
+  }
+
   main .section.cards-container:has(.cards.tinted) {
     padding: var(--layout-section-padding-y) 0;
   }

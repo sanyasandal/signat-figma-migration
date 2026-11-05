@@ -358,9 +358,14 @@ main .default-content-wrapper p:has(> :is(picture, img):only-child) {
   margin: 13px 40px;
 }
 
-main .default-content-wrapper p > :is(picture img, img) {
-  width: auto;
+/* width 100% + contain: the box is reserved from the width/height attributes before a lazy image
+   loads (width:auto collapses it), and the picture still sits left at its natural size */
+main .default-content-wrapper p > img,
+main .default-content-wrapper p > picture > img {
+  width: 100%;
   max-height: 360px;
+  object-fit: contain;
+  object-position: left center;
 }
 
 /* section style: statement (M5 centred statement band) */
@@ -393,8 +398,9 @@ main .section.statement > div > p:has(> :is(picture, img):only-child) {
   margin: 13px auto;
 }
 
-main .section.statement p > :is(picture img, img) {
-  margin: 0 auto;
+main .section.statement p > img,
+main .section.statement p > picture > img {
+  object-position: center;
 }
 
 /* section style: breadcrumb (M3 tab row) */

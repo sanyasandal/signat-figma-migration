@@ -140,7 +140,8 @@ footer .footer .social-icon svg {
     white-space: nowrap;
   }
 
-  footer .footer li {
+  footer .footer li,
+  footer .footer .footer-social li {
     margin-bottom: 12px;
   }
 }
