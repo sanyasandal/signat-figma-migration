@@ -130,7 +130,8 @@ const elHtml = (i, ctx = {}) => {
       const rows = i.rows.map((r) => `<div>${Array.from({ length: cols }, (_, k) => `<div>${r[k]?.html ?? ''}</div>`).join('')}</div>`).join('');
       return `<div class="table${header ? '' : ' no-header'}">${rows}</div>`;
     }
-    case 'embed': return `<div class="embed"><div><div><p><a href="${esc(i.href)}">${esc(i.href)}</a></p></div></div></div>`;
+    // D1: an embed URL is a plain link in default content; buildAutoBlocks() makes it the embed block
+    case 'embed': return `<p><a href="${esc(i.href)}">${esc(i.href)}</a></p>`;
     default: throw new Error(`eds-content: no default-content form for ${i.kind}`);
   }
 };

@@ -74,6 +74,19 @@ function buildWidgetAutoBlocks(main) {
 }
 
 /**
+ * Turns a video or map URL authored alone in a paragraph into an embed block (D1 auto-blocking).
+ * @param {Element} main The container element
+ */
+function buildEmbedAutoBlocks(main) {
+  const EMBED = /^https:\/\/(www\.google\.com\/maps\/embed|bcove\.video\/|players\.brightcove\.net\/|www\.youtube\.com\/(watch|embed)|youtu\.be\/)/;
+  main.querySelectorAll('p > a[href]').forEach((a) => {
+    const p = a.parentElement;
+    if (!EMBED.test(a.href) || a.closest('.embed') || p.textContent.trim() !== a.textContent.trim()) return;
+    p.replaceWith(buildBlock('embed', { elems: [a.cloneNode(true)] }));
+  });
+}
+
+/**
  * Builds all synthetic blocks in a container element.
  * @param {Element} main The container element
  */
@@ -97,6 +110,7 @@ function buildAutoBlocks(main) {
       });
     }
     buildWidgetAutoBlocks(main);
+    buildEmbedAutoBlocks(main);
   } catch (error) {
     // eslint-disable-next-line no-console
     console.error('Auto Blocking failed', error);
