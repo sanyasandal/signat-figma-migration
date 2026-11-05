@@ -29,6 +29,14 @@
 }
 
 
+/* a real heading in a card (not a link title) takes the h3 role, as on the reskin page */
+.cards .card :is(h2, h3, h4):not(:has(> a:only-child)) {
+  font-family: var(--type-display-font-family);
+  font-size: var(--type-h3-font-size);
+  line-height: var(--type-h3-line-height);
+  letter-spacing: var(--type-h3-letter-spacing);
+}
+
 .cards .card.has-media {
   overflow: hidden;
   padding: 0 0 32px;
@@ -49,7 +57,7 @@
   object-fit: cover;
 }
 
-.cards .card.has-media :is(h3, h4) {
+.cards .card.has-media :is(h3, h4):has(> a:only-child) {
   font-size: var(--type-body-font-size);
   line-height: var(--type-body-line-height);
 }
@@ -137,6 +145,10 @@ main .section.cards-container:has(.cards.social) .default-content-wrapper h2 {
 }
 
 @media (width <= 640px) {
+  .cards .card :is(h2, h3, h4):not(:has(> a:only-child)) {
+    font-size: min(var(--type-display-font-size), 11vw);
+  }
+
   main .section.cards-container:has(.cards:not(.value, .social)) > .cards-wrapper {
     padding: 0 var(--layout-mobile-gutter);
   }

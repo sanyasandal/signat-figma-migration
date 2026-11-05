@@ -12,6 +12,9 @@ export default function decorate(block) {
       const pic = col.querySelector('picture, img');
       if (pic && col.textContent.trim() === '') {
         col.classList.add('columns-img-col');
+        // a small picture keeps its own size: cap the reserved box at the intrinsic width
+        const img = pic.tagName === 'IMG' ? pic : pic.querySelector('img');
+        if (img?.getAttribute('width')) img.style.maxWidth = `min(100%, ${img.getAttribute('width')}px)`;
         if (i === 0) row.classList.add('media-first');
       }
     });

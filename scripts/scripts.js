@@ -173,6 +173,17 @@ function decorateExternalLinks(root) {
 }
 
 /**
+ * Prose images reserve their box at width 100% (lazy-load safe); a small one is capped at its
+ * intrinsic width so its box is its own size.
+ * @param {HTMLElement} main The main container element
+ */
+function decorateProseImages(main) {
+  main.querySelectorAll('.default-content-wrapper p > img[width], .default-content-wrapper p > picture > img[width]').forEach((img) => {
+    img.style.maxWidth = `min(100%, ${img.getAttribute('width')}px)`;
+  });
+}
+
+/**
  * Breadcrumb crumbs sit inline with no text between them (the divider is a CSS rule): drop the
  * whitespace-only text nodes the delivered markup puts between the list items.
  * @param {HTMLElement} main The main container element
@@ -210,6 +221,7 @@ async function loadEager(doc) {
     decorateMain(main);
     decorateExternalLinks(main);
     decorateBreadcrumb(main);
+    decorateProseImages(main);
     document.body.classList.add('appear');
     await loadSection(main.querySelector('.section'), waitForFirstImage);
   }
