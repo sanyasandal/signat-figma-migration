@@ -173,6 +173,19 @@ function decorateExternalLinks(root) {
 }
 
 /**
+ * Breadcrumb crumbs sit inline with no text between them (the divider is a CSS rule): drop the
+ * whitespace-only text nodes the delivered markup puts between the list items.
+ * @param {HTMLElement} main The main container element
+ */
+function decorateBreadcrumb(main) {
+  main.querySelectorAll('.section.breadcrumb ul').forEach((ul) => {
+    [...ul.childNodes].forEach((n) => {
+      if (n.nodeType === Node.TEXT_NODE && !n.textContent.trim()) n.remove();
+    });
+  });
+}
+
+/**
  * Decorates the main element.
  * @param {Element} main The main element
  */
@@ -196,6 +209,7 @@ async function loadEager(doc) {
   if (main) {
     decorateMain(main);
     decorateExternalLinks(main);
+    decorateBreadcrumb(main);
     document.body.classList.add('appear');
     await loadSection(main.querySelector('.section'), waitForFirstImage);
   }
