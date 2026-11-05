@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:reskin/capture-content.mjs",
-    "capturedAt": "2026-11-05T09:44:13.232Z",
+    "capturedAt": "2026-11-05T19:58:12.352Z",
     "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives/fort-street-archives",
     "viewport": "1440x900",
     "scope": "nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!",
@@ -27,7 +27,7 @@
     },
     "settle": {
       "firstLen": 5394,
-      "waitedMs": 1516,
+      "waitedMs": 1513,
       "stable": true,
       "settledLen": 5394,
       "lateChars": 0
@@ -1520,6 +1520,7 @@
           "kind": "heading",
           "text": "Section navigation",
           "display": "block",
+          "srOnly": true,
           "level": "h2",
           "sep": ""
         },

@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:reskin/capture-content.mjs",
-    "capturedAt": "2026-11-05T09:43:56.374Z",
+    "capturedAt": "2026-11-05T19:58:01.220Z",
     "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/hsc-results",
     "viewport": "1440x900",
     "scope": "nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!",
@@ -27,7 +27,7 @@
     },
     "settle": {
       "firstLen": 12583,
-      "waitedMs": 1511,
+      "waitedMs": 1509,
       "stable": true,
       "settledLen": 12583,
       "lateChars": 0
@@ -2488,6 +2488,7 @@
           "kind": "heading",
           "text": "Section navigation",
           "display": "block",
+          "srOnly": true,
           "level": "h2",
           "sep": ""
         },

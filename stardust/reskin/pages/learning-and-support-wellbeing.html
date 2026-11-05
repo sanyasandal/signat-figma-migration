@@ -233,7 +233,11 @@
     .site-main.has-rail.rail-reorder > section.rail-mobile-top { order: -1; }
     .site-main.has-rail.rail-reorder > section.rail-mobile-bottom { order: 1; }
     .site-main.has-rail > section.rail-mobile-hidden { display: none; }
+    .site-main.rail-top > section.rail-mobile-hidden { display: none; }
+    .site-main.rail-top > section.rail-mobile-bottom { order: 9999; }
   }
+  .site-main.rail-top { display: flex; flex-direction: column; }
+  .site-main.rail-top > section { min-width: 0; }
   .site-main h2.heading { font-size: var(--type-h2-font-size); line-height: var(--type-h2-line-height); font-weight: var(--type-h2-font-weight); }
   .site-main h3.heading { font-size: var(--type-h3-font-size); line-height: var(--type-h3-line-height); font-weight: var(--type-h3-font-weight); }
   .site-main h4.heading { font-size: var(--type-h4-font-size); line-height: var(--type-h4-line-height); font-weight: var(--type-h4-font-weight); }
@@ -399,7 +403,7 @@
 </style>
 <!-- stardust:prototype
   writtenBy:        stardust:reskin/stream-render
-  writtenAt:        2026-11-05T10:12:05.400Z
+  writtenAt:        2026-11-05T20:04:13.788Z
   page:             learning-and-support-wellbeing
   pageUrl:          https://fortstreet-h.schools.nsw.gov.au/learning-and-support/wellbeing
   template:         learning-and-support-learning
@@ -446,14 +450,14 @@
       <div class="nav-actions"><a class="sr-only" href="https://fortstreet-h.schools.nsw.gov.au/#main-nav">Skip to navigation</a><a class="sr-only" href="https://fortstreet-h.schools.nsw.gov.au/#main">Skip to content</a><button class="icon-btn" type="button"><span class="glyph glyph-search" aria-hidden="true">search</span></button><button class="sr-only" type="button"><span class="sr-only">Show</span></button><button class="sr-only" type="button"><span class="sr-only">Search</span></button><button class="icon-btn nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><span class="glyph glyph-menu" aria-hidden="true"></span></button></div>
     </div></div>
 </header>
-<main class="site-main has-rail rail-start" style="--rail-width: 400px" data-template="learning-and-support-learning">
-  <section class="band layout-stack width-wide inset in-band" style="--band-inset: 16px; grid-row: 1" data-slot="s01" data-module="M3">
+<main class="site-main rail-top" data-template="learning-and-support-learning">
+  <section class="band layout-stack width-wide inset" style="--band-inset: 16px; order: 1" data-slot="s01" data-module="M3">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <ul class="list list-inline"><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/">Home</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/learning-and-support">Learning and support</a></li><li><a class="link" aria-current="page">Wellbeing</a></li></ul>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px; grid-row: 2" data-slot="s02" data-module="M5b">
+  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px; order: 3" data-slot="s02" data-module="M5b">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h1 class="heading">Wellbeing</h1>
@@ -461,7 +465,7 @@
         <figure class="media media-wide"><img src="assets/img/fortstreet-h.schools.nsw.gov.au/learning-and-support/media_134e079c16c877e3a8bdedf4cc98c2abe99cada5e-3d5a5588.jpg" data-source-src="https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_134e079c16c877e3a8bdedf4cc98c2abe99cada5e.jpg?width=2000&amp;format=webply&amp;optimize=medium" alt=""></figure>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 3" data-slot="s03">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; order: 4" data-slot="s03">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Student Wellbeing</h2>
@@ -533,7 +537,7 @@
         <p class="aux"><a class="link" href="https://education.nsw.gov.au/schooling/parents-and-carers">Support for Parents and carers at home</a></p></div></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 4" data-slot="s04" data-module="M5b">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; order: 5" data-slot="s04" data-module="M5b">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Wellbeing Framework</h2>
@@ -544,7 +548,7 @@
         <figure class="media media-wide"><img src="assets/img/fortstreet-h.schools.nsw.gov.au/learning-and-support/media_1b4b2e8b69ac3735e6406430dd0551b9a8134d730-3d5a5588.png" data-source-src="https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_1b4b2e8b69ac3735e6406430dd0551b9a8134d730.png?width=2000&amp;format=webply&amp;optimize=medium" alt=""></figure>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 5" data-slot="s05">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; order: 6" data-slot="s05">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <div class="disclosure"><button class="disclosure-toggle" type="button" aria-expanded="false" aria-controls="disclosure-3">Aboriginal student support <span class="glyph glyph-down" aria-hidden="true">keyboard_arrow_down</span></button><div class="disclosure-panel" id="disclosure-3" hidden="until-found"><p class="lead">We are committed to closing the achievement gap for Aboriginal and Torres Strait Islander students. We know that we need to learn about, nurture and value the cultural identity of our Aboriginal students to help them be successful learners.</p>
@@ -574,7 +578,7 @@
         <p class="aux">Visit <a class="link" href="https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff">Our principal and staff</a> to learn about our wellbeing and specialist support staff.</p></div></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 6" data-slot="s06">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; order: 7" data-slot="s06">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h1 class="heading">Student Health</h1>
@@ -589,7 +593,7 @@
         <p class="lead">For any questions relating to health conditions please contact the Front Office staff on 8585 1600.</p></div></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px; grid-row: 7" data-slot="s07" data-module="M9b">
+  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px; order: 8" data-slot="s07" data-module="M9b">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Need support for your child's wellbeing?</h2>
@@ -597,7 +601,7 @@
         <div class="actions"><a class="btn" href="https://fortstreet-h.schools.nsw.gov.au/contact-us">Contact us</a></div>
       </div></div></div>
     </section>
-  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 8" data-slot="s08" data-module="M11b">
+  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px; order: 9" data-slot="s08" data-module="M11b">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <div class="cards" style="--cards-columns: 2"><div class="card"><p class="aux"><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support">Additional learning support</a></p>
@@ -607,10 +611,10 @@
         <span class="glyph glyph-right" aria-hidden="true">east</span></div></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h4 inset in-rail rail-mobile-hidden" style="--band-inset: 16px; grid-row: 2 / 9" data-slot="s09" data-module="M3">
+  <section class="band layout-stack width-wide heading-h4 inset in-top rail-mobile-hidden" style="--band-inset: 16px; order: 2" data-slot="s09" data-module="M3">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
-          <h2 class="heading">Section navigation</h2>
+          <h2 class="heading sr-only">Section navigation</h2>
         <p class="aux"><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/learning-and-support">Learning and support</a></p>
         <ul class="list"><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support">Additional learning support</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/learning-and-support/careers">Careers</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/learning-and-support/high-potential-and-gifted-education">Inspire – High potential and gifted education</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/learning-and-support/learning">Learning</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/learning-and-support/wellbeing">Wellbeing</a></li></ul>
       </div></div></div>

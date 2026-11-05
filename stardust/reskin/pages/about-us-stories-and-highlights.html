@@ -235,7 +235,11 @@
     .site-main.has-rail.rail-reorder > section.rail-mobile-top { order: -1; }
     .site-main.has-rail.rail-reorder > section.rail-mobile-bottom { order: 1; }
     .site-main.has-rail > section.rail-mobile-hidden { display: none; }
+    .site-main.rail-top > section.rail-mobile-hidden { display: none; }
+    .site-main.rail-top > section.rail-mobile-bottom { order: 9999; }
   }
+  .site-main.rail-top { display: flex; flex-direction: column; }
+  .site-main.rail-top > section { min-width: 0; }
   .site-main h2.heading { font-size: var(--type-h2-font-size); line-height: var(--type-h2-line-height); font-weight: var(--type-h2-font-weight); }
   .site-main h3.heading { font-size: var(--type-h3-font-size); line-height: var(--type-h3-line-height); font-weight: var(--type-h3-font-weight); }
   .site-main h4.heading { font-size: var(--type-h4-font-size); line-height: var(--type-h4-line-height); font-weight: var(--type-h4-font-weight); }
@@ -401,7 +405,7 @@
 </style>
 <!-- stardust:prototype
   writtenBy:        stardust:reskin/stream-render
-  writtenAt:        2026-11-05T10:11:34.842Z
+  writtenAt:        2026-11-05T20:08:06.462Z
   page:             about-us-stories-and-highlights
   pageUrl:          https://fortstreet-h.schools.nsw.gov.au/about-us/stories-and-highlights
   template:         learning-and-support-learning
@@ -448,14 +452,14 @@
       <div class="nav-actions"><a class="sr-only" href="https://fortstreet-h.schools.nsw.gov.au/#main-nav">Skip to navigation</a><a class="sr-only" href="https://fortstreet-h.schools.nsw.gov.au/#main">Skip to content</a><button class="icon-btn" type="button"><span class="glyph glyph-search" aria-hidden="true">search</span></button><button class="sr-only" type="button"><span class="sr-only">Show</span></button><button class="sr-only" type="button"><span class="sr-only">Search</span></button><button class="icon-btn nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><span class="glyph glyph-menu" aria-hidden="true"></span></button></div>
     </div></div>
 </header>
-<main class="site-main has-rail rail-start" style="--rail-width: 400px" data-template="learning-and-support-learning">
-  <section class="band layout-stack width-wide inset in-band" style="--band-inset: 16px; grid-row: 1" data-slot="s01" data-module="M3">
+<main class="site-main rail-top" data-template="learning-and-support-learning">
+  <section class="band layout-stack width-wide inset" style="--band-inset: 16px; order: 1" data-slot="s01" data-module="M3">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <ul class="list list-inline"><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/">Home</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/about-us">About us</a></li><li><a class="link" aria-current="page">Stories and highlights</a></li></ul>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px; grid-row: 2" data-slot="s02" data-module="M5b">
+  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px; order: 3" data-slot="s02" data-module="M5b">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h1 class="heading">Stories and highlights</h1>
@@ -464,7 +468,7 @@
         <ul class="list"><li><img class="inline-media" src="assets/img/fortstreet-h.schools.nsw.gov.au/about-us/media_1a7eb996ba70c251c4839ed24cb1baf1c4f8f85be-2f4d9dd0.jpg" data-source-src="https://fortstreet-h.schools.nsw.gov.au/about-us/media_1a7eb996ba70c251c4839ed24cb1baf1c4f8f85be.jpg?width=750&amp;format=jpg&amp;optimize=medium" alt="Speech day">Speech Day In February we held our annual Speech Day. The gathering at Sydney Town Hall, is an opportunity to celebrate the outstanding achievements of our students and it is wonderful to be able to share this occasion with parents and former Fortians in such a beautiful venue. Our guest speaker, Professor Margaret Burgess, Fortian from the Class of 1954, shared her insightful reflections including her memories of starting at Fort Street during the Centenary year. Additionally, Auslee Pamintuan, the School Dux of 2024, delivered a wonderful valedictorian speech, making particular mention of his gratitude to his cohort.</li><li><img class="inline-media" src="assets/img/fortstreet-h.schools.nsw.gov.au/about-us/media_19d25580c16233087a1c95606d2ad7a8370e6e94f-2f4d9dd0.jpg" data-source-src="https://fortstreet-h.schools.nsw.gov.au/about-us/media_19d25580c16233087a1c95606d2ad7a8370e6e94f.jpg?width=750&amp;format=jpg&amp;optimize=medium" alt="Year 11 Life Ready Camp">Year 11 Life Ready Camp Year 11 attended the Life Ready Camp at the Sydney Academy of Sport and Recreation at Narrabeen. Life Ready is a course mandated by the Department of Education designed to prepare students for situations related to health and safety they may encounter as they grow into more independent people increasingly responsible for themselves and others. It was a busy time divided across a range of outdoor activities and a suite of sessions on topics such as independence, relationships, sexual health.</li><li><img class="inline-media" src="assets/img/fortstreet-h.schools.nsw.gov.au/about-us/media_1f72ce2e3c3332a0b1c7dd74342407259860765e1-2f4d9dd0.jpg" data-source-src="https://fortstreet-h.schools.nsw.gov.au/about-us/media_1f72ce2e3c3332a0b1c7dd74342407259860765e1.jpg?width=750&amp;format=jpg&amp;optimize=medium" alt="Year 7 camp">Year 7 camp The Year 7 Camp was held at Point Wolstoncroft Sport and Recreation Centre. During the camp, students had the opportunity to participate in a range of activities including: raft building, canoeing, sailing, archery, team challenge, standup paddleboard and teacher and peer support led sessions in the day and evening.</li><li><img class="inline-media" src="assets/img/fortstreet-h.schools.nsw.gov.au/about-us/media_1bacbed255da6406a6f7e310a5843dcc02b1684a3-660a5005.png" data-source-src="https://fortstreet-h.schools.nsw.gov.au/about-us/media_1bacbed255da6406a6f7e310a5843dcc02b1684a3.png?width=750&amp;format=png&amp;optimize=medium" alt="Swimming Carnival">Swimming Carnival The swimming carnival proved to be a resounding success again this year, with a commendable turnout from our students. Mawson’s enthusiasm and house spirit saw them win the hotly contested house chant – congratulations to them! There were also action-packed inflatables house races that proved to be lots of fun. It was great to witness enthusiastic student participation in various events, setting a positive tone for the upcoming fiercely contested Kennedy Cup.</li><li><img class="inline-media" src="assets/img/fortstreet-h.schools.nsw.gov.au/about-us/media_1145293b25a61ef63fc51759017f43fc0c527d128-2f4d9dd0.jpg" data-source-src="https://fortstreet-h.schools.nsw.gov.au/about-us/media_1145293b25a61ef63fc51759017f43fc0c527d128.jpg?width=750&amp;format=jpg&amp;optimize=medium" alt="Multicultural day">Multicultural Day Multicultural Day was held in August with over 20 different cultural stalls open at recess and lunch in the Kilgour Quad to showcase the incredible cultures that make up our school community. Students were invited to wear their best cultural dress and represent their culture. The SRC also hosted a Multicultural Day assembly, including our flag bearing parade and some wonderful student cultural performances.</li><li><img class="inline-media" src="assets/img/fortstreet-h.schools.nsw.gov.au/about-us/media_1b37ffc240e5c586742cdad77d2e066cb7a0aed1a-2f4d9dd0.jpg" data-source-src="https://fortstreet-h.schools.nsw.gov.au/about-us/media_1b37ffc240e5c586742cdad77d2e066cb7a0aed1a.jpg?width=750&amp;format=jpg&amp;optimize=medium" alt="IMP camp">IMP Camp IMP camp, held from 21-23 March, was a huge success with 186 participants and 22 amazing conducting and tutoring staff. Students spent the weekend immersed in music, in the beautiful natural setting of CRU Galston Gorge, culminating in a spectacular final concert featuring diverse range of music from Romantic, Modern Classical and Jazz through to Taiko drumming and the Beatles. Rather than being a rehearsal camp for our regular ensemble, at IMP Camp we form 16 entirely new ensembles for the weekend, in which the focus is on skill-building through the repertoire we play. The development of all of the students in such a short space of time was phenomenal to see!</li></ul>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-narrow tone-light heading-display bleed align-center" style="grid-row: 3" data-slot="s03" data-module="M5">
+  <section class="band layout-stack width-narrow tone-light heading-display bleed align-center" style="order: 4" data-slot="s03" data-module="M5">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <p class="lead">Fort Street has been a fantastic high school for our son.</p>
@@ -473,7 +477,7 @@
         <p class="lead">— Emma, a parent of Fort Street High School</p>
       </div></div></div>
     </section>
-  <section class="band layout-cards width-wide heading-h2 inset align-center" style="--band-inset: 16px; grid-row: 4" data-slot="s04" data-module="M10">
+  <section class="band layout-cards width-wide heading-h2 inset align-center" style="--band-inset: 16px; order: 5" data-slot="s04" data-module="M10">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Discover more highlights</h2>
@@ -487,7 +491,7 @@
         <span class="glyph glyph-right" aria-hidden="true">east</span></div></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px; grid-row: 5" data-slot="s05" data-module="M9b">
+  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px; order: 6" data-slot="s05" data-module="M9b">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Have a story to share?</h2>
@@ -495,7 +499,7 @@
         <div class="actions"><a class="btn" href="https://fortstreet-h.schools.nsw.gov.au/contact-us">Contact us</a></div>
       </div></div></div>
     </section>
-  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 6" data-slot="s06" data-module="M11b">
+  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px; order: 7" data-slot="s06" data-module="M11b">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <div class="cards" style="--cards-columns: 2"><div class="card"><p class="aux"><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/school-life/events">Events</a></p>
@@ -505,10 +509,10 @@
         <span class="glyph glyph-right" aria-hidden="true">east</span></div></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h4 inset in-rail rail-mobile-hidden" style="--band-inset: 16px; grid-row: 2 / 7" data-slot="s07" data-module="M3">
+  <section class="band layout-stack width-wide heading-h4 inset in-top rail-mobile-hidden" style="--band-inset: 16px; order: 2" data-slot="s07" data-module="M3">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
-          <h2 class="heading">Section navigation</h2>
+          <h2 class="heading sr-only">Section navigation</h2>
         <p class="aux"><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/about-us">About us</a></p>
         <ul class="list"><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/about-us/enrol">Enrol</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources">Facilities and resources</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/about-us/hsc-results">HSC Results</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff">Our principal and staff</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports">Policies and reports</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives">School history and archives</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/about-us/stories-and-highlights">Stories and highlights</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/about-us/transition-to-high-school">Transition to high school</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/about-us/why-choose-us">Why choose us?</a></li></ul>
       </div></div></div>

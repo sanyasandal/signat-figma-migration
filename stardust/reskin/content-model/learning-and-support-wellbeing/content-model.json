@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:reskin/capture-content.mjs",
-    "capturedAt": "2026-11-05T09:44:44.479Z",
+    "capturedAt": "2026-11-05T19:58:55.069Z",
     "url": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/wellbeing",
     "viewport": "1440x900",
     "scope": "nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!",
@@ -27,7 +27,7 @@
     },
     "settle": {
       "firstLen": 4981,
-      "waitedMs": 1511,
+      "waitedMs": 1513,
       "stable": true,
       "settledLen": 4981,
       "lateChars": 0
@@ -1096,7 +1096,7 @@
           "text": "Student Support Officers",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-de2b0f62-e683-4d74-8243-59f4ee056852",
+          "toggle": "accordion-c30ca240-c428-451e-aa20-b035660c021f",
           "sep": " "
         },
         {
@@ -1106,7 +1106,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-de2b0f62-e683-4d74-8243-59f4ee056852",
+          "toggle": "accordion-c30ca240-c428-451e-aa20-b035660c021f",
           "sep": " "
         },
         {
@@ -1114,7 +1114,7 @@
           "text": "Student support officers (SSOs) work in schools to enhance the wellbeing and learning outcomes of students. They come from a diversity of backgrounds. An SSO may have a diploma or higher qualification in social work, youth work or other related discipline such as community service. They all have experience working with young people to improve their wellbeing and mental health. SSOs work closely with the school counselling service and the school’s wellbeing team.",
           "display": "block",
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -1124,7 +1124,7 @@
           "display": "block",
           "level": "h2",
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -1133,7 +1133,7 @@
           "text": "SSOs support the implementation of the school’s whole-of-school approach to wellbeing, helping students develop social and emotional skills through targeted strengths-based programs and strategies that build resilience, coping skills and positive relationships working with students one-on-one or in small groups.",
           "display": "block",
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -1142,7 +1142,7 @@
           "text": "They also have a pivotal role in working collaboratively with external and other government agencies in their support of students and their families. Students might be referred to the SSO for support in areas such as bullying, developing self-esteem, resilience, conflict resolution or to be connected to local external support and youth services.",
           "display": "block",
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -1151,7 +1151,7 @@
           "text": "At Fort Street we currently one SSO onsite:",
           "display": "block",
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -1166,7 +1166,7 @@
               "parentTag": "strong",
               "parentClass": "",
               "panels": [
-                "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                "accordion-c30ca240-c428-451e-aa20-b035660c021f"
               ],
               "sep": ""
             },
@@ -1176,13 +1176,13 @@
               "parentTag": "strong",
               "parentClass": "",
               "panels": [
-                "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                "accordion-c30ca240-c428-451e-aa20-b035660c021f"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -1191,7 +1191,7 @@
           "text": "Students who wish to see the SSO can self refer to their office Monday to Friday at recess and lunch. You find can the SSO office between W18 & W19 in the Wilkins building.",
           "display": "block",
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -1206,7 +1206,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                "accordion-c30ca240-c428-451e-aa20-b035660c021f"
               ],
               "sep": ""
             },
@@ -1224,7 +1224,7 @@
                   "parentTag": "a",
                   "parentClass": "",
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": ""
                 },
@@ -1235,19 +1235,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                "accordion-c30ca240-c428-451e-aa20-b035660c021f"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -1262,7 +1262,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                "accordion-c30ca240-c428-451e-aa20-b035660c021f"
               ],
               "sep": ""
             },
@@ -1280,7 +1280,7 @@
                   "parentTag": "a",
                   "parentClass": "",
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": ""
                 },
@@ -1291,13 +1291,13 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                "accordion-c30ca240-c428-451e-aa20-b035660c021f"
               ],
               "sep": " "
             },
@@ -1307,13 +1307,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                "accordion-c30ca240-c428-451e-aa20-b035660c021f"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -1323,7 +1323,7 @@
           "display": "block",
           "level": "h3",
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -1346,7 +1346,7 @@
                   "parentTag": "a",
                   "parentClass": "button primary",
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": ""
                 },
@@ -1357,19 +1357,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                "accordion-c30ca240-c428-451e-aa20-b035660c021f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -1392,7 +1392,7 @@
                   "parentTag": "a",
                   "parentClass": "button primary",
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": ""
                 },
@@ -1403,19 +1403,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                "accordion-c30ca240-c428-451e-aa20-b035660c021f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -1438,7 +1438,7 @@
                   "parentTag": "a",
                   "parentClass": "button primary",
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": ""
                 },
@@ -1449,19 +1449,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                "accordion-c30ca240-c428-451e-aa20-b035660c021f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -1484,7 +1484,7 @@
                   "parentTag": "a",
                   "parentClass": "button primary",
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": ""
                 },
@@ -1495,19 +1495,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                "accordion-c30ca240-c428-451e-aa20-b035660c021f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -1530,7 +1530,7 @@
                   "parentTag": "a",
                   "parentClass": "button primary",
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": ""
                 },
@@ -1541,19 +1541,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                "accordion-c30ca240-c428-451e-aa20-b035660c021f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -1576,7 +1576,7 @@
                   "parentTag": "a",
                   "parentClass": "button primary",
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": ""
                 },
@@ -1587,19 +1587,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                "accordion-c30ca240-c428-451e-aa20-b035660c021f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -1622,7 +1622,7 @@
                   "parentTag": "a",
                   "parentClass": "button primary",
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": ""
                 },
@@ -1633,19 +1633,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                "accordion-c30ca240-c428-451e-aa20-b035660c021f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -1668,7 +1668,7 @@
                   "parentTag": "a",
                   "parentClass": "button primary",
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": ""
                 },
@@ -1679,19 +1679,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                "accordion-c30ca240-c428-451e-aa20-b035660c021f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -1714,7 +1714,7 @@
                   "parentTag": "a",
                   "parentClass": "button primary",
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": ""
                 },
@@ -1725,19 +1725,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                "accordion-c30ca240-c428-451e-aa20-b035660c021f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -1760,7 +1760,7 @@
                   "parentTag": "a",
                   "parentClass": "button primary",
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": ""
                 },
@@ -1771,19 +1771,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                "accordion-c30ca240-c428-451e-aa20-b035660c021f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -1806,7 +1806,7 @@
                   "parentTag": "a",
                   "parentClass": "button primary",
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": ""
                 },
@@ -1817,19 +1817,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                "accordion-c30ca240-c428-451e-aa20-b035660c021f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -1852,7 +1852,7 @@
                   "parentTag": "a",
                   "parentClass": "button primary",
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": ""
                 },
@@ -1863,19 +1863,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                "accordion-c30ca240-c428-451e-aa20-b035660c021f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -1898,7 +1898,7 @@
                   "parentTag": "a",
                   "parentClass": "button primary",
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": ""
                 },
@@ -1909,19 +1909,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                "accordion-c30ca240-c428-451e-aa20-b035660c021f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -1944,7 +1944,7 @@
                   "parentTag": "a",
                   "parentClass": "button primary",
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": ""
                 },
@@ -1955,19 +1955,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                "accordion-c30ca240-c428-451e-aa20-b035660c021f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -1977,7 +1977,7 @@
           "display": "block",
           "level": "h3",
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -2000,7 +2000,7 @@
                   "parentTag": "a",
                   "parentClass": "button primary",
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": ""
                 },
@@ -2011,19 +2011,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                "accordion-c30ca240-c428-451e-aa20-b035660c021f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -2046,7 +2046,7 @@
                   "parentTag": "a",
                   "parentClass": "button primary",
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": ""
                 },
@@ -2057,19 +2057,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                "accordion-c30ca240-c428-451e-aa20-b035660c021f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -2092,7 +2092,7 @@
                   "parentTag": "a",
                   "parentClass": "button primary",
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": ""
                 },
@@ -2103,19 +2103,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                "accordion-c30ca240-c428-451e-aa20-b035660c021f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -2138,7 +2138,7 @@
                   "parentTag": "a",
                   "parentClass": "button primary",
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": ""
                 },
@@ -2149,19 +2149,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                "accordion-c30ca240-c428-451e-aa20-b035660c021f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -2178,13 +2178,13 @@
               "absHref": "https://education.nsw.gov.au/public-schools/going-to-a-public-school/translated-documents/telephone-interpreter-service",
               "classes": "button primary",
               "panels": [
-                "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                "accordion-c30ca240-c428-451e-aa20-b035660c021f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -2207,7 +2207,7 @@
                   "parentTag": "a",
                   "parentClass": "button primary",
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": ""
                 },
@@ -2218,19 +2218,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                "accordion-c30ca240-c428-451e-aa20-b035660c021f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -2253,7 +2253,7 @@
                   "parentTag": "a",
                   "parentClass": "button primary",
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": ""
                 },
@@ -2264,19 +2264,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                "accordion-c30ca240-c428-451e-aa20-b035660c021f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -2299,7 +2299,7 @@
                   "parentTag": "a",
                   "parentClass": "button primary",
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": ""
                 },
@@ -2310,19 +2310,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                "accordion-c30ca240-c428-451e-aa20-b035660c021f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -2345,7 +2345,7 @@
                   "parentTag": "a",
                   "parentClass": "button primary",
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": ""
                 },
@@ -2356,19 +2356,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                "accordion-c30ca240-c428-451e-aa20-b035660c021f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -2391,7 +2391,7 @@
                   "parentTag": "a",
                   "parentClass": "button primary",
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": ""
                 },
@@ -2402,19 +2402,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                "accordion-c30ca240-c428-451e-aa20-b035660c021f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -2437,7 +2437,7 @@
                   "parentTag": "a",
                   "parentClass": "button primary",
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": ""
                 },
@@ -2448,19 +2448,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                "accordion-c30ca240-c428-451e-aa20-b035660c021f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -2483,7 +2483,7 @@
                   "parentTag": "a",
                   "parentClass": "button primary",
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": ""
                 },
@@ -2494,19 +2494,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                "accordion-c30ca240-c428-451e-aa20-b035660c021f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -2529,7 +2529,7 @@
                   "parentTag": "a",
                   "parentClass": "button primary",
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": ""
                 },
@@ -2540,19 +2540,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                "accordion-c30ca240-c428-451e-aa20-b035660c021f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -2575,7 +2575,7 @@
                   "parentTag": "a",
                   "parentClass": "button primary",
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": ""
                 },
@@ -2586,19 +2586,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                "accordion-c30ca240-c428-451e-aa20-b035660c021f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -2621,7 +2621,7 @@
                   "parentTag": "a",
                   "parentClass": "button primary",
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": ""
                 },
@@ -2632,19 +2632,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                "accordion-c30ca240-c428-451e-aa20-b035660c021f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -2667,7 +2667,7 @@
                   "parentTag": "a",
                   "parentClass": "button primary",
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": ""
                 },
@@ -2678,19 +2678,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                    "accordion-c30ca240-c428-451e-aa20-b035660c021f"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+                "accordion-c30ca240-c428-451e-aa20-b035660c021f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-de2b0f62-e683-4d74-8243-59f4ee056852"
+            "accordion-c30ca240-c428-451e-aa20-b035660c021f"
           ],
           "sep": " "
         },
@@ -2699,7 +2699,7 @@
           "text": "Counselling Service",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-a2bcb0ab-4153-46a5-b4c3-049f5d343394",
+          "toggle": "accordion-3e07e658-d368-495b-9d9d-2f3cc8020fe1",
           "sep": " "
         },
         {
@@ -2709,7 +2709,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-a2bcb0ab-4153-46a5-b4c3-049f5d343394",
+          "toggle": "accordion-3e07e658-d368-495b-9d9d-2f3cc8020fe1",
           "sep": " "
         },
         {
@@ -2717,7 +2717,7 @@
           "text": "The school counselling service includes school counsellors and school psychologists. Our school counselling staff are highly skilled and play a crucial role, in supporting children and young people to thrive and succeed at school, making a real difference in the lives of children and young people.",
           "display": "block",
           "panels": [
-            "accordion-a2bcb0ab-4153-46a5-b4c3-049f5d343394"
+            "accordion-3e07e658-d368-495b-9d9d-2f3cc8020fe1"
           ],
           "sep": " "
         },
@@ -2727,7 +2727,7 @@
           "display": "block",
           "level": "h2",
           "panels": [
-            "accordion-a2bcb0ab-4153-46a5-b4c3-049f5d343394"
+            "accordion-3e07e658-d368-495b-9d9d-2f3cc8020fe1"
           ],
           "sep": " "
         },
@@ -2736,7 +2736,7 @@
           "text": "School counselling staff support students by providing a psychological counselling, assessment and intervention service.",
           "display": "block",
           "panels": [
-            "accordion-a2bcb0ab-4153-46a5-b4c3-049f5d343394"
+            "accordion-3e07e658-d368-495b-9d9d-2f3cc8020fe1"
           ],
           "sep": " "
         },
@@ -2745,7 +2745,7 @@
           "text": "The school counselling service works directly with students to help them with issues related to learning, peer and family relationships, and managing emotions such as depression, anxiety, worry or isolation.",
           "display": "block",
           "panels": [
-            "accordion-a2bcb0ab-4153-46a5-b4c3-049f5d343394"
+            "accordion-3e07e658-d368-495b-9d9d-2f3cc8020fe1"
           ],
           "sep": " "
         },
@@ -2754,7 +2754,7 @@
           "text": "At Fort Street we currently have a school counsellor on site every day:",
           "display": "block",
           "panels": [
-            "accordion-a2bcb0ab-4153-46a5-b4c3-049f5d343394"
+            "accordion-3e07e658-d368-495b-9d9d-2f3cc8020fe1"
           ],
           "sep": " "
         },
@@ -2769,7 +2769,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-a2bcb0ab-4153-46a5-b4c3-049f5d343394"
+                "accordion-3e07e658-d368-495b-9d9d-2f3cc8020fe1"
               ],
               "sep": ""
             },
@@ -2779,7 +2779,7 @@
               "parentTag": "strong",
               "parentClass": "",
               "panels": [
-                "accordion-a2bcb0ab-4153-46a5-b4c3-049f5d343394"
+                "accordion-3e07e658-d368-495b-9d9d-2f3cc8020fe1"
               ],
               "sep": " "
             },
@@ -2789,7 +2789,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-a2bcb0ab-4153-46a5-b4c3-049f5d343394"
+                "accordion-3e07e658-d368-495b-9d9d-2f3cc8020fe1"
               ],
               "sep": ""
             },
@@ -2799,7 +2799,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-a2bcb0ab-4153-46a5-b4c3-049f5d343394"
+                "accordion-3e07e658-d368-495b-9d9d-2f3cc8020fe1"
               ],
               "sep": " "
             },
@@ -2809,7 +2809,7 @@
               "parentTag": "strong",
               "parentClass": "",
               "panels": [
-                "accordion-a2bcb0ab-4153-46a5-b4c3-049f5d343394"
+                "accordion-3e07e658-d368-495b-9d9d-2f3cc8020fe1"
               ],
               "sep": " "
             },
@@ -2819,13 +2819,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-a2bcb0ab-4153-46a5-b4c3-049f5d343394"
+                "accordion-3e07e658-d368-495b-9d9d-2f3cc8020fe1"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-a2bcb0ab-4153-46a5-b4c3-049f5d343394"
+            "accordion-3e07e658-d368-495b-9d9d-2f3cc8020fe1"
           ],
           "sep": " "
         },
@@ -2835,7 +2835,7 @@
           "display": "block",
           "level": "h3",
           "panels": [
-            "accordion-a2bcb0ab-4153-46a5-b4c3-049f5d343394"
+            "accordion-3e07e658-d368-495b-9d9d-2f3cc8020fe1"
           ],
           "sep": " "
         },
@@ -2844,7 +2844,7 @@
           "text": "Our school counselling staff are uniquely qualified members of the school wellbeing team. They apply expertise in mental health, learning, and behaviour to help children and young people succeed academically, socially, behaviourally, and emotionally.",
           "display": "block",
           "panels": [
-            "accordion-a2bcb0ab-4153-46a5-b4c3-049f5d343394"
+            "accordion-3e07e658-d368-495b-9d9d-2f3cc8020fe1"
           ],
           "sep": " "
         },
@@ -2853,7 +2853,7 @@
           "text": "School counselling staff work with teachers, families, school executive, and other professionals to create safe, healthy, and supportive learning environments that strengthen connections between home, school, and the community.",
           "display": "block",
           "panels": [
-            "accordion-a2bcb0ab-4153-46a5-b4c3-049f5d343394"
+            "accordion-3e07e658-d368-495b-9d9d-2f3cc8020fe1"
           ],
           "sep": " "
         },
@@ -2862,7 +2862,7 @@
           "text": "Students and parents can contact their school counsellor or school psychologist directly through the school. School counsellors and school psychologists:",
           "display": "block",
           "panels": [
-            "accordion-a2bcb0ab-4153-46a5-b4c3-049f5d343394"
+            "accordion-3e07e658-d368-495b-9d9d-2f3cc8020fe1"
           ],
           "sep": " "
         },
@@ -2871,7 +2871,7 @@
           "text": "Provide counselling to students individually or in groups",
           "display": "list-item",
           "panels": [
-            "accordion-a2bcb0ab-4153-46a5-b4c3-049f5d343394"
+            "accordion-3e07e658-d368-495b-9d9d-2f3cc8020fe1"
           ],
           "sep": " "
         },
@@ -2880,7 +2880,7 @@
           "text": "Assess students with specific needs",
           "display": "list-item",
           "panels": [
-            "accordion-a2bcb0ab-4153-46a5-b4c3-049f5d343394"
+            "accordion-3e07e658-d368-495b-9d9d-2f3cc8020fe1"
           ],
           "sep": " "
         },
@@ -2889,7 +2889,7 @@
           "text": "Work collaboratively with teachers and specialist staff",
           "display": "list-item",
           "panels": [
-            "accordion-a2bcb0ab-4153-46a5-b4c3-049f5d343394"
+            "accordion-3e07e658-d368-495b-9d9d-2f3cc8020fe1"
           ],
           "sep": " "
         },
@@ -2898,7 +2898,7 @@
           "text": "Help families understand and manage their children’s learning and mental health needs",
           "display": "list-item",
           "panels": [
-            "accordion-a2bcb0ab-4153-46a5-b4c3-049f5d343394"
+            "accordion-3e07e658-d368-495b-9d9d-2f3cc8020fe1"
           ],
           "sep": " "
         },
@@ -2907,7 +2907,7 @@
           "text": "Liaise with external agencies and other mental health professionals to provide coordinated, wrap around support for individual students.",
           "display": "list-item",
           "panels": [
-            "accordion-a2bcb0ab-4153-46a5-b4c3-049f5d343394"
+            "accordion-3e07e658-d368-495b-9d9d-2f3cc8020fe1"
           ],
           "sep": " "
         },
@@ -2917,7 +2917,7 @@
           "display": "block",
           "level": "h3",
           "panels": [
-            "accordion-a2bcb0ab-4153-46a5-b4c3-049f5d343394"
+            "accordion-3e07e658-d368-495b-9d9d-2f3cc8020fe1"
           ],
           "sep": " "
         },
@@ -2926,7 +2926,7 @@
           "text": "Information for parents can be found on the Department of Education website at the links below:",
           "display": "block",
           "panels": [
-            "accordion-a2bcb0ab-4153-46a5-b4c3-049f5d343394"
+            "accordion-3e07e658-d368-495b-9d9d-2f3cc8020fe1"
           ],
           "sep": " "
         },
@@ -2943,13 +2943,13 @@
               "absHref": "https://education.nsw.gov.au/student-wellbeing/counselling-and-psychology-services/students",
               "classes": "button primary",
               "panels": [
-                "accordion-a2bcb0ab-4153-46a5-b4c3-049f5d343394"
+                "accordion-3e07e658-d368-495b-9d9d-2f3cc8020fe1"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-a2bcb0ab-4153-46a5-b4c3-049f5d343394"
+            "accordion-3e07e658-d368-495b-9d9d-2f3cc8020fe1"
           ],
           "sep": " "
         },
@@ -2966,13 +2966,13 @@
               "absHref": "https://education.nsw.gov.au/schooling/parents-and-carers",
               "classes": "button primary",
               "panels": [
-                "accordion-a2bcb0ab-4153-46a5-b4c3-049f5d343394"
+                "accordion-3e07e658-d368-495b-9d9d-2f3cc8020fe1"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-a2bcb0ab-4153-46a5-b4c3-049f5d343394"
+            "accordion-3e07e658-d368-495b-9d9d-2f3cc8020fe1"
           ],
           "sep": " "
         }
@@ -3334,7 +3334,7 @@
           "text": "Aboriginal student support",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-88e5b6ae-52d2-4bd2-a035-5275877f0578",
+          "toggle": "accordion-f98a1606-45c9-4d9b-a2eb-29a1d4189cb6",
           "sep": ""
         },
         {
@@ -3344,7 +3344,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-88e5b6ae-52d2-4bd2-a035-5275877f0578",
+          "toggle": "accordion-f98a1606-45c9-4d9b-a2eb-29a1d4189cb6",
           "sep": " "
         },
         {
@@ -3352,7 +3352,7 @@
           "text": "We are committed to closing the achievement gap for Aboriginal and Torres Strait Islander students. We know that we need to learn about, nurture and value the cultural identity of our Aboriginal students to help them be successful learners.",
           "display": "block",
           "panels": [
-            "accordion-88e5b6ae-52d2-4bd2-a035-5275877f0578"
+            "accordion-f98a1606-45c9-4d9b-a2eb-29a1d4189cb6"
           ],
           "sep": " "
         },
@@ -3361,7 +3361,7 @@
           "text": "We welcome Aboriginal and Torres Strait Islander family members, parents and carers, as well as community members to our school so that we can get to know each other, learn about the local Aboriginal community and develop shared goals and plans for Aboriginal students.",
           "display": "block",
           "panels": [
-            "accordion-88e5b6ae-52d2-4bd2-a035-5275877f0578"
+            "accordion-f98a1606-45c9-4d9b-a2eb-29a1d4189cb6"
           ],
           "sep": " "
         },
@@ -3376,7 +3376,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-88e5b6ae-52d2-4bd2-a035-5275877f0578"
+                "accordion-f98a1606-45c9-4d9b-a2eb-29a1d4189cb6"
               ],
               "sep": ""
             },
@@ -3388,7 +3388,7 @@
               "absHref": "https://education.nsw.gov.au/policy-library/policies/aboriginal-education-and-training-policy",
               "classes": "",
               "panels": [
-                "accordion-88e5b6ae-52d2-4bd2-a035-5275877f0578"
+                "accordion-f98a1606-45c9-4d9b-a2eb-29a1d4189cb6"
               ],
               "sep": " "
             },
@@ -3398,13 +3398,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-88e5b6ae-52d2-4bd2-a035-5275877f0578"
+                "accordion-f98a1606-45c9-4d9b-a2eb-29a1d4189cb6"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-88e5b6ae-52d2-4bd2-a035-5275877f0578"
+            "accordion-f98a1606-45c9-4d9b-a2eb-29a1d4189cb6"
           ],
           "sep": " "
         },
@@ -3413,7 +3413,7 @@
           "text": "Multicultural education",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-7e6178be-729c-43c0-8dcd-f905f044de1a",
+          "toggle": "accordion-ae300387-e569-4d36-b7a3-d137708ccff4",
           "sep": " "
         },
         {
@@ -3423,7 +3423,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-7e6178be-729c-43c0-8dcd-f905f044de1a",
+          "toggle": "accordion-ae300387-e569-4d36-b7a3-d137708ccff4",
           "sep": " "
         },
         {
@@ -3431,7 +3431,7 @@
           "text": "Our school welcomes students, families and community members from all cultural backgrounds. We appreciate difference and diversity and aim to provide a culturally inclusive and responsive environment that benefits all students.",
           "display": "block",
           "panels": [
-            "accordion-7e6178be-729c-43c0-8dcd-f905f044de1a"
+            "accordion-ae300387-e569-4d36-b7a3-d137708ccff4"
           ],
           "sep": " "
         },
@@ -3440,7 +3440,7 @@
           "text": "Our teaching and learning programs develop intercultural understanding, promote positive relationships and enable all students to participate as active Australian and global citizens. Our school fosters student wellbeing and community harmony by implementing anti-racism and anti-discrimination strategies that encourage engagement by parents and carers from all backgrounds.",
           "display": "block",
           "panels": [
-            "accordion-7e6178be-729c-43c0-8dcd-f905f044de1a"
+            "accordion-ae300387-e569-4d36-b7a3-d137708ccff4"
           ],
           "sep": " "
         },
@@ -3455,7 +3455,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-7e6178be-729c-43c0-8dcd-f905f044de1a"
+                "accordion-ae300387-e569-4d36-b7a3-d137708ccff4"
               ],
               "sep": ""
             },
@@ -3467,7 +3467,7 @@
               "absHref": "https://education.nsw.gov.au/policy-library/policies/multicultural-education-policy?refid=285776",
               "classes": "",
               "panels": [
-                "accordion-7e6178be-729c-43c0-8dcd-f905f044de1a"
+                "accordion-ae300387-e569-4d36-b7a3-d137708ccff4"
               ],
               "sep": " "
             },
@@ -3477,13 +3477,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-7e6178be-729c-43c0-8dcd-f905f044de1a"
+                "accordion-ae300387-e569-4d36-b7a3-d137708ccff4"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-7e6178be-729c-43c0-8dcd-f905f044de1a"
+            "accordion-ae300387-e569-4d36-b7a3-d137708ccff4"
           ],
           "sep": " "
         },
@@ -3498,7 +3498,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-7e6178be-729c-43c0-8dcd-f905f044de1a"
+                "accordion-ae300387-e569-4d36-b7a3-d137708ccff4"
               ],
               "sep": ""
             },
@@ -3510,7 +3510,7 @@
               "absHref": "https://education.nsw.gov.au/policy-library/policies/pd-2005-0235",
               "classes": "",
               "panels": [
-                "accordion-7e6178be-729c-43c0-8dcd-f905f044de1a"
+                "accordion-ae300387-e569-4d36-b7a3-d137708ccff4"
               ],
               "sep": " "
             },
@@ -3520,13 +3520,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-7e6178be-729c-43c0-8dcd-f905f044de1a"
+                "accordion-ae300387-e569-4d36-b7a3-d137708ccff4"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-7e6178be-729c-43c0-8dcd-f905f044de1a"
+            "accordion-ae300387-e569-4d36-b7a3-d137708ccff4"
           ],
           "sep": " "
         },
@@ -3535,7 +3535,7 @@
           "text": "For more information refer to:",
           "display": "block",
           "panels": [
-            "accordion-7e6178be-729c-43c0-8dcd-f905f044de1a"
+            "accordion-ae300387-e569-4d36-b7a3-d137708ccff4"
           ],
           "sep": " "
         },
@@ -3552,13 +3552,13 @@
               "absHref": "https://education.nsw.gov.au/teaching-and-learning/curriculum/multicultural-education",
               "classes": "",
               "panels": [
-                "accordion-7e6178be-729c-43c0-8dcd-f905f044de1a"
+                "accordion-ae300387-e569-4d36-b7a3-d137708ccff4"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-7e6178be-729c-43c0-8dcd-f905f044de1a"
+            "accordion-ae300387-e569-4d36-b7a3-d137708ccff4"
           ],
           "sep": " "
         },
@@ -3575,13 +3575,13 @@
               "absHref": "https://education.nsw.gov.au/teaching-and-learning/curriculum/multicultural-education/anti-racism-education",
               "classes": "",
               "panels": [
-                "accordion-7e6178be-729c-43c0-8dcd-f905f044de1a"
+                "accordion-ae300387-e569-4d36-b7a3-d137708ccff4"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-7e6178be-729c-43c0-8dcd-f905f044de1a"
+            "accordion-ae300387-e569-4d36-b7a3-d137708ccff4"
           ],
           "sep": " "
         },
@@ -3598,13 +3598,13 @@
               "absHref": "https://education.nsw.gov.au/teaching-and-learning/curriculum/multicultural-education/interpreting-and-translations",
               "classes": "",
               "panels": [
-                "accordion-7e6178be-729c-43c0-8dcd-f905f044de1a"
+                "accordion-ae300387-e569-4d36-b7a3-d137708ccff4"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-7e6178be-729c-43c0-8dcd-f905f044de1a"
+            "accordion-ae300387-e569-4d36-b7a3-d137708ccff4"
           ],
           "sep": " "
         },
@@ -3621,7 +3621,7 @@
               "absHref": "https://education.nsw.gov.au/public-schools/going-to-a-public-school/translated-documents",
               "classes": "",
               "panels": [
-                "accordion-7e6178be-729c-43c0-8dcd-f905f044de1a"
+                "accordion-ae300387-e569-4d36-b7a3-d137708ccff4"
               ],
               "sep": ""
             },
@@ -3631,13 +3631,13 @@
               "parentTag": "li",
               "parentClass": "",
               "panels": [
-                "accordion-7e6178be-729c-43c0-8dcd-f905f044de1a"
+                "accordion-ae300387-e569-4d36-b7a3-d137708ccff4"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-7e6178be-729c-43c0-8dcd-f905f044de1a"
+            "accordion-ae300387-e569-4d36-b7a3-d137708ccff4"
           ],
           "sep": " "
         },
@@ -3647,7 +3647,7 @@
           "display": "block",
           "level": "h3",
           "panels": [
-            "accordion-7e6178be-729c-43c0-8dcd-f905f044de1a"
+            "accordion-ae300387-e569-4d36-b7a3-d137708ccff4"
           ],
           "sep": " "
         },
@@ -3656,7 +3656,7 @@
           "text": "Learning English is essential for success at school and effective participation in Australian society. We can provide specialist support to help students learning English as an additional language or dialect (EAL/D).",
           "display": "block",
           "panels": [
-            "accordion-7e6178be-729c-43c0-8dcd-f905f044de1a"
+            "accordion-ae300387-e569-4d36-b7a3-d137708ccff4"
           ],
           "sep": " "
         },
@@ -3671,7 +3671,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-7e6178be-729c-43c0-8dcd-f905f044de1a"
+                "accordion-ae300387-e569-4d36-b7a3-d137708ccff4"
               ],
               "sep": ""
             },
@@ -3683,7 +3683,7 @@
               "absHref": "https://education.nsw.gov.au/teaching-and-learning/curriculum/multicultural-education/english-as-an-additional-language-or-dialect",
               "classes": "",
               "panels": [
-                "accordion-7e6178be-729c-43c0-8dcd-f905f044de1a"
+                "accordion-ae300387-e569-4d36-b7a3-d137708ccff4"
               ],
               "sep": " "
             },
@@ -3693,13 +3693,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-7e6178be-729c-43c0-8dcd-f905f044de1a"
+                "accordion-ae300387-e569-4d36-b7a3-d137708ccff4"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-7e6178be-729c-43c0-8dcd-f905f044de1a"
+            "accordion-ae300387-e569-4d36-b7a3-d137708ccff4"
           ],
           "sep": " "
         },
@@ -3709,7 +3709,7 @@
           "display": "block",
           "level": "h3",
           "panels": [
-            "accordion-7e6178be-729c-43c0-8dcd-f905f044de1a"
+            "accordion-ae300387-e569-4d36-b7a3-d137708ccff4"
           ],
           "sep": " "
         },
@@ -3718,7 +3718,7 @@
           "text": "Schools offer safety, support and security to help refugee students adjust to life in Australia and participate successfully in education. Targeted support strategies are provided to assist refugee students in NSW public schools.",
           "display": "block",
           "panels": [
-            "accordion-7e6178be-729c-43c0-8dcd-f905f044de1a"
+            "accordion-ae300387-e569-4d36-b7a3-d137708ccff4"
           ],
           "sep": " "
         },
@@ -3733,7 +3733,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-7e6178be-729c-43c0-8dcd-f905f044de1a"
+                "accordion-ae300387-e569-4d36-b7a3-d137708ccff4"
               ],
               "sep": ""
             },
@@ -3745,7 +3745,7 @@
               "absHref": "https://education.nsw.gov.au/teaching-and-learning/curriculum/multicultural-education/refugee-students-in-schools",
               "classes": "",
               "panels": [
-                "accordion-7e6178be-729c-43c0-8dcd-f905f044de1a"
+                "accordion-ae300387-e569-4d36-b7a3-d137708ccff4"
               ],
               "sep": " "
             },
@@ -3755,13 +3755,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-7e6178be-729c-43c0-8dcd-f905f044de1a"
+                "accordion-ae300387-e569-4d36-b7a3-d137708ccff4"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-7e6178be-729c-43c0-8dcd-f905f044de1a"
+            "accordion-ae300387-e569-4d36-b7a3-d137708ccff4"
           ],
           "sep": " "
         },
@@ -3776,7 +3776,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-7e6178be-729c-43c0-8dcd-f905f044de1a"
+                "accordion-ae300387-e569-4d36-b7a3-d137708ccff4"
               ],
               "sep": ""
             },
@@ -3788,7 +3788,7 @@
               "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support",
               "classes": "",
               "panels": [
-                "accordion-7e6178be-729c-43c0-8dcd-f905f044de1a"
+                "accordion-ae300387-e569-4d36-b7a3-d137708ccff4"
               ],
               "sep": " "
             },
@@ -3798,13 +3798,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-7e6178be-729c-43c0-8dcd-f905f044de1a"
+                "accordion-ae300387-e569-4d36-b7a3-d137708ccff4"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-7e6178be-729c-43c0-8dcd-f905f044de1a"
+            "accordion-ae300387-e569-4d36-b7a3-d137708ccff4"
           ],
           "sep": " "
         },
@@ -3813,7 +3813,7 @@
           "text": "Anti-bullying",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-75526129-69fb-4850-a24b-b5ffb89f118e",
+          "toggle": "accordion-b01cd8aa-e53d-4f23-bd12-9b81de8d5c89",
           "sep": " "
         },
         {
@@ -3823,7 +3823,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-75526129-69fb-4850-a24b-b5ffb89f118e",
+          "toggle": "accordion-b01cd8aa-e53d-4f23-bd12-9b81de8d5c89",
           "sep": " "
         },
         {
@@ -3831,7 +3831,7 @@
           "text": "Bullying of any kind is not acceptable in NSW schools.",
           "display": "block",
           "panels": [
-            "accordion-75526129-69fb-4850-a24b-b5ffb89f118e"
+            "accordion-b01cd8aa-e53d-4f23-bd12-9b81de8d5c89"
           ],
           "sep": " "
         },
@@ -3846,7 +3846,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-75526129-69fb-4850-a24b-b5ffb89f118e"
+                "accordion-b01cd8aa-e53d-4f23-bd12-9b81de8d5c89"
               ],
               "sep": ""
             },
@@ -3864,7 +3864,7 @@
                   "parentTag": "a",
                   "parentClass": "",
                   "panels": [
-                    "accordion-75526129-69fb-4850-a24b-b5ffb89f118e"
+                    "accordion-b01cd8aa-e53d-4f23-bd12-9b81de8d5c89"
                   ],
                   "sep": ""
                 },
@@ -3875,13 +3875,13 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-75526129-69fb-4850-a24b-b5ffb89f118e"
+                    "accordion-b01cd8aa-e53d-4f23-bd12-9b81de8d5c89"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-75526129-69fb-4850-a24b-b5ffb89f118e"
+                "accordion-b01cd8aa-e53d-4f23-bd12-9b81de8d5c89"
               ],
               "sep": " "
             },
@@ -3891,13 +3891,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-75526129-69fb-4850-a24b-b5ffb89f118e"
+                "accordion-b01cd8aa-e53d-4f23-bd12-9b81de8d5c89"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-75526129-69fb-4850-a24b-b5ffb89f118e"
+            "accordion-b01cd8aa-e53d-4f23-bd12-9b81de8d5c89"
           ],
           "sep": " "
         },
@@ -3912,7 +3912,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-75526129-69fb-4850-a24b-b5ffb89f118e"
+                "accordion-b01cd8aa-e53d-4f23-bd12-9b81de8d5c89"
               ],
               "sep": ""
             },
@@ -3924,7 +3924,7 @@
               "absHref": "https://education.nsw.gov.au/policy-library/policies/bullying-of-students-prevention-and-response-policy",
               "classes": "",
               "panels": [
-                "accordion-75526129-69fb-4850-a24b-b5ffb89f118e"
+                "accordion-b01cd8aa-e53d-4f23-bd12-9b81de8d5c89"
               ],
               "sep": " "
             },
@@ -3934,13 +3934,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-75526129-69fb-4850-a24b-b5ffb89f118e"
+                "accordion-b01cd8aa-e53d-4f23-bd12-9b81de8d5c89"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-75526129-69fb-4850-a24b-b5ffb89f118e"
+            "accordion-b01cd8aa-e53d-4f23-bd12-9b81de8d5c89"
           ],
           "sep": " "
         },
@@ -3949,7 +3949,7 @@
           "text": "For information on racial bullying and anti-racism education for NSW public schools refer to:",
           "display": "block",
           "panels": [
-            "accordion-75526129-69fb-4850-a24b-b5ffb89f118e"
+            "accordion-b01cd8aa-e53d-4f23-bd12-9b81de8d5c89"
           ],
           "sep": " "
         },
@@ -3966,13 +3966,13 @@
               "absHref": "https://education.nsw.gov.au/policy-library/policies/anti-racism-policy?refid=285776",
               "classes": "",
               "panels": [
-                "accordion-75526129-69fb-4850-a24b-b5ffb89f118e"
+                "accordion-b01cd8aa-e53d-4f23-bd12-9b81de8d5c89"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-75526129-69fb-4850-a24b-b5ffb89f118e"
+            "accordion-b01cd8aa-e53d-4f23-bd12-9b81de8d5c89"
           ],
           "sep": " "
         },
@@ -3989,13 +3989,13 @@
               "absHref": "https://education.nsw.gov.au/teaching-and-learning/curriculum/multicultural-education/anti-racism-education",
               "classes": "",
               "panels": [
-                "accordion-75526129-69fb-4850-a24b-b5ffb89f118e"
+                "accordion-b01cd8aa-e53d-4f23-bd12-9b81de8d5c89"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-75526129-69fb-4850-a24b-b5ffb89f118e"
+            "accordion-b01cd8aa-e53d-4f23-bd12-9b81de8d5c89"
           ],
           "sep": " "
         },
@@ -4018,7 +4018,7 @@
                   "parentTag": "a",
                   "parentClass": "",
                   "panels": [
-                    "accordion-75526129-69fb-4850-a24b-b5ffb89f118e"
+                    "accordion-b01cd8aa-e53d-4f23-bd12-9b81de8d5c89"
                   ],
                   "sep": ""
                 },
@@ -4029,13 +4029,13 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-75526129-69fb-4850-a24b-b5ffb89f118e"
+                    "accordion-b01cd8aa-e53d-4f23-bd12-9b81de8d5c89"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-75526129-69fb-4850-a24b-b5ffb89f118e"
+                "accordion-b01cd8aa-e53d-4f23-bd12-9b81de8d5c89"
               ],
               "sep": ""
             },
@@ -4045,13 +4045,13 @@
               "parentTag": "li",
               "parentClass": "",
               "panels": [
-                "accordion-75526129-69fb-4850-a24b-b5ffb89f118e"
+                "accordion-b01cd8aa-e53d-4f23-bd12-9b81de8d5c89"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-75526129-69fb-4850-a24b-b5ffb89f118e"
+            "accordion-b01cd8aa-e53d-4f23-bd12-9b81de8d5c89"
           ],
           "sep": " "
         },
@@ -4060,7 +4060,7 @@
           "text": "Student leadership",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-3624b466-d33a-4f46-8cb6-e0493157dda3",
+          "toggle": "accordion-a86009b7-7a04-496c-8d11-1f225a039434",
           "sep": " "
         },
         {
@@ -4070,7 +4070,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-3624b466-d33a-4f46-8cb6-e0493157dda3",
+          "toggle": "accordion-a86009b7-7a04-496c-8d11-1f225a039434",
           "sep": " "
         },
         {
@@ -4078,7 +4078,7 @@
           "text": "Student leadership helps young people find their voices, participate in decision-making, and understand their rights and responsibilities as active citizens. It helps students have a real impact on their learning and school environment and prepares them to participate meaningfully in their community.",
           "display": "block",
           "panels": [
-            "accordion-3624b466-d33a-4f46-8cb6-e0493157dda3"
+            "accordion-a86009b7-7a04-496c-8d11-1f225a039434"
           ],
           "sep": " "
         },
@@ -4087,7 +4087,7 @@
           "text": "Students can be leaders in the classroom, through their actions in the playground, through their support for others, or their involvement in academic, sporting, cultural or local community events or projects.",
           "display": "block",
           "panels": [
-            "accordion-3624b466-d33a-4f46-8cb6-e0493157dda3"
+            "accordion-a86009b7-7a04-496c-8d11-1f225a039434"
           ],
           "sep": " "
         },
@@ -4102,7 +4102,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-3624b466-d33a-4f46-8cb6-e0493157dda3"
+                "accordion-a86009b7-7a04-496c-8d11-1f225a039434"
               ],
               "sep": ""
             },
@@ -4114,7 +4114,7 @@
               "absHref": "https://education.nsw.gov.au/schooling/students/student-voices/student-voice-and-leadership/why-student-voice-matters",
               "classes": "",
               "panels": [
-                "accordion-3624b466-d33a-4f46-8cb6-e0493157dda3"
+                "accordion-a86009b7-7a04-496c-8d11-1f225a039434"
               ],
               "sep": " "
             },
@@ -4124,13 +4124,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-3624b466-d33a-4f46-8cb6-e0493157dda3"
+                "accordion-a86009b7-7a04-496c-8d11-1f225a039434"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-3624b466-d33a-4f46-8cb6-e0493157dda3"
+            "accordion-a86009b7-7a04-496c-8d11-1f225a039434"
           ],
           "sep": " "
         },
@@ -4145,7 +4145,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-3624b466-d33a-4f46-8cb6-e0493157dda3"
+                "accordion-a86009b7-7a04-496c-8d11-1f225a039434"
               ],
               "sep": ""
             },
@@ -4157,7 +4157,7 @@
               "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff",
               "classes": "",
               "panels": [
-                "accordion-3624b466-d33a-4f46-8cb6-e0493157dda3"
+                "accordion-a86009b7-7a04-496c-8d11-1f225a039434"
               ],
               "sep": " "
             },
@@ -4167,13 +4167,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-3624b466-d33a-4f46-8cb6-e0493157dda3"
+                "accordion-a86009b7-7a04-496c-8d11-1f225a039434"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-3624b466-d33a-4f46-8cb6-e0493157dda3"
+            "accordion-a86009b7-7a04-496c-8d11-1f225a039434"
           ],
           "sep": " "
         }
@@ -4271,7 +4271,7 @@
           "text": "First Aid and Sick Bay",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-ac442867-533c-40f9-8605-7e062b8ff35d",
+          "toggle": "accordion-ec9b1cb6-01cf-4dac-82e8-42d274f53ee4",
           "sep": " "
         },
         {
@@ -4281,7 +4281,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-ac442867-533c-40f9-8605-7e062b8ff35d",
+          "toggle": "accordion-ec9b1cb6-01cf-4dac-82e8-42d274f53ee4",
           "sep": " "
         },
         {
@@ -4289,7 +4289,7 @@
           "text": "Students who are injured or become ill during the school day should inform their teacher who will send a note with the student to Reception. First Aid office staff will monitor students in Sick Bay and a decision will be made to contact parents/carers if a student needs to be collected from school.",
           "display": "block",
           "panels": [
-            "accordion-ac442867-533c-40f9-8605-7e062b8ff35d"
+            "accordion-ec9b1cb6-01cf-4dac-82e8-42d274f53ee4"
           ],
           "sep": " "
         },
@@ -4298,7 +4298,7 @@
           "text": "Students are not to call their parents or leave school without attending Sick Bay.",
           "display": "block",
           "panels": [
-            "accordion-ac442867-533c-40f9-8605-7e062b8ff35d"
+            "accordion-ec9b1cb6-01cf-4dac-82e8-42d274f53ee4"
           ],
           "sep": " "
         },
@@ -4307,7 +4307,7 @@
           "text": "Medication",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-062ac1e2-749d-4a69-8154-813a8b1256f0",
+          "toggle": "accordion-9f289b31-9a9a-4e4f-a6a0-dfc6a7efbcac",
           "sep": " "
         },
         {
@@ -4317,7 +4317,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-062ac1e2-749d-4a69-8154-813a8b1256f0",
+          "toggle": "accordion-9f289b31-9a9a-4e4f-a6a0-dfc6a7efbcac",
           "sep": " "
         },
         {
@@ -4325,7 +4325,7 @@
           "text": "Department of Education Policy prohibits the issue of medications such as Panadol and Aspirin etc by school staff. Students who are asthmatic, anaphylactic or diabetic should carry the required medications with them at all times. Students who have been issued with an Epinephrine Autoinjector (Epipen) must keep one in their bag and also provide a spare EpiPen to the school office to be kept in the medical area. A school EpiPen and Ventolin inhaler are included in all First Aid kits taken on excursions.",
           "display": "block",
           "panels": [
-            "accordion-062ac1e2-749d-4a69-8154-813a8b1256f0"
+            "accordion-9f289b31-9a9a-4e4f-a6a0-dfc6a7efbcac"
           ],
           "sep": " "
         },
@@ -4334,7 +4334,7 @@
           "text": "Parents and Carers must ensure all Student Health plans are current and up to date and all provided inhalers or Epipens are within their expiry date.",
           "display": "block",
           "panels": [
-            "accordion-062ac1e2-749d-4a69-8154-813a8b1256f0"
+            "accordion-9f289b31-9a9a-4e4f-a6a0-dfc6a7efbcac"
           ],
           "sep": " "
         },
@@ -4343,7 +4343,7 @@
           "text": "Students who require prescription medication at school should submit the medication along with a signed letter from the parent advising dosage to Office Staff at Reception. No other medications should be brought into the school.",
           "display": "block",
           "panels": [
-            "accordion-062ac1e2-749d-4a69-8154-813a8b1256f0"
+            "accordion-9f289b31-9a9a-4e4f-a6a0-dfc6a7efbcac"
           ],
           "sep": " "
         },
@@ -4352,7 +4352,7 @@
           "text": "For any questions relating to health conditions please contact the Front Office staff on 8585 1600.",
           "display": "block",
           "panels": [
-            "accordion-062ac1e2-749d-4a69-8154-813a8b1256f0"
+            "accordion-9f289b31-9a9a-4e4f-a6a0-dfc6a7efbcac"
           ],
           "sep": " "
         }
@@ -4620,6 +4620,7 @@
           "kind": "heading",
           "text": "Section navigation",
           "display": "block",
+          "srOnly": true,
           "level": "h2",
           "sep": ""
         },

@@ -16,12 +16,12 @@
         {
           "id": "N-D2",
           "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
-          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+          "why": "hidden slides are absent from innerText and clones duplicate it \u2014 rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
         },
         {
           "id": "N3",
           "what": "open every .nsw-accordion panel (unhide its content region, aria-expanded=true)",
-          "why": "closed panel text is content; capture-only — the rendered accordion keeps the closed rest state"
+          "why": "closed panel text is content; capture-only \u2014 the rendered accordion keeps the closed rest state"
         }
       ]
     },
@@ -36,15 +36,16 @@
       "live": true,
       "waitUntil": "domcontentloaded",
       "headed": false
-    }
+    },
+    "railSlotFrom": "s10 from the 2026-11-05T19:59:38.124Z capture (srOnly flag); the Facebook feed slots keep the 2026-11-05T09:45:14.376Z snapshot DA serves"
   },
   "metadata": {
     "title": "Events",
-    "description": "At Fort Street High School, our events are an important part of your child’s learning and school experience. They help students build confidence, connect with others and celebrate their progress. Events also give families a chance to be involved in school life and share in their child’s achievements.",
+    "description": "At Fort Street High School, our\u00a0events are an important part of your child\u2019s learning and school experience. They help students build confidence, connect with others and celebrate their progress. Events also give families a chance to be involved in school life and share in their child\u2019s achievements.",
     "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
     "ogTags": {
       "og:title": "Events",
-      "og:description": "At Fort Street High School, our events are an important part of your child’s learning and school experience. They help students build confidence, connect with others and celebrate their progress. Events also give families a chance to be involved in school life and share in their child’s achievements.",
+      "og:description": "At Fort Street High School, our\u00a0events are an important part of your child\u2019s learning and school experience. They help students build confidence, connect with others and celebrate their progress. Events also give families a chance to be involved in school life and share in their child\u2019s achievements.",
       "og:url": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
       "og:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_133142d6772d8942887edc23546ef02d22611eda6.jpg?width=1200&format=pjpg&optimize=medium",
       "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_133142d6772d8942887edc23546ef02d22611eda6.jpg?width=1200&format=pjpg&optimize=medium"
@@ -52,7 +53,7 @@
     "twitterTags": {
       "twitter:card": "summary_large_image",
       "twitter:title": "Events",
-      "twitter:description": "At Fort Street High School, our events are an important part of your child’s learning and school experience. They help students build confidence, connect with others and celebrate their progress. Events also give families a chance to be involved in school life and share in their child’s achievements.",
+      "twitter:description": "At Fort Street High School, our\u00a0events are an important part of your child\u2019s learning and school experience. They help students build confidence, connect with others and celebrate their progress. Events also give families a chance to be involved in school life and share in their child\u2019s achievements.",
       "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_133142d6772d8942887edc23546ef02d22611eda6.jpg?width=1200&format=pjpg&optimize=medium"
     },
     "jsonLd": [],
@@ -73,7 +74,7 @@
       "whole": true
     }
   ],
-  "visibleTextNormalized": "HomeSchool lifeEvents Events School events bring learning to life and help shape our school culture. They help students build confidence, connect with others and celebrate their progress. Events also give families a chance to be involved in school life and share in their child’s achievements. Our school event may include: school orientation days sports carnivals open day and school tours Harmony Week and Book Week events excursions and incursions performances, concerts or school productions fundraising, charity and community events award assemblies graduation and other celebrations. Contact us to learn more about our events. Important Calendar Dates to start 2027 Wednesday 3 February All students return to school. Year 7 first day For Year 7 - Introduction to Fort Street High School commences at 9:00am. Monday February 8 Swimming Carnival Canterbury Leisure & Aquatic Centre Wednesday 10 – Friday 12 February Year 7 Camp Information will be provided to parents and carers before the end of Term 4, 2026. Wednesday 10 – Friday 12 February Year 11 Camp Information will be provided to parents and carers before the end of Term 4, 2026. Wednesday 24 February School Photographs Day Information and Photo Sheets will be sent home for parents/carers to place their order and return to the photographer on the day. Students are to wear full school uniform which includes the school tie. Tuesday 2 March Catchup Photographs Day For students absent on School Photographs Day, this will be the final opportunity to have their individual photo taken. Friday 26 February; commencing at 10:00am Speech Day at the State Theatre The annual school Speech Day is a compulsory event for all students. Students must be in full school uniform at this event which includes the school tie. A permission to attend note will be sent to all parents/carers. Year 7 students make their way to State Theatre and released at the end of Speech Day, around 1:00pm. Roll Call will occur before students enter State Theatre. Parents will receive a text message if their child is unexplained absence or have arrived late. Students who require teacher supervision will be escorted back to school until 3.15pm. Featured events See what’s happening at our school. Visit Our community to volunteer at our events. HSC Examinations Date: Tuesday 13 October - Thursday 5 November Time: All day Gold Duke of Edinburgh Hike Date: Thursday 15 October - Sunday 18 October Time: All Day Silver Duke of Edinburgh Hike Date: Thursday 22 October - Saturday 24 October Time: All Day SRC Halloween Event Date: Friday 30 October Students may dress up in costume for the lunchtime competition. There will be a photo booth and trick or treating. Secondhand Uniform Stall Date: Friday 6 November Time: Students only from 12:45pm. Parents/Carers are welcome from 1pm. This is a cashless, card only event. Year 7 Gala Day Date: Thursday 5 November Rememberance Day and SRC Induction Assembly Date: Wednesday 11 November P&C Annual General Meeting Date: Wednesday 11 November Time: In the school library from 7.30pm You are invited to attend the P&C General Meeting in the School Library. All community members are very welcome. MAD night Date: Wednesday 18 November School Spectacular Date: Wednesday 25 November - Saturday November 28 Year 7 2027 Orientation Day Date: Tuesday Dec 1 IMP Summer Concert Date: Sunday 13 December HSC Results Celebration morning tea Date: Wednesday 16 December Last day of school Date: Thursday 17 December Need to make a payment? Need to pay for an excursion or extra-curricular activity? Our parent portal makes it easy. Visit Parent portal Key dates Find term dates, school holidays and other important dates for all NSW public schools. View key school dates for NSW public schools Discover more events Follow us on Facebook. Today we celebrate World Teachers Day! 🍎 👩‍🏫 🏫 ⭐️ We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026 east We looking forward to welcome everyone back on Tuesday. east The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/ east Newsletters Read our latest newsletter and stay connected with our school life. east Student opportunities and activities Discover clubs, sports and other activities your child can enjoy at school. east Section navigation School life Bell times Bring your own device Canteen Events Forms House and Merit System Lockers and lost property Newsletters Parent portal Stationery Student opportunities and activities Travel to school Uniform",
+  "visibleTextNormalized": "HomeSchool lifeEvents Events School events bring learning to life and help shape our school culture. They help students build confidence, connect with others and celebrate their progress. Events also give families a chance to be involved in school life and share in their child\u2019s achievements. Our school event may include: school orientation days sports carnivals open day and school tours Harmony Week and Book Week events excursions and incursions performances, concerts or school productions fundraising, charity and community events award assemblies graduation and other celebrations. Contact us to learn more about our events. Important Calendar Dates to start 2027 Wednesday 3 February All students return to school. Year 7 first day For Year 7 - Introduction to Fort Street High School commences at 9:00am. Monday February 8 Swimming Carnival Canterbury Leisure & Aquatic Centre Wednesday 10 \u2013 Friday 12 February Year 7 Camp Information will be provided to parents and carers before the end of Term 4, 2026. Wednesday 10 \u2013 Friday 12 February Year 11 Camp Information will be provided to parents and carers before the end of Term 4, 2026. Wednesday 24 February School Photographs Day Information and Photo Sheets will be sent home for parents/carers to place their order and return to the photographer on the day. Students are to wear full school uniform which includes the school tie. Tuesday 2 March Catchup Photographs Day For students absent on School Photographs Day, this will be the final opportunity to have their individual photo taken. Friday 26 February; commencing at 10:00am Speech Day at the State Theatre The annual school Speech Day is a compulsory event for all students. Students must be in full school uniform at this event which includes the school tie. A permission to attend note will be sent to all parents/carers. Year 7 students make their way to State Theatre and released at the end of Speech Day, around 1:00pm. Roll Call will occur before students enter State Theatre. Parents will receive a text message if their child is unexplained absence or have arrived late. Students who require teacher supervision will be escorted back to school until 3.15pm. Featured events See what\u2019s happening at our school. Visit Our community to volunteer at our events. HSC Examinations Date: Tuesday 13 October - Thursday 5 November Time: All day Gold Duke of Edinburgh Hike Date: Thursday 15 October - Sunday 18 October Time: All Day Silver Duke of Edinburgh Hike Date: Thursday 22 October - Saturday 24 October Time: All Day SRC Halloween Event Date: Friday 30 October Students may dress up in costume for the lunchtime competition. There will be a photo booth and trick or treating. Secondhand Uniform Stall Date: Friday 6 November Time: Students only from 12:45pm. Parents/Carers are welcome from 1pm. This is a cashless, card only event. Year 7 Gala Day Date: Thursday 5 November Rememberance Day and SRC Induction Assembly Date: Wednesday 11 November P&C Annual General Meeting Date: Wednesday 11 November Time: In the school library from 7.30pm You are invited to attend the P&C General Meeting in the School Library. All community members are very welcome. MAD night Date: Wednesday 18 November School Spectacular Date: Wednesday 25 November - Saturday November 28 Year 7 2027 Orientation Day Date: Tuesday Dec 1 IMP Summer Concert Date: Sunday 13 December HSC Results Celebration morning tea Date: Wednesday 16 December Last day of school Date: Thursday 17 December Need to make a payment? Need to pay for an excursion or extra-curricular activity? Our parent portal makes it easy. Visit Parent portal Key dates Find term dates, school holidays and other important dates for all NSW public schools. View key school dates for NSW public schools Discover more events Follow us on Facebook. Today we celebrate World Teachers Day! \ud83c\udf4e \ud83d\udc69\u200d\ud83c\udfeb \ud83c\udfeb \u2b50\ufe0f We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026 east We looking forward to welcome everyone back on Tuesday. east The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/ east Newsletters Read our latest newsletter and stay connected with our school life. east Student opportunities and activities Discover clubs, sports and other activities your child can enjoy at school. east Section navigation School life Bell times Bring your own device Canteen Events Forms House and Merit System Lockers and lost property Newsletters Parent portal Stationery Student opportunities and activities Travel to school Uniform",
   "coverage": {
     "bodyTextLen": 5904,
     "scopeTextLen": 5131,
@@ -188,7 +189,7 @@
       "slot": "s02",
       "rootTag": "div",
       "rootClass": "section nsw-section",
-      "visibleText": "Events School events bring learning to life and help shape our school culture. They help students build confidence, connect with others and celebrate their progress. Events also give families a chance to be involved in school life and share in their child’s achievements. Our school event may include: school orientation days sports carnivals open day and school tours Harmony Week and Book Week events excursions and incursions performances, concerts or school productions fundraising, charity and community events award assemblies graduation and other celebrations. Contact us to learn more about our events.",
+      "visibleText": "Events School events bring learning to life and help shape our school culture. They help students build confidence, connect with others and celebrate their progress. Events also give families a chance to be involved in school life and share in their child\u2019s achievements. Our school event may include: school orientation days sports carnivals open day and school tours Harmony Week and Book Week events excursions and incursions performances, concerts or school productions fundraising, charity and community events award assemblies graduation and other celebrations. Contact us to learn more about our events.",
       "headings": [
         {
           "level": "h1",
@@ -196,7 +197,7 @@
         }
       ],
       "paragraphs": [
-        "School events bring learning to life and help shape our school culture. They help students build confidence, connect with others and celebrate their progress. Events also give families a chance to be involved in school life and share in their child’s achievements.",
+        "School events bring learning to life and help shape our school culture. They help students build confidence, connect with others and celebrate their progress. Events also give families a chance to be involved in school life and share in their child\u2019s achievements.",
         "Our school event may include:",
         "Contact us to learn more about our events."
       ],
@@ -233,7 +234,7 @@
         },
         {
           "kind": "paragraph",
-          "text": "School events bring learning to life and help shape our school culture. They help students build confidence, connect with others and celebrate their progress. Events also give families a chance to be involved in school life and share in their child’s achievements.",
+          "text": "School events bring learning to life and help shape our school culture. They help students build confidence, connect with others and celebrate their progress. Events also give families a chance to be involved in school life and share in their child\u2019s achievements.",
           "display": "block",
           "sep": " "
         },
@@ -339,7 +340,7 @@
       "slot": "s03",
       "rootTag": "div",
       "rootClass": "section nsw-section table-container",
-      "visibleText": "Important Calendar Dates to start 2027 Wednesday 3 February All students return to school. Year 7 first day For Year 7 - Introduction to Fort Street High School commences at 9:00am. Monday February 8 Swimming Carnival Canterbury Leisure & Aquatic Centre Wednesday 10 – Friday 12 February Year 7 Camp Information will be provided to parents and carers before the end of Term 4, 2026. Wednesday 10 – Friday 12 February Year 11 Camp Information will be provided to parents and carers before the end of Term 4, 2026. Wednesday 24 February School Photographs Day Information and Photo Sheets will be sent home for parents/carers to place their order and return to the photographer on the day. Students are to wear full school uniform which includes the school tie. Tuesday 2 March Catchup Photographs Day For students absent on School Photographs Day, this will be the final opportunity to have their individual photo taken. Friday 26 February; commencing at 10:00am Speech Day at the State Theatre The annual school Speech Day is a compulsory event for all students. Students must be in full school uniform at this event which includes the school tie. A permission to attend note will be sent to all parents/carers. Year 7 students make their way to State Theatre and released at the end of Speech Day, around 1:00pm. Roll Call will occur before students enter State Theatre. Parents will receive a text message if their child is unexplained absence or have arrived late. Students who require teacher supervision will be escorted back to school until 3.15pm.",
+      "visibleText": "Important Calendar Dates to start 2027 Wednesday 3 February All students return to school. Year 7 first day For Year 7 - Introduction to Fort Street High School commences at 9:00am. Monday February 8 Swimming Carnival Canterbury Leisure & Aquatic Centre Wednesday 10 \u2013 Friday 12 February Year 7 Camp Information will be provided to parents and carers before the end of Term 4, 2026. Wednesday 10 \u2013 Friday 12 February Year 11 Camp Information will be provided to parents and carers before the end of Term 4, 2026. Wednesday 24 February School Photographs Day Information and Photo Sheets will be sent home for parents/carers to place their order and return to the photographer on the day. Students are to wear full school uniform which includes the school tie. Tuesday 2 March Catchup Photographs Day For students absent on School Photographs Day, this will be the final opportunity to have their individual photo taken. Friday 26 February; commencing at 10:00am Speech Day at the State Theatre The annual school Speech Day is a compulsory event for all students. Students must be in full school uniform at this event which includes the school tie. A permission to attend note will be sent to all parents/carers. Year 7 students make their way to State Theatre and released at the end of Speech Day, around 1:00pm. Roll Call will occur before students enter State Theatre. Parents will receive a text message if their child is unexplained absence or have arrived late. Students who require teacher supervision will be escorted back to school until 3.15pm.",
       "headings": [
         {
           "level": "h2",
@@ -354,10 +355,10 @@
         "Monday February 8",
         "Swimming Carnival",
         "Canterbury Leisure & Aquatic Centre",
-        "Wednesday 10 – Friday 12 February",
+        "Wednesday 10 \u2013 Friday 12 February",
         "Year 7 Camp",
         "Information will be provided to parents and carers before the end of Term 4, 2026.",
-        "Wednesday 10 – Friday 12 February",
+        "Wednesday 10 \u2013 Friday 12 February",
         "Year 11 Camp",
         "Information will be provided to parents and carers before the end of Term 4, 2026.",
         "Wednesday 24 February",
@@ -386,7 +387,7 @@
         },
         {
           "kind": "table",
-          "text": "Wednesday 3 February All students return to school. Year 7 first day For Year 7 - Introduction to Fort Street High School commences at 9:00am. Monday February 8 Swimming Carnival Canterbury Leisure & Aquatic Centre Wednesday 10 – Friday 12 February Year 7 Camp Information will be provided to parents and carers before the end of Term 4, 2026. Wednesday 10 – Friday 12 February Year 11 Camp Information will be provided to parents and carers before the end of Term 4, 2026. Wednesday 24 February School Photographs Day Information and Photo Sheets will be sent home for parents/carers to place their order and return to the photographer on the day. Students are to wear full school uniform which includes the school tie. Tuesday 2 March Catchup Photographs Day For students absent on School Photographs Day, this will be the final opportunity to have their individual photo taken. Friday 26 February; commencing at 10:00am Speech Day at the State Theatre The annual school Speech Day is a compulsory event for all students. Students must be in full school uniform at this event which includes the school tie. A permission to attend note will be sent to all parents/carers. Year 7 students make their way to State Theatre and released at the end of Speech Day, around 1:00pm. Roll Call will occur before students enter State Theatre. Parents will receive a text message if their child is unexplained absence or have arrived late. Students who require teacher supervision will be escorted back to school until 3.15pm.",
+          "text": "Wednesday 3 February All students return to school. Year 7 first day For Year 7 - Introduction to Fort Street High School commences at 9:00am. Monday February 8 Swimming Carnival Canterbury Leisure & Aquatic Centre Wednesday 10 \u2013 Friday 12 February Year 7 Camp Information will be provided to parents and carers before the end of Term 4, 2026. Wednesday 10 \u2013 Friday 12 February Year 11 Camp Information will be provided to parents and carers before the end of Term 4, 2026. Wednesday 24 February School Photographs Day Information and Photo Sheets will be sent home for parents/carers to place their order and return to the photographer on the day. Students are to wear full school uniform which includes the school tie. Tuesday 2 March Catchup Photographs Day For students absent on School Photographs Day, this will be the final opportunity to have their individual photo taken. Friday 26 February; commencing at 10:00am Speech Day at the State Theatre The annual school Speech Day is a compulsory event for all students. Students must be in full school uniform at this event which includes the school tie. A permission to attend note will be sent to all parents/carers. Year 7 students make their way to State Theatre and released at the end of Speech Day, around 1:00pm. Roll Call will occur before students enter State Theatre. Parents will receive a text message if their child is unexplained absence or have arrived late. Students who require teacher supervision will be escorted back to school until 3.15pm.",
           "rows": [
             [
               {
@@ -469,11 +470,11 @@
             ],
             [
               {
-                "text": "Wednesday 10 – Friday 12 February",
+                "text": "Wednesday 10 \u2013 Friday 12 February",
                 "children": [
                   {
                     "kind": "paragraph",
-                    "text": "Wednesday 10 – Friday 12 February",
+                    "text": "Wednesday 10 \u2013 Friday 12 February",
                     "display": "block",
                     "sep": ""
                   }
@@ -504,11 +505,11 @@
             ],
             [
               {
-                "text": "Wednesday 10 – Friday 12 February",
+                "text": "Wednesday 10 \u2013 Friday 12 February",
                 "children": [
                   {
                     "kind": "paragraph",
-                    "text": "Wednesday 10 – Friday 12 February",
+                    "text": "Wednesday 10 \u2013 Friday 12 February",
                     "display": "block",
                     "sep": ""
                   }
@@ -663,7 +664,7 @@
       "slot": "s04",
       "rootTag": "div",
       "rootClass": "section nsw-section",
-      "visibleText": "Featured events See what’s happening at our school. Visit Our community to volunteer at our events.",
+      "visibleText": "Featured events See what\u2019s happening at our school. Visit Our community to volunteer at our events.",
       "headings": [
         {
           "level": "h2",
@@ -671,7 +672,7 @@
         }
       ],
       "paragraphs": [
-        "See what’s happening at our school. Visit Our community to volunteer at our events."
+        "See what\u2019s happening at our school. Visit Our community to volunteer at our events."
       ],
       "listItems": [],
       "ctas": [
@@ -696,12 +697,12 @@
         },
         {
           "kind": "paragraph",
-          "text": "See what’s happening at our school. Visit Our community to volunteer at our events.",
+          "text": "See what\u2019s happening at our school. Visit Our community to volunteer at our events.",
           "display": "block",
           "children": [
             {
               "kind": "text",
-              "text": "See what’s happening at our school. Visit",
+              "text": "See what\u2019s happening at our school. Visit",
               "parentTag": "p",
               "parentClass": "",
               "sep": ""
@@ -1740,7 +1741,7 @@
       "slot": "s08",
       "rootTag": "div",
       "rootClass": "section nsw-section facebook-feed-container",
-      "visibleText": "Discover more events Follow us on Facebook. Today we celebrate World Teachers Day! 🍎 👩‍🏫 🏫 ⭐️ We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026 east We looking forward to welcome everyone back on Tuesday. east The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/ east",
+      "visibleText": "Discover more events Follow us on Facebook. Today we celebrate World Teachers Day! \ud83c\udf4e \ud83d\udc69\u200d\ud83c\udfeb \ud83c\udfeb \u2b50\ufe0f We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026 east We looking forward to welcome everyone back on Tuesday. east The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/ east",
       "headings": [
         {
           "level": "h2",
@@ -1749,14 +1750,14 @@
       ],
       "paragraphs": [
         "Follow us on Facebook.",
-        "Today we celebrate World Teachers Day! 🍎 👩‍🏫 🏫 ⭐️ We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026",
+        "Today we celebrate World Teachers Day! \ud83c\udf4e \ud83d\udc69\u200d\ud83c\udfeb \ud83c\udfeb \u2b50\ufe0f We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026",
         "We looking forward to welcome everyone back on Tuesday.",
         "The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/"
       ],
       "listItems": [],
       "ctas": [
         {
-          "text": "Today we celebrate World Teachers Day! 🍎 👩‍🏫 🏫 ⭐️ We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026",
+          "text": "Today we celebrate World Teachers Day! \ud83c\udf4e \ud83d\udc69\u200d\ud83c\udfeb \ud83c\udfeb \u2b50\ufe0f We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026",
           "href": "https://m.facebook.com/1661675895966806/posts/1770173321783729#no_universal_links",
           "absHref": "https://m.facebook.com/1661675895966806/posts/1770173321783729#no_universal_links",
           "classes": ""
@@ -1836,14 +1837,14 @@
         },
         {
           "kind": "paragraph",
-          "text": "Today we celebrate World Teachers Day! 🍎 👩‍🏫 🏫 ⭐️ We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026",
+          "text": "Today we celebrate World Teachers Day! \ud83c\udf4e \ud83d\udc69\u200d\ud83c\udfeb \ud83c\udfeb \u2b50\ufe0f We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026",
           "display": "block",
           "lineClamp": 3,
           "clampGroup": 1,
           "children": [
             {
               "kind": "cta",
-              "text": "Today we celebrate World Teachers Day! 🍎 👩‍🏫 🏫 ⭐️ We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026",
+              "text": "Today we celebrate World Teachers Day! \ud83c\udf4e \ud83d\udc69\u200d\ud83c\udfeb \ud83c\udfeb \u2b50\ufe0f We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026",
               "display": "inline",
               "href": "https://m.facebook.com/1661675895966806/posts/1770173321783729#no_universal_links",
               "absHref": "https://m.facebook.com/1661675895966806/posts/1770173321783729#no_universal_links",
@@ -2174,6 +2175,7 @@
           "kind": "heading",
           "text": "Section navigation",
           "display": "block",
+          "srOnly": true,
           "level": "h2",
           "sep": ""
         },

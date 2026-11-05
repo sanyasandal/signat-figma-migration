@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:reskin/capture-content.mjs",
-    "capturedAt": "2026-11-05T09:45:13.604Z",
+    "capturedAt": "2026-11-05T19:59:39.121Z",
     "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/forms",
     "viewport": "1440x900",
     "scope": "nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!",
@@ -27,7 +27,7 @@
     },
     "settle": {
       "firstLen": 2248,
-      "waitedMs": 1512,
+      "waitedMs": 1506,
       "stable": true,
       "settledLen": 2248,
       "lateChars": 0
@@ -857,6 +857,7 @@
           "kind": "heading",
           "text": "Section navigation",
           "display": "block",
+          "srOnly": true,
           "level": "h2",
           "sep": ""
         },

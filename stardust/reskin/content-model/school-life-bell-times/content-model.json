@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:reskin/capture-content.mjs",
-    "capturedAt": "2026-11-05T09:45:04.279Z",
+    "capturedAt": "2026-11-05T19:59:26.333Z",
     "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/bell-times",
     "viewport": "1440x900",
     "scope": "nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!",
@@ -27,7 +27,7 @@
     },
     "settle": {
       "firstLen": 5567,
-      "waitedMs": 1507,
+      "waitedMs": 1516,
       "stable": true,
       "settledLen": 5567,
       "lateChars": 0
@@ -1137,6 +1137,7 @@
           "kind": "heading",
           "text": "Section navigation",
           "display": "block",
+          "srOnly": true,
           "level": "h2",
           "sep": ""
         },

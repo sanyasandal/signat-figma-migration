@@ -16,12 +16,12 @@
         {
           "id": "N-D2",
           "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
-          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+          "why": "hidden slides are absent from innerText and clones duplicate it \u2014 rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
         },
         {
           "id": "N3",
           "what": "open every .nsw-accordion panel (unhide its content region, aria-expanded=true)",
-          "why": "closed panel text is content; capture-only — the rendered accordion keeps the closed rest state"
+          "why": "closed panel text is content; capture-only \u2014 the rendered accordion keeps the closed rest state"
         },
         {
           "id": "N4",
@@ -41,7 +41,8 @@
       "live": true,
       "waitUntil": "domcontentloaded",
       "headed": false
-    }
+    },
+    "railSlotFrom": "s07 from the 2026-11-05T19:58:23.330Z capture (srOnly flag); the Facebook feed slots keep the 2026-11-05T09:44:15.460Z snapshot DA serves"
   },
   "metadata": {
     "title": "Stories and highlights",
@@ -79,7 +80,7 @@
       "whole": true
     }
   ],
-  "visibleTextNormalized": "HomeAbout usStories and highlights Stories and highlights There's always something to celebrate at our school! From exciting events to proud moments and everyday wins, here are some of our highlights. A year at our school Speech Day In February we held our annual Speech Day. The gathering at Sydney Town Hall, is an opportunity to celebrate the outstanding achievements of our students and it is wonderful to be able to share this occasion with parents and former Fortians in such a beautiful venue. Our guest speaker, Professor Margaret Burgess, Fortian from the Class of 1954, shared her insightful reflections including her memories of starting at Fort Street during the Centenary year. Additionally, Auslee Pamintuan, the School Dux of 2024, delivered a wonderful valedictorian speech, making particular mention of his gratitude to his cohort. Year 11 Life Ready Camp Year 11 attended the Life Ready Camp at the Sydney Academy of Sport and Recreation at Narrabeen. Life Ready is a course mandated by the Department of Education designed to prepare students for situations related to health and safety they may encounter as they grow into more independent people increasingly responsible for themselves and others. It was a busy time divided across a range of outdoor activities and a suite of sessions on topics such as independence, relationships, sexual health. Year 7 camp The Year 7 Camp was held at Point Wolstoncroft Sport and Recreation Centre. During the camp, students had the opportunity to participate in a range of activities including: raft building, canoeing, sailing, archery, team challenge, standup paddleboard and teacher and peer support led sessions in the day and evening. Swimming Carnival The swimming carnival proved to be a resounding success again this year, with a commendable turnout from our students. Mawson’s enthusiasm and house spirit saw them win the hotly contested house chant – congratulations to them! There were also action-packed inflatables house races that proved to be lots of fun. It was great to witness enthusiastic student participation in various events, setting a positive tone for the upcoming fiercely contested Kennedy Cup. Multicultural Day Multicultural Day was held in August with over 20 different cultural stalls open at recess and lunch in the Kilgour Quad to showcase the incredible cultures that make up our school community. Students were invited to wear their best cultural dress and represent their culture. The SRC also hosted a Multicultural Day assembly, including our flag bearing parade and some wonderful student cultural performances. IMP Camp IMP camp, held from 21-23 March, was a huge success with 186 participants and 22 amazing conducting and tutoring staff. Students spent the weekend immersed in music, in the beautiful natural setting of CRU Galston Gorge, culminating in a spectacular final concert featuring diverse range of music from Romantic, Modern Classical and Jazz through to Taiko drumming and the Beatles. Rather than being a rehearsal camp for our regular ensemble, at IMP Camp we form 16 entirely new ensembles for the weekend, in which the focus is on skill-building through the repertoire we play. The development of all of the students in such a short space of time was phenomenal to see! Fort Street has been a fantastic high school for our son. It’s a community of families and staff who value education, well being and students achieving their potential, rather than a narrow focus on achieving high marks. The teachers are of a very high standard and are available to students who want to get more help and support. — Emma, a parent of Fort Street High School Discover more highlights Visit our Facebook for more photos, videos, events and updates from our school. Today we celebrate World Teachers Day! 🍎 👩‍🏫 🏫 ⭐️ We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026 east We looking forward to welcome everyone back on Tuesday. east The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/ east Have a story to share? Do you have a great school moment to share? We’d love to hear from you! Contact us Events Find out about school events, celebrations and what’s coming up. east Our community Discover ways to volunteer and help shape our school community. east Section navigation About us Enrol Facilities and resources HSC Results Our principal and staff Policies and reports School history and archives Stories and highlights Transition to high school Why choose us?",
+  "visibleTextNormalized": "HomeAbout usStories and highlights Stories and highlights There's always something to celebrate at our school! From exciting events to proud moments and everyday wins, here are some of our highlights. A year at our school Speech Day In February we held our annual Speech Day. The gathering at Sydney Town Hall, is an opportunity to celebrate the outstanding achievements of our students and it is wonderful to be able to share this occasion with parents and former Fortians in such a beautiful venue. Our guest speaker, Professor Margaret Burgess, Fortian from the Class of 1954, shared her insightful reflections including her memories of starting at Fort Street during the Centenary year. Additionally, Auslee Pamintuan, the School Dux of 2024, delivered a wonderful valedictorian speech, making particular mention of his gratitude to his cohort. Year 11 Life Ready Camp Year 11 attended the Life Ready Camp at the Sydney Academy of Sport and Recreation at Narrabeen. Life Ready is a course mandated by the Department of Education designed to prepare students for situations related to health and safety they may encounter as they grow into more independent people increasingly responsible for themselves and others. It was a busy time divided across a range of outdoor activities and a suite of sessions on topics such as independence, relationships, sexual health. Year 7 camp The Year 7 Camp was held at Point Wolstoncroft Sport and Recreation Centre. During the camp, students had the opportunity to participate in a range of activities including: raft building, canoeing, sailing, archery, team challenge, standup paddleboard and teacher and peer support led sessions in the day and evening. Swimming Carnival The swimming carnival proved to be a resounding success again this year, with a commendable turnout from our students. Mawson\u2019s enthusiasm and house spirit saw them win the hotly contested house chant \u2013 congratulations to them! There were also action-packed inflatables house races that proved to be lots of fun. It was great to witness enthusiastic student participation in various events, setting a positive tone for the upcoming fiercely contested Kennedy Cup. Multicultural Day Multicultural Day was held in August with over 20 different cultural stalls open at recess and lunch in the Kilgour Quad to showcase the incredible cultures that make up our school community. Students were invited to wear their best cultural dress and represent their culture. The SRC also hosted a Multicultural Day assembly, including our flag bearing parade and some wonderful student cultural performances. IMP Camp IMP camp, held from 21-23 March, was a huge success with 186 participants and 22 amazing conducting and tutoring staff. Students spent the weekend immersed in music, in the beautiful natural setting of CRU Galston Gorge, culminating in a spectacular final concert featuring diverse range of music from Romantic, Modern Classical and Jazz through to Taiko drumming and the Beatles. Rather than being a rehearsal camp for our regular ensemble, at IMP Camp we form 16 entirely new ensembles for the weekend, in which the focus is on skill-building through the repertoire we play. The development of all of the students in such a short space of time was phenomenal to see! Fort Street has been a fantastic high school for our son. It\u2019s a community of families and staff who value education, well being and students achieving their potential, rather than a narrow focus on achieving high marks. The teachers are of a very high standard and are available to students who want to get more help and support. \u2014 Emma, a parent of Fort Street High School Discover more highlights Visit our Facebook for more photos, videos, events and updates from our school. Today we celebrate World Teachers Day! \ud83c\udf4e \ud83d\udc69\u200d\ud83c\udfeb \ud83c\udfeb \u2b50\ufe0f We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026 east We looking forward to welcome everyone back on Tuesday. east The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/ east Have a story to share? Do you have a great school moment to share? We\u2019d love to hear from you! Contact us Events Find out about school events, celebrations and what\u2019s coming up. east Our community Discover ways to volunteer and help shape our school community. east Section navigation About us Enrol Facilities and resources HSC Results Our principal and staff Policies and reports School history and archives Stories and highlights Transition to high school Why choose us?",
   "coverage": {
     "bodyTextLen": 5121,
     "scopeTextLen": 5121,
@@ -194,7 +195,7 @@
       "slot": "s02",
       "rootTag": "div",
       "rootClass": "section nsw-section gallery-container",
-      "visibleText": "Stories and highlights There's always something to celebrate at our school! From exciting events to proud moments and everyday wins, here are some of our highlights. A year at our school Speech Day In February we held our annual Speech Day. The gathering at Sydney Town Hall, is an opportunity to celebrate the outstanding achievements of our students and it is wonderful to be able to share this occasion with parents and former Fortians in such a beautiful venue. Our guest speaker, Professor Margaret Burgess, Fortian from the Class of 1954, shared her insightful reflections including her memories of starting at Fort Street during the Centenary year. Additionally, Auslee Pamintuan, the School Dux of 2024, delivered a wonderful valedictorian speech, making particular mention of his gratitude to his cohort. Year 11 Life Ready Camp Year 11 attended the Life Ready Camp at the Sydney Academy of Sport and Recreation at Narrabeen. Life Ready is a course mandated by the Department of Education designed to prepare students for situations related to health and safety they may encounter as they grow into more independent people increasingly responsible for themselves and others. It was a busy time divided across a range of outdoor activities and a suite of sessions on topics such as independence, relationships, sexual health. Year 7 camp The Year 7 Camp was held at Point Wolstoncroft Sport and Recreation Centre. During the camp, students had the opportunity to participate in a range of activities including: raft building, canoeing, sailing, archery, team challenge, standup paddleboard and teacher and peer support led sessions in the day and evening. Swimming Carnival The swimming carnival proved to be a resounding success again this year, with a commendable turnout from our students. Mawson’s enthusiasm and house spirit saw them win the hotly contested house chant – congratulations to them! There were also action-packed inflatables house races that proved to be lots of fun. It was great to witness enthusiastic student participation in various events, setting a positive tone for the upcoming fiercely contested Kennedy Cup. Multicultural Day Multicultural Day was held in August with over 20 different cultural stalls open at recess and lunch in the Kilgour Quad to showcase the incredible cultures that make up our school community. Students were invited to wear their best cultural dress and represent their culture. The SRC also hosted a Multicultural Day assembly, including our flag bearing parade and some wonderful student cultural performances. IMP Camp IMP camp, held from 21-23 March, was a huge success with 186 participants and 22 amazing conducting and tutoring staff. Students spent the weekend immersed in music, in the beautiful natural setting of CRU Galston Gorge, culminating in a spectacular final concert featuring diverse range of music from Romantic, Modern Classical and Jazz through to Taiko drumming and the Beatles. Rather than being a rehearsal camp for our regular ensemble, at IMP Camp we form 16 entirely new ensembles for the weekend, in which the focus is on skill-building through the repertoire we play. The development of all of the students in such a short space of time was phenomenal to see!",
+      "visibleText": "Stories and highlights There's always something to celebrate at our school! From exciting events to proud moments and everyday wins, here are some of our highlights. A year at our school Speech Day In February we held our annual Speech Day. The gathering at Sydney Town Hall, is an opportunity to celebrate the outstanding achievements of our students and it is wonderful to be able to share this occasion with parents and former Fortians in such a beautiful venue. Our guest speaker, Professor Margaret Burgess, Fortian from the Class of 1954, shared her insightful reflections including her memories of starting at Fort Street during the Centenary year. Additionally, Auslee Pamintuan, the School Dux of 2024, delivered a wonderful valedictorian speech, making particular mention of his gratitude to his cohort. Year 11 Life Ready Camp Year 11 attended the Life Ready Camp at the Sydney Academy of Sport and Recreation at Narrabeen. Life Ready is a course mandated by the Department of Education designed to prepare students for situations related to health and safety they may encounter as they grow into more independent people increasingly responsible for themselves and others. It was a busy time divided across a range of outdoor activities and a suite of sessions on topics such as independence, relationships, sexual health. Year 7 camp The Year 7 Camp was held at Point Wolstoncroft Sport and Recreation Centre. During the camp, students had the opportunity to participate in a range of activities including: raft building, canoeing, sailing, archery, team challenge, standup paddleboard and teacher and peer support led sessions in the day and evening. Swimming Carnival The swimming carnival proved to be a resounding success again this year, with a commendable turnout from our students. Mawson\u2019s enthusiasm and house spirit saw them win the hotly contested house chant \u2013 congratulations to them! There were also action-packed inflatables house races that proved to be lots of fun. It was great to witness enthusiastic student participation in various events, setting a positive tone for the upcoming fiercely contested Kennedy Cup. Multicultural Day Multicultural Day was held in August with over 20 different cultural stalls open at recess and lunch in the Kilgour Quad to showcase the incredible cultures that make up our school community. Students were invited to wear their best cultural dress and represent their culture. The SRC also hosted a Multicultural Day assembly, including our flag bearing parade and some wonderful student cultural performances. IMP Camp IMP camp, held from 21-23 March, was a huge success with 186 participants and 22 amazing conducting and tutoring staff. Students spent the weekend immersed in music, in the beautiful natural setting of CRU Galston Gorge, culminating in a spectacular final concert featuring diverse range of music from Romantic, Modern Classical and Jazz through to Taiko drumming and the Beatles. Rather than being a rehearsal camp for our regular ensemble, at IMP Camp we form 16 entirely new ensembles for the weekend, in which the focus is on skill-building through the repertoire we play. The development of all of the students in such a short space of time was phenomenal to see!",
       "headings": [
         {
           "level": "h1",
@@ -217,7 +218,7 @@
         "The Year 7 Camp was held at Point Wolstoncroft Sport and Recreation Centre.",
         "During the camp, students had the opportunity to participate in a range of activities including: raft building, canoeing, sailing, archery, team challenge, standup paddleboard and teacher and peer support led sessions in the day and evening.",
         "Swimming Carnival",
-        "The swimming carnival proved to be a resounding success again this year, with a commendable turnout from our students. Mawson’s enthusiasm and house spirit saw them win the hotly contested house chant – congratulations to them! There were also action-packed inflatables house races that proved to be lots of fun. It was great to witness enthusiastic student participation in various events, setting a positive tone for the upcoming fiercely contested Kennedy Cup.",
+        "The swimming carnival proved to be a resounding success again this year, with a commendable turnout from our students. Mawson\u2019s enthusiasm and house spirit saw them win the hotly contested house chant \u2013 congratulations to them! There were also action-packed inflatables house races that proved to be lots of fun. It was great to witness enthusiastic student participation in various events, setting a positive tone for the upcoming fiercely contested Kennedy Cup.",
         "Multicultural Day",
         "Multicultural Day was held in August with over 20 different cultural stalls open at recess and lunch in the Kilgour Quad to showcase the incredible cultures that make up our school community. Students were invited to wear their best cultural dress and represent their culture. The SRC also hosted a Multicultural Day assembly, including our flag bearing parade and some wonderful student cultural performances.",
         "IMP Camp",
@@ -227,7 +228,7 @@
         "Speech Day In February we held our annual Speech Day. The gathering at Sydney Town Hall, is an opportunity to celebrate the outstanding achievements of our students and it is wonderful to be able to share this occasion with parents and former Fortians in such a beautiful venue. Our guest speaker, Professor Margaret Burgess, Fortian from the Class of 1954, shared her insightful reflections including her memories of starting at Fort Street during the Centenary year. Additionally, Auslee Pamintuan, the School Dux of 2024, delivered a wonderful valedictorian speech, making particular mention of his gratitude to his cohort.",
         "Year 11 Life Ready Camp Year 11 attended the Life Ready Camp at the Sydney Academy of Sport and Recreation at Narrabeen. Life Ready is a course mandated by the Department of Education designed to prepare students for situations related to health and safety they may encounter as they grow into more independent people increasingly responsible for themselves and others. It was a busy time divided across a range of outdoor activities and a suite of sessions on topics such as independence, relationships, sexual health.",
         "Year 7 camp The Year 7 Camp was held at Point Wolstoncroft Sport and Recreation Centre. During the camp, students had the opportunity to participate in a range of activities including: raft building, canoeing, sailing, archery, team challenge, standup paddleboard and teacher and peer support led sessions in the day and evening.",
-        "Swimming Carnival The swimming carnival proved to be a resounding success again this year, with a commendable turnout from our students. Mawson’s enthusiasm and house spirit saw them win the hotly contested house chant – congratulations to them! There were also action-packed inflatables house races that proved to be lots of fun. It was great to witness enthusiastic student participation in various events, setting a positive tone for the upcoming fiercely contested Kennedy Cup.",
+        "Swimming Carnival The swimming carnival proved to be a resounding success again this year, with a commendable turnout from our students. Mawson\u2019s enthusiasm and house spirit saw them win the hotly contested house chant \u2013 congratulations to them! There were also action-packed inflatables house races that proved to be lots of fun. It was great to witness enthusiastic student participation in various events, setting a positive tone for the upcoming fiercely contested Kennedy Cup.",
         "Multicultural Day Multicultural Day was held in August with over 20 different cultural stalls open at recess and lunch in the Kilgour Quad to showcase the incredible cultures that make up our school community. Students were invited to wear their best cultural dress and represent their culture. The SRC also hosted a Multicultural Day assembly, including our flag bearing parade and some wonderful student cultural performances.",
         "IMP Camp IMP camp, held from 21-23 March, was a huge success with 186 participants and 22 amazing conducting and tutoring staff. Students spent the weekend immersed in music, in the beautiful natural setting of CRU Galston Gorge, culminating in a spectacular final concert featuring diverse range of music from Romantic, Modern Classical and Jazz through to Taiko drumming and the Beatles. Rather than being a rehearsal camp for our regular ensemble, at IMP Camp we form 16 entirely new ensembles for the weekend, in which the focus is on skill-building through the repertoire we play. The development of all of the students in such a short space of time was phenomenal to see!"
       ],
@@ -395,7 +396,7 @@
         },
         {
           "kind": "listItem",
-          "text": "Swimming Carnival The swimming carnival proved to be a resounding success again this year, with a commendable turnout from our students. Mawson’s enthusiasm and house spirit saw them win the hotly contested house chant – congratulations to them! There were also action-packed inflatables house races that proved to be lots of fun. It was great to witness enthusiastic student participation in various events, setting a positive tone for the upcoming fiercely contested Kennedy Cup.",
+          "text": "Swimming Carnival The swimming carnival proved to be a resounding success again this year, with a commendable turnout from our students. Mawson\u2019s enthusiasm and house spirit saw them win the hotly contested house chant \u2013 congratulations to them! There were also action-packed inflatables house races that proved to be lots of fun. It was great to witness enthusiastic student participation in various events, setting a positive tone for the upcoming fiercely contested Kennedy Cup.",
           "display": "block",
           "children": [
             {
@@ -413,7 +414,7 @@
             },
             {
               "kind": "paragraph",
-              "text": "The swimming carnival proved to be a resounding success again this year, with a commendable turnout from our students. Mawson’s enthusiasm and house spirit saw them win the hotly contested house chant – congratulations to them! There were also action-packed inflatables house races that proved to be lots of fun. It was great to witness enthusiastic student participation in various events, setting a positive tone for the upcoming fiercely contested Kennedy Cup.",
+              "text": "The swimming carnival proved to be a resounding success again this year, with a commendable turnout from our students. Mawson\u2019s enthusiasm and house spirit saw them win the hotly contested house chant \u2013 congratulations to them! There were also action-packed inflatables house races that proved to be lots of fun. It was great to witness enthusiastic student participation in various events, setting a positive tone for the upcoming fiercely contested Kennedy Cup.",
               "display": "block",
               "sep": " "
             }
@@ -492,13 +493,13 @@
       "slot": "s03",
       "rootTag": "div",
       "rootClass": "section nsw-section nsw-section--off-white",
-      "visibleText": "Fort Street has been a fantastic high school for our son. It’s a community of families and staff who value education, well being and students achieving their potential, rather than a narrow focus on achieving high marks. The teachers are of a very high standard and are available to students who want to get more help and support. — Emma, a parent of Fort Street High School",
+      "visibleText": "Fort Street has been a fantastic high school for our son. It\u2019s a community of families and staff who value education, well being and students achieving their potential, rather than a narrow focus on achieving high marks. The teachers are of a very high standard and are available to students who want to get more help and support. \u2014 Emma, a parent of Fort Street High School",
       "headings": [],
       "paragraphs": [
         "Fort Street has been a fantastic high school for our son.",
-        "It’s a community of families and staff who value education, well being and students achieving their potential, rather than a narrow focus on achieving high marks.",
+        "It\u2019s a community of families and staff who value education, well being and students achieving their potential, rather than a narrow focus on achieving high marks.",
         "The teachers are of a very high standard and are available to students who want to get more help and support.",
-        "— Emma, a parent of Fort Street High School"
+        "\u2014 Emma, a parent of Fort Street High School"
       ],
       "listItems": [],
       "ctas": [],
@@ -515,7 +516,7 @@
         },
         {
           "kind": "paragraph",
-          "text": "It’s a community of families and staff who value education, well being and students achieving their potential, rather than a narrow focus on achieving high marks.",
+          "text": "It\u2019s a community of families and staff who value education, well being and students achieving their potential, rather than a narrow focus on achieving high marks.",
           "display": "block",
           "sep": " "
         },
@@ -527,7 +528,7 @@
         },
         {
           "kind": "paragraph",
-          "text": "— Emma, a parent of Fort Street High School",
+          "text": "\u2014 Emma, a parent of Fort Street High School",
           "display": "block",
           "sep": " "
         }
@@ -550,7 +551,7 @@
       "slot": "s04",
       "rootTag": "div",
       "rootClass": "section nsw-section facebook-feed-container",
-      "visibleText": "Discover more highlights Visit our Facebook for more photos, videos, events and updates from our school. Today we celebrate World Teachers Day! 🍎 👩‍🏫 🏫 ⭐️ We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026 east We looking forward to welcome everyone back on Tuesday. east The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/ east",
+      "visibleText": "Discover more highlights Visit our Facebook for more photos, videos, events and updates from our school. Today we celebrate World Teachers Day! \ud83c\udf4e \ud83d\udc69\u200d\ud83c\udfeb \ud83c\udfeb \u2b50\ufe0f We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026 east We looking forward to welcome everyone back on Tuesday. east The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/ east",
       "headings": [
         {
           "level": "h2",
@@ -559,14 +560,14 @@
       ],
       "paragraphs": [
         "Visit our Facebook for more photos, videos, events and updates from our school.",
-        "Today we celebrate World Teachers Day! 🍎 👩‍🏫 🏫 ⭐️ We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026",
+        "Today we celebrate World Teachers Day! \ud83c\udf4e \ud83d\udc69\u200d\ud83c\udfeb \ud83c\udfeb \u2b50\ufe0f We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026",
         "We looking forward to welcome everyone back on Tuesday.",
         "The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/"
       ],
       "listItems": [],
       "ctas": [
         {
-          "text": "Today we celebrate World Teachers Day! 🍎 👩‍🏫 🏫 ⭐️ We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026",
+          "text": "Today we celebrate World Teachers Day! \ud83c\udf4e \ud83d\udc69\u200d\ud83c\udfeb \ud83c\udfeb \u2b50\ufe0f We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026",
           "href": "https://m.facebook.com/1661675895966806/posts/1770173321783729#no_universal_links",
           "absHref": "https://m.facebook.com/1661675895966806/posts/1770173321783729#no_universal_links",
           "classes": ""
@@ -646,14 +647,14 @@
         },
         {
           "kind": "paragraph",
-          "text": "Today we celebrate World Teachers Day! 🍎 👩‍🏫 🏫 ⭐️ We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026",
+          "text": "Today we celebrate World Teachers Day! \ud83c\udf4e \ud83d\udc69\u200d\ud83c\udfeb \ud83c\udfeb \u2b50\ufe0f We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026",
           "display": "block",
           "lineClamp": 3,
           "clampGroup": 1,
           "children": [
             {
               "kind": "cta",
-              "text": "Today we celebrate World Teachers Day! 🍎 👩‍🏫 🏫 ⭐️ We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026",
+              "text": "Today we celebrate World Teachers Day! \ud83c\udf4e \ud83d\udc69\u200d\ud83c\udfeb \ud83c\udfeb \u2b50\ufe0f We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026",
               "display": "inline",
               "href": "https://m.facebook.com/1661675895966806/posts/1770173321783729#no_universal_links",
               "absHref": "https://m.facebook.com/1661675895966806/posts/1770173321783729#no_universal_links",
@@ -757,7 +758,7 @@
       "slot": "s05",
       "rootTag": "div",
       "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
-      "visibleText": "Have a story to share? Do you have a great school moment to share? We’d love to hear from you! Contact us",
+      "visibleText": "Have a story to share? Do you have a great school moment to share? We\u2019d love to hear from you! Contact us",
       "headings": [
         {
           "level": "h2",
@@ -765,7 +766,7 @@
         }
       ],
       "paragraphs": [
-        "Do you have a great school moment to share? We’d love to hear from you!",
+        "Do you have a great school moment to share? We\u2019d love to hear from you!",
         "Contact us"
       ],
       "listItems": [],
@@ -791,7 +792,7 @@
         },
         {
           "kind": "paragraph",
-          "text": "Do you have a great school moment to share? We’d love to hear from you!",
+          "text": "Do you have a great school moment to share? We\u2019d love to hear from you!",
           "display": "block",
           "sep": " "
         },
@@ -832,14 +833,14 @@
       "slot": "s06",
       "rootTag": "div",
       "rootClass": "section nsw-section card-container-container",
-      "visibleText": "Events Find out about school events, celebrations and what’s coming up. east Our community Discover ways to volunteer and help shape our school community. east",
+      "visibleText": "Events Find out about school events, celebrations and what\u2019s coming up. east Our community Discover ways to volunteer and help shape our school community. east",
       "headings": [],
       "paragraphs": [
-        "Find out about school events, celebrations and what’s coming up.",
+        "Find out about school events, celebrations and what\u2019s coming up.",
         "Discover ways to volunteer and help shape our school community."
       ],
       "listItems": [
-        "Events Find out about school events, celebrations and what’s coming up. east",
+        "Events Find out about school events, celebrations and what\u2019s coming up. east",
         "Our community Discover ways to volunteer and help shape our school community. east"
       ],
       "ctas": [
@@ -863,7 +864,7 @@
       "ordered": [
         {
           "kind": "listItem",
-          "text": "Events Find out about school events, celebrations and what’s coming up. east",
+          "text": "Events Find out about school events, celebrations and what\u2019s coming up. east",
           "display": "list-item",
           "children": [
             {
@@ -877,7 +878,7 @@
             },
             {
               "kind": "paragraph",
-              "text": "Find out about school events, celebrations and what’s coming up.",
+              "text": "Find out about school events, celebrations and what\u2019s coming up.",
               "display": "block",
               "sep": " "
             },
@@ -1031,6 +1032,7 @@
           "kind": "heading",
           "text": "Section navigation",
           "display": "block",
+          "srOnly": true,
           "level": "h2",
           "sep": ""
         },

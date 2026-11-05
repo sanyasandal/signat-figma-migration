@@ -8,5 +8,12 @@
       "why": "long tinted prose rendered on the page band (M5b prose band); the donor has no full-measure greige prose composition"
     }
   ],
-  "blocking": true
+  "blocking": true,
+  "placement": [
+    {
+      "slot": "s08",
+      "to": "top",
+      "why": "the Kay donor has no side column (M3 is a tab row): the source's section sidebar is carried as a band above the content, after the breadcrumb (owner's call, 2026-11-06)"
+    }
+  ]
 }

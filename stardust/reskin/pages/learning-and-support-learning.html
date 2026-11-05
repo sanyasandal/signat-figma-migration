@@ -233,7 +233,11 @@
     .site-main.has-rail.rail-reorder > section.rail-mobile-top { order: -1; }
     .site-main.has-rail.rail-reorder > section.rail-mobile-bottom { order: 1; }
     .site-main.has-rail > section.rail-mobile-hidden { display: none; }
+    .site-main.rail-top > section.rail-mobile-hidden { display: none; }
+    .site-main.rail-top > section.rail-mobile-bottom { order: 9999; }
   }
+  .site-main.rail-top { display: flex; flex-direction: column; }
+  .site-main.rail-top > section { min-width: 0; }
   .site-main h2.heading { font-size: var(--type-h2-font-size); line-height: var(--type-h2-line-height); font-weight: var(--type-h2-font-weight); }
   .site-main h3.heading { font-size: var(--type-h3-font-size); line-height: var(--type-h3-line-height); font-weight: var(--type-h3-font-weight); }
   .site-main h4.heading { font-size: var(--type-h4-font-size); line-height: var(--type-h4-line-height); font-weight: var(--type-h4-font-weight); }
@@ -399,7 +403,7 @@
 </style>
 <!-- stardust:prototype
   writtenBy:        stardust:reskin/stream-render
-  writtenAt:        2026-11-05T10:12:01.807Z
+  writtenAt:        2026-11-05T20:04:10.080Z
   page:             learning-and-support-learning
   pageUrl:          https://fortstreet-h.schools.nsw.gov.au/learning-and-support/learning
   template:         learning-and-support-learning
@@ -446,14 +450,14 @@
       <div class="nav-actions"><a class="sr-only" href="https://fortstreet-h.schools.nsw.gov.au/#main-nav">Skip to navigation</a><a class="sr-only" href="https://fortstreet-h.schools.nsw.gov.au/#main">Skip to content</a><button class="icon-btn" type="button"><span class="glyph glyph-search" aria-hidden="true">search</span></button><button class="sr-only" type="button"><span class="sr-only">Show</span></button><button class="sr-only" type="button"><span class="sr-only">Search</span></button><button class="icon-btn nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><span class="glyph glyph-menu" aria-hidden="true"></span></button></div>
     </div></div>
 </header>
-<main class="site-main has-rail rail-start" style="--rail-width: 400px" data-template="learning-and-support-learning">
-  <section class="band layout-stack width-wide inset in-band" style="--band-inset: 16px; grid-row: 1" data-slot="s01" data-module="M3">
+<main class="site-main rail-top" data-template="learning-and-support-learning">
+  <section class="band layout-stack width-wide inset" style="--band-inset: 16px; order: 1" data-slot="s01" data-module="M3">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <ul class="list list-inline"><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/">Home</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/learning-and-support">Learning and support</a></li><li><a class="link" aria-current="page">Learning</a></li></ul>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px; grid-row: 2" data-slot="s02" data-module="M5b">
+  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px; order: 3" data-slot="s02" data-module="M5b">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h1 class="heading">Learning</h1>
@@ -464,7 +468,7 @@
         <p class="aux">At our school, we teach the <a class="link" href="https://www.nsw.gov.au/education-and-training/nesa/curriculum">NSW curriculum <span class="sr-only">(opens in new window)</span></a> and offer many different subjects to support each student’s learning. We know that development of skills in literacy and numeracy are the building blocks for learning and for everyday life. Our teachers use effective teaching strategies to help students achieve their goals.</p>
       </div></div></div>
     </section>
-  <section class="band layout-cards width-wide tone-light heading-h2 inset bleed" style="--band-inset: 16px; grid-row: 3" data-slot="s03" data-module="M11">
+  <section class="band layout-cards width-wide tone-light heading-h2 inset bleed" style="--band-inset: 16px; order: 4" data-slot="s03" data-module="M11">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Why choose us for your child’s learning?</h2>
@@ -479,7 +483,7 @@
         <span class="glyph glyph-right" aria-hidden="true">east</span></div></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 4" data-slot="s04">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; order: 5" data-slot="s04">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">What students learn</h2>
@@ -585,7 +589,7 @@
         <p class="lead">Languages can be continued as elective subjects from Year 9 through to Year 12 (HSC). In special circumstances, languages not offered at the school (i.e. Italian, Korean, etc.) can be studied through the NSW School of Languages or Saturday School of Community Languages.</p></div></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 5" data-slot="s05" data-module="M5b">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; order: 6" data-slot="s05" data-module="M5b">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Our learning approach</h2>
@@ -595,7 +599,7 @@
         <ul class="list"><li>real-world learning: hands-on tasks, group work and exploring new ideas</li><li>technology: to help students learn and build digital skills</li><li>flexible teaching: the right support for each student, with a focus on wellbeing</li><li>community connections: through excursions and local programs.</li></ul>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 6" data-slot="s06" data-module="M5b">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; order: 7" data-slot="s06" data-module="M5b">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Helping students progress</h2>
@@ -604,14 +608,14 @@
         <p class="aux">Learn more about <a class="link" href="https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support">additional learning support</a> at our school.</p>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px; grid-row: 7" data-slot="s07" data-module="M9b">
+  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px; order: 8" data-slot="s07" data-module="M9b">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <p class="lead">&quot;The quality of the teaching staff is exceptional. They are passionate mentors who genuinely invest in each student's success, challenging them to think critically while providing strong support.&quot;</p>
         <p class="lead">Elizabeth— a parent of Fort Street High School</p>
       </div></div></div>
     </section>
-  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 8" data-slot="s08" data-module="M11b">
+  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px; order: 9" data-slot="s08" data-module="M11b">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <div class="cards" style="--cards-columns: 2"><div class="card"><p class="aux"><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities">Student opportunities and activities</a></p>
@@ -621,10 +625,10 @@
         <span class="glyph glyph-right" aria-hidden="true">east</span></div></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h4 inset in-rail rail-mobile-hidden" style="--band-inset: 16px; grid-row: 2 / 9" data-slot="s09" data-module="M3">
+  <section class="band layout-stack width-wide heading-h4 inset in-top rail-mobile-hidden" style="--band-inset: 16px; order: 2" data-slot="s09" data-module="M3">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
-          <h2 class="heading">Section navigation</h2>
+          <h2 class="heading sr-only">Section navigation</h2>
         <p class="aux"><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/learning-and-support">Learning and support</a></p>
         <ul class="list"><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support">Additional learning support</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/learning-and-support/careers">Careers</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/learning-and-support/high-potential-and-gifted-education">Inspire – High potential and gifted education</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/learning-and-support/learning">Learning</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/learning-and-support/wellbeing">Wellbeing</a></li></ul>
       </div></div></div>

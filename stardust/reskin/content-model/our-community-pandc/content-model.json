@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:reskin/capture-content.mjs",
-    "capturedAt": "2026-11-05T09:44:57.798Z",
+    "capturedAt": "2026-11-05T19:59:17.502Z",
     "url": "https://fortstreet-h.schools.nsw.gov.au/our-community/pandc",
     "viewport": "1440x900",
     "scope": "nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!",
@@ -1289,7 +1289,7 @@
           "text": "Minutes",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-6c804981-cf15-4ef8-a06b-bdd9bbcace9c",
+          "toggle": "accordion-1df29e39-b592-4f1c-a01c-cd52283843f1",
           "sep": " "
         },
         {
@@ -1299,7 +1299,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-6c804981-cf15-4ef8-a06b-bdd9bbcace9c",
+          "toggle": "accordion-1df29e39-b592-4f1c-a01c-cd52283843f1",
           "sep": " "
         },
         {
@@ -1315,13 +1315,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2026%20P%20and%20C%20documents/Minutes%20GM%202026-08-12.pdf",
               "classes": "button",
               "panels": [
-                "accordion-6c804981-cf15-4ef8-a06b-bdd9bbcace9c"
+                "accordion-1df29e39-b592-4f1c-a01c-cd52283843f1"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-6c804981-cf15-4ef8-a06b-bdd9bbcace9c"
+            "accordion-1df29e39-b592-4f1c-a01c-cd52283843f1"
           ],
           "sep": " "
         },
@@ -1338,13 +1338,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2026%20P%20and%20C%20documents/Minutes%20GM%202026-06-11%20-%20Final.pdf",
               "classes": "button",
               "panels": [
-                "accordion-6c804981-cf15-4ef8-a06b-bdd9bbcace9c"
+                "accordion-1df29e39-b592-4f1c-a01c-cd52283843f1"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-6c804981-cf15-4ef8-a06b-bdd9bbcace9c"
+            "accordion-1df29e39-b592-4f1c-a01c-cd52283843f1"
           ],
           "sep": " "
         },
@@ -1361,13 +1361,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2026%20P%20and%20C%20documents/Minutes%20GM%202026-05-13.pdf",
               "classes": "button",
               "panels": [
-                "accordion-6c804981-cf15-4ef8-a06b-bdd9bbcace9c"
+                "accordion-1df29e39-b592-4f1c-a01c-cd52283843f1"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-6c804981-cf15-4ef8-a06b-bdd9bbcace9c"
+            "accordion-1df29e39-b592-4f1c-a01c-cd52283843f1"
           ],
           "sep": " "
         },
@@ -1384,13 +1384,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2026%20P%20and%20C%20documents/Code-of-Conduct-for-WhatsApp-Groups-March-2026.pdf",
               "classes": "button",
               "panels": [
-                "accordion-6c804981-cf15-4ef8-a06b-bdd9bbcace9c"
+                "accordion-1df29e39-b592-4f1c-a01c-cd52283843f1"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-6c804981-cf15-4ef8-a06b-bdd9bbcace9c"
+            "accordion-1df29e39-b592-4f1c-a01c-cd52283843f1"
           ],
           "sep": " "
         },
@@ -1407,13 +1407,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2026%20P%20and%20C%20documents/Minutes%20GM%202026-03-11.pdf",
               "classes": "button",
               "panels": [
-                "accordion-6c804981-cf15-4ef8-a06b-bdd9bbcace9c"
+                "accordion-1df29e39-b592-4f1c-a01c-cd52283843f1"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-6c804981-cf15-4ef8-a06b-bdd9bbcace9c"
+            "accordion-1df29e39-b592-4f1c-a01c-cd52283843f1"
           ],
           "sep": " "
         },
@@ -1430,13 +1430,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2026%20P%20and%20C%20documents/Minutes%20GM%202026-02-11.pdf",
               "classes": "button",
               "panels": [
-                "accordion-6c804981-cf15-4ef8-a06b-bdd9bbcace9c"
+                "accordion-1df29e39-b592-4f1c-a01c-cd52283843f1"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-6c804981-cf15-4ef8-a06b-bdd9bbcace9c"
+            "accordion-1df29e39-b592-4f1c-a01c-cd52283843f1"
           ],
           "sep": " "
         },
@@ -1453,13 +1453,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2025%20P%20and%20C%20documents/Minutes%20AGM%202025-11-12.docx.pdf",
               "classes": "button",
               "panels": [
-                "accordion-6c804981-cf15-4ef8-a06b-bdd9bbcace9c"
+                "accordion-1df29e39-b592-4f1c-a01c-cd52283843f1"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-6c804981-cf15-4ef8-a06b-bdd9bbcace9c"
+            "accordion-1df29e39-b592-4f1c-a01c-cd52283843f1"
           ],
           "sep": " "
         },
@@ -1476,13 +1476,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2025%20P%20and%20C%20documents/Minutes%20GM%202025-11-12.pdf",
               "classes": "button",
               "panels": [
-                "accordion-6c804981-cf15-4ef8-a06b-bdd9bbcace9c"
+                "accordion-1df29e39-b592-4f1c-a01c-cd52283843f1"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-6c804981-cf15-4ef8-a06b-bdd9bbcace9c"
+            "accordion-1df29e39-b592-4f1c-a01c-cd52283843f1"
           ],
           "sep": " "
         },
@@ -1499,13 +1499,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/Minutes%20GM%202025-09-10.pdf",
               "classes": "button",
               "panels": [
-                "accordion-6c804981-cf15-4ef8-a06b-bdd9bbcace9c"
+                "accordion-1df29e39-b592-4f1c-a01c-cd52283843f1"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-6c804981-cf15-4ef8-a06b-bdd9bbcace9c"
+            "accordion-1df29e39-b592-4f1c-a01c-cd52283843f1"
           ],
           "sep": " "
         },
@@ -1522,13 +1522,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/Minutes%20GM%202025-08-13.pdf",
               "classes": "button",
               "panels": [
-                "accordion-6c804981-cf15-4ef8-a06b-bdd9bbcace9c"
+                "accordion-1df29e39-b592-4f1c-a01c-cd52283843f1"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-6c804981-cf15-4ef8-a06b-bdd9bbcace9c"
+            "accordion-1df29e39-b592-4f1c-a01c-cd52283843f1"
           ],
           "sep": " "
         },
@@ -1545,13 +1545,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/Minutes%20GM%202025-06-11.pdf",
               "classes": "button",
               "panels": [
-                "accordion-6c804981-cf15-4ef8-a06b-bdd9bbcace9c"
+                "accordion-1df29e39-b592-4f1c-a01c-cd52283843f1"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-6c804981-cf15-4ef8-a06b-bdd9bbcace9c"
+            "accordion-1df29e39-b592-4f1c-a01c-cd52283843f1"
           ],
           "sep": " "
         },
@@ -1568,13 +1568,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2025%20P%20and%20C%20documents/Minutes%20GM%202025-05-14.pdf",
               "classes": "button",
               "panels": [
-                "accordion-6c804981-cf15-4ef8-a06b-bdd9bbcace9c"
+                "accordion-1df29e39-b592-4f1c-a01c-cd52283843f1"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-6c804981-cf15-4ef8-a06b-bdd9bbcace9c"
+            "accordion-1df29e39-b592-4f1c-a01c-cd52283843f1"
           ],
           "sep": " "
         },
@@ -1591,13 +1591,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/Minutes%20GM%202025-03-19.pdf",
               "classes": "button",
               "panels": [
-                "accordion-6c804981-cf15-4ef8-a06b-bdd9bbcace9c"
+                "accordion-1df29e39-b592-4f1c-a01c-cd52283843f1"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-6c804981-cf15-4ef8-a06b-bdd9bbcace9c"
+            "accordion-1df29e39-b592-4f1c-a01c-cd52283843f1"
           ],
           "sep": " "
         },
@@ -1614,13 +1614,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/Minutes%20GM%202025-02-19.pdf",
               "classes": "button",
               "panels": [
-                "accordion-6c804981-cf15-4ef8-a06b-bdd9bbcace9c"
+                "accordion-1df29e39-b592-4f1c-a01c-cd52283843f1"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-6c804981-cf15-4ef8-a06b-bdd9bbcace9c"
+            "accordion-1df29e39-b592-4f1c-a01c-cd52283843f1"
           ],
           "sep": " "
         }
@@ -2104,6 +2104,7 @@
           "kind": "heading",
           "text": "Section navigation",
           "display": "block",
+          "srOnly": true,
           "level": "h2",
           "sep": ""
         },

@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:reskin/capture-content.mjs",
-    "capturedAt": "2026-11-05T09:44:33.908Z",
+    "capturedAt": "2026-11-05T19:58:45.004Z",
     "url": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/careers",
     "viewport": "1440x900",
     "scope": "nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!",
@@ -32,7 +32,7 @@
     },
     "settle": {
       "firstLen": 4674,
-      "waitedMs": 1509,
+      "waitedMs": 1511,
       "stable": true,
       "settledLen": 4674,
       "lateChars": 0
@@ -849,6 +849,7 @@
           "kind": "heading",
           "text": "Section navigation",
           "display": "block",
+          "srOnly": true,
           "level": "h2",
           "sep": ""
         },

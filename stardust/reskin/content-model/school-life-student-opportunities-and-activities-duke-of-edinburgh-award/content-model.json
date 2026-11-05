@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:reskin/capture-content.mjs",
-    "capturedAt": "2026-11-05T09:45:45.808Z",
+    "capturedAt": "2026-11-05T20:00:20.470Z",
     "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/duke-of-edinburgh-award",
     "viewport": "1440x900",
     "scope": "nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!",
@@ -32,7 +32,7 @@
     },
     "settle": {
       "firstLen": 5973,
-      "waitedMs": 1508,
+      "waitedMs": 1507,
       "stable": true,
       "settledLen": 5973,
       "lateChars": 0
@@ -760,7 +760,7 @@
           "text": "Skills",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-91561d57-21f8-4aee-ac75-ae7a677e3994",
+          "toggle": "accordion-8e341eb9-8277-4843-9b44-1f1487dd4830",
           "sep": " "
         },
         {
@@ -770,7 +770,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-91561d57-21f8-4aee-ac75-ae7a677e3994",
+          "toggle": "accordion-8e341eb9-8277-4843-9b44-1f1487dd4830",
           "sep": " "
         },
         {
@@ -849,7 +849,7 @@
             ]
           ],
           "panels": [
-            "accordion-91561d57-21f8-4aee-ac75-ae7a677e3994"
+            "accordion-8e341eb9-8277-4843-9b44-1f1487dd4830"
           ],
           "sep": " "
         },
@@ -858,7 +858,7 @@
           "text": "Service",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-f814f3bd-95b5-462f-950e-a82dcd735680",
+          "toggle": "accordion-cab99d60-7b0e-4a1d-85ee-58e4c3882f3d",
           "sep": " "
         },
         {
@@ -868,7 +868,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-f814f3bd-95b5-462f-950e-a82dcd735680",
+          "toggle": "accordion-cab99d60-7b0e-4a1d-85ee-58e4c3882f3d",
           "sep": " "
         },
         {
@@ -939,7 +939,7 @@
             ]
           ],
           "panels": [
-            "accordion-f814f3bd-95b5-462f-950e-a82dcd735680"
+            "accordion-cab99d60-7b0e-4a1d-85ee-58e4c3882f3d"
           ],
           "sep": " "
         },
@@ -948,7 +948,7 @@
           "text": "Physical Recreation",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-57b8b789-ab08-431e-bbf8-65c58d21f584",
+          "toggle": "accordion-f3a8fc0e-1907-4607-8fd8-30921228db32",
           "sep": " "
         },
         {
@@ -958,7 +958,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-57b8b789-ab08-431e-bbf8-65c58d21f584",
+          "toggle": "accordion-f3a8fc0e-1907-4607-8fd8-30921228db32",
           "sep": " "
         },
         {
@@ -997,7 +997,7 @@
             ]
           ],
           "panels": [
-            "accordion-57b8b789-ab08-431e-bbf8-65c58d21f584"
+            "accordion-f3a8fc0e-1907-4607-8fd8-30921228db32"
           ],
           "sep": " "
         },
@@ -1301,20 +1301,20 @@
         {
           "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_19ee455046769146fe3eee008ce2122b29e3eef7f.jpg?width=750&format=jpg&optimize=medium",
           "alt": "",
-          "w": 0,
-          "h": 0
+          "w": 750,
+          "h": 563
         },
         {
           "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_190a3d9e4e783061378d2701c2082d809cf9106b5.jpg?width=750&format=jpg&optimize=medium",
           "alt": "",
-          "w": 0,
-          "h": 0
+          "w": 750,
+          "h": 1000
         },
         {
           "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_17a31ded844296778597564b9c33721fd99ad5a85.jpg?width=750&format=jpg&optimize=medium",
           "alt": "",
-          "w": 0,
-          "h": 0
+          "w": 750,
+          "h": 1000
         }
       ],
       "formControls": [],
@@ -1956,6 +1956,7 @@
           "kind": "heading",
           "text": "Section navigation",
           "display": "block",
+          "srOnly": true,
           "level": "h2",
           "sep": ""
         },

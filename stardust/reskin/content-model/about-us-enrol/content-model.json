@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:reskin/capture-content.mjs",
-    "capturedAt": "2026-11-05T09:43:54.184Z",
+    "capturedAt": "2026-11-05T19:57:48.874Z",
     "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/enrol",
     "viewport": "1440x900",
     "scope": "nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!",
@@ -27,7 +27,7 @@
     },
     "settle": {
       "firstLen": 3920,
-      "waitedMs": 1577,
+      "waitedMs": 1509,
       "stable": true,
       "settledLen": 3920,
       "lateChars": 0
@@ -379,7 +379,7 @@
           "text": "Entry into Year 7",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-ccd60116-0cbf-497c-aca6-193fc86df9a4",
+          "toggle": "accordion-e9ad61d1-af6a-4a1e-954d-922686ec4b9f",
           "sep": ""
         },
         {
@@ -389,7 +389,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-ccd60116-0cbf-497c-aca6-193fc86df9a4",
+          "toggle": "accordion-e9ad61d1-af6a-4a1e-954d-922686ec4b9f",
           "sep": " "
         },
         {
@@ -397,7 +397,7 @@
           "text": "Entry into Year 7 is managed through the NSW Department of Education - Selective Education Team. All enquiries should be directed to this Unit.",
           "display": "block",
           "panels": [
-            "accordion-ccd60116-0cbf-497c-aca6-193fc86df9a4"
+            "accordion-e9ad61d1-af6a-4a1e-954d-922686ec4b9f"
           ],
           "sep": " "
         },
@@ -406,7 +406,7 @@
           "text": "Applications open in October of each year (when the applicant is in Year 5). A state wide selective schools test is conducted in March of the following year.",
           "display": "block",
           "panels": [
-            "accordion-ccd60116-0cbf-497c-aca6-193fc86df9a4"
+            "accordion-e9ad61d1-af6a-4a1e-954d-922686ec4b9f"
           ],
           "sep": " "
         },
@@ -421,7 +421,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-ccd60116-0cbf-497c-aca6-193fc86df9a4"
+                "accordion-e9ad61d1-af6a-4a1e-954d-922686ec4b9f"
               ],
               "sep": ""
             },
@@ -433,7 +433,7 @@
               "absHref": "https://education.nsw.gov.au/schooling/parents-and-carers/choosing-a-school-setting/selective-high-schools/placement-test",
               "classes": "",
               "panels": [
-                "accordion-ccd60116-0cbf-497c-aca6-193fc86df9a4"
+                "accordion-e9ad61d1-af6a-4a1e-954d-922686ec4b9f"
               ],
               "sep": " "
             },
@@ -443,7 +443,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-ccd60116-0cbf-497c-aca6-193fc86df9a4"
+                "accordion-e9ad61d1-af6a-4a1e-954d-922686ec4b9f"
               ],
               "sep": " "
             },
@@ -455,7 +455,7 @@
               "absHref": "https://shsoc.education.nsw.gov.au/",
               "classes": "",
               "panels": [
-                "accordion-ccd60116-0cbf-497c-aca6-193fc86df9a4"
+                "accordion-e9ad61d1-af6a-4a1e-954d-922686ec4b9f"
               ],
               "sep": " "
             },
@@ -465,13 +465,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-ccd60116-0cbf-497c-aca6-193fc86df9a4"
+                "accordion-e9ad61d1-af6a-4a1e-954d-922686ec4b9f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-ccd60116-0cbf-497c-aca6-193fc86df9a4"
+            "accordion-e9ad61d1-af6a-4a1e-954d-922686ec4b9f"
           ],
           "sep": " "
         },
@@ -486,7 +486,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-ccd60116-0cbf-497c-aca6-193fc86df9a4"
+                "accordion-e9ad61d1-af6a-4a1e-954d-922686ec4b9f"
               ],
               "sep": ""
             },
@@ -498,7 +498,7 @@
               "absHref": "https://education.nsw.gov.au/schooling/parents-and-carers/choosing-a-school-setting/selective-high-schools/choosing-a-school/selective-high-schools",
               "classes": "",
               "panels": [
-                "accordion-ccd60116-0cbf-497c-aca6-193fc86df9a4"
+                "accordion-e9ad61d1-af6a-4a1e-954d-922686ec4b9f"
               ],
               "sep": " "
             },
@@ -508,13 +508,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-ccd60116-0cbf-497c-aca6-193fc86df9a4"
+                "accordion-e9ad61d1-af6a-4a1e-954d-922686ec4b9f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-ccd60116-0cbf-497c-aca6-193fc86df9a4"
+            "accordion-e9ad61d1-af6a-4a1e-954d-922686ec4b9f"
           ],
           "sep": " "
         },
@@ -523,7 +523,7 @@
           "text": "For further information, translation or assistance contact:",
           "display": "block",
           "panels": [
-            "accordion-ccd60116-0cbf-497c-aca6-193fc86df9a4"
+            "accordion-e9ad61d1-af6a-4a1e-954d-922686ec4b9f"
           ],
           "sep": " "
         },
@@ -538,7 +538,7 @@
               "parentTag": "strong",
               "parentClass": "",
               "panels": [
-                "accordion-ccd60116-0cbf-497c-aca6-193fc86df9a4"
+                "accordion-e9ad61d1-af6a-4a1e-954d-922686ec4b9f"
               ],
               "sep": ""
             },
@@ -548,7 +548,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-ccd60116-0cbf-497c-aca6-193fc86df9a4"
+                "accordion-e9ad61d1-af6a-4a1e-954d-922686ec4b9f"
               ],
               "sep": " "
             },
@@ -566,7 +566,7 @@
                   "parentTag": "a",
                   "parentClass": "",
                   "panels": [
-                    "accordion-ccd60116-0cbf-497c-aca6-193fc86df9a4"
+                    "accordion-e9ad61d1-af6a-4a1e-954d-922686ec4b9f"
                   ],
                   "sep": ""
                 },
@@ -577,13 +577,13 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-ccd60116-0cbf-497c-aca6-193fc86df9a4"
+                    "accordion-e9ad61d1-af6a-4a1e-954d-922686ec4b9f"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-ccd60116-0cbf-497c-aca6-193fc86df9a4"
+                "accordion-e9ad61d1-af6a-4a1e-954d-922686ec4b9f"
               ],
               "sep": " "
             },
@@ -593,13 +593,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-ccd60116-0cbf-497c-aca6-193fc86df9a4"
+                "accordion-e9ad61d1-af6a-4a1e-954d-922686ec4b9f"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-ccd60116-0cbf-497c-aca6-193fc86df9a4"
+            "accordion-e9ad61d1-af6a-4a1e-954d-922686ec4b9f"
           ],
           "sep": " "
         },
@@ -609,7 +609,7 @@
           "display": "block",
           "level": "h3",
           "panels": [
-            "accordion-ccd60116-0cbf-497c-aca6-193fc86df9a4"
+            "accordion-e9ad61d1-af6a-4a1e-954d-922686ec4b9f"
           ],
           "sep": " "
         },
@@ -624,7 +624,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-ccd60116-0cbf-497c-aca6-193fc86df9a4"
+                "accordion-e9ad61d1-af6a-4a1e-954d-922686ec4b9f"
               ],
               "sep": ""
             },
@@ -634,7 +634,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-ccd60116-0cbf-497c-aca6-193fc86df9a4"
+                "accordion-e9ad61d1-af6a-4a1e-954d-922686ec4b9f"
               ],
               "sep": " "
             },
@@ -644,13 +644,13 @@
               "parentTag": "strong",
               "parentClass": "",
               "panels": [
-                "accordion-ccd60116-0cbf-497c-aca6-193fc86df9a4"
+                "accordion-e9ad61d1-af6a-4a1e-954d-922686ec4b9f"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-ccd60116-0cbf-497c-aca6-193fc86df9a4"
+            "accordion-e9ad61d1-af6a-4a1e-954d-922686ec4b9f"
           ],
           "sep": " "
         },
@@ -659,7 +659,7 @@
           "text": "Tell the operator:",
           "display": "block",
           "panels": [
-            "accordion-ccd60116-0cbf-497c-aca6-193fc86df9a4"
+            "accordion-e9ad61d1-af6a-4a1e-954d-922686ec4b9f"
           ],
           "sep": " "
         },
@@ -668,7 +668,7 @@
           "text": "the language you need",
           "display": "list-item",
           "panels": [
-            "accordion-ccd60116-0cbf-497c-aca6-193fc86df9a4"
+            "accordion-e9ad61d1-af6a-4a1e-954d-922686ec4b9f"
           ],
           "sep": " "
         },
@@ -677,7 +677,7 @@
           "text": "our phone number: 1300 880 367.",
           "display": "list-item",
           "panels": [
-            "accordion-ccd60116-0cbf-497c-aca6-193fc86df9a4"
+            "accordion-e9ad61d1-af6a-4a1e-954d-922686ec4b9f"
           ],
           "sep": " "
         },
@@ -686,7 +686,7 @@
           "text": "The operator will connect you with an interpreter at no cost. The interpreter will help you during the call.",
           "display": "block",
           "panels": [
-            "accordion-ccd60116-0cbf-497c-aca6-193fc86df9a4"
+            "accordion-e9ad61d1-af6a-4a1e-954d-922686ec4b9f"
           ],
           "sep": " "
         },
@@ -695,7 +695,7 @@
           "text": "Entry into Years 8 - 10",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-24218f65-a2d9-48e7-b4de-0200f2b9f953",
+          "toggle": "accordion-484bc158-3a4c-46c6-8ca3-dc138b8382a4",
           "sep": " "
         },
         {
@@ -705,7 +705,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-24218f65-a2d9-48e7-b4de-0200f2b9f953",
+          "toggle": "accordion-484bc158-3a4c-46c6-8ca3-dc138b8382a4",
           "sep": " "
         },
         {
@@ -714,7 +714,7 @@
           "display": "block",
           "level": "h2",
           "panels": [
-            "accordion-24218f65-a2d9-48e7-b4de-0200f2b9f953"
+            "accordion-484bc158-3a4c-46c6-8ca3-dc138b8382a4"
           ],
           "sep": " "
         },
@@ -723,7 +723,7 @@
           "text": "Applications for entry in 2028 will open mid June 2027. Further information on application requirements will be updated at that time.",
           "display": "block",
           "panels": [
-            "accordion-24218f65-a2d9-48e7-b4de-0200f2b9f953"
+            "accordion-484bc158-3a4c-46c6-8ca3-dc138b8382a4"
           ],
           "sep": " "
         },
@@ -732,7 +732,7 @@
           "text": "Applicants will have approximately 4 weeks to submit their application and payment.",
           "display": "block",
           "panels": [
-            "accordion-24218f65-a2d9-48e7-b4de-0200f2b9f953"
+            "accordion-484bc158-3a4c-46c6-8ca3-dc138b8382a4"
           ],
           "sep": " "
         },
@@ -741,7 +741,7 @@
           "text": "Please note that no late applications or payments will be accepted, no execeptions. We strongly advise you aim to submit your application earlier than the cutoff date.",
           "display": "block",
           "panels": [
-            "accordion-24218f65-a2d9-48e7-b4de-0200f2b9f953"
+            "accordion-484bc158-3a4c-46c6-8ca3-dc138b8382a4"
           ],
           "sep": " "
         },
@@ -750,7 +750,7 @@
           "text": "Entry into Years 8-10 is limited with vacancies occurring only when a current student leaves the school. All applications are reviewed by a selection panel and a short list of applications is established. When a place becomes available, selected candidates on the short list will be interviewed and a place offered. There is no entrance test for entry into Year 8 - 10.",
           "display": "block",
           "panels": [
-            "accordion-24218f65-a2d9-48e7-b4de-0200f2b9f953"
+            "accordion-484bc158-3a4c-46c6-8ca3-dc138b8382a4"
           ],
           "sep": " "
         },
@@ -765,7 +765,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-24218f65-a2d9-48e7-b4de-0200f2b9f953"
+                "accordion-484bc158-3a4c-46c6-8ca3-dc138b8382a4"
               ],
               "sep": ""
             },
@@ -777,7 +777,7 @@
               "absHref": "https://education.nsw.gov.au/schooling/parents-and-carers/choosing-a-school-setting/selective-high-schools/application-process/selective-high-schools---years-8-to-12-applications#tabs_copy1",
               "classes": "",
               "panels": [
-                "accordion-24218f65-a2d9-48e7-b4de-0200f2b9f953"
+                "accordion-484bc158-3a4c-46c6-8ca3-dc138b8382a4"
               ],
               "sep": " "
             },
@@ -787,13 +787,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-24218f65-a2d9-48e7-b4de-0200f2b9f953"
+                "accordion-484bc158-3a4c-46c6-8ca3-dc138b8382a4"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-24218f65-a2d9-48e7-b4de-0200f2b9f953"
+            "accordion-484bc158-3a4c-46c6-8ca3-dc138b8382a4"
           ],
           "sep": " "
         },
@@ -802,7 +802,7 @@
           "text": "Entry into Year 11",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-cd4c22b5-aad3-47ec-a3cb-b518c7ac6658",
+          "toggle": "accordion-e6a0d601-8bca-4684-bd18-b5c808355707",
           "sep": " "
         },
         {
@@ -812,7 +812,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-cd4c22b5-aad3-47ec-a3cb-b518c7ac6658",
+          "toggle": "accordion-e6a0d601-8bca-4684-bd18-b5c808355707",
           "sep": " "
         },
         {
@@ -821,7 +821,7 @@
           "display": "block",
           "level": "h2",
           "panels": [
-            "accordion-cd4c22b5-aad3-47ec-a3cb-b518c7ac6658"
+            "accordion-e6a0d601-8bca-4684-bd18-b5c808355707"
           ],
           "sep": " "
         },
@@ -830,7 +830,7 @@
           "text": "Applications for entry in 2028 will open mid June 2027. Further information on application requirements will be updated at that time.",
           "display": "block",
           "panels": [
-            "accordion-cd4c22b5-aad3-47ec-a3cb-b518c7ac6658"
+            "accordion-e6a0d601-8bca-4684-bd18-b5c808355707"
           ],
           "sep": " "
         },
@@ -839,7 +839,7 @@
           "text": "Applicants will have approximately 4 weeks to submit their application and payment.",
           "display": "block",
           "panels": [
-            "accordion-cd4c22b5-aad3-47ec-a3cb-b518c7ac6658"
+            "accordion-e6a0d601-8bca-4684-bd18-b5c808355707"
           ],
           "sep": " "
         },
@@ -848,7 +848,7 @@
           "text": "Please note that no late applications or payments will be accepted, no execeptions. We strongly advise you aim to submit your application earlier than the cutoff date.",
           "display": "block",
           "panels": [
-            "accordion-cd4c22b5-aad3-47ec-a3cb-b518c7ac6658"
+            "accordion-e6a0d601-8bca-4684-bd18-b5c808355707"
           ],
           "sep": " "
         },
@@ -857,7 +857,7 @@
           "text": "All applicants are also required to sit the Acer HAST (Higher Ability Selection Test).",
           "display": "block",
           "panels": [
-            "accordion-cd4c22b5-aad3-47ec-a3cb-b518c7ac6658"
+            "accordion-e6a0d601-8bca-4684-bd18-b5c808355707"
           ],
           "sep": " "
         },
@@ -866,7 +866,7 @@
           "text": "Fort Street High together with eleven other schools coordinate the sitting of the Acer HAST on the same day.",
           "display": "block",
           "panels": [
-            "accordion-cd4c22b5-aad3-47ec-a3cb-b518c7ac6658"
+            "accordion-e6a0d601-8bca-4684-bd18-b5c808355707"
           ],
           "sep": " "
         },
@@ -881,7 +881,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-cd4c22b5-aad3-47ec-a3cb-b518c7ac6658"
+                "accordion-e6a0d601-8bca-4684-bd18-b5c808355707"
               ],
               "sep": ""
             },
@@ -891,7 +891,7 @@
               "parentTag": "strong",
               "parentClass": "",
               "panels": [
-                "accordion-cd4c22b5-aad3-47ec-a3cb-b518c7ac6658"
+                "accordion-e6a0d601-8bca-4684-bd18-b5c808355707"
               ],
               "sep": " "
             },
@@ -901,13 +901,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-cd4c22b5-aad3-47ec-a3cb-b518c7ac6658"
+                "accordion-e6a0d601-8bca-4684-bd18-b5c808355707"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-cd4c22b5-aad3-47ec-a3cb-b518c7ac6658"
+            "accordion-e6a0d601-8bca-4684-bd18-b5c808355707"
           ],
           "sep": " "
         },
@@ -916,7 +916,7 @@
           "text": "Successful applicants will be invited to attend interviews depending on their Acer HAST results and merit of application.",
           "display": "block",
           "panels": [
-            "accordion-cd4c22b5-aad3-47ec-a3cb-b518c7ac6658"
+            "accordion-e6a0d601-8bca-4684-bd18-b5c808355707"
           ],
           "sep": " "
         },
@@ -931,7 +931,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-cd4c22b5-aad3-47ec-a3cb-b518c7ac6658"
+                "accordion-e6a0d601-8bca-4684-bd18-b5c808355707"
               ],
               "sep": ""
             },
@@ -943,7 +943,7 @@
               "absHref": "https://education.nsw.gov.au/schooling/parents-and-carers/choosing-a-school-setting/selective-high-schools/application-process/selective-high-schools---years-8-to-12-applications#tabs_copy1",
               "classes": "",
               "panels": [
-                "accordion-cd4c22b5-aad3-47ec-a3cb-b518c7ac6658"
+                "accordion-e6a0d601-8bca-4684-bd18-b5c808355707"
               ],
               "sep": " "
             },
@@ -953,13 +953,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-cd4c22b5-aad3-47ec-a3cb-b518c7ac6658"
+                "accordion-e6a0d601-8bca-4684-bd18-b5c808355707"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-cd4c22b5-aad3-47ec-a3cb-b518c7ac6658"
+            "accordion-e6a0d601-8bca-4684-bd18-b5c808355707"
           ],
           "sep": " "
         }
@@ -1598,6 +1598,7 @@
           "kind": "heading",
           "text": "Section navigation",
           "display": "block",
+          "srOnly": true,
           "level": "h2",
           "sep": ""
         },

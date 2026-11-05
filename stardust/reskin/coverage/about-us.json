@@ -1,1 +1,13 @@
-{ "version": 1, "residue": [], "tones": [], "blocking": true }
+{
+  "version": 1,
+  "residue": [],
+  "tones": [],
+  "blocking": true,
+  "placement": [
+    {
+      "slot": "s03",
+      "to": "top",
+      "why": "the Kay donor has no side column (M3 is a tab row): the source's section sidebar is carried as a band above the content, after the breadcrumb (owner's call, 2026-11-06)"
+    }
+  ]
+}

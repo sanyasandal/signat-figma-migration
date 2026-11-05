@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:reskin/capture-content.mjs",
-    "capturedAt": "2026-11-05T09:44:36.896Z",
+    "capturedAt": "2026-11-05T19:58:53.510Z",
     "url": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/high-potential-and-gifted-education",
     "viewport": "1440x900",
     "scope": "nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!",
@@ -32,7 +32,7 @@
     },
     "settle": {
       "firstLen": 4139,
-      "waitedMs": 1508,
+      "waitedMs": 1509,
       "stable": true,
       "settledLen": 4139,
       "lateChars": 0
@@ -682,7 +682,7 @@
           "text": "In our classroom",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-31465e4d-96d4-4262-adbe-ff996b3ca1a0",
+          "toggle": "accordion-cc06cf40-8fdf-4046-8296-df79130e761b",
           "sep": " "
         },
         {
@@ -692,7 +692,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-31465e4d-96d4-4262-adbe-ff996b3ca1a0",
+          "toggle": "accordion-cc06cf40-8fdf-4046-8296-df79130e761b",
           "sep": " "
         },
         {
@@ -700,7 +700,7 @@
           "text": "We are committed to recognising and nurturing high potential and gifted students, ensuring every student has the opportunity to thrive at our school.",
           "display": "list-item",
           "panels": [
-            "accordion-31465e4d-96d4-4262-adbe-ff996b3ca1a0"
+            "accordion-cc06cf40-8fdf-4046-8296-df79130e761b"
           ],
           "sep": " "
         },
@@ -709,7 +709,7 @@
           "text": "Our supportive classroom environments promote a sense of belonging and encourage risk-taking, creativity and collaboration.",
           "display": "list-item",
           "panels": [
-            "accordion-31465e4d-96d4-4262-adbe-ff996b3ca1a0"
+            "accordion-cc06cf40-8fdf-4046-8296-df79130e761b"
           ],
           "sep": " "
         },
@@ -718,7 +718,7 @@
           "text": "Our teachers engage in professional learning to support the diverse needs of all students, including our high potential and gifted learners.",
           "display": "list-item",
           "panels": [
-            "accordion-31465e4d-96d4-4262-adbe-ff996b3ca1a0"
+            "accordion-cc06cf40-8fdf-4046-8296-df79130e761b"
           ],
           "sep": " "
         },
@@ -727,7 +727,7 @@
           "text": "Across our school",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-9c7b0dc6-cbc7-4996-a567-41e399caa40f",
+          "toggle": "accordion-cc56a5db-cc2c-45e7-8e35-f90ac98569da",
           "sep": " "
         },
         {
@@ -737,7 +737,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-9c7b0dc6-cbc7-4996-a567-41e399caa40f",
+          "toggle": "accordion-cc56a5db-cc2c-45e7-8e35-f90ac98569da",
           "sep": " "
         },
         {
@@ -745,7 +745,7 @@
           "text": "Our school offers a range of whole-school programs that support student growth.",
           "display": "list-item",
           "panels": [
-            "accordion-9c7b0dc6-cbc7-4996-a567-41e399caa40f"
+            "accordion-cc56a5db-cc2c-45e7-8e35-f90ac98569da"
           ],
           "sep": " "
         },
@@ -754,7 +754,7 @@
           "text": "Our school identifies and supports students with high potential through targeted enrichment, extension and extra-curricular opportunities such as debating, competitions, critical thinking workshops, and STEM and coding clubs.",
           "display": "list-item",
           "panels": [
-            "accordion-9c7b0dc6-cbc7-4996-a567-41e399caa40f"
+            "accordion-cc56a5db-cc2c-45e7-8e35-f90ac98569da"
           ],
           "sep": " "
         },
@@ -763,7 +763,7 @@
           "text": "All our students, including high potential and gifted students, are encouraged to take on leadership roles through student representative council leadership, mentoring programs and peer coaching.",
           "display": "list-item",
           "panels": [
-            "accordion-9c7b0dc6-cbc7-4996-a567-41e399caa40f"
+            "accordion-cc56a5db-cc2c-45e7-8e35-f90ac98569da"
           ],
           "sep": " "
         },
@@ -772,7 +772,7 @@
           "text": "Student talent is celebrated and extended through school musicals, drama groups, visual arts showcases, music ensembles and creative writing groups.",
           "display": "list-item",
           "panels": [
-            "accordion-9c7b0dc6-cbc7-4996-a567-41e399caa40f"
+            "accordion-cc56a5db-cc2c-45e7-8e35-f90ac98569da"
           ],
           "sep": " "
         },
@@ -781,7 +781,7 @@
           "text": "Our students can take part in inter school sports compeitions, carnivals, house competitions and gala days.",
           "display": "list-item",
           "panels": [
-            "accordion-9c7b0dc6-cbc7-4996-a567-41e399caa40f"
+            "accordion-cc56a5db-cc2c-45e7-8e35-f90ac98569da"
           ],
           "sep": " "
         },
@@ -790,7 +790,7 @@
           "text": "Across NSW",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-d545c924-be6b-4338-9f50-a6f500dcf7b3",
+          "toggle": "accordion-33523841-a8aa-460e-adcc-b28d1ee8e01a",
           "sep": " "
         },
         {
@@ -800,7 +800,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-d545c924-be6b-4338-9f50-a6f500dcf7b3",
+          "toggle": "accordion-33523841-a8aa-460e-adcc-b28d1ee8e01a",
           "sep": " "
         },
         {
@@ -808,7 +808,7 @@
           "text": "Our students participate in a wide range of statewide programs to extend and enrich student potential.",
           "display": "list-item",
           "panels": [
-            "accordion-d545c924-be6b-4338-9f50-a6f500dcf7b3"
+            "accordion-33523841-a8aa-460e-adcc-b28d1ee8e01a"
           ],
           "sep": " "
         },
@@ -817,7 +817,7 @@
           "text": "We provide access to local, state and national competitions and events to help students explore and extend their talents.",
           "display": "list-item",
           "panels": [
-            "accordion-d545c924-be6b-4338-9f50-a6f500dcf7b3"
+            "accordion-33523841-a8aa-460e-adcc-b28d1ee8e01a"
           ],
           "sep": " "
         },
@@ -1179,6 +1179,7 @@
           "kind": "heading",
           "text": "Section navigation",
           "display": "block",
+          "srOnly": true,
           "level": "h2",
           "sep": ""
         },

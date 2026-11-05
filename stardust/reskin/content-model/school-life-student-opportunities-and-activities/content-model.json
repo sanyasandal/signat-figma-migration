@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:reskin/capture-content.mjs",
-    "capturedAt": "2026-11-05T09:45:28.958Z",
+    "capturedAt": "2026-11-05T19:59:59.930Z",
     "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities",
     "viewport": "1440x900",
     "scope": "nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!",
@@ -27,7 +27,7 @@
     },
     "settle": {
       "firstLen": 3690,
-      "waitedMs": 1510,
+      "waitedMs": 1509,
       "stable": true,
       "settledLen": 3690,
       "lateChars": 0
@@ -960,7 +960,7 @@
           "text": "Overseas Tours",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-7b27f4af-d158-4a6b-9143-9f3bb2463375",
+          "toggle": "accordion-8717f715-ca33-4d8c-9cbb-cda77614f17d",
           "sep": ""
         },
         {
@@ -970,7 +970,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-7b27f4af-d158-4a6b-9143-9f3bb2463375",
+          "toggle": "accordion-8717f715-ca33-4d8c-9cbb-cda77614f17d",
           "sep": " "
         },
         {
@@ -978,7 +978,7 @@
           "text": "The school has a long history of sister school exchanges with Fortians having the opportunity to host students from Japan, France and Germany, as well as the opportunity to visit these countries on exchange. The Instrumental Music Program also offers students the opportunity to travel and perform across a number of European countries.",
           "display": "block",
           "panels": [
-            "accordion-7b27f4af-d158-4a6b-9143-9f3bb2463375"
+            "accordion-8717f715-ca33-4d8c-9cbb-cda77614f17d"
           ],
           "sep": " "
         },
@@ -988,7 +988,7 @@
           "display": "block",
           "level": "h3",
           "panels": [
-            "accordion-7b27f4af-d158-4a6b-9143-9f3bb2463375"
+            "accordion-8717f715-ca33-4d8c-9cbb-cda77614f17d"
           ],
           "sep": " "
         },
@@ -997,7 +997,7 @@
           "text": "Students from Years 10 and 11 German and Japanese classes travelled to their fellow sister schools in Berlin and Tokyo during the 2025 September/October holiday period to participate in lessons, cultural activities as well as touring other culturally significant sites. All students were able to use their language skills to enhance understanding of their newfound worlds.",
           "display": "block",
           "panels": [
-            "accordion-7b27f4af-d158-4a6b-9143-9f3bb2463375"
+            "accordion-8717f715-ca33-4d8c-9cbb-cda77614f17d"
           ],
           "sep": " "
         },
@@ -1006,7 +1006,7 @@
           "text": "Sister-school relationships began with the Georg Büchner Gymnasium (Berlin) in 1999 and Suginami-Sogo High School (Tokyo) from the mid 1980s. Students from these schools will also visit Fort Street High School and the school may request families to billet them while they are here. Billeting is a great way for Fortians to establish friendships with students their own ages and perhaps visit them in their home country at another time.",
           "display": "block",
           "panels": [
-            "accordion-7b27f4af-d158-4a6b-9143-9f3bb2463375"
+            "accordion-8717f715-ca33-4d8c-9cbb-cda77614f17d"
           ],
           "sep": " "
         },
@@ -1021,7 +1021,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-7b27f4af-d158-4a6b-9143-9f3bb2463375"
+                "accordion-8717f715-ca33-4d8c-9cbb-cda77614f17d"
               ],
               "sep": ""
             },
@@ -1031,7 +1031,7 @@
               "parentTag": "strong",
               "parentClass": "",
               "panels": [
-                "accordion-7b27f4af-d158-4a6b-9143-9f3bb2463375"
+                "accordion-8717f715-ca33-4d8c-9cbb-cda77614f17d"
               ],
               "sep": " "
             },
@@ -1041,7 +1041,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-7b27f4af-d158-4a6b-9143-9f3bb2463375"
+                "accordion-8717f715-ca33-4d8c-9cbb-cda77614f17d"
               ],
               "sep": " "
             },
@@ -1051,13 +1051,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-7b27f4af-d158-4a6b-9143-9f3bb2463375"
+                "accordion-8717f715-ca33-4d8c-9cbb-cda77614f17d"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-7b27f4af-d158-4a6b-9143-9f3bb2463375"
+            "accordion-8717f715-ca33-4d8c-9cbb-cda77614f17d"
           ],
           "sep": " "
         },
@@ -1067,7 +1067,7 @@
           "display": "block",
           "level": "h3",
           "panels": [
-            "accordion-7b27f4af-d158-4a6b-9143-9f3bb2463375"
+            "accordion-8717f715-ca33-4d8c-9cbb-cda77614f17d"
           ],
           "sep": " "
         },
@@ -1076,7 +1076,7 @@
           "text": "The Instrumental Music Program aims to tour overseas every 3 years, and is generally open to more senior IMP students. Previous tours have seen groups of approximately 100 students performing in Italy, Austria, Croatia, Hungary, The Czech Republic, Slovakia and Slovenia. We performed in some of the most iconic venues in Europe, including singing mass at St Peter’s Basilica in Rome, and a recital in St Mark’s Venice. As well as numerous informal recitals in venues ranging from caves to the Pantheon, we played to packed houses in public concerts in Vienna, Rome, Florence and Venice.",
           "display": "block",
           "panels": [
-            "accordion-7b27f4af-d158-4a6b-9143-9f3bb2463375"
+            "accordion-8717f715-ca33-4d8c-9cbb-cda77614f17d"
           ],
           "sep": " "
         }
@@ -1507,6 +1507,7 @@
           "kind": "heading",
           "text": "Section navigation",
           "display": "block",
+          "srOnly": true,
           "level": "h2",
           "sep": ""
         },

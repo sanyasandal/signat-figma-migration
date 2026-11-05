@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:reskin/capture-content.mjs",
-    "capturedAt": "2026-11-05T09:45:57.304Z",
+    "capturedAt": "2026-11-05T20:00:39.817Z",
     "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school",
     "viewport": "1440x900",
     "scope": "nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!",
@@ -26,11 +26,11 @@
       ]
     },
     "settle": {
-      "firstLen": 8731,
-      "waitedMs": 1532,
+      "firstLen": 8234,
+      "waitedMs": 3041,
       "stable": true,
       "settledLen": 8731,
-      "lateChars": 0
+      "lateChars": 497
     },
     "nav": {
       "live": true,
@@ -2576,6 +2576,7 @@
           "kind": "heading",
           "text": "Section navigation",
           "display": "block",
+          "srOnly": true,
           "level": "h2",
           "sep": ""
         },

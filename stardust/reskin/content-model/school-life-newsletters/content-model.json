@@ -16,12 +16,12 @@
         {
           "id": "N-D2",
           "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
-          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+          "why": "hidden slides are absent from innerText and clones duplicate it \u2014 rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
         },
         {
           "id": "N3",
           "what": "open every .nsw-accordion panel (unhide its content region, aria-expanded=true)",
-          "why": "closed panel text is content; capture-only — the rendered accordion keeps the closed rest state"
+          "why": "closed panel text is content; capture-only \u2014 the rendered accordion keeps the closed rest state"
         }
       ]
     },
@@ -36,7 +36,8 @@
       "live": true,
       "waitUntil": "domcontentloaded",
       "headed": false
-    }
+    },
+    "railSlotFrom": "s08 from the 2026-11-05T19:59:49.210Z capture (srOnly flag); the Facebook feed slots keep the 2026-11-05T09:45:23.183Z snapshot DA serves"
   },
   "metadata": {
     "title": "Newsletters",
@@ -73,7 +74,7 @@
       "whole": true
     }
   ],
-  "visibleTextNormalized": "HomeSchool lifeNewsletters Newsletters Mercurius is the school newsletter and is published fortnightly. Mercurius contains news and information about happenings in the Fort Street Community as well as important details about school activities and upcoming events. Contributions and feedback are most welcome. Please contact us at: fortstreet-h.school@det.nsw.edu.au (opens in new window) Latest newsletter Our school newsletter helps you stay connected with our school community. We use them to share our latest events, achievements and important updates. Mercurius Issue 9 - 25 September 2026 (opens in new window) Previous newsletters Term 3 newsletters 2026 keyboard_arrow_down Mercurius Issue 8 - 28 August 2026 (opens in new window) Mercurius Issue 7 - 7 August 2026 (opens in new window) Term 2 newsletters 2026 keyboard_arrow_down Mercurius Issue 4 - 15 May 2026 (opens in new window) Mercurius Issue 5 - 9 June 2026 (opens in new window) Mercurius Issue 6 - 30 June 2026 (opens in new window) Term 1 newsletters 2026 keyboard_arrow_down Mercurius Issue 1 - 23 February 202 (opens in new window) 6 Mercurius Issue 2 - 23 March 2026 (opens in new window) Mercurius Issue 3- 2 April 2026 (opens in new window) Term 4 newsletters 2025 keyboard_arrow_down Mercurius Issue 11 - 28 November 2025 (opens in new window) Mercurius Issue 10 - 12 November 2025 (opens in new window) Mercurius Issue 9 - 26 September 2025 (opens in new window) Term 3 newsletters 2025 keyboard_arrow_down Mercurius Issue 8 - 5 September 2025 (opens in new window) Mercurius Issue 7 - 15 August 2025 (opens in new window) Term 2 newsletters 2025 keyboard_arrow_down Mercurius Issue 6 - 4 July 2025 (opens in new window) Mercurius Issue 5 - 10 June 2025 (opens in new window) Mercurius Issue 4 - 16 May 2025 (opens in new window) Term 1 newsletters 2025 keyboard_arrow_down Mercurius Issue 3 - 28 March 2025 (opens in new window) Mercurius Issue 2 - 5 March 2025 (opens in new window) Mercurius Issue 1 - 14 February 2025 (opens in new window) Have something to share? We love featuring stories, achievements and updates from our school community. Contact us if you have something to include in an upcoming newsletter. Contact us Stay connected on our socials Visit our Facebook for more photos, videos, events and updates from our school. Today we celebrate World Teachers Day! 🍎 👩‍🏫 🏫 ⭐️ We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026 east We looking forward to welcome everyone back on Tuesday. east The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/ east Stories and highlights Hear about stories, wins and proud moments from our staff and students. east Events Find out about school events, celebrations and what’s coming up. east Section navigation School life Bell times Bring your own device Canteen Events Forms House and Merit System Lockers and lost property Newsletters Parent portal Stationery Student opportunities and activities Travel to school Uniform",
+  "visibleTextNormalized": "HomeSchool lifeNewsletters Newsletters Mercurius is the school newsletter and is published fortnightly. Mercurius contains news and information about happenings in the Fort Street Community as well as important details about school activities and upcoming events. Contributions and feedback are most welcome. Please contact us at: fortstreet-h.school@det.nsw.edu.au (opens in new window) Latest newsletter Our school newsletter helps you stay connected with our school community. We use them to share our latest events, achievements and important updates. Mercurius Issue 9 - 25 September 2026 (opens in new window) Previous newsletters Term 3 newsletters 2026 keyboard_arrow_down Mercurius Issue 8 - 28 August 2026 (opens in new window) Mercurius Issue 7 - 7 August 2026 (opens in new window) Term 2 newsletters 2026 keyboard_arrow_down Mercurius Issue 4 - 15 May 2026 (opens in new window) Mercurius Issue 5 - 9 June 2026 (opens in new window) Mercurius Issue 6 - 30 June 2026 (opens in new window) Term 1 newsletters 2026 keyboard_arrow_down Mercurius Issue 1 - 23 February 202 (opens in new window) 6 Mercurius Issue 2 - 23 March 2026 (opens in new window) Mercurius Issue 3- 2 April 2026 (opens in new window) Term 4 newsletters 2025 keyboard_arrow_down Mercurius Issue 11 - 28 November 2025 (opens in new window) Mercurius Issue 10 - 12 November 2025 (opens in new window) Mercurius Issue 9 - 26 September 2025 (opens in new window) Term 3 newsletters 2025 keyboard_arrow_down Mercurius Issue 8 - 5 September 2025 (opens in new window) Mercurius Issue 7 - 15 August 2025 (opens in new window) Term 2 newsletters 2025 keyboard_arrow_down Mercurius Issue 6 - 4 July 2025 (opens in new window) Mercurius Issue 5 - 10 June 2025 (opens in new window) Mercurius Issue 4 - 16 May 2025 (opens in new window) Term 1 newsletters 2025 keyboard_arrow_down Mercurius Issue 3 - 28 March 2025 (opens in new window) Mercurius Issue 2 - 5 March 2025 (opens in new window) Mercurius Issue 1 - 14 February 2025 (opens in new window) Have something to share? We love featuring stories, achievements and updates from our school community. Contact us if you have something to include in an upcoming newsletter. Contact us Stay connected on our socials Visit our Facebook for more photos, videos, events and updates from our school. Today we celebrate World Teachers Day! \ud83c\udf4e \ud83d\udc69\u200d\ud83c\udfeb \ud83c\udfeb \u2b50\ufe0f We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026 east We looking forward to welcome everyone back on Tuesday. east The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/ east Stories and highlights Hear about stories, wins and proud moments from our staff and students. east Events Find out about school events, celebrations and what\u2019s coming up. east Section navigation School life Bell times Bring your own device Canteen Events Forms House and Merit System Lockers and lost property Newsletters Parent portal Stationery Student opportunities and activities Travel to school Uniform",
   "coverage": {
     "bodyTextLen": 4378,
     "scopeTextLen": 3605,
@@ -1664,7 +1665,7 @@
       "slot": "s06",
       "rootTag": "div",
       "rootClass": "section nsw-section facebook-feed-container",
-      "visibleText": "Stay connected on our socials Visit our Facebook for more photos, videos, events and updates from our school. Today we celebrate World Teachers Day! 🍎 👩‍🏫 🏫 ⭐️ We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026 east We looking forward to welcome everyone back on Tuesday. east The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/ east",
+      "visibleText": "Stay connected on our socials Visit our Facebook for more photos, videos, events and updates from our school. Today we celebrate World Teachers Day! \ud83c\udf4e \ud83d\udc69\u200d\ud83c\udfeb \ud83c\udfeb \u2b50\ufe0f We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026 east We looking forward to welcome everyone back on Tuesday. east The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/ east",
       "headings": [
         {
           "level": "h2",
@@ -1673,14 +1674,14 @@
       ],
       "paragraphs": [
         "Visit our Facebook for more photos, videos, events and updates from our school.",
-        "Today we celebrate World Teachers Day! 🍎 👩‍🏫 🏫 ⭐️ We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026",
+        "Today we celebrate World Teachers Day! \ud83c\udf4e \ud83d\udc69\u200d\ud83c\udfeb \ud83c\udfeb \u2b50\ufe0f We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026",
         "We looking forward to welcome everyone back on Tuesday.",
         "The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/"
       ],
       "listItems": [],
       "ctas": [
         {
-          "text": "Today we celebrate World Teachers Day! 🍎 👩‍🏫 🏫 ⭐️ We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026",
+          "text": "Today we celebrate World Teachers Day! \ud83c\udf4e \ud83d\udc69\u200d\ud83c\udfeb \ud83c\udfeb \u2b50\ufe0f We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026",
           "href": "https://m.facebook.com/1661675895966806/posts/1770173321783729#no_universal_links",
           "absHref": "https://m.facebook.com/1661675895966806/posts/1770173321783729#no_universal_links",
           "classes": ""
@@ -1760,14 +1761,14 @@
         },
         {
           "kind": "paragraph",
-          "text": "Today we celebrate World Teachers Day! 🍎 👩‍🏫 🏫 ⭐️ We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026",
+          "text": "Today we celebrate World Teachers Day! \ud83c\udf4e \ud83d\udc69\u200d\ud83c\udfeb \ud83c\udfeb \u2b50\ufe0f We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026",
           "display": "block",
           "lineClamp": 3,
           "clampGroup": 1,
           "children": [
             {
               "kind": "cta",
-              "text": "Today we celebrate World Teachers Day! 🍎 👩‍🏫 🏫 ⭐️ We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026",
+              "text": "Today we celebrate World Teachers Day! \ud83c\udf4e \ud83d\udc69\u200d\ud83c\udfeb \ud83c\udfeb \u2b50\ufe0f We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026",
               "display": "inline",
               "href": "https://m.facebook.com/1661675895966806/posts/1770173321783729#no_universal_links",
               "absHref": "https://m.facebook.com/1661675895966806/posts/1770173321783729#no_universal_links",
@@ -1871,15 +1872,15 @@
       "slot": "s07",
       "rootTag": "div",
       "rootClass": "section nsw-section card-container-container",
-      "visibleText": "Stories and highlights Hear about stories, wins and proud moments from our staff and students. east Events Find out about school events, celebrations and what’s coming up. east",
+      "visibleText": "Stories and highlights Hear about stories, wins and proud moments from our staff and students. east Events Find out about school events, celebrations and what\u2019s coming up. east",
       "headings": [],
       "paragraphs": [
         "Hear about stories, wins and proud moments from our staff and students.",
-        "Find out about school events, celebrations and what’s coming up."
+        "Find out about school events, celebrations and what\u2019s coming up."
       ],
       "listItems": [
         "Stories and highlights Hear about stories, wins and proud moments from our staff and students. east",
-        "Events Find out about school events, celebrations and what’s coming up. east"
+        "Events Find out about school events, celebrations and what\u2019s coming up. east"
       ],
       "ctas": [
         {
@@ -1933,7 +1934,7 @@
         },
         {
           "kind": "listItem",
-          "text": "Events Find out about school events, celebrations and what’s coming up. east",
+          "text": "Events Find out about school events, celebrations and what\u2019s coming up. east",
           "display": "list-item",
           "children": [
             {
@@ -1947,7 +1948,7 @@
             },
             {
               "kind": "paragraph",
-              "text": "Find out about school events, celebrations and what’s coming up.",
+              "text": "Find out about school events, celebrations and what\u2019s coming up.",
               "display": "block",
               "sep": " "
             },
@@ -2098,6 +2099,7 @@
           "kind": "heading",
           "text": "Section navigation",
           "display": "block",
+          "srOnly": true,
           "level": "h2",
           "sep": ""
         },

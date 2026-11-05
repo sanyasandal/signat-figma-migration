@@ -233,7 +233,11 @@
     .site-main.has-rail.rail-reorder > section.rail-mobile-top { order: -1; }
     .site-main.has-rail.rail-reorder > section.rail-mobile-bottom { order: 1; }
     .site-main.has-rail > section.rail-mobile-hidden { display: none; }
+    .site-main.rail-top > section.rail-mobile-hidden { display: none; }
+    .site-main.rail-top > section.rail-mobile-bottom { order: 9999; }
   }
+  .site-main.rail-top { display: flex; flex-direction: column; }
+  .site-main.rail-top > section { min-width: 0; }
   .site-main h2.heading { font-size: var(--type-h2-font-size); line-height: var(--type-h2-line-height); font-weight: var(--type-h2-font-weight); }
   .site-main h3.heading { font-size: var(--type-h3-font-size); line-height: var(--type-h3-line-height); font-weight: var(--type-h3-font-weight); }
   .site-main h4.heading { font-size: var(--type-h4-font-size); line-height: var(--type-h4-line-height); font-weight: var(--type-h4-font-weight); }
@@ -399,7 +403,7 @@
 </style>
 <!-- stardust:prototype
   writtenBy:        stardust:reskin/stream-render
-  writtenAt:        2026-11-05T10:12:43.844Z
+  writtenAt:        2026-11-05T20:04:56.830Z
   page:             school-life-house-and-merit-system
   pageUrl:          https://fortstreet-h.schools.nsw.gov.au/school-life/house-and-merit-system
   template:         learning-and-support-learning
@@ -446,14 +450,14 @@
       <div class="nav-actions"><a class="sr-only" href="https://fortstreet-h.schools.nsw.gov.au/#main-nav">Skip to navigation</a><a class="sr-only" href="https://fortstreet-h.schools.nsw.gov.au/#main">Skip to content</a><button class="icon-btn" type="button"><span class="glyph glyph-search" aria-hidden="true">search</span></button><button class="sr-only" type="button"><span class="sr-only">Show</span></button><button class="sr-only" type="button"><span class="sr-only">Search</span></button><button class="icon-btn nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><span class="glyph glyph-menu" aria-hidden="true"></span></button></div>
     </div></div>
 </header>
-<main class="site-main has-rail rail-start" style="--rail-width: 400px" data-template="learning-and-support-learning">
-  <section class="band layout-stack width-wide inset in-band" style="--band-inset: 16px; grid-row: 1" data-slot="s01" data-module="M3">
+<main class="site-main rail-top" data-template="learning-and-support-learning">
+  <section class="band layout-stack width-wide inset" style="--band-inset: 16px; order: 1" data-slot="s01" data-module="M3">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <ul class="list list-inline"><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/">Home</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/school-life">School life</a></li><li><a class="link" aria-current="page">House and Merit System</a></li></ul>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px; grid-row: 2" data-slot="s02" data-module="M5b">
+  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px; order: 3" data-slot="s02" data-module="M5b">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h1 class="heading">Merit System</h1>
@@ -464,13 +468,13 @@
         <p class="lead">To be awarded a Fortian Award, students must have received profile points in all 5 exit profile areas.</p>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 3" data-slot="s03" data-module="M5b">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; order: 4" data-slot="s03" data-module="M5b">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <figure class="media"><img src="assets/img/fortstreet-h.schools.nsw.gov.au/school-life/media_174c7f8bfa88b62d90d87a723955b94a2f2d2fed2-3d5a5588.jpg" data-source-src="https://fortstreet-h.schools.nsw.gov.au/school-life/media_174c7f8bfa88b62d90d87a723955b94a2f2d2fed2.jpg?width=2000&amp;format=webply&amp;optimize=medium" alt=""></figure>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 4" data-slot="s04" data-module="M5b">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; order: 5" data-slot="s04" data-module="M5b">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">House System</h2>
@@ -479,7 +483,7 @@
         <ul class="list"><li>Houses will accrue points for carnivals, additionally:</li><li>all Profile Points received by students will contribute to their House tally</li><li>Term 3 and 4 competitions will be allocated points roughly equivalent to the carnivals</li><li>The House with the most points at the end of the school year will receive the Kennedy Cup, and awarded a privilege (e.g. picnic day etc.)</li></ul>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h3 inset" style="--band-inset: 16px; grid-row: 5" data-slot="s05" data-module="M6b">
+  <section class="band layout-stack width-wide heading-h3 inset" style="--band-inset: 16px; order: 6" data-slot="s05" data-module="M6b">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Sport Houses</h2>
@@ -511,7 +515,7 @@
         <p class="lead">Simon Sheikh, Fortian 2003 is the CEO of an ethical superannuation fund and an Australian activist. He was the former National Director of activist group Get Up! from 2008-2012. He was a delegate to the economics stream of the Australia 2020 Summit and was named the NSW Young Professional of the Year in 2007.</p>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px; grid-row: 6" data-slot="s06" data-module="M9b">
+  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px; order: 7" data-slot="s06" data-module="M9b">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Need help with attendance?</h2>
@@ -519,7 +523,7 @@
         <div class="actions"><a class="btn" href="https://fortstreet-h.schools.nsw.gov.au/contact-us">Contact us</a></div>
       </div></div></div>
     </section>
-  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 7" data-slot="s07" data-module="M11b">
+  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px; order: 8" data-slot="s07" data-module="M11b">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <div class="cards" style="--cards-columns: 2"><div class="card"><p class="aux"><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school">Travel to school</a></p>
@@ -529,10 +533,10 @@
         <span class="glyph glyph-right" aria-hidden="true">east</span></div></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h4 inset in-rail rail-mobile-hidden" style="--band-inset: 16px; grid-row: 2 / 8" data-slot="s08" data-module="M3">
+  <section class="band layout-stack width-wide heading-h4 inset in-top rail-mobile-hidden" style="--band-inset: 16px; order: 2" data-slot="s08" data-module="M3">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
-          <h2 class="heading">Section navigation</h2>
+          <h2 class="heading sr-only">Section navigation</h2>
         <p class="aux"><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/school-life">School life</a></p>
         <ul class="list"><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/school-life/bell-times">Bell times</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/school-life/bring-your-own-device">Bring your own device</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/school-life/canteen">Canteen</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/school-life/events">Events</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/school-life/forms">Forms</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/school-life/house-and-merit-system">House and Merit System</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/school-life/lockers-and-lost-property">Lockers and lost property</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters">Newsletters</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal">Parent portal</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/school-life/stationery">Stationery</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities">Student opportunities and activities</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school">Travel to school</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/school-life/uniform">Uniform</a></li></ul>
       </div></div></div>

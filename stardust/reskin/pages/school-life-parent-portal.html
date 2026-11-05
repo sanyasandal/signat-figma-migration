@@ -234,7 +234,11 @@
     .site-main.has-rail.rail-reorder > section.rail-mobile-top { order: -1; }
     .site-main.has-rail.rail-reorder > section.rail-mobile-bottom { order: 1; }
     .site-main.has-rail > section.rail-mobile-hidden { display: none; }
+    .site-main.rail-top > section.rail-mobile-hidden { display: none; }
+    .site-main.rail-top > section.rail-mobile-bottom { order: 9999; }
   }
+  .site-main.rail-top { display: flex; flex-direction: column; }
+  .site-main.rail-top > section { min-width: 0; }
   .site-main h2.heading { font-size: var(--type-h2-font-size); line-height: var(--type-h2-line-height); font-weight: var(--type-h2-font-weight); }
   .site-main h3.heading { font-size: var(--type-h3-font-size); line-height: var(--type-h3-line-height); font-weight: var(--type-h3-font-weight); }
   .site-main h4.heading { font-size: var(--type-h4-font-size); line-height: var(--type-h4-line-height); font-weight: var(--type-h4-font-weight); }
@@ -400,7 +404,7 @@
 </style>
 <!-- stardust:prototype
   writtenBy:        stardust:reskin/stream-render
-  writtenAt:        2026-11-05T10:12:51.787Z
+  writtenAt:        2026-11-05T20:05:03.643Z
   page:             school-life-parent-portal
   pageUrl:          https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal
   template:         learning-and-support-learning
@@ -447,14 +451,14 @@
       <div class="nav-actions"><a class="sr-only" href="https://fortstreet-h.schools.nsw.gov.au/#main-nav">Skip to navigation</a><a class="sr-only" href="https://fortstreet-h.schools.nsw.gov.au/#main">Skip to content</a><button class="icon-btn" type="button"><span class="glyph glyph-search" aria-hidden="true">search</span></button><button class="sr-only" type="button"><span class="sr-only">Show</span></button><button class="sr-only" type="button"><span class="sr-only">Search</span></button><button class="icon-btn nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><span class="glyph glyph-menu" aria-hidden="true"></span></button></div>
     </div></div>
 </header>
-<main class="site-main has-rail rail-start" style="--rail-width: 400px" data-template="learning-and-support-learning">
-  <section class="band layout-stack width-wide inset in-band" style="--band-inset: 16px; grid-row: 1" data-slot="s01" data-module="M3">
+<main class="site-main rail-top" data-template="learning-and-support-learning">
+  <section class="band layout-stack width-wide inset" style="--band-inset: 16px; order: 1" data-slot="s01" data-module="M3">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <ul class="list list-inline"><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/">Home</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/school-life">School life</a></li><li><a class="link" aria-current="page">Parent portal</a></li></ul>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px; grid-row: 2" data-slot="s02" data-module="M5b">
+  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px; order: 3" data-slot="s02" data-module="M5b">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h1 class="heading">Parent portal</h1>
@@ -462,7 +466,7 @@
         <ul class="list"><li>make payments quickly and securely</li><li>view academic reports</li><li>stay up to date with school events</li><li>record absences.</li></ul>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 3" data-slot="s03" data-module="M5b">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; order: 4" data-slot="s03" data-module="M5b">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Our parent portal apps</h2>
@@ -472,7 +476,7 @@
         <p class="aux">Once setup you can access the portal <a class="link" href="https://fortstreeths.sentral.com.au/auth/portal">here <span class="sr-only">(opens in new window)</span></a> .</p>
       </div></div></div>
     </section>
-  <section class="band layout-split width-wide tone-light heading-h3 inset bleed" style="--band-inset: 16px; grid-row: 4" data-slot="s04" data-module="M6">
+  <section class="band layout-split width-wide tone-light heading-h3 inset bleed" style="--band-inset: 16px; order: 5" data-slot="s04" data-module="M6">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h3 class="heading">Sentral</h3>
@@ -482,14 +486,14 @@
         <p class="aux">Download <a class="link" href="https://apps.apple.com/ro/app/sentral-for-parents/id1238744022?mt=8">Sentral on the Apple Store <span class="sr-only">(opens in new window)</span></a></p>
       </div><img class="split-img" src="assets/img/fortstreet-h.schools.nsw.gov.au/school-life/media_1323b44ef8d18362940e6115b00f2895238a17702-3d5a5588.png" data-source-src="https://fortstreet-h.schools.nsw.gov.au/school-life/media_1323b44ef8d18362940e6115b00f2895238a17702.png?width=2000&amp;format=webply&amp;optimize=medium" alt="Sentral parents app logo"></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 5" data-slot="s05" data-module="M5b">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; order: 6" data-slot="s05" data-module="M5b">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">School Bytes</h2>
         <p class="aux">School Bytes is used for payments and permission notes for excursions. Parents can setup their own School Bytes by following the instructions provided <a class="link" href="https://support.schoolbytes.education/hc/en-us/articles/5184859634191-Parent-Portal-Set-up-your-parent-portal-account">here <span class="sr-only">(opens in new window)</span></a> .</p>
       </div></div></div>
     </section>
-  <section class="band layout-split width-wide tone-light heading-h3 inset bleed media-first" style="--band-inset: 16px; grid-row: 6" data-slot="s06" data-module="M6">
+  <section class="band layout-split width-wide tone-light heading-h3 inset bleed media-first" style="--band-inset: 16px; order: 7" data-slot="s06" data-module="M6">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h3 class="heading">School Bytes</h3>
@@ -499,7 +503,7 @@
         <p class="aux">Download <a class="link" href="https://apps.apple.com/au/app/school-bytes-for-parents/id6463097826">School Bytes on the Apple Store <span class="sr-only">(opens in new window)</span></a></p>
       </div><img class="split-img" src="assets/img/fortstreet-h.schools.nsw.gov.au/school-life/media_1bb417377f04462734837aa96ce5768d57eb383eb-3d5a5588.png" data-source-src="https://fortstreet-h.schools.nsw.gov.au/school-life/media_1bb417377f04462734837aa96ce5768d57eb383eb.png?width=2000&amp;format=webply&amp;optimize=medium" alt="School Bytes logo"></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 7" data-slot="s07" data-module="M5b">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; order: 8" data-slot="s07" data-module="M5b">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Other communications</h2>
@@ -515,7 +519,7 @@
         <p class="lead">Parents and carers may ask the school for an interpreter to be present when discussing matters involving their children. Interpreters can also be asked to be present at school meetings or parent-teacher interviews. Non-English-speaking parents, carers and community members can also use the Translating and Interpreting Service on 131 450.</p>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px; grid-row: 8" data-slot="s08" data-module="M9b">
+  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px; order: 9" data-slot="s08" data-module="M9b">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Need help with our parent portal apps?</h2>
@@ -523,7 +527,7 @@
         <div class="actions"><a class="btn" href="https://fortstreet-h.schools.nsw.gov.au/contact-us">Contact us</a></div>
       </div></div></div>
     </section>
-  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 9" data-slot="s09" data-module="M11b">
+  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px; order: 10" data-slot="s09" data-module="M11b">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <div class="cards" style="--cards-columns: 2"><div class="card"><p class="aux"><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/our-community/pandc">Our community</a></p>
@@ -533,10 +537,10 @@
         <span class="glyph glyph-right" aria-hidden="true">east</span></div></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h4 inset in-rail rail-mobile-hidden" style="--band-inset: 16px; grid-row: 2 / 10" data-slot="s10" data-module="M3">
+  <section class="band layout-stack width-wide heading-h4 inset in-top rail-mobile-hidden" style="--band-inset: 16px; order: 2" data-slot="s10" data-module="M3">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
-          <h2 class="heading">Section navigation</h2>
+          <h2 class="heading sr-only">Section navigation</h2>
         <p class="aux"><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/school-life">School life</a></p>
         <ul class="list"><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/school-life/bell-times">Bell times</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/school-life/bring-your-own-device">Bring your own device</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/school-life/canteen">Canteen</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/school-life/events">Events</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/school-life/forms">Forms</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/school-life/house-and-merit-system">House and Merit System</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/school-life/lockers-and-lost-property">Lockers and lost property</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters">Newsletters</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal">Parent portal</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/school-life/stationery">Stationery</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities">Student opportunities and activities</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school">Travel to school</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/school-life/uniform">Uniform</a></li></ul>
       </div></div></div>

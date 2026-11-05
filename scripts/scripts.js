@@ -211,25 +211,23 @@ function decorateBreadcrumb(main) {
 }
 
 /**
- * A section-nav section is the source's sidebar: a start rail beside the content, never stacked
- * after it (it follows the content in the document, as on the source). Over 900px main is a grid —
- * band sections (the breadcrumb) across both columns, the rail in column 1 over the content rows,
- * every other section on its own row in document order; at 900px and under the rail is hidden.
+ * A section-nav section is the source's sidebar, carried as a band above the content: after the
+ * leading breadcrumb, before the first content section (the Kay design has no side column). It
+ * follows the content in the document, as on the source; main is a flex column and each section
+ * gets its order. At 900px and under it is hidden, as on the source.
  * @param {HTMLElement} main The main container element
  */
 function decorateRail(main) {
   const sections = [...main.querySelectorAll(':scope > .section')];
   const rail = sections.find((s) => s.classList.contains('section-nav'));
   if (!rail) return;
-  main.classList.add('has-rail');
-  let row = 0;
-  let first = 0;
-  sections.filter((s) => s !== rail).forEach((s) => {
-    row += 1;
-    s.style.gridRow = String(row);
-    if (!first && !s.classList.contains('breadcrumb')) first = row;
+  main.classList.add('rail-top');
+  const rest = sections.filter((s) => s !== rail);
+  const lead = rest.findIndex((s) => !s.classList.contains('breadcrumb'));
+  const cut = lead < 0 ? rest.length : lead;
+  [...rest.slice(0, cut), rail, ...rest.slice(cut)].forEach((s, i) => {
+    s.style.order = String(i + 1);
   });
-  rail.style.gridRow = `${first || 1} / ${row + 1}`;
 }
 
 /**

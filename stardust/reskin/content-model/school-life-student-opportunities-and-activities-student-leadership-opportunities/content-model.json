@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:reskin/capture-content.mjs",
-    "capturedAt": "2026-11-05T09:45:55.536Z",
+    "capturedAt": "2026-11-05T20:00:32.113Z",
     "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/student-leadership-opportunities",
     "viewport": "1440x900",
     "scope": "nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!",
@@ -27,7 +27,7 @@
     },
     "settle": {
       "firstLen": 4067,
-      "waitedMs": 1508,
+      "waitedMs": 1517,
       "stable": true,
       "settledLen": 4067,
       "lateChars": 0
@@ -361,7 +361,7 @@
           "text": "SRC Pledge",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-d34bd1d2-327f-40fb-a81b-530f79bc4872",
+          "toggle": "accordion-4148cf99-9dd0-44e9-aab5-d2f65a8710d0",
           "sep": ""
         },
         {
@@ -371,7 +371,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-d34bd1d2-327f-40fb-a81b-530f79bc4872",
+          "toggle": "accordion-4148cf99-9dd0-44e9-aab5-d2f65a8710d0",
           "sep": " "
         },
         {
@@ -379,7 +379,7 @@
           "text": "At an official induction ceremony in Term 4, all members make the following statement of commitment to the school.",
           "display": "block",
           "panels": [
-            "accordion-d34bd1d2-327f-40fb-a81b-530f79bc4872"
+            "accordion-4148cf99-9dd0-44e9-aab5-d2f65a8710d0"
           ],
           "sep": " "
         },
@@ -388,7 +388,7 @@
           "text": "“As Fortians we hereby pledge our commitment to the school and the Student Representative Council.",
           "display": "block",
           "panels": [
-            "accordion-d34bd1d2-327f-40fb-a81b-530f79bc4872"
+            "accordion-4148cf99-9dd0-44e9-aab5-d2f65a8710d0"
           ],
           "sep": " "
         },
@@ -397,7 +397,7 @@
           "text": "We will faithfully represent the interests of the student body in the decision-making processes of the school.",
           "display": "block",
           "panels": [
-            "accordion-d34bd1d2-327f-40fb-a81b-530f79bc4872"
+            "accordion-4148cf99-9dd0-44e9-aab5-d2f65a8710d0"
           ],
           "sep": " "
         },
@@ -406,7 +406,7 @@
           "text": "We will assist in protecting the rights of the student body; communicating the opinions and feelings of the student body to the school; and contribute to putting in action plans, which are to benefit the students of this school.",
           "display": "block",
           "panels": [
-            "accordion-d34bd1d2-327f-40fb-a81b-530f79bc4872"
+            "accordion-4148cf99-9dd0-44e9-aab5-d2f65a8710d0"
           ],
           "sep": " "
         },
@@ -415,7 +415,7 @@
           "text": "We will lead by example; act in accordance with the school’s code of conduct; respect the rights of others; and acknowledge any decision made by the SRC.",
           "display": "block",
           "panels": [
-            "accordion-d34bd1d2-327f-40fb-a81b-530f79bc4872"
+            "accordion-4148cf99-9dd0-44e9-aab5-d2f65a8710d0"
           ],
           "sep": " "
         },
@@ -424,7 +424,7 @@
           "text": "We will attend all meetings and other SRC related commitments when possible.",
           "display": "block",
           "panels": [
-            "accordion-d34bd1d2-327f-40fb-a81b-530f79bc4872"
+            "accordion-4148cf99-9dd0-44e9-aab5-d2f65a8710d0"
           ],
           "sep": " "
         },
@@ -433,7 +433,7 @@
           "text": "As members of the SRC we will strive to achieve student well-being and positive relationships within the Fort Street Community.”",
           "display": "block",
           "panels": [
-            "accordion-d34bd1d2-327f-40fb-a81b-530f79bc4872"
+            "accordion-4148cf99-9dd0-44e9-aab5-d2f65a8710d0"
           ],
           "sep": " "
         },
@@ -442,7 +442,7 @@
           "text": "The SRC has regular contact with the staff, and a weekly meeting with the principal. Members of the SRC speak with school executive, and other groups within the school including the School Council and P&C, and of course the students. SRC meetings are held once a week.",
           "display": "block",
           "panels": [
-            "accordion-d34bd1d2-327f-40fb-a81b-530f79bc4872"
+            "accordion-4148cf99-9dd0-44e9-aab5-d2f65a8710d0"
           ],
           "sep": " "
         },
@@ -451,7 +451,7 @@
           "text": "The SRC also provides opportunities for students to represent at our district and state forums and conferences. Being part of the SRC, particularly at a school such as Fort Street, is an excellent opportunity to become involved and represent your fellow students.",
           "display": "block",
           "panels": [
-            "accordion-d34bd1d2-327f-40fb-a81b-530f79bc4872"
+            "accordion-4148cf99-9dd0-44e9-aab5-d2f65a8710d0"
           ],
           "sep": " "
         },
@@ -460,7 +460,7 @@
           "text": "Fundraising activities",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-9748585c-625c-4911-a4a0-d1d85591f3e7",
+          "toggle": "accordion-6803a60b-60cd-47f0-ad26-e4d6d97001b7",
           "sep": " "
         },
         {
@@ -470,7 +470,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-9748585c-625c-4911-a4a0-d1d85591f3e7",
+          "toggle": "accordion-6803a60b-60cd-47f0-ad26-e4d6d97001b7",
           "sep": " "
         },
         {
@@ -478,7 +478,7 @@
           "text": "The SRC runs annual student activities including the Valentines Day Rose Drive, Year 7 Dance and sporting competition, and provides opportunities for students to express their ideas about the school. The SRC has combined with the Student Environment Committee to enhance our school and to reduce waste.",
           "display": "block",
           "panels": [
-            "accordion-9748585c-625c-4911-a4a0-d1d85591f3e7"
+            "accordion-6803a60b-60cd-47f0-ad26-e4d6d97001b7"
           ],
           "sep": " "
         }
@@ -1047,6 +1047,7 @@
           "kind": "heading",
           "text": "Section navigation",
           "display": "block",
+          "srOnly": true,
           "level": "h2",
           "sep": ""
         },

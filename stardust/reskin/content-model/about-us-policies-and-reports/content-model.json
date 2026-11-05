@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:reskin/capture-content.mjs",
-    "capturedAt": "2026-11-05T09:44:03.527Z",
+    "capturedAt": "2026-11-05T19:57:59.395Z",
     "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports",
     "viewport": "1440x900",
     "scope": "nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!",
@@ -27,7 +27,7 @@
     },
     "settle": {
       "firstLen": 4011,
-      "waitedMs": 1510,
+      "waitedMs": 1507,
       "stable": true,
       "settledLen": 4011,
       "lateChars": 0
@@ -744,7 +744,7 @@
           "text": "Electronic Communications Devices Policy and Procedures",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-9a63d39e-b98b-45fa-bee9-4831c9d5cdb2",
+          "toggle": "accordion-f00e0e61-3dda-43cd-add3-32d2382629ea",
           "sep": " "
         },
         {
@@ -754,7 +754,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-9a63d39e-b98b-45fa-bee9-4831c9d5cdb2",
+          "toggle": "accordion-f00e0e61-3dda-43cd-add3-32d2382629ea",
           "sep": " "
         },
         {
@@ -762,7 +762,7 @@
           "text": "Code of Practice",
           "display": "block",
           "panels": [
-            "accordion-9a63d39e-b98b-45fa-bee9-4831c9d5cdb2"
+            "accordion-f00e0e61-3dda-43cd-add3-32d2382629ea"
           ],
           "sep": " "
         },
@@ -771,7 +771,7 @@
           "text": "Electronic communication devices such as mobile phones, laptops and other personal music or communication devices should not impact on teaching and learning:",
           "display": "block",
           "panels": [
-            "accordion-9a63d39e-b98b-45fa-bee9-4831c9d5cdb2"
+            "accordion-f00e0e61-3dda-43cd-add3-32d2382629ea"
           ],
           "sep": " "
         },
@@ -780,7 +780,7 @@
           "text": "At school all phones must be turned off or on silent and placed away, out of sight, between 8:45am and 3:15pm.",
           "display": "list-item",
           "panels": [
-            "accordion-9a63d39e-b98b-45fa-bee9-4831c9d5cdb2"
+            "accordion-f00e0e61-3dda-43cd-add3-32d2382629ea"
           ],
           "sep": " "
         },
@@ -789,7 +789,7 @@
           "text": "Students are not permitted to use their devices during lessons unless they are given specific permission to do so by the teacher. This includes mobile phones, laptops and headphones, earphones/Air Pods.",
           "display": "list-item",
           "panels": [
-            "accordion-9a63d39e-b98b-45fa-bee9-4831c9d5cdb2"
+            "accordion-f00e0e61-3dda-43cd-add3-32d2382629ea"
           ],
           "sep": " "
         },
@@ -798,7 +798,7 @@
           "text": "Students are not permitted to use mobile phones during recess or lunch. Printed copies of timetables will be distributed to all students at the beginning of each semester.",
           "display": "list-item",
           "panels": [
-            "accordion-9a63d39e-b98b-45fa-bee9-4831c9d5cdb2"
+            "accordion-f00e0e61-3dda-43cd-add3-32d2382629ea"
           ],
           "sep": " "
         },
@@ -807,7 +807,7 @@
           "text": "Students are not permitted to use laptops or tablets in the playground during recess and lunch. Students who wish to use their device for schoolwork during recess/lunch can do so in the library (7-12) or the Rowe Quad (11-12).",
           "display": "list-item",
           "panels": [
-            "accordion-9a63d39e-b98b-45fa-bee9-4831c9d5cdb2"
+            "accordion-f00e0e61-3dda-43cd-add3-32d2382629ea"
           ],
           "sep": " "
         },
@@ -816,7 +816,7 @@
           "text": "Under no circumstances should electronic communication devices be used or in the student’s possession during examinations or formal assessment tasks. This is malpractice and will be dealt with accordingly.",
           "display": "list-item",
           "panels": [
-            "accordion-9a63d39e-b98b-45fa-bee9-4831c9d5cdb2"
+            "accordion-f00e0e61-3dda-43cd-add3-32d2382629ea"
           ],
           "sep": " "
         },
@@ -825,7 +825,7 @@
           "text": "If these items are brought to school, safe keeping and security of each item is the responsibility of the owner.",
           "display": "list-item",
           "panels": [
-            "accordion-9a63d39e-b98b-45fa-bee9-4831c9d5cdb2"
+            "accordion-f00e0e61-3dda-43cd-add3-32d2382629ea"
           ],
           "sep": " "
         },
@@ -834,7 +834,7 @@
           "text": "Parents/carers are able to communicate with their child at any time during the school day by contacting the front office.",
           "display": "list-item",
           "panels": [
-            "accordion-9a63d39e-b98b-45fa-bee9-4831c9d5cdb2"
+            "accordion-f00e0e61-3dda-43cd-add3-32d2382629ea"
           ],
           "sep": " "
         },
@@ -843,7 +843,7 @@
           "text": "These expectations apply both at school and offsite during excursions etc.",
           "display": "list-item",
           "panels": [
-            "accordion-9a63d39e-b98b-45fa-bee9-4831c9d5cdb2"
+            "accordion-f00e0e61-3dda-43cd-add3-32d2382629ea"
           ],
           "sep": " "
         },
@@ -852,7 +852,7 @@
           "text": "Consequences of Inappropriate Use of Electronic Devices including mobile phones, laptops and tablets:",
           "display": "block",
           "panels": [
-            "accordion-9a63d39e-b98b-45fa-bee9-4831c9d5cdb2"
+            "accordion-f00e0e61-3dda-43cd-add3-32d2382629ea"
           ],
           "sep": " "
         },
@@ -861,7 +861,7 @@
           "text": "The following consequences may be put in place as a result of inappropriate use of communication devices:",
           "display": "block",
           "panels": [
-            "accordion-9a63d39e-b98b-45fa-bee9-4831c9d5cdb2"
+            "accordion-f00e0e61-3dda-43cd-add3-32d2382629ea"
           ],
           "sep": " "
         },
@@ -870,7 +870,7 @@
           "text": "Mobile phones and/or other devices may be confiscated from individual students. In some cases, parents may be asked to collect them.",
           "display": "list-item",
           "panels": [
-            "accordion-9a63d39e-b98b-45fa-bee9-4831c9d5cdb2"
+            "accordion-f00e0e61-3dda-43cd-add3-32d2382629ea"
           ],
           "sep": " "
         },
@@ -879,7 +879,7 @@
           "text": "Students who continue to breach the Code of Practice may be asked to hand in their phone to a Deputy Principal at the beginning of each day for a specified period.",
           "display": "list-item",
           "panels": [
-            "accordion-9a63d39e-b98b-45fa-bee9-4831c9d5cdb2"
+            "accordion-f00e0e61-3dda-43cd-add3-32d2382629ea"
           ],
           "sep": " "
         },
@@ -888,7 +888,7 @@
           "text": "Bullying of Students – Prevention and Response Policy",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735",
+          "toggle": "accordion-761eeb05-6e80-4c85-9cbc-141c6c5c3d65",
           "sep": " "
         },
         {
@@ -898,7 +898,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735",
+          "toggle": "accordion-761eeb05-6e80-4c85-9cbc-141c6c5c3d65",
           "sep": " "
         },
         {
@@ -906,7 +906,7 @@
           "text": "Bullying of any kind is not acceptable in NSW schools.",
           "display": "block",
           "panels": [
-            "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
+            "accordion-761eeb05-6e80-4c85-9cbc-141c6c5c3d65"
           ],
           "sep": " "
         },
@@ -921,7 +921,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
+                "accordion-761eeb05-6e80-4c85-9cbc-141c6c5c3d65"
               ],
               "sep": ""
             },
@@ -939,7 +939,7 @@
                   "parentTag": "a",
                   "parentClass": "",
                   "panels": [
-                    "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
+                    "accordion-761eeb05-6e80-4c85-9cbc-141c6c5c3d65"
                   ],
                   "sep": ""
                 },
@@ -950,13 +950,13 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
+                    "accordion-761eeb05-6e80-4c85-9cbc-141c6c5c3d65"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
+                "accordion-761eeb05-6e80-4c85-9cbc-141c6c5c3d65"
               ],
               "sep": " "
             },
@@ -966,13 +966,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
+                "accordion-761eeb05-6e80-4c85-9cbc-141c6c5c3d65"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
+            "accordion-761eeb05-6e80-4c85-9cbc-141c6c5c3d65"
           ],
           "sep": " "
         },
@@ -987,7 +987,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
+                "accordion-761eeb05-6e80-4c85-9cbc-141c6c5c3d65"
               ],
               "sep": ""
             },
@@ -999,7 +999,7 @@
               "absHref": "https://education.nsw.gov.au/policy-library/policies/bullying-of-students-prevention-and-response-policy",
               "classes": "",
               "panels": [
-                "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
+                "accordion-761eeb05-6e80-4c85-9cbc-141c6c5c3d65"
               ],
               "sep": " "
             },
@@ -1009,13 +1009,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
+                "accordion-761eeb05-6e80-4c85-9cbc-141c6c5c3d65"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
+            "accordion-761eeb05-6e80-4c85-9cbc-141c6c5c3d65"
           ],
           "sep": " "
         },
@@ -1024,7 +1024,7 @@
           "text": "For information on racial bullying and anti-racism education for NSW public schools refer to:",
           "display": "block",
           "panels": [
-            "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
+            "accordion-761eeb05-6e80-4c85-9cbc-141c6c5c3d65"
           ],
           "sep": " "
         },
@@ -1046,19 +1046,19 @@
                   "absHref": "https://education.nsw.gov.au/policy-library/policies/anti-racism-policy?refid=285776",
                   "classes": "button primary",
                   "panels": [
-                    "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
+                    "accordion-761eeb05-6e80-4c85-9cbc-141c6c5c3d65"
                   ],
                   "sep": ""
                 }
               ],
               "panels": [
-                "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
+                "accordion-761eeb05-6e80-4c85-9cbc-141c6c5c3d65"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
+            "accordion-761eeb05-6e80-4c85-9cbc-141c6c5c3d65"
           ],
           "sep": " "
         },
@@ -1080,19 +1080,19 @@
                   "absHref": "https://education.nsw.gov.au/teaching-and-learning/curriculum/multicultural-education/anti-racism-education",
                   "classes": "button primary",
                   "panels": [
-                    "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
+                    "accordion-761eeb05-6e80-4c85-9cbc-141c6c5c3d65"
                   ],
                   "sep": ""
                 }
               ],
               "panels": [
-                "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
+                "accordion-761eeb05-6e80-4c85-9cbc-141c6c5c3d65"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
+            "accordion-761eeb05-6e80-4c85-9cbc-141c6c5c3d65"
           ],
           "sep": " "
         },
@@ -1120,7 +1120,7 @@
                       "parentTag": "a",
                       "parentClass": "",
                       "panels": [
-                        "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
+                        "accordion-761eeb05-6e80-4c85-9cbc-141c6c5c3d65"
                       ],
                       "sep": ""
                     },
@@ -1131,13 +1131,13 @@
                       "parentClass": "sr-only",
                       "srOnly": true,
                       "panels": [
-                        "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
+                        "accordion-761eeb05-6e80-4c85-9cbc-141c6c5c3d65"
                       ],
                       "sep": " "
                     }
                   ],
                   "panels": [
-                    "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
+                    "accordion-761eeb05-6e80-4c85-9cbc-141c6c5c3d65"
                   ],
                   "sep": ""
                 },
@@ -1147,19 +1147,19 @@
                   "parentTag": "p",
                   "parentClass": "",
                   "panels": [
-                    "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
+                    "accordion-761eeb05-6e80-4c85-9cbc-141c6c5c3d65"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
+                "accordion-761eeb05-6e80-4c85-9cbc-141c6c5c3d65"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
+            "accordion-761eeb05-6e80-4c85-9cbc-141c6c5c3d65"
           ],
           "sep": " "
         },
@@ -1168,7 +1168,7 @@
           "text": "Anti-Racism Policy",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-6b3a391b-f45c-4261-b937-d631069b77a8",
+          "toggle": "accordion-be16ddca-6916-486e-8349-767146444713",
           "sep": " "
         },
         {
@@ -1178,7 +1178,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-6b3a391b-f45c-4261-b937-d631069b77a8",
+          "toggle": "accordion-be16ddca-6916-486e-8349-767146444713",
           "sep": " "
         },
         {
@@ -1192,7 +1192,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-6b3a391b-f45c-4261-b937-d631069b77a8"
+                "accordion-be16ddca-6916-486e-8349-767146444713"
               ],
               "sep": ""
             },
@@ -1204,7 +1204,7 @@
               "absHref": "https://education.nsw.gov.au/policy-library/policies/anti-racism-policy?refid=285776",
               "classes": "",
               "panels": [
-                "accordion-6b3a391b-f45c-4261-b937-d631069b77a8"
+                "accordion-be16ddca-6916-486e-8349-767146444713"
               ],
               "sep": " "
             },
@@ -1214,13 +1214,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-6b3a391b-f45c-4261-b937-d631069b77a8"
+                "accordion-be16ddca-6916-486e-8349-767146444713"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-6b3a391b-f45c-4261-b937-d631069b77a8"
+            "accordion-be16ddca-6916-486e-8349-767146444713"
           ],
           "sep": " "
         },
@@ -1235,7 +1235,7 @@
               "parentTag": "strong",
               "parentClass": "",
               "panels": [
-                "accordion-6b3a391b-f45c-4261-b937-d631069b77a8"
+                "accordion-be16ddca-6916-486e-8349-767146444713"
               ],
               "sep": ""
             },
@@ -1245,13 +1245,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-6b3a391b-f45c-4261-b937-d631069b77a8"
+                "accordion-be16ddca-6916-486e-8349-767146444713"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-6b3a391b-f45c-4261-b937-d631069b77a8"
+            "accordion-be16ddca-6916-486e-8349-767146444713"
           ],
           "sep": " "
         }
@@ -1554,6 +1554,7 @@
           "kind": "heading",
           "text": "Section navigation",
           "display": "block",
+          "srOnly": true,
           "level": "h2",
           "sep": ""
         },
