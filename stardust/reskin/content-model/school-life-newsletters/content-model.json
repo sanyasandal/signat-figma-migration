@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:reskin/capture-content.mjs",
-    "capturedAt": "2026-11-05T06:23:50.690Z",
+    "capturedAt": "2026-11-05T09:45:23.183Z",
     "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters",
     "viewport": "1440x900",
     "scope": "nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!",
@@ -27,7 +27,7 @@
     },
     "settle": {
       "firstLen": 3303,
-      "waitedMs": 1506,
+      "waitedMs": 1510,
       "stable": true,
       "settledLen": 3303,
       "lateChars": 0
@@ -173,7 +173,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 136,
+        "y": 196,
+        "w": 1168,
+        "h": 51
+      },
+      "placement": {
+        "region": "band"
+      }
     },
     {
       "slot": "s02",
@@ -268,7 +277,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 263,
+        "w": 768,
+        "h": 260
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s03",
@@ -372,7 +390,16 @@
       "orderedVerified": true,
       "tone": "tinted",
       "bg": "rgb(242, 242, 242)",
-      "toneEl": "main#main > div.section.nsw-section"
+      "toneEl": "main#main > div.section.nsw-section",
+      "rect": {
+        "x": 536,
+        "y": 523,
+        "w": 768,
+        "h": 311
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s04",
@@ -605,7 +632,7 @@
           "text": "Term 3 newsletters 2026",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-dcb21b7f-57a4-4a2e-8020-302bca135c1c",
+          "toggle": "accordion-38592beb-8891-465e-9606-6ed6006aba59",
           "sep": " "
         },
         {
@@ -615,7 +642,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-dcb21b7f-57a4-4a2e-8020-302bca135c1c",
+          "toggle": "accordion-38592beb-8891-465e-9606-6ed6006aba59",
           "sep": " "
         },
         {
@@ -637,7 +664,7 @@
                   "parentTag": "a",
                   "parentClass": "button",
                   "panels": [
-                    "accordion-dcb21b7f-57a4-4a2e-8020-302bca135c1c"
+                    "accordion-38592beb-8891-465e-9606-6ed6006aba59"
                   ],
                   "sep": ""
                 },
@@ -648,19 +675,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-dcb21b7f-57a4-4a2e-8020-302bca135c1c"
+                    "accordion-38592beb-8891-465e-9606-6ed6006aba59"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-dcb21b7f-57a4-4a2e-8020-302bca135c1c"
+                "accordion-38592beb-8891-465e-9606-6ed6006aba59"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-dcb21b7f-57a4-4a2e-8020-302bca135c1c"
+            "accordion-38592beb-8891-465e-9606-6ed6006aba59"
           ],
           "sep": " "
         },
@@ -683,7 +710,7 @@
                   "parentTag": "a",
                   "parentClass": "button",
                   "panels": [
-                    "accordion-dcb21b7f-57a4-4a2e-8020-302bca135c1c"
+                    "accordion-38592beb-8891-465e-9606-6ed6006aba59"
                   ],
                   "sep": ""
                 },
@@ -694,19 +721,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-dcb21b7f-57a4-4a2e-8020-302bca135c1c"
+                    "accordion-38592beb-8891-465e-9606-6ed6006aba59"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-dcb21b7f-57a4-4a2e-8020-302bca135c1c"
+                "accordion-38592beb-8891-465e-9606-6ed6006aba59"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-dcb21b7f-57a4-4a2e-8020-302bca135c1c"
+            "accordion-38592beb-8891-465e-9606-6ed6006aba59"
           ],
           "sep": " "
         },
@@ -715,7 +742,7 @@
           "text": "Term 2 newsletters 2026",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-aa9c763c-6e46-4662-b926-6d7044663a7e",
+          "toggle": "accordion-9b9f9ff8-03e4-4384-be30-5239ec288dcb",
           "sep": " "
         },
         {
@@ -725,7 +752,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-aa9c763c-6e46-4662-b926-6d7044663a7e",
+          "toggle": "accordion-9b9f9ff8-03e4-4384-be30-5239ec288dcb",
           "sep": " "
         },
         {
@@ -747,7 +774,7 @@
                   "parentTag": "a",
                   "parentClass": "button",
                   "panels": [
-                    "accordion-aa9c763c-6e46-4662-b926-6d7044663a7e"
+                    "accordion-9b9f9ff8-03e4-4384-be30-5239ec288dcb"
                   ],
                   "sep": ""
                 },
@@ -758,19 +785,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-aa9c763c-6e46-4662-b926-6d7044663a7e"
+                    "accordion-9b9f9ff8-03e4-4384-be30-5239ec288dcb"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-aa9c763c-6e46-4662-b926-6d7044663a7e"
+                "accordion-9b9f9ff8-03e4-4384-be30-5239ec288dcb"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-aa9c763c-6e46-4662-b926-6d7044663a7e"
+            "accordion-9b9f9ff8-03e4-4384-be30-5239ec288dcb"
           ],
           "sep": " "
         },
@@ -793,7 +820,7 @@
                   "parentTag": "a",
                   "parentClass": "button",
                   "panels": [
-                    "accordion-aa9c763c-6e46-4662-b926-6d7044663a7e"
+                    "accordion-9b9f9ff8-03e4-4384-be30-5239ec288dcb"
                   ],
                   "sep": ""
                 },
@@ -804,19 +831,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-aa9c763c-6e46-4662-b926-6d7044663a7e"
+                    "accordion-9b9f9ff8-03e4-4384-be30-5239ec288dcb"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-aa9c763c-6e46-4662-b926-6d7044663a7e"
+                "accordion-9b9f9ff8-03e4-4384-be30-5239ec288dcb"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-aa9c763c-6e46-4662-b926-6d7044663a7e"
+            "accordion-9b9f9ff8-03e4-4384-be30-5239ec288dcb"
           ],
           "sep": " "
         },
@@ -839,7 +866,7 @@
                   "parentTag": "a",
                   "parentClass": "button",
                   "panels": [
-                    "accordion-aa9c763c-6e46-4662-b926-6d7044663a7e"
+                    "accordion-9b9f9ff8-03e4-4384-be30-5239ec288dcb"
                   ],
                   "sep": ""
                 },
@@ -850,19 +877,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-aa9c763c-6e46-4662-b926-6d7044663a7e"
+                    "accordion-9b9f9ff8-03e4-4384-be30-5239ec288dcb"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-aa9c763c-6e46-4662-b926-6d7044663a7e"
+                "accordion-9b9f9ff8-03e4-4384-be30-5239ec288dcb"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-aa9c763c-6e46-4662-b926-6d7044663a7e"
+            "accordion-9b9f9ff8-03e4-4384-be30-5239ec288dcb"
           ],
           "sep": " "
         },
@@ -871,7 +898,7 @@
           "text": "Term 1 newsletters 2026",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-fcdcc0f9-61e2-4956-b07b-25f6c37592f5",
+          "toggle": "accordion-cfcfaaf4-04f6-4dc2-8a86-3e16ed1cc501",
           "sep": " "
         },
         {
@@ -881,7 +908,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-fcdcc0f9-61e2-4956-b07b-25f6c37592f5",
+          "toggle": "accordion-cfcfaaf4-04f6-4dc2-8a86-3e16ed1cc501",
           "sep": " "
         },
         {
@@ -903,7 +930,7 @@
                   "parentTag": "a",
                   "parentClass": "",
                   "panels": [
-                    "accordion-fcdcc0f9-61e2-4956-b07b-25f6c37592f5"
+                    "accordion-cfcfaaf4-04f6-4dc2-8a86-3e16ed1cc501"
                   ],
                   "sep": ""
                 },
@@ -914,13 +941,13 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-fcdcc0f9-61e2-4956-b07b-25f6c37592f5"
+                    "accordion-cfcfaaf4-04f6-4dc2-8a86-3e16ed1cc501"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-fcdcc0f9-61e2-4956-b07b-25f6c37592f5"
+                "accordion-cfcfaaf4-04f6-4dc2-8a86-3e16ed1cc501"
               ],
               "sep": ""
             },
@@ -930,13 +957,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-fcdcc0f9-61e2-4956-b07b-25f6c37592f5"
+                "accordion-cfcfaaf4-04f6-4dc2-8a86-3e16ed1cc501"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-fcdcc0f9-61e2-4956-b07b-25f6c37592f5"
+            "accordion-cfcfaaf4-04f6-4dc2-8a86-3e16ed1cc501"
           ],
           "sep": " "
         },
@@ -959,7 +986,7 @@
                   "parentTag": "a",
                   "parentClass": "button",
                   "panels": [
-                    "accordion-fcdcc0f9-61e2-4956-b07b-25f6c37592f5"
+                    "accordion-cfcfaaf4-04f6-4dc2-8a86-3e16ed1cc501"
                   ],
                   "sep": ""
                 },
@@ -970,19 +997,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-fcdcc0f9-61e2-4956-b07b-25f6c37592f5"
+                    "accordion-cfcfaaf4-04f6-4dc2-8a86-3e16ed1cc501"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-fcdcc0f9-61e2-4956-b07b-25f6c37592f5"
+                "accordion-cfcfaaf4-04f6-4dc2-8a86-3e16ed1cc501"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-fcdcc0f9-61e2-4956-b07b-25f6c37592f5"
+            "accordion-cfcfaaf4-04f6-4dc2-8a86-3e16ed1cc501"
           ],
           "sep": " "
         },
@@ -1005,7 +1032,7 @@
                   "parentTag": "a",
                   "parentClass": "button",
                   "panels": [
-                    "accordion-fcdcc0f9-61e2-4956-b07b-25f6c37592f5"
+                    "accordion-cfcfaaf4-04f6-4dc2-8a86-3e16ed1cc501"
                   ],
                   "sep": ""
                 },
@@ -1016,19 +1043,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-fcdcc0f9-61e2-4956-b07b-25f6c37592f5"
+                    "accordion-cfcfaaf4-04f6-4dc2-8a86-3e16ed1cc501"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-fcdcc0f9-61e2-4956-b07b-25f6c37592f5"
+                "accordion-cfcfaaf4-04f6-4dc2-8a86-3e16ed1cc501"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-fcdcc0f9-61e2-4956-b07b-25f6c37592f5"
+            "accordion-cfcfaaf4-04f6-4dc2-8a86-3e16ed1cc501"
           ],
           "sep": " "
         },
@@ -1037,7 +1064,7 @@
           "text": "Term 4 newsletters 2025",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-ff861f1a-973c-42ae-9d87-35325015f91d",
+          "toggle": "accordion-548b14f0-6c65-4992-8709-5b1e8be81417",
           "sep": " "
         },
         {
@@ -1047,7 +1074,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-ff861f1a-973c-42ae-9d87-35325015f91d",
+          "toggle": "accordion-548b14f0-6c65-4992-8709-5b1e8be81417",
           "sep": " "
         },
         {
@@ -1069,7 +1096,7 @@
                   "parentTag": "a",
                   "parentClass": "button",
                   "panels": [
-                    "accordion-ff861f1a-973c-42ae-9d87-35325015f91d"
+                    "accordion-548b14f0-6c65-4992-8709-5b1e8be81417"
                   ],
                   "sep": ""
                 },
@@ -1080,19 +1107,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-ff861f1a-973c-42ae-9d87-35325015f91d"
+                    "accordion-548b14f0-6c65-4992-8709-5b1e8be81417"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-ff861f1a-973c-42ae-9d87-35325015f91d"
+                "accordion-548b14f0-6c65-4992-8709-5b1e8be81417"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-ff861f1a-973c-42ae-9d87-35325015f91d"
+            "accordion-548b14f0-6c65-4992-8709-5b1e8be81417"
           ],
           "sep": " "
         },
@@ -1115,7 +1142,7 @@
                   "parentTag": "a",
                   "parentClass": "",
                   "panels": [
-                    "accordion-ff861f1a-973c-42ae-9d87-35325015f91d"
+                    "accordion-548b14f0-6c65-4992-8709-5b1e8be81417"
                   ],
                   "sep": ""
                 },
@@ -1126,13 +1153,13 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-ff861f1a-973c-42ae-9d87-35325015f91d"
+                    "accordion-548b14f0-6c65-4992-8709-5b1e8be81417"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-ff861f1a-973c-42ae-9d87-35325015f91d"
+                "accordion-548b14f0-6c65-4992-8709-5b1e8be81417"
               ],
               "sep": ""
             },
@@ -1150,7 +1177,7 @@
                   "parentTag": "a",
                   "parentClass": "",
                   "panels": [
-                    "accordion-ff861f1a-973c-42ae-9d87-35325015f91d"
+                    "accordion-548b14f0-6c65-4992-8709-5b1e8be81417"
                   ],
                   "sep": ""
                 },
@@ -1161,19 +1188,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-ff861f1a-973c-42ae-9d87-35325015f91d"
+                    "accordion-548b14f0-6c65-4992-8709-5b1e8be81417"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-ff861f1a-973c-42ae-9d87-35325015f91d"
+                "accordion-548b14f0-6c65-4992-8709-5b1e8be81417"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-ff861f1a-973c-42ae-9d87-35325015f91d"
+            "accordion-548b14f0-6c65-4992-8709-5b1e8be81417"
           ],
           "sep": " "
         },
@@ -1182,7 +1209,7 @@
           "text": "Term 3 newsletters 2025",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-4bfe92f0-c797-49be-885d-a011227a38ed",
+          "toggle": "accordion-2bfbf50a-8a95-4fd2-a64e-58fc9a1070e3",
           "sep": " "
         },
         {
@@ -1192,7 +1219,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-4bfe92f0-c797-49be-885d-a011227a38ed",
+          "toggle": "accordion-2bfbf50a-8a95-4fd2-a64e-58fc9a1070e3",
           "sep": " "
         },
         {
@@ -1214,7 +1241,7 @@
                   "parentTag": "a",
                   "parentClass": "",
                   "panels": [
-                    "accordion-4bfe92f0-c797-49be-885d-a011227a38ed"
+                    "accordion-2bfbf50a-8a95-4fd2-a64e-58fc9a1070e3"
                   ],
                   "sep": ""
                 },
@@ -1225,13 +1252,13 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-4bfe92f0-c797-49be-885d-a011227a38ed"
+                    "accordion-2bfbf50a-8a95-4fd2-a64e-58fc9a1070e3"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-4bfe92f0-c797-49be-885d-a011227a38ed"
+                "accordion-2bfbf50a-8a95-4fd2-a64e-58fc9a1070e3"
               ],
               "sep": ""
             },
@@ -1249,7 +1276,7 @@
                   "parentTag": "a",
                   "parentClass": "",
                   "panels": [
-                    "accordion-4bfe92f0-c797-49be-885d-a011227a38ed"
+                    "accordion-2bfbf50a-8a95-4fd2-a64e-58fc9a1070e3"
                   ],
                   "sep": ""
                 },
@@ -1260,19 +1287,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-4bfe92f0-c797-49be-885d-a011227a38ed"
+                    "accordion-2bfbf50a-8a95-4fd2-a64e-58fc9a1070e3"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-4bfe92f0-c797-49be-885d-a011227a38ed"
+                "accordion-2bfbf50a-8a95-4fd2-a64e-58fc9a1070e3"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-4bfe92f0-c797-49be-885d-a011227a38ed"
+            "accordion-2bfbf50a-8a95-4fd2-a64e-58fc9a1070e3"
           ],
           "sep": " "
         },
@@ -1281,7 +1308,7 @@
           "text": "Term 2 newsletters 2025",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-d369dacb-b43c-46c0-8f1d-addc410deab5",
+          "toggle": "accordion-cf1ee1ae-2f84-413b-b106-f197c6a01d9b",
           "sep": " "
         },
         {
@@ -1291,7 +1318,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-d369dacb-b43c-46c0-8f1d-addc410deab5",
+          "toggle": "accordion-cf1ee1ae-2f84-413b-b106-f197c6a01d9b",
           "sep": " "
         },
         {
@@ -1313,7 +1340,7 @@
                   "parentTag": "a",
                   "parentClass": "",
                   "panels": [
-                    "accordion-d369dacb-b43c-46c0-8f1d-addc410deab5"
+                    "accordion-cf1ee1ae-2f84-413b-b106-f197c6a01d9b"
                   ],
                   "sep": ""
                 },
@@ -1324,13 +1351,13 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-d369dacb-b43c-46c0-8f1d-addc410deab5"
+                    "accordion-cf1ee1ae-2f84-413b-b106-f197c6a01d9b"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-d369dacb-b43c-46c0-8f1d-addc410deab5"
+                "accordion-cf1ee1ae-2f84-413b-b106-f197c6a01d9b"
               ],
               "sep": ""
             },
@@ -1348,7 +1375,7 @@
                   "parentTag": "a",
                   "parentClass": "",
                   "panels": [
-                    "accordion-d369dacb-b43c-46c0-8f1d-addc410deab5"
+                    "accordion-cf1ee1ae-2f84-413b-b106-f197c6a01d9b"
                   ],
                   "sep": ""
                 },
@@ -1359,13 +1386,13 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-d369dacb-b43c-46c0-8f1d-addc410deab5"
+                    "accordion-cf1ee1ae-2f84-413b-b106-f197c6a01d9b"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-d369dacb-b43c-46c0-8f1d-addc410deab5"
+                "accordion-cf1ee1ae-2f84-413b-b106-f197c6a01d9b"
               ],
               "sep": " "
             },
@@ -1383,7 +1410,7 @@
                   "parentTag": "a",
                   "parentClass": "",
                   "panels": [
-                    "accordion-d369dacb-b43c-46c0-8f1d-addc410deab5"
+                    "accordion-cf1ee1ae-2f84-413b-b106-f197c6a01d9b"
                   ],
                   "sep": ""
                 },
@@ -1394,19 +1421,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-d369dacb-b43c-46c0-8f1d-addc410deab5"
+                    "accordion-cf1ee1ae-2f84-413b-b106-f197c6a01d9b"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-d369dacb-b43c-46c0-8f1d-addc410deab5"
+                "accordion-cf1ee1ae-2f84-413b-b106-f197c6a01d9b"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-d369dacb-b43c-46c0-8f1d-addc410deab5"
+            "accordion-cf1ee1ae-2f84-413b-b106-f197c6a01d9b"
           ],
           "sep": " "
         },
@@ -1415,7 +1442,7 @@
           "text": "Term 1 newsletters 2025",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-ece69f20-7f64-47d2-b320-307e24dbf8b8",
+          "toggle": "accordion-fd9a183d-e331-4c16-b9bf-eb8723f7271d",
           "sep": " "
         },
         {
@@ -1425,7 +1452,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-ece69f20-7f64-47d2-b320-307e24dbf8b8",
+          "toggle": "accordion-fd9a183d-e331-4c16-b9bf-eb8723f7271d",
           "sep": " "
         },
         {
@@ -1447,7 +1474,7 @@
                   "parentTag": "a",
                   "parentClass": "",
                   "panels": [
-                    "accordion-ece69f20-7f64-47d2-b320-307e24dbf8b8"
+                    "accordion-fd9a183d-e331-4c16-b9bf-eb8723f7271d"
                   ],
                   "sep": ""
                 },
@@ -1458,13 +1485,13 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-ece69f20-7f64-47d2-b320-307e24dbf8b8"
+                    "accordion-fd9a183d-e331-4c16-b9bf-eb8723f7271d"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-ece69f20-7f64-47d2-b320-307e24dbf8b8"
+                "accordion-fd9a183d-e331-4c16-b9bf-eb8723f7271d"
               ],
               "sep": ""
             },
@@ -1482,7 +1509,7 @@
                   "parentTag": "a",
                   "parentClass": "",
                   "panels": [
-                    "accordion-ece69f20-7f64-47d2-b320-307e24dbf8b8"
+                    "accordion-fd9a183d-e331-4c16-b9bf-eb8723f7271d"
                   ],
                   "sep": ""
                 },
@@ -1493,13 +1520,13 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-ece69f20-7f64-47d2-b320-307e24dbf8b8"
+                    "accordion-fd9a183d-e331-4c16-b9bf-eb8723f7271d"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-ece69f20-7f64-47d2-b320-307e24dbf8b8"
+                "accordion-fd9a183d-e331-4c16-b9bf-eb8723f7271d"
               ],
               "sep": " "
             },
@@ -1517,7 +1544,7 @@
                   "parentTag": "a",
                   "parentClass": "",
                   "panels": [
-                    "accordion-ece69f20-7f64-47d2-b320-307e24dbf8b8"
+                    "accordion-fd9a183d-e331-4c16-b9bf-eb8723f7271d"
                   ],
                   "sep": ""
                 },
@@ -1528,26 +1555,35 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-ece69f20-7f64-47d2-b320-307e24dbf8b8"
+                    "accordion-fd9a183d-e331-4c16-b9bf-eb8723f7271d"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-ece69f20-7f64-47d2-b320-307e24dbf8b8"
+                "accordion-fd9a183d-e331-4c16-b9bf-eb8723f7271d"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-ece69f20-7f64-47d2-b320-307e24dbf8b8"
+            "accordion-fd9a183d-e331-4c16-b9bf-eb8723f7271d"
           ],
           "sep": " "
         }
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 834,
+        "w": 768,
+        "h": 1513
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s05",
@@ -1613,7 +1649,16 @@
       "orderedVerified": true,
       "tone": "dark",
       "bg": "rgb(99, 0, 25)",
-      "toneEl": "main#main > div.section.nsw-section"
+      "toneEl": "main#main > div.section.nsw-section",
+      "rect": {
+        "x": 536,
+        "y": 2347,
+        "w": 768,
+        "h": 232
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s06",
@@ -1656,19 +1701,19 @@
       "iconLinks": [],
       "images": [
         {
-          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/854710675_1770172005117194_7603390710119696328_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=o0QGyZ4DXtQQ7kNvwGeBomM&_nc_oc=Adq-QwuhGcssa9U9qrsmY0yIFCYTsR3XtfehH32YLcmZV5ZhSPBFYAv8FCHVFCt0J4k&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=nEXtFtVehqEv0PNTqBeWgg&_nc_tpa=Q5bMBQKI9S6yOGdTlLlYYHB0gVGpqSRosI5sR1nOITWzplYziatiLv9ZMq3eYDAXyg0D5meLlSHqEnyPZQ&oh=00_AQR0N6hNam--JJjG4ew9saTWokV07scCo417yXWOPT--GA&oe=6AF1EF73",
+          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/854710675_1770172005117194_7603390710119696328_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=o0QGyZ4DXtQQ7kNvwGYRguV&_nc_oc=AdrpLBlQGjJr6_MnxFHis7PImcMjXe84AZe85ykttCU_tE0O6-pIIHSfEckEKY3tyQY&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=H1ov_qmdVuJ53vYxFqu7xA&_nc_tpa=Q5bMBQKh18JDfhdjx8nuWnhRkbp07vnUWDeLkB0Ziv37sThYCUDdJvG15edF_uh27SpWkNXRbRwQBA6wow&oh=00_AQTKxI9MNN2QJvUN1r6QW8q_OIGExcvmWWVYiFo9umhHDw&oe=6AF227B3",
           "alt": "Facebook post image",
           "w": 465,
           "h": 660
         },
         {
-          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/836259297_1746224134178648_3432439322237656274_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=VuZ5KrGVWa4Q7kNvwHwsb3g&_nc_oc=AdqX59xnAp9ItgBNYCOl-4kTRuzTUbcAgFFctpiXEmjulMl8-u-7RY300DEIuruWD58&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=nEXtFtVehqEv0PNTqBeWgg&_nc_tpa=Q5bMBQLgUDpoZGfP3z96T8vpz2UbVLZKyuhHjXUaxkLNobAb904ujRwFBkzWhzz69AsyEuXv5ssNGmpaQw&oh=00_AQR4sH3b7GRnCjqegtw8yaHs9G7axyYSB8MdIt34Jfv_Dw&oe=6AF1CE76",
+          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/836259297_1746224134178648_3432439322237656274_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=VuZ5KrGVWa4Q7kNvwHnZNxZ&_nc_oc=AdpeRrjZ1sj0SeRoSHzexWY5NDBwwrsf1aSI-YvJrIWu8Z42ZH6Asxwq8Qww8MJoXas&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=H1ov_qmdVuJ53vYxFqu7xA&_nc_tpa=Q5bMBQJWVVyE-pheOw1xNo1_Gua4j_SZmzR7kZjkTkHtJOnNh5gKw6sgt82_-kEvkjX4ysWZommsK9zVGw&oh=00_AQRGa3icjJx7s9GUVJC4hVaW-bCR3XBHJKr3B14M7lnL8w&oe=6AF206B6",
           "alt": "Facebook post image",
           "w": 859,
           "h": 720
         },
         {
-          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t15.5256-10/842235604_1693597185715273_5724099017723056825_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=3Sf55f6vu3MQ7kNvwE0SrAQ&_nc_oc=AdrRNyOIl8GmEB3iKYxvviJEDg4XnlvlqEuxnXLyoU2B8ZcM5PQTv0UaKVJQ5x_R4Js&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=nEXtFtVehqEv0PNTqBeWgg&_nc_tpa=Q5bMBQJ_BgTrpjUu0iryI8dN4CfoQV5n9ksqYCH-uoIBN-Vi46y5ti0jlhM7ggzQT92OxeK3AO4O7jTTOg&oh=00_AQRil84P_o3p6Qcb9TeJz2yOQt0GxrE8zx9guM3OO6Ejag&oe=6AF1D36B",
+          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t15.5256-10/842235604_1693597185715273_5724099017723056825_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=3Sf55f6vu3MQ7kNvwEoNHPl&_nc_oc=Adoo5NI5ahAoGRj0oCz78TalxteHCb1h-ApvB7h7FpOEP71VlmRsS1ASR2jrsAt8X0s&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=H1ov_qmdVuJ53vYxFqu7xA&_nc_tpa=Q5bMBQLNQjuuJgiMDBZSzsiYHpNVhe0a6roj2uHytyVsRonlR1johPX-EsnwixDHNM4cNvcy9TP2o6_bww&oh=00_AQSTnwcm-iINn-2LknYdZbSk0OEfqnXZtC9HgudQ7u9UdA&oe=6AF20BAB",
           "alt": "Facebook post image",
           "w": 1080,
           "h": 1920
@@ -1708,7 +1753,7 @@
         },
         {
           "kind": "image",
-          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/854710675_1770172005117194_7603390710119696328_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=o0QGyZ4DXtQQ7kNvwGeBomM&_nc_oc=Adq-QwuhGcssa9U9qrsmY0yIFCYTsR3XtfehH32YLcmZV5ZhSPBFYAv8FCHVFCt0J4k&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=nEXtFtVehqEv0PNTqBeWgg&_nc_tpa=Q5bMBQKI9S6yOGdTlLlYYHB0gVGpqSRosI5sR1nOITWzplYziatiLv9ZMq3eYDAXyg0D5meLlSHqEnyPZQ&oh=00_AQR0N6hNam--JJjG4ew9saTWokV07scCo417yXWOPT--GA&oe=6AF1EF73",
+          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/854710675_1770172005117194_7603390710119696328_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=o0QGyZ4DXtQQ7kNvwGYRguV&_nc_oc=AdrpLBlQGjJr6_MnxFHis7PImcMjXe84AZe85ykttCU_tE0O6-pIIHSfEckEKY3tyQY&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=H1ov_qmdVuJ53vYxFqu7xA&_nc_tpa=Q5bMBQKh18JDfhdjx8nuWnhRkbp07vnUWDeLkB0Ziv37sThYCUDdJvG15edF_uh27SpWkNXRbRwQBA6wow&oh=00_AQTKxI9MNN2QJvUN1r6QW8q_OIGExcvmWWVYiFo9umhHDw&oe=6AF227B3",
           "alt": "Facebook post image",
           "rw": 235,
           "sep": ""
@@ -1742,7 +1787,7 @@
         },
         {
           "kind": "image",
-          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/836259297_1746224134178648_3432439322237656274_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=VuZ5KrGVWa4Q7kNvwHwsb3g&_nc_oc=AdqX59xnAp9ItgBNYCOl-4kTRuzTUbcAgFFctpiXEmjulMl8-u-7RY300DEIuruWD58&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=nEXtFtVehqEv0PNTqBeWgg&_nc_tpa=Q5bMBQLgUDpoZGfP3z96T8vpz2UbVLZKyuhHjXUaxkLNobAb904ujRwFBkzWhzz69AsyEuXv5ssNGmpaQw&oh=00_AQR4sH3b7GRnCjqegtw8yaHs9G7axyYSB8MdIt34Jfv_Dw&oe=6AF1CE76",
+          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/836259297_1746224134178648_3432439322237656274_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=VuZ5KrGVWa4Q7kNvwHnZNxZ&_nc_oc=AdpeRrjZ1sj0SeRoSHzexWY5NDBwwrsf1aSI-YvJrIWu8Z42ZH6Asxwq8Qww8MJoXas&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=H1ov_qmdVuJ53vYxFqu7xA&_nc_tpa=Q5bMBQJWVVyE-pheOw1xNo1_Gua4j_SZmzR7kZjkTkHtJOnNh5gKw6sgt82_-kEvkjX4ysWZommsK9zVGw&oh=00_AQRGa3icjJx7s9GUVJC4hVaW-bCR3XBHJKr3B14M7lnL8w&oe=6AF206B6",
           "alt": "Facebook post image",
           "rw": 235,
           "sep": ""
@@ -1776,7 +1821,7 @@
         },
         {
           "kind": "image",
-          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t15.5256-10/842235604_1693597185715273_5724099017723056825_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=3Sf55f6vu3MQ7kNvwE0SrAQ&_nc_oc=AdrRNyOIl8GmEB3iKYxvviJEDg4XnlvlqEuxnXLyoU2B8ZcM5PQTv0UaKVJQ5x_R4Js&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=nEXtFtVehqEv0PNTqBeWgg&_nc_tpa=Q5bMBQJ_BgTrpjUu0iryI8dN4CfoQV5n9ksqYCH-uoIBN-Vi46y5ti0jlhM7ggzQT92OxeK3AO4O7jTTOg&oh=00_AQRil84P_o3p6Qcb9TeJz2yOQt0GxrE8zx9guM3OO6Ejag&oe=6AF1D36B",
+          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t15.5256-10/842235604_1693597185715273_5724099017723056825_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=3Sf55f6vu3MQ7kNvwEoNHPl&_nc_oc=Adoo5NI5ahAoGRj0oCz78TalxteHCb1h-ApvB7h7FpOEP71VlmRsS1ASR2jrsAt8X0s&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=H1ov_qmdVuJ53vYxFqu7xA&_nc_tpa=Q5bMBQLNQjuuJgiMDBZSzsiYHpNVhe0a6roj2uHytyVsRonlR1johPX-EsnwixDHNM4cNvcy9TP2o6_bww&oh=00_AQSTnwcm-iINn-2LknYdZbSk0OEfqnXZtC9HgudQ7u9UdA&oe=6AF20BAB",
           "alt": "Facebook post image",
           "rw": 235,
           "sep": ""
@@ -1811,7 +1856,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 2579,
+        "w": 768,
+        "h": 579
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s07",
@@ -1911,7 +1965,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 3158,
+        "w": 768,
+        "h": 284
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s08",
@@ -2272,7 +2335,17 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 120,
+        "y": 247,
+        "w": 400,
+        "h": 3275
+      },
+      "placement": {
+        "region": "rail-start",
+        "hiddenMobile": true
+      }
     }
   ],
   "residue": [
@@ -2304,6 +2377,9 @@
         "y": 0,
         "w": 1440,
         "h": 172
+      },
+      "placement": {
+        "region": "band"
       }
     },
     {
@@ -2327,6 +2403,9 @@
         "y": 3522,
         "w": 1440,
         "h": 509
+      },
+      "placement": {
+        "region": "band"
       }
     }
   ]

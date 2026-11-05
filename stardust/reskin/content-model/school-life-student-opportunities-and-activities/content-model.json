@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:reskin/capture-content.mjs",
-    "capturedAt": "2026-11-05T06:24:13.256Z",
+    "capturedAt": "2026-11-05T09:45:28.958Z",
     "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities",
     "viewport": "1440x900",
     "scope": "nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!",
@@ -27,7 +27,7 @@
     },
     "settle": {
       "firstLen": 3690,
-      "waitedMs": 1509,
+      "waitedMs": 1510,
       "stable": true,
       "settledLen": 3690,
       "lateChars": 0
@@ -173,7 +173,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 136,
+        "y": 196,
+        "w": 1168,
+        "h": 51
+      },
+      "placement": {
+        "region": "band"
+      }
     },
     {
       "slot": "s02",
@@ -358,7 +367,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 263,
+        "w": 768,
+        "h": 2437
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s03",
@@ -886,7 +904,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 2700,
+        "w": 768,
+        "h": 950
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s04",
@@ -933,7 +960,7 @@
           "text": "Overseas Tours",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-27c9d861-20a6-447e-9e11-46d0ff8c8c9c",
+          "toggle": "accordion-7b27f4af-d158-4a6b-9143-9f3bb2463375",
           "sep": ""
         },
         {
@@ -943,7 +970,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-27c9d861-20a6-447e-9e11-46d0ff8c8c9c",
+          "toggle": "accordion-7b27f4af-d158-4a6b-9143-9f3bb2463375",
           "sep": " "
         },
         {
@@ -951,7 +978,7 @@
           "text": "The school has a long history of sister school exchanges with Fortians having the opportunity to host students from Japan, France and Germany, as well as the opportunity to visit these countries on exchange. The Instrumental Music Program also offers students the opportunity to travel and perform across a number of European countries.",
           "display": "block",
           "panels": [
-            "accordion-27c9d861-20a6-447e-9e11-46d0ff8c8c9c"
+            "accordion-7b27f4af-d158-4a6b-9143-9f3bb2463375"
           ],
           "sep": " "
         },
@@ -961,7 +988,7 @@
           "display": "block",
           "level": "h3",
           "panels": [
-            "accordion-27c9d861-20a6-447e-9e11-46d0ff8c8c9c"
+            "accordion-7b27f4af-d158-4a6b-9143-9f3bb2463375"
           ],
           "sep": " "
         },
@@ -970,7 +997,7 @@
           "text": "Students from Years 10 and 11 German and Japanese classes travelled to their fellow sister schools in Berlin and Tokyo during the 2025 September/October holiday period to participate in lessons, cultural activities as well as touring other culturally significant sites. All students were able to use their language skills to enhance understanding of their newfound worlds.",
           "display": "block",
           "panels": [
-            "accordion-27c9d861-20a6-447e-9e11-46d0ff8c8c9c"
+            "accordion-7b27f4af-d158-4a6b-9143-9f3bb2463375"
           ],
           "sep": " "
         },
@@ -979,7 +1006,7 @@
           "text": "Sister-school relationships began with the Georg Büchner Gymnasium (Berlin) in 1999 and Suginami-Sogo High School (Tokyo) from the mid 1980s. Students from these schools will also visit Fort Street High School and the school may request families to billet them while they are here. Billeting is a great way for Fortians to establish friendships with students their own ages and perhaps visit them in their home country at another time.",
           "display": "block",
           "panels": [
-            "accordion-27c9d861-20a6-447e-9e11-46d0ff8c8c9c"
+            "accordion-7b27f4af-d158-4a6b-9143-9f3bb2463375"
           ],
           "sep": " "
         },
@@ -994,7 +1021,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-27c9d861-20a6-447e-9e11-46d0ff8c8c9c"
+                "accordion-7b27f4af-d158-4a6b-9143-9f3bb2463375"
               ],
               "sep": ""
             },
@@ -1004,7 +1031,7 @@
               "parentTag": "strong",
               "parentClass": "",
               "panels": [
-                "accordion-27c9d861-20a6-447e-9e11-46d0ff8c8c9c"
+                "accordion-7b27f4af-d158-4a6b-9143-9f3bb2463375"
               ],
               "sep": " "
             },
@@ -1014,7 +1041,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-27c9d861-20a6-447e-9e11-46d0ff8c8c9c"
+                "accordion-7b27f4af-d158-4a6b-9143-9f3bb2463375"
               ],
               "sep": " "
             },
@@ -1024,13 +1051,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-27c9d861-20a6-447e-9e11-46d0ff8c8c9c"
+                "accordion-7b27f4af-d158-4a6b-9143-9f3bb2463375"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-27c9d861-20a6-447e-9e11-46d0ff8c8c9c"
+            "accordion-7b27f4af-d158-4a6b-9143-9f3bb2463375"
           ],
           "sep": " "
         },
@@ -1040,7 +1067,7 @@
           "display": "block",
           "level": "h3",
           "panels": [
-            "accordion-27c9d861-20a6-447e-9e11-46d0ff8c8c9c"
+            "accordion-7b27f4af-d158-4a6b-9143-9f3bb2463375"
           ],
           "sep": " "
         },
@@ -1049,14 +1076,23 @@
           "text": "The Instrumental Music Program aims to tour overseas every 3 years, and is generally open to more senior IMP students. Previous tours have seen groups of approximately 100 students performing in Italy, Austria, Croatia, Hungary, The Czech Republic, Slovakia and Slovenia. We performed in some of the most iconic venues in Europe, including singing mass at St Peter’s Basilica in Rome, and a recital in St Mark’s Venice. As well as numerous informal recitals in venues ranging from caves to the Pantheon, we played to packed houses in public concerts in Vienna, Rome, Florence and Venice.",
           "display": "block",
           "panels": [
-            "accordion-27c9d861-20a6-447e-9e11-46d0ff8c8c9c"
+            "accordion-7b27f4af-d158-4a6b-9143-9f3bb2463375"
           ],
           "sep": " "
         }
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 3650,
+        "w": 768,
+        "h": 884
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s05",
@@ -1091,7 +1127,16 @@
       "orderedVerified": true,
       "tone": "tinted",
       "bg": "rgb(242, 242, 242)",
-      "toneEl": "main#main > div.section.nsw-section"
+      "toneEl": "main#main > div.section.nsw-section",
+      "rect": {
+        "x": 536,
+        "y": 4534,
+        "w": 768,
+        "h": 375
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s06",
@@ -1157,7 +1202,16 @@
       "orderedVerified": true,
       "tone": "dark",
       "bg": "rgb(99, 0, 25)",
-      "toneEl": "main#main > div.section.nsw-section"
+      "toneEl": "main#main > div.section.nsw-section",
+      "rect": {
+        "x": 536,
+        "y": 4941,
+        "w": 768,
+        "h": 208
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s07",
@@ -1257,7 +1311,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 5149,
+        "w": 768,
+        "h": 284
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s08",
@@ -1834,7 +1897,17 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 120,
+        "y": 247,
+        "w": 400,
+        "h": 5266
+      },
+      "placement": {
+        "region": "rail-start",
+        "hiddenMobile": true
+      }
     }
   ],
   "residue": [
@@ -1866,6 +1939,9 @@
         "y": 0,
         "w": 1440,
         "h": 172
+      },
+      "placement": {
+        "region": "band"
       }
     },
     {
@@ -1889,6 +1965,9 @@
         "y": 5513,
         "w": 1440,
         "h": 509
+      },
+      "placement": {
+        "region": "band"
       }
     }
   ]

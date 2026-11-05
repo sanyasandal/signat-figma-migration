@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:reskin/capture-content.mjs",
-    "capturedAt": "2026-11-05T07:07:23.397Z",
+    "capturedAt": "2026-11-05T09:45:56.494Z",
     "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform",
     "viewport": "1440x900",
     "scope": "nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!",
@@ -31,11 +31,11 @@
       ]
     },
     "settle": {
-      "firstLen": 0,
-      "waitedMs": 5484,
+      "firstLen": 3294,
+      "waitedMs": 1513,
       "stable": true,
       "settledLen": 3294,
-      "lateChars": 3294
+      "lateChars": 0
     },
     "nav": {
       "live": true,
@@ -179,7 +179,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 136,
+        "y": 196,
+        "w": 1168,
+        "h": 51
+      },
+      "placement": {
+        "region": "band"
+      }
     },
     {
       "slot": "s02",
@@ -372,7 +381,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 263,
+        "w": 768,
+        "h": 1290
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s03",
@@ -576,7 +594,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 1553,
+        "w": 768,
+        "h": 4586
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s04",
@@ -643,7 +670,7 @@
           "text": "Helpful uniform hints",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-b33230d4-c94e-40f5-9395-fa874f948462",
+          "toggle": "accordion-6241afcd-b00a-4ccf-912e-f1beffe6c981",
           "sep": ""
         },
         {
@@ -653,7 +680,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-b33230d4-c94e-40f5-9395-fa874f948462",
+          "toggle": "accordion-6241afcd-b00a-4ccf-912e-f1beffe6c981",
           "sep": " "
         },
         {
@@ -661,7 +688,7 @@
           "text": "Socks may be white, black or grey. Students may also choose to wear black tights with the school skirt.",
           "display": "list-item",
           "panels": [
-            "accordion-b33230d4-c94e-40f5-9395-fa874f948462"
+            "accordion-6241afcd-b00a-4ccf-912e-f1beffe6c981"
           ],
           "sep": " "
         },
@@ -670,7 +697,7 @@
           "text": "It is recommended that a minimum of two top (shirt) and two bottom uniform (skirts/shorts/pants) items are purchased. Some students prefer to have more items to ensure that they are not short of clean clothes through the week.",
           "display": "list-item",
           "panels": [
-            "accordion-b33230d4-c94e-40f5-9395-fa874f948462"
+            "accordion-6241afcd-b00a-4ccf-912e-f1beffe6c981"
           ],
           "sep": " "
         },
@@ -679,7 +706,7 @@
           "text": "Short sleeved shirts and shorts/skirts are generally worn in summer, and long sleeved shirts/long pants are generally worn in winter, however some students prefer to wear some items throughout the year.",
           "display": "list-item",
           "panels": [
-            "accordion-b33230d4-c94e-40f5-9395-fa874f948462"
+            "accordion-6241afcd-b00a-4ccf-912e-f1beffe6c981"
           ],
           "sep": " "
         },
@@ -688,7 +715,7 @@
           "text": "School ties are required in Term 1 for School Photo Day and Speech Day as well as being a part of the winter uniform.",
           "display": "list-item",
           "panels": [
-            "accordion-b33230d4-c94e-40f5-9395-fa874f948462"
+            "accordion-6241afcd-b00a-4ccf-912e-f1beffe6c981"
           ],
           "sep": " "
         },
@@ -697,7 +724,7 @@
           "text": "Students may wish to purchase winter items in advance, but others will prefer to wait and purchase these later in the year. It is recommended a student has a minimum of 1 x jumper or winter jacket from the start of the year to accommodate students in cooler weather. Many purchase both jumper and winter jacket.",
           "display": "list-item",
           "panels": [
-            "accordion-b33230d4-c94e-40f5-9395-fa874f948462"
+            "accordion-6241afcd-b00a-4ccf-912e-f1beffe6c981"
           ],
           "sep": " "
         },
@@ -706,7 +733,7 @@
           "text": "The school blazer is optional. Some students may wish to purchase one in preference to the winter jacket.",
           "display": "list-item",
           "panels": [
-            "accordion-b33230d4-c94e-40f5-9395-fa874f948462"
+            "accordion-6241afcd-b00a-4ccf-912e-f1beffe6c981"
           ],
           "sep": " "
         },
@@ -715,7 +742,7 @@
           "text": "All students need a sports uniform for both PDHE lessons and sport. Some students may wish to purchase two sets. Sports uniform is only to be worn to/from school by Years 8-11 on Tuesdays (our regular sports day). On days when students have timetabled PDHPE or Sport lessons, students should come to school in school uniform and change into their sports uniform prior to the relevant lesson.",
           "display": "list-item",
           "panels": [
-            "accordion-b33230d4-c94e-40f5-9395-fa874f948462"
+            "accordion-6241afcd-b00a-4ccf-912e-f1beffe6c981"
           ],
           "sep": " "
         },
@@ -724,7 +751,7 @@
           "text": "All uniform items must be CLEARLY LABELLED WITH THE STUDENTS FULL NAME. Items that come to lost property that are labelled can be returned to students. Any items with no name that remain unclaimed are donated to the second hand uniform stall.",
           "display": "list-item",
           "panels": [
-            "accordion-b33230d4-c94e-40f5-9395-fa874f948462"
+            "accordion-6241afcd-b00a-4ccf-912e-f1beffe6c981"
           ],
           "sep": " "
         },
@@ -733,7 +760,7 @@
           "text": "If students need to wear an additional layer/shirt under their school shirt they should be plain all-white only.",
           "display": "list-item",
           "panels": [
-            "accordion-b33230d4-c94e-40f5-9395-fa874f948462"
+            "accordion-6241afcd-b00a-4ccf-912e-f1beffe6c981"
           ],
           "sep": " "
         },
@@ -742,7 +769,7 @@
           "text": "The second hand uniform stall is held once a term.",
           "display": "list-item",
           "panels": [
-            "accordion-b33230d4-c94e-40f5-9395-fa874f948462"
+            "accordion-6241afcd-b00a-4ccf-912e-f1beffe6c981"
           ],
           "sep": " "
         },
@@ -751,7 +778,7 @@
           "text": "Please contact the school office if you require financial assistance with purchasing uniform items.",
           "display": "list-item",
           "panels": [
-            "accordion-b33230d4-c94e-40f5-9395-fa874f948462"
+            "accordion-6241afcd-b00a-4ccf-912e-f1beffe6c981"
           ],
           "sep": " "
         },
@@ -760,7 +787,7 @@
           "text": "Uniform Exemptions",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-511e526f-0d8b-46e1-9af9-650f8a1fc33c",
+          "toggle": "accordion-791d032c-48d7-4f90-b149-85433f6830ce",
           "sep": " "
         },
         {
@@ -770,7 +797,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-511e526f-0d8b-46e1-9af9-650f8a1fc33c",
+          "toggle": "accordion-791d032c-48d7-4f90-b149-85433f6830ce",
           "sep": " "
         },
         {
@@ -778,7 +805,7 @@
           "text": "The proper wearing of the school uniform is both an equity issue - all students regardless of socio-economic, cultural background etc. have access to the same uniform, and should expect to be treated in the same way - and a safety issue - wearing a uniform makes it easy to identify who does and does not belong at the school, who should and should not be on school grounds.",
           "display": "block",
           "panels": [
-            "accordion-511e526f-0d8b-46e1-9af9-650f8a1fc33c"
+            "accordion-791d032c-48d7-4f90-b149-85433f6830ce"
           ],
           "sep": " "
         },
@@ -787,7 +814,7 @@
           "text": "Students who have a genuine reason for not wearing full school uniform on a particular day should bring a note from their parents to the front office before 8:45am, so that they can be issued with a uniform pass.",
           "display": "block",
           "panels": [
-            "accordion-511e526f-0d8b-46e1-9af9-650f8a1fc33c"
+            "accordion-791d032c-48d7-4f90-b149-85433f6830ce"
           ],
           "sep": " "
         },
@@ -797,7 +824,7 @@
           "display": "block",
           "level": "h3",
           "panels": [
-            "accordion-511e526f-0d8b-46e1-9af9-650f8a1fc33c"
+            "accordion-791d032c-48d7-4f90-b149-85433f6830ce"
           ],
           "sep": " "
         },
@@ -806,7 +833,7 @@
           "text": "Students who do not wear the proper uniform and do not have a note can expect one or more of the following consequences:",
           "display": "block",
           "panels": [
-            "accordion-511e526f-0d8b-46e1-9af9-650f8a1fc33c"
+            "accordion-791d032c-48d7-4f90-b149-85433f6830ce"
           ],
           "sep": " "
         },
@@ -815,7 +842,7 @@
           "text": "be sent to the office for a uniform pass (this will be recorded as a negative incident on Sentral and appear in the student & parent portal);",
           "display": "list-item",
           "panels": [
-            "accordion-511e526f-0d8b-46e1-9af9-650f8a1fc33c"
+            "accordion-791d032c-48d7-4f90-b149-85433f6830ce"
           ],
           "sep": " "
         },
@@ -824,7 +851,7 @@
           "text": "have items of non-school uniform clothing confiscated by staff;",
           "display": "list-item",
           "panels": [
-            "accordion-511e526f-0d8b-46e1-9af9-650f8a1fc33c"
+            "accordion-791d032c-48d7-4f90-b149-85433f6830ce"
           ],
           "sep": " "
         },
@@ -833,7 +860,7 @@
           "text": "be asked to change out of non-school uniform items into second hand uniform items provided by the school;",
           "display": "list-item",
           "panels": [
-            "accordion-511e526f-0d8b-46e1-9af9-650f8a1fc33c"
+            "accordion-791d032c-48d7-4f90-b149-85433f6830ce"
           ],
           "sep": " "
         },
@@ -842,14 +869,23 @@
           "text": "complete a lunchtime or after school detention for repeatedly failing to wear the uniform correctly.",
           "display": "list-item",
           "panels": [
-            "accordion-511e526f-0d8b-46e1-9af9-650f8a1fc33c"
+            "accordion-791d032c-48d7-4f90-b149-85433f6830ce"
           ],
           "sep": " "
         }
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 6139,
+        "w": 768,
+        "h": 1568
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s05",
@@ -915,7 +951,16 @@
       "orderedVerified": true,
       "tone": "dark",
       "bg": "rgb(99, 0, 25)",
-      "toneEl": "main#main > div.section.nsw-section"
+      "toneEl": "main#main > div.section.nsw-section",
+      "rect": {
+        "x": 536,
+        "y": 7707,
+        "w": 768,
+        "h": 208
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s06",
@@ -1015,7 +1060,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 7915,
+        "w": 768,
+        "h": 308
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s07",
@@ -1400,7 +1454,17 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 120,
+        "y": 247,
+        "w": 400,
+        "h": 8056
+      },
+      "placement": {
+        "region": "rail-start",
+        "hiddenMobile": true
+      }
     }
   ],
   "residue": [
@@ -1432,6 +1496,9 @@
         "y": 0,
         "w": 1440,
         "h": 172
+      },
+      "placement": {
+        "region": "band"
       }
     },
     {
@@ -1455,6 +1522,9 @@
         "y": 8303,
         "w": 1440,
         "h": 509
+      },
+      "placement": {
+        "region": "band"
       }
     }
   ]

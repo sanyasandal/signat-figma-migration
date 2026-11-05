@@ -435,6 +435,35 @@ main .section.section-nav h2 {
   letter-spacing: var(--type-h4-letter-spacing);
 }
 
+/* section style: section-nav is a start rail beside the content (the source's sidebar: a third of
+   the layout, 400px at 1440; hidden at 900px and under) — rows set by scripts.js decorateRail */
+@media (width > 900px) {
+  main.has-rail {
+    display: grid;
+    grid-template-columns: min(400px, calc(100% / 3)) minmax(0, 1fr);
+    align-items: start;
+  }
+
+  main.has-rail > .section {
+    grid-column: 2;
+    min-width: 0;
+  }
+
+  main.has-rail > .section.breadcrumb {
+    grid-column: 1 / -1;
+  }
+
+  main.has-rail > .section.section-nav {
+    grid-column: 1;
+  }
+}
+
+@media (width <= 900px) {
+  main.has-rail > .section.section-nav {
+    display: none;
+  }
+}
+
 @media (width <= 640px) {
   main > .section {
     padding: var(--layout-mobile-section-padding-y) 0;

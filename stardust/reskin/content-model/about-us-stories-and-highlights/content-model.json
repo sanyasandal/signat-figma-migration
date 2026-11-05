@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:reskin/capture-content.mjs",
-    "capturedAt": "2026-11-05T07:07:11.433Z",
+    "capturedAt": "2026-11-05T09:44:15.460Z",
     "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/stories-and-highlights",
     "viewport": "1440x900",
     "scope": "nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!",
@@ -31,10 +31,10 @@
       ]
     },
     "settle": {
-      "firstLen": 5948,
-      "waitedMs": 1512,
+      "firstLen": 5175,
+      "waitedMs": 1526,
       "stable": true,
-      "settledLen": 5948,
+      "settledLen": 5175,
       "lateChars": 0
     },
     "nav": {
@@ -81,9 +81,9 @@
   ],
   "visibleTextNormalized": "HomeAbout usStories and highlights Stories and highlights There's always something to celebrate at our school! From exciting events to proud moments and everyday wins, here are some of our highlights. A year at our school Speech Day In February we held our annual Speech Day. The gathering at Sydney Town Hall, is an opportunity to celebrate the outstanding achievements of our students and it is wonderful to be able to share this occasion with parents and former Fortians in such a beautiful venue. Our guest speaker, Professor Margaret Burgess, Fortian from the Class of 1954, shared her insightful reflections including her memories of starting at Fort Street during the Centenary year. Additionally, Auslee Pamintuan, the School Dux of 2024, delivered a wonderful valedictorian speech, making particular mention of his gratitude to his cohort. Year 11 Life Ready Camp Year 11 attended the Life Ready Camp at the Sydney Academy of Sport and Recreation at Narrabeen. Life Ready is a course mandated by the Department of Education designed to prepare students for situations related to health and safety they may encounter as they grow into more independent people increasingly responsible for themselves and others. It was a busy time divided across a range of outdoor activities and a suite of sessions on topics such as independence, relationships, sexual health. Year 7 camp The Year 7 Camp was held at Point Wolstoncroft Sport and Recreation Centre. During the camp, students had the opportunity to participate in a range of activities including: raft building, canoeing, sailing, archery, team challenge, standup paddleboard and teacher and peer support led sessions in the day and evening. Swimming Carnival The swimming carnival proved to be a resounding success again this year, with a commendable turnout from our students. Mawson’s enthusiasm and house spirit saw them win the hotly contested house chant – congratulations to them! There were also action-packed inflatables house races that proved to be lots of fun. It was great to witness enthusiastic student participation in various events, setting a positive tone for the upcoming fiercely contested Kennedy Cup. Multicultural Day Multicultural Day was held in August with over 20 different cultural stalls open at recess and lunch in the Kilgour Quad to showcase the incredible cultures that make up our school community. Students were invited to wear their best cultural dress and represent their culture. The SRC also hosted a Multicultural Day assembly, including our flag bearing parade and some wonderful student cultural performances. IMP Camp IMP camp, held from 21-23 March, was a huge success with 186 participants and 22 amazing conducting and tutoring staff. Students spent the weekend immersed in music, in the beautiful natural setting of CRU Galston Gorge, culminating in a spectacular final concert featuring diverse range of music from Romantic, Modern Classical and Jazz through to Taiko drumming and the Beatles. Rather than being a rehearsal camp for our regular ensemble, at IMP Camp we form 16 entirely new ensembles for the weekend, in which the focus is on skill-building through the repertoire we play. The development of all of the students in such a short space of time was phenomenal to see! Fort Street has been a fantastic high school for our son. It’s a community of families and staff who value education, well being and students achieving their potential, rather than a narrow focus on achieving high marks. The teachers are of a very high standard and are available to students who want to get more help and support. — Emma, a parent of Fort Street High School Discover more highlights Visit our Facebook for more photos, videos, events and updates from our school. Today we celebrate World Teachers Day! 🍎 👩‍🏫 🏫 ⭐️ We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026 east We looking forward to welcome everyone back on Tuesday. east The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/ east Have a story to share? Do you have a great school moment to share? We’d love to hear from you! Contact us Events Find out about school events, celebrations and what’s coming up. east Our community Discover ways to volunteer and help shape our school community. east Section navigation About us Enrol Facilities and resources HSC Results Our principal and staff Policies and reports School history and archives Stories and highlights Transition to high school Why choose us?",
   "coverage": {
-    "bodyTextLen": 5894,
+    "bodyTextLen": 5121,
     "scopeTextLen": 5121,
-    "ratio": 0.869,
+    "ratio": 1,
     "h1Text": "Stories and highlights",
     "h1InScope": true
   },
@@ -179,7 +179,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 136,
+        "y": 196,
+        "w": 1168,
+        "h": 51
+      },
+      "placement": {
+        "region": "band"
+      }
     },
     {
       "slot": "s02",
@@ -468,7 +477,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 263,
+        "w": 768,
+        "h": 11332
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s03",
@@ -517,7 +535,16 @@
       "orderedVerified": true,
       "tone": "tinted",
       "bg": "rgb(242, 242, 242)",
-      "toneEl": "main#main > div.section.nsw-section"
+      "toneEl": "main#main > div.section.nsw-section",
+      "rect": {
+        "x": 536,
+        "y": 11595,
+        "w": 768,
+        "h": 503
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s04",
@@ -560,22 +587,22 @@
       "iconLinks": [],
       "images": [
         {
-          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/854710675_1770172005117194_7603390710119696328_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=o0QGyZ4DXtQQ7kNvwGeBomM&_nc_oc=Adq-QwuhGcssa9U9qrsmY0yIFCYTsR3XtfehH32YLcmZV5ZhSPBFYAv8FCHVFCt0J4k&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=nEXtFtVehqEv0PNTqBeWgg&_nc_tpa=Q5bMBQKI9S6yOGdTlLlYYHB0gVGpqSRosI5sR1nOITWzplYziatiLv9ZMq3eYDAXyg0D5meLlSHqEnyPZQ&oh=00_AQR0N6hNam--JJjG4ew9saTWokV07scCo417yXWOPT--GA&oe=6AF1EF73",
+          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/854710675_1770172005117194_7603390710119696328_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=o0QGyZ4DXtQQ7kNvwGYRguV&_nc_oc=AdrpLBlQGjJr6_MnxFHis7PImcMjXe84AZe85ykttCU_tE0O6-pIIHSfEckEKY3tyQY&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=H1ov_qmdVuJ53vYxFqu7xA&_nc_tpa=Q5bMBQKh18JDfhdjx8nuWnhRkbp07vnUWDeLkB0Ziv37sThYCUDdJvG15edF_uh27SpWkNXRbRwQBA6wow&oh=00_AQTKxI9MNN2QJvUN1r6QW8q_OIGExcvmWWVYiFo9umhHDw&oe=6AF227B3",
           "alt": "Facebook post image",
-          "w": 465,
-          "h": 660
+          "w": 0,
+          "h": 0
         },
         {
-          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/836259297_1746224134178648_3432439322237656274_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=VuZ5KrGVWa4Q7kNvwHwsb3g&_nc_oc=AdqX59xnAp9ItgBNYCOl-4kTRuzTUbcAgFFctpiXEmjulMl8-u-7RY300DEIuruWD58&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=nEXtFtVehqEv0PNTqBeWgg&_nc_tpa=Q5bMBQLgUDpoZGfP3z96T8vpz2UbVLZKyuhHjXUaxkLNobAb904ujRwFBkzWhzz69AsyEuXv5ssNGmpaQw&oh=00_AQR4sH3b7GRnCjqegtw8yaHs9G7axyYSB8MdIt34Jfv_Dw&oe=6AF1CE76",
+          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/836259297_1746224134178648_3432439322237656274_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=VuZ5KrGVWa4Q7kNvwHnZNxZ&_nc_oc=AdpeRrjZ1sj0SeRoSHzexWY5NDBwwrsf1aSI-YvJrIWu8Z42ZH6Asxwq8Qww8MJoXas&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=H1ov_qmdVuJ53vYxFqu7xA&_nc_tpa=Q5bMBQJWVVyE-pheOw1xNo1_Gua4j_SZmzR7kZjkTkHtJOnNh5gKw6sgt82_-kEvkjX4ysWZommsK9zVGw&oh=00_AQRGa3icjJx7s9GUVJC4hVaW-bCR3XBHJKr3B14M7lnL8w&oe=6AF206B6",
           "alt": "Facebook post image",
-          "w": 859,
-          "h": 720
+          "w": 0,
+          "h": 0
         },
         {
-          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t15.5256-10/842235604_1693597185715273_5724099017723056825_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=3Sf55f6vu3MQ7kNvwE0SrAQ&_nc_oc=AdrRNyOIl8GmEB3iKYxvviJEDg4XnlvlqEuxnXLyoU2B8ZcM5PQTv0UaKVJQ5x_R4Js&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=nEXtFtVehqEv0PNTqBeWgg&_nc_tpa=Q5bMBQJ_BgTrpjUu0iryI8dN4CfoQV5n9ksqYCH-uoIBN-Vi46y5ti0jlhM7ggzQT92OxeK3AO4O7jTTOg&oh=00_AQRil84P_o3p6Qcb9TeJz2yOQt0GxrE8zx9guM3OO6Ejag&oe=6AF1D36B",
+          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t15.5256-10/842235604_1693597185715273_5724099017723056825_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=3Sf55f6vu3MQ7kNvwEoNHPl&_nc_oc=Adoo5NI5ahAoGRj0oCz78TalxteHCb1h-ApvB7h7FpOEP71VlmRsS1ASR2jrsAt8X0s&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=H1ov_qmdVuJ53vYxFqu7xA&_nc_tpa=Q5bMBQLNQjuuJgiMDBZSzsiYHpNVhe0a6roj2uHytyVsRonlR1johPX-EsnwixDHNM4cNvcy9TP2o6_bww&oh=00_AQSTnwcm-iINn-2LknYdZbSk0OEfqnXZtC9HgudQ7u9UdA&oe=6AF20BAB",
           "alt": "Facebook post image",
-          "w": 1080,
-          "h": 1920
+          "w": 0,
+          "h": 0
         }
       ],
       "formControls": [],
@@ -612,7 +639,7 @@
         },
         {
           "kind": "image",
-          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/854710675_1770172005117194_7603390710119696328_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=o0QGyZ4DXtQQ7kNvwGeBomM&_nc_oc=Adq-QwuhGcssa9U9qrsmY0yIFCYTsR3XtfehH32YLcmZV5ZhSPBFYAv8FCHVFCt0J4k&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=nEXtFtVehqEv0PNTqBeWgg&_nc_tpa=Q5bMBQKI9S6yOGdTlLlYYHB0gVGpqSRosI5sR1nOITWzplYziatiLv9ZMq3eYDAXyg0D5meLlSHqEnyPZQ&oh=00_AQR0N6hNam--JJjG4ew9saTWokV07scCo417yXWOPT--GA&oe=6AF1EF73",
+          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/854710675_1770172005117194_7603390710119696328_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=o0QGyZ4DXtQQ7kNvwGYRguV&_nc_oc=AdrpLBlQGjJr6_MnxFHis7PImcMjXe84AZe85ykttCU_tE0O6-pIIHSfEckEKY3tyQY&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=H1ov_qmdVuJ53vYxFqu7xA&_nc_tpa=Q5bMBQKh18JDfhdjx8nuWnhRkbp07vnUWDeLkB0Ziv37sThYCUDdJvG15edF_uh27SpWkNXRbRwQBA6wow&oh=00_AQTKxI9MNN2QJvUN1r6QW8q_OIGExcvmWWVYiFo9umhHDw&oe=6AF227B3",
           "alt": "Facebook post image",
           "rw": 235,
           "sep": ""
@@ -646,7 +673,7 @@
         },
         {
           "kind": "image",
-          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/836259297_1746224134178648_3432439322237656274_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=VuZ5KrGVWa4Q7kNvwHwsb3g&_nc_oc=AdqX59xnAp9ItgBNYCOl-4kTRuzTUbcAgFFctpiXEmjulMl8-u-7RY300DEIuruWD58&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=nEXtFtVehqEv0PNTqBeWgg&_nc_tpa=Q5bMBQLgUDpoZGfP3z96T8vpz2UbVLZKyuhHjXUaxkLNobAb904ujRwFBkzWhzz69AsyEuXv5ssNGmpaQw&oh=00_AQR4sH3b7GRnCjqegtw8yaHs9G7axyYSB8MdIt34Jfv_Dw&oe=6AF1CE76",
+          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/836259297_1746224134178648_3432439322237656274_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=VuZ5KrGVWa4Q7kNvwHnZNxZ&_nc_oc=AdpeRrjZ1sj0SeRoSHzexWY5NDBwwrsf1aSI-YvJrIWu8Z42ZH6Asxwq8Qww8MJoXas&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=H1ov_qmdVuJ53vYxFqu7xA&_nc_tpa=Q5bMBQJWVVyE-pheOw1xNo1_Gua4j_SZmzR7kZjkTkHtJOnNh5gKw6sgt82_-kEvkjX4ysWZommsK9zVGw&oh=00_AQRGa3icjJx7s9GUVJC4hVaW-bCR3XBHJKr3B14M7lnL8w&oe=6AF206B6",
           "alt": "Facebook post image",
           "rw": 235,
           "sep": ""
@@ -680,7 +707,7 @@
         },
         {
           "kind": "image",
-          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t15.5256-10/842235604_1693597185715273_5724099017723056825_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=3Sf55f6vu3MQ7kNvwE0SrAQ&_nc_oc=AdrRNyOIl8GmEB3iKYxvviJEDg4XnlvlqEuxnXLyoU2B8ZcM5PQTv0UaKVJQ5x_R4Js&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=nEXtFtVehqEv0PNTqBeWgg&_nc_tpa=Q5bMBQJ_BgTrpjUu0iryI8dN4CfoQV5n9ksqYCH-uoIBN-Vi46y5ti0jlhM7ggzQT92OxeK3AO4O7jTTOg&oh=00_AQRil84P_o3p6Qcb9TeJz2yOQt0GxrE8zx9guM3OO6Ejag&oe=6AF1D36B",
+          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t15.5256-10/842235604_1693597185715273_5724099017723056825_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=3Sf55f6vu3MQ7kNvwEoNHPl&_nc_oc=Adoo5NI5ahAoGRj0oCz78TalxteHCb1h-ApvB7h7FpOEP71VlmRsS1ASR2jrsAt8X0s&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=H1ov_qmdVuJ53vYxFqu7xA&_nc_tpa=Q5bMBQLNQjuuJgiMDBZSzsiYHpNVhe0a6roj2uHytyVsRonlR1johPX-EsnwixDHNM4cNvcy9TP2o6_bww&oh=00_AQSTnwcm-iINn-2LknYdZbSk0OEfqnXZtC9HgudQ7u9UdA&oe=6AF20BAB",
           "alt": "Facebook post image",
           "rw": 235,
           "sep": ""
@@ -715,7 +742,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 12098,
+        "w": 768,
+        "h": 579
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s05",
@@ -781,7 +817,16 @@
       "orderedVerified": true,
       "tone": "dark",
       "bg": "rgb(99, 0, 25)",
-      "toneEl": "main#main > div.section.nsw-section"
+      "toneEl": "main#main > div.section.nsw-section",
+      "rect": {
+        "x": 536,
+        "y": 12677,
+        "w": 768,
+        "h": 208
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s06",
@@ -881,7 +926,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 12885,
+        "w": 768,
+        "h": 284
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s07",
@@ -1146,62 +1200,18 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 120,
+        "y": 247,
+        "w": 400,
+        "h": 13002
+      },
+      "placement": {
+        "region": "rail-start",
+        "hiddenMobile": true
+      }
     }
   ],
-  "residue": [
-    {
-      "sel": "header.header-wrapper",
-      "kind": "chrome",
-      "textLen": 275,
-      "lines": [
-        "Skip to navigation",
-        "Skip to content",
-        "NSW Government",
-        "Fort Street High School",
-        "Faber est suae quisque fortunae",
-        "search",
-        "Show",
-        "Search",
-        "About us",
-        "keyboard_arrow_right",
-        "School life",
-        "keyboard_arrow_right",
-        "Learning and support",
-        "keyboard_arrow_right",
-        "Our community",
-        "keyboard_arrow_right",
-        "Contact us"
-      ],
-      "rect": {
-        "x": 0,
-        "y": 0,
-        "w": 1440,
-        "h": 172
-      }
-    },
-    {
-      "sel": "footer.footer-wrapper",
-      "kind": "chrome",
-      "textLen": 496,
-      "lines": [
-        "Fort Street High School",
-        "General enquiries",
-        "fortstreet-h.school@det.nsw.edu.au",
-        "8585 1600",
-        "620 PARRAMATTA ROAD, NSW 2049 PETERSHAM",
-        "Follow us",
-        "We recognise the Ongoing Custodians of the lands and waterways where we work and live. We pay respect to Elders past and present as ongoing teachers of knowledge, songlines and stories. We strive to ensure every Aboriginal and/or Torres Strait Islander learner in NSW achieves their potential through education.",
-        "Your feedback",
-        "Policy library",
-        "Information access"
-      ],
-      "rect": {
-        "x": 0,
-        "y": 13249,
-        "w": 1440,
-        "h": 509
-      }
-    }
-  ]
+  "residue": []
 }

@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:reskin/capture-content.mjs",
-    "capturedAt": "2026-11-04T18:30:25.615Z",
+    "capturedAt": "2026-11-05T09:44:44.683Z",
     "url": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/learning",
     "viewport": "1440x900",
     "scope": "nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!",
@@ -173,7 +173,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 136,
+        "y": 196,
+        "w": 1168,
+        "h": 51
+      },
+      "placement": {
+        "region": "band"
+      }
     },
     {
       "slot": "s02",
@@ -303,7 +312,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 263,
+        "w": 768,
+        "h": 1124
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s03",
@@ -493,7 +511,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 1387,
+        "w": 768,
+        "h": 756
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s04",
@@ -1368,7 +1395,7 @@
           "text": "Junior School (Years 7-8)",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-35512545-7be1-496c-9563-8c20e78d05a4",
+          "toggle": "accordion-8f56b9ed-c809-4162-9c59-829a1429b11f",
           "sep": " "
         },
         {
@@ -1378,7 +1405,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-35512545-7be1-496c-9563-8c20e78d05a4",
+          "toggle": "accordion-8f56b9ed-c809-4162-9c59-829a1429b11f",
           "sep": " "
         },
         {
@@ -1387,7 +1414,7 @@
           "display": "block",
           "level": "h2",
           "panels": [
-            "accordion-35512545-7be1-496c-9563-8c20e78d05a4"
+            "accordion-8f56b9ed-c809-4162-9c59-829a1429b11f"
           ],
           "sep": " "
         },
@@ -1396,7 +1423,7 @@
           "text": "Students study:",
           "display": "block",
           "panels": [
-            "accordion-35512545-7be1-496c-9563-8c20e78d05a4"
+            "accordion-8f56b9ed-c809-4162-9c59-829a1429b11f"
           ],
           "sep": " "
         },
@@ -1405,7 +1432,7 @@
           "text": "English",
           "display": "list-item",
           "panels": [
-            "accordion-35512545-7be1-496c-9563-8c20e78d05a4"
+            "accordion-8f56b9ed-c809-4162-9c59-829a1429b11f"
           ],
           "sep": " "
         },
@@ -1414,7 +1441,7 @@
           "text": "Mathematics",
           "display": "list-item",
           "panels": [
-            "accordion-35512545-7be1-496c-9563-8c20e78d05a4"
+            "accordion-8f56b9ed-c809-4162-9c59-829a1429b11f"
           ],
           "sep": " "
         },
@@ -1423,7 +1450,7 @@
           "text": "Science",
           "display": "list-item",
           "panels": [
-            "accordion-35512545-7be1-496c-9563-8c20e78d05a4"
+            "accordion-8f56b9ed-c809-4162-9c59-829a1429b11f"
           ],
           "sep": " "
         },
@@ -1438,7 +1465,7 @@
               "parentTag": "li",
               "parentClass": "",
               "panels": [
-                "accordion-35512545-7be1-496c-9563-8c20e78d05a4"
+                "accordion-8f56b9ed-c809-4162-9c59-829a1429b11f"
               ],
               "sep": ""
             },
@@ -1448,13 +1475,13 @@
               "parentTag": "em",
               "parentClass": "",
               "panels": [
-                "accordion-35512545-7be1-496c-9563-8c20e78d05a4"
+                "accordion-8f56b9ed-c809-4162-9c59-829a1429b11f"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-35512545-7be1-496c-9563-8c20e78d05a4"
+            "accordion-8f56b9ed-c809-4162-9c59-829a1429b11f"
           ],
           "sep": " "
         },
@@ -1469,7 +1496,7 @@
               "parentTag": "li",
               "parentClass": "",
               "panels": [
-                "accordion-35512545-7be1-496c-9563-8c20e78d05a4"
+                "accordion-8f56b9ed-c809-4162-9c59-829a1429b11f"
               ],
               "sep": ""
             },
@@ -1479,13 +1506,13 @@
               "parentTag": "em",
               "parentClass": "",
               "panels": [
-                "accordion-35512545-7be1-496c-9563-8c20e78d05a4"
+                "accordion-8f56b9ed-c809-4162-9c59-829a1429b11f"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-35512545-7be1-496c-9563-8c20e78d05a4"
+            "accordion-8f56b9ed-c809-4162-9c59-829a1429b11f"
           ],
           "sep": " "
         },
@@ -1500,7 +1527,7 @@
               "parentTag": "li",
               "parentClass": "",
               "panels": [
-                "accordion-35512545-7be1-496c-9563-8c20e78d05a4"
+                "accordion-8f56b9ed-c809-4162-9c59-829a1429b11f"
               ],
               "sep": ""
             },
@@ -1510,13 +1537,13 @@
               "parentTag": "em",
               "parentClass": "",
               "panels": [
-                "accordion-35512545-7be1-496c-9563-8c20e78d05a4"
+                "accordion-8f56b9ed-c809-4162-9c59-829a1429b11f"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-35512545-7be1-496c-9563-8c20e78d05a4"
+            "accordion-8f56b9ed-c809-4162-9c59-829a1429b11f"
           ],
           "sep": " "
         },
@@ -1525,7 +1552,7 @@
           "text": "Music",
           "display": "list-item",
           "panels": [
-            "accordion-35512545-7be1-496c-9563-8c20e78d05a4"
+            "accordion-8f56b9ed-c809-4162-9c59-829a1429b11f"
           ],
           "sep": " "
         },
@@ -1534,7 +1561,7 @@
           "text": "Visual Arts",
           "display": "list-item",
           "panels": [
-            "accordion-35512545-7be1-496c-9563-8c20e78d05a4"
+            "accordion-8f56b9ed-c809-4162-9c59-829a1429b11f"
           ],
           "sep": " "
         },
@@ -1543,7 +1570,7 @@
           "text": "Drama",
           "display": "list-item",
           "panels": [
-            "accordion-35512545-7be1-496c-9563-8c20e78d05a4"
+            "accordion-8f56b9ed-c809-4162-9c59-829a1429b11f"
           ],
           "sep": " "
         },
@@ -1552,7 +1579,7 @@
           "text": "Personal Development, Health and Physical Education",
           "display": "list-item",
           "panels": [
-            "accordion-35512545-7be1-496c-9563-8c20e78d05a4"
+            "accordion-8f56b9ed-c809-4162-9c59-829a1429b11f"
           ],
           "sep": " "
         },
@@ -1561,7 +1588,7 @@
           "text": "Languages (Chinese French, German, Japanese)",
           "display": "list-item",
           "panels": [
-            "accordion-35512545-7be1-496c-9563-8c20e78d05a4"
+            "accordion-8f56b9ed-c809-4162-9c59-829a1429b11f"
           ],
           "sep": " "
         },
@@ -1576,7 +1603,7 @@
               "parentTag": "li",
               "parentClass": "",
               "panels": [
-                "accordion-35512545-7be1-496c-9563-8c20e78d05a4"
+                "accordion-8f56b9ed-c809-4162-9c59-829a1429b11f"
               ],
               "sep": ""
             },
@@ -1586,13 +1613,13 @@
               "parentTag": "em",
               "parentClass": "",
               "panels": [
-                "accordion-35512545-7be1-496c-9563-8c20e78d05a4"
+                "accordion-8f56b9ed-c809-4162-9c59-829a1429b11f"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-35512545-7be1-496c-9563-8c20e78d05a4"
+            "accordion-8f56b9ed-c809-4162-9c59-829a1429b11f"
           ],
           "sep": " "
         },
@@ -1601,7 +1628,7 @@
           "text": "Fortunae (Wellbeing Lessons)",
           "display": "list-item",
           "panels": [
-            "accordion-35512545-7be1-496c-9563-8c20e78d05a4"
+            "accordion-8f56b9ed-c809-4162-9c59-829a1429b11f"
           ],
           "sep": " "
         },
@@ -1611,7 +1638,7 @@
           "display": "block",
           "level": "h2",
           "panels": [
-            "accordion-35512545-7be1-496c-9563-8c20e78d05a4"
+            "accordion-8f56b9ed-c809-4162-9c59-829a1429b11f"
           ],
           "sep": " "
         },
@@ -1620,7 +1647,7 @@
           "text": "Assessment guidelines are provided for each Year group for Years 7 – 8.",
           "display": "list-item",
           "panels": [
-            "accordion-35512545-7be1-496c-9563-8c20e78d05a4"
+            "accordion-8f56b9ed-c809-4162-9c59-829a1429b11f"
           ],
           "sep": " "
         },
@@ -1629,7 +1656,7 @@
           "text": "Individual task dates and deadlines are subject to change and students will be notified in advance of these changes.",
           "display": "list-item",
           "panels": [
-            "accordion-35512545-7be1-496c-9563-8c20e78d05a4"
+            "accordion-8f56b9ed-c809-4162-9c59-829a1429b11f"
           ],
           "sep": " "
         },
@@ -1638,7 +1665,7 @@
           "text": "These are made available to students and parents/carers to provide a guide as to the nature of tasks in each subject and outline when whole form tasks and tests take place in each term.",
           "display": "list-item",
           "panels": [
-            "accordion-35512545-7be1-496c-9563-8c20e78d05a4"
+            "accordion-8f56b9ed-c809-4162-9c59-829a1429b11f"
           ],
           "sep": " "
         },
@@ -1647,7 +1674,7 @@
           "text": "Please note: some subjects are semesterised including History and Geography.",
           "display": "list-item",
           "panels": [
-            "accordion-35512545-7be1-496c-9563-8c20e78d05a4"
+            "accordion-8f56b9ed-c809-4162-9c59-829a1429b11f"
           ],
           "sep": " "
         },
@@ -1656,7 +1683,7 @@
           "text": "In some faculty and subject areas, there are only one or two common tasks and other additional tasks are set by the subject teacher for a specific class. Students will be notifed of these tasks in advance.",
           "display": "list-item",
           "panels": [
-            "accordion-35512545-7be1-496c-9563-8c20e78d05a4"
+            "accordion-8f56b9ed-c809-4162-9c59-829a1429b11f"
           ],
           "sep": " "
         },
@@ -1665,7 +1692,7 @@
           "text": "Middle School (Years 9 - 10)",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-fcd90fb3-3bd5-4786-a7bc-e5b20090ed77",
+          "toggle": "accordion-9552b9e8-3ccf-41f2-be9d-cc09a7072db1",
           "sep": " "
         },
         {
@@ -1675,7 +1702,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-fcd90fb3-3bd5-4786-a7bc-e5b20090ed77",
+          "toggle": "accordion-9552b9e8-3ccf-41f2-be9d-cc09a7072db1",
           "sep": " "
         },
         {
@@ -1683,7 +1710,7 @@
           "text": "Year 9 and 10 students follow a combination of mandatory and elective subjects. From Year 9 onwards, students can choose an increasing number of elective subjects for each stage.",
           "display": "block",
           "panels": [
-            "accordion-fcd90fb3-3bd5-4786-a7bc-e5b20090ed77"
+            "accordion-9552b9e8-3ccf-41f2-be9d-cc09a7072db1"
           ],
           "sep": " "
         },
@@ -1693,7 +1720,7 @@
           "display": "block",
           "level": "h2",
           "panels": [
-            "accordion-fcd90fb3-3bd5-4786-a7bc-e5b20090ed77"
+            "accordion-9552b9e8-3ccf-41f2-be9d-cc09a7072db1"
           ],
           "sep": " "
         },
@@ -1703,7 +1730,7 @@
           "display": "block",
           "level": "h3",
           "panels": [
-            "accordion-fcd90fb3-3bd5-4786-a7bc-e5b20090ed77"
+            "accordion-9552b9e8-3ccf-41f2-be9d-cc09a7072db1"
           ],
           "sep": " "
         },
@@ -1712,7 +1739,7 @@
           "text": "English",
           "display": "list-item",
           "panels": [
-            "accordion-fcd90fb3-3bd5-4786-a7bc-e5b20090ed77"
+            "accordion-9552b9e8-3ccf-41f2-be9d-cc09a7072db1"
           ],
           "sep": " "
         },
@@ -1721,7 +1748,7 @@
           "text": "Mathematics",
           "display": "list-item",
           "panels": [
-            "accordion-fcd90fb3-3bd5-4786-a7bc-e5b20090ed77"
+            "accordion-9552b9e8-3ccf-41f2-be9d-cc09a7072db1"
           ],
           "sep": " "
         },
@@ -1730,7 +1757,7 @@
           "text": "Science",
           "display": "list-item",
           "panels": [
-            "accordion-fcd90fb3-3bd5-4786-a7bc-e5b20090ed77"
+            "accordion-9552b9e8-3ccf-41f2-be9d-cc09a7072db1"
           ],
           "sep": " "
         },
@@ -1739,7 +1766,7 @@
           "text": "Geography",
           "display": "list-item",
           "panels": [
-            "accordion-fcd90fb3-3bd5-4786-a7bc-e5b20090ed77"
+            "accordion-9552b9e8-3ccf-41f2-be9d-cc09a7072db1"
           ],
           "sep": " "
         },
@@ -1748,7 +1775,7 @@
           "text": "History",
           "display": "list-item",
           "panels": [
-            "accordion-fcd90fb3-3bd5-4786-a7bc-e5b20090ed77"
+            "accordion-9552b9e8-3ccf-41f2-be9d-cc09a7072db1"
           ],
           "sep": " "
         },
@@ -1757,7 +1784,7 @@
           "text": "Personal Development, Health and Physical Education",
           "display": "list-item",
           "panels": [
-            "accordion-fcd90fb3-3bd5-4786-a7bc-e5b20090ed77"
+            "accordion-9552b9e8-3ccf-41f2-be9d-cc09a7072db1"
           ],
           "sep": " "
         },
@@ -1766,7 +1793,7 @@
           "text": "Fortunae (Wellbeing lessons)",
           "display": "list-item",
           "panels": [
-            "accordion-fcd90fb3-3bd5-4786-a7bc-e5b20090ed77"
+            "accordion-9552b9e8-3ccf-41f2-be9d-cc09a7072db1"
           ],
           "sep": " "
         },
@@ -1776,7 +1803,7 @@
           "display": "block",
           "level": "h3",
           "panels": [
-            "accordion-fcd90fb3-3bd5-4786-a7bc-e5b20090ed77"
+            "accordion-9552b9e8-3ccf-41f2-be9d-cc09a7072db1"
           ],
           "sep": " "
         },
@@ -1785,7 +1812,7 @@
           "text": "Commerce",
           "display": "list-item",
           "panels": [
-            "accordion-fcd90fb3-3bd5-4786-a7bc-e5b20090ed77"
+            "accordion-9552b9e8-3ccf-41f2-be9d-cc09a7072db1"
           ],
           "sep": " "
         },
@@ -1794,7 +1821,7 @@
           "text": "Chinese",
           "display": "list-item",
           "panels": [
-            "accordion-fcd90fb3-3bd5-4786-a7bc-e5b20090ed77"
+            "accordion-9552b9e8-3ccf-41f2-be9d-cc09a7072db1"
           ],
           "sep": " "
         },
@@ -1803,7 +1830,7 @@
           "text": "Computing Technology",
           "display": "list-item",
           "panels": [
-            "accordion-fcd90fb3-3bd5-4786-a7bc-e5b20090ed77"
+            "accordion-9552b9e8-3ccf-41f2-be9d-cc09a7072db1"
           ],
           "sep": " "
         },
@@ -1812,7 +1839,7 @@
           "text": "Design and Technology",
           "display": "list-item",
           "panels": [
-            "accordion-fcd90fb3-3bd5-4786-a7bc-e5b20090ed77"
+            "accordion-9552b9e8-3ccf-41f2-be9d-cc09a7072db1"
           ],
           "sep": " "
         },
@@ -1821,7 +1848,7 @@
           "text": "Drama",
           "display": "list-item",
           "panels": [
-            "accordion-fcd90fb3-3bd5-4786-a7bc-e5b20090ed77"
+            "accordion-9552b9e8-3ccf-41f2-be9d-cc09a7072db1"
           ],
           "sep": " "
         },
@@ -1830,7 +1857,7 @@
           "text": "Elective Geography",
           "display": "list-item",
           "panels": [
-            "accordion-fcd90fb3-3bd5-4786-a7bc-e5b20090ed77"
+            "accordion-9552b9e8-3ccf-41f2-be9d-cc09a7072db1"
           ],
           "sep": " "
         },
@@ -1839,7 +1866,7 @@
           "text": "Elective History",
           "display": "list-item",
           "panels": [
-            "accordion-fcd90fb3-3bd5-4786-a7bc-e5b20090ed77"
+            "accordion-9552b9e8-3ccf-41f2-be9d-cc09a7072db1"
           ],
           "sep": " "
         },
@@ -1848,7 +1875,7 @@
           "text": "Electronics",
           "display": "list-item",
           "panels": [
-            "accordion-fcd90fb3-3bd5-4786-a7bc-e5b20090ed77"
+            "accordion-9552b9e8-3ccf-41f2-be9d-cc09a7072db1"
           ],
           "sep": " "
         },
@@ -1857,7 +1884,7 @@
           "text": "Engineering",
           "display": "list-item",
           "panels": [
-            "accordion-fcd90fb3-3bd5-4786-a7bc-e5b20090ed77"
+            "accordion-9552b9e8-3ccf-41f2-be9d-cc09a7072db1"
           ],
           "sep": " "
         },
@@ -1866,7 +1893,7 @@
           "text": "Food Technology",
           "display": "list-item",
           "panels": [
-            "accordion-fcd90fb3-3bd5-4786-a7bc-e5b20090ed77"
+            "accordion-9552b9e8-3ccf-41f2-be9d-cc09a7072db1"
           ],
           "sep": " "
         },
@@ -1875,7 +1902,7 @@
           "text": "French",
           "display": "list-item",
           "panels": [
-            "accordion-fcd90fb3-3bd5-4786-a7bc-e5b20090ed77"
+            "accordion-9552b9e8-3ccf-41f2-be9d-cc09a7072db1"
           ],
           "sep": " "
         },
@@ -1884,7 +1911,7 @@
           "text": "German",
           "display": "list-item",
           "panels": [
-            "accordion-fcd90fb3-3bd5-4786-a7bc-e5b20090ed77"
+            "accordion-9552b9e8-3ccf-41f2-be9d-cc09a7072db1"
           ],
           "sep": " "
         },
@@ -1893,7 +1920,7 @@
           "text": "Graphics Technology",
           "display": "list-item",
           "panels": [
-            "accordion-fcd90fb3-3bd5-4786-a7bc-e5b20090ed77"
+            "accordion-9552b9e8-3ccf-41f2-be9d-cc09a7072db1"
           ],
           "sep": " "
         },
@@ -1902,7 +1929,7 @@
           "text": "Japanese",
           "display": "list-item",
           "panels": [
-            "accordion-fcd90fb3-3bd5-4786-a7bc-e5b20090ed77"
+            "accordion-9552b9e8-3ccf-41f2-be9d-cc09a7072db1"
           ],
           "sep": " "
         },
@@ -1911,7 +1938,7 @@
           "text": "Music",
           "display": "list-item",
           "panels": [
-            "accordion-fcd90fb3-3bd5-4786-a7bc-e5b20090ed77"
+            "accordion-9552b9e8-3ccf-41f2-be9d-cc09a7072db1"
           ],
           "sep": " "
         },
@@ -1920,7 +1947,7 @@
           "text": "Photographic and Digital Media",
           "display": "list-item",
           "panels": [
-            "accordion-fcd90fb3-3bd5-4786-a7bc-e5b20090ed77"
+            "accordion-9552b9e8-3ccf-41f2-be9d-cc09a7072db1"
           ],
           "sep": " "
         },
@@ -1929,7 +1956,7 @@
           "text": "Visual Arts",
           "display": "list-item",
           "panels": [
-            "accordion-fcd90fb3-3bd5-4786-a7bc-e5b20090ed77"
+            "accordion-9552b9e8-3ccf-41f2-be9d-cc09a7072db1"
           ],
           "sep": " "
         },
@@ -1939,7 +1966,7 @@
           "display": "block",
           "level": "h2",
           "panels": [
-            "accordion-fcd90fb3-3bd5-4786-a7bc-e5b20090ed77"
+            "accordion-9552b9e8-3ccf-41f2-be9d-cc09a7072db1"
           ],
           "sep": " "
         },
@@ -1948,7 +1975,7 @@
           "text": "Curriculum and Assessment booklets are provided for students in Years 9 and 10",
           "display": "list-item",
           "panels": [
-            "accordion-fcd90fb3-3bd5-4786-a7bc-e5b20090ed77"
+            "accordion-9552b9e8-3ccf-41f2-be9d-cc09a7072db1"
           ],
           "sep": " "
         },
@@ -1957,7 +1984,7 @@
           "text": "Individual task dates and deadlines are subject to change and students will be notified in advance of these changes.",
           "display": "list-item",
           "panels": [
-            "accordion-fcd90fb3-3bd5-4786-a7bc-e5b20090ed77"
+            "accordion-9552b9e8-3ccf-41f2-be9d-cc09a7072db1"
           ],
           "sep": " "
         },
@@ -1966,7 +1993,7 @@
           "text": "These are made available to students and parents/carers through the portal to provide a guide as to the nature of tasks in each subject and outline when whole form tasks and tests take place in each term.",
           "display": "list-item",
           "panels": [
-            "accordion-fcd90fb3-3bd5-4786-a7bc-e5b20090ed77"
+            "accordion-9552b9e8-3ccf-41f2-be9d-cc09a7072db1"
           ],
           "sep": " "
         },
@@ -1975,7 +2002,7 @@
           "text": "Please note: some subjects are semesterised including History and Geography.",
           "display": "list-item",
           "panels": [
-            "accordion-fcd90fb3-3bd5-4786-a7bc-e5b20090ed77"
+            "accordion-9552b9e8-3ccf-41f2-be9d-cc09a7072db1"
           ],
           "sep": " "
         },
@@ -1984,7 +2011,7 @@
           "text": "In some faculty and subject areas, there are only one or two common tasks and other additional tasks are set by the subject teacher for a specific class. Students will be notifed of these tasks in advance.",
           "display": "list-item",
           "panels": [
-            "accordion-fcd90fb3-3bd5-4786-a7bc-e5b20090ed77"
+            "accordion-9552b9e8-3ccf-41f2-be9d-cc09a7072db1"
           ],
           "sep": " "
         },
@@ -1993,7 +2020,7 @@
           "text": "Senior School (Years 11-12)",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-db215465-e937-447b-87c3-b643dcd46b35",
+          "toggle": "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616",
           "sep": " "
         },
         {
@@ -2003,7 +2030,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-db215465-e937-447b-87c3-b643dcd46b35",
+          "toggle": "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616",
           "sep": " "
         },
         {
@@ -2011,7 +2038,7 @@
           "text": "In Years 11 and 12 students are prepared for the NSW Higher School Certificate. A broad range of courses are offered and the curriculum has a clear path to university entrance. The NSW Education Standards Authority (NESA) requires students to study a minimum of 12 units in Year 11 and 10 units in Year 12.",
           "display": "block",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2020,7 +2047,7 @@
           "text": "Senior Schooling consists of the Stage 6 Curriculum studied during Years 11 and 12. All students must study at least four different subjects totalling a minimum of 12 Units in Year 11 and 10 Units in Year 12 including 2 units of English. The English courses offered at Fort Street are Advanced or Extension courses.",
           "display": "block",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2029,7 +2056,7 @@
           "text": "Curriculum choice patterns are formulated from student needs. A small number of students negotiate acceleration in one or more subjects. Students have accelerated in Biology, Business Studies, Chemistry, French, Music & Mathematics.",
           "display": "block",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2038,7 +2065,7 @@
           "text": "All students in Years 11 and 12 also continue with Fortunae (wellbeing lessons).",
           "display": "block",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2048,7 +2075,7 @@
           "display": "block",
           "level": "h2",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2057,7 +2084,7 @@
           "text": "Ancient History",
           "display": "list-item",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2066,7 +2093,7 @@
           "text": "Biology",
           "display": "list-item",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2075,7 +2102,7 @@
           "text": "Chemistry",
           "display": "list-item",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2084,7 +2111,7 @@
           "text": "Chinese in Context",
           "display": "list-item",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2093,7 +2120,7 @@
           "text": "Design and Technology",
           "display": "list-item",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2102,7 +2129,7 @@
           "text": "Drama",
           "display": "list-item",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2111,7 +2138,7 @@
           "text": "Earth & Environmental Science",
           "display": "list-item",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2120,7 +2147,7 @@
           "text": "Economics",
           "display": "list-item",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2129,7 +2156,7 @@
           "text": "Engineering Studies",
           "display": "list-item",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2138,7 +2165,7 @@
           "text": "English Extension 1",
           "display": "list-item",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2147,7 +2174,7 @@
           "text": "Food Technology",
           "display": "list-item",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2156,7 +2183,7 @@
           "text": "French Continuers",
           "display": "list-item",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2165,7 +2192,7 @@
           "text": "German Continuers",
           "display": "list-item",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2174,7 +2201,7 @@
           "text": "Geography",
           "display": "list-item",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2183,7 +2210,7 @@
           "text": "Japanese Continuers",
           "display": "list-item",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2192,7 +2219,7 @@
           "text": "Legal Studies",
           "display": "list-item",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2201,7 +2228,7 @@
           "text": "Mathematics",
           "display": "list-item",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2210,7 +2237,7 @@
           "text": "Mathematics Extension 1",
           "display": "list-item",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2219,7 +2246,7 @@
           "text": "Modern History",
           "display": "list-item",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2228,7 +2255,7 @@
           "text": "Music 2",
           "display": "list-item",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2237,7 +2264,7 @@
           "text": "Photography (1 Unit) *",
           "display": "list-item",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2246,7 +2273,7 @@
           "text": "Personal Development, Health and Physical Education",
           "display": "list-item",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2255,7 +2282,7 @@
           "text": "Philosophy (1 Unit) *",
           "display": "list-item",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2264,7 +2291,7 @@
           "text": "Physics",
           "display": "list-item",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2273,7 +2300,7 @@
           "text": "Software Engineering",
           "display": "list-item",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2282,7 +2309,7 @@
           "text": "Studies of Religion (1 Unit) *",
           "display": "list-item",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2291,7 +2318,7 @@
           "text": "Visual Arts",
           "display": "list-item",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2300,7 +2327,7 @@
           "text": "* Year 11 only",
           "display": "block",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2310,7 +2337,7 @@
           "display": "block",
           "level": "h2",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2319,7 +2346,7 @@
           "text": "History",
           "display": "list-item",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2328,7 +2355,7 @@
           "text": "Chinese",
           "display": "list-item",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2337,7 +2364,7 @@
           "text": "Japanese",
           "display": "list-item",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2346,7 +2373,7 @@
           "text": "French",
           "display": "list-item",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2355,7 +2382,7 @@
           "text": "German",
           "display": "list-item",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2364,7 +2391,7 @@
           "text": "Music",
           "display": "list-item",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2373,7 +2400,7 @@
           "text": "Mathematics Extension 2",
           "display": "list-item",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2382,7 +2409,7 @@
           "text": "English Extension 2",
           "display": "list-item",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2391,7 +2418,7 @@
           "text": "Science Extension",
           "display": "list-item",
           "panels": [
-            "accordion-db215465-e937-447b-87c3-b643dcd46b35"
+            "accordion-fcf67c37-9ba0-409c-ade4-23495fb85616"
           ],
           "sep": " "
         },
@@ -2400,7 +2427,7 @@
           "text": "Sport",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-99752653-0762-4ca0-a849-cb10565ddda3",
+          "toggle": "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430",
           "sep": " "
         },
         {
@@ -2410,7 +2437,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-99752653-0762-4ca0-a849-cb10565ddda3",
+          "toggle": "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430",
           "sep": " "
         },
         {
@@ -2418,7 +2445,7 @@
           "text": "Fortians participate in planned physical activity in Years 7-10 timetabled PDHPE lessons as well as weekly sport which is mandatory for all students in Years 7-11.",
           "display": "block",
           "panels": [
-            "accordion-99752653-0762-4ca0-a849-cb10565ddda3"
+            "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430"
           ],
           "sep": " "
         },
@@ -2427,7 +2454,7 @@
           "text": "Participation in sport provides many benefits in terms of physical fitness, health benefits, cognitive development, personal wellbeing, and social integration.",
           "display": "block",
           "panels": [
-            "accordion-99752653-0762-4ca0-a849-cb10565ddda3"
+            "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430"
           ],
           "sep": " "
         },
@@ -2437,7 +2464,7 @@
           "display": "block",
           "level": "h2",
           "panels": [
-            "accordion-99752653-0762-4ca0-a849-cb10565ddda3"
+            "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430"
           ],
           "sep": " "
         },
@@ -2447,7 +2474,7 @@
           "display": "block",
           "level": "h4",
           "panels": [
-            "accordion-99752653-0762-4ca0-a849-cb10565ddda3"
+            "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430"
           ],
           "sep": " "
         },
@@ -2462,7 +2489,7 @@
               "parentTag": "strong",
               "parentClass": "",
               "panels": [
-                "accordion-99752653-0762-4ca0-a849-cb10565ddda3"
+                "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430"
               ],
               "sep": ""
             },
@@ -2472,13 +2499,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-99752653-0762-4ca0-a849-cb10565ddda3"
+                "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-99752653-0762-4ca0-a849-cb10565ddda3"
+            "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430"
           ],
           "sep": " "
         },
@@ -2493,7 +2520,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-99752653-0762-4ca0-a849-cb10565ddda3"
+                "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430"
               ],
               "sep": ""
             },
@@ -2503,7 +2530,7 @@
               "parentTag": "strong",
               "parentClass": "",
               "panels": [
-                "accordion-99752653-0762-4ca0-a849-cb10565ddda3"
+                "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430"
               ],
               "sep": " "
             },
@@ -2513,7 +2540,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-99752653-0762-4ca0-a849-cb10565ddda3"
+                "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430"
               ],
               "sep": ""
             },
@@ -2523,7 +2550,7 @@
               "parentTag": "strong",
               "parentClass": "",
               "panels": [
-                "accordion-99752653-0762-4ca0-a849-cb10565ddda3"
+                "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430"
               ],
               "sep": " "
             },
@@ -2533,7 +2560,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-99752653-0762-4ca0-a849-cb10565ddda3"
+                "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430"
               ],
               "sep": ""
             },
@@ -2543,7 +2570,7 @@
               "parentTag": "strong",
               "parentClass": "",
               "panels": [
-                "accordion-99752653-0762-4ca0-a849-cb10565ddda3"
+                "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430"
               ],
               "sep": " "
             },
@@ -2553,7 +2580,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-99752653-0762-4ca0-a849-cb10565ddda3"
+                "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430"
               ],
               "sep": " "
             },
@@ -2563,7 +2590,7 @@
               "parentTag": "strong",
               "parentClass": "",
               "panels": [
-                "accordion-99752653-0762-4ca0-a849-cb10565ddda3"
+                "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430"
               ],
               "sep": " "
             },
@@ -2573,13 +2600,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-99752653-0762-4ca0-a849-cb10565ddda3"
+                "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-99752653-0762-4ca0-a849-cb10565ddda3"
+            "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430"
           ],
           "sep": " "
         },
@@ -2594,7 +2621,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-99752653-0762-4ca0-a849-cb10565ddda3"
+                "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430"
               ],
               "sep": ""
             },
@@ -2604,7 +2631,7 @@
               "parentTag": "strong",
               "parentClass": "",
               "panels": [
-                "accordion-99752653-0762-4ca0-a849-cb10565ddda3"
+                "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430"
               ],
               "sep": " "
             },
@@ -2614,13 +2641,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-99752653-0762-4ca0-a849-cb10565ddda3"
+                "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-99752653-0762-4ca0-a849-cb10565ddda3"
+            "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430"
           ],
           "sep": " "
         },
@@ -2635,7 +2662,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-99752653-0762-4ca0-a849-cb10565ddda3"
+                "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430"
               ],
               "sep": ""
             },
@@ -2645,7 +2672,7 @@
               "parentTag": "strong",
               "parentClass": "",
               "panels": [
-                "accordion-99752653-0762-4ca0-a849-cb10565ddda3"
+                "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430"
               ],
               "sep": " "
             },
@@ -2655,13 +2682,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-99752653-0762-4ca0-a849-cb10565ddda3"
+                "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-99752653-0762-4ca0-a849-cb10565ddda3"
+            "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430"
           ],
           "sep": " "
         },
@@ -2676,7 +2703,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-99752653-0762-4ca0-a849-cb10565ddda3"
+                "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430"
               ],
               "sep": ""
             },
@@ -2686,7 +2713,7 @@
               "parentTag": "strong",
               "parentClass": "",
               "panels": [
-                "accordion-99752653-0762-4ca0-a849-cb10565ddda3"
+                "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430"
               ],
               "sep": " "
             },
@@ -2696,13 +2723,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-99752653-0762-4ca0-a849-cb10565ddda3"
+                "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-99752653-0762-4ca0-a849-cb10565ddda3"
+            "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430"
           ],
           "sep": " "
         },
@@ -2711,7 +2738,7 @@
           "text": "Students select one sport for Summer (Terms 1 and 2) and another for Winter (Terms 3 and 4). The cost of grade and recreational sports varies and must be paid for in advance of each sport session.",
           "display": "block",
           "panels": [
-            "accordion-99752653-0762-4ca0-a849-cb10565ddda3"
+            "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430"
           ],
           "sep": " "
         },
@@ -2720,7 +2747,7 @@
           "text": "Students also have the opportunity to participate in Knockout Competitions. These teams are selected and coached by staff based on student interest, and compete against other schools until they are knocked out of the competition. Most teams have the opportunity to play two or three games a year. These games take place during normal school time.",
           "display": "block",
           "panels": [
-            "accordion-99752653-0762-4ca0-a849-cb10565ddda3"
+            "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430"
           ],
           "sep": " "
         },
@@ -2730,7 +2757,7 @@
           "display": "block",
           "level": "h3",
           "panels": [
-            "accordion-99752653-0762-4ca0-a849-cb10565ddda3"
+            "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430"
           ],
           "sep": " "
         },
@@ -2739,7 +2766,7 @@
           "text": "Fort Street competes in the Northern Suburbs Sports Zone.",
           "display": "block",
           "panels": [
-            "accordion-99752653-0762-4ca0-a849-cb10565ddda3"
+            "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430"
           ],
           "sep": " "
         },
@@ -2748,7 +2775,7 @@
           "text": "Summer grade sports include: basketball, cricket, touch football, ultimate frisbee, volleyball, softball and European handball.",
           "display": "block",
           "panels": [
-            "accordion-99752653-0762-4ca0-a849-cb10565ddda3"
+            "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430"
           ],
           "sep": " "
         },
@@ -2757,7 +2784,7 @@
           "text": "Winter grade sports include: basketball, Oztag, netball, volleyball, soccer, futsal and European handball.",
           "display": "block",
           "panels": [
-            "accordion-99752653-0762-4ca0-a849-cb10565ddda3"
+            "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430"
           ],
           "sep": " "
         },
@@ -2767,7 +2794,7 @@
           "display": "block",
           "level": "h3",
           "panels": [
-            "accordion-99752653-0762-4ca0-a849-cb10565ddda3"
+            "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430"
           ],
           "sep": " "
         },
@@ -2776,7 +2803,7 @@
           "text": "These are activities where the primary purpose is participation, with the realted goals of improved physical fitness, fun, and social involvement.",
           "display": "block",
           "panels": [
-            "accordion-99752653-0762-4ca0-a849-cb10565ddda3"
+            "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430"
           ],
           "sep": " "
         },
@@ -2785,7 +2812,7 @@
           "text": "Recreational sports at Fort Street include tennis, ice skating, yoga, pilates, boxing, gym classes, futsal, basketball, ultimate frisbee, rock climbing and swimming.",
           "display": "block",
           "panels": [
-            "accordion-99752653-0762-4ca0-a849-cb10565ddda3"
+            "accordion-928e9101-7f20-48b1-bba3-a1c065dd0430"
           ],
           "sep": " "
         },
@@ -2794,7 +2821,7 @@
           "text": "Library",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-7ff1ce65-8976-475e-b360-7d2f269c4b57",
+          "toggle": "accordion-d7c600ee-b665-45af-96d6-0df8302d5734",
           "sep": " "
         },
         {
@@ -2804,7 +2831,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-7ff1ce65-8976-475e-b360-7d2f269c4b57",
+          "toggle": "accordion-d7c600ee-b665-45af-96d6-0df8302d5734",
           "sep": " "
         },
         {
@@ -2812,7 +2839,7 @@
           "text": "The recently renovated Fort Street High School Library provides a supportive, welcoming environment with resources and study spaces to meet the teaching and learning needs of our community. Our goal is to develop lifelong readers who appreciate literature and engage critically and ethically with information in all its forms. To facilitate this, our library has an extensive and constantly updated collection of journals, print and electronic books.",
           "display": "block",
           "panels": [
-            "accordion-7ff1ce65-8976-475e-b360-7d2f269c4b57"
+            "accordion-d7c600ee-b665-45af-96d6-0df8302d5734"
           ],
           "sep": " "
         },
@@ -2822,7 +2849,7 @@
           "display": "block",
           "level": "h2",
           "panels": [
-            "accordion-7ff1ce65-8976-475e-b360-7d2f269c4b57"
+            "accordion-d7c600ee-b665-45af-96d6-0df8302d5734"
           ],
           "sep": " "
         },
@@ -2831,7 +2858,7 @@
           "text": "Our Teacher Librarian, Ms Page provides research support in class and encourages all students to develop a love of reading. Students are encouraged to suggest titles to add to the school library collection so that it best represents the varied interests of the school community. Ms Page is also available for individual research interviews to support students with their assignments.",
           "display": "block",
           "panels": [
-            "accordion-7ff1ce65-8976-475e-b360-7d2f269c4b57"
+            "accordion-d7c600ee-b665-45af-96d6-0df8302d5734"
           ],
           "sep": " "
         },
@@ -2841,7 +2868,7 @@
           "display": "block",
           "level": "h3",
           "panels": [
-            "accordion-7ff1ce65-8976-475e-b360-7d2f269c4b57"
+            "accordion-d7c600ee-b665-45af-96d6-0df8302d5734"
           ],
           "sep": " "
         },
@@ -2856,7 +2883,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-7ff1ce65-8976-475e-b360-7d2f269c4b57"
+                "accordion-d7c600ee-b665-45af-96d6-0df8302d5734"
               ],
               "sep": ""
             },
@@ -2866,7 +2893,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-7ff1ce65-8976-475e-b360-7d2f269c4b57"
+                "accordion-d7c600ee-b665-45af-96d6-0df8302d5734"
               ],
               "sep": " "
             },
@@ -2876,7 +2903,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-7ff1ce65-8976-475e-b360-7d2f269c4b57"
+                "accordion-d7c600ee-b665-45af-96d6-0df8302d5734"
               ],
               "sep": " "
             },
@@ -2886,7 +2913,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-7ff1ce65-8976-475e-b360-7d2f269c4b57"
+                "accordion-d7c600ee-b665-45af-96d6-0df8302d5734"
               ],
               "sep": " "
             },
@@ -2896,13 +2923,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-7ff1ce65-8976-475e-b360-7d2f269c4b57"
+                "accordion-d7c600ee-b665-45af-96d6-0df8302d5734"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-7ff1ce65-8976-475e-b360-7d2f269c4b57"
+            "accordion-d7c600ee-b665-45af-96d6-0df8302d5734"
           ],
           "sep": " "
         },
@@ -2912,7 +2939,7 @@
           "display": "block",
           "level": "h3",
           "panels": [
-            "accordion-7ff1ce65-8976-475e-b360-7d2f269c4b57"
+            "accordion-d7c600ee-b665-45af-96d6-0df8302d5734"
           ],
           "sep": " "
         },
@@ -2921,7 +2948,7 @@
           "text": "Monday and Wednesdays after school until 4.10 students can get assistance with their homework.",
           "display": "block",
           "panels": [
-            "accordion-7ff1ce65-8976-475e-b360-7d2f269c4b57"
+            "accordion-d7c600ee-b665-45af-96d6-0df8302d5734"
           ],
           "sep": " "
         },
@@ -2931,7 +2958,7 @@
           "display": "block",
           "level": "h3",
           "panels": [
-            "accordion-7ff1ce65-8976-475e-b360-7d2f269c4b57"
+            "accordion-d7c600ee-b665-45af-96d6-0df8302d5734"
           ],
           "sep": " "
         },
@@ -2940,7 +2967,7 @@
           "text": "Students are welcome every recess and lunch to play chess in the library.",
           "display": "block",
           "panels": [
-            "accordion-7ff1ce65-8976-475e-b360-7d2f269c4b57"
+            "accordion-d7c600ee-b665-45af-96d6-0df8302d5734"
           ],
           "sep": " "
         },
@@ -2950,7 +2977,7 @@
           "display": "block",
           "level": "h3",
           "panels": [
-            "accordion-7ff1ce65-8976-475e-b360-7d2f269c4b57"
+            "accordion-d7c600ee-b665-45af-96d6-0df8302d5734"
           ],
           "sep": " "
         },
@@ -2959,7 +2986,7 @@
           "text": "Students can access the school library catalogue from their own device anywhere through their student portal.",
           "display": "block",
           "panels": [
-            "accordion-7ff1ce65-8976-475e-b360-7d2f269c4b57"
+            "accordion-d7c600ee-b665-45af-96d6-0df8302d5734"
           ],
           "sep": " "
         },
@@ -2969,7 +2996,7 @@
           "display": "block",
           "level": "h3",
           "panels": [
-            "accordion-7ff1ce65-8976-475e-b360-7d2f269c4b57"
+            "accordion-d7c600ee-b665-45af-96d6-0df8302d5734"
           ],
           "sep": " "
         },
@@ -2984,7 +3011,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-7ff1ce65-8976-475e-b360-7d2f269c4b57"
+                "accordion-d7c600ee-b665-45af-96d6-0df8302d5734"
               ],
               "sep": ""
             },
@@ -3002,7 +3029,7 @@
                   "parentTag": "a",
                   "parentClass": "",
                   "panels": [
-                    "accordion-7ff1ce65-8976-475e-b360-7d2f269c4b57"
+                    "accordion-d7c600ee-b665-45af-96d6-0df8302d5734"
                   ],
                   "sep": ""
                 },
@@ -3013,19 +3040,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-7ff1ce65-8976-475e-b360-7d2f269c4b57"
+                    "accordion-d7c600ee-b665-45af-96d6-0df8302d5734"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-7ff1ce65-8976-475e-b360-7d2f269c4b57"
+                "accordion-d7c600ee-b665-45af-96d6-0df8302d5734"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-7ff1ce65-8976-475e-b360-7d2f269c4b57"
+            "accordion-d7c600ee-b665-45af-96d6-0df8302d5734"
           ],
           "sep": " "
         },
@@ -3035,7 +3062,7 @@
           "display": "block",
           "level": "h3",
           "panels": [
-            "accordion-7ff1ce65-8976-475e-b360-7d2f269c4b57"
+            "accordion-d7c600ee-b665-45af-96d6-0df8302d5734"
           ],
           "sep": " "
         },
@@ -3050,7 +3077,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-7ff1ce65-8976-475e-b360-7d2f269c4b57"
+                "accordion-d7c600ee-b665-45af-96d6-0df8302d5734"
               ],
               "sep": ""
             },
@@ -3068,7 +3095,7 @@
                   "parentTag": "a",
                   "parentClass": "",
                   "panels": [
-                    "accordion-7ff1ce65-8976-475e-b360-7d2f269c4b57"
+                    "accordion-d7c600ee-b665-45af-96d6-0df8302d5734"
                   ],
                   "sep": ""
                 },
@@ -3079,13 +3106,13 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-7ff1ce65-8976-475e-b360-7d2f269c4b57"
+                    "accordion-d7c600ee-b665-45af-96d6-0df8302d5734"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-7ff1ce65-8976-475e-b360-7d2f269c4b57"
+                "accordion-d7c600ee-b665-45af-96d6-0df8302d5734"
               ],
               "sep": " "
             },
@@ -3095,13 +3122,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-7ff1ce65-8976-475e-b360-7d2f269c4b57"
+                "accordion-d7c600ee-b665-45af-96d6-0df8302d5734"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-7ff1ce65-8976-475e-b360-7d2f269c4b57"
+            "accordion-d7c600ee-b665-45af-96d6-0df8302d5734"
           ],
           "sep": " "
         },
@@ -3110,7 +3137,7 @@
           "text": "Every student in Years 7, 8, 9 and 10 is eligible to participate in the challenge.",
           "display": "block",
           "panels": [
-            "accordion-7ff1ce65-8976-475e-b360-7d2f269c4b57"
+            "accordion-d7c600ee-b665-45af-96d6-0df8302d5734"
           ],
           "sep": " "
         },
@@ -3119,7 +3146,7 @@
           "text": "To register for the Challenge, students need to log onto the Premier’s Reading Challenge website using their DEC login details, and start filling in the Student Reading Records from March 1st each year. Students need to read 20 books between September 1st each year and August 31st the following year. At least 10 books must be on the prescribed book list. Students who have completed four Challenges receive a Gold Certificate; students who complete seven Challenges receive a Platinum Certificate. Students who complete every Challenge from Year 3 to Year 9 receive a medal.",
           "display": "block",
           "panels": [
-            "accordion-7ff1ce65-8976-475e-b360-7d2f269c4b57"
+            "accordion-d7c600ee-b665-45af-96d6-0df8302d5734"
           ],
           "sep": " "
         },
@@ -3128,7 +3155,7 @@
           "text": "There is a wide variety of reading genres from which to choose, including factual, poetry, drama, newspaper texts, humorous fiction, love stories, fantasy, picture books, science fiction, classics, to name a few.",
           "display": "block",
           "panels": [
-            "accordion-7ff1ce65-8976-475e-b360-7d2f269c4b57"
+            "accordion-d7c600ee-b665-45af-96d6-0df8302d5734"
           ],
           "sep": " "
         },
@@ -3143,7 +3170,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-7ff1ce65-8976-475e-b360-7d2f269c4b57"
+                "accordion-d7c600ee-b665-45af-96d6-0df8302d5734"
               ],
               "sep": ""
             },
@@ -3153,7 +3180,7 @@
               "parentTag": "strong",
               "parentClass": "",
               "panels": [
-                "accordion-7ff1ce65-8976-475e-b360-7d2f269c4b57"
+                "accordion-d7c600ee-b665-45af-96d6-0df8302d5734"
               ],
               "sep": " "
             },
@@ -3163,7 +3190,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-7ff1ce65-8976-475e-b360-7d2f269c4b57"
+                "accordion-d7c600ee-b665-45af-96d6-0df8302d5734"
               ],
               "sep": " "
             },
@@ -3173,13 +3200,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-7ff1ce65-8976-475e-b360-7d2f269c4b57"
+                "accordion-d7c600ee-b665-45af-96d6-0df8302d5734"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-7ff1ce65-8976-475e-b360-7d2f269c4b57"
+            "accordion-d7c600ee-b665-45af-96d6-0df8302d5734"
           ],
           "sep": " "
         },
@@ -3188,7 +3215,7 @@
           "text": "Religion and ethics",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0",
+          "toggle": "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb",
           "sep": " "
         },
         {
@@ -3198,7 +3225,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0",
+          "toggle": "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb",
           "sep": " "
         },
         {
@@ -3206,7 +3233,7 @@
           "text": "At our school, students can take part in special religious education (SRE) or special education in ethics (SEE) classes, depending on what’s available. These classes are delivered by approved providers.",
           "display": "block",
           "panels": [
-            "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+            "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
           ],
           "sep": " "
         },
@@ -3215,7 +3242,7 @@
           "text": "When enrolling your child, you’ll be able to choose an option from the approved providers offered at our school. Students not attending SRE or SEE are given supervised alternative meaningful activities.",
           "display": "block",
           "panels": [
-            "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+            "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
           ],
           "sep": " "
         },
@@ -3230,7 +3257,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+                "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
               ],
               "sep": ""
             },
@@ -3248,7 +3275,7 @@
                   "parentTag": "a",
                   "parentClass": "",
                   "panels": [
-                    "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+                    "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
                   ],
                   "sep": ""
                 },
@@ -3259,13 +3286,13 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+                    "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+                "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
               ],
               "sep": " "
             },
@@ -3275,13 +3302,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+                "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+            "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
           ],
           "sep": " "
         },
@@ -3290,7 +3317,7 @@
           "text": "In accordance with Department of Education policy, Special Religious Education (SRE, previously known as Scripture) takes place at Fort Street High School every Thursday from 9:00am – 9:40pm. We currently offer three SRE options (see below). In Year 7, students who do not participate in SRE are supervised in independent reading or school work in the school Library. Students are not permitted to use devices during this time. Students from Years 8 – 10 students who do not attend SRE begin school in period 2.",
           "display": "block",
           "panels": [
-            "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+            "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
           ],
           "sep": " "
         },
@@ -3300,7 +3327,7 @@
           "display": "block",
           "level": "h2",
           "panels": [
-            "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+            "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
           ],
           "sep": " "
         },
@@ -3315,7 +3342,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+                "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
               ],
               "sep": ""
             },
@@ -3333,7 +3360,7 @@
                   "parentTag": "a",
                   "parentClass": "",
                   "panels": [
-                    "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+                    "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
                   ],
                   "sep": ""
                 },
@@ -3344,19 +3371,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+                    "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+                "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+            "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
           ],
           "sep": " "
         },
@@ -3365,7 +3392,7 @@
           "text": "We focus on the things that are common within Christian traditions and encourage the students to raise issues that are real to them. We believe it is important for gifted children to explore issues of faith, theology and Christian living at the level of their secular studies and are very excited to have the opportunity to do this at Fort Street. We hope you can encourage your child to participate.",
           "display": "block",
           "panels": [
-            "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+            "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
           ],
           "sep": " "
         },
@@ -3380,7 +3407,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+                "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
               ],
               "sep": ""
             },
@@ -3398,7 +3425,7 @@
                   "parentTag": "a",
                   "parentClass": "",
                   "panels": [
-                    "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+                    "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
                   ],
                   "sep": ""
                 },
@@ -3409,13 +3436,13 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+                    "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+                "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
               ],
               "sep": ""
             },
@@ -3425,13 +3452,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+                "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+            "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
           ],
           "sep": " "
         },
@@ -3441,7 +3468,7 @@
           "display": "block",
           "level": "h2",
           "panels": [
-            "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+            "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
           ],
           "sep": " "
         },
@@ -3456,7 +3483,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+                "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
               ],
               "sep": ""
             },
@@ -3474,7 +3501,7 @@
                   "parentTag": "a",
                   "parentClass": "",
                   "panels": [
-                    "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+                    "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
                   ],
                   "sep": ""
                 },
@@ -3485,19 +3512,19 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+                    "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+                "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+            "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
           ],
           "sep": " "
         },
@@ -3506,7 +3533,7 @@
           "text": "Meditation is a valuable life skill, which can help students to successfully manage their mental, emotional, spiritual and physical wellbeing. Benefits of meditation can include improved academic and learning skills, faster information processing, greater focus, more effective working memory, increased creativity and cognitive flexibility as well as reduced anxiety, stress and depression.",
           "display": "block",
           "panels": [
-            "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+            "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
           ],
           "sep": " "
         },
@@ -3515,7 +3542,7 @@
           "text": "From a spiritual perspective, meditation provides students the opportunity to develop a deep and fulfilling relationship with God and experience the sacred connection between themselves and others.",
           "display": "block",
           "panels": [
-            "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+            "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
           ],
           "sep": " "
         },
@@ -3524,7 +3551,7 @@
           "text": "Hinduism fosters the positive values of respect, tolerance, empathy, determination, resilience and service to others and encourages a healthy, balanced and meaningful life in harmony with community and the natural world.",
           "display": "block",
           "panels": [
-            "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+            "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
           ],
           "sep": " "
         },
@@ -3539,7 +3566,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+                "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
               ],
               "sep": ""
             },
@@ -3557,7 +3584,7 @@
                   "parentTag": "a",
                   "parentClass": "",
                   "panels": [
-                    "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+                    "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
                   ],
                   "sep": ""
                 },
@@ -3568,13 +3595,13 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+                    "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+                "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
               ],
               "sep": " "
             },
@@ -3584,7 +3611,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+                "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
               ],
               "sep": " "
             },
@@ -3602,7 +3629,7 @@
                   "parentTag": "a",
                   "parentClass": "",
                   "panels": [
-                    "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+                    "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
                   ],
                   "sep": ""
                 },
@@ -3613,13 +3640,13 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+                    "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+                "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
               ],
               "sep": " "
             },
@@ -3629,13 +3656,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+                "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+            "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
           ],
           "sep": " "
         },
@@ -3645,7 +3672,7 @@
           "display": "block",
           "level": "h2",
           "panels": [
-            "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+            "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
           ],
           "sep": " "
         },
@@ -3654,7 +3681,7 @@
           "text": "Ethics classes are available to students in Years 7 and 8 only, and support students to develop well-reasoned decisions about ethical issues. Through the give-and-take of reasoned argument students learn to disagree respectfully, to challenge ideas and to support their arguments with considered evidence rather than according to habit or peer pressure.",
           "display": "block",
           "panels": [
-            "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+            "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
           ],
           "sep": " "
         },
@@ -3663,7 +3690,7 @@
           "text": "Trained volunteer ethics teachers present a range of stories, scenarios and questions to generate discussion. Ethics teachers are trained to impartially facilitate student discussions, helping students develop their critical thinking and collaborative inquiry skills. Ethics teachers support student learning by:",
           "display": "block",
           "panels": [
-            "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+            "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
           ],
           "sep": " "
         },
@@ -3672,7 +3699,7 @@
           "text": "· modelling the inquiry process – by asking questions and encouraging discussion",
           "display": "block",
           "panels": [
-            "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+            "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
           ],
           "sep": " "
         },
@@ -3681,7 +3708,7 @@
           "text": "· showing genuine curiosity and interest in the questions being discussed",
           "display": "block",
           "panels": [
-            "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+            "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
           ],
           "sep": " "
         },
@@ -3690,7 +3717,7 @@
           "text": "· staying neutral – ethics teachers are trained to keep their own views out of the discussion",
           "display": "block",
           "panels": [
-            "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+            "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
           ],
           "sep": " "
         },
@@ -3699,7 +3726,7 @@
           "text": "· creating a positive learning environment – by allowing students time to think and encouraging students to share ideas and give reasons.",
           "display": "block",
           "panels": [
-            "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+            "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
           ],
           "sep": " "
         },
@@ -3714,7 +3741,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+                "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
               ],
               "sep": ""
             },
@@ -3726,7 +3753,7 @@
               "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/www.primaryethics.com.au",
               "classes": "",
               "panels": [
-                "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+                "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
               ],
               "sep": " "
             },
@@ -3736,7 +3763,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+                "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
               ],
               "sep": ""
             },
@@ -3754,7 +3781,7 @@
                   "parentTag": "a",
                   "parentClass": "",
                   "panels": [
-                    "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+                    "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
                   ],
                   "sep": ""
                 },
@@ -3765,13 +3792,13 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+                    "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+                "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
               ],
               "sep": " "
             },
@@ -3781,13 +3808,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+                "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+            "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
           ],
           "sep": " "
         },
@@ -3802,7 +3829,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+                "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
               ],
               "sep": ""
             },
@@ -3814,7 +3841,7 @@
               "absHref": "https://education.nsw.gov.au/teaching-and-learning/curriculum/religion-and-ethics",
               "classes": "",
               "panels": [
-                "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+                "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
               ],
               "sep": " "
             },
@@ -3824,7 +3851,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+                "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
               ],
               "sep": " "
             },
@@ -3836,7 +3863,7 @@
               "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
               "classes": "",
               "panels": [
-                "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+                "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
               ],
               "sep": " "
             },
@@ -3846,13 +3873,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+                "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-0df5b0a0-3cf9-4491-bf6c-e87ed176a8a0"
+            "accordion-ce9152ca-58ee-4bba-a23c-cdecd6c65fdb"
           ],
           "sep": " "
         },
@@ -3861,7 +3888,7 @@
           "text": "Gifted education",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-da2ce9c4-24c2-4a54-acfe-6e10997b495a",
+          "toggle": "accordion-41b216e0-7f38-495e-9518-5550ece83549",
           "sep": " "
         },
         {
@@ -3871,7 +3898,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-da2ce9c4-24c2-4a54-acfe-6e10997b495a",
+          "toggle": "accordion-41b216e0-7f38-495e-9518-5550ece83549",
           "sep": " "
         },
         {
@@ -3879,7 +3906,7 @@
           "text": "Teachers at Fort Street are committed to helping our gifted students reach their academic potential by creating programs which build on the learning continuum, promote creative and critical thinking and incorporate differentiation to give them challenging and meaningful learning experiences.",
           "display": "block",
           "panels": [
-            "accordion-da2ce9c4-24c2-4a54-acfe-6e10997b495a"
+            "accordion-41b216e0-7f38-495e-9518-5550ece83549"
           ],
           "sep": " "
         },
@@ -3888,7 +3915,7 @@
           "text": "Curriculum Organisation",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-3239cf97-9910-462a-8ef8-a0fb5d01ff53",
+          "toggle": "accordion-af1cf49a-0fa2-44e4-a8bb-537a5884e2f5",
           "sep": " "
         },
         {
@@ -3898,7 +3925,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-3239cf97-9910-462a-8ef8-a0fb5d01ff53",
+          "toggle": "accordion-af1cf49a-0fa2-44e4-a8bb-537a5884e2f5",
           "sep": " "
         },
         {
@@ -3907,7 +3934,7 @@
           "display": "block",
           "level": "h2",
           "panels": [
-            "accordion-3239cf97-9910-462a-8ef8-a0fb5d01ff53"
+            "accordion-af1cf49a-0fa2-44e4-a8bb-537a5884e2f5"
           ],
           "sep": " "
         },
@@ -3916,7 +3943,7 @@
           "text": "In Years 7 and 8, students study a mandatory curriculum of English, Mathematics, Science, History, Geography, PDHPE, Drama, Music, Visual Arts and Technology.",
           "display": "block",
           "panels": [
-            "accordion-3239cf97-9910-462a-8ef8-a0fb5d01ff53"
+            "accordion-af1cf49a-0fa2-44e4-a8bb-537a5884e2f5"
           ],
           "sep": " "
         },
@@ -3925,7 +3952,7 @@
           "text": "Periods per fortnight by subject",
           "display": "block",
           "panels": [
-            "accordion-3239cf97-9910-462a-8ef8-a0fb5d01ff53"
+            "accordion-af1cf49a-0fa2-44e4-a8bb-537a5884e2f5"
           ],
           "sep": " "
         },
@@ -3949,7 +3976,7 @@
                     "display": "block",
                     "level": "h5",
                     "panels": [
-                      "accordion-3239cf97-9910-462a-8ef8-a0fb5d01ff53"
+                      "accordion-af1cf49a-0fa2-44e4-a8bb-537a5884e2f5"
                     ],
                     "sep": ""
                   }
@@ -3964,7 +3991,7 @@
                     "display": "block",
                     "level": "h5",
                     "panels": [
-                      "accordion-3239cf97-9910-462a-8ef8-a0fb5d01ff53"
+                      "accordion-af1cf49a-0fa2-44e4-a8bb-537a5884e2f5"
                     ],
                     "sep": ""
                   }
@@ -3979,7 +4006,7 @@
                     "display": "block",
                     "level": "h5",
                     "panels": [
-                      "accordion-3239cf97-9910-462a-8ef8-a0fb5d01ff53"
+                      "accordion-af1cf49a-0fa2-44e4-a8bb-537a5884e2f5"
                     ],
                     "sep": ""
                   }
@@ -4120,7 +4147,7 @@
             ]
           ],
           "panels": [
-            "accordion-3239cf97-9910-462a-8ef8-a0fb5d01ff53"
+            "accordion-af1cf49a-0fa2-44e4-a8bb-537a5884e2f5"
           ],
           "sep": " "
         },
@@ -4129,7 +4156,7 @@
           "text": "Years 9 and 10",
           "display": "block",
           "panels": [
-            "accordion-3239cf97-9910-462a-8ef8-a0fb5d01ff53"
+            "accordion-af1cf49a-0fa2-44e4-a8bb-537a5884e2f5"
           ],
           "sep": " "
         },
@@ -4138,7 +4165,7 @@
           "text": "In Years 9 and 10, students continue mandatory studies in English, Mathematics, Science, History, Geography and PDHPE. Students also choose three elective subjects from a wide range of options including the Creative and Performing Arts, Languages and Technology faculties.",
           "display": "block",
           "panels": [
-            "accordion-3239cf97-9910-462a-8ef8-a0fb5d01ff53"
+            "accordion-af1cf49a-0fa2-44e4-a8bb-537a5884e2f5"
           ],
           "sep": " "
         },
@@ -4147,7 +4174,7 @@
           "text": "Periods per fortnight by subject",
           "display": "block",
           "panels": [
-            "accordion-3239cf97-9910-462a-8ef8-a0fb5d01ff53"
+            "accordion-af1cf49a-0fa2-44e4-a8bb-537a5884e2f5"
           ],
           "sep": " "
         },
@@ -4171,7 +4198,7 @@
                     "display": "block",
                     "level": "h5",
                     "panels": [
-                      "accordion-3239cf97-9910-462a-8ef8-a0fb5d01ff53"
+                      "accordion-af1cf49a-0fa2-44e4-a8bb-537a5884e2f5"
                     ],
                     "sep": ""
                   }
@@ -4186,7 +4213,7 @@
                     "display": "block",
                     "level": "h5",
                     "panels": [
-                      "accordion-3239cf97-9910-462a-8ef8-a0fb5d01ff53"
+                      "accordion-af1cf49a-0fa2-44e4-a8bb-537a5884e2f5"
                     ],
                     "sep": ""
                   }
@@ -4201,7 +4228,7 @@
                     "display": "block",
                     "level": "h5",
                     "panels": [
-                      "accordion-3239cf97-9910-462a-8ef8-a0fb5d01ff53"
+                      "accordion-af1cf49a-0fa2-44e4-a8bb-537a5884e2f5"
                     ],
                     "sep": ""
                   }
@@ -4298,7 +4325,7 @@
             ]
           ],
           "panels": [
-            "accordion-3239cf97-9910-462a-8ef8-a0fb5d01ff53"
+            "accordion-af1cf49a-0fa2-44e4-a8bb-537a5884e2f5"
           ],
           "sep": " "
         },
@@ -4307,7 +4334,7 @@
           "text": "Years 11 and 12: The Higher School Certificate",
           "display": "block",
           "panels": [
-            "accordion-3239cf97-9910-462a-8ef8-a0fb5d01ff53"
+            "accordion-af1cf49a-0fa2-44e4-a8bb-537a5884e2f5"
           ],
           "sep": " "
         },
@@ -4316,7 +4343,7 @@
           "text": "In Years 11 and 12, the only mandatory subject is English. Students choose their remaining courses (generally 6 courses in total for Year 11 and 5 for Year 12) according to their interest and abilities.",
           "display": "block",
           "panels": [
-            "accordion-3239cf97-9910-462a-8ef8-a0fb5d01ff53"
+            "accordion-af1cf49a-0fa2-44e4-a8bb-537a5884e2f5"
           ],
           "sep": " "
         },
@@ -4325,7 +4352,7 @@
           "text": "Languages",
           "display": "block",
           "panels": [
-            "accordion-3239cf97-9910-462a-8ef8-a0fb5d01ff53"
+            "accordion-af1cf49a-0fa2-44e4-a8bb-537a5884e2f5"
           ],
           "sep": " "
         },
@@ -4334,7 +4361,7 @@
           "text": "In Year 7 students study one semester each of an Asian and European language from the languages offered by the school (Chinese, French, German and Japanese). This serves as an introduction to language study.",
           "display": "block",
           "panels": [
-            "accordion-3239cf97-9910-462a-8ef8-a0fb5d01ff53"
+            "accordion-af1cf49a-0fa2-44e4-a8bb-537a5884e2f5"
           ],
           "sep": " "
         },
@@ -4343,7 +4370,7 @@
           "text": "In Year 8, students choose one language in which to complete their mandatory 100 hours of language study. This may be one of the two languages they studied in Year 7, or a third language. Every effort is made to give students their first preference, although due to class size and timetabling restraints this is not often possible.",
           "display": "block",
           "panels": [
-            "accordion-3239cf97-9910-462a-8ef8-a0fb5d01ff53"
+            "accordion-af1cf49a-0fa2-44e4-a8bb-537a5884e2f5"
           ],
           "sep": " "
         },
@@ -4352,14 +4379,23 @@
           "text": "Languages can be continued as elective subjects from Year 9 through to Year 12 (HSC). In special circumstances, languages not offered at the school (i.e. Italian, Korean, etc.) can be studied through the NSW School of Languages or Saturday School of Community Languages.",
           "display": "block",
           "panels": [
-            "accordion-3239cf97-9910-462a-8ef8-a0fb5d01ff53"
+            "accordion-af1cf49a-0fa2-44e4-a8bb-537a5884e2f5"
           ],
           "sep": " "
         }
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 2143,
+        "w": 768,
+        "h": 12002
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s05",
@@ -4505,7 +4541,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 14145,
+        "w": 768,
+        "h": 456
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s06",
@@ -4640,7 +4685,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 14601,
+        "w": 768,
+        "h": 456
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s07",
@@ -4675,7 +4729,16 @@
       "orderedVerified": true,
       "tone": "dark",
       "bg": "rgb(99, 0, 25)",
-      "toneEl": "main#main > div.section.nsw-section"
+      "toneEl": "main#main > div.section.nsw-section",
+      "rect": {
+        "x": 536,
+        "y": 15057,
+        "w": 768,
+        "h": 343
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s08",
@@ -4775,7 +4838,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 15400,
+        "w": 768,
+        "h": 312
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s09",
@@ -4944,7 +5016,17 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 120,
+        "y": 247,
+        "w": 400,
+        "h": 15481
+      },
+      "placement": {
+        "region": "rail-start",
+        "hiddenMobile": true
+      }
     }
   ],
   "residue": [
@@ -4976,6 +5058,9 @@
         "y": 0,
         "w": 1440,
         "h": 172
+      },
+      "placement": {
+        "region": "band"
       }
     },
     {
@@ -4999,6 +5084,9 @@
         "y": 15728,
         "w": 1440,
         "h": 509
+      },
+      "placement": {
+        "region": "band"
       }
     }
   ]

@@ -157,7 +157,8 @@
           "layout": "stack",
           "width": "wide",
           "heading": "h4",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -248,7 +249,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -326,7 +328,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -406,7 +409,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -483,7 +487,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -529,7 +534,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -569,7 +575,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -618,7 +625,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -686,7 +694,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -727,7 +736,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -768,7 +778,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -815,7 +826,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -870,7 +882,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -928,7 +941,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -982,7 +996,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -1076,7 +1091,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -1101,7 +1117,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -1170,7 +1187,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -1218,7 +1236,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -1279,7 +1298,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -1345,7 +1365,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -1377,7 +1398,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -1418,7 +1440,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -1466,7 +1489,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -1505,7 +1529,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -1561,7 +1586,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -1623,7 +1649,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -1670,7 +1697,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -1725,7 +1753,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -1787,7 +1816,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -1849,7 +1879,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -1930,7 +1961,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -1977,7 +2009,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -2039,7 +2072,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -2079,7 +2113,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -2144,7 +2179,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -2183,7 +2219,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -2224,7 +2261,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -2265,7 +2303,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -2306,7 +2345,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -2347,7 +2387,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -2439,7 +2480,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -2519,7 +2561,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -2560,7 +2603,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -2600,7 +2644,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -2661,7 +2706,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -2722,7 +2768,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -2822,7 +2869,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -2862,7 +2910,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -2916,7 +2965,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     },
@@ -2948,7 +2998,8 @@
           "layout": "stack",
           "heading": "h4",
           "width": "wide",
-          "inset": "16px"
+          "inset": "16px",
+          "rail": "start"
         }
       }
     }

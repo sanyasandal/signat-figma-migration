@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:reskin/capture-content.mjs",
-    "capturedAt": "2026-11-05T06:22:51.770Z",
+    "capturedAt": "2026-11-05T09:44:35.017Z",
     "url": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support",
     "viewport": "1440x900",
     "scope": "nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!",
@@ -26,11 +26,11 @@
       ]
     },
     "settle": {
-      "firstLen": 4860,
-      "waitedMs": 4137,
+      "firstLen": 5633,
+      "waitedMs": 1511,
       "stable": true,
       "settledLen": 5633,
-      "lateChars": 773
+      "lateChars": 0
     },
     "nav": {
       "live": true,
@@ -173,7 +173,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 136,
+        "y": 196,
+        "w": 1168,
+        "h": 51
+      },
+      "placement": {
+        "region": "band"
+      }
     },
     {
       "slot": "s02",
@@ -233,7 +242,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 263,
+        "w": 768,
+        "h": 763
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s03",
@@ -431,7 +449,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 1026,
+        "w": 768,
+        "h": 1304
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s04",
@@ -579,7 +606,16 @@
       "orderedVerified": true,
       "tone": "dark",
       "bg": "rgb(99, 0, 25)",
-      "toneEl": "main#main > div.section.nsw-section"
+      "toneEl": "main#main > div.section.nsw-section",
+      "rect": {
+        "x": 536,
+        "y": 2330,
+        "w": 768,
+        "h": 328
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s05",
@@ -671,7 +707,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 2658,
+        "w": 768,
+        "h": 416
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s06",
@@ -846,7 +891,7 @@
           "text": "Homework Expectations",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-5416c2a4-0b55-4056-8f12-fe760315fc59",
+          "toggle": "accordion-365c0210-04e6-4b93-a733-a36128cd4230",
           "sep": ""
         },
         {
@@ -856,7 +901,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-5416c2a4-0b55-4056-8f12-fe760315fc59",
+          "toggle": "accordion-365c0210-04e6-4b93-a733-a36128cd4230",
           "sep": " "
         },
         {
@@ -864,7 +909,7 @@
           "text": "Homework is designed to support student learning and should be relevant, purposeful, and appropriately challenging. It may include revision, research, completion of classwork, preparation for assessments, development of study skills or independent projects.",
           "display": "block",
           "panels": [
-            "accordion-5416c2a4-0b55-4056-8f12-fe760315fc59"
+            "accordion-365c0210-04e6-4b93-a733-a36128cd4230"
           ],
           "sep": " "
         },
@@ -873,7 +918,7 @@
           "text": "The school’s general expectation is that students should be engaged in homework according to the schedule below, although there will times of the year when more or less may be required.",
           "display": "block",
           "panels": [
-            "accordion-5416c2a4-0b55-4056-8f12-fe760315fc59"
+            "accordion-365c0210-04e6-4b93-a733-a36128cd4230"
           ],
           "sep": " "
         },
@@ -907,7 +952,7 @@
             ]
           ],
           "panels": [
-            "accordion-5416c2a4-0b55-4056-8f12-fe760315fc59"
+            "accordion-365c0210-04e6-4b93-a733-a36128cd4230"
           ],
           "sep": " "
         },
@@ -916,7 +961,7 @@
           "text": "These times are indicative and may vary depending on individual subjects, assessment schedules, and student needs. Individual faculties will have their own focus on specific skills and activities and will allocate homework time accordingly to ensure adherence to these guidelines.",
           "display": "block",
           "panels": [
-            "accordion-5416c2a4-0b55-4056-8f12-fe760315fc59"
+            "accordion-365c0210-04e6-4b93-a733-a36128cd4230"
           ],
           "sep": " "
         },
@@ -925,7 +970,7 @@
           "text": "Students who find their homework schedule difficult to manage should discuss with their class teacher or Year Adviser.",
           "display": "block",
           "panels": [
-            "accordion-5416c2a4-0b55-4056-8f12-fe760315fc59"
+            "accordion-365c0210-04e6-4b93-a733-a36128cd4230"
           ],
           "sep": " "
         },
@@ -934,7 +979,7 @@
           "text": "Additional support after school",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-0e832454-1692-4a35-835d-f3ef22d71615",
+          "toggle": "accordion-495c88dd-3287-4841-b7bc-e9005451221a",
           "sep": " "
         },
         {
@@ -944,7 +989,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-0e832454-1692-4a35-835d-f3ef22d71615",
+          "toggle": "accordion-495c88dd-3287-4841-b7bc-e9005451221a",
           "sep": " "
         },
         {
@@ -952,7 +997,7 @@
           "text": "The library is open after school on Monday and Wednesday afternoons from 3.15pm to 4.10pm for students wishing to do homework or join in the Study Centre peer groups.",
           "display": "block",
           "panels": [
-            "accordion-0e832454-1692-4a35-835d-f3ef22d71615"
+            "accordion-495c88dd-3287-4841-b7bc-e9005451221a"
           ],
           "sep": " "
         },
@@ -961,7 +1006,7 @@
           "text": "Supervised by Ms. Emily Irvine on Mondays and Ms. Amelia Drinkwater on Wednesdays, the library is a quiet and productive space for all students from Years 7-12 who either want to focus independently on their schoolwork, or who would like some guidance with study and organisation.",
           "display": "block",
           "panels": [
-            "accordion-0e832454-1692-4a35-835d-f3ef22d71615"
+            "accordion-495c88dd-3287-4841-b7bc-e9005451221a"
           ],
           "sep": " "
         },
@@ -970,7 +1015,7 @@
           "text": "Students who attend can expect a welcoming and quiet environment where they can work diligently on classwork, homework and assignments with the support of school staff.",
           "display": "block",
           "panels": [
-            "accordion-0e832454-1692-4a35-835d-f3ef22d71615"
+            "accordion-495c88dd-3287-4841-b7bc-e9005451221a"
           ],
           "sep": " "
         },
@@ -979,7 +1024,7 @@
           "text": "If your child wishes to study in the library they can just turn up on either the Monday or Wednesday afternoons.",
           "display": "block",
           "panels": [
-            "accordion-0e832454-1692-4a35-835d-f3ef22d71615"
+            "accordion-495c88dd-3287-4841-b7bc-e9005451221a"
           ],
           "sep": " "
         },
@@ -988,7 +1033,7 @@
           "text": "The Study Centre",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-8d5b25bf-6fde-4b6e-867b-7382979ec1a9",
+          "toggle": "accordion-708f78a4-90f4-41de-b19b-769d34351deb",
           "sep": " "
         },
         {
@@ -998,7 +1043,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-8d5b25bf-6fde-4b6e-867b-7382979ec1a9",
+          "toggle": "accordion-708f78a4-90f4-41de-b19b-769d34351deb",
           "sep": " "
         },
         {
@@ -1007,7 +1052,7 @@
           "display": "block",
           "level": "h2",
           "panels": [
-            "accordion-8d5b25bf-6fde-4b6e-867b-7382979ec1a9"
+            "accordion-708f78a4-90f4-41de-b19b-769d34351deb"
           ],
           "sep": " "
         },
@@ -1022,7 +1067,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-8d5b25bf-6fde-4b6e-867b-7382979ec1a9"
+                "accordion-708f78a4-90f4-41de-b19b-769d34351deb"
               ],
               "sep": ""
             },
@@ -1032,7 +1077,7 @@
               "parentTag": "strong",
               "parentClass": "",
               "panels": [
-                "accordion-8d5b25bf-6fde-4b6e-867b-7382979ec1a9"
+                "accordion-708f78a4-90f4-41de-b19b-769d34351deb"
               ],
               "sep": " "
             },
@@ -1042,13 +1087,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-8d5b25bf-6fde-4b6e-867b-7382979ec1a9"
+                "accordion-708f78a4-90f4-41de-b19b-769d34351deb"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-8d5b25bf-6fde-4b6e-867b-7382979ec1a9"
+            "accordion-708f78a4-90f4-41de-b19b-769d34351deb"
           ],
           "sep": " "
         },
@@ -1057,7 +1102,7 @@
           "text": "What is the purpose of the Study Centre?",
           "display": "block",
           "panels": [
-            "accordion-8d5b25bf-6fde-4b6e-867b-7382979ec1a9"
+            "accordion-708f78a4-90f4-41de-b19b-769d34351deb"
           ],
           "sep": " "
         },
@@ -1066,7 +1111,7 @@
           "text": "We hope that by explicitly assisting students to assess their own work as well as their peers it will provide a forum for critical analysis of their own efforts and assist them to become more autonomous learners.",
           "display": "block",
           "panels": [
-            "accordion-8d5b25bf-6fde-4b6e-867b-7382979ec1a9"
+            "accordion-708f78a4-90f4-41de-b19b-769d34351deb"
           ],
           "sep": " "
         },
@@ -1075,7 +1120,7 @@
           "text": "Which students should attend the Study Centre?",
           "display": "block",
           "panels": [
-            "accordion-8d5b25bf-6fde-4b6e-867b-7382979ec1a9"
+            "accordion-708f78a4-90f4-41de-b19b-769d34351deb"
           ],
           "sep": " "
         },
@@ -1084,7 +1129,7 @@
           "text": "Whilst the Study Centres is available to all students we would suggest it would be highly valuable to students in Year 11 and 12.",
           "display": "block",
           "panels": [
-            "accordion-8d5b25bf-6fde-4b6e-867b-7382979ec1a9"
+            "accordion-708f78a4-90f4-41de-b19b-769d34351deb"
           ],
           "sep": " "
         },
@@ -1093,7 +1138,7 @@
           "text": "What Support will be available as a part of the Study Centre?",
           "display": "block",
           "panels": [
-            "accordion-8d5b25bf-6fde-4b6e-867b-7382979ec1a9"
+            "accordion-708f78a4-90f4-41de-b19b-769d34351deb"
           ],
           "sep": " "
         },
@@ -1102,7 +1147,7 @@
           "text": "The focus on for Monday sessions will be on developing writing skills and literacy with the support and supervision of an English teacher whilst students work in peer groups.",
           "display": "block",
           "panels": [
-            "accordion-8d5b25bf-6fde-4b6e-867b-7382979ec1a9"
+            "accordion-708f78a4-90f4-41de-b19b-769d34351deb"
           ],
           "sep": " "
         },
@@ -1111,7 +1156,7 @@
           "text": "The focus for the Wednesday sessions will be on numeracy where students will also work in peer groups with the support and supervision of a Mathematics teacher.",
           "display": "block",
           "panels": [
-            "accordion-8d5b25bf-6fde-4b6e-867b-7382979ec1a9"
+            "accordion-708f78a4-90f4-41de-b19b-769d34351deb"
           ],
           "sep": " "
         },
@@ -1120,7 +1165,7 @@
           "text": "How will the peer groups be organised?",
           "display": "block",
           "panels": [
-            "accordion-8d5b25bf-6fde-4b6e-867b-7382979ec1a9"
+            "accordion-708f78a4-90f4-41de-b19b-769d34351deb"
           ],
           "sep": " "
         },
@@ -1129,7 +1174,7 @@
           "text": "Students may form their own peer groups but supervising teachers will also assist to allocate students to peer groups during these sessions if required. The supervising teachers will also oversee and offer support as required through these sessions.",
           "display": "block",
           "panels": [
-            "accordion-8d5b25bf-6fde-4b6e-867b-7382979ec1a9"
+            "accordion-708f78a4-90f4-41de-b19b-769d34351deb"
           ],
           "sep": " "
         },
@@ -1138,7 +1183,7 @@
           "text": "What should students bring to the Study Centre?",
           "display": "block",
           "panels": [
-            "accordion-8d5b25bf-6fde-4b6e-867b-7382979ec1a9"
+            "accordion-708f78a4-90f4-41de-b19b-769d34351deb"
           ],
           "sep": " "
         },
@@ -1147,7 +1192,7 @@
           "text": "Students are encouraged to bring work relevant to these focus areas that will support where they need targeted assistance.",
           "display": "block",
           "panels": [
-            "accordion-8d5b25bf-6fde-4b6e-867b-7382979ec1a9"
+            "accordion-708f78a4-90f4-41de-b19b-769d34351deb"
           ],
           "sep": " "
         },
@@ -1156,7 +1201,7 @@
           "text": "How does my child sign up for the Study Centre?",
           "display": "block",
           "panels": [
-            "accordion-8d5b25bf-6fde-4b6e-867b-7382979ec1a9"
+            "accordion-708f78a4-90f4-41de-b19b-769d34351deb"
           ],
           "sep": " "
         },
@@ -1165,7 +1210,7 @@
           "text": "If your child wishes to join the Study Centre they can just come to the library on either the Monday or Wednesday afternoons and make themselves known to the supervising teacher.",
           "display": "block",
           "panels": [
-            "accordion-8d5b25bf-6fde-4b6e-867b-7382979ec1a9"
+            "accordion-708f78a4-90f4-41de-b19b-769d34351deb"
           ],
           "sep": " "
         },
@@ -1174,7 +1219,7 @@
           "text": "If you have specific concerns about your childs learning the first point of contact should be your childs teacher.",
           "display": "block",
           "panels": [
-            "accordion-8d5b25bf-6fde-4b6e-867b-7382979ec1a9"
+            "accordion-708f78a4-90f4-41de-b19b-769d34351deb"
           ],
           "sep": " "
         },
@@ -1183,7 +1228,7 @@
           "text": "If you have any questions regarding the Study Centre please contact Mr David Sherwin (Relieving Deputy Principal) or Ms Kate Dunn (Deputy Principal).",
           "display": "block",
           "panels": [
-            "accordion-8d5b25bf-6fde-4b6e-867b-7382979ec1a9"
+            "accordion-708f78a4-90f4-41de-b19b-769d34351deb"
           ],
           "sep": " "
         },
@@ -1192,7 +1237,7 @@
           "text": "Study Skills",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9",
+          "toggle": "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04",
           "sep": " "
         },
         {
@@ -1202,7 +1247,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9",
+          "toggle": "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04",
           "sep": " "
         },
         {
@@ -1210,7 +1255,7 @@
           "text": "At Fort Street HS we provide a range of face-to-face and online study skills programs to support students from Year 7 to 12. Our study skills program aims to ensure that Fortian’s develop the confidence and skills required to improve their organisational skills, reach their academic potential and facilitate independent learning.",
           "display": "block",
           "panels": [
-            "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+            "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
           ],
           "sep": " "
         },
@@ -1220,7 +1265,7 @@
           "display": "block",
           "level": "h2",
           "panels": [
-            "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+            "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
           ],
           "sep": " "
         },
@@ -1235,7 +1280,7 @@
               "parentTag": "strong",
               "parentClass": "",
               "panels": [
-                "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+                "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
               ],
               "sep": ""
             },
@@ -1245,13 +1290,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+                "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+            "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
           ],
           "sep": " "
         },
@@ -1260,7 +1305,7 @@
           "text": "What does this session include?",
           "display": "block",
           "panels": [
-            "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+            "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
           ],
           "sep": " "
         },
@@ -1269,7 +1314,7 @@
           "text": "Managing homework and assignments effectively by efficient time management",
           "display": "list-item",
           "panels": [
-            "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+            "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
           ],
           "sep": " "
         },
@@ -1278,7 +1323,7 @@
           "text": "Learning to be organised for school and at home",
           "display": "list-item",
           "panels": [
-            "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+            "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
           ],
           "sep": " "
         },
@@ -1287,7 +1332,7 @@
           "text": "Working and studying effectively in high school",
           "display": "list-item",
           "panels": [
-            "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+            "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
           ],
           "sep": " "
         },
@@ -1302,7 +1347,7 @@
               "parentTag": "strong",
               "parentClass": "",
               "panels": [
-                "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+                "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
               ],
               "sep": ""
             },
@@ -1312,13 +1357,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+                "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+            "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
           ],
           "sep": " "
         },
@@ -1327,7 +1372,7 @@
           "text": "The main areas that will be covered are:",
           "display": "block",
           "panels": [
-            "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+            "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
           ],
           "sep": " "
         },
@@ -1336,7 +1381,7 @@
           "text": "Making learning more efficient and effective",
           "display": "list-item",
           "panels": [
-            "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+            "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
           ],
           "sep": " "
         },
@@ -1345,7 +1390,7 @@
           "text": "Organisation and time management skills",
           "display": "list-item",
           "panels": [
-            "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+            "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
           ],
           "sep": " "
         },
@@ -1354,7 +1399,7 @@
           "text": "Improving study notes and study skills",
           "display": "list-item",
           "panels": [
-            "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+            "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
           ],
           "sep": " "
         },
@@ -1363,7 +1408,7 @@
           "text": "Dealing with the obstacles and problems",
           "display": "list-item",
           "panels": [
-            "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+            "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
           ],
           "sep": " "
         },
@@ -1373,7 +1418,7 @@
           "display": "block",
           "level": "h2",
           "panels": [
-            "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+            "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
           ],
           "sep": " "
         },
@@ -1388,7 +1433,7 @@
               "parentTag": "strong",
               "parentClass": "",
               "panels": [
-                "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+                "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
               ],
               "sep": ""
             },
@@ -1398,13 +1443,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+                "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+            "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
           ],
           "sep": " "
         },
@@ -1413,7 +1458,7 @@
           "text": "Utilising the syllabus to frame study",
           "display": "list-item",
           "panels": [
-            "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+            "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
           ],
           "sep": " "
         },
@@ -1422,7 +1467,7 @@
           "text": "Structuring and reviewing organised notes",
           "display": "list-item",
           "panels": [
-            "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+            "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
           ],
           "sep": " "
         },
@@ -1431,7 +1476,7 @@
           "text": "Conceptual learning to develop deep understanding",
           "display": "list-item",
           "panels": [
-            "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+            "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
           ],
           "sep": " "
         },
@@ -1440,7 +1485,7 @@
           "text": "Utilising practice exam papers",
           "display": "list-item",
           "panels": [
-            "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+            "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
           ],
           "sep": " "
         },
@@ -1449,7 +1494,7 @@
           "text": "Standing out through independent learning",
           "display": "list-item",
           "panels": [
-            "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+            "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
           ],
           "sep": " "
         },
@@ -1464,7 +1509,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+                "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
               ],
               "sep": ""
             },
@@ -1474,7 +1519,7 @@
               "parentTag": "strong",
               "parentClass": "",
               "panels": [
-                "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+                "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
               ],
               "sep": " "
             },
@@ -1484,13 +1529,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+                "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+            "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
           ],
           "sep": " "
         },
@@ -1499,7 +1544,7 @@
           "text": "ATAR and moderation",
           "display": "list-item",
           "panels": [
-            "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+            "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
           ],
           "sep": " "
         },
@@ -1508,7 +1553,7 @@
           "text": "Effective study tips",
           "display": "list-item",
           "panels": [
-            "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+            "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
           ],
           "sep": " "
         },
@@ -1517,7 +1562,7 @@
           "text": "NESA rules and procedures",
           "display": "list-item",
           "panels": [
-            "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+            "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
           ],
           "sep": " "
         },
@@ -1526,7 +1571,7 @@
           "text": "Disability provision applications and the Educational Access Scheme (EAS) applications",
           "display": "list-item",
           "panels": [
-            "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+            "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
           ],
           "sep": " "
         },
@@ -1536,7 +1581,7 @@
           "display": "block",
           "level": "h2",
           "panels": [
-            "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+            "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
           ],
           "sep": " "
         },
@@ -1545,7 +1590,7 @@
           "text": "Fortians and their parents have access to this online handbook which is covers a range of topics students can work through to develop their study skills.",
           "display": "block",
           "panels": [
-            "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+            "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
           ],
           "sep": " "
         },
@@ -1554,7 +1599,7 @@
           "text": "The handbook covers the units listed below:",
           "display": "block",
           "panels": [
-            "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+            "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
           ],
           "sep": " "
         },
@@ -1563,7 +1608,7 @@
           "text": "Working Better at Home",
           "display": "list-item",
           "panels": [
-            "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+            "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
           ],
           "sep": " "
         },
@@ -1572,7 +1617,7 @@
           "text": "Skills for Specific Stages",
           "display": "list-item",
           "panels": [
-            "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+            "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
           ],
           "sep": " "
         },
@@ -1581,7 +1626,7 @@
           "text": "Working Better at School",
           "display": "list-item",
           "panels": [
-            "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+            "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
           ],
           "sep": " "
         },
@@ -1590,7 +1635,7 @@
           "text": "Improving How You Study",
           "display": "list-item",
           "panels": [
-            "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+            "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
           ],
           "sep": " "
         },
@@ -1599,7 +1644,7 @@
           "text": "Improving your Skills",
           "display": "list-item",
           "panels": [
-            "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+            "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
           ],
           "sep": " "
         },
@@ -1608,7 +1653,7 @@
           "text": "Using Technology",
           "display": "list-item",
           "panels": [
-            "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+            "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
           ],
           "sep": " "
         },
@@ -1617,7 +1662,7 @@
           "text": "Tools for Managing Challenges",
           "display": "list-item",
           "panels": [
-            "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+            "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
           ],
           "sep": " "
         },
@@ -1632,7 +1677,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+                "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
               ],
               "sep": ""
             },
@@ -1650,7 +1695,7 @@
                   "parentTag": "a",
                   "parentClass": "",
                   "panels": [
-                    "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+                    "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
                   ],
                   "sep": ""
                 },
@@ -1661,26 +1706,35 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+                    "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+                "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-01af6643-b83d-4509-b5fb-7154fe3594a9"
+            "accordion-45eb053f-bbbf-4843-870c-9ea0065c6b04"
           ],
           "sep": " "
         }
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 3074,
+        "w": 768,
+        "h": 3954
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s07",
@@ -1715,7 +1769,16 @@
       "orderedVerified": true,
       "tone": "dark",
       "bg": "rgb(99, 0, 25)",
-      "toneEl": "main#main > div.section.nsw-section"
+      "toneEl": "main#main > div.section.nsw-section",
+      "rect": {
+        "x": 536,
+        "y": 7028,
+        "w": 768,
+        "h": 343
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s08",
@@ -1781,7 +1844,16 @@
       "orderedVerified": true,
       "tone": "tinted",
       "bg": "rgb(242, 242, 242)",
-      "toneEl": "main#main > div.section.nsw-section"
+      "toneEl": "main#main > div.section.nsw-section",
+      "rect": {
+        "x": 536,
+        "y": 7403,
+        "w": 768,
+        "h": 232
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s09",
@@ -1881,7 +1953,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 7635,
+        "w": 768,
+        "h": 308
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s10",
@@ -2050,7 +2131,17 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 120,
+        "y": 247,
+        "w": 400,
+        "h": 7776
+      },
+      "placement": {
+        "region": "rail-start",
+        "hiddenMobile": true
+      }
     }
   ],
   "residue": [
@@ -2082,6 +2173,9 @@
         "y": 0,
         "w": 1440,
         "h": 172
+      },
+      "placement": {
+        "region": "band"
       }
     },
     {
@@ -2105,6 +2199,9 @@
         "y": 8023,
         "w": 1440,
         "h": 509
+      },
+      "placement": {
+        "region": "band"
       }
     }
   ]

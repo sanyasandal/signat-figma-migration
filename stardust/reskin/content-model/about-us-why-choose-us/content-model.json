@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:reskin/capture-content.mjs",
-    "capturedAt": "2026-11-05T06:23:11.467Z",
+    "capturedAt": "2026-11-05T09:44:24.007Z",
     "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/why-choose-us",
     "viewport": "1440x900",
     "scope": "nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!",
@@ -27,7 +27,7 @@
     },
     "settle": {
       "firstLen": 5353,
-      "waitedMs": 1505,
+      "waitedMs": 1509,
       "stable": true,
       "settledLen": 5353,
       "lateChars": 0
@@ -173,7 +173,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 136,
+        "y": 196,
+        "w": 1168,
+        "h": 51
+      },
+      "placement": {
+        "region": "band"
+      }
     },
     {
       "slot": "s02",
@@ -256,7 +265,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 263,
+        "w": 768,
+        "h": 827
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s03",
@@ -346,7 +364,16 @@
       "orderedVerified": true,
       "tone": "dark",
       "bg": "rgb(99, 0, 25)",
-      "toneEl": "main#main > div.section.nsw-section"
+      "toneEl": "main#main > div.section.nsw-section",
+      "rect": {
+        "x": 536,
+        "y": 1090,
+        "w": 768,
+        "h": 560
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s04",
@@ -394,7 +421,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 1650,
+        "w": 768,
+        "h": 568
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s05",
@@ -449,7 +485,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 2218,
+        "w": 768,
+        "h": 958
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s06",
@@ -515,7 +560,16 @@
       "orderedVerified": true,
       "tone": "tinted",
       "bg": "rgb(242, 242, 242)",
-      "toneEl": "main#main > div.section.nsw-section"
+      "toneEl": "main#main > div.section.nsw-section",
+      "rect": {
+        "x": 536,
+        "y": 3176,
+        "w": 768,
+        "h": 208
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s07",
@@ -546,7 +600,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 3384,
+        "w": 768,
+        "h": 104
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s08",
@@ -595,10 +658,10 @@
       "iconLinks": [],
       "images": [
         {
-          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_167e8f824a83aca35c48598b13f24e870e92868fc.jpg?width=750&format=jpg&optimize=medium",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_167e8f824a83aca35c48598b13f24e870e92868fc.jpg?width=750&format=webply&optimize=medium",
           "alt": "students",
-          "w": 0,
-          "h": 0
+          "w": 750,
+          "h": 500
         },
         {
           "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_15636a0c76544a40b07cf08bb886e5acaa80d387d.jpg?width=750&format=webply&optimize=medium",
@@ -607,16 +670,16 @@
           "h": 300
         },
         {
-          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_1c9f7867e2df4ed6af3fe3bd3c1d6b437a72488f8.jpg?width=750&format=jpg&optimize=medium",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_1c9f7867e2df4ed6af3fe3bd3c1d6b437a72488f8.jpg?width=750&format=webply&optimize=medium",
           "alt": "students",
-          "w": 0,
-          "h": 0
+          "w": 750,
+          "h": 501
         },
         {
-          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_16823c7d5cce1ab051bb5f032f4b98684c9b60c13.jpg?width=750&format=jpg&optimize=medium",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_16823c7d5cce1ab051bb5f032f4b98684c9b60c13.jpg?width=750&format=webply&optimize=medium",
           "alt": "students",
-          "w": 0,
-          "h": 0
+          "w": 750,
+          "h": 501
         }
       ],
       "formControls": [],
@@ -629,7 +692,7 @@
           "children": [
             {
               "kind": "image",
-              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_167e8f824a83aca35c48598b13f24e870e92868fc.jpg?width=750&format=jpg&optimize=medium",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_167e8f824a83aca35c48598b13f24e870e92868fc.jpg?width=750&format=webply&optimize=medium",
               "alt": "students",
               "rw": 368,
               "sep": ""
@@ -705,7 +768,7 @@
           "children": [
             {
               "kind": "image",
-              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_1c9f7867e2df4ed6af3fe3bd3c1d6b437a72488f8.jpg?width=750&format=jpg&optimize=medium",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_1c9f7867e2df4ed6af3fe3bd3c1d6b437a72488f8.jpg?width=750&format=webply&optimize=medium",
               "alt": "students",
               "rw": 368,
               "sep": ""
@@ -743,7 +806,7 @@
           "children": [
             {
               "kind": "image",
-              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_16823c7d5cce1ab051bb5f032f4b98684c9b60c13.jpg?width=750&format=jpg&optimize=medium",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_16823c7d5cce1ab051bb5f032f4b98684c9b60c13.jpg?width=750&format=webply&optimize=medium",
               "alt": "students",
               "rw": 368,
               "sep": ""
@@ -777,7 +840,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 3488,
+        "w": 768,
+        "h": 1178
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s09",
@@ -819,7 +891,16 @@
       "orderedVerified": true,
       "tone": "tinted",
       "bg": "rgb(242, 242, 242)",
-      "toneEl": "main#main > div.section.nsw-section"
+      "toneEl": "main#main > div.section.nsw-section",
+      "rect": {
+        "x": 536,
+        "y": 4666,
+        "w": 768,
+        "h": 487
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s10",
@@ -885,7 +966,16 @@
       "orderedVerified": true,
       "tone": "dark",
       "bg": "rgb(99, 0, 25)",
-      "toneEl": "main#main > div.section.nsw-section"
+      "toneEl": "main#main > div.section.nsw-section",
+      "rect": {
+        "x": 536,
+        "y": 5185,
+        "w": 768,
+        "h": 208
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s11",
@@ -985,7 +1075,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 5393,
+        "w": 768,
+        "h": 308
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s12",
@@ -1250,7 +1349,17 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 120,
+        "y": 247,
+        "w": 400,
+        "h": 5534
+      },
+      "placement": {
+        "region": "rail-start",
+        "hiddenMobile": true
+      }
     }
   ],
   "residue": [
@@ -1282,6 +1391,9 @@
         "y": 0,
         "w": 1440,
         "h": 172
+      },
+      "placement": {
+        "region": "band"
       }
     },
     {
@@ -1305,6 +1417,9 @@
         "y": 5781,
         "w": 1440,
         "h": 509
+      },
+      "placement": {
+        "region": "band"
       }
     }
   ]

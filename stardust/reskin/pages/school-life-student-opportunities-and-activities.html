@@ -216,6 +216,23 @@
   .site-main .band .flow .heading.role-h4 { font-size: var(--type-h4-font-size); line-height: var(--type-h4-line-height); }
   .site-main .heading-display .heading { font-size: var(--type-display-font-size); line-height: var(--type-display-line-height); }
   .site-main .inset > .container { max-width: none; padding: 0 var(--band-inset); }
+  /* rails (mapping-json.md § rail): the source's side column sits beside the content, never after it */
+  @media (min-width: 901px) {
+    .site-main.has-rail { display: grid; grid-template-columns: var(--rail-width) minmax(0, 1fr); align-items: start; }
+    .site-main.has-rail.rail-end { grid-template-columns: minmax(0, 1fr) var(--rail-width); }
+    .site-main.has-rail > section { grid-column: 2; min-width: 0; }
+    .site-main.has-rail.rail-end > section { grid-column: 1; }
+    .site-main.has-rail > section.in-band { grid-column: 1 / -1; }
+    .site-main.has-rail > section.in-rail { grid-column: 1; }
+    .site-main.has-rail.rail-end > section.in-rail { grid-column: 2; }
+  }
+  @media (max-width: 900px) {
+    .site-main.has-rail { display: flex; flex-direction: column; }
+    .site-main.has-rail > section.in-band { order: -2; }
+    .site-main.has-rail > section.rail-mobile-top { order: -1; }
+    .site-main.has-rail > section.rail-mobile-bottom { order: 1; }
+    .site-main.has-rail > section.rail-mobile-hidden { display: none; }
+  }
   .site-main h2.heading { font-size: var(--type-h2-font-size); line-height: var(--type-h2-line-height); font-weight: var(--type-h2-font-weight); }
   .site-main h3.heading { font-size: var(--type-h3-font-size); line-height: var(--type-h3-line-height); font-weight: var(--type-h3-font-weight); }
   .site-main h4.heading { font-size: var(--type-h4-font-size); line-height: var(--type-h4-line-height); font-weight: var(--type-h4-font-weight); }
@@ -381,7 +398,7 @@
 </style>
 <!-- stardust:prototype
   writtenBy:        stardust:reskin/stream-render
-  writtenAt:        2026-11-05T06:32:34.208Z
+  writtenAt:        2026-11-05T09:50:08.483Z
   page:             school-life-student-opportunities-and-activities
   pageUrl:          https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities
   template:         learning-and-support-learning
@@ -428,14 +445,14 @@
       <div class="nav-actions"><a class="sr-only" href="https://fortstreet-h.schools.nsw.gov.au/#main-nav">Skip to navigation</a><a class="sr-only" href="https://fortstreet-h.schools.nsw.gov.au/#main">Skip to content</a><button class="icon-btn" type="button"><span class="glyph glyph-search" aria-hidden="true">search</span></button><button class="sr-only" type="button"><span class="sr-only">Show</span></button><button class="sr-only" type="button"><span class="sr-only">Search</span></button><button class="icon-btn nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><span class="glyph glyph-menu" aria-hidden="true"></span></button></div>
     </div></div>
 </header>
-<main class="site-main" data-template="learning-and-support-learning">
-  <section class="band layout-stack width-wide inset" style="--band-inset: 16px" data-slot="s01" data-module="M3">
+<main class="site-main has-rail rail-start" style="--rail-width: 400px" data-template="learning-and-support-learning">
+  <section class="band layout-stack width-wide inset in-band" style="--band-inset: 16px; grid-row: 1" data-slot="s01" data-module="M3">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <ul class="list list-inline"><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/">Home</a></li><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/school-life">School life</a></li><li><a class="link" aria-current="page">Student opportunities and activities</a></li></ul>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px" data-slot="s02" data-module="M5b">
+  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px; grid-row: 2" data-slot="s02" data-module="M5b">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h1 class="heading">Student opportunities and activities</h1>
@@ -449,7 +466,7 @@
         <figure class="media media-wide"><img src="assets/img/fortstreet-h.schools.nsw.gov.au/school-life/media_13d71bff09d116ef60a2c4d28f99edf2d7df4bc49-3d5a5588.png" data-source-src="https://fortstreet-h.schools.nsw.gov.au/school-life/media_13d71bff09d116ef60a2c4d28f99edf2d7df4bc49.png?width=2000&amp;format=webply&amp;optimize=medium" alt="Clubs and Comittees Poster (Trifolds) (A4 (Landscape)) - 2"></figure>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px" data-slot="s03">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 3" data-slot="s03">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Schedule of Weekly activities 2026</h2>
@@ -484,7 +501,7 @@
         <p class="lead">Fitness Club</p></td><td><p class="lead">Maker Society (Robotics)</p></td><td><p class="lead">Chess Club</p></td></tr></tbody></table></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px" data-slot="s04">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 4" data-slot="s04">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <div class="disclosure"><button class="disclosure-toggle" type="button" aria-expanded="false" aria-controls="disclosure-1">Overseas Tours <span class="glyph glyph-down" aria-hidden="true">keyboard_arrow_down</span></button><div class="disclosure-panel" id="disclosure-1" hidden="until-found"><p class="lead">The school has a long history of sister school exchanges with Fortians having the opportunity to host students from Japan, France and Germany, as well as the opportunity to visit these countries on exchange. The Instrumental Music Program also offers students the opportunity to travel and perform across a number of European countries.</p>
@@ -496,14 +513,14 @@
         <p class="lead">The Instrumental Music Program aims to tour overseas every 3 years, and is generally open to more senior IMP students. Previous tours have seen groups of approximately 100 students performing in Italy, Austria, Croatia, Hungary, The Czech Republic, Slovakia and Slovenia. We performed in some of the most iconic venues in Europe, including singing mass at St Peter’s Basilica in Rome, and a recital in St Mark’s Venice. As well as numerous informal recitals in venues ranging from caves to the Pantheon, we played to packed houses in public concerts in Vienna, Rome, Florence and Venice.</p></div></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-narrow tone-light heading-display bleed align-center" data-slot="s05" data-module="M5">
+  <section class="band layout-stack width-narrow tone-light heading-display bleed align-center" style="grid-row: 5" data-slot="s05" data-module="M5">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <p class="lead">&quot;The breadth of opportunities available runs from diverse academic subjects to high-quality extracurricular programs. My children have been able to explore their interests and develop into well-rounded individuals amongst like-minded peers.&quot;</p>
         <p class="lead">Elizabeth— a parent of Fort Street High School</p>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px" data-slot="s06" data-module="M9b">
+  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px; grid-row: 6" data-slot="s06" data-module="M9b">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Need to make a payment?</h2>
@@ -511,7 +528,7 @@
         <div class="actions"><a class="btn" href="https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal">Parent portal</a></div>
       </div></div></div>
     </section>
-  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px" data-slot="s07" data-module="M11b">
+  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 7" data-slot="s07" data-module="M11b">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <div class="cards" style="--cards-columns: 2"><div class="card"><p class="aux"><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources">Facilities and resources</a></p>
@@ -521,7 +538,7 @@
         <span class="glyph glyph-right" aria-hidden="true">east</span></div></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h4 inset" style="--band-inset: 16px" data-slot="s08" data-module="M3">
+  <section class="band layout-stack width-wide heading-h4 inset in-rail rail-mobile-hidden" style="--band-inset: 16px; grid-row: 2 / 8" data-slot="s08" data-module="M3">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Section navigation</h2>

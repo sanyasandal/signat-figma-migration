@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:reskin/capture-content.mjs",
-    "capturedAt": "2026-11-05T06:22:58.899Z",
+    "capturedAt": "2026-11-05T09:44:03.527Z",
     "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports",
     "viewport": "1440x900",
     "scope": "nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!",
@@ -27,7 +27,7 @@
     },
     "settle": {
       "firstLen": 4011,
-      "waitedMs": 1506,
+      "waitedMs": 1510,
       "stable": true,
       "settledLen": 4011,
       "lateChars": 0
@@ -173,7 +173,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 136,
+        "y": 196,
+        "w": 1168,
+        "h": 51
+      },
+      "placement": {
+        "region": "band"
+      }
     },
     {
       "slot": "s02",
@@ -233,7 +242,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 263,
+        "w": 768,
+        "h": 716
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s03",
@@ -357,7 +375,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 979,
+        "w": 768,
+        "h": 456
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s04",
@@ -505,7 +532,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 1435,
+        "w": 768,
+        "h": 536
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s05",
@@ -570,7 +606,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 1971,
+        "w": 768,
+        "h": 280
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s06",
@@ -699,7 +744,7 @@
           "text": "Electronic Communications Devices Policy and Procedures",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-a6445f94-90bf-4a6c-8259-6c129864f474",
+          "toggle": "accordion-9a63d39e-b98b-45fa-bee9-4831c9d5cdb2",
           "sep": " "
         },
         {
@@ -709,7 +754,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-a6445f94-90bf-4a6c-8259-6c129864f474",
+          "toggle": "accordion-9a63d39e-b98b-45fa-bee9-4831c9d5cdb2",
           "sep": " "
         },
         {
@@ -717,7 +762,7 @@
           "text": "Code of Practice",
           "display": "block",
           "panels": [
-            "accordion-a6445f94-90bf-4a6c-8259-6c129864f474"
+            "accordion-9a63d39e-b98b-45fa-bee9-4831c9d5cdb2"
           ],
           "sep": " "
         },
@@ -726,7 +771,7 @@
           "text": "Electronic communication devices such as mobile phones, laptops and other personal music or communication devices should not impact on teaching and learning:",
           "display": "block",
           "panels": [
-            "accordion-a6445f94-90bf-4a6c-8259-6c129864f474"
+            "accordion-9a63d39e-b98b-45fa-bee9-4831c9d5cdb2"
           ],
           "sep": " "
         },
@@ -735,7 +780,7 @@
           "text": "At school all phones must be turned off or on silent and placed away, out of sight, between 8:45am and 3:15pm.",
           "display": "list-item",
           "panels": [
-            "accordion-a6445f94-90bf-4a6c-8259-6c129864f474"
+            "accordion-9a63d39e-b98b-45fa-bee9-4831c9d5cdb2"
           ],
           "sep": " "
         },
@@ -744,7 +789,7 @@
           "text": "Students are not permitted to use their devices during lessons unless they are given specific permission to do so by the teacher. This includes mobile phones, laptops and headphones, earphones/Air Pods.",
           "display": "list-item",
           "panels": [
-            "accordion-a6445f94-90bf-4a6c-8259-6c129864f474"
+            "accordion-9a63d39e-b98b-45fa-bee9-4831c9d5cdb2"
           ],
           "sep": " "
         },
@@ -753,7 +798,7 @@
           "text": "Students are not permitted to use mobile phones during recess or lunch. Printed copies of timetables will be distributed to all students at the beginning of each semester.",
           "display": "list-item",
           "panels": [
-            "accordion-a6445f94-90bf-4a6c-8259-6c129864f474"
+            "accordion-9a63d39e-b98b-45fa-bee9-4831c9d5cdb2"
           ],
           "sep": " "
         },
@@ -762,7 +807,7 @@
           "text": "Students are not permitted to use laptops or tablets in the playground during recess and lunch. Students who wish to use their device for schoolwork during recess/lunch can do so in the library (7-12) or the Rowe Quad (11-12).",
           "display": "list-item",
           "panels": [
-            "accordion-a6445f94-90bf-4a6c-8259-6c129864f474"
+            "accordion-9a63d39e-b98b-45fa-bee9-4831c9d5cdb2"
           ],
           "sep": " "
         },
@@ -771,7 +816,7 @@
           "text": "Under no circumstances should electronic communication devices be used or in the student’s possession during examinations or formal assessment tasks. This is malpractice and will be dealt with accordingly.",
           "display": "list-item",
           "panels": [
-            "accordion-a6445f94-90bf-4a6c-8259-6c129864f474"
+            "accordion-9a63d39e-b98b-45fa-bee9-4831c9d5cdb2"
           ],
           "sep": " "
         },
@@ -780,7 +825,7 @@
           "text": "If these items are brought to school, safe keeping and security of each item is the responsibility of the owner.",
           "display": "list-item",
           "panels": [
-            "accordion-a6445f94-90bf-4a6c-8259-6c129864f474"
+            "accordion-9a63d39e-b98b-45fa-bee9-4831c9d5cdb2"
           ],
           "sep": " "
         },
@@ -789,7 +834,7 @@
           "text": "Parents/carers are able to communicate with their child at any time during the school day by contacting the front office.",
           "display": "list-item",
           "panels": [
-            "accordion-a6445f94-90bf-4a6c-8259-6c129864f474"
+            "accordion-9a63d39e-b98b-45fa-bee9-4831c9d5cdb2"
           ],
           "sep": " "
         },
@@ -798,7 +843,7 @@
           "text": "These expectations apply both at school and offsite during excursions etc.",
           "display": "list-item",
           "panels": [
-            "accordion-a6445f94-90bf-4a6c-8259-6c129864f474"
+            "accordion-9a63d39e-b98b-45fa-bee9-4831c9d5cdb2"
           ],
           "sep": " "
         },
@@ -807,7 +852,7 @@
           "text": "Consequences of Inappropriate Use of Electronic Devices including mobile phones, laptops and tablets:",
           "display": "block",
           "panels": [
-            "accordion-a6445f94-90bf-4a6c-8259-6c129864f474"
+            "accordion-9a63d39e-b98b-45fa-bee9-4831c9d5cdb2"
           ],
           "sep": " "
         },
@@ -816,7 +861,7 @@
           "text": "The following consequences may be put in place as a result of inappropriate use of communication devices:",
           "display": "block",
           "panels": [
-            "accordion-a6445f94-90bf-4a6c-8259-6c129864f474"
+            "accordion-9a63d39e-b98b-45fa-bee9-4831c9d5cdb2"
           ],
           "sep": " "
         },
@@ -825,7 +870,7 @@
           "text": "Mobile phones and/or other devices may be confiscated from individual students. In some cases, parents may be asked to collect them.",
           "display": "list-item",
           "panels": [
-            "accordion-a6445f94-90bf-4a6c-8259-6c129864f474"
+            "accordion-9a63d39e-b98b-45fa-bee9-4831c9d5cdb2"
           ],
           "sep": " "
         },
@@ -834,7 +879,7 @@
           "text": "Students who continue to breach the Code of Practice may be asked to hand in their phone to a Deputy Principal at the beginning of each day for a specified period.",
           "display": "list-item",
           "panels": [
-            "accordion-a6445f94-90bf-4a6c-8259-6c129864f474"
+            "accordion-9a63d39e-b98b-45fa-bee9-4831c9d5cdb2"
           ],
           "sep": " "
         },
@@ -843,7 +888,7 @@
           "text": "Bullying of Students – Prevention and Response Policy",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60",
+          "toggle": "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735",
           "sep": " "
         },
         {
@@ -853,7 +898,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60",
+          "toggle": "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735",
           "sep": " "
         },
         {
@@ -861,7 +906,7 @@
           "text": "Bullying of any kind is not acceptable in NSW schools.",
           "display": "block",
           "panels": [
-            "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+            "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
           ],
           "sep": " "
         },
@@ -876,7 +921,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+                "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
               ],
               "sep": ""
             },
@@ -894,7 +939,7 @@
                   "parentTag": "a",
                   "parentClass": "",
                   "panels": [
-                    "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+                    "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
                   ],
                   "sep": ""
                 },
@@ -905,13 +950,13 @@
                   "parentClass": "sr-only",
                   "srOnly": true,
                   "panels": [
-                    "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+                    "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+                "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
               ],
               "sep": " "
             },
@@ -921,13 +966,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+                "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+            "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
           ],
           "sep": " "
         },
@@ -942,7 +987,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+                "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
               ],
               "sep": ""
             },
@@ -954,7 +999,7 @@
               "absHref": "https://education.nsw.gov.au/policy-library/policies/bullying-of-students-prevention-and-response-policy",
               "classes": "",
               "panels": [
-                "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+                "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
               ],
               "sep": " "
             },
@@ -964,13 +1009,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+                "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+            "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
           ],
           "sep": " "
         },
@@ -979,7 +1024,7 @@
           "text": "For information on racial bullying and anti-racism education for NSW public schools refer to:",
           "display": "block",
           "panels": [
-            "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+            "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
           ],
           "sep": " "
         },
@@ -1001,19 +1046,19 @@
                   "absHref": "https://education.nsw.gov.au/policy-library/policies/anti-racism-policy?refid=285776",
                   "classes": "button primary",
                   "panels": [
-                    "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+                    "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
                   ],
                   "sep": ""
                 }
               ],
               "panels": [
-                "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+                "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+            "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
           ],
           "sep": " "
         },
@@ -1035,19 +1080,19 @@
                   "absHref": "https://education.nsw.gov.au/teaching-and-learning/curriculum/multicultural-education/anti-racism-education",
                   "classes": "button primary",
                   "panels": [
-                    "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+                    "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
                   ],
                   "sep": ""
                 }
               ],
               "panels": [
-                "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+                "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+            "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
           ],
           "sep": " "
         },
@@ -1075,7 +1120,7 @@
                       "parentTag": "a",
                       "parentClass": "",
                       "panels": [
-                        "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+                        "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
                       ],
                       "sep": ""
                     },
@@ -1086,13 +1131,13 @@
                       "parentClass": "sr-only",
                       "srOnly": true,
                       "panels": [
-                        "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+                        "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
                       ],
                       "sep": " "
                     }
                   ],
                   "panels": [
-                    "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+                    "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
                   ],
                   "sep": ""
                 },
@@ -1102,19 +1147,19 @@
                   "parentTag": "p",
                   "parentClass": "",
                   "panels": [
-                    "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+                    "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
                   ],
                   "sep": " "
                 }
               ],
               "panels": [
-                "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+                "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+            "accordion-e3038ec1-d918-4bfb-9f2f-dd104afc2735"
           ],
           "sep": " "
         },
@@ -1123,7 +1168,7 @@
           "text": "Anti-Racism Policy",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-20946a6f-04ef-496d-9e98-5fb6ac015263",
+          "toggle": "accordion-6b3a391b-f45c-4261-b937-d631069b77a8",
           "sep": " "
         },
         {
@@ -1133,7 +1178,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-20946a6f-04ef-496d-9e98-5fb6ac015263",
+          "toggle": "accordion-6b3a391b-f45c-4261-b937-d631069b77a8",
           "sep": " "
         },
         {
@@ -1147,7 +1192,7 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-20946a6f-04ef-496d-9e98-5fb6ac015263"
+                "accordion-6b3a391b-f45c-4261-b937-d631069b77a8"
               ],
               "sep": ""
             },
@@ -1159,7 +1204,7 @@
               "absHref": "https://education.nsw.gov.au/policy-library/policies/anti-racism-policy?refid=285776",
               "classes": "",
               "panels": [
-                "accordion-20946a6f-04ef-496d-9e98-5fb6ac015263"
+                "accordion-6b3a391b-f45c-4261-b937-d631069b77a8"
               ],
               "sep": " "
             },
@@ -1169,13 +1214,13 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-20946a6f-04ef-496d-9e98-5fb6ac015263"
+                "accordion-6b3a391b-f45c-4261-b937-d631069b77a8"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-20946a6f-04ef-496d-9e98-5fb6ac015263"
+            "accordion-6b3a391b-f45c-4261-b937-d631069b77a8"
           ],
           "sep": " "
         },
@@ -1190,7 +1235,7 @@
               "parentTag": "strong",
               "parentClass": "",
               "panels": [
-                "accordion-20946a6f-04ef-496d-9e98-5fb6ac015263"
+                "accordion-6b3a391b-f45c-4261-b937-d631069b77a8"
               ],
               "sep": ""
             },
@@ -1200,20 +1245,29 @@
               "parentTag": "p",
               "parentClass": "",
               "panels": [
-                "accordion-20946a6f-04ef-496d-9e98-5fb6ac015263"
+                "accordion-6b3a391b-f45c-4261-b937-d631069b77a8"
               ],
               "sep": " "
             }
           ],
           "panels": [
-            "accordion-20946a6f-04ef-496d-9e98-5fb6ac015263"
+            "accordion-6b3a391b-f45c-4261-b937-d631069b77a8"
           ],
           "sep": " "
         }
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 2251,
+        "w": 768,
+        "h": 1802
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s07",
@@ -1279,7 +1333,16 @@
       "orderedVerified": true,
       "tone": "dark",
       "bg": "rgb(99, 0, 25)",
-      "toneEl": "main#main > div.section.nsw-section"
+      "toneEl": "main#main > div.section.nsw-section",
+      "rect": {
+        "x": 536,
+        "y": 4053,
+        "w": 768,
+        "h": 232
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s08",
@@ -1379,7 +1442,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 4285,
+        "w": 768,
+        "h": 308
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s09",
@@ -1668,7 +1740,17 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 120,
+        "y": 247,
+        "w": 400,
+        "h": 4362
+      },
+      "placement": {
+        "region": "rail-start",
+        "hiddenMobile": true
+      }
     }
   ],
   "residue": [
@@ -1700,6 +1782,9 @@
         "y": 0,
         "w": 1440,
         "h": 172
+      },
+      "placement": {
+        "region": "band"
       }
     },
     {
@@ -1723,6 +1808,9 @@
         "y": 4609,
         "w": 1440,
         "h": 509
+      },
+      "placement": {
+        "region": "band"
       }
     }
   ]

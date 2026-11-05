@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:reskin/capture-content.mjs",
-    "capturedAt": "2026-11-05T07:07:34.327Z",
+    "capturedAt": "2026-11-05T09:45:45.808Z",
     "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/duke-of-edinburgh-award",
     "viewport": "1440x900",
     "scope": "nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!",
@@ -32,7 +32,7 @@
     },
     "settle": {
       "firstLen": 5973,
-      "waitedMs": 1517,
+      "waitedMs": 1508,
       "stable": true,
       "settledLen": 5973,
       "lateChars": 0
@@ -202,7 +202,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 136,
+        "y": 196,
+        "w": 1168,
+        "h": 51
+      },
+      "placement": {
+        "region": "band"
+      }
     },
     {
       "slot": "s02",
@@ -293,7 +302,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 263,
+        "w": 768,
+        "h": 1952
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s03",
@@ -396,7 +414,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 2215,
+        "w": 768,
+        "h": 768
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s04",
@@ -457,7 +484,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 2983,
+        "w": 768,
+        "h": 400
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s05",
@@ -724,7 +760,7 @@
           "text": "Skills",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-dda17fdc-fe27-4c3c-840f-b8d63773aa67",
+          "toggle": "accordion-91561d57-21f8-4aee-ac75-ae7a677e3994",
           "sep": " "
         },
         {
@@ -734,7 +770,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-dda17fdc-fe27-4c3c-840f-b8d63773aa67",
+          "toggle": "accordion-91561d57-21f8-4aee-ac75-ae7a677e3994",
           "sep": " "
         },
         {
@@ -813,7 +849,7 @@
             ]
           ],
           "panels": [
-            "accordion-dda17fdc-fe27-4c3c-840f-b8d63773aa67"
+            "accordion-91561d57-21f8-4aee-ac75-ae7a677e3994"
           ],
           "sep": " "
         },
@@ -822,7 +858,7 @@
           "text": "Service",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-fa2c9ee8-84a7-4f77-840d-761e9d8712b8",
+          "toggle": "accordion-f814f3bd-95b5-462f-950e-a82dcd735680",
           "sep": " "
         },
         {
@@ -832,7 +868,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-fa2c9ee8-84a7-4f77-840d-761e9d8712b8",
+          "toggle": "accordion-f814f3bd-95b5-462f-950e-a82dcd735680",
           "sep": " "
         },
         {
@@ -903,7 +939,7 @@
             ]
           ],
           "panels": [
-            "accordion-fa2c9ee8-84a7-4f77-840d-761e9d8712b8"
+            "accordion-f814f3bd-95b5-462f-950e-a82dcd735680"
           ],
           "sep": " "
         },
@@ -912,7 +948,7 @@
           "text": "Physical Recreation",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-922ff2ab-0481-41bb-8b4f-6f3fda8d46fe",
+          "toggle": "accordion-57b8b789-ab08-431e-bbf8-65c58d21f584",
           "sep": " "
         },
         {
@@ -922,7 +958,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-922ff2ab-0481-41bb-8b4f-6f3fda8d46fe",
+          "toggle": "accordion-57b8b789-ab08-431e-bbf8-65c58d21f584",
           "sep": " "
         },
         {
@@ -961,7 +997,7 @@
             ]
           ],
           "panels": [
-            "accordion-922ff2ab-0481-41bb-8b4f-6f3fda8d46fe"
+            "accordion-57b8b789-ab08-431e-bbf8-65c58d21f584"
           ],
           "sep": " "
         },
@@ -1007,7 +1043,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 3383,
+        "w": 768,
+        "h": 1705
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s06",
@@ -1136,7 +1181,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 5088,
+        "w": 768,
+        "h": 1119
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s07",
@@ -1222,7 +1276,16 @@
       "orderedVerified": true,
       "tone": "dark",
       "bg": "rgb(99, 0, 25)",
-      "toneEl": "main#main > div.section.nsw-section"
+      "toneEl": "main#main > div.section.nsw-section",
+      "rect": {
+        "x": 536,
+        "y": 6206,
+        "w": 768,
+        "h": 328
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s08",
@@ -1238,20 +1301,20 @@
         {
           "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_19ee455046769146fe3eee008ce2122b29e3eef7f.jpg?width=750&format=jpg&optimize=medium",
           "alt": "",
-          "w": 750,
-          "h": 563
+          "w": 0,
+          "h": 0
         },
         {
           "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_190a3d9e4e783061378d2701c2082d809cf9106b5.jpg?width=750&format=jpg&optimize=medium",
           "alt": "",
-          "w": 750,
-          "h": 1000
+          "w": 0,
+          "h": 0
         },
         {
           "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_17a31ded844296778597564b9c33721fd99ad5a85.jpg?width=750&format=jpg&optimize=medium",
           "alt": "",
-          "w": 750,
-          "h": 1000
+          "w": 0,
+          "h": 0
         }
       ],
       "formControls": [],
@@ -1302,7 +1365,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 6534,
+        "w": 768,
+        "h": 2352
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s09",
@@ -1474,7 +1546,16 @@
       "orderedVerified": true,
       "tone": "tinted",
       "bg": "rgb(242, 242, 242)",
-      "toneEl": "main#main > div.section.nsw-section"
+      "toneEl": "main#main > div.section.nsw-section",
+      "rect": {
+        "x": 536,
+        "y": 8886,
+        "w": 768,
+        "h": 383
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s10",
@@ -1570,7 +1651,16 @@
       "orderedVerified": true,
       "tone": "dark",
       "bg": "rgb(99, 0, 25)",
-      "toneEl": "main#main > div.section.nsw-section"
+      "toneEl": "main#main > div.section.nsw-section",
+      "rect": {
+        "x": 536,
+        "y": 9301,
+        "w": 768,
+        "h": 224
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s11",
@@ -1670,7 +1760,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 9525,
+        "w": 768,
+        "h": 284
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s12",
@@ -2247,7 +2346,17 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 120,
+        "y": 247,
+        "w": 400,
+        "h": 9642
+      },
+      "placement": {
+        "region": "rail-start",
+        "hiddenMobile": true
+      }
     }
   ],
   "residue": [
@@ -2279,6 +2388,9 @@
         "y": 0,
         "w": 1440,
         "h": 172
+      },
+      "placement": {
+        "region": "band"
       }
     },
     {
@@ -2302,6 +2414,9 @@
         "y": 9889,
         "w": 1440,
         "h": 509
+      },
+      "placement": {
+        "region": "band"
       }
     }
   ]

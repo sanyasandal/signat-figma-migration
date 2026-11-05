@@ -236,6 +236,10 @@
           "verdict": "FAIL",
           "report": "stardust/reskin/reports/learning-and-support-learning-donor-probe.md"
         },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/reports/learning-and-support-learning-source-coverage.json"
+        },
         "mobile-adapt-static": {
           "verdict": "PASS"
         },
@@ -296,10 +300,10 @@
           "at": "2026-11-05T05:05:29Z"
         }
       },
-      "status": "gated",
-      "prototypeSha": "0925840f97e7",
+      "status": "failing",
+      "prototypeSha": "43488c5403a7",
       "prototypePath": "stardust/reskin/pages/learning-and-support-learning.html",
-      "recordedAt": "2026-11-05T07:48:02Z",
+      "recordedAt": "2026-11-05T09:51:56Z",
       "residualHistory": [
         {
           "at": "2026-11-05T05:04:14Z",
@@ -2606,6 +2610,7 @@
       "gates": {
         "learning-and-support-learning": {
           "reskin-dom-equality": "PASS — stardust/reskin/reports/learning-and-support-learning-content-gate.md",
+          "reskin-source-coverage": "PASS — stardust/reskin/reports/learning-and-support-learning-source-coverage.json",
           "mobile-adapt-static": "PASS",
           "mobile-adapt-runtime": "PASS",
           "figma.join": "PASS",
@@ -2763,12 +2768,13 @@
       },
       "archetype": "learning-and-support-learning",
       "prototypePath": "stardust/reskin/pages/learning-and-support-learning.html",
-      "prototypeSha": "0925840f97e7",
-      "registeredAt": "2026-11-05T07:47:02Z",
+      "prototypeSha": "43488c5403a7",
+      "registeredAt": "2026-11-05T09:51:56Z",
       "tier": {
         "claimed": "reskin-archetype",
         "passed": [
           "reskin-dom-equality",
+          "reskin-source-coverage",
           "mobile-adapt-static",
           "mobile-adapt-runtime",
           "figma.join",

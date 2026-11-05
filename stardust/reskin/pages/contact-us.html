@@ -216,6 +216,23 @@
   .site-main .band .flow .heading.role-h4 { font-size: var(--type-h4-font-size); line-height: var(--type-h4-line-height); }
   .site-main .heading-display .heading { font-size: var(--type-display-font-size); line-height: var(--type-display-line-height); }
   .site-main .inset > .container { max-width: none; padding: 0 var(--band-inset); }
+  /* rails (mapping-json.md § rail): the source's side column sits beside the content, never after it */
+  @media (min-width: 901px) {
+    .site-main.has-rail { display: grid; grid-template-columns: var(--rail-width) minmax(0, 1fr); align-items: start; }
+    .site-main.has-rail.rail-end { grid-template-columns: minmax(0, 1fr) var(--rail-width); }
+    .site-main.has-rail > section { grid-column: 2; min-width: 0; }
+    .site-main.has-rail.rail-end > section { grid-column: 1; }
+    .site-main.has-rail > section.in-band { grid-column: 1 / -1; }
+    .site-main.has-rail > section.in-rail { grid-column: 1; }
+    .site-main.has-rail.rail-end > section.in-rail { grid-column: 2; }
+  }
+  @media (max-width: 900px) {
+    .site-main.has-rail { display: flex; flex-direction: column; }
+    .site-main.has-rail > section.in-band { order: -2; }
+    .site-main.has-rail > section.rail-mobile-top { order: -1; }
+    .site-main.has-rail > section.rail-mobile-bottom { order: 1; }
+    .site-main.has-rail > section.rail-mobile-hidden { display: none; }
+  }
   .site-main h2.heading { font-size: var(--type-h2-font-size); line-height: var(--type-h2-line-height); font-weight: var(--type-h2-font-weight); }
   .site-main h3.heading { font-size: var(--type-h3-font-size); line-height: var(--type-h3-line-height); font-weight: var(--type-h3-font-weight); }
   .site-main h4.heading { font-size: var(--type-h4-font-size); line-height: var(--type-h4-line-height); font-weight: var(--type-h4-font-weight); }
@@ -381,7 +398,7 @@
 </style>
 <!-- stardust:prototype
   writtenBy:        stardust:reskin/stream-render
-  writtenAt:        2026-11-05T06:29:04.117Z
+  writtenAt:        2026-11-05T09:49:02.809Z
   page:             contact-us
   pageUrl:          https://fortstreet-h.schools.nsw.gov.au/contact-us
   template:         learning-and-support-learning
@@ -428,14 +445,14 @@
       <div class="nav-actions"><a class="sr-only" href="https://fortstreet-h.schools.nsw.gov.au/#main-nav">Skip to navigation</a><a class="sr-only" href="https://fortstreet-h.schools.nsw.gov.au/#main">Skip to content</a><button class="icon-btn" type="button"><span class="glyph glyph-search" aria-hidden="true">search</span></button><button class="sr-only" type="button"><span class="sr-only">Show</span></button><button class="sr-only" type="button"><span class="sr-only">Search</span></button><button class="icon-btn nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><span class="glyph glyph-menu" aria-hidden="true"></span></button></div>
     </div></div>
 </header>
-<main class="site-main" data-template="learning-and-support-learning">
-  <section class="band layout-stack width-wide inset" style="--band-inset: 16px" data-slot="s01" data-module="M3">
+<main class="site-main has-rail rail-start" style="--rail-width: 400px" data-template="learning-and-support-learning">
+  <section class="band layout-stack width-wide inset in-band" style="--band-inset: 16px; grid-row: 1" data-slot="s01" data-module="M3">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <ul class="list list-inline"><li><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/">Home</a></li><li><a class="link" aria-current="page">Contact us</a></li></ul>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px" data-slot="s02" data-module="M5b">
+  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px; grid-row: 2" data-slot="s02" data-module="M5b">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h1 class="heading">Contact us</h1>
@@ -444,7 +461,7 @@
         <ul class="list"><li>ask about enrolment or school costs</li><li>arrange a visit before you enrol</li><li>give feedback or raise a concern</li><li>get involved as a parent or carer</li><li>find out more about how we support students and families.</li></ul>
       </div></div></div>
     </section>
-  <section class="band layout-split width-wide heading-h3 inset" style="--band-inset: 16px" data-slot="s03" data-module="M6b">
+  <section class="band layout-split width-wide heading-h3 inset" style="--band-inset: 16px; grid-row: 3" data-slot="s03" data-module="M6b">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Call, email or visit us</h2>
@@ -454,7 +471,7 @@
         <p class="lead">620 PARRAMATTA ROAD, NSW 2049 PETERSHAM (Access via Palace Street)</p>
       </div><img class="split-img" src="assets/img/fortstreet-h.schools.nsw.gov.au/media_16a3027ca49fb0a72b31b276bd481c1414e996aa6-3d5a5588.jpg" data-source-src="https://fortstreet-h.schools.nsw.gov.au/media_16a3027ca49fb0a72b31b276bd481c1414e996aa6.jpg?width=2000&amp;format=webply&amp;optimize=medium" alt=""></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px" data-slot="s04" data-module="M5b">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 4" data-slot="s04" data-module="M5b">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Location map</h2>
@@ -462,14 +479,14 @@
         <p class="aux"><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/contact-us#after-map">Skip Google Map</a></p>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px" data-slot="s05" data-module="M5b">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 5" data-slot="s05" data-module="M5b">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Check if you're in our local intake area</h2>
         <p class="aux">Many NSW public schools have specific local intake areas. If you live inside a school’s local intake area, your child is guaranteed a place at that school. Use <a class="link" href="https://schoolfinder.education.nsw.gov.au/">School Finder</a> to find out if you live in our local intake area.</p>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px" data-slot="s06" data-module="M5b">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 6" data-slot="s06" data-module="M5b">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Need an interpreter?</h2>
@@ -477,7 +494,7 @@
         <p class="lead">This free and on-demand service facilitates clear communication between parents and schools. Parents and carers can listen to instructions on using the service in their language.</p>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px" data-slot="s07" data-module="M9b">
+  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px; grid-row: 7" data-slot="s07" data-module="M9b">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Have a concern or feedback?</h2>
@@ -485,7 +502,7 @@
         <p class="aux"><a class="link" href="mailto:fortstreet-h.school@det.nsw.edu.au">fortstreet-h.school@det.nsw.edu.au <span class="sr-only">(opens in new window)</span></a></p>
       </div></div></div>
     </section>
-  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px" data-slot="s08" data-module="M11b">
+  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 8" data-slot="s08" data-module="M11b">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <div class="cards" style="--cards-columns: 2"><div class="card"><p class="aux"><a class="link" href="https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school">Travel to school</a></p>
@@ -495,7 +512,7 @@
         <span class="glyph glyph-right" aria-hidden="true">east</span></div></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h4 inset" style="--band-inset: 16px" data-slot="s09" data-module="M3">
+  <section class="band layout-stack width-wide heading-h4 inset in-rail rail-mobile-hidden" style="--band-inset: 16px; grid-row: 2 / 9" data-slot="s09" data-module="M3">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Section navigation</h2>

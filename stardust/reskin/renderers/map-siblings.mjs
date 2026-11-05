@@ -15,7 +15,8 @@ const rules = (s) => {
   const tinted = /off-white|grey|nsw-section--light/.test(rc) || s.tone === 'tinted';
   const dark = /brand-dark/.test(rc) || s.tone === 'dark';
   if (s.rootTag === 'nav' && /breadcrumb/.test(rc)) return [{ module: 'M3', layout: 'stack', ...base }, 'M3 (Category tile rail)', 'breadcrumb: the tab row of short links with dividers'];
-  if (s.rootTag === 'aside') return [{ module: 'M3', layout: 'stack', heading: 'h4', ...base }, 'M3 (Category tile rail)', 'section nav: tab list of sibling links, stacked'];
+  // the sidebar is a start rail beside the content on the source (placement rail-start), never stacked after it
+  if (s.rootTag === 'aside') return [{ module: 'M3', layout: 'stack', heading: 'h4', ...base, ...(s.placement?.region?.startsWith('rail') ? { rail: s.placement.region === 'rail-end' ? 'end' : 'start' } : {}) }, 'M3 (Category tile rail)', 'section nav: tab list of sibling links, a start rail beside the content (hidden on mobile, as the source)'];
   if (/accordions-container/.test(rc)) return [{ layout: 'stack', heading: 'h2', ...base }, '—', 'disclosures: composed from type.tab / palette.rule / type.body (the archetype accordion new-module)', 'new-module'];
   if (/card-container|content-container/.test(rc)) {
     if (tinted) return [{ module: 'M11', layout: 'cards', heading: 'h2', tone: 'light', bleed: true, ...base }, 'M11 (Value-props band)', 'repeating link/event tiles on the greige band'];

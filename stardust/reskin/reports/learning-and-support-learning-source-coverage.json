@@ -16,6 +16,14 @@
       "target": "dark",
       "verdict": "carried",
       "probe": "\"The quality of the teaching staff is exceptional. They are"
+    },
+    {
+      "check": "S4",
+      "key": "s09",
+      "source": "rail-start",
+      "target": "rail-start",
+      "verdict": "carried",
+      "sample": "Section navigation | Learning and support | Additional learning support"
     }
   ]
 }

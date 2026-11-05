@@ -211,6 +211,28 @@ function decorateBreadcrumb(main) {
 }
 
 /**
+ * A section-nav section is the source's sidebar: a start rail beside the content, never stacked
+ * after it (it follows the content in the document, as on the source). Over 900px main is a grid —
+ * band sections (the breadcrumb) across both columns, the rail in column 1 over the content rows,
+ * every other section on its own row in document order; at 900px and under the rail is hidden.
+ * @param {HTMLElement} main The main container element
+ */
+function decorateRail(main) {
+  const sections = [...main.querySelectorAll(':scope > .section')];
+  const rail = sections.find((s) => s.classList.contains('section-nav'));
+  if (!rail) return;
+  main.classList.add('has-rail');
+  let row = 0;
+  let first = 0;
+  sections.filter((s) => s !== rail).forEach((s) => {
+    row += 1;
+    s.style.gridRow = String(row);
+    if (!first && !s.classList.contains('breadcrumb')) first = row;
+  });
+  rail.style.gridRow = `${first || 1} / ${row + 1}`;
+}
+
+/**
  * Decorates the main element.
  * @param {Element} main The main element
  */
@@ -235,6 +257,7 @@ async function loadEager(doc) {
     decorateMain(main);
     decorateExternalLinks(main);
     decorateBreadcrumb(main);
+    decorateRail(main);
     decorateProseImages(main);
     document.body.classList.add('appear');
     await loadSection(main.querySelector('.section'), waitForFirstImage);

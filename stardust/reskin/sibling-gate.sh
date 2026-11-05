@@ -5,4 +5,6 @@ scope='nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!'
 a=$(node $S/dom-equality.mjs --source "$url" --source-scope "$scope" --normalize $R/normalize/$slug.mjs --rendered $page --rendered-scope main --deltas $R/deltas/$slug.json --report $G/dom-equality.md 2>&1 | grep -oE "\] (PASS|FAIL|ADVISORY)" | tail -1)
 b=$(node $S/slot-coverage.mjs --model $R/content-model/$slug/content-model.json --rendered $page --deltas $R/deltas/$slug.json --report $G/slot-coverage.md 2>&1 | grep -oE "\] (PASS|FAIL)[^—]*— [0-9/]+" | tail -1)
 c=$(node $S/donor-probe.mjs --tokens $R/donor-tokens.json --rendered $page --model $R/content-model/$slug/content-model.json --report $G/donor-probe.md 2>&1 | grep -oE "^\[donor-probe\] (PASS|FAIL)[^—]*— [0-9/]+" | tail -1)
-echo "$slug | dom$a | slot$b | probe ${c#\[donor-probe\]}"
+d=$R/coverage/$slug.json; [ -f $d ] && decl="--declared $d" || decl=""
+e=$(node $S/source-coverage.mjs --model $R/content-model/$slug/content-model.json --target $page $decl --out $G/source-coverage.json 2>&1 | grep -oE "^\[source-coverage\] (PASS|FAIL|ADVISORY).*" | tail -1 | cut -c1-90)
+echo "$slug | dom$a | slot$b | probe ${c#\[donor-probe\]} | cov ${e#\[source-coverage\]}"

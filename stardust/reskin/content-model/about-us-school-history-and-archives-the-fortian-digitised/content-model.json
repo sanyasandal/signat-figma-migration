@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:reskin/capture-content.mjs",
-    "capturedAt": "2026-11-05T06:23:06.687Z",
+    "capturedAt": "2026-11-05T09:44:14.310Z",
     "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives/the-fortian-digitised",
     "viewport": "1440x900",
     "scope": "nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!",
@@ -197,7 +197,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 136,
+        "y": 196,
+        "w": 1168,
+        "h": 51
+      },
+      "placement": {
+        "region": "band"
+      }
     },
     {
       "slot": "s02",
@@ -280,7 +289,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 263,
+        "w": 768,
+        "h": 867
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s03",
@@ -1925,7 +1943,7 @@
           "text": "2010s",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-a2c0fef8-34ae-4659-a6aa-35ff23c34699",
+          "toggle": "accordion-b9be9d8b-9015-46d2-a9d3-e795dffd59a8",
           "sep": ""
         },
         {
@@ -1935,7 +1953,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-a2c0fef8-34ae-4659-a6aa-35ff23c34699",
+          "toggle": "accordion-b9be9d8b-9015-46d2-a9d3-e795dffd59a8",
           "sep": " "
         },
         {
@@ -1951,13 +1969,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/2010%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-a2c0fef8-34ae-4659-a6aa-35ff23c34699"
+                "accordion-b9be9d8b-9015-46d2-a9d3-e795dffd59a8"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-a2c0fef8-34ae-4659-a6aa-35ff23c34699"
+            "accordion-b9be9d8b-9015-46d2-a9d3-e795dffd59a8"
           ],
           "sep": " "
         },
@@ -1974,13 +1992,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/2011%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-a2c0fef8-34ae-4659-a6aa-35ff23c34699"
+                "accordion-b9be9d8b-9015-46d2-a9d3-e795dffd59a8"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-a2c0fef8-34ae-4659-a6aa-35ff23c34699"
+            "accordion-b9be9d8b-9015-46d2-a9d3-e795dffd59a8"
           ],
           "sep": " "
         },
@@ -1997,13 +2015,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/2012%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-a2c0fef8-34ae-4659-a6aa-35ff23c34699"
+                "accordion-b9be9d8b-9015-46d2-a9d3-e795dffd59a8"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-a2c0fef8-34ae-4659-a6aa-35ff23c34699"
+            "accordion-b9be9d8b-9015-46d2-a9d3-e795dffd59a8"
           ],
           "sep": " "
         },
@@ -2020,13 +2038,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/2013%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-a2c0fef8-34ae-4659-a6aa-35ff23c34699"
+                "accordion-b9be9d8b-9015-46d2-a9d3-e795dffd59a8"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-a2c0fef8-34ae-4659-a6aa-35ff23c34699"
+            "accordion-b9be9d8b-9015-46d2-a9d3-e795dffd59a8"
           ],
           "sep": " "
         },
@@ -2043,13 +2061,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/2014%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-a2c0fef8-34ae-4659-a6aa-35ff23c34699"
+                "accordion-b9be9d8b-9015-46d2-a9d3-e795dffd59a8"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-a2c0fef8-34ae-4659-a6aa-35ff23c34699"
+            "accordion-b9be9d8b-9015-46d2-a9d3-e795dffd59a8"
           ],
           "sep": " "
         },
@@ -2066,13 +2084,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/2015%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-a2c0fef8-34ae-4659-a6aa-35ff23c34699"
+                "accordion-b9be9d8b-9015-46d2-a9d3-e795dffd59a8"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-a2c0fef8-34ae-4659-a6aa-35ff23c34699"
+            "accordion-b9be9d8b-9015-46d2-a9d3-e795dffd59a8"
           ],
           "sep": " "
         },
@@ -2089,13 +2107,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/2016%20-%20FSHS%20-%20The%20Fortian.pdf.pdf",
               "classes": "button",
               "panels": [
-                "accordion-a2c0fef8-34ae-4659-a6aa-35ff23c34699"
+                "accordion-b9be9d8b-9015-46d2-a9d3-e795dffd59a8"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-a2c0fef8-34ae-4659-a6aa-35ff23c34699"
+            "accordion-b9be9d8b-9015-46d2-a9d3-e795dffd59a8"
           ],
           "sep": " "
         },
@@ -2112,13 +2130,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/2017%20-%20FSHS%20-%20The%20Fortian.pdf.pdf",
               "classes": "button",
               "panels": [
-                "accordion-a2c0fef8-34ae-4659-a6aa-35ff23c34699"
+                "accordion-b9be9d8b-9015-46d2-a9d3-e795dffd59a8"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-a2c0fef8-34ae-4659-a6aa-35ff23c34699"
+            "accordion-b9be9d8b-9015-46d2-a9d3-e795dffd59a8"
           ],
           "sep": " "
         },
@@ -2135,13 +2153,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/2018%20-%20FSHS%20-%20The%20Fortian.pdf.pdf",
               "classes": "button",
               "panels": [
-                "accordion-a2c0fef8-34ae-4659-a6aa-35ff23c34699"
+                "accordion-b9be9d8b-9015-46d2-a9d3-e795dffd59a8"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-a2c0fef8-34ae-4659-a6aa-35ff23c34699"
+            "accordion-b9be9d8b-9015-46d2-a9d3-e795dffd59a8"
           ],
           "sep": " "
         },
@@ -2158,13 +2176,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/2019%20-%20FSHS%20-%20The%20Fortian.pdf.pdf",
               "classes": "button",
               "panels": [
-                "accordion-a2c0fef8-34ae-4659-a6aa-35ff23c34699"
+                "accordion-b9be9d8b-9015-46d2-a9d3-e795dffd59a8"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-a2c0fef8-34ae-4659-a6aa-35ff23c34699"
+            "accordion-b9be9d8b-9015-46d2-a9d3-e795dffd59a8"
           ],
           "sep": " "
         },
@@ -2173,7 +2191,7 @@
           "text": "2000s",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-b8363c44-b145-4889-92ca-f0018d66f99b",
+          "toggle": "accordion-db912d2e-55a2-4d41-8f87-3977a77ae79a",
           "sep": " "
         },
         {
@@ -2183,7 +2201,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-b8363c44-b145-4889-92ca-f0018d66f99b",
+          "toggle": "accordion-db912d2e-55a2-4d41-8f87-3977a77ae79a",
           "sep": " "
         },
         {
@@ -2199,13 +2217,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/2000%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-b8363c44-b145-4889-92ca-f0018d66f99b"
+                "accordion-db912d2e-55a2-4d41-8f87-3977a77ae79a"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-b8363c44-b145-4889-92ca-f0018d66f99b"
+            "accordion-db912d2e-55a2-4d41-8f87-3977a77ae79a"
           ],
           "sep": " "
         },
@@ -2222,13 +2240,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/2001%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-b8363c44-b145-4889-92ca-f0018d66f99b"
+                "accordion-db912d2e-55a2-4d41-8f87-3977a77ae79a"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-b8363c44-b145-4889-92ca-f0018d66f99b"
+            "accordion-db912d2e-55a2-4d41-8f87-3977a77ae79a"
           ],
           "sep": " "
         },
@@ -2245,13 +2263,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/2002%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-b8363c44-b145-4889-92ca-f0018d66f99b"
+                "accordion-db912d2e-55a2-4d41-8f87-3977a77ae79a"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-b8363c44-b145-4889-92ca-f0018d66f99b"
+            "accordion-db912d2e-55a2-4d41-8f87-3977a77ae79a"
           ],
           "sep": " "
         },
@@ -2268,13 +2286,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/2003%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-b8363c44-b145-4889-92ca-f0018d66f99b"
+                "accordion-db912d2e-55a2-4d41-8f87-3977a77ae79a"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-b8363c44-b145-4889-92ca-f0018d66f99b"
+            "accordion-db912d2e-55a2-4d41-8f87-3977a77ae79a"
           ],
           "sep": " "
         },
@@ -2291,13 +2309,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/2004%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-b8363c44-b145-4889-92ca-f0018d66f99b"
+                "accordion-db912d2e-55a2-4d41-8f87-3977a77ae79a"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-b8363c44-b145-4889-92ca-f0018d66f99b"
+            "accordion-db912d2e-55a2-4d41-8f87-3977a77ae79a"
           ],
           "sep": " "
         },
@@ -2314,13 +2332,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/2005%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-b8363c44-b145-4889-92ca-f0018d66f99b"
+                "accordion-db912d2e-55a2-4d41-8f87-3977a77ae79a"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-b8363c44-b145-4889-92ca-f0018d66f99b"
+            "accordion-db912d2e-55a2-4d41-8f87-3977a77ae79a"
           ],
           "sep": " "
         },
@@ -2337,13 +2355,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/2006%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-b8363c44-b145-4889-92ca-f0018d66f99b"
+                "accordion-db912d2e-55a2-4d41-8f87-3977a77ae79a"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-b8363c44-b145-4889-92ca-f0018d66f99b"
+            "accordion-db912d2e-55a2-4d41-8f87-3977a77ae79a"
           ],
           "sep": " "
         },
@@ -2360,13 +2378,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/2007%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-b8363c44-b145-4889-92ca-f0018d66f99b"
+                "accordion-db912d2e-55a2-4d41-8f87-3977a77ae79a"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-b8363c44-b145-4889-92ca-f0018d66f99b"
+            "accordion-db912d2e-55a2-4d41-8f87-3977a77ae79a"
           ],
           "sep": " "
         },
@@ -2383,13 +2401,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/2008%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-b8363c44-b145-4889-92ca-f0018d66f99b"
+                "accordion-db912d2e-55a2-4d41-8f87-3977a77ae79a"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-b8363c44-b145-4889-92ca-f0018d66f99b"
+            "accordion-db912d2e-55a2-4d41-8f87-3977a77ae79a"
           ],
           "sep": " "
         },
@@ -2406,13 +2424,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/2009%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-b8363c44-b145-4889-92ca-f0018d66f99b"
+                "accordion-db912d2e-55a2-4d41-8f87-3977a77ae79a"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-b8363c44-b145-4889-92ca-f0018d66f99b"
+            "accordion-db912d2e-55a2-4d41-8f87-3977a77ae79a"
           ],
           "sep": " "
         },
@@ -2421,7 +2439,7 @@
           "text": "1990s",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-a4d00fc6-8eb5-4c5d-9b55-1b9a8a4a865f",
+          "toggle": "accordion-fb43a8fd-001e-46cb-a50e-dc46f8aef6f5",
           "sep": " "
         },
         {
@@ -2431,7 +2449,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-a4d00fc6-8eb5-4c5d-9b55-1b9a8a4a865f",
+          "toggle": "accordion-fb43a8fd-001e-46cb-a50e-dc46f8aef6f5",
           "sep": " "
         },
         {
@@ -2447,13 +2465,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1990%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-a4d00fc6-8eb5-4c5d-9b55-1b9a8a4a865f"
+                "accordion-fb43a8fd-001e-46cb-a50e-dc46f8aef6f5"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-a4d00fc6-8eb5-4c5d-9b55-1b9a8a4a865f"
+            "accordion-fb43a8fd-001e-46cb-a50e-dc46f8aef6f5"
           ],
           "sep": " "
         },
@@ -2470,13 +2488,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1991%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-a4d00fc6-8eb5-4c5d-9b55-1b9a8a4a865f"
+                "accordion-fb43a8fd-001e-46cb-a50e-dc46f8aef6f5"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-a4d00fc6-8eb5-4c5d-9b55-1b9a8a4a865f"
+            "accordion-fb43a8fd-001e-46cb-a50e-dc46f8aef6f5"
           ],
           "sep": " "
         },
@@ -2493,13 +2511,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1992%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-a4d00fc6-8eb5-4c5d-9b55-1b9a8a4a865f"
+                "accordion-fb43a8fd-001e-46cb-a50e-dc46f8aef6f5"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-a4d00fc6-8eb5-4c5d-9b55-1b9a8a4a865f"
+            "accordion-fb43a8fd-001e-46cb-a50e-dc46f8aef6f5"
           ],
           "sep": " "
         },
@@ -2516,13 +2534,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1993%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-a4d00fc6-8eb5-4c5d-9b55-1b9a8a4a865f"
+                "accordion-fb43a8fd-001e-46cb-a50e-dc46f8aef6f5"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-a4d00fc6-8eb5-4c5d-9b55-1b9a8a4a865f"
+            "accordion-fb43a8fd-001e-46cb-a50e-dc46f8aef6f5"
           ],
           "sep": " "
         },
@@ -2539,13 +2557,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1994%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-a4d00fc6-8eb5-4c5d-9b55-1b9a8a4a865f"
+                "accordion-fb43a8fd-001e-46cb-a50e-dc46f8aef6f5"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-a4d00fc6-8eb5-4c5d-9b55-1b9a8a4a865f"
+            "accordion-fb43a8fd-001e-46cb-a50e-dc46f8aef6f5"
           ],
           "sep": " "
         },
@@ -2562,13 +2580,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1995%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-a4d00fc6-8eb5-4c5d-9b55-1b9a8a4a865f"
+                "accordion-fb43a8fd-001e-46cb-a50e-dc46f8aef6f5"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-a4d00fc6-8eb5-4c5d-9b55-1b9a8a4a865f"
+            "accordion-fb43a8fd-001e-46cb-a50e-dc46f8aef6f5"
           ],
           "sep": " "
         },
@@ -2585,13 +2603,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1996%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-a4d00fc6-8eb5-4c5d-9b55-1b9a8a4a865f"
+                "accordion-fb43a8fd-001e-46cb-a50e-dc46f8aef6f5"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-a4d00fc6-8eb5-4c5d-9b55-1b9a8a4a865f"
+            "accordion-fb43a8fd-001e-46cb-a50e-dc46f8aef6f5"
           ],
           "sep": " "
         },
@@ -2608,13 +2626,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1997%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-a4d00fc6-8eb5-4c5d-9b55-1b9a8a4a865f"
+                "accordion-fb43a8fd-001e-46cb-a50e-dc46f8aef6f5"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-a4d00fc6-8eb5-4c5d-9b55-1b9a8a4a865f"
+            "accordion-fb43a8fd-001e-46cb-a50e-dc46f8aef6f5"
           ],
           "sep": " "
         },
@@ -2631,13 +2649,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1998%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-a4d00fc6-8eb5-4c5d-9b55-1b9a8a4a865f"
+                "accordion-fb43a8fd-001e-46cb-a50e-dc46f8aef6f5"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-a4d00fc6-8eb5-4c5d-9b55-1b9a8a4a865f"
+            "accordion-fb43a8fd-001e-46cb-a50e-dc46f8aef6f5"
           ],
           "sep": " "
         },
@@ -2654,13 +2672,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1999%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-a4d00fc6-8eb5-4c5d-9b55-1b9a8a4a865f"
+                "accordion-fb43a8fd-001e-46cb-a50e-dc46f8aef6f5"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-a4d00fc6-8eb5-4c5d-9b55-1b9a8a4a865f"
+            "accordion-fb43a8fd-001e-46cb-a50e-dc46f8aef6f5"
           ],
           "sep": " "
         },
@@ -2669,7 +2687,7 @@
           "text": "1980s",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-6c209895-5092-42f4-af7f-a349c88c559c",
+          "toggle": "accordion-5fda75f1-f238-4b5b-84e8-803254be6272",
           "sep": " "
         },
         {
@@ -2679,7 +2697,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-6c209895-5092-42f4-af7f-a349c88c559c",
+          "toggle": "accordion-5fda75f1-f238-4b5b-84e8-803254be6272",
           "sep": " "
         },
         {
@@ -2695,13 +2713,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1980%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-6c209895-5092-42f4-af7f-a349c88c559c"
+                "accordion-5fda75f1-f238-4b5b-84e8-803254be6272"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-6c209895-5092-42f4-af7f-a349c88c559c"
+            "accordion-5fda75f1-f238-4b5b-84e8-803254be6272"
           ],
           "sep": " "
         },
@@ -2718,13 +2736,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1981%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-6c209895-5092-42f4-af7f-a349c88c559c"
+                "accordion-5fda75f1-f238-4b5b-84e8-803254be6272"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-6c209895-5092-42f4-af7f-a349c88c559c"
+            "accordion-5fda75f1-f238-4b5b-84e8-803254be6272"
           ],
           "sep": " "
         },
@@ -2741,13 +2759,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1982%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-6c209895-5092-42f4-af7f-a349c88c559c"
+                "accordion-5fda75f1-f238-4b5b-84e8-803254be6272"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-6c209895-5092-42f4-af7f-a349c88c559c"
+            "accordion-5fda75f1-f238-4b5b-84e8-803254be6272"
           ],
           "sep": " "
         },
@@ -2764,13 +2782,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1983%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-6c209895-5092-42f4-af7f-a349c88c559c"
+                "accordion-5fda75f1-f238-4b5b-84e8-803254be6272"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-6c209895-5092-42f4-af7f-a349c88c559c"
+            "accordion-5fda75f1-f238-4b5b-84e8-803254be6272"
           ],
           "sep": " "
         },
@@ -2787,13 +2805,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1984%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-6c209895-5092-42f4-af7f-a349c88c559c"
+                "accordion-5fda75f1-f238-4b5b-84e8-803254be6272"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-6c209895-5092-42f4-af7f-a349c88c559c"
+            "accordion-5fda75f1-f238-4b5b-84e8-803254be6272"
           ],
           "sep": " "
         },
@@ -2810,13 +2828,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1985%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-6c209895-5092-42f4-af7f-a349c88c559c"
+                "accordion-5fda75f1-f238-4b5b-84e8-803254be6272"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-6c209895-5092-42f4-af7f-a349c88c559c"
+            "accordion-5fda75f1-f238-4b5b-84e8-803254be6272"
           ],
           "sep": " "
         },
@@ -2833,13 +2851,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1986%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-6c209895-5092-42f4-af7f-a349c88c559c"
+                "accordion-5fda75f1-f238-4b5b-84e8-803254be6272"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-6c209895-5092-42f4-af7f-a349c88c559c"
+            "accordion-5fda75f1-f238-4b5b-84e8-803254be6272"
           ],
           "sep": " "
         },
@@ -2856,13 +2874,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1987%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-6c209895-5092-42f4-af7f-a349c88c559c"
+                "accordion-5fda75f1-f238-4b5b-84e8-803254be6272"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-6c209895-5092-42f4-af7f-a349c88c559c"
+            "accordion-5fda75f1-f238-4b5b-84e8-803254be6272"
           ],
           "sep": " "
         },
@@ -2879,13 +2897,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1988%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-6c209895-5092-42f4-af7f-a349c88c559c"
+                "accordion-5fda75f1-f238-4b5b-84e8-803254be6272"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-6c209895-5092-42f4-af7f-a349c88c559c"
+            "accordion-5fda75f1-f238-4b5b-84e8-803254be6272"
           ],
           "sep": " "
         },
@@ -2902,13 +2920,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1989%20Redacted%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-6c209895-5092-42f4-af7f-a349c88c559c"
+                "accordion-5fda75f1-f238-4b5b-84e8-803254be6272"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-6c209895-5092-42f4-af7f-a349c88c559c"
+            "accordion-5fda75f1-f238-4b5b-84e8-803254be6272"
           ],
           "sep": " "
         },
@@ -2917,7 +2935,7 @@
           "text": "1970s",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-f0c1ec94-bc1b-4ff3-a42c-90d7f3efc126",
+          "toggle": "accordion-7c0f25de-20f1-489a-958d-3bb4e3b64f3f",
           "sep": " "
         },
         {
@@ -2927,7 +2945,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-f0c1ec94-bc1b-4ff3-a42c-90d7f3efc126",
+          "toggle": "accordion-7c0f25de-20f1-489a-958d-3bb4e3b64f3f",
           "sep": " "
         },
         {
@@ -2943,13 +2961,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1970%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-f0c1ec94-bc1b-4ff3-a42c-90d7f3efc126"
+                "accordion-7c0f25de-20f1-489a-958d-3bb4e3b64f3f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-f0c1ec94-bc1b-4ff3-a42c-90d7f3efc126"
+            "accordion-7c0f25de-20f1-489a-958d-3bb4e3b64f3f"
           ],
           "sep": " "
         },
@@ -2966,13 +2984,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1970%20-%20NOV%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-f0c1ec94-bc1b-4ff3-a42c-90d7f3efc126"
+                "accordion-7c0f25de-20f1-489a-958d-3bb4e3b64f3f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-f0c1ec94-bc1b-4ff3-a42c-90d7f3efc126"
+            "accordion-7c0f25de-20f1-489a-958d-3bb4e3b64f3f"
           ],
           "sep": " "
         },
@@ -2989,13 +3007,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1971%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-f0c1ec94-bc1b-4ff3-a42c-90d7f3efc126"
+                "accordion-7c0f25de-20f1-489a-958d-3bb4e3b64f3f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-f0c1ec94-bc1b-4ff3-a42c-90d7f3efc126"
+            "accordion-7c0f25de-20f1-489a-958d-3bb4e3b64f3f"
           ],
           "sep": " "
         },
@@ -3012,13 +3030,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1971%20-%20NOV%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-f0c1ec94-bc1b-4ff3-a42c-90d7f3efc126"
+                "accordion-7c0f25de-20f1-489a-958d-3bb4e3b64f3f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-f0c1ec94-bc1b-4ff3-a42c-90d7f3efc126"
+            "accordion-7c0f25de-20f1-489a-958d-3bb4e3b64f3f"
           ],
           "sep": " "
         },
@@ -3035,13 +3053,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1972%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-f0c1ec94-bc1b-4ff3-a42c-90d7f3efc126"
+                "accordion-7c0f25de-20f1-489a-958d-3bb4e3b64f3f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-f0c1ec94-bc1b-4ff3-a42c-90d7f3efc126"
+            "accordion-7c0f25de-20f1-489a-958d-3bb4e3b64f3f"
           ],
           "sep": " "
         },
@@ -3058,13 +3076,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1972%20-%20NOV%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-f0c1ec94-bc1b-4ff3-a42c-90d7f3efc126"
+                "accordion-7c0f25de-20f1-489a-958d-3bb4e3b64f3f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-f0c1ec94-bc1b-4ff3-a42c-90d7f3efc126"
+            "accordion-7c0f25de-20f1-489a-958d-3bb4e3b64f3f"
           ],
           "sep": " "
         },
@@ -3081,13 +3099,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1973%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-f0c1ec94-bc1b-4ff3-a42c-90d7f3efc126"
+                "accordion-7c0f25de-20f1-489a-958d-3bb4e3b64f3f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-f0c1ec94-bc1b-4ff3-a42c-90d7f3efc126"
+            "accordion-7c0f25de-20f1-489a-958d-3bb4e3b64f3f"
           ],
           "sep": " "
         },
@@ -3104,13 +3122,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1973%20-%20OCT%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-f0c1ec94-bc1b-4ff3-a42c-90d7f3efc126"
+                "accordion-7c0f25de-20f1-489a-958d-3bb4e3b64f3f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-f0c1ec94-bc1b-4ff3-a42c-90d7f3efc126"
+            "accordion-7c0f25de-20f1-489a-958d-3bb4e3b64f3f"
           ],
           "sep": " "
         },
@@ -3127,13 +3145,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1974%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-f0c1ec94-bc1b-4ff3-a42c-90d7f3efc126"
+                "accordion-7c0f25de-20f1-489a-958d-3bb4e3b64f3f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-f0c1ec94-bc1b-4ff3-a42c-90d7f3efc126"
+            "accordion-7c0f25de-20f1-489a-958d-3bb4e3b64f3f"
           ],
           "sep": " "
         },
@@ -3150,13 +3168,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1974%20-%20OCT%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-f0c1ec94-bc1b-4ff3-a42c-90d7f3efc126"
+                "accordion-7c0f25de-20f1-489a-958d-3bb4e3b64f3f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-f0c1ec94-bc1b-4ff3-a42c-90d7f3efc126"
+            "accordion-7c0f25de-20f1-489a-958d-3bb4e3b64f3f"
           ],
           "sep": " "
         },
@@ -3173,13 +3191,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1975%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-f0c1ec94-bc1b-4ff3-a42c-90d7f3efc126"
+                "accordion-7c0f25de-20f1-489a-958d-3bb4e3b64f3f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-f0c1ec94-bc1b-4ff3-a42c-90d7f3efc126"
+            "accordion-7c0f25de-20f1-489a-958d-3bb4e3b64f3f"
           ],
           "sep": " "
         },
@@ -3196,13 +3214,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1976%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-f0c1ec94-bc1b-4ff3-a42c-90d7f3efc126"
+                "accordion-7c0f25de-20f1-489a-958d-3bb4e3b64f3f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-f0c1ec94-bc1b-4ff3-a42c-90d7f3efc126"
+            "accordion-7c0f25de-20f1-489a-958d-3bb4e3b64f3f"
           ],
           "sep": " "
         },
@@ -3219,13 +3237,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1977%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-f0c1ec94-bc1b-4ff3-a42c-90d7f3efc126"
+                "accordion-7c0f25de-20f1-489a-958d-3bb4e3b64f3f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-f0c1ec94-bc1b-4ff3-a42c-90d7f3efc126"
+            "accordion-7c0f25de-20f1-489a-958d-3bb4e3b64f3f"
           ],
           "sep": " "
         },
@@ -3242,13 +3260,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1978%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-f0c1ec94-bc1b-4ff3-a42c-90d7f3efc126"
+                "accordion-7c0f25de-20f1-489a-958d-3bb4e3b64f3f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-f0c1ec94-bc1b-4ff3-a42c-90d7f3efc126"
+            "accordion-7c0f25de-20f1-489a-958d-3bb4e3b64f3f"
           ],
           "sep": " "
         },
@@ -3265,13 +3283,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1979%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-f0c1ec94-bc1b-4ff3-a42c-90d7f3efc126"
+                "accordion-7c0f25de-20f1-489a-958d-3bb4e3b64f3f"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-f0c1ec94-bc1b-4ff3-a42c-90d7f3efc126"
+            "accordion-7c0f25de-20f1-489a-958d-3bb4e3b64f3f"
           ],
           "sep": " "
         },
@@ -3280,7 +3298,7 @@
           "text": "1960s",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-01330247-d841-492b-8e2e-281a8cc90d0f",
+          "toggle": "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d",
           "sep": " "
         },
         {
@@ -3290,7 +3308,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-01330247-d841-492b-8e2e-281a8cc90d0f",
+          "toggle": "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d",
           "sep": " "
         },
         {
@@ -3306,13 +3324,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1960%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+                "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+            "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
           ],
           "sep": " "
         },
@@ -3329,13 +3347,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1960%20-%20OCT%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+                "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+            "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
           ],
           "sep": " "
         },
@@ -3352,13 +3370,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1961%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+                "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+            "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
           ],
           "sep": " "
         },
@@ -3375,13 +3393,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1961%20-%20OCT%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+                "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+            "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
           ],
           "sep": " "
         },
@@ -3398,13 +3416,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1962%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+                "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+            "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
           ],
           "sep": " "
         },
@@ -3421,13 +3439,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1962%20-%20OCT%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+                "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+            "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
           ],
           "sep": " "
         },
@@ -3444,13 +3462,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1963%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+                "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+            "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
           ],
           "sep": " "
         },
@@ -3467,13 +3485,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1963%20-%20OCT%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+                "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+            "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
           ],
           "sep": " "
         },
@@ -3490,13 +3508,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1964%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+                "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+            "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
           ],
           "sep": " "
         },
@@ -3513,13 +3531,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1964%20-%20OCT%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+                "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+            "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
           ],
           "sep": " "
         },
@@ -3536,13 +3554,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1965%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+                "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+            "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
           ],
           "sep": " "
         },
@@ -3559,13 +3577,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1965%20-%20OCT%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+                "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+            "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
           ],
           "sep": " "
         },
@@ -3582,13 +3600,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1966%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+                "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+            "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
           ],
           "sep": " "
         },
@@ -3605,13 +3623,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1966%20-%20OCT%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+                "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+            "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
           ],
           "sep": " "
         },
@@ -3628,13 +3646,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1967%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+                "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+            "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
           ],
           "sep": " "
         },
@@ -3651,13 +3669,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1967%20-%20OCT%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+                "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+            "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
           ],
           "sep": " "
         },
@@ -3674,13 +3692,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1968%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+                "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+            "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
           ],
           "sep": " "
         },
@@ -3697,13 +3715,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1968%20-%20NOV%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+                "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+            "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
           ],
           "sep": " "
         },
@@ -3720,13 +3738,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1969%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+                "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+            "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
           ],
           "sep": " "
         },
@@ -3743,13 +3761,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1969%20-%20NOV%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+                "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-01330247-d841-492b-8e2e-281a8cc90d0f"
+            "accordion-8fba0259-0238-4b21-b8d0-ceba45f46d9d"
           ],
           "sep": " "
         },
@@ -3758,7 +3776,7 @@
           "text": "1950s",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257",
+          "toggle": "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681",
           "sep": " "
         },
         {
@@ -3768,7 +3786,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257",
+          "toggle": "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681",
           "sep": " "
         },
         {
@@ -3784,13 +3802,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1950%20-%20AUG%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+                "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+            "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
           ],
           "sep": " "
         },
@@ -3807,13 +3825,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1950%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+                "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+            "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
           ],
           "sep": " "
         },
@@ -3830,13 +3848,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1951%20-%20AUG%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+                "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+            "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
           ],
           "sep": " "
         },
@@ -3853,13 +3871,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1951%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+                "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+            "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
           ],
           "sep": " "
         },
@@ -3876,13 +3894,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1952%20-%20AUG%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+                "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+            "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
           ],
           "sep": " "
         },
@@ -3899,13 +3917,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1952%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+                "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+            "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
           ],
           "sep": " "
         },
@@ -3922,13 +3940,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1953%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+                "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+            "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
           ],
           "sep": " "
         },
@@ -3945,13 +3963,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1953%20-%20OCT%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+                "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+            "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
           ],
           "sep": " "
         },
@@ -3968,13 +3986,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1954%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+                "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+            "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
           ],
           "sep": " "
         },
@@ -3991,13 +4009,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1954%20-%20OCT%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+                "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+            "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
           ],
           "sep": " "
         },
@@ -4014,13 +4032,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1955%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+                "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+            "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
           ],
           "sep": " "
         },
@@ -4037,13 +4055,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1955%20-%20OCT%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+                "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+            "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
           ],
           "sep": " "
         },
@@ -4060,13 +4078,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1956%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+                "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+            "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
           ],
           "sep": " "
         },
@@ -4083,13 +4101,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1956%20-%20OCT%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+                "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+            "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
           ],
           "sep": " "
         },
@@ -4106,13 +4124,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1957%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+                "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+            "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
           ],
           "sep": " "
         },
@@ -4129,13 +4147,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1957%20-%20OCT%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+                "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+            "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
           ],
           "sep": " "
         },
@@ -4152,13 +4170,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1958%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+                "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+            "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
           ],
           "sep": " "
         },
@@ -4175,13 +4193,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1958%20-%20OCT%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+                "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+            "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
           ],
           "sep": " "
         },
@@ -4198,13 +4216,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1959%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+                "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+            "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
           ],
           "sep": " "
         },
@@ -4221,13 +4239,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1959%20-%20OCT%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+                "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-16a12449-d442-4f82-a112-2d4d0d2ee257"
+            "accordion-7f1244e0-5754-4847-9a13-5039cfcb3681"
           ],
           "sep": " "
         },
@@ -4236,7 +4254,7 @@
           "text": "1940s",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-13d1e119-7595-4f90-8fb8-60397d41a066",
+          "toggle": "accordion-77985003-1b9b-4854-94d3-5cda4c7741be",
           "sep": " "
         },
         {
@@ -4246,7 +4264,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-13d1e119-7595-4f90-8fb8-60397d41a066",
+          "toggle": "accordion-77985003-1b9b-4854-94d3-5cda4c7741be",
           "sep": " "
         },
         {
@@ -4262,13 +4280,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1940%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+                "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+            "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
           ],
           "sep": " "
         },
@@ -4285,13 +4303,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1940%20-%20MAY%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+                "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+            "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
           ],
           "sep": " "
         },
@@ -4308,13 +4326,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1941%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+                "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+            "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
           ],
           "sep": " "
         },
@@ -4331,13 +4349,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1941%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+                "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+            "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
           ],
           "sep": " "
         },
@@ -4354,13 +4372,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1942%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+                "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+            "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
           ],
           "sep": " "
         },
@@ -4377,13 +4395,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1942%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+                "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+            "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
           ],
           "sep": " "
         },
@@ -4400,13 +4418,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1943%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+                "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+            "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
           ],
           "sep": " "
         },
@@ -4423,13 +4441,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1943%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+                "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+            "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
           ],
           "sep": " "
         },
@@ -4446,13 +4464,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1944%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+                "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+            "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
           ],
           "sep": " "
         },
@@ -4469,13 +4487,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1944%20-%20FSHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+                "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+            "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
           ],
           "sep": " "
         },
@@ -4492,13 +4510,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1945%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+                "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+            "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
           ],
           "sep": " "
         },
@@ -4515,13 +4533,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1945%20-%20JUL%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+                "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+            "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
           ],
           "sep": " "
         },
@@ -4538,13 +4556,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1946%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+                "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+            "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
           ],
           "sep": " "
         },
@@ -4561,13 +4579,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1946%20-%20JUL%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+                "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+            "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
           ],
           "sep": " "
         },
@@ -4584,13 +4602,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1947%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+                "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+            "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
           ],
           "sep": " "
         },
@@ -4607,13 +4625,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1947%20-%20JUL%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+                "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+            "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
           ],
           "sep": " "
         },
@@ -4630,13 +4648,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1948%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+                "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+            "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
           ],
           "sep": " "
         },
@@ -4653,13 +4671,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1948%20-%20JUL%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+                "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+            "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
           ],
           "sep": " "
         },
@@ -4676,13 +4694,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1949%20-%20AUG%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+                "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+            "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
           ],
           "sep": " "
         },
@@ -4699,13 +4717,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1949%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+                "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-13d1e119-7595-4f90-8fb8-60397d41a066"
+            "accordion-77985003-1b9b-4854-94d3-5cda4c7741be"
           ],
           "sep": " "
         },
@@ -4714,7 +4732,7 @@
           "text": "1930s",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-22584c18-274d-492a-a298-ed257b507a19",
+          "toggle": "accordion-d98644f9-2646-45e7-a415-13005d016d0e",
           "sep": " "
         },
         {
@@ -4724,7 +4742,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-22584c18-274d-492a-a298-ed257b507a19",
+          "toggle": "accordion-d98644f9-2646-45e7-a415-13005d016d0e",
           "sep": " "
         },
         {
@@ -4740,13 +4758,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1930%20-%20JUN%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-22584c18-274d-492a-a298-ed257b507a19"
+                "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-22584c18-274d-492a-a298-ed257b507a19"
+            "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
           ],
           "sep": " "
         },
@@ -4763,13 +4781,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1930%20-%20MAY%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-22584c18-274d-492a-a298-ed257b507a19"
+                "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-22584c18-274d-492a-a298-ed257b507a19"
+            "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
           ],
           "sep": " "
         },
@@ -4786,13 +4804,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1930%20-%20NOV%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-22584c18-274d-492a-a298-ed257b507a19"
+                "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-22584c18-274d-492a-a298-ed257b507a19"
+            "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
           ],
           "sep": " "
         },
@@ -4809,13 +4827,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1930%20-%20NOV%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-22584c18-274d-492a-a298-ed257b507a19"
+                "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-22584c18-274d-492a-a298-ed257b507a19"
+            "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
           ],
           "sep": " "
         },
@@ -4832,13 +4850,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1931%20-%20DEC%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-22584c18-274d-492a-a298-ed257b507a19"
+                "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-22584c18-274d-492a-a298-ed257b507a19"
+            "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
           ],
           "sep": " "
         },
@@ -4855,13 +4873,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1931%20-%20MAY%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-22584c18-274d-492a-a298-ed257b507a19"
+                "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-22584c18-274d-492a-a298-ed257b507a19"
+            "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
           ],
           "sep": " "
         },
@@ -4878,13 +4896,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1932%20-%20DEC%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-22584c18-274d-492a-a298-ed257b507a19"
+                "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-22584c18-274d-492a-a298-ed257b507a19"
+            "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
           ],
           "sep": " "
         },
@@ -4901,13 +4919,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1932%20-%20JUN%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-22584c18-274d-492a-a298-ed257b507a19"
+                "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-22584c18-274d-492a-a298-ed257b507a19"
+            "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
           ],
           "sep": " "
         },
@@ -4924,13 +4942,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1932%20-%20MAY%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-22584c18-274d-492a-a298-ed257b507a19"
+                "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-22584c18-274d-492a-a298-ed257b507a19"
+            "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
           ],
           "sep": " "
         },
@@ -4947,13 +4965,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1932%20-%20NOV%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-22584c18-274d-492a-a298-ed257b507a19"
+                "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-22584c18-274d-492a-a298-ed257b507a19"
+            "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
           ],
           "sep": " "
         },
@@ -4970,13 +4988,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1933%20-%20DEC%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-22584c18-274d-492a-a298-ed257b507a19"
+                "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-22584c18-274d-492a-a298-ed257b507a19"
+            "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
           ],
           "sep": " "
         },
@@ -4993,13 +5011,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1933%20-%20JUN%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-22584c18-274d-492a-a298-ed257b507a19"
+                "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-22584c18-274d-492a-a298-ed257b507a19"
+            "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
           ],
           "sep": " "
         },
@@ -5016,13 +5034,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1933%20-%20MAY%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-22584c18-274d-492a-a298-ed257b507a19"
+                "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-22584c18-274d-492a-a298-ed257b507a19"
+            "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
           ],
           "sep": " "
         },
@@ -5039,13 +5057,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1933%20-%20NOV%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-22584c18-274d-492a-a298-ed257b507a19"
+                "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-22584c18-274d-492a-a298-ed257b507a19"
+            "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
           ],
           "sep": " "
         },
@@ -5062,13 +5080,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1934%20-%20DEC%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-22584c18-274d-492a-a298-ed257b507a19"
+                "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-22584c18-274d-492a-a298-ed257b507a19"
+            "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
           ],
           "sep": " "
         },
@@ -5085,13 +5103,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1934%20-%20JUN%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-22584c18-274d-492a-a298-ed257b507a19"
+                "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-22584c18-274d-492a-a298-ed257b507a19"
+            "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
           ],
           "sep": " "
         },
@@ -5108,13 +5126,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1934%20-%20MAY%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-22584c18-274d-492a-a298-ed257b507a19"
+                "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-22584c18-274d-492a-a298-ed257b507a19"
+            "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
           ],
           "sep": " "
         },
@@ -5131,13 +5149,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1934%20-%20NOV%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-22584c18-274d-492a-a298-ed257b507a19"
+                "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-22584c18-274d-492a-a298-ed257b507a19"
+            "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
           ],
           "sep": " "
         },
@@ -5154,13 +5172,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1935%20-%20DEC%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-22584c18-274d-492a-a298-ed257b507a19"
+                "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-22584c18-274d-492a-a298-ed257b507a19"
+            "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
           ],
           "sep": " "
         },
@@ -5177,13 +5195,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1935%20-%20JUN%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-22584c18-274d-492a-a298-ed257b507a19"
+                "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-22584c18-274d-492a-a298-ed257b507a19"
+            "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
           ],
           "sep": " "
         },
@@ -5200,13 +5218,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1935%20-%20MAY%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-22584c18-274d-492a-a298-ed257b507a19"
+                "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-22584c18-274d-492a-a298-ed257b507a19"
+            "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
           ],
           "sep": " "
         },
@@ -5223,13 +5241,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1935%20-%20NOV%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-22584c18-274d-492a-a298-ed257b507a19"
+                "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-22584c18-274d-492a-a298-ed257b507a19"
+            "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
           ],
           "sep": " "
         },
@@ -5246,13 +5264,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1936%20-%20DEC%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-22584c18-274d-492a-a298-ed257b507a19"
+                "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-22584c18-274d-492a-a298-ed257b507a19"
+            "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
           ],
           "sep": " "
         },
@@ -5269,13 +5287,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1936%20-%20JUN%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-22584c18-274d-492a-a298-ed257b507a19"
+                "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-22584c18-274d-492a-a298-ed257b507a19"
+            "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
           ],
           "sep": " "
         },
@@ -5292,13 +5310,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1936%20-%20MAY%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-22584c18-274d-492a-a298-ed257b507a19"
+                "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-22584c18-274d-492a-a298-ed257b507a19"
+            "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
           ],
           "sep": " "
         },
@@ -5315,13 +5333,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1936%20-%20NOV%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-22584c18-274d-492a-a298-ed257b507a19"
+                "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-22584c18-274d-492a-a298-ed257b507a19"
+            "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
           ],
           "sep": " "
         },
@@ -5338,13 +5356,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1937%20-%20DEC%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-22584c18-274d-492a-a298-ed257b507a19"
+                "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-22584c18-274d-492a-a298-ed257b507a19"
+            "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
           ],
           "sep": " "
         },
@@ -5361,13 +5379,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1937%20-%20JUN%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-22584c18-274d-492a-a298-ed257b507a19"
+                "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-22584c18-274d-492a-a298-ed257b507a19"
+            "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
           ],
           "sep": " "
         },
@@ -5384,13 +5402,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1937%20-%20MAY%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-22584c18-274d-492a-a298-ed257b507a19"
+                "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-22584c18-274d-492a-a298-ed257b507a19"
+            "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
           ],
           "sep": " "
         },
@@ -5407,13 +5425,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1937%20-%20NOV%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-22584c18-274d-492a-a298-ed257b507a19"
+                "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-22584c18-274d-492a-a298-ed257b507a19"
+            "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
           ],
           "sep": " "
         },
@@ -5430,13 +5448,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1938%20-%20DEC%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-22584c18-274d-492a-a298-ed257b507a19"
+                "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-22584c18-274d-492a-a298-ed257b507a19"
+            "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
           ],
           "sep": " "
         },
@@ -5453,13 +5471,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1938%20-%20JUN%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-22584c18-274d-492a-a298-ed257b507a19"
+                "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-22584c18-274d-492a-a298-ed257b507a19"
+            "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
           ],
           "sep": " "
         },
@@ -5476,13 +5494,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1938%20-%20MAY%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-22584c18-274d-492a-a298-ed257b507a19"
+                "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-22584c18-274d-492a-a298-ed257b507a19"
+            "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
           ],
           "sep": " "
         },
@@ -5499,13 +5517,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1938%20-%20NOV%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-22584c18-274d-492a-a298-ed257b507a19"
+                "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-22584c18-274d-492a-a298-ed257b507a19"
+            "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
           ],
           "sep": " "
         },
@@ -5522,13 +5540,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1939%20-%20DEC%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-22584c18-274d-492a-a298-ed257b507a19"
+                "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-22584c18-274d-492a-a298-ed257b507a19"
+            "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
           ],
           "sep": " "
         },
@@ -5545,13 +5563,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1939%20-%20JUN%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-22584c18-274d-492a-a298-ed257b507a19"
+                "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-22584c18-274d-492a-a298-ed257b507a19"
+            "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
           ],
           "sep": " "
         },
@@ -5568,13 +5586,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1939%20-%20MAY%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-22584c18-274d-492a-a298-ed257b507a19"
+                "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-22584c18-274d-492a-a298-ed257b507a19"
+            "accordion-d98644f9-2646-45e7-a415-13005d016d0e"
           ],
           "sep": " "
         },
@@ -5583,7 +5601,7 @@
           "text": "1920s",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb",
+          "toggle": "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2",
           "sep": " "
         },
         {
@@ -5593,7 +5611,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb",
+          "toggle": "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2",
           "sep": " "
         },
         {
@@ -5609,13 +5627,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1920%20-%20MAR%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+                "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+            "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
           ],
           "sep": " "
         },
@@ -5632,13 +5650,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1920%20-%20SEP%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+                "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+            "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
           ],
           "sep": " "
         },
@@ -5655,13 +5673,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1920%20-%20SEP%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+                "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+            "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
           ],
           "sep": " "
         },
@@ -5678,13 +5696,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1921%20-%20JUN%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+                "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+            "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
           ],
           "sep": " "
         },
@@ -5701,13 +5719,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1921%20-%20MAR%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+                "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+            "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
           ],
           "sep": " "
         },
@@ -5724,13 +5742,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1921%20-%20OCT%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+                "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+            "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
           ],
           "sep": " "
         },
@@ -5747,13 +5765,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1921%20-%20SEP%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+                "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+            "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
           ],
           "sep": " "
         },
@@ -5770,13 +5788,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1922%20-%20APR%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+                "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+            "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
           ],
           "sep": " "
         },
@@ -5793,13 +5811,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1922%20-%20MAY%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+                "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+            "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
           ],
           "sep": " "
         },
@@ -5816,13 +5834,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1922%20-%20SEP%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+                "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+            "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
           ],
           "sep": " "
         },
@@ -5839,13 +5857,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1922%20-%20SEP%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+                "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+            "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
           ],
           "sep": " "
         },
@@ -5862,13 +5880,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1923%20-%20JUN%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+                "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+            "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
           ],
           "sep": " "
         },
@@ -5885,13 +5903,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1923%20-%20MAY%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+                "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+            "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
           ],
           "sep": " "
         },
@@ -5908,13 +5926,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1923%20-%20OCT%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+                "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+            "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
           ],
           "sep": " "
         },
@@ -5931,13 +5949,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1923%20-%20OCT%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+                "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+            "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
           ],
           "sep": " "
         },
@@ -5954,13 +5972,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1924%20-%20JUN%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+                "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+            "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
           ],
           "sep": " "
         },
@@ -5977,13 +5995,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1924%20-%20MAY%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+                "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+            "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
           ],
           "sep": " "
         },
@@ -6000,13 +6018,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1924%20-%20NOV%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+                "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+            "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
           ],
           "sep": " "
         },
@@ -6023,13 +6041,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1925%20-%20JUN%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+                "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+            "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
           ],
           "sep": " "
         },
@@ -6046,13 +6064,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1925%20-%20MAY%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+                "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+            "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
           ],
           "sep": " "
         },
@@ -6069,13 +6087,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1925%20-%20NOV%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+                "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+            "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
           ],
           "sep": " "
         },
@@ -6092,13 +6110,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1925%20-%20NOV%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+                "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+            "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
           ],
           "sep": " "
         },
@@ -6115,13 +6133,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1926%20-%20JUN%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+                "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+            "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
           ],
           "sep": " "
         },
@@ -6138,13 +6156,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1926%20-%20JUN%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+                "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+            "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
           ],
           "sep": " "
         },
@@ -6161,13 +6179,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1926%20-%20NOV%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+                "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+            "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
           ],
           "sep": " "
         },
@@ -6184,13 +6202,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1926%20-%20NOV%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+                "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+            "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
           ],
           "sep": " "
         },
@@ -6207,13 +6225,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1927%20-%20JUN%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+                "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+            "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
           ],
           "sep": " "
         },
@@ -6230,13 +6248,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1927%20-%20JUN%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+                "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+            "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
           ],
           "sep": " "
         },
@@ -6253,13 +6271,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1927%20-%20NOV%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+                "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+            "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
           ],
           "sep": " "
         },
@@ -6276,13 +6294,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1927%20-%20NOV%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+                "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+            "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
           ],
           "sep": " "
         },
@@ -6299,13 +6317,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1928%20-%20JUN%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+                "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+            "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
           ],
           "sep": " "
         },
@@ -6322,13 +6340,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1928%20-%20JUN%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+                "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+            "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
           ],
           "sep": " "
         },
@@ -6345,13 +6363,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1928%20-%20NOV%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+                "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+            "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
           ],
           "sep": " "
         },
@@ -6368,13 +6386,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1928%20-%20NOV%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+                "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+            "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
           ],
           "sep": " "
         },
@@ -6391,13 +6409,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1929%20-%20Dec%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+                "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+            "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
           ],
           "sep": " "
         },
@@ -6414,13 +6432,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1929%20-%20JUN%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+                "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+            "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
           ],
           "sep": " "
         },
@@ -6437,13 +6455,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1929%20-%20JUN%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+                "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+            "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
           ],
           "sep": " "
         },
@@ -6460,13 +6478,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1929%20-%20NOV%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+                "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-5ff8dd24-0383-4c5c-8d3c-ea7663c8d4eb"
+            "accordion-285c657f-0aa0-4d44-a7ca-a4aec82f55a2"
           ],
           "sep": " "
         },
@@ -6475,7 +6493,7 @@
           "text": "1910s",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-6b70abcd-2fe5-4976-b168-e5c49693216a",
+          "toggle": "accordion-91b36247-9a6a-44fe-b82d-c4beaced1ec4",
           "sep": " "
         },
         {
@@ -6485,7 +6503,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-6b70abcd-2fe5-4976-b168-e5c49693216a",
+          "toggle": "accordion-91b36247-9a6a-44fe-b82d-c4beaced1ec4",
           "sep": " "
         },
         {
@@ -6501,13 +6519,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1910%20-%20JUL%20-%20to%20-%201912%20-%20JUN%20-%20FSMS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-6b70abcd-2fe5-4976-b168-e5c49693216a"
+                "accordion-91b36247-9a6a-44fe-b82d-c4beaced1ec4"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-6b70abcd-2fe5-4976-b168-e5c49693216a"
+            "accordion-91b36247-9a6a-44fe-b82d-c4beaced1ec4"
           ],
           "sep": " "
         },
@@ -6524,13 +6542,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1912%20-%20JUL%20-%20to%20-%201913%20-%20NOV%20-%20FSMS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-6b70abcd-2fe5-4976-b168-e5c49693216a"
+                "accordion-91b36247-9a6a-44fe-b82d-c4beaced1ec4"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-6b70abcd-2fe5-4976-b168-e5c49693216a"
+            "accordion-91b36247-9a6a-44fe-b82d-c4beaced1ec4"
           ],
           "sep": " "
         },
@@ -6547,13 +6565,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1913%20-%20FSMS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-6b70abcd-2fe5-4976-b168-e5c49693216a"
+                "accordion-91b36247-9a6a-44fe-b82d-c4beaced1ec4"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-6b70abcd-2fe5-4976-b168-e5c49693216a"
+            "accordion-91b36247-9a6a-44fe-b82d-c4beaced1ec4"
           ],
           "sep": " "
         },
@@ -6570,13 +6588,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1914%20-%20FEB%20-%20to%20-%201915%20-%20AUG%20-%20FSMS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-6b70abcd-2fe5-4976-b168-e5c49693216a"
+                "accordion-91b36247-9a6a-44fe-b82d-c4beaced1ec4"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-6b70abcd-2fe5-4976-b168-e5c49693216a"
+            "accordion-91b36247-9a6a-44fe-b82d-c4beaced1ec4"
           ],
           "sep": " "
         },
@@ -6593,13 +6611,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1915%20-%20SEP%20-%20to%20-%201918%20-%20SEP%20-%20FSMS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-6b70abcd-2fe5-4976-b168-e5c49693216a"
+                "accordion-91b36247-9a6a-44fe-b82d-c4beaced1ec4"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-6b70abcd-2fe5-4976-b168-e5c49693216a"
+            "accordion-91b36247-9a6a-44fe-b82d-c4beaced1ec4"
           ],
           "sep": " "
         },
@@ -6616,13 +6634,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1916%20-%20MAR%20-%20FSMS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-6b70abcd-2fe5-4976-b168-e5c49693216a"
+                "accordion-91b36247-9a6a-44fe-b82d-c4beaced1ec4"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-6b70abcd-2fe5-4976-b168-e5c49693216a"
+            "accordion-91b36247-9a6a-44fe-b82d-c4beaced1ec4"
           ],
           "sep": " "
         },
@@ -6639,13 +6657,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1916%20-%20NOV%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-6b70abcd-2fe5-4976-b168-e5c49693216a"
+                "accordion-91b36247-9a6a-44fe-b82d-c4beaced1ec4"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-6b70abcd-2fe5-4976-b168-e5c49693216a"
+            "accordion-91b36247-9a6a-44fe-b82d-c4beaced1ec4"
           ],
           "sep": " "
         },
@@ -6662,13 +6680,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1917%20-%20NOV%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-6b70abcd-2fe5-4976-b168-e5c49693216a"
+                "accordion-91b36247-9a6a-44fe-b82d-c4beaced1ec4"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-6b70abcd-2fe5-4976-b168-e5c49693216a"
+            "accordion-91b36247-9a6a-44fe-b82d-c4beaced1ec4"
           ],
           "sep": " "
         },
@@ -6685,13 +6703,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1919%20-%20JUN%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-6b70abcd-2fe5-4976-b168-e5c49693216a"
+                "accordion-91b36247-9a6a-44fe-b82d-c4beaced1ec4"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-6b70abcd-2fe5-4976-b168-e5c49693216a"
+            "accordion-91b36247-9a6a-44fe-b82d-c4beaced1ec4"
           ],
           "sep": " "
         },
@@ -6708,13 +6726,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1919%20-%20NOV%20-%20FSBHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-6b70abcd-2fe5-4976-b168-e5c49693216a"
+                "accordion-91b36247-9a6a-44fe-b82d-c4beaced1ec4"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-6b70abcd-2fe5-4976-b168-e5c49693216a"
+            "accordion-91b36247-9a6a-44fe-b82d-c4beaced1ec4"
           ],
           "sep": " "
         },
@@ -6731,13 +6749,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1919%20-%20SEP%20-%20FSGHS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-6b70abcd-2fe5-4976-b168-e5c49693216a"
+                "accordion-91b36247-9a6a-44fe-b82d-c4beaced1ec4"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-6b70abcd-2fe5-4976-b168-e5c49693216a"
+            "accordion-91b36247-9a6a-44fe-b82d-c4beaced1ec4"
           ],
           "sep": " "
         },
@@ -6746,7 +6764,7 @@
           "text": "1900s",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-8843457d-6bc2-46ee-8a5f-aee9a25efb48",
+          "toggle": "accordion-42af5875-31b9-49c9-a6c1-bd2fcbf5e271",
           "sep": " "
         },
         {
@@ -6756,7 +6774,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-8843457d-6bc2-46ee-8a5f-aee9a25efb48",
+          "toggle": "accordion-42af5875-31b9-49c9-a6c1-bd2fcbf5e271",
           "sep": " "
         },
         {
@@ -6772,13 +6790,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1900%20-%20FSMS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-8843457d-6bc2-46ee-8a5f-aee9a25efb48"
+                "accordion-42af5875-31b9-49c9-a6c1-bd2fcbf5e271"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-8843457d-6bc2-46ee-8a5f-aee9a25efb48"
+            "accordion-42af5875-31b9-49c9-a6c1-bd2fcbf5e271"
           ],
           "sep": " "
         },
@@ -6795,13 +6813,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1901%20-%20FSMS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-8843457d-6bc2-46ee-8a5f-aee9a25efb48"
+                "accordion-42af5875-31b9-49c9-a6c1-bd2fcbf5e271"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-8843457d-6bc2-46ee-8a5f-aee9a25efb48"
+            "accordion-42af5875-31b9-49c9-a6c1-bd2fcbf5e271"
           ],
           "sep": " "
         },
@@ -6818,13 +6836,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1902%20-%20FSMS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-8843457d-6bc2-46ee-8a5f-aee9a25efb48"
+                "accordion-42af5875-31b9-49c9-a6c1-bd2fcbf5e271"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-8843457d-6bc2-46ee-8a5f-aee9a25efb48"
+            "accordion-42af5875-31b9-49c9-a6c1-bd2fcbf5e271"
           ],
           "sep": " "
         },
@@ -6841,13 +6859,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1903%20-%20FSMS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-8843457d-6bc2-46ee-8a5f-aee9a25efb48"
+                "accordion-42af5875-31b9-49c9-a6c1-bd2fcbf5e271"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-8843457d-6bc2-46ee-8a5f-aee9a25efb48"
+            "accordion-42af5875-31b9-49c9-a6c1-bd2fcbf5e271"
           ],
           "sep": " "
         },
@@ -6864,13 +6882,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1904%20-%20FSMS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-8843457d-6bc2-46ee-8a5f-aee9a25efb48"
+                "accordion-42af5875-31b9-49c9-a6c1-bd2fcbf5e271"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-8843457d-6bc2-46ee-8a5f-aee9a25efb48"
+            "accordion-42af5875-31b9-49c9-a6c1-bd2fcbf5e271"
           ],
           "sep": " "
         },
@@ -6887,13 +6905,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1905%20-%20FSMS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-8843457d-6bc2-46ee-8a5f-aee9a25efb48"
+                "accordion-42af5875-31b9-49c9-a6c1-bd2fcbf5e271"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-8843457d-6bc2-46ee-8a5f-aee9a25efb48"
+            "accordion-42af5875-31b9-49c9-a6c1-bd2fcbf5e271"
           ],
           "sep": " "
         },
@@ -6910,13 +6928,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1906%20-%20FSMS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-8843457d-6bc2-46ee-8a5f-aee9a25efb48"
+                "accordion-42af5875-31b9-49c9-a6c1-bd2fcbf5e271"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-8843457d-6bc2-46ee-8a5f-aee9a25efb48"
+            "accordion-42af5875-31b9-49c9-a6c1-bd2fcbf5e271"
           ],
           "sep": " "
         },
@@ -6933,13 +6951,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1907%20-%20FSMS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-8843457d-6bc2-46ee-8a5f-aee9a25efb48"
+                "accordion-42af5875-31b9-49c9-a6c1-bd2fcbf5e271"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-8843457d-6bc2-46ee-8a5f-aee9a25efb48"
+            "accordion-42af5875-31b9-49c9-a6c1-bd2fcbf5e271"
           ],
           "sep": " "
         },
@@ -6956,13 +6974,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1908%20-%20FSMS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-8843457d-6bc2-46ee-8a5f-aee9a25efb48"
+                "accordion-42af5875-31b9-49c9-a6c1-bd2fcbf5e271"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-8843457d-6bc2-46ee-8a5f-aee9a25efb48"
+            "accordion-42af5875-31b9-49c9-a6c1-bd2fcbf5e271"
           ],
           "sep": " "
         },
@@ -6979,13 +6997,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1908%20-%20JUL%20-%20to%20-%201909%20-%20JUN%20-%20FSMS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-8843457d-6bc2-46ee-8a5f-aee9a25efb48"
+                "accordion-42af5875-31b9-49c9-a6c1-bd2fcbf5e271"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-8843457d-6bc2-46ee-8a5f-aee9a25efb48"
+            "accordion-42af5875-31b9-49c9-a6c1-bd2fcbf5e271"
           ],
           "sep": " "
         },
@@ -7002,13 +7020,13 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1909%20-%20JUL%20-%20to%20-%201910%20-%20JUN%20-%20FSMS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-8843457d-6bc2-46ee-8a5f-aee9a25efb48"
+                "accordion-42af5875-31b9-49c9-a6c1-bd2fcbf5e271"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-8843457d-6bc2-46ee-8a5f-aee9a25efb48"
+            "accordion-42af5875-31b9-49c9-a6c1-bd2fcbf5e271"
           ],
           "sep": " "
         },
@@ -7017,7 +7035,7 @@
           "text": "1890s",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-0d6d3e4a-3aa3-4c8e-b9d2-03996d3b26ee",
+          "toggle": "accordion-5b0534db-6ec6-4e7b-a476-5a7b753749ec",
           "sep": " "
         },
         {
@@ -7027,7 +7045,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-0d6d3e4a-3aa3-4c8e-b9d2-03996d3b26ee",
+          "toggle": "accordion-5b0534db-6ec6-4e7b-a476-5a7b753749ec",
           "sep": " "
         },
         {
@@ -7043,20 +7061,29 @@
               "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/the%20fortian%20digitised/1899%20-%20FSMS%20-%20The%20Fortian.pdf",
               "classes": "button",
               "panels": [
-                "accordion-0d6d3e4a-3aa3-4c8e-b9d2-03996d3b26ee"
+                "accordion-5b0534db-6ec6-4e7b-a476-5a7b753749ec"
               ],
               "sep": ""
             }
           ],
           "panels": [
-            "accordion-0d6d3e4a-3aa3-4c8e-b9d2-03996d3b26ee"
+            "accordion-5b0534db-6ec6-4e7b-a476-5a7b753749ec"
           ],
           "sep": " "
         }
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 1130,
+        "w": 768,
+        "h": 9676
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s04",
@@ -7122,7 +7149,16 @@
       "orderedVerified": true,
       "tone": "dark",
       "bg": "rgb(99, 0, 25)",
-      "toneEl": "main#main > div.section.nsw-section"
+      "toneEl": "main#main > div.section.nsw-section",
+      "rect": {
+        "x": 536,
+        "y": 10806,
+        "w": 768,
+        "h": 208
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s05",
@@ -7222,7 +7258,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 11014,
+        "w": 768,
+        "h": 308
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s06",
@@ -7559,7 +7604,17 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 120,
+        "y": 247,
+        "w": 400,
+        "h": 11155
+      },
+      "placement": {
+        "region": "rail-start",
+        "hiddenMobile": true
+      }
     }
   ],
   "residue": [
@@ -7591,6 +7646,9 @@
         "y": 0,
         "w": 1440,
         "h": 172
+      },
+      "placement": {
+        "region": "band"
       }
     },
     {
@@ -7614,6 +7672,9 @@
         "y": 11402,
         "w": 1440,
         "h": 509
+      },
+      "placement": {
+        "region": "band"
       }
     }
   ]

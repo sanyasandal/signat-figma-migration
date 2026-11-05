@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:reskin/capture-content.mjs",
-    "capturedAt": "2026-11-05T07:07:00.548Z",
+    "capturedAt": "2026-11-05T09:44:36.896Z",
     "url": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/high-potential-and-gifted-education",
     "viewport": "1440x900",
     "scope": "nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!",
@@ -32,7 +32,7 @@
     },
     "settle": {
       "firstLen": 4139,
-      "waitedMs": 1511,
+      "waitedMs": 1508,
       "stable": true,
       "settledLen": 4139,
       "lateChars": 0
@@ -178,7 +178,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 136,
+        "y": 196,
+        "w": 1168,
+        "h": 51
+      },
+      "placement": {
+        "region": "band"
+      }
     },
     {
       "slot": "s02",
@@ -224,7 +233,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 263,
+        "w": 768,
+        "h": 280
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s03",
@@ -276,7 +294,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 543,
+        "w": 768,
+        "h": 678
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s04",
@@ -396,7 +423,16 @@
       "orderedVerified": true,
       "tone": "tinted",
       "bg": "rgb(242, 242, 242)",
-      "toneEl": "main#main > div.section.nsw-section"
+      "toneEl": "main#main > div.section.nsw-section",
+      "rect": {
+        "x": 536,
+        "y": 1221,
+        "w": 768,
+        "h": 848
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s05",
@@ -646,7 +682,7 @@
           "text": "In our classroom",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-10fc8ca6-0744-4a81-985d-e3ef6a2c7e24",
+          "toggle": "accordion-31465e4d-96d4-4262-adbe-ff996b3ca1a0",
           "sep": " "
         },
         {
@@ -656,7 +692,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-10fc8ca6-0744-4a81-985d-e3ef6a2c7e24",
+          "toggle": "accordion-31465e4d-96d4-4262-adbe-ff996b3ca1a0",
           "sep": " "
         },
         {
@@ -664,7 +700,7 @@
           "text": "We are committed to recognising and nurturing high potential and gifted students, ensuring every student has the opportunity to thrive at our school.",
           "display": "list-item",
           "panels": [
-            "accordion-10fc8ca6-0744-4a81-985d-e3ef6a2c7e24"
+            "accordion-31465e4d-96d4-4262-adbe-ff996b3ca1a0"
           ],
           "sep": " "
         },
@@ -673,7 +709,7 @@
           "text": "Our supportive classroom environments promote a sense of belonging and encourage risk-taking, creativity and collaboration.",
           "display": "list-item",
           "panels": [
-            "accordion-10fc8ca6-0744-4a81-985d-e3ef6a2c7e24"
+            "accordion-31465e4d-96d4-4262-adbe-ff996b3ca1a0"
           ],
           "sep": " "
         },
@@ -682,7 +718,7 @@
           "text": "Our teachers engage in professional learning to support the diverse needs of all students, including our high potential and gifted learners.",
           "display": "list-item",
           "panels": [
-            "accordion-10fc8ca6-0744-4a81-985d-e3ef6a2c7e24"
+            "accordion-31465e4d-96d4-4262-adbe-ff996b3ca1a0"
           ],
           "sep": " "
         },
@@ -691,7 +727,7 @@
           "text": "Across our school",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-3fe94a89-d07f-4334-baf2-f7374e87e7ff",
+          "toggle": "accordion-9c7b0dc6-cbc7-4996-a567-41e399caa40f",
           "sep": " "
         },
         {
@@ -701,7 +737,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-3fe94a89-d07f-4334-baf2-f7374e87e7ff",
+          "toggle": "accordion-9c7b0dc6-cbc7-4996-a567-41e399caa40f",
           "sep": " "
         },
         {
@@ -709,7 +745,7 @@
           "text": "Our school offers a range of whole-school programs that support student growth.",
           "display": "list-item",
           "panels": [
-            "accordion-3fe94a89-d07f-4334-baf2-f7374e87e7ff"
+            "accordion-9c7b0dc6-cbc7-4996-a567-41e399caa40f"
           ],
           "sep": " "
         },
@@ -718,7 +754,7 @@
           "text": "Our school identifies and supports students with high potential through targeted enrichment, extension and extra-curricular opportunities such as debating, competitions, critical thinking workshops, and STEM and coding clubs.",
           "display": "list-item",
           "panels": [
-            "accordion-3fe94a89-d07f-4334-baf2-f7374e87e7ff"
+            "accordion-9c7b0dc6-cbc7-4996-a567-41e399caa40f"
           ],
           "sep": " "
         },
@@ -727,7 +763,7 @@
           "text": "All our students, including high potential and gifted students, are encouraged to take on leadership roles through student representative council leadership, mentoring programs and peer coaching.",
           "display": "list-item",
           "panels": [
-            "accordion-3fe94a89-d07f-4334-baf2-f7374e87e7ff"
+            "accordion-9c7b0dc6-cbc7-4996-a567-41e399caa40f"
           ],
           "sep": " "
         },
@@ -736,7 +772,7 @@
           "text": "Student talent is celebrated and extended through school musicals, drama groups, visual arts showcases, music ensembles and creative writing groups.",
           "display": "list-item",
           "panels": [
-            "accordion-3fe94a89-d07f-4334-baf2-f7374e87e7ff"
+            "accordion-9c7b0dc6-cbc7-4996-a567-41e399caa40f"
           ],
           "sep": " "
         },
@@ -745,7 +781,7 @@
           "text": "Our students can take part in inter school sports compeitions, carnivals, house competitions and gala days.",
           "display": "list-item",
           "panels": [
-            "accordion-3fe94a89-d07f-4334-baf2-f7374e87e7ff"
+            "accordion-9c7b0dc6-cbc7-4996-a567-41e399caa40f"
           ],
           "sep": " "
         },
@@ -754,7 +790,7 @@
           "text": "Across NSW",
           "parentTag": "button",
           "parentClass": "nsw-accordion__button",
-          "toggle": "accordion-05a893e8-48a7-4dbe-9ed4-c539645d41ad",
+          "toggle": "accordion-d545c924-be6b-4338-9f50-a6f500dcf7b3",
           "sep": " "
         },
         {
@@ -764,7 +800,7 @@
           "parentClass": "material-icons nsw-material-icons",
           "inButton": true,
           "glyph": true,
-          "toggle": "accordion-05a893e8-48a7-4dbe-9ed4-c539645d41ad",
+          "toggle": "accordion-d545c924-be6b-4338-9f50-a6f500dcf7b3",
           "sep": " "
         },
         {
@@ -772,7 +808,7 @@
           "text": "Our students participate in a wide range of statewide programs to extend and enrich student potential.",
           "display": "list-item",
           "panels": [
-            "accordion-05a893e8-48a7-4dbe-9ed4-c539645d41ad"
+            "accordion-d545c924-be6b-4338-9f50-a6f500dcf7b3"
           ],
           "sep": " "
         },
@@ -781,7 +817,7 @@
           "text": "We provide access to local, state and national competitions and events to help students explore and extend their talents.",
           "display": "list-item",
           "panels": [
-            "accordion-05a893e8-48a7-4dbe-9ed4-c539645d41ad"
+            "accordion-d545c924-be6b-4338-9f50-a6f500dcf7b3"
           ],
           "sep": " "
         },
@@ -851,7 +887,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 2069,
+        "w": 768,
+        "h": 3040
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s06",
@@ -948,7 +993,16 @@
       "orderedVerified": true,
       "tone": "dark",
       "bg": "rgb(99, 0, 25)",
-      "toneEl": "main#main > div.section.nsw-section"
+      "toneEl": "main#main > div.section.nsw-section",
+      "rect": {
+        "x": 536,
+        "y": 5108,
+        "w": 768,
+        "h": 232
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s07",
@@ -1048,7 +1102,16 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 536,
+        "y": 5340,
+        "w": 768,
+        "h": 316
+      },
+      "placement": {
+        "region": "main"
+      }
     },
     {
       "slot": "s08",
@@ -1217,7 +1280,17 @@
       ],
       "orderedVerified": true,
       "tone": "page",
-      "bg": "rgb(255, 255, 255)"
+      "bg": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 120,
+        "y": 247,
+        "w": 400,
+        "h": 5426
+      },
+      "placement": {
+        "region": "rail-start",
+        "hiddenMobile": true
+      }
     }
   ],
   "residue": [
@@ -1249,6 +1322,9 @@
         "y": 0,
         "w": 1440,
         "h": 172
+      },
+      "placement": {
+        "region": "band"
       }
     },
     {
@@ -1272,6 +1348,9 @@
         "y": 5672,
         "w": 1440,
         "h": 509
+      },
+      "placement": {
+        "region": "band"
       }
     }
   ]
