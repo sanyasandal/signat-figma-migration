@@ -2,7 +2,7 @@
 
 - Source: https://fortstreet-h.schools.nsw.gov.au/learning-and-support/careers (scopes: `nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!`, normalize: `/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/learning-and-support-careers.mjs`)
 - Rendered: stardust/migrated/learning-and-support/careers/index.html (scope: `main`)
-- Generated: 2026-11-05T07:08:57.902Z
+- Generated: 2026-11-05T10:30:18.408Z
 
 ## Primary checks (gating)
 

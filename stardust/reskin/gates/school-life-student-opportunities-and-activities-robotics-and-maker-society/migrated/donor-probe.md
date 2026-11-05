@@ -3,7 +3,7 @@
 - Tokens: stardust/reskin/donor-tokens.json
 - Rendered: stardust/migrated/school-life/student-opportunities-and-activities/robotics-and-maker-society/index.html
 - Spec: default (rendered-page conventions)
-- Generated: 2026-11-05T06:36:25.747Z
+- Generated: 2026-11-05T10:32:35.650Z
 
 ## Assertions — 9/9 pass (6 skipped)
 

@@ -2,7 +2,7 @@
 
 - Source: https://fortstreet-h.schools.nsw.gov.au/our-community/foundation-tertiary-bursaries (scopes: `nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!`, normalize: `/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/our-community-foundation-tertiary-bursaries.mjs`)
 - Rendered: stardust/migrated/our-community/foundation-tertiary-bursaries/index.html (scope: `main`)
-- Generated: 2026-11-05T06:35:06.940Z
+- Generated: 2026-11-05T10:30:43.811Z
 
 ## Primary checks (gating)
 

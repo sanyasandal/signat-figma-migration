@@ -3,7 +3,7 @@
 - Tokens: stardust/reskin/donor-tokens.json
 - Rendered: stardust/migrated/school-life/uniform/index.html
 - Spec: default (rendered-page conventions)
-- Generated: 2026-11-05T07:10:09.213Z
+- Generated: 2026-11-05T10:33:19.540Z
 
 ## Assertions — 12/14 pass (1 skipped)
 

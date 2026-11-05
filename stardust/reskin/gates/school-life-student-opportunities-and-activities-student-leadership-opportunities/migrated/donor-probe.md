@@ -3,7 +3,7 @@
 - Tokens: stardust/reskin/donor-tokens.json
 - Rendered: stardust/migrated/school-life/student-opportunities-and-activities/student-leadership-opportunities/index.html
 - Spec: default (rendered-page conventions)
-- Generated: 2026-11-05T06:36:29.441Z
+- Generated: 2026-11-05T10:32:56.977Z
 
 ## Assertions — 14/14 pass (1 skipped)
 

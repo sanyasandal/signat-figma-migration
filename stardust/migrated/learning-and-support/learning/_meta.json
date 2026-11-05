@@ -41,11 +41,11 @@
     "description": "At Fort Street High School, we follow the NSW curriculum. We offer a wide range of subjects to support every student’s learning journey. Our teachers use effective teaching strategies to help students reach their goals. We also provide learning support to assist students who need extra help, so all students can succeed.",
     "url": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/learning"
   },
-  "migratedAt": "2026-11-05T06:33:01Z",
+  "migratedAt": "2026-11-05T10:28:29Z",
   "designMdSha": "187c3f2f159f",
   "designJsonSha": "2d96d5b1c55f",
   "sourceCurrentSha": "be60aef79956",
-  "sourceProposedSha": "0925840f97e7",
+  "sourceProposedSha": "e70b1e36fc56",
   "fidelityTier": "archetype",
   "archetypeSource": null,
   "archetypeSha": null,
@@ -60,7 +60,9 @@
     "deployed.sanity",
     "deployed.inherited",
     "deployed.chrome",
-    "step10"
+    "step10",
+    "reskin-source-coverage",
+    "deployed.coverage"
   ],
   "gateEvidence": {
     "reskin-dom-equality": "PASS — stardust/reskin/reports/learning-and-support-learning-content-gate.md",
@@ -72,7 +74,9 @@
     "deployed.sanity": "PASS",
     "deployed.inherited": "PASS",
     "deployed.chrome": "PASS",
-    "step10": "PASS"
+    "step10": "PASS",
+    "reskin-source-coverage": "PASS — stardust/reskin/reports/learning-and-support-learning-source-coverage.json",
+    "deployed.coverage": "PASS"
   },
   "contentDeviations": [],
   "assetsBundled": 4,

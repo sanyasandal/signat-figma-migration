@@ -2,7 +2,7 @@
 
 - Source: https://fortstreet-h.schools.nsw.gov.au/school-life/canteen (scopes: `nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!`, normalize: `/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/school-life-canteen.mjs`)
 - Rendered: stardust/migrated/school-life/canteen/index.html (scope: `main`)
-- Generated: 2026-11-05T06:35:27.797Z
+- Generated: 2026-11-05T10:31:24.681Z
 
 ## Primary checks (gating)
 

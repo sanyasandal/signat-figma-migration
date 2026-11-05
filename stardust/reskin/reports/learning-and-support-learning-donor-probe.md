@@ -3,7 +3,7 @@
 - Tokens: stardust/reskin/donor-tokens.json
 - Rendered: stardust/reskin/pages/learning-and-support-learning.html
 - Spec: default (rendered-page conventions)
-- Generated: 2026-11-05T09:51:30.371Z
+- Generated: 2026-11-05T10:14:10.330Z
 
 ## Assertions — 9/14 pass (1 skipped)
 

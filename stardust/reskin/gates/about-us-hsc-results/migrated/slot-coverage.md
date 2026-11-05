@@ -2,7 +2,7 @@
 
 - Model: stardust/reskin/content-model/about-us-hsc-results/content-model.json
 - Rendered: stardust/migrated/about-us/hsc-results/index.html (scope: `main`)
-- Generated: 2026-11-05T06:34:13.914Z
+- Generated: 2026-11-05T10:29:18.540Z
 
 ## slot-coverage — 21/22 pass
 

@@ -3,14 +3,12 @@
 <head>
 <!-- stardust:migrate
   writtenBy:        stardust:migrate
-  writtenAt:        2026-11-05T06:33:01Z
+  writtenAt:        2026-11-05T10:28:29Z
   page:             Policies and reports
   slug:             about-us-policies-and-reports
   pagePath:         migrated/about-us/policies-and-reports/index.html
-  renderBranch:     A'
-  template:         learning-and-support-learning
-  archetypePath:    stardust/reskin/pages/learning-and-support-learning.html
-  archetypeSha:     0925840f97e7
+  renderBranch:     A
+  sourceProposed:   stardust/reskin/pages/about-us-policies-and-reports.html
   sourceCurrent:    stardust/current/pages/about-us-policies-and-reports.json
   againstDirection: stardust/direction.md (Active 2026-11-05T06:31:12Z)
   designMd:         DESIGN.md (sha: 187c3f2f159f)
@@ -374,6 +372,24 @@
   .site-main .band .flow .heading.role-h4 { font-size: var(--type-h4-font-size); line-height: var(--type-h4-line-height); }
   .site-main .heading-display .heading { font-size: var(--type-display-font-size); line-height: var(--type-display-line-height); }
   .site-main .inset > .container { max-width: none; padding: 0 var(--band-inset); }
+  /* rails (mapping-json.md § rail): the source's side column sits beside the content, never after it */
+  @media (min-width: 901px) {
+    .site-main.has-rail { display: grid; grid-template-columns: var(--rail-width) minmax(0, 1fr); align-items: start; }
+    .site-main.has-rail.rail-end { grid-template-columns: minmax(0, 1fr) var(--rail-width); }
+    .site-main.has-rail > section { grid-column: 2; min-width: 0; }
+    .site-main.has-rail.rail-end > section { grid-column: 1; }
+    .site-main.has-rail > section.in-band { grid-column: 1 / -1; }
+    .site-main.has-rail > section.in-rail { grid-column: 1; }
+    .site-main.has-rail.rail-end > section.in-rail { grid-column: 2; }
+  }
+  /* one column at 900px and under: normal flow (the page's own margins), a flex column only to move a rail */
+  @media (max-width: 900px) {
+    .site-main.has-rail.rail-reorder { display: flex; flex-direction: column; }
+    .site-main.has-rail.rail-reorder > section.in-band { order: -2; }
+    .site-main.has-rail.rail-reorder > section.rail-mobile-top { order: -1; }
+    .site-main.has-rail.rail-reorder > section.rail-mobile-bottom { order: 1; }
+    .site-main.has-rail > section.rail-mobile-hidden { display: none; }
+  }
   .site-main h2.heading { font-size: var(--type-h2-font-size); line-height: var(--type-h2-line-height); font-weight: var(--type-h2-font-weight); }
   .site-main h3.heading { font-size: var(--type-h3-font-size); line-height: var(--type-h3-line-height); font-weight: var(--type-h3-font-weight); }
   .site-main h4.heading { font-size: var(--type-h4-font-size); line-height: var(--type-h4-line-height); font-weight: var(--type-h4-font-weight); }
@@ -539,7 +555,7 @@
 </style>
 <!-- stardust:prototype
   writtenBy:        stardust:reskin/stream-render
-  writtenAt:        2026-11-05T06:28:21.925Z
+  writtenAt:        2026-11-05T10:11:09.899Z
   page:             about-us-policies-and-reports
   pageUrl:          https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports
   template:         learning-and-support-learning
@@ -586,14 +602,14 @@
       <div class="nav-actions"><a class="sr-only" href="../../index.html#main-nav" data-source-href="https://fortstreet-h.schools.nsw.gov.au/#main-nav">Skip to navigation</a><a class="sr-only" href="../../index.html#main" data-source-href="https://fortstreet-h.schools.nsw.gov.au/#main">Skip to content</a><button class="icon-btn" type="button"><span class="glyph glyph-search" aria-hidden="true">search</span></button><button class="sr-only" type="button"><span class="sr-only">Show</span></button><button class="sr-only" type="button"><span class="sr-only">Search</span></button><button class="icon-btn nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><span class="glyph glyph-menu" aria-hidden="true"></span></button></div>
     </div></div>
 </header>
-<main class="site-main" data-template="learning-and-support-learning">
-  <section class="band layout-stack width-wide inset" style="--band-inset: 16px" data-slot="s01" data-module="M3" data-section="1">
+<main class="site-main has-rail rail-start" style="--rail-width: 400px" data-template="learning-and-support-learning">
+  <section class="band layout-stack width-wide inset in-band" style="--band-inset: 16px; grid-row: 1" data-slot="s01" data-module="M3" data-section="1">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <ul class="list list-inline"><li><a class="link" href="../../index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/">Home</a></li><li><a class="link" href="../../about-us/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/about-us">About us</a></li><li><a class="link" aria-current="page">Policies and reports</a></li></ul>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px" data-slot="s02" data-module="M5b" data-section="2">
+  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px; grid-row: 2" data-slot="s02" data-module="M5b" data-section="2">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h1 class="heading">Our policies and reports</h1>
@@ -601,7 +617,7 @@
         <p class="lead">Our policies and reports help families understand how our school works. Our annual report and school plan show what we’ve done and how we’re improving each year. Our policies address attendance, absences, behaviour, uniform and how we respond to your concerns.</p>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px" data-slot="s03" data-module="M5b" data-section="3">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 3" data-slot="s03" data-module="M5b" data-section="3">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Annual school report</h2>
@@ -610,7 +626,7 @@
         <ul class="list"><li>the progress we have made to provide high-quality educational opportunities for every child as set out in the school plan</li><li>the impact of our strategies for improved learning</li><li>the benefit to all students from resources including equity funding</li><li>our operations and achievements throughout the year.</li><li><a class="link" href="https://reports.sparo.schools.nsw.gov.au/annual-report/2025/8504/2025_Fort_Street_High_School_Annual_Report.pdf">2025 Annual Report (PDF 672.3KB)</a></li><li><a class="link" href="https://reports.sparo.schools.nsw.gov.au/annual-report/2024/8504/2024_Fort_Street_High_School_Annual_Report.pdf">2024 Annual Report (PDF 689.7KB)</a></li></ul>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px" data-slot="s04" data-module="M5b" data-section="4">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 4" data-slot="s04" data-module="M5b" data-section="4">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">School excellence plan</h2>
@@ -622,7 +638,7 @@
         <ul class="list"><li><a class="link" href="https://reports.sparo.schools.nsw.gov.au/plan-report/2024/8504/2024-2027_Fort_Street_High_School_SIP.pdf">2024-2027 School Excellence Plan (PDF 466.3KB)</a></li><li><a class="link" href="https://reports.sparo.schools.nsw.gov.au/plan-report/2021/8504/2021-2025_Fort_Street_High_School_SIP.pdf">2021-2025 School Excellence Plan (PDF 488.1KB)</a></li></ul>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px" data-slot="s05" data-module="M5b" data-section="5">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 5" data-slot="s05" data-module="M5b" data-section="5">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">School behaviour support and management plan</h2>
@@ -630,7 +646,7 @@
         <div class="actions"><a class="btn" href="https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/Fort%20Street%20HS%20-%20School%20Behaviour%20Support%20and%20Management%20Plan%20as%20of%2016%20June%202026.pdf">Fort Street High School behaviour support and management plan</a></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px" data-slot="s06" data-section="6">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 6" data-slot="s06" data-section="6">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">School policies</h2>
@@ -649,7 +665,7 @@
         <p class="lead">Anti-Racism Contact Officer (ARCO) - Ms Jenny Xu</p></div></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px" data-slot="s07" data-module="M9b" data-section="7">
+  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px; grid-row: 7" data-slot="s07" data-module="M9b" data-section="7">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Have a question about a policy or a report?</h2>
@@ -657,7 +673,7 @@
         <div class="actions"><a class="btn" href="../../contact-us/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/contact-us">Contact us</a></div>
       </div></div></div>
     </section>
-  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px" data-slot="s08" data-module="M11b" data-section="8">
+  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 8" data-slot="s08" data-module="M11b" data-section="8">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <div class="cards" style="--cards-columns: 2"><div class="card"><p class="aux"><a class="link" href="../../about-us/policies-and-reports/nsw-public-school-information/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports/nsw-public-school-information">NSW public school information</a></p>
@@ -667,7 +683,7 @@
         <span class="glyph glyph-right" aria-hidden="true">east</span></div></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h4 inset" style="--band-inset: 16px" data-slot="s09" data-module="M3" data-section="9">
+  <section class="band layout-stack width-wide heading-h4 inset in-rail rail-mobile-hidden" style="--band-inset: 16px; grid-row: 2 / 9" data-slot="s09" data-module="M3" data-section="9">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Section navigation</h2>

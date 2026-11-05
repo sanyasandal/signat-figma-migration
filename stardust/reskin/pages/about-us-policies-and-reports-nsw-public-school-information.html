@@ -226,11 +226,12 @@
     .site-main.has-rail > section.in-rail { grid-column: 1; }
     .site-main.has-rail.rail-end > section.in-rail { grid-column: 2; }
   }
+  /* one column at 900px and under: normal flow (the page's own margins), a flex column only to move a rail */
   @media (max-width: 900px) {
-    .site-main.has-rail { display: flex; flex-direction: column; }
-    .site-main.has-rail > section.in-band { order: -2; }
-    .site-main.has-rail > section.rail-mobile-top { order: -1; }
-    .site-main.has-rail > section.rail-mobile-bottom { order: 1; }
+    .site-main.has-rail.rail-reorder { display: flex; flex-direction: column; }
+    .site-main.has-rail.rail-reorder > section.in-band { order: -2; }
+    .site-main.has-rail.rail-reorder > section.rail-mobile-top { order: -1; }
+    .site-main.has-rail.rail-reorder > section.rail-mobile-bottom { order: 1; }
     .site-main.has-rail > section.rail-mobile-hidden { display: none; }
   }
   .site-main h2.heading { font-size: var(--type-h2-font-size); line-height: var(--type-h2-line-height); font-weight: var(--type-h2-font-weight); }
@@ -398,7 +399,7 @@
 </style>
 <!-- stardust:prototype
   writtenBy:        stardust:reskin/stream-render
-  writtenAt:        2026-11-05T09:48:31.204Z
+  writtenAt:        2026-11-05T10:11:10.735Z
   page:             about-us-policies-and-reports-nsw-public-school-information
   pageUrl:          https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports/nsw-public-school-information
   template:         learning-and-support-learning

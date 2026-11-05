@@ -3,7 +3,7 @@
 - Tokens: stardust/reskin/donor-tokens.json
 - Rendered: stardust/migrated/about-us/school-history-and-archives/the-fort-street-museum/index.html
 - Spec: default (rendered-page conventions)
-- Generated: 2026-11-05T06:34:14.531Z
+- Generated: 2026-11-05T10:29:39.005Z
 
 ## Assertions — 9/9 pass (6 skipped)
 

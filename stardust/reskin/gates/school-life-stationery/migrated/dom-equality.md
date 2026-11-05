@@ -2,7 +2,7 @@
 
 - Source: https://fortstreet-h.schools.nsw.gov.au/school-life/stationery (scopes: `nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!`, normalize: `/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/school-life-stationery.mjs`)
 - Rendered: stardust/migrated/school-life/stationery/index.html (scope: `main`)
-- Generated: 2026-11-05T06:35:53.507Z
+- Generated: 2026-11-05T10:31:47.958Z
 
 ## Primary checks (gating)
 

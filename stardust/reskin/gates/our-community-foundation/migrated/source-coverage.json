@@ -1,0 +1,37 @@
+{
+  "model": "stardust/reskin/content-model/our-community-foundation/content-model.json",
+  "target": "stardust/migrated/our-community/foundation/index.html",
+  "verdict": "PASS",
+  "fails": 0,
+  "rows": [
+    {
+      "check": "S2",
+      "verdict": "ok",
+      "detail": "settled in 1508ms, 0 late chars captured"
+    },
+    {
+      "check": "S3",
+      "slot": "s03",
+      "source": "tinted",
+      "target": "page",
+      "verdict": "WARN",
+      "probe": "Many Australian companies offer a matching gifts program, wh"
+    },
+    {
+      "check": "S3",
+      "slot": "s05",
+      "source": "dark",
+      "target": "dark",
+      "verdict": "carried",
+      "probe": "Reunions"
+    },
+    {
+      "check": "S4",
+      "key": "s07",
+      "source": "rail-start",
+      "target": "rail-start",
+      "verdict": "carried",
+      "sample": "Section navigation | Our community | Alumni"
+    }
+  ]
+}

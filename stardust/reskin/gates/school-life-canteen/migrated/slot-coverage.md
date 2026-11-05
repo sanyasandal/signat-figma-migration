@@ -2,7 +2,7 @@
 
 - Model: stardust/reskin/content-model/school-life-canteen/content-model.json
 - Rendered: stardust/migrated/school-life/canteen/index.html (scope: `main`)
-- Generated: 2026-11-05T06:35:31.490Z
+- Generated: 2026-11-05T10:31:28.355Z
 
 ## slot-coverage — 33/34 pass
 

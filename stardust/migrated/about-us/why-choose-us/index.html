@@ -3,14 +3,12 @@
 <head>
 <!-- stardust:migrate
   writtenBy:        stardust:migrate
-  writtenAt:        2026-11-05T06:33:01Z
+  writtenAt:        2026-11-05T10:28:29Z
   page:             Why choose us?
   slug:             about-us-why-choose-us
   pagePath:         migrated/about-us/why-choose-us/index.html
-  renderBranch:     A'
-  template:         learning-and-support-learning
-  archetypePath:    stardust/reskin/pages/learning-and-support-learning.html
-  archetypeSha:     0925840f97e7
+  renderBranch:     A
+  sourceProposed:   stardust/reskin/pages/about-us-why-choose-us.html
   sourceCurrent:    stardust/current/pages/about-us-why-choose-us.json
   againstDirection: stardust/direction.md (Active 2026-11-05T06:31:12Z)
   designMd:         DESIGN.md (sha: 187c3f2f159f)
@@ -374,6 +372,24 @@
   .site-main .band .flow .heading.role-h4 { font-size: var(--type-h4-font-size); line-height: var(--type-h4-line-height); }
   .site-main .heading-display .heading { font-size: var(--type-display-font-size); line-height: var(--type-display-line-height); }
   .site-main .inset > .container { max-width: none; padding: 0 var(--band-inset); }
+  /* rails (mapping-json.md § rail): the source's side column sits beside the content, never after it */
+  @media (min-width: 901px) {
+    .site-main.has-rail { display: grid; grid-template-columns: var(--rail-width) minmax(0, 1fr); align-items: start; }
+    .site-main.has-rail.rail-end { grid-template-columns: minmax(0, 1fr) var(--rail-width); }
+    .site-main.has-rail > section { grid-column: 2; min-width: 0; }
+    .site-main.has-rail.rail-end > section { grid-column: 1; }
+    .site-main.has-rail > section.in-band { grid-column: 1 / -1; }
+    .site-main.has-rail > section.in-rail { grid-column: 1; }
+    .site-main.has-rail.rail-end > section.in-rail { grid-column: 2; }
+  }
+  /* one column at 900px and under: normal flow (the page's own margins), a flex column only to move a rail */
+  @media (max-width: 900px) {
+    .site-main.has-rail.rail-reorder { display: flex; flex-direction: column; }
+    .site-main.has-rail.rail-reorder > section.in-band { order: -2; }
+    .site-main.has-rail.rail-reorder > section.rail-mobile-top { order: -1; }
+    .site-main.has-rail.rail-reorder > section.rail-mobile-bottom { order: 1; }
+    .site-main.has-rail > section.rail-mobile-hidden { display: none; }
+  }
   .site-main h2.heading { font-size: var(--type-h2-font-size); line-height: var(--type-h2-line-height); font-weight: var(--type-h2-font-weight); }
   .site-main h3.heading { font-size: var(--type-h3-font-size); line-height: var(--type-h3-line-height); font-weight: var(--type-h3-font-weight); }
   .site-main h4.heading { font-size: var(--type-h4-font-size); line-height: var(--type-h4-line-height); font-weight: var(--type-h4-font-weight); }
@@ -539,7 +555,7 @@
 </style>
 <!-- stardust:prototype
   writtenBy:        stardust:reskin/stream-render
-  writtenAt:        2026-11-05T06:32:18.681Z
+  writtenAt:        2026-11-05T10:11:43.190Z
   page:             about-us-why-choose-us
   pageUrl:          https://fortstreet-h.schools.nsw.gov.au/about-us/why-choose-us
   template:         learning-and-support-learning
@@ -586,14 +602,14 @@
       <div class="nav-actions"><a class="sr-only" href="../../index.html#main-nav" data-source-href="https://fortstreet-h.schools.nsw.gov.au/#main-nav">Skip to navigation</a><a class="sr-only" href="../../index.html#main" data-source-href="https://fortstreet-h.schools.nsw.gov.au/#main">Skip to content</a><button class="icon-btn" type="button"><span class="glyph glyph-search" aria-hidden="true">search</span></button><button class="sr-only" type="button"><span class="sr-only">Show</span></button><button class="sr-only" type="button"><span class="sr-only">Search</span></button><button class="icon-btn nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><span class="glyph glyph-menu" aria-hidden="true"></span></button></div>
     </div></div>
 </header>
-<main class="site-main" data-template="learning-and-support-learning">
-  <section class="band layout-stack width-wide inset" style="--band-inset: 16px" data-slot="s01" data-module="M3" data-section="1">
+<main class="site-main has-rail rail-start" style="--rail-width: 400px" data-template="learning-and-support-learning">
+  <section class="band layout-stack width-wide inset in-band" style="--band-inset: 16px; grid-row: 1" data-slot="s01" data-module="M3" data-section="1">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <ul class="list list-inline"><li><a class="link" href="../../index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/">Home</a></li><li><a class="link" href="../../about-us/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/about-us">About us</a></li><li><a class="link" aria-current="page">Why choose us?</a></li></ul>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px" data-slot="s02" data-module="M5b" data-section="2">
+  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px; grid-row: 2" data-slot="s02" data-module="M5b" data-section="2">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h1 class="heading">Why choose us?</h1>
@@ -602,7 +618,7 @@
         <p class="lead">Our school community is culturally and liguistically diverse with 73% of students from language backgrounds other than English. We are proud to be part of a strong public education system and welcome students from all backgrounds and cultures.</p>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px" data-slot="s03" data-module="M9b" data-section="3">
+  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px; grid-row: 3" data-slot="s03" data-module="M9b" data-section="3">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Our vision</h2>
@@ -612,14 +628,14 @@
         <p class="lead">The Fort Street community believes that every student and teacher should be challenged to learn and continually improve in a respectful, inclusive, engaging and high expectation environment.</p>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px" data-slot="s04" data-module="M5b" data-section="4">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 4" data-slot="s04" data-module="M5b" data-section="4">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Take a virtual tour with our Student Leaders</h2>
         <p class="aux"><a class="link" href="../../about-us/why-choose-us/index.html#after-map" data-source-href="https://fortstreet-h.schools.nsw.gov.au/about-us/why-choose-us#after-map">Skip Google Map</a></p>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px" data-slot="s05" data-module="M5b" data-section="5">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 5" data-slot="s05" data-module="M5b" data-section="5">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <p class="lead">At the Fort, students are prepared to excel and lead in a vast number of career paths and to become contributors to society with a highly developed social conscience. The school is known for developing leadership across an extensive range of areas and endeavours and prides itself in providing a wide range of extra-curricular programs in Sport, Science, Technology and Creative and Performing Arts which enhance the learning of our students. Over one third of all Fortians participate in the prestigious Instrumental Music Program; Fort Street also facilitates the largest Duke of Edinburgh program in all NSW state schools.</p>
@@ -627,7 +643,7 @@
         <figure class="media media-wide"><img src="../../assets/img/fortstreet-h.schools.nsw.gov.au/about-us/media_12c6cd7db4a7e656f8deb88d958fd0ffe258b500b-3d5a5588.jpg" data-source-src="https://fortstreet-h.schools.nsw.gov.au/about-us/media_12c6cd7db4a7e656f8deb88d958fd0ffe258b500b.jpg?width=2000&amp;format=webply&amp;optimize=medium" alt="Ms Juliette McMurray, Principal with students"></figure>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-narrow tone-light heading-display bleed align-center" data-slot="s06" data-module="M5" data-section="6">
+  <section class="band layout-stack width-narrow tone-light heading-display bleed align-center" style="grid-row: 6" data-slot="s06" data-module="M5" data-section="6">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Ready to apply?</h2>
@@ -635,31 +651,31 @@
         <div class="actions"><a class="btn" href="../../about-us/enrol/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/about-us/enrol">How to apply</a></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px" data-slot="s07" data-module="M5b" data-section="7">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 7" data-slot="s07" data-module="M5b" data-section="7">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">What families value about Fort Street</h2>
       </div></div></div>
     </section>
-  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px" data-slot="s08" data-module="M11b" data-section="8">
+  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 8" data-slot="s08" data-module="M11b" data-section="8">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
-          <div class="cards" style="--cards-columns: 2"><div class="card"><figure class="media"><img src="../../assets/img/fortstreet-h.schools.nsw.gov.au/about-us/media_167e8f824a83aca35c48598b13f24e870e92868fc-2f4d9dd0.jpg" data-source-src="https://fortstreet-h.schools.nsw.gov.au/about-us/media_167e8f824a83aca35c48598b13f24e870e92868fc.jpg?width=750&amp;format=jpg&amp;optimize=medium" alt="students"></figure>
+          <div class="cards" style="--cards-columns: 2"><div class="card"><figure class="media"><img src="../../assets/img/fortstreet-h.schools.nsw.gov.au/about-us/media_167e8f824a83aca35c48598b13f24e870e92868fc-957b21a4.jpg" data-source-src="https://fortstreet-h.schools.nsw.gov.au/about-us/media_167e8f824a83aca35c48598b13f24e870e92868fc.jpg?width=750&amp;format=webply&amp;optimize=medium" alt="students"></figure>
         <p class="aux"><a class="link" href="../../school-life/student-opportunities-and-activities/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities">Extensive range of student opportunities and activities</a></p>
         <p class="lead">At Fort Street High School, we offer a variety of programs in the classroom and across the school to help students build new skills, make friends and explore new interests.</p>
         <span class="glyph glyph-right" aria-hidden="true">east</span></div><div class="card"><figure class="media"><img src="../../assets/img/fortstreet-h.schools.nsw.gov.au/about-us/media_15636a0c76544a40b07cf08bb886e5acaa80d387d-957b21a4.jpg" data-source-src="https://fortstreet-h.schools.nsw.gov.au/about-us/media_15636a0c76544a40b07cf08bb886e5acaa80d387d.jpg?width=750&amp;format=webply&amp;optimize=medium" alt="students"></figure>
         <p class="aux"><a class="link" href="../../learning-and-support/wellbeing/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/learning-and-support/wellbeing">Wellbeing at Fort Street is for all students</a></p>
         <p class="lead">A focus on wellbeing goes beyond the welfare needs of a few individual students and aims for all students to be healthy, happy, successful and productive individuals who are active and positive contributors to the school and society in which they live.</p>
-        <span class="glyph glyph-right" aria-hidden="true">east</span></div><div class="card"><figure class="media"><img src="../../assets/img/fortstreet-h.schools.nsw.gov.au/about-us/media_1c9f7867e2df4ed6af3fe3bd3c1d6b437a72488f8-2f4d9dd0.jpg" data-source-src="https://fortstreet-h.schools.nsw.gov.au/about-us/media_1c9f7867e2df4ed6af3fe3bd3c1d6b437a72488f8.jpg?width=750&amp;format=jpg&amp;optimize=medium" alt="students"></figure>
+        <span class="glyph glyph-right" aria-hidden="true">east</span></div><div class="card"><figure class="media"><img src="../../assets/img/fortstreet-h.schools.nsw.gov.au/about-us/media_1c9f7867e2df4ed6af3fe3bd3c1d6b437a72488f8-957b21a4.jpg" data-source-src="https://fortstreet-h.schools.nsw.gov.au/about-us/media_1c9f7867e2df4ed6af3fe3bd3c1d6b437a72488f8.jpg?width=750&amp;format=webply&amp;optimize=medium" alt="students"></figure>
         <p class="aux"><a class="link" href="../../learning-and-support/learning/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/learning-and-support/learning">High quality education</a></p>
         <p class="lead">The Fort Street High School ethos is to engage Fortians in effective learning, developing teamwork and problem-solving to become critical, creative, ethical thinkers and leaders of the 21st century.</p>
-        <span class="glyph glyph-right" aria-hidden="true">east</span></div><div class="card"><figure class="media"><img src="../../assets/img/fortstreet-h.schools.nsw.gov.au/about-us/media_16823c7d5cce1ab051bb5f032f4b98684c9b60c13-2f4d9dd0.jpg" data-source-src="https://fortstreet-h.schools.nsw.gov.au/about-us/media_16823c7d5cce1ab051bb5f032f4b98684c9b60c13.jpg?width=750&amp;format=jpg&amp;optimize=medium" alt="students"></figure>
+        <span class="glyph glyph-right" aria-hidden="true">east</span></div><div class="card"><figure class="media"><img src="../../assets/img/fortstreet-h.schools.nsw.gov.au/about-us/media_16823c7d5cce1ab051bb5f032f4b98684c9b60c13-957b21a4.jpg" data-source-src="https://fortstreet-h.schools.nsw.gov.au/about-us/media_16823c7d5cce1ab051bb5f032f4b98684c9b60c13.jpg?width=750&amp;format=webply&amp;optimize=medium" alt="students"></figure>
         <p class="aux"><a class="link" href="../../school-life/travel-to-school/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school">Easy to access</a></p>
         <p class="lead">Located in PETERSHAM, our school is easy to access by public transport, walking or driving. This makes every day at school more convenient for our families.</p>
         <span class="glyph glyph-right" aria-hidden="true">east</span></div></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-narrow tone-light heading-display bleed align-center" data-slot="s09" data-module="M5" data-section="9">
+  <section class="band layout-stack width-narrow tone-light heading-display bleed align-center" style="grid-row: 9" data-slot="s09" data-module="M5" data-section="9">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <p class="lead">&quot;As a parent of both a graduate and a current student at Fort Street High School, I can confidently say the school deserves its excellent reputation.</p>
@@ -667,7 +683,7 @@
         <p class="lead">Elizabeth— a parent of Fort Street High School</p>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px" data-slot="s10" data-module="M9b" data-section="10">
+  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px; grid-row: 10" data-slot="s10" data-module="M9b" data-section="10">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Ready to apply?</h2>
@@ -675,7 +691,7 @@
         <div class="actions"><a class="btn" href="../../about-us/enrol/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/about-us/enrol">How to apply</a></div>
       </div></div></div>
     </section>
-  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px" data-slot="s11" data-module="M11b" data-section="11">
+  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 11" data-slot="s11" data-module="M11b" data-section="11">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <div class="cards" style="--cards-columns: 2"><div class="card"><p class="aux"><a class="link" href="../../about-us/stories-and-highlights/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/about-us/stories-and-highlights">Stories and highlights</a></p>
@@ -685,7 +701,7 @@
         <span class="glyph glyph-right" aria-hidden="true">east</span></div></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h4 inset" style="--band-inset: 16px" data-slot="s12" data-module="M3" data-section="12">
+  <section class="band layout-stack width-wide heading-h4 inset in-rail rail-mobile-hidden" style="--band-inset: 16px; grid-row: 2 / 12" data-slot="s12" data-module="M3" data-section="12">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Section navigation</h2>

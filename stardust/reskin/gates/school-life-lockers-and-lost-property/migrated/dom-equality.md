@@ -2,7 +2,7 @@
 
 - Source: https://fortstreet-h.schools.nsw.gov.au/school-life/lockers-and-lost-property (scopes: `nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!`, normalize: `/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/school-life-lockers-and-lost-property.mjs`)
 - Rendered: stardust/migrated/school-life/lockers-and-lost-property/index.html (scope: `main`)
-- Generated: 2026-11-05T06:35:43.886Z
+- Generated: 2026-11-05T10:31:45.977Z
 
 ## Primary checks (gating)
 

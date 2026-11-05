@@ -3,7 +3,7 @@
 - Tokens: stardust/reskin/donor-tokens.json
 - Rendered: stardust/migrated/school-life/stationery/index.html
 - Spec: default (rendered-page conventions)
-- Generated: 2026-11-05T06:36:00.186Z
+- Generated: 2026-11-05T10:31:54.589Z
 
 ## Assertions — 9/9 pass (6 skipped)
 

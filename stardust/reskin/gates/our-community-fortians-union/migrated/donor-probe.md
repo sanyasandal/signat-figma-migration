@@ -3,7 +3,7 @@
 - Tokens: stardust/reskin/donor-tokens.json
 - Rendered: stardust/migrated/our-community/fortians-union/index.html
 - Spec: default (rendered-page conventions)
-- Generated: 2026-11-05T06:35:11.497Z
+- Generated: 2026-11-05T10:30:49.142Z
 
 ## Assertions — 9/9 pass (6 skipped)
 

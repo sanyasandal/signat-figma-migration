@@ -2,7 +2,7 @@
 
 - Model: stardust/reskin/content-model/school-life-student-opportunities-and-activities-debating-and-public-speaking/content-model.json
 - Rendered: stardust/migrated/school-life/student-opportunities-and-activities/debating-and-public-speaking/index.html (scope: `main`)
-- Generated: 2026-11-05T06:36:07.648Z
+- Generated: 2026-11-05T10:32:11.894Z
 
 ## slot-coverage — 36/37 pass
 

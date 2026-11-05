@@ -1,0 +1,29 @@
+{
+  "model": "stardust/reskin/content-model/school-life-student-opportunities-and-activities-academic-competitions/content-model.json",
+  "target": "stardust/migrated/school-life/student-opportunities-and-activities/academic-competitions/index.html",
+  "verdict": "PASS",
+  "fails": 0,
+  "rows": [
+    {
+      "check": "S2",
+      "verdict": "ok",
+      "detail": "settled in 1508ms, 0 late chars captured"
+    },
+    {
+      "check": "S3",
+      "slot": "s03",
+      "source": "dark",
+      "target": "dark",
+      "verdict": "carried",
+      "probe": "Need to make a payment?"
+    },
+    {
+      "check": "S4",
+      "key": "s05",
+      "source": "rail-start",
+      "target": "rail-start",
+      "verdict": "carried",
+      "sample": "Section navigation | School life | Bell times"
+    }
+  ]
+}

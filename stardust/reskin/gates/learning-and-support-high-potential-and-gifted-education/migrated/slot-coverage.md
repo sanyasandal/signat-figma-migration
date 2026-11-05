@@ -2,7 +2,7 @@
 
 - Model: stardust/reskin/content-model/learning-and-support-high-potential-and-gifted-education/content-model.json
 - Rendered: stardust/migrated/learning-and-support/high-potential-and-gifted-education/index.html (scope: `main`)
-- Generated: 2026-11-05T07:09:22.804Z
+- Generated: 2026-11-05T10:30:24.827Z
 
 ## slot-coverage — 26/27 pass
 

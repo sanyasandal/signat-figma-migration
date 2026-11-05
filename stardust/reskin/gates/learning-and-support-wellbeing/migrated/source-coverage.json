@@ -1,0 +1,29 @@
+{
+  "model": "stardust/reskin/content-model/learning-and-support-wellbeing/content-model.json",
+  "target": "stardust/migrated/learning-and-support/wellbeing/index.html",
+  "verdict": "PASS",
+  "fails": 0,
+  "rows": [
+    {
+      "check": "S2",
+      "verdict": "ok",
+      "detail": "settled in 1511ms, 0 late chars captured"
+    },
+    {
+      "check": "S3",
+      "slot": "s07",
+      "source": "dark",
+      "target": "dark",
+      "verdict": "carried",
+      "probe": "Need support for your child's wellbeing?"
+    },
+    {
+      "check": "S4",
+      "key": "s09",
+      "source": "rail-start",
+      "target": "rail-start",
+      "verdict": "carried",
+      "sample": "Section navigation | Learning and support | Additional learning support"
+    }
+  ]
+}

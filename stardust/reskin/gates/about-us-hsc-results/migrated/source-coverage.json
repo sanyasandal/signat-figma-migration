@@ -1,0 +1,29 @@
+{
+  "model": "stardust/reskin/content-model/about-us-hsc-results/content-model.json",
+  "target": "stardust/migrated/about-us/hsc-results/index.html",
+  "verdict": "PASS",
+  "fails": 0,
+  "rows": [
+    {
+      "check": "S2",
+      "verdict": "ok",
+      "detail": "settled in 1511ms, 0 late chars captured"
+    },
+    {
+      "check": "S3",
+      "slot": "s03",
+      "source": "dark",
+      "target": "dark",
+      "verdict": "carried",
+      "probe": "HSC Distinguished Achievers"
+    },
+    {
+      "check": "S4",
+      "key": "s05",
+      "source": "rail-start",
+      "target": "rail-start",
+      "verdict": "carried",
+      "sample": "Section navigation | About us | Enrol"
+    }
+  ]
+}

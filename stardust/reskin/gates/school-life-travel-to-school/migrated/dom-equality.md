@@ -2,7 +2,7 @@
 
 - Source: https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school (scopes: `nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!`, normalize: `/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/school-life-travel-to-school.mjs`)
 - Rendered: stardust/migrated/school-life/travel-to-school/index.html (scope: `main`)
-- Generated: 2026-11-05T06:36:37.664Z
+- Generated: 2026-11-05T10:32:53.023Z
 
 ## Primary checks (gating)
 

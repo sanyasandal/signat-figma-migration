@@ -914,11 +914,12 @@ export function render({ slug, model, tokens, mapping, chromeModel = null, now =
     .site-main.has-rail > section.in-rail { grid-column: 1; }
     .site-main.has-rail.rail-end > section.in-rail { grid-column: 2; }
   }
+  /* one column at 900px and under: normal flow (the page's own margins), a flex column only to move a rail */
   @media (max-width: 900px) {
-    .site-main.has-rail { display: flex; flex-direction: column; }
-    .site-main.has-rail > section.in-band { order: -2; }
-    .site-main.has-rail > section.rail-mobile-top { order: -1; }
-    .site-main.has-rail > section.rail-mobile-bottom { order: 1; }
+    .site-main.has-rail.rail-reorder { display: flex; flex-direction: column; }
+    .site-main.has-rail.rail-reorder > section.in-band { order: -2; }
+    .site-main.has-rail.rail-reorder > section.rail-mobile-top { order: -1; }
+    .site-main.has-rail.rail-reorder > section.rail-mobile-bottom { order: 1; }
     .site-main.has-rail > section.rail-mobile-hidden { display: none; }
   }
   ${['h2', 'h3', 'h4'].filter((h) => has(`--type-${h}-font-size`)).map((h) => `.site-main ${h}.heading { font-size: var(--type-${h}-font-size); line-height: ${v(`--type-${h}-line-height`, '1.2')}; font-weight: ${v(`--type-${h}-font-weight`, 'inherit')}; }`).join('\n  ')}
@@ -1108,7 +1109,7 @@ ${css}
 <header class="site-header" data-canon="header">
   ${headerHtml}
 </header>
-<main class="site-main${railSideOfPage ? ` has-rail rail-${railSideOfPage}` : ''}"${railSideOfPage ? ` style="--rail-width: ${railWidthOf(railSlots[0])}"` : ''} data-template="${esc(pageMap.template || slug)}">
+<main class="site-main${railSideOfPage ? ` has-rail rail-${railSideOfPage}${railSlots.some((r) => railMobileOf(r) !== 'hidden') ? ' rail-reorder' : ''}` : ''}"${railSideOfPage ? ` style="--rail-width: ${railWidthOf(railSlots[0])}"` : ''} data-template="${esc(pageMap.template || slug)}">
   ${sections.join('\n  ')}
 </main>
 <footer class="site-footer${['dark', 'light', 'accent'].includes(mapping.chrome?.footerTone) ? ` tone-${mapping.chrome.footerTone}` : ''}" data-canon="footer">

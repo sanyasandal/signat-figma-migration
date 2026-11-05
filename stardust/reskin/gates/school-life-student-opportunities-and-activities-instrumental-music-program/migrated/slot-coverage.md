@@ -2,7 +2,7 @@
 
 - Model: stardust/reskin/content-model/school-life-student-opportunities-and-activities-instrumental-music-program/content-model.json
 - Rendered: stardust/migrated/school-life/student-opportunities-and-activities/instrumental-music-program/index.html (scope: `main`)
-- Generated: 2026-11-05T06:36:21.550Z
+- Generated: 2026-11-05T10:32:32.313Z
 
 ## slot-coverage — 48/49 pass
 

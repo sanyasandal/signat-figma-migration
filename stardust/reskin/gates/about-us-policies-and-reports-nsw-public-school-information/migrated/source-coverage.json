@@ -1,0 +1,37 @@
+{
+  "model": "stardust/reskin/content-model/about-us-policies-and-reports-nsw-public-school-information/content-model.json",
+  "target": "stardust/migrated/about-us/policies-and-reports/nsw-public-school-information/index.html",
+  "verdict": "PASS",
+  "fails": 0,
+  "rows": [
+    {
+      "check": "S2",
+      "verdict": "ok",
+      "detail": "settled in 1508ms, 0 late chars captured"
+    },
+    {
+      "check": "S3",
+      "slot": "s03",
+      "source": "dark",
+      "target": "dark",
+      "verdict": "carried",
+      "probe": "Understanding school policies"
+    },
+    {
+      "check": "S3",
+      "slot": "s04",
+      "source": "tinted",
+      "target": "tinted",
+      "verdict": "carried",
+      "probe": "Have a question?"
+    },
+    {
+      "check": "S4",
+      "key": "s06",
+      "source": "rail-start",
+      "target": "rail-start",
+      "verdict": "carried",
+      "sample": "Section navigation | About us | Enrol"
+    }
+  ]
+}

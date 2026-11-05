@@ -2,7 +2,7 @@
 
 - Source: https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/instrumental-music-program (scopes: `nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!`, normalize: `/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/school-life-student-opportunities-and-activities-instrumental-music-program.mjs`)
 - Rendered: stardust/migrated/school-life/student-opportunities-and-activities/instrumental-music-program/index.html (scope: `main`)
-- Generated: 2026-11-05T06:36:17.442Z
+- Generated: 2026-11-05T10:32:28.291Z
 
 ## Primary checks (gating)
 

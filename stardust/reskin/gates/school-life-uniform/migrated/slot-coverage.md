@@ -2,7 +2,7 @@
 
 - Model: stardust/reskin/content-model/school-life-uniform/content-model.json
 - Rendered: stardust/migrated/school-life/uniform/index.html (scope: `main`)
-- Generated: 2026-11-05T07:10:05.902Z
+- Generated: 2026-11-05T10:33:16.154Z
 
 ## slot-coverage — 31/32 pass
 

@@ -59,6 +59,10 @@
           "verdict": "FAIL",
           "report": "stardust/reskin/reports/home-donor-probe.md"
         },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/reports/home-source-coverage.json"
+        },
         "mobile-adapt-static": {
           "verdict": "PASS"
         },
@@ -93,6 +97,7 @@
             "verdict": "PASS",
             "hard": true
           },
+          "coverage": "PASS",
           "figma": {
             "regime": "preview",
             "figmaVersion": "2418082557428609783",
@@ -106,7 +111,7 @@
             "waiverBudget": 55,
             "invocation": "figma-gate.mjs all --page home --url https://reskin--signat-figma-migration--sanyasandal.aem.page/reskin/ --target preview --reskin stardust/reskin/pages/home.html --waiver-budget 55 --dir stardust"
           },
-          "codeStamp": "f085edeade7252cf",
+          "codeStamp": "24dd45ca8c0606db",
           "invocation": "deployed-gate.mjs all --page home --waiver-budget 55"
         },
         "step10": {
@@ -122,7 +127,7 @@
       "status": "gated",
       "prototypeSha": "715044d86445",
       "prototypePath": "stardust/reskin/pages/home.html",
-      "recordedAt": "2026-11-05T07:47:42Z",
+      "recordedAt": "2026-11-05T10:28:19Z",
       "residualHistory": [
         {
           "at": "2026-11-05T03:53:22Z",
@@ -250,7 +255,7 @@
           "regime": "local",
           "figmaVersion": "2418082557428609783",
           "join": "PASS",
-          "geometry": "PASS 8/8",
+          "geometry": "PASS 1/1 (7 unasserted)",
           "ramp": "FAIL 36/133 (15 unserved)",
           "pixel": "s01 n/a: frame content differs, s02 n/a: frame content differs, s03 n/a: frame content differs, s05 n/a: frame content differs, s06 n/a: frame content differs, s07 n/a: frame content differs, s08 n/a: frame content differs, s09 n/a: frame content differs",
           "register": "mandated 0 · waived 11 · unmandated 36 · out-of-kit 1 · conflict 2 · pre-existing 0",
@@ -274,6 +279,7 @@
             "verdict": "PASS",
             "hard": true
           },
+          "coverage": "PASS",
           "figma": {
             "regime": "preview",
             "figmaVersion": "2418082557428609783",
@@ -287,7 +293,7 @@
             "waiverBudget": 55,
             "invocation": "figma-gate.mjs all --page learning-and-support-learning --url https://reskin--signat-figma-migration--sanyasandal.aem.page/reskin/learning-and-support/learning --target preview --reskin stardust/reskin/pages/learning-and-support-learning.html --waiver-budget 55 --dir stardust"
           },
-          "codeStamp": "f085edeade7252cf",
+          "codeStamp": "24dd45ca8c0606db",
           "invocation": "deployed-gate.mjs all --page learning-and-support-learning --waiver-budget 55"
         },
         "step10": {
@@ -300,10 +306,10 @@
           "at": "2026-11-05T05:05:29Z"
         }
       },
-      "status": "failing",
-      "prototypeSha": "43488c5403a7",
+      "status": "gated",
+      "prototypeSha": "e70b1e36fc56",
       "prototypePath": "stardust/reskin/pages/learning-and-support-learning.html",
-      "recordedAt": "2026-11-05T09:51:56Z",
+      "recordedAt": "2026-11-05T10:28:21Z",
       "residualHistory": [
         {
           "at": "2026-11-05T05:04:14Z",
@@ -367,10 +373,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/school-life-house-and-merit-system/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-house-and-merit-system/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T06:41:35Z"
+      "recordedAt": "2026-11-05T10:36:40Z"
     },
     "about-us-our-principal-and-staff": {
       "residuals": [
@@ -427,10 +437,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/about-us-our-principal-and-staff/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us-our-principal-and-staff/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T07:48:38Z",
+      "recordedAt": "2026-11-05T10:36:39Z",
       "gates": {
         "reskin-dom-equality": {
           "verdict": "PASS",
@@ -508,10 +522,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/learning-and-support-additional-learning-support/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/learning-and-support-additional-learning-support/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T06:41:33Z"
+      "recordedAt": "2026-11-05T10:36:39Z"
     },
     "school-life-parent-portal": {
       "residuals": [
@@ -549,7 +567,7 @@
         {
           "gate": "deployed.parity",
           "class": "deployed.parity",
-          "cause": "s06/s07 bands 11–14% shorter than the reskin page; mobile pixel 24%; content identical",
+          "cause": "s06/s07 bands 11–14% shorter than the reskin page; mobile pixel 26%, page height -276px (5.3%: the same deficit as before the rail fix, over a page 425px shorter now the hidden rail no longer stacks); content identical",
           "verdict": "needs-owner",
           "note": null,
           "at": "2026-11-05T07:47:01Z"
@@ -568,10 +586,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/school-life-parent-portal/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-parent-portal/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T07:48:37Z",
+      "recordedAt": "2026-11-05T10:36:39Z",
       "gates": {
         "reskin-dom-equality": {
           "verdict": "PASS",
@@ -616,7 +638,19 @@
       },
       "status": "failing",
       "prototypeSha": "010a8e6de0dd",
-      "prototypePath": "stardust/reskin/pages/school-life-parent-portal.html"
+      "prototypePath": "stardust/reskin/pages/school-life-parent-portal.html",
+      "residualHistory": [
+        {
+          "at": "2026-11-05T10:28:12Z",
+          "action": "rename-cause",
+          "gate": "deployed.parity",
+          "cause": "s06/s07 bands 11–14% shorter than the reskin page; mobile pixel 24%; content identical",
+          "to": "s06/s07 bands 11–14% shorter than the reskin page; mobile pixel 26%, page height -276px (5.3%: the same deficit as before the rail fix, over a page 425px shorter now the hidden rail no longer stacks); content identical",
+          "verdict": "needs-owner",
+          "by": null,
+          "note": "re-measured after the section-nav rail fix (full4)"
+        }
+      ]
     },
     "about-us-enrol": {
       "residuals": [
@@ -656,10 +690,14 @@
         "reskin-donor-probe": {
           "verdict": "FAIL",
           "report": "stardust/reskin/gates/about-us-enrol/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us-enrol/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T06:41:33Z"
+      "recordedAt": "2026-11-05T10:36:39Z"
     },
     "about-us-facilities-and-resources": {
       "residuals": [
@@ -692,10 +730,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/about-us-facilities-and-resources/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us-facilities-and-resources/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T07:12:37Z"
+      "recordedAt": "2026-11-05T10:36:39Z"
     },
     "about-us-hsc-results": {
       "residuals": [
@@ -744,10 +786,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/about-us-hsc-results/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us-hsc-results/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T07:48:40Z",
+      "recordedAt": "2026-11-05T10:36:39Z",
       "gates": {
         "reskin-dom-equality": {
           "verdict": "PASS",
@@ -825,10 +871,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/about-us-policies-and-reports-nsw-public-school-information/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us-policies-and-reports-nsw-public-school-information/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T06:41:33Z"
+      "recordedAt": "2026-11-05T10:36:39Z"
     },
     "about-us-policies-and-reports": {
       "residuals": [
@@ -861,10 +911,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/about-us-policies-and-reports/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us-policies-and-reports/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T06:41:34Z"
+      "recordedAt": "2026-11-05T10:36:39Z"
     },
     "about-us-school-history-and-archives-fort-street-archives": {
       "residuals": [
@@ -897,10 +951,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/about-us-school-history-and-archives-fort-street-archives/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us-school-history-and-archives-fort-street-archives/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T06:41:34Z"
+      "recordedAt": "2026-11-05T10:36:39Z"
     },
     "about-us-school-history-and-archives-the-fort-street-museum": {
       "residuals": [
@@ -933,10 +991,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/about-us-school-history-and-archives-the-fort-street-museum/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us-school-history-and-archives-the-fort-street-museum/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T06:41:34Z"
+      "recordedAt": "2026-11-05T10:36:39Z"
     },
     "about-us-school-history-and-archives-the-fortian-digitised": {
       "residuals": [
@@ -976,10 +1038,14 @@
         "reskin-donor-probe": {
           "verdict": "FAIL",
           "report": "stardust/reskin/gates/about-us-school-history-and-archives-the-fortian-digitised/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us-school-history-and-archives-the-fortian-digitised/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T06:41:34Z"
+      "recordedAt": "2026-11-05T10:36:39Z"
     },
     "about-us-school-history-and-archives": {
       "residuals": [
@@ -1012,10 +1078,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/about-us-school-history-and-archives/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us-school-history-and-archives/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T06:41:34Z"
+      "recordedAt": "2026-11-05T10:36:39Z"
     },
     "about-us-stories-and-highlights": {
       "residuals": [
@@ -1048,10 +1118,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/about-us-stories-and-highlights/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us-stories-and-highlights/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T07:12:37Z"
+      "recordedAt": "2026-11-05T10:36:39Z"
     },
     "about-us-transition-to-high-school": {
       "residuals": [
@@ -1084,10 +1158,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/about-us-transition-to-high-school/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us-transition-to-high-school/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T06:41:34Z"
+      "recordedAt": "2026-11-05T10:36:39Z"
     },
     "about-us-why-choose-us": {
       "residuals": [
@@ -1120,10 +1198,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/about-us-why-choose-us/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us-why-choose-us/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T06:41:34Z"
+      "recordedAt": "2026-11-05T10:38:29Z"
     },
     "about-us": {
       "residuals": [
@@ -1156,10 +1238,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/about-us/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T06:41:34Z"
+      "recordedAt": "2026-11-05T10:36:39Z"
     },
     "contact-us": {
       "residuals": [
@@ -1189,7 +1275,7 @@
         {
           "gate": "deployed.inherited",
           "class": "deployed.inherited",
-          "cause": "qa-gate pairs schema sections with block instances by order; table blocks authored inside prose sections shift the pairing (tooling limitation; block-roundtrip and davids-model-lint pass)",
+          "cause": "qa-gate pairs schema sections with block instances by order: the eds-schema comes from the reskin page, which has no embed block, so the preview's map embed section shifts the pairing (band #3 → hero rendered 0)",
           "verdict": "accepted",
           "note": null,
           "at": "2026-11-05T07:47:01Z"
@@ -1197,7 +1283,7 @@
         {
           "gate": "deployed.parity",
           "class": "deployed.parity",
-          "cause": "mobile pixel 10.57% (bar 10%): the Google Map embed is on the preview only (not in the reskin page)",
+          "cause": "the Google Map embed is on the preview only (EDS auto-blocks the source's map iframe, the reskin page carries the link): s04 758px vs 310px at 1440, 6/11 rows; every other section matches to the px, rail included",
           "verdict": "accepted",
           "note": null,
           "at": "2026-11-05T07:47:01Z"
@@ -1216,10 +1302,36 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/contact-us/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/contact-us/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T07:47:03Z"
+      "recordedAt": "2026-11-05T10:36:39Z",
+      "residualHistory": [
+        {
+          "at": "2026-11-05T10:28:12Z",
+          "action": "rename-cause",
+          "gate": "deployed.parity",
+          "cause": "mobile pixel 10.57% (bar 10%): the Google Map embed is on the preview only (not in the reskin page)",
+          "to": "the Google Map embed is on the preview only (EDS auto-blocks the source's map iframe, the reskin page carries the link): s04 758px vs 310px at 1440, 6/11 rows; every other section matches to the px, rail included",
+          "verdict": "accepted",
+          "by": null,
+          "note": "re-measured after the section-nav rail fix (full4)"
+        },
+        {
+          "at": "2026-11-05T10:28:12Z",
+          "action": "rename-cause",
+          "gate": "deployed.inherited",
+          "cause": "qa-gate pairs schema sections with block instances by order; table blocks authored inside prose sections shift the pairing (tooling limitation; block-roundtrip and davids-model-lint pass)",
+          "to": "qa-gate pairs schema sections with block instances by order: the eds-schema comes from the reskin page, which has no embed block, so the preview's map embed section shifts the pairing (band #3 → hero rendered 0)",
+          "verdict": "accepted",
+          "by": null,
+          "note": "re-measured after the section-nav rail fix (full4)"
+        }
+      ]
     },
     "learning-and-support-careers": {
       "residuals": [
@@ -1252,10 +1364,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/learning-and-support-careers/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/learning-and-support-careers/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T07:12:37Z"
+      "recordedAt": "2026-11-05T10:36:40Z"
     },
     "learning-and-support-high-potential-and-gifted-education": {
       "residuals": [
@@ -1295,10 +1411,14 @@
         "reskin-donor-probe": {
           "verdict": "FAIL",
           "report": "stardust/reskin/gates/learning-and-support-high-potential-and-gifted-education/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/learning-and-support-high-potential-and-gifted-education/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T07:12:37Z"
+      "recordedAt": "2026-11-05T10:36:40Z"
     },
     "learning-and-support-wellbeing": {
       "residuals": [
@@ -1338,10 +1458,14 @@
         "reskin-donor-probe": {
           "verdict": "FAIL",
           "report": "stardust/reskin/gates/learning-and-support-wellbeing/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/learning-and-support-wellbeing/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T06:41:34Z"
+      "recordedAt": "2026-11-05T10:36:40Z"
     },
     "learning-and-support": {
       "residuals": [
@@ -1374,10 +1498,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/learning-and-support/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/learning-and-support/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T06:41:34Z"
+      "recordedAt": "2026-11-05T10:36:40Z"
     },
     "our-community-alumni": {
       "residuals": [
@@ -1410,10 +1538,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/our-community-alumni/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/our-community-alumni/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T06:41:34Z"
+      "recordedAt": "2026-11-05T10:36:40Z"
     },
     "our-community-fortians-union": {
       "residuals": [
@@ -1446,10 +1578,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/our-community-fortians-union/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/our-community-fortians-union/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T06:41:34Z"
+      "recordedAt": "2026-11-05T10:36:40Z"
     },
     "our-community-foundation-tertiary-bursaries": {
       "residuals": [
@@ -1482,10 +1618,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/our-community-foundation-tertiary-bursaries/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/our-community-foundation-tertiary-bursaries/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T06:41:34Z"
+      "recordedAt": "2026-11-05T10:36:40Z"
     },
     "our-community-pandc": {
       "residuals": [
@@ -1525,10 +1665,14 @@
         "reskin-donor-probe": {
           "verdict": "FAIL",
           "report": "stardust/reskin/gates/our-community-pandc/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/our-community-pandc/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T06:41:34Z"
+      "recordedAt": "2026-11-05T10:36:40Z"
     },
     "our-community": {
       "residuals": [
@@ -1561,10 +1705,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/our-community/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/our-community/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T06:41:34Z"
+      "recordedAt": "2026-11-05T10:36:40Z"
     },
     "school-life-bell-times": {
       "residuals": [
@@ -1597,10 +1745,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/school-life-bell-times/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-bell-times/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T06:41:34Z"
+      "recordedAt": "2026-11-05T10:36:40Z"
     },
     "school-life-bring-your-own-device": {
       "residuals": [
@@ -1633,10 +1785,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/school-life-bring-your-own-device/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-bring-your-own-device/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T06:41:34Z"
+      "recordedAt": "2026-11-05T10:36:40Z"
     },
     "school-life-canteen": {
       "residuals": [
@@ -1669,10 +1825,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/school-life-canteen/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-canteen/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T06:41:34Z"
+      "recordedAt": "2026-11-05T10:36:40Z"
     },
     "school-life-events": {
       "residuals": [
@@ -1729,10 +1889,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/school-life-events/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-events/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T07:48:39Z",
+      "recordedAt": "2026-11-05T10:38:29Z",
       "gates": {
         "reskin-dom-equality": {
           "verdict": "PASS",
@@ -1810,10 +1974,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/school-life-forms/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-forms/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T06:41:35Z"
+      "recordedAt": "2026-11-05T10:36:40Z"
     },
     "school-life-lockers-and-lost-property": {
       "residuals": [
@@ -1846,10 +2014,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/school-life-lockers-and-lost-property/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-lockers-and-lost-property/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T06:41:35Z"
+      "recordedAt": "2026-11-05T10:36:40Z"
     },
     "school-life-stationery": {
       "residuals": [
@@ -1882,10 +2054,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/school-life-stationery/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-stationery/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T06:41:35Z"
+      "recordedAt": "2026-11-05T10:36:40Z"
     },
     "school-life-student-opportunities-and-activities-academic-competitions": {
       "residuals": [
@@ -1918,10 +2094,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-academic-competitions/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-academic-competitions/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T06:41:35Z"
+      "recordedAt": "2026-11-05T10:36:40Z"
     },
     "school-life-student-opportunities-and-activities-clubs-and-committees": {
       "residuals": [
@@ -1954,10 +2134,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-clubs-and-committees/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-clubs-and-committees/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T06:41:35Z"
+      "recordedAt": "2026-11-05T10:36:40Z"
     },
     "school-life-student-opportunities-and-activities-creative-and-performing-arts": {
       "residuals": [
@@ -1990,10 +2174,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-creative-and-performing-arts/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-creative-and-performing-arts/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T06:41:35Z"
+      "recordedAt": "2026-11-05T10:36:40Z"
     },
     "school-life-student-opportunities-and-activities-debating-and-public-speaking": {
       "residuals": [
@@ -2026,10 +2214,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-debating-and-public-speaking/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-debating-and-public-speaking/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T06:41:35Z"
+      "recordedAt": "2026-11-05T10:36:41Z"
     },
     "school-life-student-opportunities-and-activities-duke-of-edinburgh-award": {
       "residuals": [
@@ -2062,10 +2254,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-duke-of-edinburgh-award/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-duke-of-edinburgh-award/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T07:12:37Z"
+      "recordedAt": "2026-11-05T10:36:41Z"
     },
     "school-life-student-opportunities-and-activities-instrumental-music-program": {
       "residuals": [
@@ -2098,10 +2294,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-instrumental-music-program/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-instrumental-music-program/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T06:41:35Z"
+      "recordedAt": "2026-11-05T10:36:41Z"
     },
     "school-life-student-opportunities-and-activities-robotics-and-maker-society": {
       "residuals": [
@@ -2134,10 +2334,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-robotics-and-maker-society/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-robotics-and-maker-society/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T06:41:35Z"
+      "recordedAt": "2026-11-05T10:36:41Z"
     },
     "school-life-student-opportunities-and-activities-sport": {
       "residuals": [
@@ -2170,10 +2374,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-sport/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-sport/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T06:41:35Z"
+      "recordedAt": "2026-11-05T10:36:41Z"
     },
     "school-life-student-opportunities-and-activities-student-leadership-opportunities": {
       "residuals": [
@@ -2206,10 +2414,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-student-leadership-opportunities/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-student-leadership-opportunities/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T06:41:35Z"
+      "recordedAt": "2026-11-05T10:36:41Z"
     },
     "school-life-student-opportunities-and-activities": {
       "residuals": [
@@ -2249,10 +2461,14 @@
         "reskin-donor-probe": {
           "verdict": "FAIL",
           "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T06:41:35Z"
+      "recordedAt": "2026-11-05T10:38:29Z"
     },
     "school-life-travel-to-school": {
       "residuals": [
@@ -2285,10 +2501,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/school-life-travel-to-school/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-travel-to-school/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T06:41:35Z"
+      "recordedAt": "2026-11-05T10:36:41Z"
     },
     "school-life-uniform-uniform-shop": {
       "residuals": [
@@ -2329,10 +2549,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/school-life-uniform-uniform-shop/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-uniform-uniform-shop/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T07:53:10Z",
+      "recordedAt": "2026-11-05T10:36:41Z",
       "gates": {
         "reskin-dom-equality": {
           "verdict": "PASS",
@@ -2417,10 +2641,14 @@
         "reskin-donor-probe": {
           "verdict": "FAIL",
           "report": "stardust/reskin/gates/school-life-uniform/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-uniform/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T07:12:37Z"
+      "recordedAt": "2026-11-05T10:36:41Z"
     },
     "school-life": {
       "residuals": [
@@ -2453,10 +2681,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/school-life/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T06:41:35Z"
+      "recordedAt": "2026-11-05T10:36:41Z"
     },
     "our-community-foundation": {
       "residuals": [
@@ -2496,10 +2728,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/our-community-foundation/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/our-community-foundation/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T06:41:34Z"
+      "recordedAt": "2026-11-05T10:36:40Z"
     },
     "school-life-newsletters": {
       "residuals": [
@@ -2539,10 +2775,14 @@
         "reskin-donor-probe": {
           "verdict": "PASS",
           "report": "stardust/reskin/gates/school-life-newsletters/migrated/donor-probe.md"
+        },
+        "reskin-source-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-newsletters/migrated/source-coverage.json"
         }
       },
       "migratedStatus": "gated",
-      "recordedAt": "2026-11-05T06:41:35Z"
+      "recordedAt": "2026-11-05T10:36:40Z"
     }
   },
   "handoff": {
@@ -2551,6 +2791,7 @@
         "home": {
           "reskin-dom-equality": "PASS — stardust/reskin/reports/home-content-gate.md",
           "reskin-slot-coverage": "PASS — stardust/reskin/reports/home-slot-coverage.md",
+          "reskin-source-coverage": "PASS — stardust/reskin/reports/home-source-coverage.json",
           "mobile-adapt-static": "PASS",
           "mobile-adapt-runtime": "PASS",
           "figma.join": "PASS",
@@ -2559,6 +2800,7 @@
           "deployed.sanity": "PASS",
           "deployed.inherited": "PASS",
           "deployed.chrome": "PASS",
+          "deployed.coverage": "PASS",
           "deployed.figma.join": "PASS",
           "deployed.figma.geometry": "PASS",
           "step10": "PASS"
@@ -2579,12 +2821,13 @@
       "archetype": "home",
       "prototypePath": "stardust/reskin/pages/home.html",
       "prototypeSha": "715044d86445",
-      "registeredAt": "2026-11-05T07:47:01Z",
+      "registeredAt": "2026-11-05T10:28:19Z",
       "tier": {
         "claimed": "reskin-archetype",
         "passed": [
           "reskin-dom-equality",
           "reskin-slot-coverage",
+          "reskin-source-coverage",
           "mobile-adapt-static",
           "mobile-adapt-runtime",
           "figma.join",
@@ -2593,6 +2836,7 @@
           "deployed.sanity",
           "deployed.inherited",
           "deployed.chrome",
+          "deployed.coverage",
           "deployed.figma.join",
           "deployed.figma.geometry",
           "step10"
@@ -2619,6 +2863,7 @@
           "deployed.sanity": "PASS",
           "deployed.inherited": "PASS",
           "deployed.chrome": "PASS",
+          "deployed.coverage": "PASS",
           "step10": "PASS"
         },
         "school-life-parent-portal": {
@@ -2668,12 +2913,14 @@
         "about-us-facilities-and-resources": {
           "gate": "gated",
           "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
             "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
           ]
         },
         "learning-and-support-careers": {
           "gate": "gated",
           "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
             "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
           ]
         },
@@ -2681,25 +2928,29 @@
           "gate": "gated",
           "residuals": [
             "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
-            "probe samples the first main .btn, which sits on a dark band and correctly takes the donor on-dark light button (buttons.secondary)"
+            "probe samples the first main .btn, which sits on a dark band and correctly takes the donor on-dark light button (buttons.secondary)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
           ]
         },
         "about-us-stories-and-highlights": {
           "gate": "gated",
           "residuals": [
-            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "source renders sections progressively: live reads measured 242/3532/4961/5121 chars across runs; the capture and the preview hold all 5121; current-page crumb has an empty href"
           ]
         },
         "school-life-uniform": {
           "gate": "gated",
           "residuals": [
             "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
-            "probe samples the first main .btn, which sits on a dark band and correctly takes the donor on-dark light button (buttons.secondary)"
+            "probe samples the first main .btn, which sits on a dark band and correctly takes the donor on-dark light button (buttons.secondary)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
           ]
         },
         "school-life-student-opportunities-and-activities-duke-of-edinburgh-award": {
           "gate": "gated",
           "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
             "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
           ]
         },
@@ -2720,7 +2971,7 @@
             "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
             "first-match probes: the first heading/button sits on a dark band (light variant, correct) or the page has no primary CTA; section-rhythm reads 0px on hero/quote bands whose block owns its 80px padding",
             "qa-gate pairs schema sections with block instances by order; table blocks authored inside prose sections shift the pairing (tooling limitation; block-roundtrip and davids-model-lint pass); ai-readability 96: short page, header/footer words load as fragments by EDS convention",
-            "s06/s07 bands 11–14% shorter than the reskin page; mobile pixel 24%; content identical"
+            "s06/s07 bands 11–14% shorter than the reskin page; mobile pixel 26%, page height -276px (5.3%: the same deficit as before the rail fix, over a page 425px shorter now the hidden rail no longer stacks); content identical"
           ]
         },
         "contact-us": {
@@ -2729,8 +2980,8 @@
             "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
             "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
             "first-match probes: the first heading/button sits on a dark band (light variant, correct) or the page has no primary CTA; section-rhythm reads 0px on hero/quote bands whose block owns its 80px padding",
-            "qa-gate pairs schema sections with block instances by order; table blocks authored inside prose sections shift the pairing (tooling limitation; block-roundtrip and davids-model-lint pass)",
-            "mobile pixel 10.57% (bar 10%): the Google Map embed is on the preview only (not in the reskin page)"
+            "qa-gate pairs schema sections with block instances by order: the eds-schema comes from the reskin page, which has no embed block, so the preview's map embed section shifts the pairing (band #3 → hero rendered 0)",
+            "the Google Map embed is on the preview only (EDS auto-blocks the source's map iframe, the reskin page carries the link): s04 758px vs 310px at 1440, 6/11 rows; every other section matches to the px, rail included"
           ]
         },
         "about-us-hsc-results": {
@@ -2764,12 +3015,293 @@
             "remaining after the owner-requested fix round: (1) font.unserved — Apercu Pro licensed, fallback served; (2) renderer-composition — M5 80px statement heading has no type role (56px display) on s02/s05/s06; (3) content-differs — M5 CTA measured against inline prose links; quote band paragraph measured against the 56px M9 headline; (4) renderer-composition — M11 card labels 20px link role vs donor 10px caps + 11px body; section-nav list 13px vs 16px M3 tab role; (5) body tracking -0.39px not applied",
             "not run on the preview (join drift); same remaining type-ramp gaps as the local figma.ramp residual; needs owner sign-off"
           ]
+        },
+        "learning-and-support-additional-learning-support": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
+        },
+        "about-us-enrol": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "probe samples the first main .btn, which sits on a dark band and correctly takes the donor on-dark light button (buttons.secondary)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
+        },
+        "about-us-policies-and-reports-nsw-public-school-information": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
+        },
+        "about-us-policies-and-reports": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
+        },
+        "about-us-school-history-and-archives-fort-street-archives": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
+        },
+        "about-us-school-history-and-archives-the-fort-street-museum": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
+        },
+        "about-us-school-history-and-archives-the-fortian-digitised": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "probe samples the first main .btn, which sits on a dark band and correctly takes the donor on-dark light button (buttons.secondary)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
+        },
+        "about-us-school-history-and-archives": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
+        },
+        "about-us-transition-to-high-school": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
+        },
+        "about-us-why-choose-us": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
+        },
+        "about-us": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
+        },
+        "learning-and-support-wellbeing": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "probe samples the first main .btn, which sits on a dark band and correctly takes the donor on-dark light button (buttons.secondary)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
+        },
+        "learning-and-support": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
+        },
+        "our-community-alumni": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
+        },
+        "our-community-fortians-union": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
+        },
+        "our-community-foundation-tertiary-bursaries": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
+        },
+        "our-community-foundation": {
+          "gate": "gated",
+          "residuals": [
+            "source garbage: the live page carries a broken image (src about:error) in s02; carried as a flag, not rendered — image count source 5 vs 4; text byte-equal",
+            "s02 broken source image (about:error) not rendered; current-page crumb has an empty href; all text and other images present",
+            "s02 broken source image (src about:error) not carried (flagged source garbage); current-page crumb has an empty href; text byte-equal"
+          ]
+        },
+        "our-community-pandc": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "probe samples the first main .btn, which sits on a dark band and correctly takes the donor on-dark light button (buttons.secondary)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
+        },
+        "our-community": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
+        },
+        "school-life-bell-times": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
+        },
+        "school-life-bring-your-own-device": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
+        },
+        "school-life-canteen": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
+        },
+        "school-life-forms": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
+        },
+        "school-life-house-and-merit-system": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
+        },
+        "school-life-lockers-and-lost-property": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
+        },
+        "school-life-newsletters": {
+          "gate": "gated",
+          "residuals": [
+            "dynamic dependency: the Facebook feed block fetches live posts; the feed changed after capture (image set differs); text byte-equal; snapshot carried (dynamic-features.md)",
+            "live Facebook feed images changed since capture (static snapshot carried); current-page crumb has an empty href",
+            "live Facebook feed images changed since capture (static snapshot carried, dynamic-features.md); current-page crumb has an empty href; text byte-equal"
+          ]
+        },
+        "school-life-stationery": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
+        },
+        "school-life-student-opportunities-and-activities-academic-competitions": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
+        },
+        "school-life-student-opportunities-and-activities-clubs-and-committees": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
+        },
+        "school-life-student-opportunities-and-activities-creative-and-performing-arts": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
+        },
+        "school-life-student-opportunities-and-activities-debating-and-public-speaking": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
+        },
+        "school-life-student-opportunities-and-activities-instrumental-music-program": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
+        },
+        "school-life-student-opportunities-and-activities-robotics-and-maker-society": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
+        },
+        "school-life-student-opportunities-and-activities-sport": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
+        },
+        "school-life-student-opportunities-and-activities-student-leadership-opportunities": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
+        },
+        "school-life-student-opportunities-and-activities": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "probe samples the first main .btn, which sits on a dark band and correctly takes the donor on-dark light button (buttons.secondary)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
+        },
+        "school-life-travel-to-school": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
+        },
+        "school-life-uniform-uniform-shop": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "first-match probes: no primary CTA on the page; section-rhythm reads 0px on bands whose block owns its padding"
+          ]
+        },
+        "school-life": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
         }
       },
       "archetype": "learning-and-support-learning",
       "prototypePath": "stardust/reskin/pages/learning-and-support-learning.html",
-      "prototypeSha": "43488c5403a7",
-      "registeredAt": "2026-11-05T09:51:56Z",
+      "prototypeSha": "e70b1e36fc56",
+      "registeredAt": "2026-11-05T10:28:21Z",
       "tier": {
         "claimed": "reskin-archetype",
         "passed": [
@@ -2783,6 +3315,7 @@
           "deployed.sanity",
           "deployed.inherited",
           "deployed.chrome",
+          "deployed.coverage",
           "step10"
         ],
         "waived": [

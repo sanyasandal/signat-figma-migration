@@ -1,0 +1,21 @@
+{
+  "model": "stardust/reskin/content-model/our-community-foundation-tertiary-bursaries/content-model.json",
+  "target": "stardust/migrated/our-community/foundation-tertiary-bursaries/index.html",
+  "verdict": "PASS",
+  "fails": 0,
+  "rows": [
+    {
+      "check": "S2",
+      "verdict": "ok",
+      "detail": "settled in 1512ms, 0 late chars captured"
+    },
+    {
+      "check": "S4",
+      "key": "s05",
+      "source": "rail-start",
+      "target": "rail-start",
+      "verdict": "carried",
+      "sample": "Section navigation | Our community | Alumni"
+    }
+  ]
+}

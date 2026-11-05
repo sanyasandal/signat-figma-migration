@@ -2,7 +2,7 @@
 
 - Model: stardust/reskin/content-model/school-life-newsletters/content-model.json
 - Rendered: stardust/migrated/school-life/newsletters/index.html (scope: `main`)
-- Generated: 2026-11-05T06:40:21.084Z
+- Generated: 2026-11-05T10:31:50.245Z
 
 ## slot-coverage — 51/55 pass
 

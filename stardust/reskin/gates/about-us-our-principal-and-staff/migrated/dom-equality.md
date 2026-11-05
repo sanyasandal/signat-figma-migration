@@ -2,7 +2,7 @@
 
 - Source: https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff (scopes: `nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!`, normalize: `/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/about-us-our-principal-and-staff.mjs`)
 - Rendered: stardust/migrated/about-us/our-principal-and-staff/index.html (scope: `main`)
-- Generated: 2026-11-05T06:33:48.719Z
+- Generated: 2026-11-05T10:28:50.866Z
 
 ## Primary checks (gating)
 

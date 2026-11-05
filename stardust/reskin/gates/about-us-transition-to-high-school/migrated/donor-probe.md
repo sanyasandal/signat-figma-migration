@@ -3,7 +3,7 @@
 - Tokens: stardust/reskin/donor-tokens.json
 - Rendered: stardust/migrated/about-us/transition-to-high-school/index.html
 - Spec: default (rendered-page conventions)
-- Generated: 2026-11-05T06:34:34.013Z
+- Generated: 2026-11-05T10:30:00.528Z
 
 ## Assertions — 10/10 pass (5 skipped)
 

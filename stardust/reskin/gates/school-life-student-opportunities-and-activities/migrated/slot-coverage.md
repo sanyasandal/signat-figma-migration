@@ -2,7 +2,7 @@
 
 - Model: stardust/reskin/content-model/school-life-student-opportunities-and-activities/content-model.json
 - Rendered: stardust/migrated/school-life/student-opportunities-and-activities/index.html (scope: `main`)
-- Generated: 2026-11-05T06:36:39.005Z
+- Generated: 2026-11-05T10:38:16.330Z
 
 ## slot-coverage — 38/39 pass
 

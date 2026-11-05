@@ -2,7 +2,7 @@
 
 - Source: https://fortstreet-h.schools.nsw.gov.au/our-community/alumni (scopes: `nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!`, normalize: `/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/our-community-alumni.mjs`)
 - Rendered: stardust/migrated/our-community/alumni/index.html (scope: `main`)
-- Generated: 2026-11-05T06:35:00.674Z
+- Generated: 2026-11-05T10:30:40.816Z
 
 ## Primary checks (gating)
 

@@ -2,7 +2,7 @@
 
 - Source: https://fortstreet-h.schools.nsw.gov.au/about-us/enrol (scopes: `nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!`, normalize: `/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/about-us-enrol.mjs`)
 - Rendered: stardust/migrated/about-us/enrol/index.html (scope: `main`)
-- Generated: 2026-11-05T06:33:47.638Z
+- Generated: 2026-11-05T10:28:49.355Z
 
 ## Primary checks (gating)
 

@@ -3,7 +3,7 @@
 - Tokens: stardust/reskin/donor-tokens.json
 - Rendered: stardust/migrated/about-us/hsc-results/index.html
 - Spec: default (rendered-page conventions)
-- Generated: 2026-11-05T06:34:17.212Z
+- Generated: 2026-11-05T10:29:21.791Z
 
 ## Assertions — 9/9 pass (6 skipped)
 

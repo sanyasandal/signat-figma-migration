@@ -1,0 +1,29 @@
+{
+  "model": "stardust/reskin/content-model/school-life-house-and-merit-system/content-model.json",
+  "target": "stardust/migrated/school-life/house-and-merit-system/index.html",
+  "verdict": "PASS",
+  "fails": 0,
+  "rows": [
+    {
+      "check": "S2",
+      "verdict": "ok",
+      "detail": "settled in 1509ms, 0 late chars captured"
+    },
+    {
+      "check": "S3",
+      "slot": "s06",
+      "source": "dark",
+      "target": "dark",
+      "verdict": "carried",
+      "probe": "Need help with attendance?"
+    },
+    {
+      "check": "S4",
+      "key": "s08",
+      "source": "rail-start",
+      "target": "rail-start",
+      "verdict": "carried",
+      "sample": "Section navigation | School life | Bell times"
+    }
+  ]
+}

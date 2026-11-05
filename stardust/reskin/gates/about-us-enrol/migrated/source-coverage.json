@@ -1,0 +1,37 @@
+{
+  "model": "stardust/reskin/content-model/about-us-enrol/content-model.json",
+  "target": "stardust/migrated/about-us/enrol/index.html",
+  "verdict": "PASS",
+  "fails": 0,
+  "rows": [
+    {
+      "check": "S2",
+      "verdict": "ok",
+      "detail": "settled in 1577ms, 0 late chars captured"
+    },
+    {
+      "check": "S3",
+      "slot": "s05",
+      "source": "dark",
+      "target": "dark",
+      "verdict": "carried",
+      "probe": "Open Days"
+    },
+    {
+      "check": "S3",
+      "slot": "s08",
+      "source": "dark",
+      "target": "dark",
+      "verdict": "carried",
+      "probe": "Ready to apply?"
+    },
+    {
+      "check": "S4",
+      "key": "s10",
+      "source": "rail-start",
+      "target": "rail-start",
+      "verdict": "carried",
+      "sample": "Section navigation | About us | Enrol"
+    }
+  ]
+}

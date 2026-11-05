@@ -2,7 +2,7 @@
 
 - Model: stardust/reskin/content-model/about-us-school-history-and-archives-the-fortian-digitised/content-model.json
 - Rendered: stardust/migrated/about-us/school-history-and-archives/the-fortian-digitised/index.html (scope: `main`)
-- Generated: 2026-11-05T06:34:27.118Z
+- Generated: 2026-11-05T10:29:38.596Z
 
 ## slot-coverage — 240/241 pass
 

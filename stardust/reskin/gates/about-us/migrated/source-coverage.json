@@ -1,0 +1,21 @@
+{
+  "model": "stardust/reskin/content-model/about-us/content-model.json",
+  "target": "stardust/migrated/about-us/index.html",
+  "verdict": "PASS",
+  "fails": 0,
+  "rows": [
+    {
+      "check": "S2",
+      "verdict": "ok",
+      "detail": "settled in 1505ms, 0 late chars captured"
+    },
+    {
+      "check": "S4",
+      "key": "s03",
+      "source": "rail-start",
+      "target": "rail-start",
+      "verdict": "carried",
+      "sample": "Section navigation | About us | Enrol"
+    }
+  ]
+}

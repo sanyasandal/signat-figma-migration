@@ -2,7 +2,7 @@
 
 - Source: https://fortstreet-h.schools.nsw.gov.au/school-life/bell-times (scopes: `nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!`, normalize: `/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/school-life-bell-times.mjs`)
 - Rendered: stardust/migrated/school-life/bell-times/index.html (scope: `main`)
-- Generated: 2026-11-05T06:35:22.804Z
+- Generated: 2026-11-05T10:31:05.188Z
 
 ## Primary checks (gating)
 

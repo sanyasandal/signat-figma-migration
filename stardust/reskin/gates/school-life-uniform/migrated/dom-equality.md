@@ -2,7 +2,7 @@
 
 - Source: https://fortstreet-h.schools.nsw.gov.au/school-life/uniform (scopes: `nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!`, normalize: `/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/school-life-uniform.mjs`)
 - Rendered: stardust/migrated/school-life/uniform/index.html (scope: `main`)
-- Generated: 2026-11-05T07:10:01.561Z
+- Generated: 2026-11-05T10:33:12.024Z
 
 ## Primary checks (gating)
 

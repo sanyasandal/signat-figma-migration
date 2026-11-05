@@ -1,0 +1,29 @@
+{
+  "model": "stardust/reskin/content-model/school-life-lockers-and-lost-property/content-model.json",
+  "target": "stardust/migrated/school-life/lockers-and-lost-property/index.html",
+  "verdict": "PASS",
+  "fails": 0,
+  "rows": [
+    {
+      "check": "S2",
+      "verdict": "ok",
+      "detail": "settled in 1509ms, 0 late chars captured"
+    },
+    {
+      "check": "S3",
+      "slot": "s03",
+      "source": "dark",
+      "target": "dark",
+      "verdict": "carried",
+      "probe": "Have a question for us?"
+    },
+    {
+      "check": "S4",
+      "key": "s05",
+      "source": "rail-start",
+      "target": "rail-start",
+      "verdict": "carried",
+      "sample": "Section navigation | School life | Bell times"
+    }
+  ]
+}

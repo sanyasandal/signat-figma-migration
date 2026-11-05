@@ -3,14 +3,12 @@
 <head>
 <!-- stardust:migrate
   writtenBy:        stardust:migrate
-  writtenAt:        2026-11-05T06:33:01Z
+  writtenAt:        2026-11-05T10:28:30Z
   page:             Instrumental Music Program
   slug:             school-life-student-opportunities-and-activities-instrumental-music-program
   pagePath:         migrated/school-life/student-opportunities-and-activities/instrumental-music-program/index.html
-  renderBranch:     A'
-  template:         learning-and-support-learning
-  archetypePath:    stardust/reskin/pages/learning-and-support-learning.html
-  archetypeSha:     0925840f97e7
+  renderBranch:     A
+  sourceProposed:   stardust/reskin/pages/school-life-student-opportunities-and-activities-instrumental-music-program.html
   sourceCurrent:    stardust/current/pages/school-life-student-opportunities-and-activities-instrumental-music-program.json
   againstDirection: stardust/direction.md (Active 2026-11-05T06:31:12Z)
   designMd:         DESIGN.md (sha: 187c3f2f159f)
@@ -375,6 +373,24 @@
   .site-main .band .flow .heading.role-h4 { font-size: var(--type-h4-font-size); line-height: var(--type-h4-line-height); }
   .site-main .heading-display .heading { font-size: var(--type-display-font-size); line-height: var(--type-display-line-height); }
   .site-main .inset > .container { max-width: none; padding: 0 var(--band-inset); }
+  /* rails (mapping-json.md § rail): the source's side column sits beside the content, never after it */
+  @media (min-width: 901px) {
+    .site-main.has-rail { display: grid; grid-template-columns: var(--rail-width) minmax(0, 1fr); align-items: start; }
+    .site-main.has-rail.rail-end { grid-template-columns: minmax(0, 1fr) var(--rail-width); }
+    .site-main.has-rail > section { grid-column: 2; min-width: 0; }
+    .site-main.has-rail.rail-end > section { grid-column: 1; }
+    .site-main.has-rail > section.in-band { grid-column: 1 / -1; }
+    .site-main.has-rail > section.in-rail { grid-column: 1; }
+    .site-main.has-rail.rail-end > section.in-rail { grid-column: 2; }
+  }
+  /* one column at 900px and under: normal flow (the page's own margins), a flex column only to move a rail */
+  @media (max-width: 900px) {
+    .site-main.has-rail.rail-reorder { display: flex; flex-direction: column; }
+    .site-main.has-rail.rail-reorder > section.in-band { order: -2; }
+    .site-main.has-rail.rail-reorder > section.rail-mobile-top { order: -1; }
+    .site-main.has-rail.rail-reorder > section.rail-mobile-bottom { order: 1; }
+    .site-main.has-rail > section.rail-mobile-hidden { display: none; }
+  }
   .site-main h2.heading { font-size: var(--type-h2-font-size); line-height: var(--type-h2-line-height); font-weight: var(--type-h2-font-weight); }
   .site-main h3.heading { font-size: var(--type-h3-font-size); line-height: var(--type-h3-line-height); font-weight: var(--type-h3-font-weight); }
   .site-main h4.heading { font-size: var(--type-h4-font-size); line-height: var(--type-h4-line-height); font-weight: var(--type-h4-font-weight); }
@@ -540,7 +556,7 @@
 </style>
 <!-- stardust:prototype
   writtenBy:        stardust:reskin/stream-render
-  writtenAt:        2026-11-05T06:30:09.926Z
+  writtenAt:        2026-11-05T10:13:15.468Z
   page:             school-life-student-opportunities-and-activities-instrumental-music-program
   pageUrl:          https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/instrumental-music-program
   template:         learning-and-support-learning
@@ -587,14 +603,14 @@
       <div class="nav-actions"><a class="sr-only" href="../../../index.html#main-nav" data-source-href="https://fortstreet-h.schools.nsw.gov.au/#main-nav">Skip to navigation</a><a class="sr-only" href="../../../index.html#main" data-source-href="https://fortstreet-h.schools.nsw.gov.au/#main">Skip to content</a><button class="icon-btn" type="button"><span class="glyph glyph-search" aria-hidden="true">search</span></button><button class="sr-only" type="button"><span class="sr-only">Show</span></button><button class="sr-only" type="button"><span class="sr-only">Search</span></button><button class="icon-btn nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><span class="glyph glyph-menu" aria-hidden="true"></span></button></div>
     </div></div>
 </header>
-<main class="site-main" data-template="learning-and-support-learning">
-  <section class="band layout-stack width-wide inset" style="--band-inset: 16px" data-slot="s01" data-module="M3" data-section="1">
+<main class="site-main has-rail rail-start" style="--rail-width: 400px" data-template="learning-and-support-learning">
+  <section class="band layout-stack width-wide inset in-band" style="--band-inset: 16px; grid-row: 1" data-slot="s01" data-module="M3" data-section="1">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <ul class="list list-inline"><li><a class="link" href="../../../index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/">Home</a></li><li><a class="link" href="../../../school-life/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life">School life</a></li><li><a class="link" href="../../../school-life/student-opportunities-and-activities/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities">Student opportunities and activities</a></li><li><a class="link" aria-current="page">Instrumental Music Program</a></li></ul>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px" data-slot="s02" data-module="M5b" data-section="2">
+  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px; grid-row: 2" data-slot="s02" data-module="M5b" data-section="2">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h1 class="heading">Instrumental Music Program</h1>
@@ -611,7 +627,7 @@
         <p class="lead">For performances or special IMP events, including excursions, please email your ensemble (using the email address in the IMP Handbook). If this also includes a school absence, please also remember to inform the school via School Bytes or phone.</p>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px" data-slot="s03" data-module="M9b" data-section="3">
+  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px; grid-row: 3" data-slot="s03" data-module="M9b" data-section="3">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">New members</h2>
@@ -623,7 +639,7 @@
         <p class="lead">All new IMP Members and parents must attend New Members Night, which will be held on Google Meet on Wednesday 28th January 2026 from 7:30pm-8:30pm. Details will be sent in your welcome email after you register for the IMP.</p>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px" data-slot="s04" data-module="M5b" data-section="4">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 4" data-slot="s04" data-module="M5b" data-section="4">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Membership Fees and Individual Lessons</h2>
@@ -631,7 +647,7 @@
         <p class="lead">Each student is required to take weekly lessons on their instrument with a tutor, in addition to participating in ensembles. Students may choose a private tutor outside school or attend tutorials with IMP instrumental tutors (subject to availability). Lessons with IMP tutors occur during school time, on a rotating timetable. Students must be actively involved in an IMP ensemble to be eligible for lessons with an IMP tutor. Fees for individual music lessons are paid directly to the tutor, and are not included in the IMP Membership Fee.</p>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px" data-slot="s05" data-module="M5b" data-section="5">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 5" data-slot="s05" data-module="M5b" data-section="5">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Choosing an instrument, and instrument hire</h2>
@@ -642,7 +658,7 @@
         <p class="lead">Expensive or rare/unusual instruments are hired out at highly-subsidised rates. In 2026, the following Training Band positions are available:</p>
       </div></div></div>
     </section>
-  <section class="band layout-split width-wide tone-light heading-h3 inset bleed media-first" style="--band-inset: 16px" data-slot="s06" data-module="M6" data-section="6">
+  <section class="band layout-split width-wide tone-light heading-h3 inset bleed media-first" style="--band-inset: 16px; grid-row: 6" data-slot="s06" data-module="M6" data-section="6">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <p class="lead">2 Oboes (subsidised hire)</p>
@@ -664,7 +680,7 @@
         <p class="aux">If you would like to see these instruments demonstrated by members of the USA Army Field Band <a class="link" href="https://youtu.be/CCTeSjpDsIs?feature=shared">Click Here <span class="sr-only">(opens in new window)</span></a> .</p>
       </div><img class="split-img" src="../../../assets/img/fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1388e09ac1c35be68602e3caa1d7fb166a788c1ab-3d5a5588.jpg" data-source-src="https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1388e09ac1c35be68602e3caa1d7fb166a788c1ab.jpg?width=2000&amp;format=webply&amp;optimize=medium" alt="Students in the Instrumental Music Program"></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px" data-slot="s07" data-module="M5b" data-section="7">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 7" data-slot="s07" data-module="M5b" data-section="7">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Ensembles for new IMP members</h2>
@@ -681,7 +697,7 @@
         <p class="lead">Email: fortstreetimp@gmail.com Dr Matthew Manchester IMP Coordinator</p>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px" data-slot="s08" data-module="M9b" data-section="8">
+  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px; grid-row: 8" data-slot="s08" data-module="M9b" data-section="8">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Need to make a payment?</h2>
@@ -689,7 +705,7 @@
         <div class="actions"><a class="btn" href="../../../school-life/parent-portal/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal">Parent portal</a></div>
       </div></div></div>
     </section>
-  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px" data-slot="s09" data-module="M11b" data-section="9">
+  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 9" data-slot="s09" data-module="M11b" data-section="9">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <div class="cards" style="--cards-columns: 2"><div class="card"><div class="actions"><a class="btn" href="../../../about-us/facilities-and-resources/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources">Facilities and resources</a></div>
@@ -699,7 +715,7 @@
         <span class="glyph glyph-right" aria-hidden="true">east</span></div></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h4 inset" style="--band-inset: 16px" data-slot="s10" data-module="M3" data-section="10">
+  <section class="band layout-stack width-wide heading-h4 inset in-rail rail-mobile-hidden" style="--band-inset: 16px; grid-row: 2 / 10" data-slot="s10" data-module="M3" data-section="10">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Section navigation</h2>

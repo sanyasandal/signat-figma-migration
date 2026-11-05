@@ -3,7 +3,7 @@
 - Tokens: stardust/reskin/donor-tokens.json
 - Rendered: stardust/migrated/school-life/lockers-and-lost-property/index.html
 - Spec: default (rendered-page conventions)
-- Generated: 2026-11-05T06:35:50.846Z
+- Generated: 2026-11-05T10:31:52.775Z
 
 ## Assertions — 9/9 pass (6 skipped)
 

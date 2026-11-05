@@ -2,7 +2,7 @@
 
 - Model: stardust/reskin/content-model/school-life-bell-times/content-model.json
 - Rendered: stardust/migrated/school-life/bell-times/index.html (scope: `main`)
-- Generated: 2026-11-05T06:35:26.467Z
+- Generated: 2026-11-05T10:31:08.856Z
 
 ## slot-coverage — 34/35 pass
 

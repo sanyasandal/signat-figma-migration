@@ -1,0 +1,29 @@
+{
+  "model": "stardust/reskin/content-model/learning-and-support-careers/content-model.json",
+  "target": "stardust/migrated/learning-and-support/careers/index.html",
+  "verdict": "PASS",
+  "fails": 0,
+  "rows": [
+    {
+      "check": "S2",
+      "verdict": "ok",
+      "detail": "settled in 1509ms, 0 late chars captured"
+    },
+    {
+      "check": "S3",
+      "slot": "s04",
+      "source": "dark",
+      "target": "dark",
+      "verdict": "carried",
+      "probe": "For more information"
+    },
+    {
+      "check": "S4",
+      "key": "s06",
+      "source": "rail-start",
+      "target": "rail-start",
+      "verdict": "carried",
+      "sample": "Section navigation | Learning and support | Additional learning support"
+    }
+  ]
+}

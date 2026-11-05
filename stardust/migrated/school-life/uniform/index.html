@@ -3,7 +3,7 @@
 <head>
 <!-- stardust:migrate
   writtenBy:        stardust:migrate
-  writtenAt:        2026-11-05T07:08:24Z
+  writtenAt:        2026-11-05T10:28:30Z
   page:             Uniform
   slug:             school-life-uniform
   pagePath:         migrated/school-life/uniform/index.html
@@ -373,6 +373,24 @@
   .site-main .band .flow .heading.role-h4 { font-size: var(--type-h4-font-size); line-height: var(--type-h4-line-height); }
   .site-main .heading-display .heading { font-size: var(--type-display-font-size); line-height: var(--type-display-line-height); }
   .site-main .inset > .container { max-width: none; padding: 0 var(--band-inset); }
+  /* rails (mapping-json.md § rail): the source's side column sits beside the content, never after it */
+  @media (min-width: 901px) {
+    .site-main.has-rail { display: grid; grid-template-columns: var(--rail-width) minmax(0, 1fr); align-items: start; }
+    .site-main.has-rail.rail-end { grid-template-columns: minmax(0, 1fr) var(--rail-width); }
+    .site-main.has-rail > section { grid-column: 2; min-width: 0; }
+    .site-main.has-rail.rail-end > section { grid-column: 1; }
+    .site-main.has-rail > section.in-band { grid-column: 1 / -1; }
+    .site-main.has-rail > section.in-rail { grid-column: 1; }
+    .site-main.has-rail.rail-end > section.in-rail { grid-column: 2; }
+  }
+  /* one column at 900px and under: normal flow (the page's own margins), a flex column only to move a rail */
+  @media (max-width: 900px) {
+    .site-main.has-rail.rail-reorder { display: flex; flex-direction: column; }
+    .site-main.has-rail.rail-reorder > section.in-band { order: -2; }
+    .site-main.has-rail.rail-reorder > section.rail-mobile-top { order: -1; }
+    .site-main.has-rail.rail-reorder > section.rail-mobile-bottom { order: 1; }
+    .site-main.has-rail > section.rail-mobile-hidden { display: none; }
+  }
   .site-main h2.heading { font-size: var(--type-h2-font-size); line-height: var(--type-h2-line-height); font-weight: var(--type-h2-font-weight); }
   .site-main h3.heading { font-size: var(--type-h3-font-size); line-height: var(--type-h3-line-height); font-weight: var(--type-h3-font-weight); }
   .site-main h4.heading { font-size: var(--type-h4-font-size); line-height: var(--type-h4-line-height); font-weight: var(--type-h4-font-weight); }
@@ -538,7 +556,7 @@
 </style>
 <!-- stardust:prototype
   writtenBy:        stardust:reskin/stream-render
-  writtenAt:        2026-11-05T07:08:13.500Z
+  writtenAt:        2026-11-05T10:13:27.547Z
   page:             school-life-uniform
   pageUrl:          https://fortstreet-h.schools.nsw.gov.au/school-life/uniform
   template:         learning-and-support-learning
@@ -585,14 +603,14 @@
       <div class="nav-actions"><a class="sr-only" href="../../index.html#main-nav" data-source-href="https://fortstreet-h.schools.nsw.gov.au/#main-nav">Skip to navigation</a><a class="sr-only" href="../../index.html#main" data-source-href="https://fortstreet-h.schools.nsw.gov.au/#main">Skip to content</a><button class="icon-btn" type="button"><span class="glyph glyph-search" aria-hidden="true">search</span></button><button class="sr-only" type="button"><span class="sr-only">Show</span></button><button class="sr-only" type="button"><span class="sr-only">Search</span></button><button class="icon-btn nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><span class="glyph glyph-menu" aria-hidden="true"></span></button></div>
     </div></div>
 </header>
-<main class="site-main" data-template="learning-and-support-learning">
-  <section class="band layout-stack width-wide inset" style="--band-inset: 16px" data-slot="s01" data-module="M3" data-section="1">
+<main class="site-main has-rail rail-start" style="--rail-width: 400px" data-template="learning-and-support-learning">
+  <section class="band layout-stack width-wide inset in-band" style="--band-inset: 16px; grid-row: 1" data-slot="s01" data-module="M3" data-section="1">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <ul class="list list-inline"><li><a class="link" href="../../index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/">Home</a></li><li><a class="link" href="../../school-life/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life">School life</a></li><li><a class="link" aria-current="page">Uniform</a></li></ul>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px" data-slot="s02" data-module="M5b" data-section="2">
+  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px; grid-row: 2" data-slot="s02" data-module="M5b" data-section="2">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h1 class="heading">Uniform</h1>
@@ -607,14 +625,14 @@
         <p class="lead">Please see the Uniform Exemptions and the Out of Uniform Process below for students who are unable to wear the correct uniform for any reason.</p>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px" data-slot="s03" data-module="M5b" data-section="3">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 3" data-slot="s03" data-module="M5b" data-section="3">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Uniform gallery</h2>
         <ul class="list"><li><img class="inline-media" src="../../assets/img/fortstreet-h.schools.nsw.gov.au/school-life/media_1bb5909ff65c84abf6f37891a9709e64fea2fa0bf-2f4d9dd0.jpg" data-source-src="https://fortstreet-h.schools.nsw.gov.au/school-life/media_1bb5909ff65c84abf6f37891a9709e64fea2fa0bf.jpg?width=750&amp;format=jpg&amp;optimize=medium" alt="Uniform for new website - girls summer uniform">Girls summer uniform A. Girls short sleeve shirt and girls navy skirt B. Girls short sleeve shirt and girls navy shorts C. Girls short sleeve shirt and girls navy trousers</li><li><img class="inline-media" src="../../assets/img/fortstreet-h.schools.nsw.gov.au/school-life/media_1e3ff6a0051ca30cca1e30ae2ee2522d733d9b816-2f4d9dd0.jpg" data-source-src="https://fortstreet-h.schools.nsw.gov.au/school-life/media_1e3ff6a0051ca30cca1e30ae2ee2522d733d9b816.jpg?width=750&amp;format=jpg&amp;optimize=medium" alt="Uniform for new website - boys summer uniform">Boys summer uniform D. Boys short sleeve shirt and grey shorts E. Boys short sleeve shirt and grey trousers F. Boys short sleeve shirt and grey trousers and senior tie</li><li><img class="inline-media" src="../../assets/img/fortstreet-h.schools.nsw.gov.au/school-life/media_1f7118904e38e538e248d35ce7674512fcd94e69b-2f4d9dd0.jpg" data-source-src="https://fortstreet-h.schools.nsw.gov.au/school-life/media_1f7118904e38e538e248d35ce7674512fcd94e69b.jpg?width=750&amp;format=jpg&amp;optimize=medium" alt="Uniform for new website - sports uniform">Sports uniform A. Polo shirt, boys maroon shorts and sports cap B. Polo shirt, girls maroon dawn shorts</li></ul>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px" data-slot="s04" data-section="4">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 4" data-slot="s04" data-section="4">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <div class="disclosure"><button class="disclosure-toggle" type="button" aria-expanded="false" aria-controls="disclosure-1">Helpful uniform hints <span class="glyph glyph-down" aria-hidden="true">keyboard_arrow_down</span></button><div class="disclosure-panel" id="disclosure-1" hidden="until-found"><ul class="list"><li>Socks may be white, black or grey. Students may also choose to wear black tights with the school skirt.</li><li>It is recommended that a minimum of two top (shirt) and two bottom uniform (skirts/shorts/pants) items are purchased. Some students prefer to have more items to ensure that they are not short of clean clothes through the week.</li><li>Short sleeved shirts and shorts/skirts are generally worn in summer, and long sleeved shirts/long pants are generally worn in winter, however some students prefer to wear some items throughout the year.</li><li>School ties are required in Term 1 for School Photo Day and Speech Day as well as being a part of the winter uniform.</li><li>Students may wish to purchase winter items in advance, but others will prefer to wait and purchase these later in the year. It is recommended a student has a minimum of 1 x jumper or winter jacket from the start of the year to accommodate students in cooler weather. Many purchase both jumper and winter jacket.</li><li>The school blazer is optional. Some students may wish to purchase one in preference to the winter jacket.</li><li>All students need a sports uniform for both PDHE lessons and sport. Some students may wish to purchase two sets. Sports uniform is only to be worn to/from school by Years 8-11 on Tuesdays (our regular sports day). On days when students have timetabled PDHPE or Sport lessons, students should come to school in school uniform and change into their sports uniform prior to the relevant lesson.</li><li>All uniform items must be CLEARLY LABELLED WITH THE STUDENTS FULL NAME. Items that come to lost property that are labelled can be returned to students. Any items with no name that remain unclaimed are donated to the second hand uniform stall.</li><li>If students need to wear an additional layer/shirt under their school shirt they should be plain all-white only.</li><li>The second hand uniform stall is held once a term.</li><li>Please contact the school office if you require financial assistance with purchasing uniform items.</li></ul></div></div>
@@ -625,7 +643,7 @@
         <ul class="list"><li>be sent to the office for a uniform pass (this will be recorded as a negative incident on Sentral and appear in the student &amp; parent portal);</li><li>have items of non-school uniform clothing confiscated by staff;</li><li>be asked to change out of non-school uniform items into second hand uniform items provided by the school;</li><li>complete a lunchtime or after school detention for repeatedly failing to wear the uniform correctly.</li></ul></div></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px" data-slot="s05" data-module="M9b" data-section="5">
+  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px; grid-row: 5" data-slot="s05" data-module="M9b" data-section="5">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Want to donate your old school uniforms?</h2>
@@ -633,7 +651,7 @@
         <div class="actions"><a class="btn" href="../../contact-us/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/contact-us">Contact us</a></div>
       </div></div></div>
     </section>
-  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px" data-slot="s06" data-module="M11b" data-section="6">
+  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 6" data-slot="s06" data-module="M11b" data-section="6">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <div class="cards" style="--cards-columns: 2"><div class="card"><p class="aux"><a class="link" href="../../school-life/uniform/uniform-shop/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/uniform/uniform-shop">Uniform Shop</a></p>
@@ -643,7 +661,7 @@
         <span class="glyph glyph-right" aria-hidden="true">east</span></div></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h4 inset" style="--band-inset: 16px" data-slot="s07" data-module="M3" data-section="7">
+  <section class="band layout-stack width-wide heading-h4 inset in-rail rail-mobile-hidden" style="--band-inset: 16px; grid-row: 2 / 7" data-slot="s07" data-module="M3" data-section="7">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Section navigation</h2>

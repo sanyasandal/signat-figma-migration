@@ -2,7 +2,7 @@
 
 - Source: https://fortstreet-h.schools.nsw.gov.au/school-life/events (scopes: `nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!`, normalize: `/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/school-life-events.mjs`)
 - Rendered: stardust/migrated/school-life/events/index.html (scope: `main`)
-- Generated: 2026-11-05T06:35:37.627Z
+- Generated: 2026-11-05T10:37:48.538Z
 
 ## Primary checks (gating)
 

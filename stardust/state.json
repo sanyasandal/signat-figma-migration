@@ -1390,7 +1390,7 @@
     }
   ],
   "migrate": {
-    "at": "2026-11-05T07:08:24Z",
+    "at": "2026-11-05T10:28:30Z",
     "outputDir": "stardust/migrated/",
     "selfContained": true,
     "pageMap": [
@@ -1707,7 +1707,7 @@
         "outputPathDefault": "trailing-slash"
       }
     ],
-    "totalAssetsBundled": 162,
+    "totalAssetsBundled": 168,
     "bundledAssets": [
       "canon.css",
       "img/assets.schools.nsw.gov.au/content/dam/doe/sws/master/photos-master/nsw-logo.svg",
@@ -1726,7 +1726,9 @@
       "img/fortstreet-h.schools.nsw.gov.au/about-us/media_15636a0c76544a40b07cf08bb886e5acaa80d387d-957b21a4.jpg",
       "img/fortstreet-h.schools.nsw.gov.au/about-us/media_15ae5ac8f7b47dc97dc30da00418f4d2110090d2e-3d5a5588.jpg",
       "img/fortstreet-h.schools.nsw.gov.au/about-us/media_167e8f824a83aca35c48598b13f24e870e92868fc-2f4d9dd0.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/about-us/media_167e8f824a83aca35c48598b13f24e870e92868fc-957b21a4.jpg",
       "img/fortstreet-h.schools.nsw.gov.au/about-us/media_16823c7d5cce1ab051bb5f032f4b98684c9b60c13-2f4d9dd0.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/about-us/media_16823c7d5cce1ab051bb5f032f4b98684c9b60c13-957b21a4.jpg",
       "img/fortstreet-h.schools.nsw.gov.au/about-us/media_19d25580c16233087a1c95606d2ad7a8370e6e94f-2f4d9dd0.jpg",
       "img/fortstreet-h.schools.nsw.gov.au/about-us/media_1a2a6fb9a8d56b03a22609ab13bff372c67707701-3d5a5588.jpg",
       "img/fortstreet-h.schools.nsw.gov.au/about-us/media_1a7eb996ba70c251c4839ed24cb1baf1c4f8f85be-2f4d9dd0.jpg",
@@ -1737,6 +1739,7 @@
       "img/fortstreet-h.schools.nsw.gov.au/about-us/media_1bcf48b79d7f154600b41f89191a4f1269dfde8b6-2f4d9dd0.jpg",
       "img/fortstreet-h.schools.nsw.gov.au/about-us/media_1bdbf60f3ea09221cd751349c0cdb79b9744d209a-3d5a5588.jpg",
       "img/fortstreet-h.schools.nsw.gov.au/about-us/media_1c9f7867e2df4ed6af3fe3bd3c1d6b437a72488f8-2f4d9dd0.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/about-us/media_1c9f7867e2df4ed6af3fe3bd3c1d6b437a72488f8-957b21a4.jpg",
       "img/fortstreet-h.schools.nsw.gov.au/about-us/media_1cfe04339cf1ce5d95d506cc665f70d5a0387cebe-2f4d9dd0.jpg",
       "img/fortstreet-h.schools.nsw.gov.au/about-us/media_1e8349e5f4a601e1858f1fb2a12011cb5310ae8cd-3d5a5588.jpg",
       "img/fortstreet-h.schools.nsw.gov.au/about-us/media_1f72ce2e3c3332a0b1c7dd74342407259860765e1-2f4d9dd0.jpg",
@@ -1866,11 +1869,14 @@
       "img/fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1e7cf645fd05068ab7d4cef23661020e8c67cafe9-3d5a5588.jpg",
       "img/fortstreet-h.schools.nsw.gov.au/school-life/uniform/media_13acf190dfadd101eab66415808c5252237459207-3d5a5588.png",
       "img/scontent-syd2-1.xx.fbcdn.net/v/t15.5256-10/842235604_1693597185715273_5724099017723056825_n-036ef4dd.jpg",
+      "img/scontent-syd2-1.xx.fbcdn.net/v/t15.5256-10/842235604_1693597185715273_5724099017723056825_n-8530b21b.jpg",
       "img/scontent-syd2-1.xx.fbcdn.net/v/t15.5256-10/842235604_1693597185715273_5724099017723056825_n-e779932e.jpg",
+      "img/scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/836259297_1746224134178648_3432439322237656274_n-7cfbbef3.jpg",
       "img/scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/836259297_1746224134178648_3432439322237656274_n-97dc7d82.jpg",
       "img/scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/836259297_1746224134178648_3432439322237656274_n-f013ed05.jpg",
       "img/scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/854710675_1770172005117194_7603390710119696328_n-5c32ff50.jpg",
-      "img/scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/854710675_1770172005117194_7603390710119696328_n-86749909.jpg"
+      "img/scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/854710675_1770172005117194_7603390710119696328_n-86749909.jpg",
+      "img/scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/854710675_1770172005117194_7603390710119696328_n-a3f73250.jpg"
     ],
     "pages": [
       {
@@ -2137,16 +2143,63 @@
     "missingAssets": [],
     "cleanedAssets": [],
     "lastRun": {
-      "at": "2026-11-05T07:08:24Z",
+      "at": "2026-11-05T10:28:30Z",
       "rendered": [
+        "about-us-our-principal-and-staff",
+        "learning-and-support-additional-learning-support",
+        "learning-and-support-learning",
+        "school-life-parent-portal",
+        "about-us-enrol",
         "about-us-facilities-and-resources",
+        "about-us-hsc-results",
+        "about-us-policies-and-reports-nsw-public-school-information",
+        "about-us-policies-and-reports",
+        "about-us-school-history-and-archives-fort-street-archives",
+        "about-us-school-history-and-archives-the-fort-street-museum",
+        "about-us-school-history-and-archives-the-fortian-digitised",
+        "about-us-school-history-and-archives",
+        "about-us-stories-and-highlights",
+        "about-us-transition-to-high-school",
+        "about-us-why-choose-us",
+        "about-us",
+        "contact-us",
         "learning-and-support-careers",
         "learning-and-support-high-potential-and-gifted-education",
-        "about-us-stories-and-highlights",
+        "learning-and-support-wellbeing",
+        "learning-and-support",
+        "our-community-alumni",
+        "our-community-fortians-union",
+        "our-community-foundation-tertiary-bursaries",
+        "our-community-foundation",
+        "our-community-pandc",
+        "our-community",
+        "school-life-bell-times",
+        "school-life-bring-your-own-device",
+        "school-life-canteen",
+        "school-life-events",
+        "school-life-forms",
+        "school-life-house-and-merit-system",
+        "school-life-lockers-and-lost-property",
+        "school-life-newsletters",
+        "school-life-stationery",
+        "school-life-student-opportunities-and-activities-academic-competitions",
+        "school-life-student-opportunities-and-activities-clubs-and-committees",
+        "school-life-student-opportunities-and-activities-creative-and-performing-arts",
+        "school-life-student-opportunities-and-activities-debating-and-public-speaking",
+        "school-life-student-opportunities-and-activities-duke-of-edinburgh-award",
+        "school-life-student-opportunities-and-activities-instrumental-music-program",
+        "school-life-student-opportunities-and-activities-robotics-and-maker-society",
+        "school-life-student-opportunities-and-activities-sport",
+        "school-life-student-opportunities-and-activities-student-leadership-opportunities",
+        "school-life-student-opportunities-and-activities",
+        "school-life-travel-to-school",
+        "school-life-uniform-uniform-shop",
         "school-life-uniform",
-        "school-life-student-opportunities-and-activities-duke-of-edinburgh-award"
+        "school-life"
       ],
-      "unchanged": [],
+      "unchanged": [
+        "home"
+      ],
       "refused": [],
       "passthrough": []
     }

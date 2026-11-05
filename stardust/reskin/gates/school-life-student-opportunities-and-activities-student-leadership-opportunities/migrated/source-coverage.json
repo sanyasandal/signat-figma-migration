@@ -1,0 +1,38 @@
+{
+  "model": "stardust/reskin/content-model/school-life-student-opportunities-and-activities-student-leadership-opportunities/content-model.json",
+  "target": "stardust/migrated/school-life/student-opportunities-and-activities/student-leadership-opportunities/index.html",
+  "verdict": "PASS",
+  "fails": 0,
+  "rows": [
+    {
+      "check": "S2",
+      "verdict": "ok",
+      "detail": "settled in 1508ms, 0 late chars captured"
+    },
+    {
+      "check": "S3",
+      "slot": "s04",
+      "source": "dark",
+      "target": "dark",
+      "verdict": "carried",
+      "probe": "Peer Support"
+    },
+    {
+      "check": "S3",
+      "slot": "s06",
+      "source": "tinted",
+      "target": "page",
+      "verdict": "declared",
+      "why": "long tinted prose rendered on the page band (M5b prose band); the donor has no full-measure greige prose composition",
+      "probe": "University Programs"
+    },
+    {
+      "check": "S4",
+      "key": "s08",
+      "source": "rail-start",
+      "target": "rail-start",
+      "verdict": "carried",
+      "sample": "Section navigation | School life | Bell times"
+    }
+  ]
+}

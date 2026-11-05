@@ -1,0 +1,29 @@
+{
+  "model": "stardust/reskin/content-model/our-community-fortians-union/content-model.json",
+  "target": "stardust/migrated/our-community/fortians-union/index.html",
+  "verdict": "PASS",
+  "fails": 0,
+  "rows": [
+    {
+      "check": "S2",
+      "verdict": "ok",
+      "detail": "settled in 1510ms, 0 late chars captured"
+    },
+    {
+      "check": "S3",
+      "slot": "s04",
+      "source": "dark",
+      "target": "dark",
+      "verdict": "carried",
+      "probe": "Keep in Touch"
+    },
+    {
+      "check": "S4",
+      "key": "s06",
+      "source": "rail-start",
+      "target": "rail-start",
+      "verdict": "carried",
+      "sample": "Section navigation | Our community | Alumni"
+    }
+  ]
+}

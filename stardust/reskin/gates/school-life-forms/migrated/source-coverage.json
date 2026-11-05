@@ -1,0 +1,29 @@
+{
+  "model": "stardust/reskin/content-model/school-life-forms/content-model.json",
+  "target": "stardust/migrated/school-life/forms/index.html",
+  "verdict": "PASS",
+  "fails": 0,
+  "rows": [
+    {
+      "check": "S2",
+      "verdict": "ok",
+      "detail": "settled in 1512ms, 0 late chars captured"
+    },
+    {
+      "check": "S3",
+      "slot": "s04",
+      "source": "dark",
+      "target": "dark",
+      "verdict": "carried",
+      "probe": "Need help with attendance?"
+    },
+    {
+      "check": "S4",
+      "key": "s06",
+      "source": "rail-start",
+      "target": "rail-start",
+      "verdict": "carried",
+      "sample": "Section navigation | School life | Bell times"
+    }
+  ]
+}

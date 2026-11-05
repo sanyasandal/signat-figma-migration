@@ -2,7 +2,7 @@
 
 - Model: stardust/reskin/content-model/school-life-travel-to-school/content-model.json
 - Rendered: stardust/migrated/school-life/travel-to-school/index.html (scope: `main`)
-- Generated: 2026-11-05T06:36:42.106Z
+- Generated: 2026-11-05T10:32:57.333Z
 
 ## slot-coverage — 59/60 pass
 

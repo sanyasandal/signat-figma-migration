@@ -3,7 +3,7 @@
 - Tokens: stardust/reskin/donor-tokens.json
 - Rendered: stardust/migrated/school-life/student-opportunities-and-activities/index.html
 - Spec: default (rendered-page conventions)
-- Generated: 2026-11-05T06:36:42.283Z
+- Generated: 2026-11-05T10:38:19.771Z
 
 ## Assertions — 13/15 pass
 

@@ -2,7 +2,7 @@
 
 - Source: https://fortstreet-h.schools.nsw.gov.au/about-us/stories-and-highlights (scopes: `nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!`, normalize: `/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/about-us-stories-and-highlights.mjs`)
 - Rendered: stardust/migrated/about-us/stories-and-highlights/index.html (scope: `main`)
-- Generated: 2026-11-05T07:12:09.526Z
+- Generated: 2026-11-05T10:29:54.901Z
 
 ## Primary checks (gating)
 
@@ -16,7 +16,7 @@
 
 ## Informational (non-gating — a reskin re-structures markup by design)
 
-- Element count: source=328 rendered=116 (delta -212)
+- Element count: source=325 rendered=116 (delta -209)
 - Tag+class sequence: diverges at position 0 of 116
 
 ## Declared deltas

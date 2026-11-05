@@ -1,0 +1,29 @@
+{
+  "model": "stardust/reskin/content-model/our-community/content-model.json",
+  "target": "stardust/migrated/our-community/index.html",
+  "verdict": "PASS",
+  "fails": 0,
+  "rows": [
+    {
+      "check": "S2",
+      "verdict": "ok",
+      "detail": "settled in 1515ms, 0 late chars captured"
+    },
+    {
+      "check": "S3",
+      "slot": "s04",
+      "source": "tinted",
+      "target": "tinted",
+      "verdict": "carried",
+      "probe": "Have a question for our principal or teachers?"
+    },
+    {
+      "check": "S4",
+      "key": "s06",
+      "source": "rail-start",
+      "target": "rail-start",
+      "verdict": "carried",
+      "sample": "Section navigation | About us | Contact us"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "model": "stardust/reskin/content-model/learning-and-support/content-model.json",
+  "target": "stardust/migrated/learning-and-support/index.html",
+  "verdict": "PASS",
+  "fails": 0,
+  "rows": [
+    {
+      "check": "S2",
+      "verdict": "ok",
+      "detail": "settled in 2817ms, 773 late chars captured"
+    },
+    {
+      "check": "S4",
+      "key": "s04",
+      "source": "rail-start",
+      "target": "rail-start",
+      "verdict": "carried",
+      "sample": "Section navigation | About us | Contact us"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "model": "stardust/reskin/content-model/school-life-parent-portal/content-model.json",
+  "target": "stardust/migrated/school-life/parent-portal/index.html",
+  "verdict": "PASS",
+  "fails": 0,
+  "rows": [
+    {
+      "check": "S2",
+      "verdict": "ok",
+      "detail": "settled in 1512ms, 0 late chars captured"
+    },
+    {
+      "check": "S3",
+      "slot": "s04",
+      "source": "tinted",
+      "target": "page",
+      "verdict": "WARN",
+      "probe": "Sentral"
+    },
+    {
+      "check": "S3",
+      "slot": "s06",
+      "source": "tinted",
+      "target": "page",
+      "verdict": "WARN",
+      "probe": "School Bytes"
+    },
+    {
+      "check": "S3",
+      "slot": "s08",
+      "source": "dark",
+      "target": "dark",
+      "verdict": "carried",
+      "probe": "Need help with our parent portal apps?"
+    },
+    {
+      "check": "S4",
+      "key": "s10",
+      "source": "rail-start",
+      "target": "rail-start",
+      "verdict": "carried",
+      "sample": "Section navigation | School life | Bell times"
+    }
+  ]
+}

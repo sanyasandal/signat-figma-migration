@@ -1,0 +1,53 @@
+{
+  "model": "stardust/reskin/content-model/about-us-why-choose-us/content-model.json",
+  "target": "stardust/migrated/about-us/why-choose-us/index.html",
+  "verdict": "PASS",
+  "fails": 0,
+  "rows": [
+    {
+      "check": "S2",
+      "verdict": "ok",
+      "detail": "settled in 1509ms, 0 late chars captured"
+    },
+    {
+      "check": "S3",
+      "slot": "s03",
+      "source": "dark",
+      "target": "dark",
+      "verdict": "carried",
+      "probe": "Our vision"
+    },
+    {
+      "check": "S3",
+      "slot": "s06",
+      "source": "tinted",
+      "target": "tinted",
+      "verdict": "carried",
+      "probe": "Ready to apply?"
+    },
+    {
+      "check": "S3",
+      "slot": "s09",
+      "source": "tinted",
+      "target": "tinted",
+      "verdict": "carried",
+      "probe": "\"As a parent of both a graduate and a current student at For"
+    },
+    {
+      "check": "S3",
+      "slot": "s10",
+      "source": "dark",
+      "target": "dark",
+      "verdict": "carried",
+      "probe": "Ready to apply?"
+    },
+    {
+      "check": "S4",
+      "key": "s12",
+      "source": "rail-start",
+      "target": "rail-start",
+      "verdict": "carried",
+      "sample": "Section navigation | About us | Enrol"
+    }
+  ]
+}

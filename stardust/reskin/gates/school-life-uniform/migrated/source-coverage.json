@@ -1,0 +1,29 @@
+{
+  "model": "stardust/reskin/content-model/school-life-uniform/content-model.json",
+  "target": "stardust/migrated/school-life/uniform/index.html",
+  "verdict": "PASS",
+  "fails": 0,
+  "rows": [
+    {
+      "check": "S2",
+      "verdict": "ok",
+      "detail": "settled in 1513ms, 0 late chars captured"
+    },
+    {
+      "check": "S3",
+      "slot": "s05",
+      "source": "dark",
+      "target": "dark",
+      "verdict": "carried",
+      "probe": "Want to donate your old school uniforms?"
+    },
+    {
+      "check": "S4",
+      "key": "s07",
+      "source": "rail-start",
+      "target": "rail-start",
+      "verdict": "carried",
+      "sample": "Section navigation | School life | Bell times"
+    }
+  ]
+}

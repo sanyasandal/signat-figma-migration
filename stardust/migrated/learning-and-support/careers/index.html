@@ -3,7 +3,7 @@
 <head>
 <!-- stardust:migrate
   writtenBy:        stardust:migrate
-  writtenAt:        2026-11-05T07:08:24Z
+  writtenAt:        2026-11-05T10:28:29Z
   page:             Careers
   slug:             learning-and-support-careers
   pagePath:         migrated/learning-and-support/careers/index.html
@@ -372,6 +372,24 @@
   .site-main .band .flow .heading.role-h4 { font-size: var(--type-h4-font-size); line-height: var(--type-h4-line-height); }
   .site-main .heading-display .heading { font-size: var(--type-display-font-size); line-height: var(--type-display-line-height); }
   .site-main .inset > .container { max-width: none; padding: 0 var(--band-inset); }
+  /* rails (mapping-json.md § rail): the source's side column sits beside the content, never after it */
+  @media (min-width: 901px) {
+    .site-main.has-rail { display: grid; grid-template-columns: var(--rail-width) minmax(0, 1fr); align-items: start; }
+    .site-main.has-rail.rail-end { grid-template-columns: minmax(0, 1fr) var(--rail-width); }
+    .site-main.has-rail > section { grid-column: 2; min-width: 0; }
+    .site-main.has-rail.rail-end > section { grid-column: 1; }
+    .site-main.has-rail > section.in-band { grid-column: 1 / -1; }
+    .site-main.has-rail > section.in-rail { grid-column: 1; }
+    .site-main.has-rail.rail-end > section.in-rail { grid-column: 2; }
+  }
+  /* one column at 900px and under: normal flow (the page's own margins), a flex column only to move a rail */
+  @media (max-width: 900px) {
+    .site-main.has-rail.rail-reorder { display: flex; flex-direction: column; }
+    .site-main.has-rail.rail-reorder > section.in-band { order: -2; }
+    .site-main.has-rail.rail-reorder > section.rail-mobile-top { order: -1; }
+    .site-main.has-rail.rail-reorder > section.rail-mobile-bottom { order: 1; }
+    .site-main.has-rail > section.rail-mobile-hidden { display: none; }
+  }
   .site-main h2.heading { font-size: var(--type-h2-font-size); line-height: var(--type-h2-line-height); font-weight: var(--type-h2-font-weight); }
   .site-main h3.heading { font-size: var(--type-h3-font-size); line-height: var(--type-h3-line-height); font-weight: var(--type-h3-font-weight); }
   .site-main h4.heading { font-size: var(--type-h4-font-size); line-height: var(--type-h4-line-height); font-weight: var(--type-h4-font-weight); }
@@ -537,7 +555,7 @@
 </style>
 <!-- stardust:prototype
   writtenBy:        stardust:reskin/stream-render
-  writtenAt:        2026-11-05T07:07:59.332Z
+  writtenAt:        2026-11-05T10:11:56.593Z
   page:             learning-and-support-careers
   pageUrl:          https://fortstreet-h.schools.nsw.gov.au/learning-and-support/careers
   template:         learning-and-support-learning
@@ -584,14 +602,14 @@
       <div class="nav-actions"><a class="sr-only" href="../../index.html#main-nav" data-source-href="https://fortstreet-h.schools.nsw.gov.au/#main-nav">Skip to navigation</a><a class="sr-only" href="../../index.html#main" data-source-href="https://fortstreet-h.schools.nsw.gov.au/#main">Skip to content</a><button class="icon-btn" type="button"><span class="glyph glyph-search" aria-hidden="true">search</span></button><button class="sr-only" type="button"><span class="sr-only">Show</span></button><button class="sr-only" type="button"><span class="sr-only">Search</span></button><button class="icon-btn nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><span class="glyph glyph-menu" aria-hidden="true"></span></button></div>
     </div></div>
 </header>
-<main class="site-main" data-template="learning-and-support-learning">
-  <section class="band layout-stack width-wide inset" style="--band-inset: 16px" data-slot="s01" data-module="M3" data-section="1">
+<main class="site-main has-rail rail-start" style="--rail-width: 400px" data-template="learning-and-support-learning">
+  <section class="band layout-stack width-wide inset in-band" style="--band-inset: 16px; grid-row: 1" data-slot="s01" data-module="M3" data-section="1">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <ul class="list list-inline"><li><a class="link" href="../../index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/">Home</a></li><li><a class="link" href="../../learning-and-support/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/learning-and-support">Learning and support</a></li><li><a class="link" aria-current="page">Careers</a></li></ul>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px" data-slot="s02" data-module="M5b" data-section="2">
+  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px; grid-row: 2" data-slot="s02" data-module="M5b" data-section="2">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h1 class="heading">Careers</h1>
@@ -610,7 +628,7 @@
         <p class="lead">The careers office is located in the library next to the Senior Study with brochures, leaflets and booklets, for drop-in chats, or pre-booked interviews for students in all year-groups.</p>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px" data-slot="s03" data-module="M5b" data-section="3">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 3" data-slot="s03" data-module="M5b" data-section="3">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Careers Expo</h2>
@@ -619,14 +637,14 @@
         <ul class="list"><li><img class="inline-media" src="../../assets/img/fortstreet-h.schools.nsw.gov.au/learning-and-support/media_1a025bd3dca94132118b7e69e8fa56c6aa860294e-2f4d9dd0.jpg" data-source-src="https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_1a025bd3dca94132118b7e69e8fa56c6aa860294e.jpg?width=750&amp;format=jpg&amp;optimize=medium" alt="">ACU at the Careers Expo</li><li><img class="inline-media" src="../../assets/img/fortstreet-h.schools.nsw.gov.au/learning-and-support/media_13b723e7aff88455df37b072cd8d7674c6f33d6e1-2f4d9dd0.jpg" data-source-src="https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_13b723e7aff88455df37b072cd8d7674c6f33d6e1.jpg?width=750&amp;format=jpg&amp;optimize=medium" alt="">University of Sydney at the Careers Expo</li><li><img class="inline-media" src="../../assets/img/fortstreet-h.schools.nsw.gov.au/learning-and-support/media_1e7c00b11ec5492fc2163b5ac830b173bf5b1b6b3-2f4d9dd0.jpg" data-source-src="https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_1e7c00b11ec5492fc2163b5ac830b173bf5b1b6b3.jpg?width=750&amp;format=jpg&amp;optimize=medium" alt="">UNSW at the Careers Expo</li></ul>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px" data-slot="s04" data-module="M9b" data-section="4">
+  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px; grid-row: 4" data-slot="s04" data-module="M9b" data-section="4">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">For more information</h2>
         <p class="aux">Contact: Ms Kylie Salisbury Phone: 8585 1621 Email: <a class="link" href="mailto:kylie.salisbury@det.nsw.edu.au">kylie.salisbury@det.nsw.edu.au <span class="sr-only">(opens in new window)</span></a></p>
       </div></div></div>
     </section>
-  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px" data-slot="s05" data-module="M11b" data-section="5">
+  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 5" data-slot="s05" data-module="M11b" data-section="5">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <div class="cards" style="--cards-columns: 2"><div class="card"><p class="aux"><a class="link" href="../../learning-and-support/learning/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/learning-and-support/learning">Learning</a></p>
@@ -636,7 +654,7 @@
         <span class="glyph glyph-right" aria-hidden="true">east</span></div></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h4 inset" style="--band-inset: 16px" data-slot="s06" data-module="M3" data-section="6">
+  <section class="band layout-stack width-wide heading-h4 inset in-rail rail-mobile-hidden" style="--band-inset: 16px; grid-row: 2 / 6" data-slot="s06" data-module="M3" data-section="6">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Section navigation</h2>

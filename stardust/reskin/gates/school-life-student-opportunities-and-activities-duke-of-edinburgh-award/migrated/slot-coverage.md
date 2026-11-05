@@ -2,7 +2,7 @@
 
 - Model: stardust/reskin/content-model/school-life-student-opportunities-and-activities-duke-of-edinburgh-award/content-model.json
 - Rendered: stardust/migrated/school-life/student-opportunities-and-activities/duke-of-edinburgh-award/index.html (scope: `main`)
-- Generated: 2026-11-05T07:10:29.461Z
+- Generated: 2026-11-05T10:32:33.967Z
 
 ## slot-coverage — 48/49 pass
 

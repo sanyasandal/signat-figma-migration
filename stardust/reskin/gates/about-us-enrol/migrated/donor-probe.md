@@ -3,7 +3,7 @@
 - Tokens: stardust/reskin/donor-tokens.json
 - Rendered: stardust/migrated/about-us/enrol/index.html
 - Spec: default (rendered-page conventions)
-- Generated: 2026-11-05T06:33:54.818Z
+- Generated: 2026-11-05T10:28:56.331Z
 
 ## Assertions — 12/14 pass (1 skipped)
 

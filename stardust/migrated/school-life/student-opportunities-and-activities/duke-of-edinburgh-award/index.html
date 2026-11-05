@@ -3,7 +3,7 @@
 <head>
 <!-- stardust:migrate
   writtenBy:        stardust:migrate
-  writtenAt:        2026-11-05T07:08:24Z
+  writtenAt:        2026-11-05T10:28:30Z
   page:             Duke of Edinburgh Award
   slug:             school-life-student-opportunities-and-activities-duke-of-edinburgh-award
   pagePath:         migrated/school-life/student-opportunities-and-activities/duke-of-edinburgh-award/index.html
@@ -372,6 +372,24 @@
   .site-main .band .flow .heading.role-h4 { font-size: var(--type-h4-font-size); line-height: var(--type-h4-line-height); }
   .site-main .heading-display .heading { font-size: var(--type-display-font-size); line-height: var(--type-display-line-height); }
   .site-main .inset > .container { max-width: none; padding: 0 var(--band-inset); }
+  /* rails (mapping-json.md § rail): the source's side column sits beside the content, never after it */
+  @media (min-width: 901px) {
+    .site-main.has-rail { display: grid; grid-template-columns: var(--rail-width) minmax(0, 1fr); align-items: start; }
+    .site-main.has-rail.rail-end { grid-template-columns: minmax(0, 1fr) var(--rail-width); }
+    .site-main.has-rail > section { grid-column: 2; min-width: 0; }
+    .site-main.has-rail.rail-end > section { grid-column: 1; }
+    .site-main.has-rail > section.in-band { grid-column: 1 / -1; }
+    .site-main.has-rail > section.in-rail { grid-column: 1; }
+    .site-main.has-rail.rail-end > section.in-rail { grid-column: 2; }
+  }
+  /* one column at 900px and under: normal flow (the page's own margins), a flex column only to move a rail */
+  @media (max-width: 900px) {
+    .site-main.has-rail.rail-reorder { display: flex; flex-direction: column; }
+    .site-main.has-rail.rail-reorder > section.in-band { order: -2; }
+    .site-main.has-rail.rail-reorder > section.rail-mobile-top { order: -1; }
+    .site-main.has-rail.rail-reorder > section.rail-mobile-bottom { order: 1; }
+    .site-main.has-rail > section.rail-mobile-hidden { display: none; }
+  }
   .site-main h2.heading { font-size: var(--type-h2-font-size); line-height: var(--type-h2-line-height); font-weight: var(--type-h2-font-weight); }
   .site-main h3.heading { font-size: var(--type-h3-font-size); line-height: var(--type-h3-line-height); font-weight: var(--type-h3-font-weight); }
   .site-main h4.heading { font-size: var(--type-h4-font-size); line-height: var(--type-h4-line-height); font-weight: var(--type-h4-font-weight); }
@@ -537,7 +555,7 @@
 </style>
 <!-- stardust:prototype
   writtenBy:        stardust:reskin/stream-render
-  writtenAt:        2026-11-05T07:08:24.521Z
+  writtenAt:        2026-11-05T10:13:11.798Z
   page:             school-life-student-opportunities-and-activities-duke-of-edinburgh-award
   pageUrl:          https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/duke-of-edinburgh-award
   template:         learning-and-support-learning
@@ -584,14 +602,14 @@
       <div class="nav-actions"><a class="sr-only" href="../../../index.html#main-nav" data-source-href="https://fortstreet-h.schools.nsw.gov.au/#main-nav">Skip to navigation</a><a class="sr-only" href="../../../index.html#main" data-source-href="https://fortstreet-h.schools.nsw.gov.au/#main">Skip to content</a><button class="icon-btn" type="button"><span class="glyph glyph-search" aria-hidden="true">search</span></button><button class="sr-only" type="button"><span class="sr-only">Show</span></button><button class="sr-only" type="button"><span class="sr-only">Search</span></button><button class="icon-btn nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><span class="glyph glyph-menu" aria-hidden="true"></span></button></div>
     </div></div>
 </header>
-<main class="site-main" data-template="learning-and-support-learning">
-  <section class="band layout-stack width-wide inset" style="--band-inset: 16px" data-slot="s01" data-module="M3" data-section="1">
+<main class="site-main has-rail rail-start" style="--rail-width: 400px" data-template="learning-and-support-learning">
+  <section class="band layout-stack width-wide inset in-band" style="--band-inset: 16px; grid-row: 1" data-slot="s01" data-module="M3" data-section="1">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <ul class="list list-inline"><li><a class="link" href="../../../index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/">Home</a></li><li><a class="link" href="../../../school-life/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life">School life</a></li><li><a class="link" href="../../../school-life/student-opportunities-and-activities/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities">Student opportunities and activities</a></li><li><a class="link" aria-current="page">Duke of Edinburgh Award</a></li></ul>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px" data-slot="s02" data-module="M5b" data-section="2">
+  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px; grid-row: 2" data-slot="s02" data-module="M5b" data-section="2">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h1 class="heading">The Duke of Edinburgh International Award</h1>
@@ -601,7 +619,7 @@
         <figure class="media media-wide"><img src="../../../assets/img/fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_13ced7172bebba0a1d393c532218e60ccf3a70def-3d5a5588.png" data-source-src="https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_13ced7172bebba0a1d393c532218e60ccf3a70def.png?width=2000&amp;format=webply&amp;optimize=medium" alt=""></figure>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px" data-slot="s03" data-module="M5b" data-section="3">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 3" data-slot="s03" data-module="M5b" data-section="3">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Requirements of the Award</h2>
@@ -613,7 +631,7 @@
         <p class="lead">A checklist of requirements to register in the Duke of Edinburgh’s Award, including the payment and paperwork required is available here.</p>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px" data-slot="s04" data-module="M5b" data-section="4">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 4" data-slot="s04" data-module="M5b" data-section="4">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Adventurous Journey</h2>
@@ -622,7 +640,7 @@
         <ul class="list"><li>a training day at school run by the student Duke of Edinburgh’s Award Leadership Team, which goes through navigation and route planning, first aid and emergency management, cooking, leadership, equipment and putting up a tent.</li><li>a four-day camp at Somerset Outdoor Learning Centre, comprising a two-day practice journey and a two-day qualifying journey. Students will be hiking in groups, carrying all required equipment in a provided rucksack, and sleeping in tents.</li></ul>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px" data-slot="s05" data-section="5">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 5" data-slot="s05" data-section="5">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Suggestions of activities and Assessors that are available at school</h2>
@@ -637,7 +655,7 @@
         <p class="lead">Physical Recreation</p>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px" data-slot="s06" data-module="M5b" data-section="6">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 6" data-slot="s06" data-module="M5b" data-section="6">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Adventurous Journey</h2>
@@ -647,27 +665,27 @@
         <figure class="media media-wide"><img src="../../../assets/img/fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1e0749ba6a2bf2cc2b146ad936bd3f51d646a5531-3d5a5588.jpg" data-source-src="https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1e0749ba6a2bf2cc2b146ad936bd3f51d646a5531.jpg?width=2000&amp;format=webply&amp;optimize=medium" alt="Students at the Duke of Edinburgh Award program"></figure>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px" data-slot="s07" data-module="M9b" data-section="7">
+  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px; grid-row: 7" data-slot="s07" data-module="M9b" data-section="7">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Why should I get involved in the Duke of Edinburgh’s Award program?</h2>
         <ul class="list"><li>It’s fun, an opportunity to challenge yourself and have adventures!</li><li>It helps you achieve the <a class="link" href="../../../about-our-school/exit-profile.html" data-broken-link="true" data-source-href="https://fortstreet-h.schools.nsw.gov.au/about-our-school/exit-profile.html">Fort Street exit profile</a></li><li>It helps you develop and demonstrate the skills sought after by employers, universities and scholarship providers, such as problem solving, teamwork, communication, adaptability, resilience, organisation, creativity and leadership.</li><li>It improves your academic performance and mental health.</li></ul>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px" data-slot="s08" data-module="M5b" data-section="8">
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 8" data-slot="s08" data-module="M5b" data-section="8">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <ul class="list"><li><img class="inline-media" src="../../../assets/img/fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_19ee455046769146fe3eee008ce2122b29e3eef7f-2f4d9dd0.jpg" data-source-src="https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_19ee455046769146fe3eee008ce2122b29e3eef7f.jpg?width=750&amp;format=jpg&amp;optimize=medium" alt=""></li><li><img class="inline-media" src="../../../assets/img/fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_190a3d9e4e783061378d2701c2082d809cf9106b5-2f4d9dd0.jpg" data-source-src="https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_190a3d9e4e783061378d2701c2082d809cf9106b5.jpg?width=750&amp;format=jpg&amp;optimize=medium" alt=""></li><li><img class="inline-media" src="../../../assets/img/fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_17a31ded844296778597564b9c33721fd99ad5a85-2f4d9dd0.jpg" data-source-src="https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_17a31ded844296778597564b9c33721fd99ad5a85.jpg?width=750&amp;format=jpg&amp;optimize=medium" alt=""></li></ul>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide tone-light heading-h2 inset bleed" style="--band-inset: 16px" data-slot="s09" data-section="9">
+  <section class="band layout-stack width-wide tone-light heading-h2 inset bleed" style="--band-inset: 16px; grid-row: 9" data-slot="s09" data-section="9">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">2026 Duke of Ed Staff Team</h2>
         <div class="table-wrap"><table class="table"><tbody><tr><th><p class="lead">Coordinator</p></th><th><p class="lead">Ms Xu</p></th></tr><tr><td><p class="lead">Bronze Award Leader</p></td><td><p class="lead">Ms Xu, Mr Sarif</p></td></tr><tr><td><p class="lead">Silver Award Leader</p></td><td><p class="lead">Ms Xu, Mr Sarif</p></td></tr><tr><td><p class="lead">Gold Award Leader</p></td><td><p class="lead">Ms Thompson</p></td></tr><tr><td><p class="lead">Front Office Staff</p></td><td><p class="lead">Ms Kaloudis, Ms Kuenne</p></td></tr></tbody></table></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px" data-slot="s10" data-module="M9b" data-section="10">
+  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px; grid-row: 10" data-slot="s10" data-module="M9b" data-section="10">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Want to know more?</h2>
@@ -676,7 +694,7 @@
         <p class="aux">Email: <a class="link" href="mailto:jenny.xu15@det.nsw.edu.au">jenny.xu15@det.nsw.edu.au <span class="sr-only">(opens in new window)</span></a></p>
       </div></div></div>
     </section>
-  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px" data-slot="s11" data-module="M11b" data-section="11">
+  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px; grid-row: 11" data-slot="s11" data-module="M11b" data-section="11">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <div class="cards" style="--cards-columns: 2"><div class="card"><div class="actions"><a class="btn" href="../../../about-us/facilities-and-resources/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources">Facilities and resources</a></div>
@@ -686,7 +704,7 @@
         <span class="glyph glyph-right" aria-hidden="true">east</span></div></div>
       </div></div></div>
     </section>
-  <section class="band layout-stack width-wide heading-h4 inset" style="--band-inset: 16px" data-slot="s12" data-module="M3" data-section="12">
+  <section class="band layout-stack width-wide heading-h4 inset in-rail rail-mobile-hidden" style="--band-inset: 16px; grid-row: 2 / 12" data-slot="s12" data-module="M3" data-section="12">
       
       <div class="container"><div class="panel"><div class="flow" data-slot-body>
           <h2 class="heading">Section navigation</h2>

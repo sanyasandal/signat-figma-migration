@@ -1,0 +1,62 @@
+{
+  "model": "stardust/reskin/content-model/school-life-travel-to-school/content-model.json",
+  "target": "stardust/migrated/school-life/travel-to-school/index.html",
+  "verdict": "PASS",
+  "fails": 0,
+  "rows": [
+    {
+      "check": "S2",
+      "verdict": "ok",
+      "detail": "settled in 1532ms, 0 late chars captured"
+    },
+    {
+      "check": "S3",
+      "slot": "s04",
+      "source": "tinted",
+      "target": "page",
+      "verdict": "declared",
+      "why": "long tinted prose rendered on the page band (M5b prose band); the donor has no full-measure greige prose composition",
+      "probe": "Getting to and from school safely"
+    },
+    {
+      "check": "S3",
+      "slot": "s06",
+      "source": "tinted",
+      "target": "tinted",
+      "verdict": "carried",
+      "probe": "Free school travel passes and School Term Bus Passes are iss"
+    },
+    {
+      "check": "S3",
+      "slot": "s07",
+      "source": "tinted",
+      "target": "tinted",
+      "verdict": "carried",
+      "probe": "School Opal cards are issued for free school travel and for"
+    },
+    {
+      "check": "S3",
+      "slot": "s09",
+      "source": "dark",
+      "target": "dark",
+      "verdict": "carried",
+      "probe": "Apply for a travel pass"
+    },
+    {
+      "check": "S3",
+      "slot": "s11",
+      "source": "dark",
+      "target": "dark",
+      "verdict": "carried",
+      "probe": "Need help getting to school?"
+    },
+    {
+      "check": "S4",
+      "key": "s13",
+      "source": "rail-start",
+      "target": "rail-start",
+      "verdict": "carried",
+      "sample": "Section navigation | School life | Bell times"
+    }
+  ]
+}

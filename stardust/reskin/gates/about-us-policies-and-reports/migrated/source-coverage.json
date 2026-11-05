@@ -1,0 +1,29 @@
+{
+  "model": "stardust/reskin/content-model/about-us-policies-and-reports/content-model.json",
+  "target": "stardust/migrated/about-us/policies-and-reports/index.html",
+  "verdict": "PASS",
+  "fails": 0,
+  "rows": [
+    {
+      "check": "S2",
+      "verdict": "ok",
+      "detail": "settled in 1510ms, 0 late chars captured"
+    },
+    {
+      "check": "S3",
+      "slot": "s07",
+      "source": "dark",
+      "target": "dark",
+      "verdict": "carried",
+      "probe": "Have a question about a policy or a report?"
+    },
+    {
+      "check": "S4",
+      "key": "s09",
+      "source": "rail-start",
+      "target": "rail-start",
+      "verdict": "carried",
+      "sample": "Section navigation | About us | Enrol"
+    }
+  ]
+}

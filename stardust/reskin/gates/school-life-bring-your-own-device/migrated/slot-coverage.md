@@ -2,7 +2,7 @@
 
 - Model: stardust/reskin/content-model/school-life-bring-your-own-device/content-model.json
 - Rendered: stardust/migrated/school-life/bring-your-own-device/index.html (scope: `main`)
-- Generated: 2026-11-05T06:35:29.106Z
+- Generated: 2026-11-05T10:31:23.048Z
 
 ## slot-coverage — 30/31 pass
 

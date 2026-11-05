@@ -1,0 +1,45 @@
+{
+  "model": "stardust/reskin/content-model/school-life-events/content-model.json",
+  "target": "stardust/migrated/school-life/events/index.html",
+  "verdict": "PASS",
+  "fails": 0,
+  "rows": [
+    {
+      "check": "S2",
+      "verdict": "ok",
+      "detail": "settled in 1511ms, 0 late chars captured"
+    },
+    {
+      "check": "S3",
+      "slot": "s05",
+      "source": "tinted",
+      "target": "page",
+      "verdict": "WARN",
+      "probe": "HSC Examinations"
+    },
+    {
+      "check": "S3",
+      "slot": "s06",
+      "source": "dark",
+      "target": "dark",
+      "verdict": "carried",
+      "probe": "Need to make a payment?"
+    },
+    {
+      "check": "S3",
+      "slot": "s07",
+      "source": "tinted",
+      "target": "tinted",
+      "verdict": "carried",
+      "probe": "Key dates"
+    },
+    {
+      "check": "S4",
+      "key": "s10",
+      "source": "rail-start",
+      "target": "rail-start",
+      "verdict": "carried",
+      "sample": "Section navigation | School life | Bell times"
+    }
+  ]
+}
