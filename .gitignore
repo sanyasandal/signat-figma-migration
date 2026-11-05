@@ -21,3 +21,13 @@ stardust/reskin/figma-checks/
 .env
 .env.*
 stardust/.da-token
+
+# stardust regenerable binaries (images are delivered from DA / the source; screenshots are evidence)
+stardust/prototypes/assets/
+stardust/reskin/pages/assets/
+stardust/migrated/assets/
+stardust/current/assets/
+stardust/reskin/approvals/
+stardust/reskin/content-model/*/source-full.png
+stardust/reskin/reports/*.png
+stardust/package-lock.json

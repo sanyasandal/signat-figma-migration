@@ -1,0 +1,2154 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:migrate",
+    "writtenAt": "2026-11-05T06:41:53Z",
+    "stardustVersion": "0.10.0"
+  },
+  "site": {
+    "originUrl": "https://fortstreet-h.schools.nsw.gov.au",
+    "deployUrl": null,
+    "extractedAt": "2026-11-04T18:24:45.077Z",
+    "pageCap": 60,
+    "totalDiscovered": 52,
+    "crawled": 52
+  },
+  "designSource": {
+    "url": "https://www.figma.com/design/Nb8RS4SM2kSDkV1yW058yl",
+    "capturedAt": "2026-11-04T18:22:42Z",
+    "path": "stardust/canon-source/"
+  },
+  "flow": "reskin",
+  "flowChosenAt": "2026-11-04T18:24:45.077Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "home",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/",
+      "title": "Fort Street High School",
+      "type": "home",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-04T18:24:02.358Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-04T18:33:56Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-05T06:17:03Z",
+          "approvedBy": "user"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:51Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": "stardust/reskin/pages/home.html",
+      "migratedPath": "stardust/migrated/index.html"
+    },
+    {
+      "slug": "about-us-our-principal-and-staff",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff",
+      "title": "Our principal and staff",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-04T18:24:01.809Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:28:07Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:51Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/about-us-our-principal-and-staff.json",
+      "prototypePath": "stardust/reskin/pages/about-us-our-principal-and-staff.html",
+      "migratedPath": "stardust/migrated/about-us/our-principal-and-staff/index.html"
+    },
+    {
+      "slug": "learning-and-support-additional-learning-support",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support",
+      "title": "Additional learning support",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-04T18:24:07.488Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:28:10Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:51Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/learning-and-support-additional-learning-support.json",
+      "prototypePath": "stardust/reskin/pages/learning-and-support-additional-learning-support.html",
+      "migratedPath": "stardust/migrated/learning-and-support/additional-learning-support/index.html"
+    },
+    {
+      "slug": "learning-and-support-learning",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/learning",
+      "title": "Learning",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-04T18:24:02.357Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-04T18:33:59Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-05T06:17:04Z",
+          "approvedBy": "user"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-05T06:20:48Z",
+          "approvedBy": "user"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:51Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/learning-and-support-learning.json",
+      "prototypePath": "stardust/reskin/pages/learning-and-support-learning.html",
+      "migratedPath": "stardust/migrated/learning-and-support/learning/index.html"
+    },
+    {
+      "slug": "school-life-parent-portal",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+      "title": "Parent portal",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-04T18:24:02.513Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:28:12Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:51Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/school-life-parent-portal.json",
+      "prototypePath": "stardust/reskin/pages/school-life-parent-portal.html",
+      "migratedPath": "stardust/migrated/school-life/parent-portal/index.html"
+    },
+    {
+      "slug": "about-us-enrol",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/enrol",
+      "title": "Enrol",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:16.718Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:28:13Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:51Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/about-us-enrol.json",
+      "prototypePath": "stardust/reskin/pages/about-us-enrol.html",
+      "migratedPath": "stardust/migrated/about-us/enrol/index.html"
+    },
+    {
+      "slug": "about-us-facilities-and-resources",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources",
+      "title": "Facilities and resources",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:21.915Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:28:17Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:51Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/about-us-facilities-and-resources.json",
+      "prototypePath": "stardust/reskin/pages/about-us-facilities-and-resources.html",
+      "migratedPath": "stardust/migrated/about-us/facilities-and-resources/index.html"
+    },
+    {
+      "slug": "about-us-hsc-results",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/hsc-results",
+      "title": "HSC Results",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:58.462Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:28:19Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:51Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/about-us-hsc-results.json",
+      "prototypePath": "stardust/reskin/pages/about-us-hsc-results.html",
+      "migratedPath": "stardust/migrated/about-us/hsc-results/index.html"
+    },
+    {
+      "slug": "about-us-policies-and-reports-nsw-public-school-information",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports/nsw-public-school-information",
+      "title": "NSW public school information",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:27.539Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:28:20Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:51Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/about-us-policies-and-reports-nsw-public-school-information.json",
+      "prototypePath": "stardust/reskin/pages/about-us-policies-and-reports-nsw-public-school-information.html",
+      "migratedPath": "stardust/migrated/about-us/policies-and-reports/nsw-public-school-information/index.html"
+    },
+    {
+      "slug": "about-us-policies-and-reports",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports",
+      "title": "Policies and reports",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:22.591Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:28:21Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:51Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/about-us-policies-and-reports.json",
+      "prototypePath": "stardust/reskin/pages/about-us-policies-and-reports.html",
+      "migratedPath": "stardust/migrated/about-us/policies-and-reports/index.html"
+    },
+    {
+      "slug": "about-us-school-history-and-archives-fort-street-archives",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives/fort-street-archives",
+      "title": "Fort Street Archives",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:46.381Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:28:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:51Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/about-us-school-history-and-archives-fort-street-archives.json",
+      "prototypePath": "stardust/reskin/pages/about-us-school-history-and-archives-fort-street-archives.html",
+      "migratedPath": "stardust/migrated/about-us/school-history-and-archives/fort-street-archives/index.html"
+    },
+    {
+      "slug": "about-us-school-history-and-archives-the-fort-street-museum",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives/the-fort-street-museum",
+      "title": "The Fort Street Museum",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:46.381Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:28:27Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:51Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/about-us-school-history-and-archives-the-fort-street-museum.json",
+      "prototypePath": "stardust/reskin/pages/about-us-school-history-and-archives-the-fort-street-museum.html",
+      "migratedPath": "stardust/migrated/about-us/school-history-and-archives/the-fort-street-museum/index.html"
+    },
+    {
+      "slug": "about-us-school-history-and-archives-the-fortian-digitised",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives/the-fortian-digitised",
+      "title": "The Fortian Digitised",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:46.381Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:28:29Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:51Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/about-us-school-history-and-archives-the-fortian-digitised.json",
+      "prototypePath": "stardust/reskin/pages/about-us-school-history-and-archives-the-fortian-digitised.html",
+      "migratedPath": "stardust/migrated/about-us/school-history-and-archives/the-fortian-digitised/index.html"
+    },
+    {
+      "slug": "about-us-school-history-and-archives",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives",
+      "title": "School history and archives",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:40.097Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:28:35Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:51Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/about-us-school-history-and-archives.json",
+      "prototypePath": "stardust/reskin/pages/about-us-school-history-and-archives.html",
+      "migratedPath": "stardust/migrated/about-us/school-history-and-archives/index.html"
+    },
+    {
+      "slug": "about-us-stories-and-highlights",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/stories-and-highlights",
+      "title": "Stories and highlights",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:27.793Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:28:40Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:51Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/about-us-stories-and-highlights.json",
+      "prototypePath": "stardust/reskin/pages/about-us-stories-and-highlights.html",
+      "migratedPath": "stardust/migrated/about-us/stories-and-highlights/index.html"
+    },
+    {
+      "slug": "about-us-transition-to-high-school",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/transition-to-high-school",
+      "title": "Transition to high school",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:33.361Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:28:53Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:52Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/about-us-transition-to-high-school.json",
+      "prototypePath": "stardust/reskin/pages/about-us-transition-to-high-school.html",
+      "migratedPath": "stardust/migrated/about-us/transition-to-high-school/index.html"
+    },
+    {
+      "slug": "about-us-why-choose-us",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/why-choose-us",
+      "title": "Why choose us?",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:22.591Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:28:57Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:52Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/about-us-why-choose-us.json",
+      "prototypePath": "stardust/reskin/pages/about-us-why-choose-us.html",
+      "migratedPath": "stardust/migrated/about-us/why-choose-us/index.html"
+    },
+    {
+      "slug": "about-us",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+      "title": "About us",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:16.608Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:29:01Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:52Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/about-us.json",
+      "prototypePath": "stardust/reskin/pages/about-us.html",
+      "migratedPath": "stardust/migrated/about-us/index.html"
+    },
+    {
+      "slug": "contact-us",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+      "title": "Contact us",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:09.735Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:29:04Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:52Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/contact-us.json",
+      "prototypePath": "stardust/reskin/pages/contact-us.html",
+      "migratedPath": "stardust/migrated/contact-us/index.html"
+    },
+    {
+      "slug": "learning-and-support-careers",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/careers",
+      "title": "Careers",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:39.402Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:29:07Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:52Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/learning-and-support-careers.json",
+      "prototypePath": "stardust/reskin/pages/learning-and-support-careers.html",
+      "migratedPath": "stardust/migrated/learning-and-support/careers/index.html"
+    },
+    {
+      "slug": "learning-and-support-high-potential-and-gifted-education",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/high-potential-and-gifted-education",
+      "title": "Inspire – High potential and gifted education",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:16.609Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:29:11Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:52Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/learning-and-support-high-potential-and-gifted-education.json",
+      "prototypePath": "stardust/reskin/pages/learning-and-support-high-potential-and-gifted-education.html",
+      "migratedPath": "stardust/migrated/learning-and-support/high-potential-and-gifted-education/index.html"
+    },
+    {
+      "slug": "learning-and-support-wellbeing",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/wellbeing",
+      "title": "Wellbeing",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:21.632Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:29:14Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:52Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/learning-and-support-wellbeing.json",
+      "prototypePath": "stardust/reskin/pages/learning-and-support-wellbeing.html",
+      "migratedPath": "stardust/migrated/learning-and-support/wellbeing/index.html"
+    },
+    {
+      "slug": "learning-and-support",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support",
+      "title": "Learning and support",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:27.930Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:29:17Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:52Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/learning-and-support.json",
+      "prototypePath": "stardust/reskin/pages/learning-and-support.html",
+      "migratedPath": "stardust/migrated/learning-and-support/index.html"
+    },
+    {
+      "slug": "our-community-alumni",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/our-community/alumni",
+      "title": "Alumni",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:34.085Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:29:19Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:52Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/our-community-alumni.json",
+      "prototypePath": "stardust/reskin/pages/our-community-alumni.html",
+      "migratedPath": "stardust/migrated/our-community/alumni/index.html"
+    },
+    {
+      "slug": "our-community-fortians-union",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/our-community/fortians-union",
+      "title": "The Fortians Union",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:39.402Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:29:19Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:52Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/our-community-fortians-union.json",
+      "prototypePath": "stardust/reskin/pages/our-community-fortians-union.html",
+      "migratedPath": "stardust/migrated/our-community/fortians-union/index.html"
+    },
+    {
+      "slug": "our-community-foundation-tertiary-bursaries",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/our-community/foundation-tertiary-bursaries",
+      "title": "Foundation Tertiary Bursaries",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:58.462Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:29:20Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:52Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/our-community-foundation-tertiary-bursaries.json",
+      "prototypePath": "stardust/reskin/pages/our-community-foundation-tertiary-bursaries.html",
+      "migratedPath": "stardust/migrated/our-community/foundation-tertiary-bursaries/index.html"
+    },
+    {
+      "slug": "our-community-foundation",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/our-community/foundation",
+      "title": "The Fort Street Foundation",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:39.403Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:29:23Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:52Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/our-community-foundation.json",
+      "prototypePath": "stardust/reskin/pages/our-community-foundation.html",
+      "migratedPath": "stardust/migrated/our-community/foundation/index.html"
+    },
+    {
+      "slug": "our-community-pandc",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/our-community/pandc",
+      "title": "Parents and Citizens Association",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:33.861Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:29:25Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:52Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/our-community-pandc.json",
+      "prototypePath": "stardust/reskin/pages/our-community-pandc.html",
+      "migratedPath": "stardust/migrated/our-community/pandc/index.html"
+    },
+    {
+      "slug": "our-community",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/our-community",
+      "title": "Our community",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:33.861Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:29:27Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:52Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/our-community.json",
+      "prototypePath": "stardust/reskin/pages/our-community.html",
+      "migratedPath": "stardust/migrated/our-community/index.html"
+    },
+    {
+      "slug": "school-life-bell-times",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/bell-times",
+      "title": "Bell times",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:16.154Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:29:29Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:52Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/school-life-bell-times.json",
+      "prototypePath": "stardust/reskin/pages/school-life-bell-times.html",
+      "migratedPath": "stardust/migrated/school-life/bell-times/index.html"
+    },
+    {
+      "slug": "school-life-bring-your-own-device",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/bring-your-own-device",
+      "title": "Bring your own device",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:33.861Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:29:31Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:52Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/school-life-bring-your-own-device.json",
+      "prototypePath": "stardust/reskin/pages/school-life-bring-your-own-device.html",
+      "migratedPath": "stardust/migrated/school-life/bring-your-own-device/index.html"
+    },
+    {
+      "slug": "school-life-canteen",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/canteen",
+      "title": "Canteen",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:15.904Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:29:34Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:52Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/school-life-canteen.json",
+      "prototypePath": "stardust/reskin/pages/school-life-canteen.html",
+      "migratedPath": "stardust/migrated/school-life/canteen/index.html"
+    },
+    {
+      "slug": "school-life-events",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+      "title": "Events",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:28.414Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:29:42Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:52Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/school-life-events.json",
+      "prototypePath": "stardust/reskin/pages/school-life-events.html",
+      "migratedPath": "stardust/migrated/school-life/events/index.html"
+    },
+    {
+      "slug": "school-life-forms",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/forms",
+      "title": "Forms",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:39.767Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:29:43Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:52Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/school-life-forms.json",
+      "prototypePath": "stardust/reskin/pages/school-life-forms.html",
+      "migratedPath": "stardust/migrated/school-life/forms/index.html"
+    },
+    {
+      "slug": "school-life-house-and-merit-system",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/house-and-merit-system",
+      "title": "House and Merit System",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:40.093Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:29:46Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:52Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/school-life-house-and-merit-system.json",
+      "prototypePath": "stardust/reskin/pages/school-life-house-and-merit-system.html",
+      "migratedPath": "stardust/migrated/school-life/house-and-merit-system/index.html"
+    },
+    {
+      "slug": "school-life-lockers-and-lost-property",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/lockers-and-lost-property",
+      "title": "Lockers and lost property",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:33.361Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:29:48Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:52Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/school-life-lockers-and-lost-property.json",
+      "prototypePath": "stardust/reskin/pages/school-life-lockers-and-lost-property.html",
+      "migratedPath": "stardust/migrated/school-life/lockers-and-lost-property/index.html"
+    },
+    {
+      "slug": "school-life-newsletters",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters",
+      "title": "Newsletters",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:16.154Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:29:51Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:52Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/school-life-newsletters.json",
+      "prototypePath": "stardust/reskin/pages/school-life-newsletters.html",
+      "migratedPath": "stardust/migrated/school-life/newsletters/index.html"
+    },
+    {
+      "slug": "school-life-stationery",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/stationery",
+      "title": "Stationery",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:58.462Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:29:53Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:52Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/school-life-stationery.json",
+      "prototypePath": "stardust/reskin/pages/school-life-stationery.html",
+      "migratedPath": "stardust/migrated/school-life/stationery/index.html"
+    },
+    {
+      "slug": "school-life-student-opportunities-and-activities-academic-competitions",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/academic-competitions",
+      "title": "Academic Competitions",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:46.385Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:29:55Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:52Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/school-life-student-opportunities-and-activities-academic-competitions.json",
+      "prototypePath": "stardust/reskin/pages/school-life-student-opportunities-and-activities-academic-competitions.html",
+      "migratedPath": "stardust/migrated/school-life/student-opportunities-and-activities/academic-competitions/index.html"
+    },
+    {
+      "slug": "school-life-student-opportunities-and-activities-clubs-and-committees",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/clubs-and-committees",
+      "title": "Clubs and Committees",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:46.380Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:29:56Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:52Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/school-life-student-opportunities-and-activities-clubs-and-committees.json",
+      "prototypePath": "stardust/reskin/pages/school-life-student-opportunities-and-activities-clubs-and-committees.html",
+      "migratedPath": "stardust/migrated/school-life/student-opportunities-and-activities/clubs-and-committees/index.html"
+    },
+    {
+      "slug": "school-life-student-opportunities-and-activities-creative-and-performing-arts",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/creative-and-performing-arts",
+      "title": "Creative and Performing Arts",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:52.582Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:29:58Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:52Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/school-life-student-opportunities-and-activities-creative-and-performing-arts.json",
+      "prototypePath": "stardust/reskin/pages/school-life-student-opportunities-and-activities-creative-and-performing-arts.html",
+      "migratedPath": "stardust/migrated/school-life/student-opportunities-and-activities/creative-and-performing-arts/index.html"
+    },
+    {
+      "slug": "school-life-student-opportunities-and-activities-debating-and-public-speaking",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/debating-and-public-speaking",
+      "title": "Debating and Public Speaking",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:52.582Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:29:59Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:52Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/school-life-student-opportunities-and-activities-debating-and-public-speaking.json",
+      "prototypePath": "stardust/reskin/pages/school-life-student-opportunities-and-activities-debating-and-public-speaking.html",
+      "migratedPath": "stardust/migrated/school-life/student-opportunities-and-activities/debating-and-public-speaking/index.html"
+    },
+    {
+      "slug": "school-life-student-opportunities-and-activities-duke-of-edinburgh-award",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/duke-of-edinburgh-award",
+      "title": "Duke of Edinburgh Award",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:52.585Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:30:06Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:53Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/school-life-student-opportunities-and-activities-duke-of-edinburgh-award.json",
+      "prototypePath": "stardust/reskin/pages/school-life-student-opportunities-and-activities-duke-of-edinburgh-award.html",
+      "migratedPath": "stardust/migrated/school-life/student-opportunities-and-activities/duke-of-edinburgh-award/index.html"
+    },
+    {
+      "slug": "school-life-student-opportunities-and-activities-instrumental-music-program",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/instrumental-music-program",
+      "title": "Instrumental Music Program",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:52.582Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:30:09Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:53Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/school-life-student-opportunities-and-activities-instrumental-music-program.json",
+      "prototypePath": "stardust/reskin/pages/school-life-student-opportunities-and-activities-instrumental-music-program.html",
+      "migratedPath": "stardust/migrated/school-life/student-opportunities-and-activities/instrumental-music-program/index.html"
+    },
+    {
+      "slug": "school-life-student-opportunities-and-activities-robotics-and-maker-society",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/robotics-and-maker-society",
+      "title": "Robotics and Maker Society",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:52.581Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:30:11Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:53Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/school-life-student-opportunities-and-activities-robotics-and-maker-society.json",
+      "prototypePath": "stardust/reskin/pages/school-life-student-opportunities-and-activities-robotics-and-maker-society.html",
+      "migratedPath": "stardust/migrated/school-life/student-opportunities-and-activities/robotics-and-maker-society/index.html"
+    },
+    {
+      "slug": "school-life-student-opportunities-and-activities-sport",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/sport",
+      "title": "Sport",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:52.582Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:30:12Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:53Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/school-life-student-opportunities-and-activities-sport.json",
+      "prototypePath": "stardust/reskin/pages/school-life-student-opportunities-and-activities-sport.html",
+      "migratedPath": "stardust/migrated/school-life/student-opportunities-and-activities/sport/index.html"
+    },
+    {
+      "slug": "school-life-student-opportunities-and-activities-student-leadership-opportunities",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/student-leadership-opportunities",
+      "title": "Student Leadership Opportunities",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:58.462Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:30:14Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:53Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/school-life-student-opportunities-and-activities-student-leadership-opportunities.json",
+      "prototypePath": "stardust/reskin/pages/school-life-student-opportunities-and-activities-student-leadership-opportunities.html",
+      "migratedPath": "stardust/migrated/school-life/student-opportunities-and-activities/student-leadership-opportunities/index.html"
+    },
+    {
+      "slug": "school-life-student-opportunities-and-activities",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities",
+      "title": "Student opportunities and activities",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:28.160Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:30:18Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:53Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/school-life-student-opportunities-and-activities.json",
+      "prototypePath": "stardust/reskin/pages/school-life-student-opportunities-and-activities.html",
+      "migratedPath": "stardust/migrated/school-life/student-opportunities-and-activities/index.html"
+    },
+    {
+      "slug": "school-life-travel-to-school",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school",
+      "title": "Travel to school",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:22.591Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:30:21Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:53Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/school-life-travel-to-school.json",
+      "prototypePath": "stardust/reskin/pages/school-life-travel-to-school.html",
+      "migratedPath": "stardust/migrated/school-life/travel-to-school/index.html"
+    },
+    {
+      "slug": "school-life-uniform-uniform-shop",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform/uniform-shop",
+      "title": "Uniform Shop",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:46.384Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:30:23Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:53Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/school-life-uniform-uniform-shop.json",
+      "prototypePath": "stardust/reskin/pages/school-life-uniform-uniform-shop.html",
+      "migratedPath": "stardust/migrated/school-life/uniform/uniform-shop/index.html"
+    },
+    {
+      "slug": "school-life-uniform",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform",
+      "title": "Uniform",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:27.929Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:30:27Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:53Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/school-life-uniform.json",
+      "prototypePath": "stardust/reskin/pages/school-life-uniform.html",
+      "migratedPath": "stardust/migrated/school-life/uniform/index.html"
+    },
+    {
+      "slug": "school-life",
+      "url": "https://fortstreet-h.schools.nsw.gov.au/school-life",
+      "title": "School life",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-05T06:21:21.807Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-05T06:30:32Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-05T06:41:53Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/school-life.json",
+      "prototypePath": "stardust/reskin/pages/school-life.html",
+      "migratedPath": "stardust/migrated/school-life/index.html"
+    }
+  ],
+  "migrate": {
+    "at": "2026-11-05T07:08:24Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/",
+        "outputPath": "index.html",
+        "slug": "home",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/about-us/our-principal-and-staff",
+        "outputPath": "about-us/our-principal-and-staff/index.html",
+        "slug": "about-us-our-principal-and-staff",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/learning-and-support/additional-learning-support",
+        "outputPath": "learning-and-support/additional-learning-support/index.html",
+        "slug": "learning-and-support-additional-learning-support",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/learning-and-support/learning",
+        "outputPath": "learning-and-support/learning/index.html",
+        "slug": "learning-and-support-learning",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/school-life/parent-portal",
+        "outputPath": "school-life/parent-portal/index.html",
+        "slug": "school-life-parent-portal",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/about-us/enrol",
+        "outputPath": "about-us/enrol/index.html",
+        "slug": "about-us-enrol",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/about-us/facilities-and-resources",
+        "outputPath": "about-us/facilities-and-resources/index.html",
+        "slug": "about-us-facilities-and-resources",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/about-us/hsc-results",
+        "outputPath": "about-us/hsc-results/index.html",
+        "slug": "about-us-hsc-results",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/about-us/policies-and-reports/nsw-public-school-information",
+        "outputPath": "about-us/policies-and-reports/nsw-public-school-information/index.html",
+        "slug": "about-us-policies-and-reports-nsw-public-school-information",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/about-us/policies-and-reports",
+        "outputPath": "about-us/policies-and-reports/index.html",
+        "slug": "about-us-policies-and-reports",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/about-us/school-history-and-archives/fort-street-archives",
+        "outputPath": "about-us/school-history-and-archives/fort-street-archives/index.html",
+        "slug": "about-us-school-history-and-archives-fort-street-archives",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/about-us/school-history-and-archives/the-fort-street-museum",
+        "outputPath": "about-us/school-history-and-archives/the-fort-street-museum/index.html",
+        "slug": "about-us-school-history-and-archives-the-fort-street-museum",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/about-us/school-history-and-archives/the-fortian-digitised",
+        "outputPath": "about-us/school-history-and-archives/the-fortian-digitised/index.html",
+        "slug": "about-us-school-history-and-archives-the-fortian-digitised",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/about-us/school-history-and-archives",
+        "outputPath": "about-us/school-history-and-archives/index.html",
+        "slug": "about-us-school-history-and-archives",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/about-us/stories-and-highlights",
+        "outputPath": "about-us/stories-and-highlights/index.html",
+        "slug": "about-us-stories-and-highlights",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/about-us/transition-to-high-school",
+        "outputPath": "about-us/transition-to-high-school/index.html",
+        "slug": "about-us-transition-to-high-school",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/about-us/why-choose-us",
+        "outputPath": "about-us/why-choose-us/index.html",
+        "slug": "about-us-why-choose-us",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/about-us",
+        "outputPath": "about-us/index.html",
+        "slug": "about-us",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/contact-us",
+        "outputPath": "contact-us/index.html",
+        "slug": "contact-us",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/learning-and-support/careers",
+        "outputPath": "learning-and-support/careers/index.html",
+        "slug": "learning-and-support-careers",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/learning-and-support/high-potential-and-gifted-education",
+        "outputPath": "learning-and-support/high-potential-and-gifted-education/index.html",
+        "slug": "learning-and-support-high-potential-and-gifted-education",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/learning-and-support/wellbeing",
+        "outputPath": "learning-and-support/wellbeing/index.html",
+        "slug": "learning-and-support-wellbeing",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/learning-and-support",
+        "outputPath": "learning-and-support/index.html",
+        "slug": "learning-and-support",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/our-community/alumni",
+        "outputPath": "our-community/alumni/index.html",
+        "slug": "our-community-alumni",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/our-community/fortians-union",
+        "outputPath": "our-community/fortians-union/index.html",
+        "slug": "our-community-fortians-union",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/our-community/foundation-tertiary-bursaries",
+        "outputPath": "our-community/foundation-tertiary-bursaries/index.html",
+        "slug": "our-community-foundation-tertiary-bursaries",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/our-community/foundation",
+        "outputPath": "our-community/foundation/index.html",
+        "slug": "our-community-foundation",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/our-community/pandc",
+        "outputPath": "our-community/pandc/index.html",
+        "slug": "our-community-pandc",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/our-community",
+        "outputPath": "our-community/index.html",
+        "slug": "our-community",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/school-life/bell-times",
+        "outputPath": "school-life/bell-times/index.html",
+        "slug": "school-life-bell-times",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/school-life/bring-your-own-device",
+        "outputPath": "school-life/bring-your-own-device/index.html",
+        "slug": "school-life-bring-your-own-device",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/school-life/canteen",
+        "outputPath": "school-life/canteen/index.html",
+        "slug": "school-life-canteen",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/school-life/events",
+        "outputPath": "school-life/events/index.html",
+        "slug": "school-life-events",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/school-life/forms",
+        "outputPath": "school-life/forms/index.html",
+        "slug": "school-life-forms",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/school-life/house-and-merit-system",
+        "outputPath": "school-life/house-and-merit-system/index.html",
+        "slug": "school-life-house-and-merit-system",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/school-life/lockers-and-lost-property",
+        "outputPath": "school-life/lockers-and-lost-property/index.html",
+        "slug": "school-life-lockers-and-lost-property",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/school-life/newsletters",
+        "outputPath": "school-life/newsletters/index.html",
+        "slug": "school-life-newsletters",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/school-life/stationery",
+        "outputPath": "school-life/stationery/index.html",
+        "slug": "school-life-stationery",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/school-life/student-opportunities-and-activities/academic-competitions",
+        "outputPath": "school-life/student-opportunities-and-activities/academic-competitions/index.html",
+        "slug": "school-life-student-opportunities-and-activities-academic-competitions",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/school-life/student-opportunities-and-activities/clubs-and-committees",
+        "outputPath": "school-life/student-opportunities-and-activities/clubs-and-committees/index.html",
+        "slug": "school-life-student-opportunities-and-activities-clubs-and-committees",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/school-life/student-opportunities-and-activities/creative-and-performing-arts",
+        "outputPath": "school-life/student-opportunities-and-activities/creative-and-performing-arts/index.html",
+        "slug": "school-life-student-opportunities-and-activities-creative-and-performing-arts",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/school-life/student-opportunities-and-activities/debating-and-public-speaking",
+        "outputPath": "school-life/student-opportunities-and-activities/debating-and-public-speaking/index.html",
+        "slug": "school-life-student-opportunities-and-activities-debating-and-public-speaking",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/school-life/student-opportunities-and-activities/duke-of-edinburgh-award",
+        "outputPath": "school-life/student-opportunities-and-activities/duke-of-edinburgh-award/index.html",
+        "slug": "school-life-student-opportunities-and-activities-duke-of-edinburgh-award",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/school-life/student-opportunities-and-activities/instrumental-music-program",
+        "outputPath": "school-life/student-opportunities-and-activities/instrumental-music-program/index.html",
+        "slug": "school-life-student-opportunities-and-activities-instrumental-music-program",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/school-life/student-opportunities-and-activities/robotics-and-maker-society",
+        "outputPath": "school-life/student-opportunities-and-activities/robotics-and-maker-society/index.html",
+        "slug": "school-life-student-opportunities-and-activities-robotics-and-maker-society",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/school-life/student-opportunities-and-activities/sport",
+        "outputPath": "school-life/student-opportunities-and-activities/sport/index.html",
+        "slug": "school-life-student-opportunities-and-activities-sport",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/school-life/student-opportunities-and-activities/student-leadership-opportunities",
+        "outputPath": "school-life/student-opportunities-and-activities/student-leadership-opportunities/index.html",
+        "slug": "school-life-student-opportunities-and-activities-student-leadership-opportunities",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/school-life/student-opportunities-and-activities",
+        "outputPath": "school-life/student-opportunities-and-activities/index.html",
+        "slug": "school-life-student-opportunities-and-activities",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/school-life/travel-to-school",
+        "outputPath": "school-life/travel-to-school/index.html",
+        "slug": "school-life-travel-to-school",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/school-life/uniform/uniform-shop",
+        "outputPath": "school-life/uniform/uniform-shop/index.html",
+        "slug": "school-life-uniform-uniform-shop",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/school-life/uniform",
+        "outputPath": "school-life/uniform/index.html",
+        "slug": "school-life-uniform",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/school-life",
+        "outputPath": "school-life/index.html",
+        "slug": "school-life",
+        "outputPathDefault": "trailing-slash"
+      }
+    ],
+    "totalAssetsBundled": 162,
+    "bundledAssets": [
+      "canon.css",
+      "img/assets.schools.nsw.gov.au/content/dam/doe/sws/master/photos-master/nsw-logo.svg",
+      "img/assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/logo.png",
+      "img/fortstreet-h.schools.nsw.gov.au/about-us/media_1041211bbbef9171abe5644d79d167331061a37ac-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/about-us/media_10cf1a29281c4d192a29c15cf553a1d4c4b149e46-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/about-us/media_10d0e0223ad0365e2305279f6df4bdb044d9f4b1b-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/about-us/media_1145293b25a61ef63fc51759017f43fc0c527d128-2f4d9dd0.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/about-us/media_126cfe52b1ac4166daa1fb79a7250b0f2a47cb22b-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/about-us/media_12c6cd7db4a7e656f8deb88d958fd0ffe258b500b-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/about-us/media_1369d4a16e5754a1714b88c02e62dc8ffb2e22aa0-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/about-us/media_13940deb16fad3299fe00e8d534c6cffefa7ef259-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/about-us/media_13dcbb9f5356ec249a8874132689ecb7fb8cb9235-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/about-us/media_13e22eb310ba24353313798744bb79fccf486b57e-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/about-us/media_144c4c4c31a5c2a0b3c7883682b17fa173f76d3ad-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/about-us/media_15636a0c76544a40b07cf08bb886e5acaa80d387d-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/about-us/media_15ae5ac8f7b47dc97dc30da00418f4d2110090d2e-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/about-us/media_167e8f824a83aca35c48598b13f24e870e92868fc-2f4d9dd0.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/about-us/media_16823c7d5cce1ab051bb5f032f4b98684c9b60c13-2f4d9dd0.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/about-us/media_19d25580c16233087a1c95606d2ad7a8370e6e94f-2f4d9dd0.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/about-us/media_1a2a6fb9a8d56b03a22609ab13bff372c67707701-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/about-us/media_1a7eb996ba70c251c4839ed24cb1baf1c4f8f85be-2f4d9dd0.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/about-us/media_1b37ffc240e5c586742cdad77d2e066cb7a0aed1a-2f4d9dd0.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/about-us/media_1ba00797ddbc6e94f5e8a139b3035d73ec904a82b-3d5a5588.png",
+      "img/fortstreet-h.schools.nsw.gov.au/about-us/media_1bacbed255da6406a6f7e310a5843dcc02b1684a3-660a5005.png",
+      "img/fortstreet-h.schools.nsw.gov.au/about-us/media_1bc6d5ca0596fdb454e970c8fb29ce7e19422c213-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/about-us/media_1bcf48b79d7f154600b41f89191a4f1269dfde8b6-2f4d9dd0.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/about-us/media_1bdbf60f3ea09221cd751349c0cdb79b9744d209a-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/about-us/media_1c9f7867e2df4ed6af3fe3bd3c1d6b437a72488f8-2f4d9dd0.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/about-us/media_1cfe04339cf1ce5d95d506cc665f70d5a0387cebe-2f4d9dd0.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/about-us/media_1e8349e5f4a601e1858f1fb2a12011cb5310ae8cd-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/about-us/media_1f72ce2e3c3332a0b1c7dd74342407259860765e1-2f4d9dd0.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives/media_1062c375ee6078bd9df8618c52795bcdb99bbf364-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives/media_12aeeb890750ea14b0b78dadab07dacad4e41e4c5-3d5a5588.png",
+      "img/fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives/media_1313dce8a284244ec3992009a7729ab44b375c3ea-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives/media_1952bcd427ce2a18d9cfed7babafcbaea69970944-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives/media_1d2e9d9d11fd54e4a94f2f9ae56bbae85f3c1b02c-3d5a5588.png",
+      "img/fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives/media_1dd5176a4136ea2b45d5607dd067ed6384ca35023-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/learning-and-support/media_1006d3e2acc24d3da5e760c70d1eb0860c22fa39a-2f4d9dd0.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/learning-and-support/media_12ed40a41a209954e5ad8d79b8ecbf68fb632cc4a-3d5a5588.png",
+      "img/fortstreet-h.schools.nsw.gov.au/learning-and-support/media_134e079c16c877e3a8bdedf4cc98c2abe99cada5e-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/learning-and-support/media_13b723e7aff88455df37b072cd8d7674c6f33d6e1-2f4d9dd0.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/learning-and-support/media_150aebd2d3065de8186f44095c9e955875be521bb-2f4d9dd0.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/learning-and-support/media_15ab72c706e9ef96b9b9aa52a354cc1b375da2ecc-2f4d9dd0.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/learning-and-support/media_15ae5ac8f7b47dc97dc30da00418f4d2110090d2e-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/learning-and-support/media_17d024f2ce6351a6b18d9a072993cbca687e8e29f-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/learning-and-support/media_1a025bd3dca94132118b7e69e8fa56c6aa860294e-2f4d9dd0.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/learning-and-support/media_1b4b2e8b69ac3735e6406430dd0551b9a8134d730-3d5a5588.png",
+      "img/fortstreet-h.schools.nsw.gov.au/learning-and-support/media_1c9f7867e2df4ed6af3fe3bd3c1d6b437a72488f8-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/learning-and-support/media_1d064d18a746f9b5f8ae5989e766c7ed8de38cc04-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/learning-and-support/media_1e7c00b11ec5492fc2163b5ac830b173bf5b1b6b3-2f4d9dd0.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/media_100881f7d45ad59e656b48ba08acc9e2231d70c13-957b21a4.png",
+      "img/fortstreet-h.schools.nsw.gov.au/media_1041211bbbef9171abe5644d79d167331061a37ac-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/media_106b4fd5d5a6fd4903602676c1c66c142c80c1c7d-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/media_111759073af44f5b87cdce984dc7345f2798a6a93-957b21a4.png",
+      "img/fortstreet-h.schools.nsw.gov.au/media_1145293b25a61ef63fc51759017f43fc0c527d128-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/media_117cb12649089b536340800b64594818ed948db44-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/media_11893371bce6bf3f45a2d3d0c296bd3482d94d465-957b21a4.png",
+      "img/fortstreet-h.schools.nsw.gov.au/media_11a85b2808c597ccd154fa2bec41cc047861af612-3d5a5588.png",
+      "img/fortstreet-h.schools.nsw.gov.au/media_120147759de8a2ce2d79e6eb21fec3fa093c00b38-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/media_126cfe52b1ac4166daa1fb79a7250b0f2a47cb22b-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/media_128fd219545ea03c832087b3d7f032cd825fa7771-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/media_12c6cd7db4a7e656f8deb88d958fd0ffe258b500b-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/media_1318b3f3439776fdf2fd7af8e48a80b3bff3a5abc-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/media_13970bd7cc833ec1e513fbe45655b9c42e1b0a611-957b21a4.png",
+      "img/fortstreet-h.schools.nsw.gov.au/media_13e22eb310ba24353313798744bb79fccf486b57e-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/media_13e571d4b9eeefd9a4133a1d707c3d7036e93b911-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/media_144b2eec1d073bf819d4c8f458d725970bbc78347-957b21a4.png",
+      "img/fortstreet-h.schools.nsw.gov.au/media_15636a0c76544a40b07cf08bb886e5acaa80d387d-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/media_15673e92a4cd98596f3a846148ef990735b3c8a52-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/media_1660d7a0d52fa3acd7105fdfd6b06229088d197db-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/media_167e8f824a83aca35c48598b13f24e870e92868fc-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/media_16a3027ca49fb0a72b31b276bd481c1414e996aa6-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/media_17fb3efe581b222b0208cd33946fc48ddc4e6473e-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/media_18584905c9b96fbe7d14e44b6d96839a4f70737dc-957b21a4.png",
+      "img/fortstreet-h.schools.nsw.gov.au/media_187890be11be32aebae7a65c2def69dc96c89be8d-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/media_18bb10f67ea8be0529af26bad2784911d2d942349-957b21a4.png",
+      "img/fortstreet-h.schools.nsw.gov.au/media_1913535566a844ac4c3f57444ff37412ecec941d1-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/media_1980e057ec6ccea2088683d84b46c8c6d07a4dfab-957b21a4.png",
+      "img/fortstreet-h.schools.nsw.gov.au/media_19c6cff9975b6320859bc465733d151e7d7f317f2-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/media_19ef0ac1f3b662bac6ce8ee537dc93be686fa662e-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/media_1a72e6895af8d0d7c473a4807758e2c2d1de74794-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/media_1a7c7e671d59df64bf0f761d0872228c9f66e69b8-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/media_1b5eca0e8c02ef3a37f9d8d739814b99d44510113-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/media_1c0017392705d303cb7e577fcb1f13e32da140dc6-957b21a4.png",
+      "img/fortstreet-h.schools.nsw.gov.au/media_1c2b8b358daf56125619cf64037169773ddc6e499-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/media_1c5727ec93cb68f4d3c8761e4d9c6c10c3aba7374-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/media_1c9f7867e2df4ed6af3fe3bd3c1d6b437a72488f8-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/media_1cf7f6a804191758b506ef257522ed6c9db65555b-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/media_1da4ecaf018659ee9fe83bb749a5d005abd6a38bd-3d5a5588.png",
+      "img/fortstreet-h.schools.nsw.gov.au/media_1dfbc3a331b07d6b258f99fb529ba74f743e09bcc-957b21a4.png",
+      "img/fortstreet-h.schools.nsw.gov.au/media_1f015f156762cde036b85952b8ae01aba7c527111-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/our-community/media_12aeeb890750ea14b0b78dadab07dacad4e41e4c5-3d5a5588.png",
+      "img/fortstreet-h.schools.nsw.gov.au/our-community/media_141650d6a124a14ae631de6ce0edc34c967188c16-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/our-community/media_19c6cff9975b6320859bc465733d151e7d7f317f2-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/our-community/media_1ad593501f4b5a0c864032550623888cff9b2510c-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/our-community/media_1d1a6d8246ac48fc1285efe376bb51d8dc35b3598-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/our-community/media_1d2e9d9d11fd54e4a94f2f9ae56bbae85f3c1b02c-3d5a5588.png",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/media_105bb2255e86cb5c3ec72d93fd4e9fab04f5d6d15-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/media_106b4fd5d5a6fd4903602676c1c66c142c80c1c7d-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/media_1105fc0ccd13f1fe02956ef62b39e0f05cd75a449-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/media_114d8d396fd3c9a2583c3c42bb095078ae6fca916-3d5a5588.png",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/media_114fbf8f775c6dee8eef8a74172c529d380cb188b-3d5a5588.png",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/media_120147759de8a2ce2d79e6eb21fec3fa093c00b38-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/media_128fd219545ea03c832087b3d7f032cd825fa7771-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/media_1323b44ef8d18362940e6115b00f2895238a17702-3d5a5588.png",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/media_132e84db7feaa114d6249f43112c1db03f4fc9cd4-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/media_133142d6772d8942887edc23546ef02d22611eda6-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/media_13acf190dfadd101eab66415808c5252237459207-3d5a5588.png",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/media_13b2655605ee1da190309b7d884796762006148e0-3d5a5588.png",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/media_13d71bff09d116ef60a2c4d28f99edf2d7df4bc49-3d5a5588.png",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/media_13e60bd246df97bd33b040929194076fc9758dd6f-957b21a4.png",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/media_14ed8c8ee5654d5c42f196a301fbf9cdf28970ef2-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/media_15124adb48c3d4ede901a753e834e4da10759318a-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/media_1518f2b884cd4d62187fd1bf7bb2645631dee78c0-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/media_15636a0c76544a40b07cf08bb886e5acaa80d387d-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/media_174c7f8bfa88b62d90d87a723955b94a2f2d2fed2-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/media_17bfb9acfce499d462ebf1063b06d1d4cf6e20a63-957b21a4.png",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/media_17cb2172086a0629b0726346a33444006fd82a023-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/media_180263b59d0f104fac7a37e993e3ee104dc37b803-3d5a5588.png",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/media_190a9c4df8d0d16c03ec165c4e5d3f12a96612cba-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/media_1a7c7e671d59df64bf0f761d0872228c9f66e69b8-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/media_1abefb325d8c6f61c1dc29af5adf98786d04d43d6-3d5a5588.png",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/media_1ae6bd5132305ec91e6fdab24c6b0d29cc882765f-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/media_1b3d82ac0a4c1b95012ce9c6637a6e5df00afaf0e-3d5a5588.png",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/media_1b409b17da3bdbffcd791a17f7a6ddff45b3327dd-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/media_1b4a86ba5a6d5928ca0a82885f9e84054ed3808cd-957b21a4.png",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/media_1bb417377f04462734837aa96ce5768d57eb383eb-3d5a5588.png",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/media_1bb5909ff65c84abf6f37891a9709e64fea2fa0bf-2f4d9dd0.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/media_1bbe9d9ae19821fd66635fd09bd983bab63787c62-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/media_1c8170e0b4d727fdfa94e178344ad4708cd9e100d-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/media_1ce4e73e06f62ccc156046a3e4afda92544e3f3c4-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/media_1e3ff6a0051ca30cca1e30ae2ee2522d733d9b816-2f4d9dd0.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/media_1ef28d66afaba1899b676f9a0de7d141c93c1e1bf-957b21a4.png",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/media_1f015f156762cde036b85952b8ae01aba7c527111-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/media_1f61a211c4ff7585469e84562bc4b4996275f2402-957b21a4.png",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/media_1f7118904e38e538e248d35ce7674512fcd94e69b-2f4d9dd0.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_10ebbb136fc4623e2a1294e3ac08d4ed886cd987a-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_11f764c44b41567c28b73110efedddb4289a7bb5b-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1206a9e1fb0efcb68a9125546fd4e68f44eea470c-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_125ea1facf025035ca1af9150e3c56e64a97ccf10-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1388e09ac1c35be68602e3caa1d7fb166a788c1ab-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_13ced7172bebba0a1d393c532218e60ccf3a70def-3d5a5588.png",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_14ee031ca18afb0d5b061c6bd9798a384d204f4a2-3d5a5588.png",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1536a89360defdbba1318a70484db5f79f91b043e-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_16263be847758d178889be1dc633aaa3a5d5fb0ef-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_167e8f824a83aca35c48598b13f24e870e92868fc-957b21a4.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1766ccad68eae5ac14194ced21ab3ffb137134e02-3d5a5588.png",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_17a31ded844296778597564b9c33721fd99ad5a85-2f4d9dd0.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_185c8303a93577cfe1080f7100f69113dae638cd2-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_190a3d9e4e783061378d2701c2082d809cf9106b5-2f4d9dd0.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_19ee455046769146fe3eee008ce2122b29e3eef7f-2f4d9dd0.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1ad1f1d20374f90781bc1bcacfd630e229ad3ec7d-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1c17c5301e818bca65a84d6b0f1d75e56265be4b5-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1e0749ba6a2bf2cc2b146ad936bd3f51d646a5531-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1e7cf645fd05068ab7d4cef23661020e8c67cafe9-3d5a5588.jpg",
+      "img/fortstreet-h.schools.nsw.gov.au/school-life/uniform/media_13acf190dfadd101eab66415808c5252237459207-3d5a5588.png",
+      "img/scontent-syd2-1.xx.fbcdn.net/v/t15.5256-10/842235604_1693597185715273_5724099017723056825_n-036ef4dd.jpg",
+      "img/scontent-syd2-1.xx.fbcdn.net/v/t15.5256-10/842235604_1693597185715273_5724099017723056825_n-e779932e.jpg",
+      "img/scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/836259297_1746224134178648_3432439322237656274_n-97dc7d82.jpg",
+      "img/scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/836259297_1746224134178648_3432439322237656274_n-f013ed05.jpg",
+      "img/scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/854710675_1770172005117194_7603390710119696328_n-5c32ff50.jpg",
+      "img/scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/854710675_1770172005117194_7603390710119696328_n-86749909.jpg"
+    ],
+    "pages": [
+      {
+        "slug": "home",
+        "file": "stardust/migrated/index.html",
+        "assetsBundled": 21
+      },
+      {
+        "slug": "about-us-our-principal-and-staff",
+        "file": "stardust/migrated/about-us/our-principal-and-staff/index.html",
+        "assetsBundled": 5
+      },
+      {
+        "slug": "learning-and-support-additional-learning-support",
+        "file": "stardust/migrated/learning-and-support/additional-learning-support/index.html",
+        "assetsBundled": 5
+      },
+      {
+        "slug": "learning-and-support-learning",
+        "file": "stardust/migrated/learning-and-support/learning/index.html",
+        "assetsBundled": 4
+      },
+      {
+        "slug": "school-life-parent-portal",
+        "file": "stardust/migrated/school-life/parent-portal/index.html",
+        "assetsBundled": 5
+      },
+      {
+        "slug": "about-us-enrol",
+        "file": "stardust/migrated/about-us/enrol/index.html",
+        "assetsBundled": 4
+      },
+      {
+        "slug": "about-us-facilities-and-resources",
+        "file": "stardust/migrated/about-us/facilities-and-resources/index.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "about-us-hsc-results",
+        "file": "stardust/migrated/about-us/hsc-results/index.html",
+        "assetsBundled": 4
+      },
+      {
+        "slug": "about-us-policies-and-reports-nsw-public-school-information",
+        "file": "stardust/migrated/about-us/policies-and-reports/nsw-public-school-information/index.html",
+        "assetsBundled": 3
+      },
+      {
+        "slug": "about-us-policies-and-reports",
+        "file": "stardust/migrated/about-us/policies-and-reports/index.html",
+        "assetsBundled": 4
+      },
+      {
+        "slug": "about-us-school-history-and-archives-fort-street-archives",
+        "file": "stardust/migrated/about-us/school-history-and-archives/fort-street-archives/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "about-us-school-history-and-archives-the-fort-street-museum",
+        "file": "stardust/migrated/about-us/school-history-and-archives/the-fort-street-museum/index.html",
+        "assetsBundled": 5
+      },
+      {
+        "slug": "about-us-school-history-and-archives-the-fortian-digitised",
+        "file": "stardust/migrated/about-us/school-history-and-archives/the-fortian-digitised/index.html",
+        "assetsBundled": 4
+      },
+      {
+        "slug": "about-us-school-history-and-archives",
+        "file": "stardust/migrated/about-us/school-history-and-archives/index.html",
+        "assetsBundled": 9
+      },
+      {
+        "slug": "about-us-stories-and-highlights",
+        "file": "stardust/migrated/about-us/stories-and-highlights/index.html",
+        "assetsBundled": 12
+      },
+      {
+        "slug": "about-us-transition-to-high-school",
+        "file": "stardust/migrated/about-us/transition-to-high-school/index.html",
+        "assetsBundled": 5
+      },
+      {
+        "slug": "about-us-why-choose-us",
+        "file": "stardust/migrated/about-us/why-choose-us/index.html",
+        "assetsBundled": 9
+      },
+      {
+        "slug": "about-us",
+        "file": "stardust/migrated/about-us/index.html",
+        "assetsBundled": 10
+      },
+      {
+        "slug": "contact-us",
+        "file": "stardust/migrated/contact-us/index.html",
+        "assetsBundled": 4
+      },
+      {
+        "slug": "learning-and-support-careers",
+        "file": "stardust/migrated/learning-and-support/careers/index.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "learning-and-support-high-potential-and-gifted-education",
+        "file": "stardust/migrated/learning-and-support/high-potential-and-gifted-education/index.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "learning-and-support-wellbeing",
+        "file": "stardust/migrated/learning-and-support/wellbeing/index.html",
+        "assetsBundled": 5
+      },
+      {
+        "slug": "learning-and-support",
+        "file": "stardust/migrated/learning-and-support/index.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "our-community-alumni",
+        "file": "stardust/migrated/our-community/alumni/index.html",
+        "assetsBundled": 4
+      },
+      {
+        "slug": "our-community-fortians-union",
+        "file": "stardust/migrated/our-community/fortians-union/index.html",
+        "assetsBundled": 3
+      },
+      {
+        "slug": "our-community-foundation-tertiary-bursaries",
+        "file": "stardust/migrated/our-community/foundation-tertiary-bursaries/index.html",
+        "assetsBundled": 3
+      },
+      {
+        "slug": "our-community-foundation",
+        "file": "stardust/migrated/our-community/foundation/index.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "our-community-pandc",
+        "file": "stardust/migrated/our-community/pandc/index.html",
+        "assetsBundled": 4
+      },
+      {
+        "slug": "our-community",
+        "file": "stardust/migrated/our-community/index.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "school-life-bell-times",
+        "file": "stardust/migrated/school-life/bell-times/index.html",
+        "assetsBundled": 4
+      },
+      {
+        "slug": "school-life-bring-your-own-device",
+        "file": "stardust/migrated/school-life/bring-your-own-device/index.html",
+        "assetsBundled": 4
+      },
+      {
+        "slug": "school-life-canteen",
+        "file": "stardust/migrated/school-life/canteen/index.html",
+        "assetsBundled": 5
+      },
+      {
+        "slug": "school-life-events",
+        "file": "stardust/migrated/school-life/events/index.html",
+        "assetsBundled": 21
+      },
+      {
+        "slug": "school-life-forms",
+        "file": "stardust/migrated/school-life/forms/index.html",
+        "assetsBundled": 3
+      },
+      {
+        "slug": "school-life-house-and-merit-system",
+        "file": "stardust/migrated/school-life/house-and-merit-system/index.html",
+        "assetsBundled": 9
+      },
+      {
+        "slug": "school-life-lockers-and-lost-property",
+        "file": "stardust/migrated/school-life/lockers-and-lost-property/index.html",
+        "assetsBundled": 4
+      },
+      {
+        "slug": "school-life-newsletters",
+        "file": "stardust/migrated/school-life/newsletters/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "school-life-stationery",
+        "file": "stardust/migrated/school-life/stationery/index.html",
+        "assetsBundled": 4
+      },
+      {
+        "slug": "school-life-student-opportunities-and-activities-academic-competitions",
+        "file": "stardust/migrated/school-life/student-opportunities-and-activities/academic-competitions/index.html",
+        "assetsBundled": 4
+      },
+      {
+        "slug": "school-life-student-opportunities-and-activities-clubs-and-committees",
+        "file": "stardust/migrated/school-life/student-opportunities-and-activities/clubs-and-committees/index.html",
+        "assetsBundled": 4
+      },
+      {
+        "slug": "school-life-student-opportunities-and-activities-creative-and-performing-arts",
+        "file": "stardust/migrated/school-life/student-opportunities-and-activities/creative-and-performing-arts/index.html",
+        "assetsBundled": 4
+      },
+      {
+        "slug": "school-life-student-opportunities-and-activities-debating-and-public-speaking",
+        "file": "stardust/migrated/school-life/student-opportunities-and-activities/debating-and-public-speaking/index.html",
+        "assetsBundled": 4
+      },
+      {
+        "slug": "school-life-student-opportunities-and-activities-duke-of-edinburgh-award",
+        "file": "stardust/migrated/school-life/student-opportunities-and-activities/duke-of-edinburgh-award/index.html",
+        "assetsBundled": 13
+      },
+      {
+        "slug": "school-life-student-opportunities-and-activities-instrumental-music-program",
+        "file": "stardust/migrated/school-life/student-opportunities-and-activities/instrumental-music-program/index.html",
+        "assetsBundled": 5
+      },
+      {
+        "slug": "school-life-student-opportunities-and-activities-robotics-and-maker-society",
+        "file": "stardust/migrated/school-life/student-opportunities-and-activities/robotics-and-maker-society/index.html",
+        "assetsBundled": 4
+      },
+      {
+        "slug": "school-life-student-opportunities-and-activities-sport",
+        "file": "stardust/migrated/school-life/student-opportunities-and-activities/sport/index.html",
+        "assetsBundled": 4
+      },
+      {
+        "slug": "school-life-student-opportunities-and-activities-student-leadership-opportunities",
+        "file": "stardust/migrated/school-life/student-opportunities-and-activities/student-leadership-opportunities/index.html",
+        "assetsBundled": 4
+      },
+      {
+        "slug": "school-life-student-opportunities-and-activities",
+        "file": "stardust/migrated/school-life/student-opportunities-and-activities/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "school-life-travel-to-school",
+        "file": "stardust/migrated/school-life/travel-to-school/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "school-life-uniform-uniform-shop",
+        "file": "stardust/migrated/school-life/uniform/uniform-shop/index.html",
+        "assetsBundled": 4
+      },
+      {
+        "slug": "school-life-uniform",
+        "file": "stardust/migrated/school-life/uniform/index.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "school-life",
+        "file": "stardust/migrated/school-life/index.html",
+        "assetsBundled": 17
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-11-05T07:08:24Z",
+      "rendered": [
+        "about-us-facilities-and-resources",
+        "learning-and-support-careers",
+        "learning-and-support-high-potential-and-gifted-education",
+        "about-us-stories-and-highlights",
+        "school-life-uniform",
+        "school-life-student-opportunities-and-activities-duke-of-edinburgh-award"
+      ],
+      "unchanged": [],
+      "refused": [],
+      "passthrough": []
+    }
+  }
+}

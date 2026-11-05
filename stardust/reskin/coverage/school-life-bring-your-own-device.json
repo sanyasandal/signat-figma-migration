@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "residue": [],
+  "tones": [
+    {
+      "slot": "s04",
+      "to": "page",
+      "why": "long tinted prose rendered on the page band (M5b prose band); the donor has no full-measure greige prose composition"
+    }
+  ],
+  "blocking": true
+}

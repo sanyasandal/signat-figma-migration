@@ -1,0 +1,2956 @@
+{
+  "_note": "Phase 3 record; the brief is mapping.md. Every later per-section decision is made here.",
+  "chrome": {
+    "model": "stardust/reskin/content-model/_chrome",
+    "header": [
+      "s01"
+    ],
+    "footer": [
+      "s02"
+    ],
+    "footerTone": "dark",
+    "navAlign": "center"
+  },
+  "pages": {
+    "home": {
+      "template": "home",
+      "slots": {
+        "s01": {
+          "module": "M1",
+          "layout": "media-band",
+          "width": "wide",
+          "heading": "display",
+          "tone": "dark"
+        },
+        "s02": {
+          "module": "M2",
+          "layout": "cards",
+          "columns": 3,
+          "heading": "h2",
+          "inset": "0px",
+          "width": "wide"
+        },
+        "s03": {
+          "module": "M6",
+          "layout": "split",
+          "tone": "light",
+          "bleed": true,
+          "heading": "h3",
+          "inset": "16px",
+          "width": "wide"
+        },
+        "s04": {
+          "module": "M7",
+          "layout": "split",
+          "heading": "h2",
+          "inset": "16px",
+          "width": "wide"
+        },
+        "s05": {
+          "module": "M9",
+          "layout": "media-band",
+          "width": "wide",
+          "heading": "h2",
+          "tone": "dark"
+        },
+        "s06": {
+          "module": "M11",
+          "layout": "cards",
+          "columns": 3,
+          "tone": "light",
+          "bleed": true,
+          "heading": "h2",
+          "inset": "16px",
+          "width": "wide"
+        },
+        "s07": {
+          "module": "M5",
+          "layout": "stack",
+          "align": "center",
+          "tone": "light",
+          "bleed": true,
+          "heading": "display"
+        },
+        "s08": {
+          "module": "M6b",
+          "layout": "split",
+          "heading": "h3",
+          "inset": "16px",
+          "width": "wide"
+        },
+        "s09": {
+          "module": "M10",
+          "layout": "cards",
+          "columns": 3,
+          "align": "center",
+          "heading": "h2",
+          "inset": "16px",
+          "width": "wide"
+        }
+      }
+    },
+    "learning-and-support-learning": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "width": "wide",
+          "heading": "display",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M11",
+          "layout": "cards",
+          "columns": 2,
+          "tone": "light",
+          "bleed": true,
+          "heading": "h2",
+          "inset": "16px",
+          "width": "wide"
+        },
+        "s04": {
+          "layout": "stack",
+          "width": "wide",
+          "heading": "h2",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M5b",
+          "layout": "stack",
+          "width": "wide",
+          "heading": "h2",
+          "inset": "16px"
+        },
+        "s06": {
+          "module": "M5b",
+          "layout": "stack",
+          "width": "wide",
+          "heading": "h2",
+          "inset": "16px"
+        },
+        "s07": {
+          "module": "M9b",
+          "layout": "stack",
+          "width": "wide",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "inset": "16px"
+        },
+        "s08": {
+          "module": "M11b",
+          "layout": "cards",
+          "columns": 2,
+          "heading": "h2",
+          "inset": "16px",
+          "width": "wide"
+        },
+        "s09": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "heading": "h4",
+          "inset": "16px"
+        }
+      }
+    },
+    "about-us-our-principal-and-staff": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M9",
+          "layout": "media-band",
+          "width": "wide",
+          "tone": "dark",
+          "heading": "h2"
+        },
+        "s04": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s06": {
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s07": {
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s08": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s09": {
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s10": {
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s11": {
+          "module": "M5",
+          "layout": "stack",
+          "align": "center",
+          "tone": "light",
+          "bleed": true,
+          "heading": "display"
+        },
+        "s12": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s13": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "learning-and-support-additional-learning-support": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M6b",
+          "layout": "split",
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s06": {
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s07": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s08": {
+          "module": "M5",
+          "layout": "stack",
+          "align": "center",
+          "tone": "light",
+          "bleed": true,
+          "heading": "display"
+        },
+        "s09": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s10": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "school-life-parent-portal": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M6",
+          "layout": "split",
+          "tone": "light",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s06": {
+          "module": "M6",
+          "layout": "split",
+          "tone": "light",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s07": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s08": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s09": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s10": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "about-us-enrol": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M6b",
+          "layout": "split",
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s06": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s07": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s08": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s09": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s10": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "about-us-facilities-and-resources": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M9",
+          "layout": "media-band",
+          "width": "wide",
+          "tone": "dark",
+          "heading": "h2"
+        },
+        "s05": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s06": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "about-us-hsc-results": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "about-us-policies-and-reports-nsw-public-school-information": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M5",
+          "layout": "stack",
+          "align": "center",
+          "tone": "light",
+          "bleed": true,
+          "heading": "display"
+        },
+        "s05": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s06": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "about-us-policies-and-reports": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s06": {
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s07": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s08": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s09": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "about-us-school-history-and-archives-fort-street-archives": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "about-us-school-history-and-archives-the-fort-street-museum": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "about-us-school-history-and-archives-the-fortian-digitised": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s06": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "about-us-school-history-and-archives": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M6b",
+          "layout": "stack",
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s06": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s07": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "about-us-stories-and-highlights": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M5",
+          "layout": "stack",
+          "align": "center",
+          "tone": "light",
+          "bleed": true,
+          "heading": "display"
+        },
+        "s04": {
+          "module": "M10",
+          "layout": "cards",
+          "columns": 3,
+          "align": "center",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s06": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s07": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "about-us-transition-to-high-school": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M9",
+          "layout": "media-band",
+          "width": "wide",
+          "tone": "dark",
+          "heading": "h2"
+        },
+        "s05": {
+          "module": "M5",
+          "layout": "stack",
+          "align": "center",
+          "tone": "light",
+          "bleed": true,
+          "heading": "display"
+        },
+        "s06": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s07": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "about-us-why-choose-us": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s06": {
+          "module": "M5",
+          "layout": "stack",
+          "align": "center",
+          "tone": "light",
+          "bleed": true,
+          "heading": "display"
+        },
+        "s07": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s08": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s09": {
+          "module": "M5",
+          "layout": "stack",
+          "align": "center",
+          "tone": "light",
+          "bleed": true,
+          "heading": "display"
+        },
+        "s10": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s11": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s12": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "about-us": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "contact-us": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M6b",
+          "layout": "split",
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s06": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s07": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s08": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s09": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "learning-and-support-careers": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s06": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "learning-and-support-high-potential-and-gifted-education": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s06": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s07": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s08": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "learning-and-support-wellbeing": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s06": {
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s07": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s08": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s09": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "learning-and-support": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "our-community-alumni": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "our-community-fortians-union": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s06": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "our-community-foundation-tertiary-bursaries": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "our-community-foundation": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M6",
+          "layout": "split",
+          "tone": "light",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s06": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s07": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "our-community-pandc": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M5",
+          "layout": "stack",
+          "align": "center",
+          "tone": "light",
+          "bleed": true,
+          "heading": "display"
+        },
+        "s04": {
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s06": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s07": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s08": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "our-community": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M5",
+          "layout": "stack",
+          "align": "center",
+          "tone": "light",
+          "bleed": true,
+          "heading": "display"
+        },
+        "s05": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s06": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "school-life-bell-times": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s06": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s07": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "school-life-bring-your-own-device": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s06": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s07": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s08": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "school-life-canteen": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s06": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s07": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s08": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "school-life-events": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M11",
+          "layout": "cards",
+          "heading": "h2",
+          "tone": "light",
+          "bleed": true,
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s06": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s07": {
+          "module": "M6",
+          "layout": "split",
+          "tone": "light",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s08": {
+          "module": "M10",
+          "layout": "cards",
+          "columns": 3,
+          "align": "center",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s09": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s10": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "school-life-forms": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s06": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "school-life-house-and-merit-system": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M6b",
+          "layout": "stack",
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s06": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s07": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s08": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "school-life-lockers-and-lost-property": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "school-life-newsletters": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M6",
+          "layout": "split",
+          "tone": "light",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s06": {
+          "module": "M10",
+          "layout": "cards",
+          "columns": 3,
+          "align": "center",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s07": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s08": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "school-life-stationery": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "school-life-student-opportunities-and-activities-academic-competitions": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "school-life-student-opportunities-and-activities-clubs-and-committees": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "school-life-student-opportunities-and-activities-creative-and-performing-arts": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "school-life-student-opportunities-and-activities-debating-and-public-speaking": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "school-life-student-opportunities-and-activities-duke-of-edinburgh-award": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s06": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s07": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s08": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s09": {
+          "layout": "stack",
+          "heading": "h2",
+          "tone": "light",
+          "bleed": true,
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s10": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s11": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s12": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "school-life-student-opportunities-and-activities-instrumental-music-program": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s06": {
+          "module": "M6",
+          "layout": "split",
+          "tone": "light",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s07": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s08": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s09": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s10": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "school-life-student-opportunities-and-activities-robotics-and-maker-society": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "school-life-student-opportunities-and-activities-sport": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "school-life-student-opportunities-and-activities-student-leadership-opportunities": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s06": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s07": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s08": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "school-life-student-opportunities-and-activities": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M5",
+          "layout": "stack",
+          "align": "center",
+          "tone": "light",
+          "bleed": true,
+          "heading": "display"
+        },
+        "s06": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s07": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s08": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "school-life-travel-to-school": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s06": {
+          "module": "M6",
+          "layout": "split",
+          "tone": "light",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s07": {
+          "module": "M6",
+          "layout": "split",
+          "tone": "light",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s08": {
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s09": {
+          "module": "M9",
+          "layout": "media-band",
+          "width": "wide",
+          "tone": "dark",
+          "heading": "h2"
+        },
+        "s10": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s11": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s12": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s13": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "school-life-uniform-uniform-shop": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "school-life-uniform": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "layout": "stack",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s05": {
+          "module": "M9b",
+          "layout": "stack",
+          "tone": "dark",
+          "bleed": true,
+          "heading": "h3",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s06": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s07": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    },
+    "school-life": {
+      "template": "learning-and-support-learning",
+      "slots": {
+        "s01": {
+          "module": "M3",
+          "layout": "stack",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s02": {
+          "module": "M5b",
+          "layout": "stack",
+          "heading": "display",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s03": {
+          "module": "M11b",
+          "layout": "cards",
+          "heading": "h2",
+          "width": "wide",
+          "inset": "16px"
+        },
+        "s04": {
+          "module": "M3",
+          "layout": "stack",
+          "heading": "h4",
+          "width": "wide",
+          "inset": "16px"
+        }
+      }
+    }
+  }
+}

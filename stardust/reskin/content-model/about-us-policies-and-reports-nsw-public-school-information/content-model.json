@@ -1,0 +1,864 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-11-05T06:22:57.937Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports/nsw-public-school-information",
+    "viewport": "1440x900",
+    "scope": "nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!",
+    "normalize": {
+      "source": "/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/about-us-policies-and-reports-nsw-public-school-information.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes, any cookie/consent/gdpr-named element inside a fixed/sticky/high-z overlay)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N3",
+          "what": "open every .nsw-accordion panel (unhide its content region, aria-expanded=true)",
+          "why": "closed panel text is content; capture-only — the rendered accordion keeps the closed rest state"
+        }
+      ]
+    },
+    "settle": {
+      "firstLen": 2040,
+      "waitedMs": 1508,
+      "stable": true,
+      "settledLen": 2040,
+      "lateChars": 0
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "domcontentloaded",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "NSW public school information",
+    "description": "Our school is one of more than 2,200 NSW public schools working together to give every student a strong start in life. Being part of this network means your child benefits from consistent policies, shared values, high teaching standards and access to statewide resources, assets, programs and support.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports/nsw-public-school-information",
+    "ogTags": {
+      "og:title": "NSW public school information",
+      "og:description": "Our school is one of more than 2,200 NSW public schools working together to give every student a strong start in life. Being part of this network means your child benefits from consistent policies, shared values, high teaching standards and access to statewide resources, assets, programs and support.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports/nsw-public-school-information",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/default-meta-image.png?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/default-meta-image.png?width=1200&format=pjpg&optimize=medium"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "NSW public school information",
+      "twitter:description": "Our school is one of more than 2,200 NSW public schools working together to give every student a strong start in life. Being part of this network means your child benefits from consistent policies, shared values, high teaching standards and access to statewide resources, assets, programs and support.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/default-meta-image.png?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "nav.nsw-breadcrumbs",
+      "whole": true
+    },
+    {
+      "sel": "main",
+      "whole": false
+    },
+    {
+      "sel": "aside.nsw-layout__sidebar--desktop",
+      "whole": true
+    }
+  ],
+  "visibleTextNormalized": "HomeAbout usPolicies and reportsNSW public school information NSW public school information This page includes updates and messages from the NSW Department of Education. It brings together content that applies to families of all NSW public schools. Understanding school policies Want to know how things like behaviour, attendance or mobile phone use are handled in NSW public schools? Our school follows policies set by the NSW Department of Education. These policies guide our school practices to provide a safe, fair and supportive environment for every student and help families understand what to expect from us. To learn more, visit the department's Policy library today. Policy Library Have a question? We’re here to help with information for all NSW public school families. Reach out for more information. Contact us Our policies and reports Discover our local school policies, reports and plans. east Our principal and staff Get to know our principal and staff, who work together to create a positive school culture. east Section navigation About us Enrol Facilities and resources HSC Results Our principal and staff Policies and reports NSW public school information School history and archives Stories and highlights Transition to high school Why choose us?",
+  "coverage": {
+    "bodyTextLen": 2040,
+    "scopeTextLen": 1267,
+    "ratio": 0.621,
+    "h1Text": "NSW public school information",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "nav",
+      "rootClass": "nsw-breadcrumbs js-breadcrumbs",
+      "visibleText": "HomeAbout usPolicies and reportsNSW public school information",
+      "headings": [],
+      "paragraphs": [],
+      "listItems": [
+        "Home",
+        "About us",
+        "Policies and reports",
+        "NSW public school information"
+      ],
+      "ctas": [
+        {
+          "text": "Home",
+          "href": "https://fortstreet-h.schools.nsw.gov.au",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/",
+          "classes": ""
+        },
+        {
+          "text": "About us",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+          "classes": "breadcrumb"
+        },
+        {
+          "text": "Policies and reports",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports",
+          "classes": "breadcrumb"
+        },
+        {
+          "text": "NSW public school information",
+          "href": "",
+          "absHref": "",
+          "classes": "current"
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Home",
+          "display": "inline-block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Home",
+              "display": "inline-block",
+              "href": "https://fortstreet-h.schools.nsw.gov.au",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "About us",
+          "display": "inline-block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "About us",
+              "display": "inline-block",
+              "href": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+              "classes": "breadcrumb",
+              "sep": ""
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Policies and reports",
+          "display": "inline-block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Policies and reports",
+              "display": "inline-block",
+              "href": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports",
+              "classes": "breadcrumb",
+              "sep": ""
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "NSW public school information",
+          "display": "inline-block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "NSW public school information",
+              "display": "inline-block",
+              "href": "",
+              "absHref": "",
+              "classes": "current",
+              "sep": ""
+            }
+          ],
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "NSW public school information This page includes updates and messages from the NSW Department of Education. It brings together content that applies to families of all NSW public schools.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "NSW public school information"
+        }
+      ],
+      "paragraphs": [
+        "This page includes updates and messages from the NSW Department of Education. It brings together content that applies to families of all NSW public schools."
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "NSW Department of Education",
+          "href": "https://education.nsw.gov.au/",
+          "absHref": "https://education.nsw.gov.au/",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "NSW public school information",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "This page includes updates and messages from the NSW Department of Education. It brings together content that applies to families of all NSW public schools.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "This page includes updates and messages from the",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "NSW Department of Education",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/",
+              "absHref": "https://education.nsw.gov.au/",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ". It brings together content that applies to families of all NSW public schools.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "Understanding school policies Want to know how things like behaviour, attendance or mobile phone use are handled in NSW public schools? Our school follows policies set by the NSW Department of Education. These policies guide our school practices to provide a safe, fair and supportive environment for every student and help families understand what to expect from us. To learn more, visit the department's Policy library today. Policy Library",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Understanding school policies"
+        }
+      ],
+      "paragraphs": [
+        "Want to know how things like behaviour, attendance or mobile phone use are handled in NSW public schools?",
+        "Our school follows policies set by the NSW Department of Education. These policies guide our school practices to provide a safe, fair and supportive environment for every student and help families understand what to expect from us.",
+        "To learn more, visit the department's Policy library today.",
+        "Policy Library"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Policy Library",
+          "href": "https://education.nsw.gov.au/policy-library",
+          "absHref": "https://education.nsw.gov.au/policy-library",
+          "classes": "button"
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Understanding school policies",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Want to know how things like behaviour, attendance or mobile phone use are handled in NSW public schools?",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our school follows policies set by the NSW Department of Education. These policies guide our school practices to provide a safe, fair and supportive environment for every student and help families understand what to expect from us.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "To learn more, visit the department's Policy library today.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Policy Library",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Policy Library",
+              "display": "inline-block",
+              "href": "https://education.nsw.gov.au/policy-library",
+              "absHref": "https://education.nsw.gov.au/policy-library",
+              "classes": "button",
+              "buttonLike": true,
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "dark",
+      "bg": "rgb(99, 0, 25)",
+      "toneEl": "main#main > div.section.nsw-section"
+    },
+    {
+      "slot": "s04",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--off-white",
+      "visibleText": "Have a question? We’re here to help with information for all NSW public school families. Reach out for more information. Contact us",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Have a question?"
+        }
+      ],
+      "paragraphs": [
+        "We’re here to help with information for all NSW public school families. Reach out for more information.",
+        "Contact us"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Contact us",
+          "href": "/contact-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+          "classes": "button"
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Have a question?",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "We’re here to help with information for all NSW public school families. Reach out for more information.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact us",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Contact us",
+              "display": "inline-block",
+              "href": "/contact-us",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+              "classes": "button",
+              "buttonLike": true,
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "tinted",
+      "bg": "rgb(242, 242, 242)",
+      "toneEl": "main#main > div.section.nsw-section"
+    },
+    {
+      "slot": "s05",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Our policies and reports Discover our local school policies, reports and plans. east Our principal and staff Get to know our principal and staff, who work together to create a positive school culture. east",
+      "headings": [],
+      "paragraphs": [
+        "Discover our local school policies, reports and plans.",
+        "Get to know our principal and staff, who work together to create a positive school culture."
+      ],
+      "listItems": [
+        "Our policies and reports Discover our local school policies, reports and plans. east",
+        "Our principal and staff Get to know our principal and staff, who work together to create a positive school culture. east"
+      ],
+      "ctas": [
+        {
+          "text": "Our policies and reports",
+          "href": "/about-us/policies-and-reports",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports",
+          "classes": ""
+        },
+        {
+          "text": "Our principal and staff",
+          "href": "/about-us/our-principal-and-staff",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Our policies and reports Discover our local school policies, reports and plans. east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Our policies and reports",
+              "display": "inline",
+              "href": "/about-us/policies-and-reports",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Discover our local school policies, reports and plans.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Our principal and staff Get to know our principal and staff, who work together to create a positive school culture. east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Our principal and staff",
+              "display": "inline",
+              "href": "/about-us/our-principal-and-staff",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Get to know our principal and staff, who work together to create a positive school culture.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s06",
+      "rootTag": "aside",
+      "rootClass": "nsw-layout__sidebar nsw-layout__sidebar--desktop sidebar-wrapper",
+      "visibleText": "Section navigation About us Enrol Facilities and resources HSC Results Our principal and staff Policies and reports NSW public school information School history and archives Stories and highlights Transition to high school Why choose us?",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Section navigation"
+        }
+      ],
+      "paragraphs": [],
+      "listItems": [
+        "Enrol",
+        "Facilities and resources",
+        "HSC Results",
+        "Our principal and staff",
+        "Policies and reports NSW public school information",
+        "NSW public school information",
+        "School history and archives",
+        "Stories and highlights",
+        "Transition to high school",
+        "Why choose us?"
+      ],
+      "ctas": [
+        {
+          "text": "About us",
+          "href": "/about-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+          "classes": ""
+        },
+        {
+          "text": "Enrol",
+          "href": "/about-us/enrol",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/enrol",
+          "classes": ""
+        },
+        {
+          "text": "Facilities and resources",
+          "href": "/about-us/facilities-and-resources",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources",
+          "classes": ""
+        },
+        {
+          "text": "HSC Results",
+          "href": "/about-us/hsc-results",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/hsc-results",
+          "classes": ""
+        },
+        {
+          "text": "Our principal and staff",
+          "href": "/about-us/our-principal-and-staff",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff",
+          "classes": ""
+        },
+        {
+          "text": "Policies and reports",
+          "href": "/about-us/policies-and-reports",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports",
+          "classes": ""
+        },
+        {
+          "text": "NSW public school information",
+          "href": "/about-us/policies-and-reports/nsw-public-school-information",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports/nsw-public-school-information",
+          "classes": "current"
+        },
+        {
+          "text": "School history and archives",
+          "href": "/about-us/school-history-and-archives",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives",
+          "classes": ""
+        },
+        {
+          "text": "Stories and highlights",
+          "href": "/about-us/stories-and-highlights",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/stories-and-highlights",
+          "classes": ""
+        },
+        {
+          "text": "Transition to high school",
+          "href": "/about-us/transition-to-high-school",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/transition-to-high-school",
+          "classes": ""
+        },
+        {
+          "text": "Why choose us?",
+          "href": "/about-us/why-choose-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/why-choose-us",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Section navigation",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "cta",
+          "text": "About us",
+          "display": "flex",
+          "href": "/about-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+          "classes": "",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Enrol",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Enrol",
+              "display": "block",
+              "href": "/about-us/enrol",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/enrol",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Facilities and resources",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Facilities and resources",
+              "display": "block",
+              "href": "/about-us/facilities-and-resources",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "HSC Results",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "HSC Results",
+              "display": "block",
+              "href": "/about-us/hsc-results",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/hsc-results",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Our principal and staff",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Our principal and staff",
+              "display": "block",
+              "href": "/about-us/our-principal-and-staff",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Policies and reports NSW public school information",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Policies and reports",
+              "display": "block",
+              "href": "/about-us/policies-and-reports",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "listItem",
+              "text": "NSW public school information",
+              "display": "list-item",
+              "children": [
+                {
+                  "kind": "cta",
+                  "text": "NSW public school information",
+                  "display": "block",
+                  "href": "/about-us/policies-and-reports/nsw-public-school-information",
+                  "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports/nsw-public-school-information",
+                  "classes": "current",
+                  "buttonLike": true,
+                  "sep": ""
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "School history and archives",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "School history and archives",
+              "display": "block",
+              "href": "/about-us/school-history-and-archives",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Stories and highlights",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Stories and highlights",
+              "display": "block",
+              "href": "/about-us/stories-and-highlights",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/stories-and-highlights",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Transition to high school",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Transition to high school",
+              "display": "block",
+              "href": "/about-us/transition-to-high-school",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/transition-to-high-school",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Why choose us?",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Why choose us?",
+              "display": "block",
+              "href": "/about-us/why-choose-us",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/why-choose-us",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    }
+  ],
+  "residue": [
+    {
+      "sel": "header.header-wrapper",
+      "kind": "chrome",
+      "textLen": 275,
+      "lines": [
+        "Skip to navigation",
+        "Skip to content",
+        "NSW Government",
+        "Fort Street High School",
+        "Faber est suae quisque fortunae",
+        "search",
+        "Show",
+        "Search",
+        "About us",
+        "keyboard_arrow_right",
+        "School life",
+        "keyboard_arrow_right",
+        "Learning and support",
+        "keyboard_arrow_right",
+        "Our community",
+        "keyboard_arrow_right",
+        "Contact us"
+      ],
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 172
+      }
+    },
+    {
+      "sel": "footer.footer-wrapper",
+      "kind": "chrome",
+      "textLen": 496,
+      "lines": [
+        "Fort Street High School",
+        "General enquiries",
+        "fortstreet-h.school@det.nsw.edu.au",
+        "8585 1600",
+        "620 PARRAMATTA ROAD, NSW 2049 PETERSHAM",
+        "Follow us",
+        "We recognise the Ongoing Custodians of the lands and waterways where we work and live. We pay respect to Elders past and present as ongoing teachers of knowledge, songlines and stories. We strive to ensure every Aboriginal and/or Torres Strait Islander learner in NSW achieves their potential through education.",
+        "Your feedback",
+        "Policy library",
+        "Information access"
+      ],
+      "rect": {
+        "x": 0,
+        "y": 1367,
+        "w": 1440,
+        "h": 509
+      }
+    }
+  ]
+}

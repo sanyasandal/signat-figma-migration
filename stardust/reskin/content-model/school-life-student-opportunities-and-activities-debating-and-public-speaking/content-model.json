@@ -1,0 +1,1113 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-11-05T06:23:59.084Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/debating-and-public-speaking",
+    "viewport": "1440x900",
+    "scope": "nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!",
+    "normalize": {
+      "source": "/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/school-life-student-opportunities-and-activities-debating-and-public-speaking.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes, any cookie/consent/gdpr-named element inside a fixed/sticky/high-z overlay)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N3",
+          "what": "open every .nsw-accordion panel (unhide its content region, aria-expanded=true)",
+          "why": "closed panel text is content; capture-only — the rendered accordion keeps the closed rest state"
+        }
+      ]
+    },
+    "settle": {
+      "firstLen": 2574,
+      "waitedMs": 1508,
+      "stable": true,
+      "settledLen": 2574,
+      "lateChars": 0
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "domcontentloaded",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Debating and Public Speaking",
+    "description": "In the debating program, Fort Street students work in small tutorial groups of 8-10 people, every Monday afternoon from 3:30–5 pm. These tutorials are led by world-class debating coaches recruited from Sydney’s premier universities.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/debating-and-public-speaking",
+    "ogTags": {
+      "og:title": "Debating and Public Speaking",
+      "og:description": "In the debating program, Fort Street students work in small tutorial groups of 8-10 people, every Monday afternoon from 3:30–5 pm. These tutorials are led by world-class debating coaches recruited from Sydney’s premier universities.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/debating-and-public-speaking",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_10ebbb136fc4623e2a1294e3ac08d4ed886cd987a.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_10ebbb136fc4623e2a1294e3ac08d4ed886cd987a.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:alt": "students smiling"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Debating and Public Speaking",
+      "twitter:description": "In the debating program, Fort Street students work in small tutorial groups of 8-10 people, every Monday afternoon from 3:30–5 pm. These tutorials are led by world-class debating coaches recruited from Sydney’s premier universities.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_10ebbb136fc4623e2a1294e3ac08d4ed886cd987a.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "nav.nsw-breadcrumbs",
+      "whole": true
+    },
+    {
+      "sel": "main",
+      "whole": false
+    },
+    {
+      "sel": "aside.nsw-layout__sidebar--desktop",
+      "whole": true
+    }
+  ],
+  "visibleTextNormalized": "HomeSchool lifeStudent opportunities and activitiesDebating and Public Speaking Debating and Public Speaking In this program students work in small tutorial groups of 8-10 people, every Monday afternoon from 3:30–5 pm. These tutorials are led by world-class debating coaches recruited from Sydney’s premier universities. Many of these coaches have reached success at prestigious international tournaments. Every student in the program learns the key components of debating, and will have the opportunity to participate in formal and informal competitive debates within Fort Street. All students in the program are also eligible to try out for a FSHS representative team, which will compete in the Premier’s Debating Challenge against the best school in NSW. We enter competitions including Department of Education: Karl Cramp Year 12, Hume Barbour Year 11, Premiers Debating Challenge Intermediate (Years 9 and 10) and Junior Competitions (Years 7 and 8). The cost of the program is approximately $300 for the year. Contact: Mr Andrew Tennent English Faculty Cohen Staffroom Need to make a payment? Our parent portal makes it easy to make a payment online. Parent portal Facilities and resources Learn how our spaces and tools support every subject and learning style. east Events Find out about school events, celebrations and what’s coming up. east Section navigation School life Bell times Bring your own device Canteen Events Forms House and Merit System Lockers and lost property Newsletters Parent portal Stationery Student opportunities and activities Academic Competitions Clubs and Committees Creative and Performing Arts Debating and Public Speaking Duke of Edinburgh Award Instrumental Music Program Robotics and Maker Society Sport Student Leadership Opportunities Travel to school Uniform",
+  "coverage": {
+    "bodyTextLen": 2574,
+    "scopeTextLen": 1801,
+    "ratio": 0.7,
+    "h1Text": "Debating and Public Speaking",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "nav",
+      "rootClass": "nsw-breadcrumbs js-breadcrumbs",
+      "visibleText": "HomeSchool lifeStudent opportunities and activitiesDebating and Public Speaking",
+      "headings": [],
+      "paragraphs": [],
+      "listItems": [
+        "Home",
+        "School life",
+        "Student opportunities and activities",
+        "Debating and Public Speaking"
+      ],
+      "ctas": [
+        {
+          "text": "Home",
+          "href": "https://fortstreet-h.schools.nsw.gov.au",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/",
+          "classes": ""
+        },
+        {
+          "text": "School life",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/school-life",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life",
+          "classes": "breadcrumb"
+        },
+        {
+          "text": "Student opportunities and activities",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities",
+          "classes": "breadcrumb"
+        },
+        {
+          "text": "Debating and Public Speaking",
+          "href": "",
+          "absHref": "",
+          "classes": "current"
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Home",
+          "display": "inline-block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Home",
+              "display": "inline-block",
+              "href": "https://fortstreet-h.schools.nsw.gov.au",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "School life",
+          "display": "inline-block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "School life",
+              "display": "inline-block",
+              "href": "https://fortstreet-h.schools.nsw.gov.au/school-life",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life",
+              "classes": "breadcrumb",
+              "sep": ""
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Student opportunities and activities",
+          "display": "inline-block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Student opportunities and activities",
+              "display": "inline-block",
+              "href": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities",
+              "classes": "breadcrumb",
+              "sep": ""
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Debating and Public Speaking",
+          "display": "inline-block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Debating and Public Speaking",
+              "display": "inline-block",
+              "href": "",
+              "absHref": "",
+              "classes": "current",
+              "sep": ""
+            }
+          ],
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Debating and Public Speaking In this program students work in small tutorial groups of 8-10 people, every Monday afternoon from 3:30–5 pm. These tutorials are led by world-class debating coaches recruited from Sydney’s premier universities. Many of these coaches have reached success at prestigious international tournaments. Every student in the program learns the key components of debating, and will have the opportunity to participate in formal and informal competitive debates within Fort Street. All students in the program are also eligible to try out for a FSHS representative team, which will compete in the Premier’s Debating Challenge against the best school in NSW. We enter competitions including Department of Education: Karl Cramp Year 12, Hume Barbour Year 11, Premiers Debating Challenge Intermediate (Years 9 and 10) and Junior Competitions (Years 7 and 8). The cost of the program is approximately $300 for the year. Contact: Mr Andrew Tennent English Faculty Cohen Staffroom",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Debating and Public Speaking"
+        }
+      ],
+      "paragraphs": [
+        "In this program students work in small tutorial groups of 8-10 people, every Monday afternoon from 3:30–5 pm. These tutorials are led by world-class debating coaches recruited from Sydney’s premier universities. Many of these coaches have reached success at prestigious international tournaments. Every student in the program learns the key components of debating, and will have the opportunity to participate in formal and informal competitive debates within Fort Street.",
+        "All students in the program are also eligible to try out for a FSHS representative team, which will compete in the Premier’s Debating Challenge against the best school in NSW. We enter competitions including Department of Education: Karl Cramp Year 12, Hume Barbour Year 11, Premiers Debating Challenge Intermediate (Years 9 and 10) and Junior Competitions (Years 7 and 8).",
+        "The cost of the program is approximately $300 for the year.",
+        "Contact: Mr Andrew Tennent English Faculty Cohen Staffroom"
+      ],
+      "listItems": [],
+      "ctas": [],
+      "iconLinks": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_10ebbb136fc4623e2a1294e3ac08d4ed886cd987a.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "students smiling",
+          "w": 500,
+          "h": 300
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Debating and Public Speaking",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_10ebbb136fc4623e2a1294e3ac08d4ed886cd987a.jpg?width=2000&format=webply&optimize=medium",
+              "alt": "students smiling",
+              "rw": 500
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "In this program students work in small tutorial groups of 8-10 people, every Monday afternoon from 3:30–5 pm. These tutorials are led by world-class debating coaches recruited from Sydney’s premier universities. Many of these coaches have reached success at prestigious international tournaments. Every student in the program learns the key components of debating, and will have the opportunity to participate in formal and informal competitive debates within Fort Street.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "All students in the program are also eligible to try out for a FSHS representative team, which will compete in the Premier’s Debating Challenge against the best school in NSW. We enter competitions including Department of Education: Karl Cramp Year 12, Hume Barbour Year 11, Premiers Debating Challenge Intermediate (Years 9 and 10) and Junior Competitions (Years 7 and 8).",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The cost of the program is approximately $300 for the year.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact: Mr Andrew Tennent English Faculty Cohen Staffroom",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Contact:",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Mr Andrew Tennent",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "English Faculty",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Cohen Staffroom",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "Need to make a payment? Our parent portal makes it easy to make a payment online. Parent portal",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Need to make a payment?"
+        }
+      ],
+      "paragraphs": [
+        "Our parent portal makes it easy to make a payment online.",
+        "Parent portal"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Parent portal",
+          "href": "/school-life/parent-portal",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+          "classes": "button"
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Need to make a payment?",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our parent portal makes it easy to make a payment online.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Parent portal",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Parent portal",
+              "display": "inline-block",
+              "href": "/school-life/parent-portal",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+              "classes": "button",
+              "buttonLike": true,
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "dark",
+      "bg": "rgb(99, 0, 25)",
+      "toneEl": "main#main > div.section.nsw-section"
+    },
+    {
+      "slot": "s04",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Facilities and resources Learn how our spaces and tools support every subject and learning style. east Events Find out about school events, celebrations and what’s coming up. east",
+      "headings": [],
+      "paragraphs": [
+        "Learn how our spaces and tools support every subject and learning style.",
+        "Find out about school events, celebrations and what’s coming up."
+      ],
+      "listItems": [
+        "Facilities and resources Learn how our spaces and tools support every subject and learning style. east",
+        "Events Find out about school events, celebrations and what’s coming up. east"
+      ],
+      "ctas": [
+        {
+          "text": "Facilities and resources",
+          "href": "/about-us/facilities-and-resources",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources",
+          "classes": "button primary"
+        },
+        {
+          "text": "Events",
+          "href": "/school-life/events",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+          "classes": "button primary"
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Facilities and resources Learn how our spaces and tools support every subject and learning style. east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Facilities and resources",
+              "display": "inline",
+              "href": "/about-us/facilities-and-resources",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources",
+              "classes": "button primary",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Learn how our spaces and tools support every subject and learning style.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Events Find out about school events, celebrations and what’s coming up. east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Events",
+              "display": "inline",
+              "href": "/school-life/events",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+              "classes": "button primary",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Find out about school events, celebrations and what’s coming up.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s05",
+      "rootTag": "aside",
+      "rootClass": "nsw-layout__sidebar nsw-layout__sidebar--desktop sidebar-wrapper",
+      "visibleText": "Section navigation School life Bell times Bring your own device Canteen Events Forms House and Merit System Lockers and lost property Newsletters Parent portal Stationery Student opportunities and activities Academic Competitions Clubs and Committees Creative and Performing Arts Debating and Public Speaking Duke of Edinburgh Award Instrumental Music Program Robotics and Maker Society Sport Student Leadership Opportunities Travel to school Uniform",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Section navigation"
+        }
+      ],
+      "paragraphs": [],
+      "listItems": [
+        "Bell times",
+        "Bring your own device",
+        "Canteen",
+        "Events",
+        "Forms",
+        "House and Merit System",
+        "Lockers and lost property",
+        "Newsletters",
+        "Parent portal",
+        "Stationery",
+        "Student opportunities and activities Academic Competitions Clubs and Committees Creative and Performing Arts Debating and Public Speaking Duke of Edinburgh Award Instrumental Music Program Robotics and Maker Society Sport Student Leadership Opportunities",
+        "Academic Competitions",
+        "Clubs and Committees",
+        "Creative and Performing Arts",
+        "Debating and Public Speaking",
+        "Duke of Edinburgh Award",
+        "Instrumental Music Program",
+        "Robotics and Maker Society",
+        "Sport",
+        "Student Leadership Opportunities",
+        "Travel to school",
+        "Uniform"
+      ],
+      "ctas": [
+        {
+          "text": "School life",
+          "href": "/school-life",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life",
+          "classes": ""
+        },
+        {
+          "text": "Bell times",
+          "href": "/school-life/bell-times",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/bell-times",
+          "classes": ""
+        },
+        {
+          "text": "Bring your own device",
+          "href": "/school-life/bring-your-own-device",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/bring-your-own-device",
+          "classes": ""
+        },
+        {
+          "text": "Canteen",
+          "href": "/school-life/canteen",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/canteen",
+          "classes": ""
+        },
+        {
+          "text": "Events",
+          "href": "/school-life/events",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+          "classes": ""
+        },
+        {
+          "text": "Forms",
+          "href": "/school-life/forms",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/forms",
+          "classes": ""
+        },
+        {
+          "text": "House and Merit System",
+          "href": "/school-life/house-and-merit-system",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/house-and-merit-system",
+          "classes": ""
+        },
+        {
+          "text": "Lockers and lost property",
+          "href": "/school-life/lockers-and-lost-property",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/lockers-and-lost-property",
+          "classes": ""
+        },
+        {
+          "text": "Newsletters",
+          "href": "/school-life/newsletters",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters",
+          "classes": ""
+        },
+        {
+          "text": "Parent portal",
+          "href": "/school-life/parent-portal",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+          "classes": ""
+        },
+        {
+          "text": "Stationery",
+          "href": "/school-life/stationery",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/stationery",
+          "classes": ""
+        },
+        {
+          "text": "Student opportunities and activities",
+          "href": "/school-life/student-opportunities-and-activities",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities",
+          "classes": ""
+        },
+        {
+          "text": "Academic Competitions",
+          "href": "/school-life/student-opportunities-and-activities/academic-competitions",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/academic-competitions",
+          "classes": ""
+        },
+        {
+          "text": "Clubs and Committees",
+          "href": "/school-life/student-opportunities-and-activities/clubs-and-committees",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/clubs-and-committees",
+          "classes": ""
+        },
+        {
+          "text": "Creative and Performing Arts",
+          "href": "/school-life/student-opportunities-and-activities/creative-and-performing-arts",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/creative-and-performing-arts",
+          "classes": ""
+        },
+        {
+          "text": "Debating and Public Speaking",
+          "href": "/school-life/student-opportunities-and-activities/debating-and-public-speaking",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/debating-and-public-speaking",
+          "classes": "current"
+        },
+        {
+          "text": "Duke of Edinburgh Award",
+          "href": "/school-life/student-opportunities-and-activities/duke-of-edinburgh-award",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/duke-of-edinburgh-award",
+          "classes": ""
+        },
+        {
+          "text": "Instrumental Music Program",
+          "href": "/school-life/student-opportunities-and-activities/instrumental-music-program",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/instrumental-music-program",
+          "classes": ""
+        },
+        {
+          "text": "Robotics and Maker Society",
+          "href": "/school-life/student-opportunities-and-activities/robotics-and-maker-society",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/robotics-and-maker-society",
+          "classes": ""
+        },
+        {
+          "text": "Sport",
+          "href": "/school-life/student-opportunities-and-activities/sport",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/sport",
+          "classes": ""
+        },
+        {
+          "text": "Student Leadership Opportunities",
+          "href": "/school-life/student-opportunities-and-activities/student-leadership-opportunities",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/student-leadership-opportunities",
+          "classes": ""
+        },
+        {
+          "text": "Travel to school",
+          "href": "/school-life/travel-to-school",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school",
+          "classes": ""
+        },
+        {
+          "text": "Uniform",
+          "href": "/school-life/uniform",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Section navigation",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "cta",
+          "text": "School life",
+          "display": "flex",
+          "href": "/school-life",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life",
+          "classes": "",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Bell times",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Bell times",
+              "display": "block",
+              "href": "/school-life/bell-times",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/bell-times",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Bring your own device",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Bring your own device",
+              "display": "block",
+              "href": "/school-life/bring-your-own-device",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/bring-your-own-device",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Canteen",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Canteen",
+              "display": "block",
+              "href": "/school-life/canteen",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/canteen",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Events",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Events",
+              "display": "block",
+              "href": "/school-life/events",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Forms",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Forms",
+              "display": "block",
+              "href": "/school-life/forms",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/forms",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "House and Merit System",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "House and Merit System",
+              "display": "block",
+              "href": "/school-life/house-and-merit-system",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/house-and-merit-system",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Lockers and lost property",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Lockers and lost property",
+              "display": "block",
+              "href": "/school-life/lockers-and-lost-property",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/lockers-and-lost-property",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Newsletters",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Newsletters",
+              "display": "block",
+              "href": "/school-life/newsletters",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Parent portal",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Parent portal",
+              "display": "block",
+              "href": "/school-life/parent-portal",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Stationery",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Stationery",
+              "display": "block",
+              "href": "/school-life/stationery",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/stationery",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Student opportunities and activities Academic Competitions Clubs and Committees Creative and Performing Arts Debating and Public Speaking Duke of Edinburgh Award Instrumental Music Program Robotics and Maker Society Sport Student Leadership Opportunities",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Student opportunities and activities",
+              "display": "block",
+              "href": "/school-life/student-opportunities-and-activities",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "listItem",
+              "text": "Academic Competitions",
+              "display": "list-item",
+              "children": [
+                {
+                  "kind": "cta",
+                  "text": "Academic Competitions",
+                  "display": "block",
+                  "href": "/school-life/student-opportunities-and-activities/academic-competitions",
+                  "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/academic-competitions",
+                  "classes": "",
+                  "sep": ""
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "listItem",
+              "text": "Clubs and Committees",
+              "display": "list-item",
+              "children": [
+                {
+                  "kind": "cta",
+                  "text": "Clubs and Committees",
+                  "display": "block",
+                  "href": "/school-life/student-opportunities-and-activities/clubs-and-committees",
+                  "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/clubs-and-committees",
+                  "classes": "",
+                  "sep": ""
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "listItem",
+              "text": "Creative and Performing Arts",
+              "display": "list-item",
+              "children": [
+                {
+                  "kind": "cta",
+                  "text": "Creative and Performing Arts",
+                  "display": "block",
+                  "href": "/school-life/student-opportunities-and-activities/creative-and-performing-arts",
+                  "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/creative-and-performing-arts",
+                  "classes": "",
+                  "sep": ""
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "listItem",
+              "text": "Debating and Public Speaking",
+              "display": "list-item",
+              "children": [
+                {
+                  "kind": "cta",
+                  "text": "Debating and Public Speaking",
+                  "display": "block",
+                  "href": "/school-life/student-opportunities-and-activities/debating-and-public-speaking",
+                  "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/debating-and-public-speaking",
+                  "classes": "current",
+                  "buttonLike": true,
+                  "sep": ""
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "listItem",
+              "text": "Duke of Edinburgh Award",
+              "display": "list-item",
+              "children": [
+                {
+                  "kind": "cta",
+                  "text": "Duke of Edinburgh Award",
+                  "display": "block",
+                  "href": "/school-life/student-opportunities-and-activities/duke-of-edinburgh-award",
+                  "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/duke-of-edinburgh-award",
+                  "classes": "",
+                  "sep": ""
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "listItem",
+              "text": "Instrumental Music Program",
+              "display": "list-item",
+              "children": [
+                {
+                  "kind": "cta",
+                  "text": "Instrumental Music Program",
+                  "display": "block",
+                  "href": "/school-life/student-opportunities-and-activities/instrumental-music-program",
+                  "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/instrumental-music-program",
+                  "classes": "",
+                  "sep": ""
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "listItem",
+              "text": "Robotics and Maker Society",
+              "display": "list-item",
+              "children": [
+                {
+                  "kind": "cta",
+                  "text": "Robotics and Maker Society",
+                  "display": "block",
+                  "href": "/school-life/student-opportunities-and-activities/robotics-and-maker-society",
+                  "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/robotics-and-maker-society",
+                  "classes": "",
+                  "sep": ""
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "listItem",
+              "text": "Sport",
+              "display": "list-item",
+              "children": [
+                {
+                  "kind": "cta",
+                  "text": "Sport",
+                  "display": "block",
+                  "href": "/school-life/student-opportunities-and-activities/sport",
+                  "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/sport",
+                  "classes": "",
+                  "sep": ""
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "listItem",
+              "text": "Student Leadership Opportunities",
+              "display": "list-item",
+              "children": [
+                {
+                  "kind": "cta",
+                  "text": "Student Leadership Opportunities",
+                  "display": "block",
+                  "href": "/school-life/student-opportunities-and-activities/student-leadership-opportunities",
+                  "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/student-leadership-opportunities",
+                  "classes": "",
+                  "sep": ""
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Travel to school",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Travel to school",
+              "display": "block",
+              "href": "/school-life/travel-to-school",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Uniform",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Uniform",
+              "display": "block",
+              "href": "/school-life/uniform",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    }
+  ],
+  "residue": [
+    {
+      "sel": "header.header-wrapper",
+      "kind": "chrome",
+      "textLen": 275,
+      "lines": [
+        "Skip to navigation",
+        "Skip to content",
+        "NSW Government",
+        "Fort Street High School",
+        "Faber est suae quisque fortunae",
+        "search",
+        "Show",
+        "Search",
+        "About us",
+        "keyboard_arrow_right",
+        "School life",
+        "keyboard_arrow_right",
+        "Learning and support",
+        "keyboard_arrow_right",
+        "Our community",
+        "keyboard_arrow_right",
+        "Contact us"
+      ],
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 172
+      }
+    },
+    {
+      "sel": "footer.footer-wrapper",
+      "kind": "chrome",
+      "textLen": 496,
+      "lines": [
+        "Fort Street High School",
+        "General enquiries",
+        "fortstreet-h.school@det.nsw.edu.au",
+        "8585 1600",
+        "620 PARRAMATTA ROAD, NSW 2049 PETERSHAM",
+        "Follow us",
+        "We recognise the Ongoing Custodians of the lands and waterways where we work and live. We pay respect to Elders past and present as ongoing teachers of knowledge, songlines and stories. We strive to ensure every Aboriginal and/or Torres Strait Islander learner in NSW achieves their potential through education.",
+        "Your feedback",
+        "Policy library",
+        "Information access"
+      ],
+      "rect": {
+        "x": 0,
+        "y": 1626,
+        "w": 1440,
+        "h": 509
+      }
+    }
+  ]
+}

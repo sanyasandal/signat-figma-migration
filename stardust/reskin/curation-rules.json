@@ -1,0 +1,530 @@
+{
+  "version": 1,
+  "reference": {
+    "home": {
+      "frame": "19443:23241",
+      "mode": null,
+      "breakpoint": 1440
+    }
+  },
+  "roles": {
+    "palette.pageBg": {
+      "from": "colors/rgb-242-240-239",
+      "evidence": "19443:23241"
+    },
+    "palette.bodyFg": {
+      "from": "colors/rgb-40-40-40",
+      "evidence": "19443:23382"
+    },
+    "palette.headingFg": {
+      "from": "colors/rgb-0-0-0",
+      "evidence": "19443:23399"
+    },
+    "palette.mutedFg": {
+      "from": "colors/rgb-100-100-100",
+      "evidence": "I19443:23377;18871:2929"
+    },
+    "palette.accent": {
+      "from": "colors/rgb-0-0-0",
+      "evidence": "19443:23635"
+    },
+    "palette.darkBandBg": {
+      "from": "colors/rgb-0-0-0",
+      "evidence": "19443:23664"
+    },
+    "palette.darkBandFg": {
+      "from": "colors/black-white-white",
+      "evidence": "19443:23747"
+    },
+    "palette.lightBandBg": {
+      "from": "colors/rgb-229-225-222",
+      "evidence": "19443:23394"
+    },
+    "palette.rule": {
+      "from": "colors/rgb-216-211-204",
+      "evidence": "19443:23388"
+    },
+    "type.family": {
+      "from": "typography/apercu-pro-13-400",
+      "evidence": "19443:23334"
+    },
+    "type.display": {
+      "from": "typography/apercu-pro-56-400",
+      "evidence": "19443:23333"
+    },
+    "type.h2": {
+      "from": "typography/apercu-pro-56-400",
+      "evidence": "19443:23453"
+    },
+    "type.h3": {
+      "from": "typography/apercu-pro-26-400-2",
+      "evidence": "19443:23416"
+    },
+    "type.h4": {
+      "from": "typography/apercu-pro-20-400",
+      "evidence": "19443:23382"
+    },
+    "type.lede": {
+      "from": "typography/apercu-pro-20-400",
+      "evidence": "19443:23382"
+    },
+    "type.body": {
+      "from": "typography/apercu-pro-13-400",
+      "evidence": "19443:23334"
+    },
+    "type.eyebrow": {
+      "from": "typography/apercu-pro-10-400",
+      "evidence": "19443:23332"
+    },
+    "type.tab": {
+      "from": "typography/apercu-pro-16-400",
+      "evidence": "19443:23355"
+    },
+    "type.promo": {
+      "from": "typography/apercu-pro-18-400",
+      "evidence": "19443:23345"
+    },
+    "buttons.primary": {
+      "component": "underline-swipe-cta-primary-default-on-light",
+      "evidence": "I19443:23418;18542:172"
+    },
+    "buttons.secondary": {
+      "component": "underline-swipe-cta-primary-default-on-dark",
+      "evidence": "I19443:23336;18641:24601"
+    },
+    "layout.containerMaxWidth": {
+      "from": "spacing/width-1440",
+      "evidence": "19443:23343"
+    },
+    "layout.sectionPaddingY": {
+      "from": "spacing/pad-80",
+      "evidence": "19443:23508"
+    },
+    "layout.gutter": {
+      "from": "spacing/pad-16",
+      "evidence": "19443:23272"
+    },
+    "layout.mobile.gutter": {
+      "from": "spacing/pad-16",
+      "evidence": "19443:23756"
+    },
+    "shadows.cardFloating": {
+      "from": "effects/shadow-0-5-11-0-x5",
+      "evidence": "19443:23508"
+    },
+    "palette.sale": {
+      "from": "colors/rgb-191-0-19",
+      "evidence": "I19443:23327;18641:22721"
+    }
+  },
+  "normalizations": [
+    {
+      "id": "apercu-stack",
+      "kind": "familyEquivalence",
+      "params": {
+        "map": {
+          "Apercu Pro": "\"Apercu Pro\", \"Helvetica Neue\", Helvetica, Arial, sans-serif"
+        }
+      },
+      "why": "Apercu Pro is a licensed face not served by this project: adopted as the token string with a neutral grotesque fallback"
+    },
+    {
+      "id": "display-lh",
+      "kind": "lineHeightUnitless",
+      "params": {
+        "paths": [
+          "type.display",
+          "type.h2"
+        ]
+      },
+      "why": "display lines are set solid (1.0) in the donor; ratio survives the responsive scale"
+    }
+  ],
+  "curations": [
+    {
+      "path": "buttons.primary.borderRadius",
+      "to": "0px",
+      "rule": "the Underline Swipe CTA component has no cornerRadius: square corners",
+      "evidence": "18542:171"
+    },
+    {
+      "path": "buttons.secondary.borderRadius",
+      "to": "0px",
+      "rule": "the Underline Swipe CTA component has no cornerRadius: square corners",
+      "evidence": "18641:24600"
+    },
+    {
+      "path": "cards.primary.background",
+      "to": "rgb(255, 255, 255)",
+      "rule": "product tiles in the For Every Milestone rail paint a white fill",
+      "evidence": "19443:23465"
+    },
+    {
+      "path": "cards.primary.borderRadius",
+      "to": "0px",
+      "rule": "every tile in the reference frame is square-cornered (no radii on tile frames)",
+      "evidence": "19443:23465"
+    },
+    {
+      "path": "cards.primary.padding",
+      "to": "16px",
+      "rule": "tile text blocks inset 16px (pad-16 on the tile content frames)",
+      "evidence": "19443:23344"
+    },
+    {
+      "path": "cards.primary.titleColor",
+      "to": "rgb(0, 0, 0)",
+      "rule": "tile titles on light tiles are black",
+      "evidence": "19443:23416"
+    },
+    {
+      "path": "layout.mobile.sectionPaddingY",
+      "to": "40px",
+      "rule": "the mobile frame halves band padding (pad-40 on stacked bands)",
+      "evidence": "19443:23927"
+    }
+  ],
+  "suspect": [],
+  "modules": [
+    {
+      "id": "M1",
+      "name": "Full-bleed photo hero",
+      "frame": "19443:23328",
+      "family": "home",
+      "anatomy": "full-bleed photograph; bottom-left stack: eyebrow (10px caps) + h1 56px white + short body + two light CTAs; optional inset thumbnail right",
+      "variants": [],
+      "components": [
+        "Underline Swipe CTA \u2013 Primary"
+      ],
+      "status": "include",
+      "eds": {
+        "block": "hero",
+        "variant": null
+      }
+    },
+    {
+      "id": "M2",
+      "name": "Split grid banner",
+      "frame": "19443:23343",
+      "family": "home",
+      "anatomy": "promo line row (18px left + right) over 3-up edge-to-edge image tiles, each with centered overlay title 26px white + underline Shop Now CTA",
+      "variants": [
+        "4-up (19443:23436)"
+      ],
+      "components": [
+        "Split Grid Banner Tiles",
+        ".base/Text on Image Content",
+        "Underline Swipe CTA \u2013 Secondary"
+      ],
+      "status": "include",
+      "eds": {
+        "block": "cards",
+        "variant": null
+      }
+    },
+    {
+      "id": "M3",
+      "name": "Category tile rail",
+      "frame": "19443:23351",
+      "family": "home",
+      "anatomy": "tab row (16px labels, divider) + arrow buttons right; row of image tiles separated by 1px gaps, caption 12px under each image",
+      "variants": [],
+      "components": [
+        "Category Tile",
+        "Arrow Button"
+      ],
+      "status": "include",
+      "eds": {
+        "block": null,
+        "variant": null
+      }
+    },
+    {
+      "id": "M4",
+      "name": "Image hero with detail row",
+      "frame": "19443:23374",
+      "family": "home",
+      "anatomy": "full-bleed image with 80px heading over it; below, split row: 20px lede + two black CTAs left, row of bordered category tiles right",
+      "variants": [],
+      "components": [
+        "Shop the Look 2",
+        "Underline Swipe CTA \u2013 Primary"
+      ],
+      "status": "include",
+      "eds": {
+        "block": "hero",
+        "variant": "detail"
+      }
+    },
+    {
+      "id": "M5",
+      "name": "Centered statement band",
+      "frame": "19443:23394",
+      "family": "home",
+      "anatomy": "light band (rgb 229,225,222); centered eyebrow + 80px heading + media + 13px centered body + two black CTAs",
+      "variants": [],
+      "components": [
+        "Create with Kay Ticker 2",
+        "Underline Swipe CTA \u2013 Primary"
+      ],
+      "status": "include",
+      "eds": {
+        "block": null,
+        "variant": null
+      }
+    },
+    {
+      "id": "M6",
+      "name": "Editorial stagger",
+      "frame": "19443:23410",
+      "family": "home",
+      "anatomy": "alternating image + text blocks on the page band; each text block: eyebrow (10px caps) + h3 26px + 13px body + one black CTA",
+      "variants": [],
+      "components": [
+        "Create with Kay",
+        "Underline Swipe CTA \u2013 Primary"
+      ],
+      "status": "include",
+      "eds": {
+        "block": "columns",
+        "variant": "editorial"
+      }
+    },
+    {
+      "id": "M7",
+      "name": "Split feature",
+      "frame": "19443:23445",
+      "family": "home",
+      "anatomy": "50/50: full-height photograph left; right column centered: eyebrow + h2 56px + bordered icon-tile grid + 13px body + two black CTAs",
+      "variants": [],
+      "components": [
+        "Split Grid Banner Tiles",
+        "Underline Swipe CTA \u2013 Primary"
+      ],
+      "status": "include",
+      "eds": {
+        "block": "columns",
+        "variant": "split"
+      }
+    },
+    {
+      "id": "M8",
+      "name": "Product rail",
+      "frame": "19443:23465",
+      "family": "home",
+      "anatomy": "eyebrow + h2 56px + tab row + arrows; white tiles with badge, image, 12px title, meta, price",
+      "variants": [],
+      "components": [
+        "Product Tile",
+        "Badge",
+        "Arrow Button"
+      ],
+      "status": "include",
+      "eds": {
+        "block": "cards",
+        "variant": "product"
+      }
+    },
+    {
+      "id": "M9",
+      "name": "Photo banner",
+      "frame": "19443:23495",
+      "family": "home",
+      "anatomy": "dark full-bleed photograph band, left: eyebrow + h2 56px white + two light CTAs; optional thumbnails right",
+      "variants": [],
+      "components": [
+        "Underline Swipe CTA \u2013 Primary",
+        "Underline Swipe CTA \u2013 Secondary"
+      ],
+      "status": "include",
+      "eds": {
+        "block": "hero",
+        "variant": "banner"
+      }
+    },
+    {
+      "id": "M10",
+      "name": "Social stories strip",
+      "frame": "19443:23508",
+      "family": "home",
+      "anatomy": "centered eyebrow + h2 56px + 13px body; row of portrait media cards, the focused one with caption panel",
+      "variants": [],
+      "components": [
+        "Arrow Button"
+      ],
+      "status": "include",
+      "eds": {
+        "block": "cards",
+        "variant": "social"
+      }
+    },
+    {
+      "id": "M11",
+      "name": "Value-props band",
+      "frame": "19443:23635",
+      "family": "home",
+      "anatomy": "light band; 4 equal columns divided by 1px rules: icon + 10px caps label + 11px body + underlined text link",
+      "variants": [],
+      "components": [
+        "TextLink"
+      ],
+      "status": "include",
+      "eds": {
+        "block": "cards",
+        "variant": "value"
+      }
+    },
+    {
+      "id": "M12",
+      "name": "Dark footer",
+      "frame": "19443:23664",
+      "family": "home",
+      "anatomy": "dark photographic band; 4 link columns (10px caps heading + 11px links), newsletter field, social icons, 32px statement + text link, legal row",
+      "variants": [],
+      "components": [
+        "Icons",
+        "InverseTextLink",
+        "TextLink"
+      ],
+      "status": "include",
+      "eds": {
+        "block": "footer",
+        "variant": null
+      }
+    },
+    {
+      "id": "M13",
+      "name": "Utility bar + nav",
+      "frame": "19443:23272",
+      "family": "home",
+      "anatomy": "30px utility bar (rgb 229,225,222; 11px links left/center/right) over 64px nav: wordmark left, 12px centered links, icon actions right",
+      "variants": [],
+      "components": [
+        "InverseTextLink"
+      ],
+      "status": "include",
+      "eds": {
+        "block": "header",
+        "variant": null
+      }
+    },
+    {
+      "id": "M5b",
+      "variantOf": "M5",
+      "name": "Prose band",
+      "frame": "19443:23394",
+      "family": "home",
+      "anatomy": "page band, left-aligned stack, full measure: heading + media + body/lists (M5 anatomy without the centred greige statement composition)",
+      "variants": [],
+      "components": [
+        "Create with Kay Ticker 2",
+        "Underline Swipe CTA \u2013 Primary"
+      ],
+      "status": "include",
+      "eds": {
+        "block": null,
+        "variant": null
+      }
+    },
+    {
+      "id": "M6b",
+      "variantOf": "M6",
+      "name": "Editorial row (untinted)",
+      "frame": "19443:23410",
+      "family": "home",
+      "anatomy": "image beside heading/body/CTA on the page band",
+      "variants": [],
+      "components": [
+        "Create with Kay",
+        "Underline Swipe CTA \u2013 Primary"
+      ],
+      "status": "include",
+      "eds": {
+        "block": "columns",
+        "variant": "editorial"
+      }
+    },
+    {
+      "id": "M9b",
+      "variantOf": "M9",
+      "name": "Dark quote band",
+      "frame": "19443:23495",
+      "family": "home",
+      "anatomy": "full-bleed dark band, no photograph: large light text (quotation + attribution)",
+      "variants": [],
+      "components": [
+        "Underline Swipe CTA \u2013 Primary",
+        "Underline Swipe CTA \u2013 Secondary"
+      ],
+      "status": "include",
+      "eds": {
+        "block": "hero",
+        "variant": "banner"
+      }
+    },
+    {
+      "id": "M11b",
+      "variantOf": "M11",
+      "name": "Value-props tiles (untinted)",
+      "frame": "19443:23635",
+      "family": "home",
+      "anatomy": "label + body + link tiles on the page band",
+      "variants": [],
+      "components": [
+        "TextLink"
+      ],
+      "status": "include",
+      "eds": {
+        "block": "cards",
+        "variant": "value"
+      }
+    }
+  ],
+  "notesForReskin": "Sentence/title case headings, never uppercase except 10px eyebrows (letter-spaced caps); square corners everywhere; black solid CTAs on light bands, light (rgb 242,240,239) CTAs on photographs; edge-to-edge tiles with 1px gaps; 16px page gutter; warm off-white page band alternating with rgb(229,225,222) bands; red rgb(191,0,19) reserved for sale/emphasis words.",
+  "motifs": [
+    "full-bleed photography with text anchored bottom-left",
+    "tight negative letter-spacing on large Apercu headings (-6%)",
+    "edge-to-edge tile grids separated by hairline gaps",
+    "warm neutral bands (off-white / greige) with a single black footer"
+  ],
+  "design": {
+    "displayName": "Signet \u2014 Kay",
+    "description": "A warm-neutral luxury retail system: one grotesque family set large with tight tracking, full-bleed photography, square black CTAs.",
+    "colorNames": {
+      "rgb-242-240-239": "Porcelain",
+      "rgb-229-225-222": "Greige",
+      "rgb-0-0-0": "Black",
+      "rgb-40-40-40": "Ink",
+      "rgb-100-100-100": "Muted",
+      "rgb-191-0-19": "Kay Red",
+      "black-white-white": "White",
+      "rgb-216-211-204": "Stone"
+    },
+    "typography": {
+      "display": "hero and section headlines, 56px solid, -6% tracking",
+      "body": "running copy at 13px/19px",
+      "eyebrow": "10px letter-spaced caps above headlines"
+    },
+    "narrative": {
+      "northStar": "Quiet luxury: photography leads, type whispers.",
+      "overview": "Full-bleed images and warm neutral bands carry large, tightly-tracked headlines and small, precise body copy.",
+      "keyCharacteristics": [
+        "single grotesque family",
+        "square black CTAs",
+        "edge-to-edge tile grids",
+        "warm neutral band rhythm"
+      ],
+      "rules": [
+        "one or two CTAs per band",
+        "eyebrow above every section headline"
+      ],
+      "dos": [
+        "anchor hero text bottom-left over photography"
+      ],
+      "donts": [
+        "round corners",
+        "introduce saturated colors beyond Kay Red emphasis"
+      ]
+    }
+  }
+}

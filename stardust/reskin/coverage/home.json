@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "residue": [],
+  "tones": [
+    {
+      "slot": "s07",
+      "to": "tinted",
+      "why": "M5 centered statement band is greige (rgb 229,225,222) in the donor; the donor reserves black for the photo banner and footer, and maroon has no donor equivalent"
+    }
+  ],
+  "blocking": true
+}

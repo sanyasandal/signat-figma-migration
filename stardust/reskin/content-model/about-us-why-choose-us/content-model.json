@@ -1,0 +1,1311 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-11-05T06:23:11.467Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/why-choose-us",
+    "viewport": "1440x900",
+    "scope": "nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!",
+    "normalize": {
+      "source": "/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/about-us-why-choose-us.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes, any cookie/consent/gdpr-named element inside a fixed/sticky/high-z overlay)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N3",
+          "what": "open every .nsw-accordion panel (unhide its content region, aria-expanded=true)",
+          "why": "closed panel text is content; capture-only — the rendered accordion keeps the closed rest state"
+        }
+      ]
+    },
+    "settle": {
+      "firstLen": 5353,
+      "waitedMs": 1505,
+      "stable": true,
+      "settledLen": 5353,
+      "lateChars": 0
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "domcontentloaded",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Why choose us?",
+    "description": "At Fort Street High School, we are proud to be part of a strong public education system and welcome students from all backgrounds and cultures.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/about-us/why-choose-us",
+    "ogTags": {
+      "og:title": "Why choose us?",
+      "og:description": "At Fort Street High School, we are proud to be part of a strong public education system and welcome students from all backgrounds and cultures.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/about-us/why-choose-us",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_13e22eb310ba24353313798744bb79fccf486b57e.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_13e22eb310ba24353313798744bb79fccf486b57e.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Why choose us?",
+      "twitter:description": "At Fort Street High School, we are proud to be part of a strong public education system and welcome students from all backgrounds and cultures.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_13e22eb310ba24353313798744bb79fccf486b57e.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "nav.nsw-breadcrumbs",
+      "whole": true
+    },
+    {
+      "sel": "main",
+      "whole": false
+    },
+    {
+      "sel": "aside.nsw-layout__sidebar--desktop",
+      "whole": true
+    }
+  ],
+  "visibleTextNormalized": "HomeAbout usWhy choose us? Why choose us? Fort Street High School, the oldest government high school in Australia, is a progressive, academically selective co-educational high school with a long tradition of providing education for gifted and high potential students. The school is located on Gadigal and Wangal land in Petersham and has an enrolment of approximately 920 students. Our school community is culturally and liguistically diverse with 73% of students from language backgrounds other than English. We are proud to be part of a strong public education system and welcome students from all backgrounds and cultures. Our vision Since 1849, Fortians have been encouraged to be the makers of their own destiny, supported by our motto, faber est suae quisque fortunae. This motto underpins the values and expectations of the school. The school exit profile articulates the vision for student achievement. Successful Fortians: achieve academic and creative excellence develop skills and talents across a broad range of areas become reflective and independent learners responsible for their own growth develop emotional resilience, self-confidence and the ability to collaborate and communicate effectively develop a commitment to fairness and equity, and a recognition of their responsibility to the wider community and a strong sense of social justice The Fort Street community believes that every student and teacher should be challenged to learn and continually improve in a respectful, inclusive, engaging and high expectation environment. Take a virtual tour with our Student Leaders Skip Google Map At the Fort, students are prepared to excel and lead in a vast number of career paths and to become contributors to society with a highly developed social conscience. The school is known for developing leadership across an extensive range of areas and endeavours and prides itself in providing a wide range of extra-curricular programs in Sport, Science, Technology and Creative and Performing Arts which enhance the learning of our students. Over one third of all Fortians participate in the prestigious Instrumental Music Program; Fort Street also facilitates the largest Duke of Edinburgh program in all NSW state schools. Established as the Fort Street Model School in 1849, the school's unique place in NSW epitomises and embraces academic excellence, a liberal tradition in educational philosophy, individuality, diversity and school traditions. Fort Street is proudly supported by a diverse and engaged parent community and alumni. Ready to apply? Learn more about the application and enrolment process. Join our school community today! How to apply What families value about Fort Street Extensive range of student opportunities and activities At Fort Street High School, we offer a variety of programs in the classroom and across the school to help students build new skills, make friends and explore new interests. east Wellbeing at Fort Street is for all students A focus on wellbeing goes beyond the welfare needs of a few individual students and aims for all students to be healthy, happy, successful and productive individuals who are active and positive contributors to the school and society in which they live. east High quality education The Fort Street High School ethos is to engage Fortians in effective learning, developing teamwork and problem-solving to become critical, creative, ethical thinkers and leaders of the 21st century. east Easy to access Located in PETERSHAM, our school is easy to access by public transport, walking or driving. This makes every day at school more convenient for our families. east \"As a parent of both a graduate and a current student at Fort Street High School, I can confidently say the school deserves its excellent reputation. The co-educational environment has also been invaluable in teaching both my daughter and my son collaboration and communication skills, setting them up well for their university experience.\" Elizabeth— a parent of Fort Street High School Ready to apply? Learn more about the application and enrolment process. Join our school community today! How to apply Stories and highlights Hear about stories, wins and proud moments from our staff and students. east Our principal and staff Get to know our principal and staff, who work together to create a positive school culture. east Section navigation About us Enrol Facilities and resources HSC Results Our principal and staff Policies and reports School history and archives Stories and highlights Transition to high school Why choose us?",
+  "coverage": {
+    "bodyTextLen": 5353,
+    "scopeTextLen": 4580,
+    "ratio": 0.856,
+    "h1Text": "Why choose us?",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "nav",
+      "rootClass": "nsw-breadcrumbs js-breadcrumbs",
+      "visibleText": "HomeAbout usWhy choose us?",
+      "headings": [],
+      "paragraphs": [],
+      "listItems": [
+        "Home",
+        "About us",
+        "Why choose us?"
+      ],
+      "ctas": [
+        {
+          "text": "Home",
+          "href": "https://fortstreet-h.schools.nsw.gov.au",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/",
+          "classes": ""
+        },
+        {
+          "text": "About us",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+          "classes": "breadcrumb"
+        },
+        {
+          "text": "Why choose us?",
+          "href": "",
+          "absHref": "",
+          "classes": "current"
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Home",
+          "display": "inline-block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Home",
+              "display": "inline-block",
+              "href": "https://fortstreet-h.schools.nsw.gov.au",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "About us",
+          "display": "inline-block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "About us",
+              "display": "inline-block",
+              "href": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+              "classes": "breadcrumb",
+              "sep": ""
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Why choose us?",
+          "display": "inline-block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Why choose us?",
+              "display": "inline-block",
+              "href": "",
+              "absHref": "",
+              "classes": "current",
+              "sep": ""
+            }
+          ],
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Why choose us? Fort Street High School, the oldest government high school in Australia, is a progressive, academically selective co-educational high school with a long tradition of providing education for gifted and high potential students. The school is located on Gadigal and Wangal land in Petersham and has an enrolment of approximately 920 students. Our school community is culturally and liguistically diverse with 73% of students from language backgrounds other than English. We are proud to be part of a strong public education system and welcome students from all backgrounds and cultures.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Why choose us?"
+        }
+      ],
+      "paragraphs": [
+        "Fort Street High School, the oldest government high school in Australia, is a progressive, academically selective co-educational high school with a long tradition of providing education for gifted and high potential students. The school is located on Gadigal and Wangal land in Petersham and has an enrolment of approximately 920 students.",
+        "Our school community is culturally and liguistically diverse with 73% of students from language backgrounds other than English. We are proud to be part of a strong public education system and welcome students from all backgrounds and cultures."
+      ],
+      "listItems": [],
+      "ctas": [],
+      "iconLinks": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_13e22eb310ba24353313798744bb79fccf486b57e.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "w": 2000,
+          "h": 1333
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Why choose us?",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_13e22eb310ba24353313798744bb79fccf486b57e.jpg?width=2000&format=webply&optimize=medium",
+              "alt": "",
+              "rw": 768
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Fort Street High School, the oldest government high school in Australia, is a progressive, academically selective co-educational high school with a long tradition of providing education for gifted and high potential students. The school is located on Gadigal and Wangal land in Petersham and has an enrolment of approximately 920 students.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Fort Street High School, the oldest government high school in Australia, is a progressive, academically selective co-educational high school with a long tradition of providing education for gifted and high potential students. The school is located on Gadigal and Wangal land in Petersham and has an enrolment of approximately 920 students",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": ".",
+              "parentTag": "em",
+              "parentClass": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our school community is culturally and liguistically diverse with 73% of students from language backgrounds other than English. We are proud to be part of a strong public education system and welcome students from all backgrounds and cultures.",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "Our vision Since 1849, Fortians have been encouraged to be the makers of their own destiny, supported by our motto, faber est suae quisque fortunae. This motto underpins the values and expectations of the school. The school exit profile articulates the vision for student achievement. Successful Fortians: achieve academic and creative excellence develop skills and talents across a broad range of areas become reflective and independent learners responsible for their own growth develop emotional resilience, self-confidence and the ability to collaborate and communicate effectively develop a commitment to fairness and equity, and a recognition of their responsibility to the wider community and a strong sense of social justice The Fort Street community believes that every student and teacher should be challenged to learn and continually improve in a respectful, inclusive, engaging and high expectation environment.",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Our vision"
+        }
+      ],
+      "paragraphs": [
+        "Since 1849, Fortians have been encouraged to be the makers of their own destiny, supported by our motto, faber est suae quisque fortunae. This motto underpins the values and expectations of the school. The school exit profile articulates the vision for student achievement.",
+        "Successful Fortians:",
+        "The Fort Street community believes that every student and teacher should be challenged to learn and continually improve in a respectful, inclusive, engaging and high expectation environment."
+      ],
+      "listItems": [
+        "achieve academic and creative excellence",
+        "develop skills and talents across a broad range of areas",
+        "become reflective and independent learners responsible for their own growth",
+        "develop emotional resilience, self-confidence and the ability to collaborate and communicate effectively",
+        "develop a commitment to fairness and equity, and a recognition of their responsibility to the wider community and a strong sense of social justice"
+      ],
+      "ctas": [],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Our vision",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Since 1849, Fortians have been encouraged to be the makers of their own destiny, supported by our motto, faber est suae quisque fortunae. This motto underpins the values and expectations of the school. The school exit profile articulates the vision for student achievement.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Successful Fortians:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "achieve academic and creative excellence",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "develop skills and talents across a broad range of areas",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "become reflective and independent learners responsible for their own growth",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "develop emotional resilience, self-confidence and the ability to collaborate and communicate effectively",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "develop a commitment to fairness and equity, and a recognition of their responsibility to the wider community and a strong sense of social justice",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Fort Street community believes that every student and teacher should be challenged to learn and continually improve in a respectful, inclusive, engaging and high expectation environment.",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "dark",
+      "bg": "rgb(99, 0, 25)",
+      "toneEl": "main#main > div.section.nsw-section"
+    },
+    {
+      "slot": "s04",
+      "rootTag": "div",
+      "rootClass": "section nsw-section embed-container",
+      "visibleText": "Take a virtual tour with our Student Leaders Skip Google Map",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Take a virtual tour with our Student Leaders"
+        }
+      ],
+      "paragraphs": [],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Skip Google Map",
+          "href": "#after-map",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/why-choose-us#after-map",
+          "classes": "skip-map-link"
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Take a virtual tour with our Student Leaders",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "cta",
+          "text": "Skip Google Map",
+          "display": "block",
+          "href": "#after-map",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/why-choose-us#after-map",
+          "classes": "skip-map-link",
+          "srOnly": true,
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s05",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "At the Fort, students are prepared to excel and lead in a vast number of career paths and to become contributors to society with a highly developed social conscience. The school is known for developing leadership across an extensive range of areas and endeavours and prides itself in providing a wide range of extra-curricular programs in Sport, Science, Technology and Creative and Performing Arts which enhance the learning of our students. Over one third of all Fortians participate in the prestigious Instrumental Music Program; Fort Street also facilitates the largest Duke of Edinburgh program in all NSW state schools. Established as the Fort Street Model School in 1849, the school's unique place in NSW epitomises and embraces academic excellence, a liberal tradition in educational philosophy, individuality, diversity and school traditions. Fort Street is proudly supported by a diverse and engaged parent community and alumni.",
+      "headings": [],
+      "paragraphs": [
+        "At the Fort, students are prepared to excel and lead in a vast number of career paths and to become contributors to society with a highly developed social conscience. The school is known for developing leadership across an extensive range of areas and endeavours and prides itself in providing a wide range of extra-curricular programs in Sport, Science, Technology and Creative and Performing Arts which enhance the learning of our students. Over one third of all Fortians participate in the prestigious Instrumental Music Program; Fort Street also facilitates the largest Duke of Edinburgh program in all NSW state schools.",
+        "Established as the Fort Street Model School in 1849, the school's unique place in NSW epitomises and embraces academic excellence, a liberal tradition in educational philosophy, individuality, diversity and school traditions. Fort Street is proudly supported by a diverse and engaged parent community and alumni."
+      ],
+      "listItems": [],
+      "ctas": [],
+      "iconLinks": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_12c6cd7db4a7e656f8deb88d958fd0ffe258b500b.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "Ms Juliette McMurray, Principal with students",
+          "w": 2000,
+          "h": 1540
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "paragraph",
+          "text": "At the Fort, students are prepared to excel and lead in a vast number of career paths and to become contributors to society with a highly developed social conscience. The school is known for developing leadership across an extensive range of areas and endeavours and prides itself in providing a wide range of extra-curricular programs in Sport, Science, Technology and Creative and Performing Arts which enhance the learning of our students. Over one third of all Fortians participate in the prestigious Instrumental Music Program; Fort Street also facilitates the largest Duke of Edinburgh program in all NSW state schools.",
+          "display": "block",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Established as the Fort Street Model School in 1849, the school's unique place in NSW epitomises and embraces academic excellence, a liberal tradition in educational philosophy, individuality, diversity and school traditions. Fort Street is proudly supported by a diverse and engaged parent community and alumni.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_12c6cd7db4a7e656f8deb88d958fd0ffe258b500b.jpg?width=2000&format=webply&optimize=medium",
+              "alt": "Ms Juliette McMurray, Principal with students",
+              "rw": 768
+            }
+          ],
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s06",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--off-white",
+      "visibleText": "Ready to apply? Learn more about the application and enrolment process. Join our school community today! How to apply",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Ready to apply?"
+        }
+      ],
+      "paragraphs": [
+        "Learn more about the application and enrolment process. Join our school community today!",
+        "How to apply"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "How to apply",
+          "href": "/about-us/enrol",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/enrol",
+          "classes": "button"
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Ready to apply?",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Learn more about the application and enrolment process. Join our school community today!",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "How to apply",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "How to apply",
+              "display": "inline-block",
+              "href": "/about-us/enrol",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/enrol",
+              "classes": "button",
+              "buttonLike": true,
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "tinted",
+      "bg": "rgb(242, 242, 242)",
+      "toneEl": "main#main > div.section.nsw-section"
+    },
+    {
+      "slot": "s07",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "What families value about Fort Street",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "What families value about Fort Street"
+        }
+      ],
+      "paragraphs": [],
+      "listItems": [],
+      "ctas": [],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "What families value about Fort Street",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s08",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Extensive range of student opportunities and activities At Fort Street High School, we offer a variety of programs in the classroom and across the school to help students build new skills, make friends and explore new interests. east Wellbeing at Fort Street is for all students A focus on wellbeing goes beyond the welfare needs of a few individual students and aims for all students to be healthy, happy, successful and productive individuals who are active and positive contributors to the school and society in which they live. east High quality education The Fort Street High School ethos is to engage Fortians in effective learning, developing teamwork and problem-solving to become critical, creative, ethical thinkers and leaders of the 21st century. east Easy to access Located in PETERSHAM, our school is easy to access by public transport, walking or driving. This makes every day at school more convenient for our families. east",
+      "headings": [],
+      "paragraphs": [
+        "At Fort Street High School, we offer a variety of programs in the classroom and across the school to help students build new skills, make friends and explore new interests.",
+        "A focus on wellbeing goes beyond the welfare needs of a few individual students and aims for all students to be healthy, happy, successful and productive individuals who are active and positive contributors to the school and society in which they live.",
+        "The Fort Street High School ethos is to engage Fortians in effective learning, developing teamwork and problem-solving to become critical, creative, ethical thinkers and leaders of the 21st century.",
+        "Located in PETERSHAM, our school is easy to access by public transport, walking or driving. This makes every day at school more convenient for our families."
+      ],
+      "listItems": [
+        "Extensive range of student opportunities and activities At Fort Street High School, we offer a variety of programs in the classroom and across the school to help students build new skills, make friends and explore new interests. east",
+        "Wellbeing at Fort Street is for all students A focus on wellbeing goes beyond the welfare needs of a few individual students and aims for all students to be healthy, happy, successful and productive individuals who are active and positive contributors to the school and society in which they live. east",
+        "High quality education The Fort Street High School ethos is to engage Fortians in effective learning, developing teamwork and problem-solving to become critical, creative, ethical thinkers and leaders of the 21st century. east",
+        "Easy to access Located in PETERSHAM, our school is easy to access by public transport, walking or driving. This makes every day at school more convenient for our families. east"
+      ],
+      "ctas": [
+        {
+          "text": "Extensive range of student opportunities and activities",
+          "href": "/school-life/student-opportunities-and-activities",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities",
+          "classes": ""
+        },
+        {
+          "text": "Wellbeing at Fort Street is for all students",
+          "href": "/learning-and-support/wellbeing",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/wellbeing",
+          "classes": ""
+        },
+        {
+          "text": "High quality education",
+          "href": "/learning-and-support/learning",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/learning",
+          "classes": ""
+        },
+        {
+          "text": "Easy to access",
+          "href": "/school-life/travel-to-school",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_167e8f824a83aca35c48598b13f24e870e92868fc.jpg?width=750&format=jpg&optimize=medium",
+          "alt": "students",
+          "w": 0,
+          "h": 0
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_15636a0c76544a40b07cf08bb886e5acaa80d387d.jpg?width=750&format=webply&optimize=medium",
+          "alt": "students",
+          "w": 500,
+          "h": 300
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_1c9f7867e2df4ed6af3fe3bd3c1d6b437a72488f8.jpg?width=750&format=jpg&optimize=medium",
+          "alt": "students",
+          "w": 0,
+          "h": 0
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_16823c7d5cce1ab051bb5f032f4b98684c9b60c13.jpg?width=750&format=jpg&optimize=medium",
+          "alt": "students",
+          "w": 0,
+          "h": 0
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Extensive range of student opportunities and activities At Fort Street High School, we offer a variety of programs in the classroom and across the school to help students build new skills, make friends and explore new interests. east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_167e8f824a83aca35c48598b13f24e870e92868fc.jpg?width=750&format=jpg&optimize=medium",
+              "alt": "students",
+              "rw": 368,
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Extensive range of student opportunities and activities",
+              "display": "inline",
+              "href": "/school-life/student-opportunities-and-activities",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "At Fort Street High School, we offer a variety of programs in the classroom and across the school to help students build new skills, make friends and explore new interests.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Wellbeing at Fort Street is for all students A focus on wellbeing goes beyond the welfare needs of a few individual students and aims for all students to be healthy, happy, successful and productive individuals who are active and positive contributors to the school and society in which they live. east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_15636a0c76544a40b07cf08bb886e5acaa80d387d.jpg?width=750&format=webply&optimize=medium",
+              "alt": "students",
+              "rw": 368,
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Wellbeing at Fort Street is for all students",
+              "display": "inline",
+              "href": "/learning-and-support/wellbeing",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/wellbeing",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "A focus on wellbeing goes beyond the welfare needs of a few individual students and aims for all students to be healthy, happy, successful and productive individuals who are active and positive contributors to the school and society in which they live.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "High quality education The Fort Street High School ethos is to engage Fortians in effective learning, developing teamwork and problem-solving to become critical, creative, ethical thinkers and leaders of the 21st century. east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_1c9f7867e2df4ed6af3fe3bd3c1d6b437a72488f8.jpg?width=750&format=jpg&optimize=medium",
+              "alt": "students",
+              "rw": 368,
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "High quality education",
+              "display": "inline",
+              "href": "/learning-and-support/learning",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/learning",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "The Fort Street High School ethos is to engage Fortians in effective learning, developing teamwork and problem-solving to become critical, creative, ethical thinkers and leaders of the 21st century.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Easy to access Located in PETERSHAM, our school is easy to access by public transport, walking or driving. This makes every day at school more convenient for our families. east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_16823c7d5cce1ab051bb5f032f4b98684c9b60c13.jpg?width=750&format=jpg&optimize=medium",
+              "alt": "students",
+              "rw": 368,
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Easy to access",
+              "display": "inline",
+              "href": "/school-life/travel-to-school",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Located in PETERSHAM, our school is easy to access by public transport, walking or driving. This makes every day at school more convenient for our families.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s09",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--off-white",
+      "visibleText": "\"As a parent of both a graduate and a current student at Fort Street High School, I can confidently say the school deserves its excellent reputation. The co-educational environment has also been invaluable in teaching both my daughter and my son collaboration and communication skills, setting them up well for their university experience.\" Elizabeth— a parent of Fort Street High School",
+      "headings": [],
+      "paragraphs": [
+        "\"As a parent of both a graduate and a current student at Fort Street High School, I can confidently say the school deserves its excellent reputation.",
+        "The co-educational environment has also been invaluable in teaching both my daughter and my son collaboration and communication skills, setting them up well for their university experience.\"",
+        "Elizabeth— a parent of Fort Street High School"
+      ],
+      "listItems": [],
+      "ctas": [],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "paragraph",
+          "text": "\"As a parent of both a graduate and a current student at Fort Street High School, I can confidently say the school deserves its excellent reputation.",
+          "display": "block",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "The co-educational environment has also been invaluable in teaching both my daughter and my son collaboration and communication skills, setting them up well for their university experience.\"",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Elizabeth— a parent of Fort Street High School",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "tinted",
+      "bg": "rgb(242, 242, 242)",
+      "toneEl": "main#main > div.section.nsw-section"
+    },
+    {
+      "slot": "s10",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "Ready to apply? Learn more about the application and enrolment process. Join our school community today! How to apply",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Ready to apply?"
+        }
+      ],
+      "paragraphs": [
+        "Learn more about the application and enrolment process. Join our school community today!",
+        "How to apply"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "How to apply",
+          "href": "/about-us/enrol",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/enrol",
+          "classes": "button"
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Ready to apply?",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Learn more about the application and enrolment process. Join our school community today!",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "How to apply",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "How to apply",
+              "display": "inline-block",
+              "href": "/about-us/enrol",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/enrol",
+              "classes": "button",
+              "buttonLike": true,
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "dark",
+      "bg": "rgb(99, 0, 25)",
+      "toneEl": "main#main > div.section.nsw-section"
+    },
+    {
+      "slot": "s11",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Stories and highlights Hear about stories, wins and proud moments from our staff and students. east Our principal and staff Get to know our principal and staff, who work together to create a positive school culture. east",
+      "headings": [],
+      "paragraphs": [
+        "Hear about stories, wins and proud moments from our staff and students.",
+        "Get to know our principal and staff, who work together to create a positive school culture."
+      ],
+      "listItems": [
+        "Stories and highlights Hear about stories, wins and proud moments from our staff and students. east",
+        "Our principal and staff Get to know our principal and staff, who work together to create a positive school culture. east"
+      ],
+      "ctas": [
+        {
+          "text": "Stories and highlights",
+          "href": "/about-us/stories-and-highlights",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/stories-and-highlights",
+          "classes": ""
+        },
+        {
+          "text": "Our principal and staff",
+          "href": "/about-us/our-principal-and-staff",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Stories and highlights Hear about stories, wins and proud moments from our staff and students. east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Stories and highlights",
+              "display": "inline",
+              "href": "/about-us/stories-and-highlights",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/stories-and-highlights",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hear about stories, wins and proud moments from our staff and students.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Our principal and staff Get to know our principal and staff, who work together to create a positive school culture. east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Our principal and staff",
+              "display": "inline",
+              "href": "/about-us/our-principal-and-staff",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Get to know our principal and staff, who work together to create a positive school culture.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s12",
+      "rootTag": "aside",
+      "rootClass": "nsw-layout__sidebar nsw-layout__sidebar--desktop sidebar-wrapper",
+      "visibleText": "Section navigation About us Enrol Facilities and resources HSC Results Our principal and staff Policies and reports School history and archives Stories and highlights Transition to high school Why choose us?",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Section navigation"
+        }
+      ],
+      "paragraphs": [],
+      "listItems": [
+        "Enrol",
+        "Facilities and resources",
+        "HSC Results",
+        "Our principal and staff",
+        "Policies and reports",
+        "School history and archives",
+        "Stories and highlights",
+        "Transition to high school",
+        "Why choose us?"
+      ],
+      "ctas": [
+        {
+          "text": "About us",
+          "href": "/about-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+          "classes": ""
+        },
+        {
+          "text": "Enrol",
+          "href": "/about-us/enrol",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/enrol",
+          "classes": ""
+        },
+        {
+          "text": "Facilities and resources",
+          "href": "/about-us/facilities-and-resources",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources",
+          "classes": ""
+        },
+        {
+          "text": "HSC Results",
+          "href": "/about-us/hsc-results",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/hsc-results",
+          "classes": ""
+        },
+        {
+          "text": "Our principal and staff",
+          "href": "/about-us/our-principal-and-staff",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff",
+          "classes": ""
+        },
+        {
+          "text": "Policies and reports",
+          "href": "/about-us/policies-and-reports",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports",
+          "classes": ""
+        },
+        {
+          "text": "School history and archives",
+          "href": "/about-us/school-history-and-archives",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives",
+          "classes": ""
+        },
+        {
+          "text": "Stories and highlights",
+          "href": "/about-us/stories-and-highlights",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/stories-and-highlights",
+          "classes": ""
+        },
+        {
+          "text": "Transition to high school",
+          "href": "/about-us/transition-to-high-school",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/transition-to-high-school",
+          "classes": ""
+        },
+        {
+          "text": "Why choose us?",
+          "href": "/about-us/why-choose-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/why-choose-us",
+          "classes": "current"
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Section navigation",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "cta",
+          "text": "About us",
+          "display": "flex",
+          "href": "/about-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+          "classes": "",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Enrol",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Enrol",
+              "display": "block",
+              "href": "/about-us/enrol",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/enrol",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Facilities and resources",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Facilities and resources",
+              "display": "block",
+              "href": "/about-us/facilities-and-resources",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "HSC Results",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "HSC Results",
+              "display": "block",
+              "href": "/about-us/hsc-results",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/hsc-results",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Our principal and staff",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Our principal and staff",
+              "display": "block",
+              "href": "/about-us/our-principal-and-staff",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Policies and reports",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Policies and reports",
+              "display": "block",
+              "href": "/about-us/policies-and-reports",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "School history and archives",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "School history and archives",
+              "display": "block",
+              "href": "/about-us/school-history-and-archives",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Stories and highlights",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Stories and highlights",
+              "display": "block",
+              "href": "/about-us/stories-and-highlights",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/stories-and-highlights",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Transition to high school",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Transition to high school",
+              "display": "block",
+              "href": "/about-us/transition-to-high-school",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/transition-to-high-school",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Why choose us?",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Why choose us?",
+              "display": "block",
+              "href": "/about-us/why-choose-us",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/why-choose-us",
+              "classes": "current",
+              "buttonLike": true,
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    }
+  ],
+  "residue": [
+    {
+      "sel": "header.header-wrapper",
+      "kind": "chrome",
+      "textLen": 275,
+      "lines": [
+        "Skip to navigation",
+        "Skip to content",
+        "NSW Government",
+        "Fort Street High School",
+        "Faber est suae quisque fortunae",
+        "search",
+        "Show",
+        "Search",
+        "About us",
+        "keyboard_arrow_right",
+        "School life",
+        "keyboard_arrow_right",
+        "Learning and support",
+        "keyboard_arrow_right",
+        "Our community",
+        "keyboard_arrow_right",
+        "Contact us"
+      ],
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 172
+      }
+    },
+    {
+      "sel": "footer.footer-wrapper",
+      "kind": "chrome",
+      "textLen": 496,
+      "lines": [
+        "Fort Street High School",
+        "General enquiries",
+        "fortstreet-h.school@det.nsw.edu.au",
+        "8585 1600",
+        "620 PARRAMATTA ROAD, NSW 2049 PETERSHAM",
+        "Follow us",
+        "We recognise the Ongoing Custodians of the lands and waterways where we work and live. We pay respect to Elders past and present as ongoing teachers of knowledge, songlines and stories. We strive to ensure every Aboriginal and/or Torres Strait Islander learner in NSW achieves their potential through education.",
+        "Your feedback",
+        "Policy library",
+        "Information access"
+      ],
+      "rect": {
+        "x": 0,
+        "y": 5781,
+        "w": 1440,
+        "h": 509
+      }
+    }
+  ]
+}

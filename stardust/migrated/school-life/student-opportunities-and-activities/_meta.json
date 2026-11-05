@@ -1,0 +1,62 @@
+{
+  "slug": "school-life-student-opportunities-and-activities",
+  "type": "content",
+  "renderBranch": "A'",
+  "template": "learning-and-support-learning",
+  "modules": [
+    "M3",
+    "M5b",
+    "M5",
+    "M9b",
+    "M11b"
+  ],
+  "slotsFilled": [
+    "s01",
+    "s02",
+    "s03",
+    "s04",
+    "s05",
+    "s06",
+    "s07",
+    "s08"
+  ],
+  "canonShas": {
+    "header": "1e8e0c3eebea",
+    "footer": "a8b6d4b37731",
+    "css": "5fe9e7ffc80e"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Student opportunities and activities",
+    "description": "At Fort Street High School, we offer a variety of co-curricular (extra-curricular) programs and activities. They help students build new skills, make friends and explore new interests.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Student opportunities and activities",
+    "description": "At Fort Street High School, we offer a variety of co-curricular (extra-curricular) programs and activities. They help students build new skills, make friends and explore new interests.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities"
+  },
+  "migratedAt": "2026-11-05T06:33:01Z",
+  "designMdSha": "187c3f2f159f",
+  "designJsonSha": "2d96d5b1c55f",
+  "sourceCurrentSha": "7a394c9979a7",
+  "sourceProposedSha": "a003269c6b10",
+  "fidelityTier": "sibling",
+  "archetypeSource": "learning-and-support-learning",
+  "archetypeSha": "0925840f97e7",
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 6,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "school-life/student-opportunities-and-activities/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "school-life/student-opportunities-and-activities/_meta.json",
+  "driverVersion": "1"
+}

@@ -1,0 +1,2333 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-11-05T06:23:50.690Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters",
+    "viewport": "1440x900",
+    "scope": "nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!",
+    "normalize": {
+      "source": "/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/school-life-newsletters.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes, any cookie/consent/gdpr-named element inside a fixed/sticky/high-z overlay)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N3",
+          "what": "open every .nsw-accordion panel (unhide its content region, aria-expanded=true)",
+          "why": "closed panel text is content; capture-only — the rendered accordion keeps the closed rest state"
+        }
+      ]
+    },
+    "settle": {
+      "firstLen": 3303,
+      "waitedMs": 1506,
+      "stable": true,
+      "settledLen": 3303,
+      "lateChars": 0
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "domcontentloaded",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Newsletters",
+    "description": "At Fort Street High School, our school newsletter helps you stay connected with our school community. We use them to share our latest events, achievements and important updates.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters",
+    "ogTags": {
+      "og:title": "Newsletters",
+      "og:description": "At Fort Street High School, our school newsletter helps you stay connected with our school community. We use them to share our latest events, achievements and important updates.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters",
+      "og:image": "about:error",
+      "og:image:secure_url": "about:error"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Newsletters",
+      "twitter:description": "At Fort Street High School, our school newsletter helps you stay connected with our school community. We use them to share our latest events, achievements and important updates.",
+      "twitter:image": "about:error"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "nav.nsw-breadcrumbs",
+      "whole": true
+    },
+    {
+      "sel": "main",
+      "whole": false
+    },
+    {
+      "sel": "aside.nsw-layout__sidebar--desktop",
+      "whole": true
+    }
+  ],
+  "visibleTextNormalized": "HomeSchool lifeNewsletters Newsletters Mercurius is the school newsletter and is published fortnightly. Mercurius contains news and information about happenings in the Fort Street Community as well as important details about school activities and upcoming events. Contributions and feedback are most welcome. Please contact us at: fortstreet-h.school@det.nsw.edu.au (opens in new window) Latest newsletter Our school newsletter helps you stay connected with our school community. We use them to share our latest events, achievements and important updates. Mercurius Issue 9 - 25 September 2026 (opens in new window) Previous newsletters Term 3 newsletters 2026 keyboard_arrow_down Mercurius Issue 8 - 28 August 2026 (opens in new window) Mercurius Issue 7 - 7 August 2026 (opens in new window) Term 2 newsletters 2026 keyboard_arrow_down Mercurius Issue 4 - 15 May 2026 (opens in new window) Mercurius Issue 5 - 9 June 2026 (opens in new window) Mercurius Issue 6 - 30 June 2026 (opens in new window) Term 1 newsletters 2026 keyboard_arrow_down Mercurius Issue 1 - 23 February 202 (opens in new window) 6 Mercurius Issue 2 - 23 March 2026 (opens in new window) Mercurius Issue 3- 2 April 2026 (opens in new window) Term 4 newsletters 2025 keyboard_arrow_down Mercurius Issue 11 - 28 November 2025 (opens in new window) Mercurius Issue 10 - 12 November 2025 (opens in new window) Mercurius Issue 9 - 26 September 2025 (opens in new window) Term 3 newsletters 2025 keyboard_arrow_down Mercurius Issue 8 - 5 September 2025 (opens in new window) Mercurius Issue 7 - 15 August 2025 (opens in new window) Term 2 newsletters 2025 keyboard_arrow_down Mercurius Issue 6 - 4 July 2025 (opens in new window) Mercurius Issue 5 - 10 June 2025 (opens in new window) Mercurius Issue 4 - 16 May 2025 (opens in new window) Term 1 newsletters 2025 keyboard_arrow_down Mercurius Issue 3 - 28 March 2025 (opens in new window) Mercurius Issue 2 - 5 March 2025 (opens in new window) Mercurius Issue 1 - 14 February 2025 (opens in new window) Have something to share? We love featuring stories, achievements and updates from our school community. Contact us if you have something to include in an upcoming newsletter. Contact us Stay connected on our socials Visit our Facebook for more photos, videos, events and updates from our school. Today we celebrate World Teachers Day! 🍎 👩‍🏫 🏫 ⭐️ We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026 east We looking forward to welcome everyone back on Tuesday. east The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/ east Stories and highlights Hear about stories, wins and proud moments from our staff and students. east Events Find out about school events, celebrations and what’s coming up. east Section navigation School life Bell times Bring your own device Canteen Events Forms House and Merit System Lockers and lost property Newsletters Parent portal Stationery Student opportunities and activities Travel to school Uniform",
+  "coverage": {
+    "bodyTextLen": 4378,
+    "scopeTextLen": 3605,
+    "ratio": 0.823,
+    "h1Text": "Newsletters",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "nav",
+      "rootClass": "nsw-breadcrumbs js-breadcrumbs",
+      "visibleText": "HomeSchool lifeNewsletters",
+      "headings": [],
+      "paragraphs": [],
+      "listItems": [
+        "Home",
+        "School life",
+        "Newsletters"
+      ],
+      "ctas": [
+        {
+          "text": "Home",
+          "href": "https://fortstreet-h.schools.nsw.gov.au",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/",
+          "classes": ""
+        },
+        {
+          "text": "School life",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/school-life",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life",
+          "classes": "breadcrumb"
+        },
+        {
+          "text": "Newsletters",
+          "href": "",
+          "absHref": "",
+          "classes": "current"
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Home",
+          "display": "inline-block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Home",
+              "display": "inline-block",
+              "href": "https://fortstreet-h.schools.nsw.gov.au",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "School life",
+          "display": "inline-block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "School life",
+              "display": "inline-block",
+              "href": "https://fortstreet-h.schools.nsw.gov.au/school-life",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life",
+              "classes": "breadcrumb",
+              "sep": ""
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Newsletters",
+          "display": "inline-block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Newsletters",
+              "display": "inline-block",
+              "href": "",
+              "absHref": "",
+              "classes": "current",
+              "sep": ""
+            }
+          ],
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Newsletters Mercurius is the school newsletter and is published fortnightly. Mercurius contains news and information about happenings in the Fort Street Community as well as important details about school activities and upcoming events. Contributions and feedback are most welcome. Please contact us at: fortstreet-h.school@det.nsw.edu.au (opens in new window)",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Newsletters"
+        }
+      ],
+      "paragraphs": [
+        "Mercurius is the school newsletter and is published fortnightly. Mercurius contains news and information about happenings in the Fort Street Community as well as important details about school activities and upcoming events.",
+        "Contributions and feedback are most welcome.",
+        "Please contact us at: fortstreet-h.school@det.nsw.edu.au (opens in new window)"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "fortstreet-h.school@det.nsw.edu.au (opens in new window)",
+          "href": "mailto:fortstreet-h.school@det.nsw.edu.au",
+          "absHref": "mailto:fortstreet-h.school@det.nsw.edu.au",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Newsletters",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mercurius is the school newsletter and is published fortnightly. Mercurius contains news and information about happenings in the Fort Street Community as well as important details about school activities and upcoming events.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contributions and feedback are most welcome.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Please contact us at: fortstreet-h.school@det.nsw.edu.au (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Please contact us at:",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "fortstreet-h.school@det.nsw.edu.au (opens in new window)",
+              "display": "inline",
+              "href": "mailto:fortstreet-h.school@det.nsw.edu.au",
+              "absHref": "mailto:fortstreet-h.school@det.nsw.edu.au",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "fortstreet-h.school@det.nsw.edu.au",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "srOnly": true,
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--off-white columns-container",
+      "visibleText": "Latest newsletter Our school newsletter helps you stay connected with our school community. We use them to share our latest events, achievements and important updates. Mercurius Issue 9 - 25 September 2026 (opens in new window)",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Latest newsletter"
+        }
+      ],
+      "paragraphs": [
+        "Our school newsletter helps you stay connected with our school community. We use them to share our latest events, achievements and important updates.",
+        "Mercurius Issue 9 - 25 September 2026 (opens in new window)"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Mercurius Issue 9 - 25 September 2026 (opens in new window)",
+          "href": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-9-2026/",
+          "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-9-2026/",
+          "classes": "button"
+        }
+      ],
+      "iconLinks": [],
+      "images": [
+        {
+          "currentSrc": "about:error",
+          "alt": "",
+          "w": 0,
+          "h": 0
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Latest newsletter",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our school newsletter helps you stay connected with our school community. We use them to share our latest events, achievements and important updates.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mercurius Issue 9 - 25 September 2026 (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Mercurius Issue 9 - 25 September 2026 (opens in new window)",
+              "display": "inline-block",
+              "href": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-9-2026/",
+              "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-9-2026/",
+              "classes": "button",
+              "buttonLike": true,
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Mercurius Issue 9 - 25 September 2026",
+                  "parentTag": "a",
+                  "parentClass": "button",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "srOnly": true,
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "about:error",
+              "alt": "",
+              "rw": 0
+            }
+          ],
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "tinted",
+      "bg": "rgb(242, 242, 242)",
+      "toneEl": "main#main > div.section.nsw-section"
+    },
+    {
+      "slot": "s04",
+      "rootTag": "div",
+      "rootClass": "section nsw-section accordions-container",
+      "visibleText": "Previous newsletters Term 3 newsletters 2026 keyboard_arrow_down Mercurius Issue 8 - 28 August 2026 (opens in new window) Mercurius Issue 7 - 7 August 2026 (opens in new window) Term 2 newsletters 2026 keyboard_arrow_down Mercurius Issue 4 - 15 May 2026 (opens in new window) Mercurius Issue 5 - 9 June 2026 (opens in new window) Mercurius Issue 6 - 30 June 2026 (opens in new window) Term 1 newsletters 2026 keyboard_arrow_down Mercurius Issue 1 - 23 February 202 (opens in new window) 6 Mercurius Issue 2 - 23 March 2026 (opens in new window) Mercurius Issue 3- 2 April 2026 (opens in new window) Term 4 newsletters 2025 keyboard_arrow_down Mercurius Issue 11 - 28 November 2025 (opens in new window) Mercurius Issue 10 - 12 November 2025 (opens in new window) Mercurius Issue 9 - 26 September 2025 (opens in new window) Term 3 newsletters 2025 keyboard_arrow_down Mercurius Issue 8 - 5 September 2025 (opens in new window) Mercurius Issue 7 - 15 August 2025 (opens in new window) Term 2 newsletters 2025 keyboard_arrow_down Mercurius Issue 6 - 4 July 2025 (opens in new window) Mercurius Issue 5 - 10 June 2025 (opens in new window) Mercurius Issue 4 - 16 May 2025 (opens in new window) Term 1 newsletters 2025 keyboard_arrow_down Mercurius Issue 3 - 28 March 2025 (opens in new window) Mercurius Issue 2 - 5 March 2025 (opens in new window) Mercurius Issue 1 - 14 February 2025 (opens in new window)",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Previous newsletters"
+        }
+      ],
+      "paragraphs": [
+        "Mercurius Issue 8 - 28 August 2026 (opens in new window)",
+        "Mercurius Issue 7 - 7 August 2026 (opens in new window)",
+        "Mercurius Issue 4 - 15 May 2026 (opens in new window)",
+        "Mercurius Issue 5 - 9 June 2026 (opens in new window)",
+        "Mercurius Issue 6 - 30 June 2026 (opens in new window)",
+        "Mercurius Issue 1 - 23 February 202 (opens in new window) 6",
+        "Mercurius Issue 2 - 23 March 2026 (opens in new window)",
+        "Mercurius Issue 3- 2 April 2026 (opens in new window)",
+        "Mercurius Issue 11 - 28 November 2025 (opens in new window)",
+        "Mercurius Issue 10 - 12 November 2025 (opens in new window) Mercurius Issue 9 - 26 September 2025 (opens in new window)",
+        "Mercurius Issue 8 - 5 September 2025 (opens in new window) Mercurius Issue 7 - 15 August 2025 (opens in new window)",
+        "Mercurius Issue 6 - 4 July 2025 (opens in new window) Mercurius Issue 5 - 10 June 2025 (opens in new window) Mercurius Issue 4 - 16 May 2025 (opens in new window)",
+        "Mercurius Issue 3 - 28 March 2025 (opens in new window) Mercurius Issue 2 - 5 March 2025 (opens in new window) Mercurius Issue 1 - 14 February 2025 (opens in new window)"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Mercurius Issue 8 - 28 August 2026 (opens in new window)",
+          "href": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-8-2026/",
+          "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-8-2026/",
+          "classes": "button"
+        },
+        {
+          "text": "Mercurius Issue 7 - 7 August 2026 (opens in new window)",
+          "href": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-7-2026/",
+          "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-7-2026/",
+          "classes": "button"
+        },
+        {
+          "text": "Mercurius Issue 4 - 15 May 2026 (opens in new window)",
+          "href": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-4-2026/",
+          "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-4-2026/",
+          "classes": "button"
+        },
+        {
+          "text": "Mercurius Issue 5 - 9 June 2026 (opens in new window)",
+          "href": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-5-2026/",
+          "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-5-2026/",
+          "classes": "button"
+        },
+        {
+          "text": "Mercurius Issue 6 - 30 June 2026 (opens in new window)",
+          "href": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-6-2026/",
+          "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-6-2026/",
+          "classes": "button"
+        },
+        {
+          "text": "Mercurius Issue 1 - 23 February 202 (opens in new window)",
+          "href": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-1-2026/",
+          "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-1-2026/",
+          "classes": ""
+        },
+        {
+          "text": "Mercurius Issue 2 - 23 March 2026 (opens in new window)",
+          "href": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-2-2026/",
+          "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-2-2026/",
+          "classes": "button"
+        },
+        {
+          "text": "Mercurius Issue 3- 2 April 2026 (opens in new window)",
+          "href": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-3-2026/",
+          "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-3-2026/",
+          "classes": "button"
+        },
+        {
+          "text": "Mercurius Issue 11 - 28 November 2025 (opens in new window)",
+          "href": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-11-2025/",
+          "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-11-2025/",
+          "classes": "button"
+        },
+        {
+          "text": "Mercurius Issue 10 - 12 November 2025 (opens in new window)",
+          "href": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-10-2025/",
+          "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-10-2025/",
+          "classes": ""
+        },
+        {
+          "text": "Mercurius Issue 9 - 26 September 2025 (opens in new window)",
+          "href": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-9-2025/",
+          "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-9-2025/",
+          "classes": ""
+        },
+        {
+          "text": "Mercurius Issue 8 - 5 September 2025 (opens in new window)",
+          "href": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-8-2025/",
+          "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-8-2025/",
+          "classes": ""
+        },
+        {
+          "text": "Mercurius Issue 7 - 15 August 2025 (opens in new window)",
+          "href": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-7-2025/",
+          "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-7-2025/",
+          "classes": ""
+        },
+        {
+          "text": "Mercurius Issue 6 - 4 July 2025 (opens in new window)",
+          "href": "https://www.thebuzz.net.au/fortstreet/newsletter/__trashed/",
+          "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/__trashed/",
+          "classes": ""
+        },
+        {
+          "text": "Mercurius Issue 5 - 10 June 2025 (opens in new window)",
+          "href": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-5-june-2025/",
+          "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-5-june-2025/",
+          "classes": ""
+        },
+        {
+          "text": "Mercurius Issue 4 - 16 May 2025 (opens in new window)",
+          "href": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-4-may-2025/",
+          "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-4-may-2025/",
+          "classes": ""
+        },
+        {
+          "text": "Mercurius Issue 3 - 28 March 2025 (opens in new window)",
+          "href": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-3-march-2025/",
+          "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-3-march-2025/",
+          "classes": ""
+        },
+        {
+          "text": "Mercurius Issue 2 - 5 March 2025 (opens in new window)",
+          "href": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-2-2025/",
+          "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-2-2025/",
+          "classes": ""
+        },
+        {
+          "text": "Mercurius Issue 1 - 14 February 2025 (opens in new window)",
+          "href": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-1-2025/",
+          "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-1-2025/",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [
+        {
+          "text": "Term 3 newsletters 2026",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        },
+        {
+          "text": "keyboard_arrow_down",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons"
+        },
+        {
+          "text": "Term 2 newsletters 2026",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        },
+        {
+          "text": "keyboard_arrow_down",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons"
+        },
+        {
+          "text": "Term 1 newsletters 2026",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        },
+        {
+          "text": "keyboard_arrow_down",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons"
+        },
+        {
+          "text": "Term 4 newsletters 2025",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        },
+        {
+          "text": "keyboard_arrow_down",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons"
+        },
+        {
+          "text": "Term 3 newsletters 2025",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        },
+        {
+          "text": "keyboard_arrow_down",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons"
+        },
+        {
+          "text": "Term 2 newsletters 2025",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        },
+        {
+          "text": "keyboard_arrow_down",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons"
+        },
+        {
+          "text": "Term 1 newsletters 2025",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        },
+        {
+          "text": "keyboard_arrow_down",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons"
+        }
+      ],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Previous newsletters",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "text",
+          "text": "Term 3 newsletters 2026",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "toggle": "accordion-dcb21b7f-57a4-4a2e-8020-302bca135c1c",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "keyboard_arrow_down",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons",
+          "inButton": true,
+          "glyph": true,
+          "toggle": "accordion-dcb21b7f-57a4-4a2e-8020-302bca135c1c",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mercurius Issue 8 - 28 August 2026 (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Mercurius Issue 8 - 28 August 2026 (opens in new window)",
+              "display": "inline",
+              "href": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-8-2026/",
+              "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-8-2026/",
+              "classes": "button",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Mercurius Issue 8 - 28 August 2026",
+                  "parentTag": "a",
+                  "parentClass": "button",
+                  "panels": [
+                    "accordion-dcb21b7f-57a4-4a2e-8020-302bca135c1c"
+                  ],
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "srOnly": true,
+                  "panels": [
+                    "accordion-dcb21b7f-57a4-4a2e-8020-302bca135c1c"
+                  ],
+                  "sep": " "
+                }
+              ],
+              "panels": [
+                "accordion-dcb21b7f-57a4-4a2e-8020-302bca135c1c"
+              ],
+              "sep": ""
+            }
+          ],
+          "panels": [
+            "accordion-dcb21b7f-57a4-4a2e-8020-302bca135c1c"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mercurius Issue 7 - 7 August 2026 (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Mercurius Issue 7 - 7 August 2026 (opens in new window)",
+              "display": "inline",
+              "href": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-7-2026/",
+              "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-7-2026/",
+              "classes": "button",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Mercurius Issue 7 - 7 August 2026",
+                  "parentTag": "a",
+                  "parentClass": "button",
+                  "panels": [
+                    "accordion-dcb21b7f-57a4-4a2e-8020-302bca135c1c"
+                  ],
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "srOnly": true,
+                  "panels": [
+                    "accordion-dcb21b7f-57a4-4a2e-8020-302bca135c1c"
+                  ],
+                  "sep": " "
+                }
+              ],
+              "panels": [
+                "accordion-dcb21b7f-57a4-4a2e-8020-302bca135c1c"
+              ],
+              "sep": ""
+            }
+          ],
+          "panels": [
+            "accordion-dcb21b7f-57a4-4a2e-8020-302bca135c1c"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Term 2 newsletters 2026",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "toggle": "accordion-aa9c763c-6e46-4662-b926-6d7044663a7e",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "keyboard_arrow_down",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons",
+          "inButton": true,
+          "glyph": true,
+          "toggle": "accordion-aa9c763c-6e46-4662-b926-6d7044663a7e",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mercurius Issue 4 - 15 May 2026 (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Mercurius Issue 4 - 15 May 2026 (opens in new window)",
+              "display": "inline",
+              "href": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-4-2026/",
+              "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-4-2026/",
+              "classes": "button",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Mercurius Issue 4 - 15 May 2026",
+                  "parentTag": "a",
+                  "parentClass": "button",
+                  "panels": [
+                    "accordion-aa9c763c-6e46-4662-b926-6d7044663a7e"
+                  ],
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "srOnly": true,
+                  "panels": [
+                    "accordion-aa9c763c-6e46-4662-b926-6d7044663a7e"
+                  ],
+                  "sep": " "
+                }
+              ],
+              "panels": [
+                "accordion-aa9c763c-6e46-4662-b926-6d7044663a7e"
+              ],
+              "sep": ""
+            }
+          ],
+          "panels": [
+            "accordion-aa9c763c-6e46-4662-b926-6d7044663a7e"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mercurius Issue 5 - 9 June 2026 (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Mercurius Issue 5 - 9 June 2026 (opens in new window)",
+              "display": "inline",
+              "href": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-5-2026/",
+              "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-5-2026/",
+              "classes": "button",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Mercurius Issue 5 - 9 June 2026",
+                  "parentTag": "a",
+                  "parentClass": "button",
+                  "panels": [
+                    "accordion-aa9c763c-6e46-4662-b926-6d7044663a7e"
+                  ],
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "srOnly": true,
+                  "panels": [
+                    "accordion-aa9c763c-6e46-4662-b926-6d7044663a7e"
+                  ],
+                  "sep": " "
+                }
+              ],
+              "panels": [
+                "accordion-aa9c763c-6e46-4662-b926-6d7044663a7e"
+              ],
+              "sep": ""
+            }
+          ],
+          "panels": [
+            "accordion-aa9c763c-6e46-4662-b926-6d7044663a7e"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mercurius Issue 6 - 30 June 2026 (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Mercurius Issue 6 - 30 June 2026 (opens in new window)",
+              "display": "inline",
+              "href": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-6-2026/",
+              "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-6-2026/",
+              "classes": "button",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Mercurius Issue 6 - 30 June 2026",
+                  "parentTag": "a",
+                  "parentClass": "button",
+                  "panels": [
+                    "accordion-aa9c763c-6e46-4662-b926-6d7044663a7e"
+                  ],
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "srOnly": true,
+                  "panels": [
+                    "accordion-aa9c763c-6e46-4662-b926-6d7044663a7e"
+                  ],
+                  "sep": " "
+                }
+              ],
+              "panels": [
+                "accordion-aa9c763c-6e46-4662-b926-6d7044663a7e"
+              ],
+              "sep": ""
+            }
+          ],
+          "panels": [
+            "accordion-aa9c763c-6e46-4662-b926-6d7044663a7e"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Term 1 newsletters 2026",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "toggle": "accordion-fcdcc0f9-61e2-4956-b07b-25f6c37592f5",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "keyboard_arrow_down",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons",
+          "inButton": true,
+          "glyph": true,
+          "toggle": "accordion-fcdcc0f9-61e2-4956-b07b-25f6c37592f5",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mercurius Issue 1 - 23 February 202 (opens in new window) 6",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Mercurius Issue 1 - 23 February 202 (opens in new window)",
+              "display": "inline",
+              "href": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-1-2026/",
+              "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-1-2026/",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Mercurius Issue 1 - 23 February 202",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "panels": [
+                    "accordion-fcdcc0f9-61e2-4956-b07b-25f6c37592f5"
+                  ],
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "srOnly": true,
+                  "panels": [
+                    "accordion-fcdcc0f9-61e2-4956-b07b-25f6c37592f5"
+                  ],
+                  "sep": " "
+                }
+              ],
+              "panels": [
+                "accordion-fcdcc0f9-61e2-4956-b07b-25f6c37592f5"
+              ],
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "6",
+              "parentTag": "p",
+              "parentClass": "",
+              "panels": [
+                "accordion-fcdcc0f9-61e2-4956-b07b-25f6c37592f5"
+              ],
+              "sep": " "
+            }
+          ],
+          "panels": [
+            "accordion-fcdcc0f9-61e2-4956-b07b-25f6c37592f5"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mercurius Issue 2 - 23 March 2026 (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Mercurius Issue 2 - 23 March 2026 (opens in new window)",
+              "display": "inline",
+              "href": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-2-2026/",
+              "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-2-2026/",
+              "classes": "button",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Mercurius Issue 2 - 23 March 2026",
+                  "parentTag": "a",
+                  "parentClass": "button",
+                  "panels": [
+                    "accordion-fcdcc0f9-61e2-4956-b07b-25f6c37592f5"
+                  ],
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "srOnly": true,
+                  "panels": [
+                    "accordion-fcdcc0f9-61e2-4956-b07b-25f6c37592f5"
+                  ],
+                  "sep": " "
+                }
+              ],
+              "panels": [
+                "accordion-fcdcc0f9-61e2-4956-b07b-25f6c37592f5"
+              ],
+              "sep": ""
+            }
+          ],
+          "panels": [
+            "accordion-fcdcc0f9-61e2-4956-b07b-25f6c37592f5"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mercurius Issue 3- 2 April 2026 (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Mercurius Issue 3- 2 April 2026 (opens in new window)",
+              "display": "inline",
+              "href": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-3-2026/",
+              "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-3-2026/",
+              "classes": "button",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Mercurius Issue 3- 2 April 2026",
+                  "parentTag": "a",
+                  "parentClass": "button",
+                  "panels": [
+                    "accordion-fcdcc0f9-61e2-4956-b07b-25f6c37592f5"
+                  ],
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "srOnly": true,
+                  "panels": [
+                    "accordion-fcdcc0f9-61e2-4956-b07b-25f6c37592f5"
+                  ],
+                  "sep": " "
+                }
+              ],
+              "panels": [
+                "accordion-fcdcc0f9-61e2-4956-b07b-25f6c37592f5"
+              ],
+              "sep": ""
+            }
+          ],
+          "panels": [
+            "accordion-fcdcc0f9-61e2-4956-b07b-25f6c37592f5"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Term 4 newsletters 2025",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "toggle": "accordion-ff861f1a-973c-42ae-9d87-35325015f91d",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "keyboard_arrow_down",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons",
+          "inButton": true,
+          "glyph": true,
+          "toggle": "accordion-ff861f1a-973c-42ae-9d87-35325015f91d",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mercurius Issue 11 - 28 November 2025 (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Mercurius Issue 11 - 28 November 2025 (opens in new window)",
+              "display": "inline",
+              "href": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-11-2025/",
+              "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-11-2025/",
+              "classes": "button",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Mercurius Issue 11 - 28 November 2025",
+                  "parentTag": "a",
+                  "parentClass": "button",
+                  "panels": [
+                    "accordion-ff861f1a-973c-42ae-9d87-35325015f91d"
+                  ],
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "srOnly": true,
+                  "panels": [
+                    "accordion-ff861f1a-973c-42ae-9d87-35325015f91d"
+                  ],
+                  "sep": " "
+                }
+              ],
+              "panels": [
+                "accordion-ff861f1a-973c-42ae-9d87-35325015f91d"
+              ],
+              "sep": ""
+            }
+          ],
+          "panels": [
+            "accordion-ff861f1a-973c-42ae-9d87-35325015f91d"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mercurius Issue 10 - 12 November 2025 (opens in new window) Mercurius Issue 9 - 26 September 2025 (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Mercurius Issue 10 - 12 November 2025 (opens in new window)",
+              "display": "inline",
+              "href": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-10-2025/",
+              "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-10-2025/",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Mercurius Issue 10 - 12 November 2025",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "panels": [
+                    "accordion-ff861f1a-973c-42ae-9d87-35325015f91d"
+                  ],
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "srOnly": true,
+                  "panels": [
+                    "accordion-ff861f1a-973c-42ae-9d87-35325015f91d"
+                  ],
+                  "sep": " "
+                }
+              ],
+              "panels": [
+                "accordion-ff861f1a-973c-42ae-9d87-35325015f91d"
+              ],
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Mercurius Issue 9 - 26 September 2025 (opens in new window)",
+              "display": "inline",
+              "href": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-9-2025/",
+              "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-9-2025/",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Mercurius Issue 9 - 26 September 2025",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "panels": [
+                    "accordion-ff861f1a-973c-42ae-9d87-35325015f91d"
+                  ],
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "srOnly": true,
+                  "panels": [
+                    "accordion-ff861f1a-973c-42ae-9d87-35325015f91d"
+                  ],
+                  "sep": " "
+                }
+              ],
+              "panels": [
+                "accordion-ff861f1a-973c-42ae-9d87-35325015f91d"
+              ],
+              "sep": " "
+            }
+          ],
+          "panels": [
+            "accordion-ff861f1a-973c-42ae-9d87-35325015f91d"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Term 3 newsletters 2025",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "toggle": "accordion-4bfe92f0-c797-49be-885d-a011227a38ed",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "keyboard_arrow_down",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons",
+          "inButton": true,
+          "glyph": true,
+          "toggle": "accordion-4bfe92f0-c797-49be-885d-a011227a38ed",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mercurius Issue 8 - 5 September 2025 (opens in new window) Mercurius Issue 7 - 15 August 2025 (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Mercurius Issue 8 - 5 September 2025 (opens in new window)",
+              "display": "inline",
+              "href": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-8-2025/",
+              "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-8-2025/",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Mercurius Issue 8 - 5 September 2025",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "panels": [
+                    "accordion-4bfe92f0-c797-49be-885d-a011227a38ed"
+                  ],
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "srOnly": true,
+                  "panels": [
+                    "accordion-4bfe92f0-c797-49be-885d-a011227a38ed"
+                  ],
+                  "sep": " "
+                }
+              ],
+              "panels": [
+                "accordion-4bfe92f0-c797-49be-885d-a011227a38ed"
+              ],
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Mercurius Issue 7 - 15 August 2025 (opens in new window)",
+              "display": "inline",
+              "href": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-7-2025/",
+              "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-7-2025/",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Mercurius Issue 7 - 15 August 2025",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "panels": [
+                    "accordion-4bfe92f0-c797-49be-885d-a011227a38ed"
+                  ],
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "srOnly": true,
+                  "panels": [
+                    "accordion-4bfe92f0-c797-49be-885d-a011227a38ed"
+                  ],
+                  "sep": " "
+                }
+              ],
+              "panels": [
+                "accordion-4bfe92f0-c797-49be-885d-a011227a38ed"
+              ],
+              "sep": " "
+            }
+          ],
+          "panels": [
+            "accordion-4bfe92f0-c797-49be-885d-a011227a38ed"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Term 2 newsletters 2025",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "toggle": "accordion-d369dacb-b43c-46c0-8f1d-addc410deab5",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "keyboard_arrow_down",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons",
+          "inButton": true,
+          "glyph": true,
+          "toggle": "accordion-d369dacb-b43c-46c0-8f1d-addc410deab5",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mercurius Issue 6 - 4 July 2025 (opens in new window) Mercurius Issue 5 - 10 June 2025 (opens in new window) Mercurius Issue 4 - 16 May 2025 (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Mercurius Issue 6 - 4 July 2025 (opens in new window)",
+              "display": "inline",
+              "href": "https://www.thebuzz.net.au/fortstreet/newsletter/__trashed/",
+              "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/__trashed/",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Mercurius Issue 6 - 4 July 2025",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "panels": [
+                    "accordion-d369dacb-b43c-46c0-8f1d-addc410deab5"
+                  ],
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "srOnly": true,
+                  "panels": [
+                    "accordion-d369dacb-b43c-46c0-8f1d-addc410deab5"
+                  ],
+                  "sep": " "
+                }
+              ],
+              "panels": [
+                "accordion-d369dacb-b43c-46c0-8f1d-addc410deab5"
+              ],
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Mercurius Issue 5 - 10 June 2025 (opens in new window)",
+              "display": "inline",
+              "href": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-5-june-2025/",
+              "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-5-june-2025/",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Mercurius Issue 5 - 10 June 2025",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "panels": [
+                    "accordion-d369dacb-b43c-46c0-8f1d-addc410deab5"
+                  ],
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "srOnly": true,
+                  "panels": [
+                    "accordion-d369dacb-b43c-46c0-8f1d-addc410deab5"
+                  ],
+                  "sep": " "
+                }
+              ],
+              "panels": [
+                "accordion-d369dacb-b43c-46c0-8f1d-addc410deab5"
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "cta",
+              "text": "Mercurius Issue 4 - 16 May 2025 (opens in new window)",
+              "display": "inline",
+              "href": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-4-may-2025/",
+              "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-4-may-2025/",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Mercurius Issue 4 - 16 May 2025",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "panels": [
+                    "accordion-d369dacb-b43c-46c0-8f1d-addc410deab5"
+                  ],
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "srOnly": true,
+                  "panels": [
+                    "accordion-d369dacb-b43c-46c0-8f1d-addc410deab5"
+                  ],
+                  "sep": " "
+                }
+              ],
+              "panels": [
+                "accordion-d369dacb-b43c-46c0-8f1d-addc410deab5"
+              ],
+              "sep": " "
+            }
+          ],
+          "panels": [
+            "accordion-d369dacb-b43c-46c0-8f1d-addc410deab5"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Term 1 newsletters 2025",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "toggle": "accordion-ece69f20-7f64-47d2-b320-307e24dbf8b8",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "keyboard_arrow_down",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons",
+          "inButton": true,
+          "glyph": true,
+          "toggle": "accordion-ece69f20-7f64-47d2-b320-307e24dbf8b8",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mercurius Issue 3 - 28 March 2025 (opens in new window) Mercurius Issue 2 - 5 March 2025 (opens in new window) Mercurius Issue 1 - 14 February 2025 (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Mercurius Issue 3 - 28 March 2025 (opens in new window)",
+              "display": "inline",
+              "href": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-3-march-2025/",
+              "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-3-march-2025/",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Mercurius Issue 3 - 28 March 2025",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "panels": [
+                    "accordion-ece69f20-7f64-47d2-b320-307e24dbf8b8"
+                  ],
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "srOnly": true,
+                  "panels": [
+                    "accordion-ece69f20-7f64-47d2-b320-307e24dbf8b8"
+                  ],
+                  "sep": " "
+                }
+              ],
+              "panels": [
+                "accordion-ece69f20-7f64-47d2-b320-307e24dbf8b8"
+              ],
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Mercurius Issue 2 - 5 March 2025 (opens in new window)",
+              "display": "inline",
+              "href": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-2-2025/",
+              "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-2-2025/",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Mercurius Issue 2 - 5 March 2025",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "panels": [
+                    "accordion-ece69f20-7f64-47d2-b320-307e24dbf8b8"
+                  ],
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "srOnly": true,
+                  "panels": [
+                    "accordion-ece69f20-7f64-47d2-b320-307e24dbf8b8"
+                  ],
+                  "sep": " "
+                }
+              ],
+              "panels": [
+                "accordion-ece69f20-7f64-47d2-b320-307e24dbf8b8"
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "cta",
+              "text": "Mercurius Issue 1 - 14 February 2025 (opens in new window)",
+              "display": "inline",
+              "href": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-1-2025/",
+              "absHref": "https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-1-2025/",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Mercurius Issue 1 - 14 February 2025",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "panels": [
+                    "accordion-ece69f20-7f64-47d2-b320-307e24dbf8b8"
+                  ],
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "srOnly": true,
+                  "panels": [
+                    "accordion-ece69f20-7f64-47d2-b320-307e24dbf8b8"
+                  ],
+                  "sep": " "
+                }
+              ],
+              "panels": [
+                "accordion-ece69f20-7f64-47d2-b320-307e24dbf8b8"
+              ],
+              "sep": " "
+            }
+          ],
+          "panels": [
+            "accordion-ece69f20-7f64-47d2-b320-307e24dbf8b8"
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s05",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "Have something to share? We love featuring stories, achievements and updates from our school community. Contact us if you have something to include in an upcoming newsletter. Contact us",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Have something to share?"
+        }
+      ],
+      "paragraphs": [
+        "We love featuring stories, achievements and updates from our school community. Contact us if you have something to include in an upcoming newsletter.",
+        "Contact us"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Contact us",
+          "href": "/contact-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+          "classes": "button"
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Have something to share?",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "We love featuring stories, achievements and updates from our school community. Contact us if you have something to include in an upcoming newsletter.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact us",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Contact us",
+              "display": "inline-block",
+              "href": "/contact-us",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+              "classes": "button",
+              "buttonLike": true,
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "dark",
+      "bg": "rgb(99, 0, 25)",
+      "toneEl": "main#main > div.section.nsw-section"
+    },
+    {
+      "slot": "s06",
+      "rootTag": "div",
+      "rootClass": "section nsw-section facebook-feed-container",
+      "visibleText": "Stay connected on our socials Visit our Facebook for more photos, videos, events and updates from our school. Today we celebrate World Teachers Day! 🍎 👩‍🏫 🏫 ⭐️ We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026 east We looking forward to welcome everyone back on Tuesday. east The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/ east",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Stay connected on our socials"
+        }
+      ],
+      "paragraphs": [
+        "Visit our Facebook for more photos, videos, events and updates from our school.",
+        "Today we celebrate World Teachers Day! 🍎 👩‍🏫 🏫 ⭐️ We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026",
+        "We looking forward to welcome everyone back on Tuesday.",
+        "The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Today we celebrate World Teachers Day! 🍎 👩‍🏫 🏫 ⭐️ We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026",
+          "href": "https://m.facebook.com/1661675895966806/posts/1770173321783729#no_universal_links",
+          "absHref": "https://m.facebook.com/1661675895966806/posts/1770173321783729#no_universal_links",
+          "classes": ""
+        },
+        {
+          "text": "We looking forward to welcome everyone back on Tuesday.",
+          "href": "https://m.facebook.com/1661675895966806/posts/1746224677511927#no_universal_links",
+          "absHref": "https://m.facebook.com/1661675895966806/posts/1746224677511927#no_universal_links",
+          "classes": ""
+        },
+        {
+          "text": "The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/",
+          "href": "https://m.facebook.com/1661675895966806/posts/1746223814178680#no_universal_links",
+          "absHref": "https://m.facebook.com/1661675895966806/posts/1746223814178680#no_universal_links",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [
+        {
+          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/854710675_1770172005117194_7603390710119696328_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=o0QGyZ4DXtQQ7kNvwGeBomM&_nc_oc=Adq-QwuhGcssa9U9qrsmY0yIFCYTsR3XtfehH32YLcmZV5ZhSPBFYAv8FCHVFCt0J4k&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=nEXtFtVehqEv0PNTqBeWgg&_nc_tpa=Q5bMBQKI9S6yOGdTlLlYYHB0gVGpqSRosI5sR1nOITWzplYziatiLv9ZMq3eYDAXyg0D5meLlSHqEnyPZQ&oh=00_AQR0N6hNam--JJjG4ew9saTWokV07scCo417yXWOPT--GA&oe=6AF1EF73",
+          "alt": "Facebook post image",
+          "w": 465,
+          "h": 660
+        },
+        {
+          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/836259297_1746224134178648_3432439322237656274_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=VuZ5KrGVWa4Q7kNvwHwsb3g&_nc_oc=AdqX59xnAp9ItgBNYCOl-4kTRuzTUbcAgFFctpiXEmjulMl8-u-7RY300DEIuruWD58&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=nEXtFtVehqEv0PNTqBeWgg&_nc_tpa=Q5bMBQLgUDpoZGfP3z96T8vpz2UbVLZKyuhHjXUaxkLNobAb904ujRwFBkzWhzz69AsyEuXv5ssNGmpaQw&oh=00_AQR4sH3b7GRnCjqegtw8yaHs9G7axyYSB8MdIt34Jfv_Dw&oe=6AF1CE76",
+          "alt": "Facebook post image",
+          "w": 859,
+          "h": 720
+        },
+        {
+          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t15.5256-10/842235604_1693597185715273_5724099017723056825_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=3Sf55f6vu3MQ7kNvwE0SrAQ&_nc_oc=AdrRNyOIl8GmEB3iKYxvviJEDg4XnlvlqEuxnXLyoU2B8ZcM5PQTv0UaKVJQ5x_R4Js&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=nEXtFtVehqEv0PNTqBeWgg&_nc_tpa=Q5bMBQJ_BgTrpjUu0iryI8dN4CfoQV5n9ksqYCH-uoIBN-Vi46y5ti0jlhM7ggzQT92OxeK3AO4O7jTTOg&oh=00_AQRil84P_o3p6Qcb9TeJz2yOQt0GxrE8zx9guM3OO6Ejag&oe=6AF1D36B",
+          "alt": "Facebook post image",
+          "w": 1080,
+          "h": 1920
+        }
+      ],
+      "formControls": [],
+      "leftovers": [
+        {
+          "text": "east",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons"
+        },
+        {
+          "text": "east",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons"
+        },
+        {
+          "text": "east",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons"
+        }
+      ],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Stay connected on our socials",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Visit our Facebook for more photos, videos, events and updates from our school.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/854710675_1770172005117194_7603390710119696328_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=o0QGyZ4DXtQQ7kNvwGeBomM&_nc_oc=Adq-QwuhGcssa9U9qrsmY0yIFCYTsR3XtfehH32YLcmZV5ZhSPBFYAv8FCHVFCt0J4k&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=nEXtFtVehqEv0PNTqBeWgg&_nc_tpa=Q5bMBQKI9S6yOGdTlLlYYHB0gVGpqSRosI5sR1nOITWzplYziatiLv9ZMq3eYDAXyg0D5meLlSHqEnyPZQ&oh=00_AQR0N6hNam--JJjG4ew9saTWokV07scCo417yXWOPT--GA&oe=6AF1EF73",
+          "alt": "Facebook post image",
+          "rw": 235,
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Today we celebrate World Teachers Day! 🍎 👩‍🏫 🏫 ⭐️ We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026",
+          "display": "block",
+          "lineClamp": 3,
+          "clampGroup": 1,
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Today we celebrate World Teachers Day! 🍎 👩‍🏫 🏫 ⭐️ We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026",
+              "display": "inline",
+              "href": "https://m.facebook.com/1661675895966806/posts/1770173321783729#no_universal_links",
+              "absHref": "https://m.facebook.com/1661675895966806/posts/1770173321783729#no_universal_links",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "east",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons",
+          "glyph": true,
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/836259297_1746224134178648_3432439322237656274_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=VuZ5KrGVWa4Q7kNvwHwsb3g&_nc_oc=AdqX59xnAp9ItgBNYCOl-4kTRuzTUbcAgFFctpiXEmjulMl8-u-7RY300DEIuruWD58&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=nEXtFtVehqEv0PNTqBeWgg&_nc_tpa=Q5bMBQLgUDpoZGfP3z96T8vpz2UbVLZKyuhHjXUaxkLNobAb904ujRwFBkzWhzz69AsyEuXv5ssNGmpaQw&oh=00_AQR4sH3b7GRnCjqegtw8yaHs9G7axyYSB8MdIt34Jfv_Dw&oe=6AF1CE76",
+          "alt": "Facebook post image",
+          "rw": 235,
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "We looking forward to welcome everyone back on Tuesday.",
+          "display": "block",
+          "lineClamp": 3,
+          "clampGroup": 2,
+          "children": [
+            {
+              "kind": "cta",
+              "text": "We looking forward to welcome everyone back on Tuesday.",
+              "display": "inline",
+              "href": "https://m.facebook.com/1661675895966806/posts/1746224677511927#no_universal_links",
+              "absHref": "https://m.facebook.com/1661675895966806/posts/1746224677511927#no_universal_links",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "east",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons",
+          "glyph": true,
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t15.5256-10/842235604_1693597185715273_5724099017723056825_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=3Sf55f6vu3MQ7kNvwE0SrAQ&_nc_oc=AdrRNyOIl8GmEB3iKYxvviJEDg4XnlvlqEuxnXLyoU2B8ZcM5PQTv0UaKVJQ5x_R4Js&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=nEXtFtVehqEv0PNTqBeWgg&_nc_tpa=Q5bMBQJ_BgTrpjUu0iryI8dN4CfoQV5n9ksqYCH-uoIBN-Vi46y5ti0jlhM7ggzQT92OxeK3AO4O7jTTOg&oh=00_AQRil84P_o3p6Qcb9TeJz2yOQt0GxrE8zx9guM3OO6Ejag&oe=6AF1D36B",
+          "alt": "Facebook post image",
+          "rw": 235,
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/",
+          "display": "block",
+          "lineClamp": 3,
+          "clampGroup": 3,
+          "children": [
+            {
+              "kind": "cta",
+              "text": "The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/",
+              "display": "inline",
+              "href": "https://m.facebook.com/1661675895966806/posts/1746223814178680#no_universal_links",
+              "absHref": "https://m.facebook.com/1661675895966806/posts/1746223814178680#no_universal_links",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "east",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons",
+          "glyph": true,
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s07",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Stories and highlights Hear about stories, wins and proud moments from our staff and students. east Events Find out about school events, celebrations and what’s coming up. east",
+      "headings": [],
+      "paragraphs": [
+        "Hear about stories, wins and proud moments from our staff and students.",
+        "Find out about school events, celebrations and what’s coming up."
+      ],
+      "listItems": [
+        "Stories and highlights Hear about stories, wins and proud moments from our staff and students. east",
+        "Events Find out about school events, celebrations and what’s coming up. east"
+      ],
+      "ctas": [
+        {
+          "text": "Stories and highlights",
+          "href": "/about-us/stories-and-highlights",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/stories-and-highlights",
+          "classes": ""
+        },
+        {
+          "text": "Events",
+          "href": "/school-life/events",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Stories and highlights Hear about stories, wins and proud moments from our staff and students. east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Stories and highlights",
+              "display": "inline",
+              "href": "/about-us/stories-and-highlights",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/stories-and-highlights",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hear about stories, wins and proud moments from our staff and students.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Events Find out about school events, celebrations and what’s coming up. east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Events",
+              "display": "inline",
+              "href": "/school-life/events",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Find out about school events, celebrations and what’s coming up.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s08",
+      "rootTag": "aside",
+      "rootClass": "nsw-layout__sidebar nsw-layout__sidebar--desktop sidebar-wrapper",
+      "visibleText": "Section navigation School life Bell times Bring your own device Canteen Events Forms House and Merit System Lockers and lost property Newsletters Parent portal Stationery Student opportunities and activities Travel to school Uniform",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Section navigation"
+        }
+      ],
+      "paragraphs": [],
+      "listItems": [
+        "Bell times",
+        "Bring your own device",
+        "Canteen",
+        "Events",
+        "Forms",
+        "House and Merit System",
+        "Lockers and lost property",
+        "Newsletters",
+        "Parent portal",
+        "Stationery",
+        "Student opportunities and activities",
+        "Travel to school",
+        "Uniform"
+      ],
+      "ctas": [
+        {
+          "text": "School life",
+          "href": "/school-life",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life",
+          "classes": ""
+        },
+        {
+          "text": "Bell times",
+          "href": "/school-life/bell-times",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/bell-times",
+          "classes": ""
+        },
+        {
+          "text": "Bring your own device",
+          "href": "/school-life/bring-your-own-device",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/bring-your-own-device",
+          "classes": ""
+        },
+        {
+          "text": "Canteen",
+          "href": "/school-life/canteen",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/canteen",
+          "classes": ""
+        },
+        {
+          "text": "Events",
+          "href": "/school-life/events",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+          "classes": ""
+        },
+        {
+          "text": "Forms",
+          "href": "/school-life/forms",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/forms",
+          "classes": ""
+        },
+        {
+          "text": "House and Merit System",
+          "href": "/school-life/house-and-merit-system",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/house-and-merit-system",
+          "classes": ""
+        },
+        {
+          "text": "Lockers and lost property",
+          "href": "/school-life/lockers-and-lost-property",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/lockers-and-lost-property",
+          "classes": ""
+        },
+        {
+          "text": "Newsletters",
+          "href": "/school-life/newsletters",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters",
+          "classes": "current"
+        },
+        {
+          "text": "Parent portal",
+          "href": "/school-life/parent-portal",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+          "classes": ""
+        },
+        {
+          "text": "Stationery",
+          "href": "/school-life/stationery",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/stationery",
+          "classes": ""
+        },
+        {
+          "text": "Student opportunities and activities",
+          "href": "/school-life/student-opportunities-and-activities",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities",
+          "classes": ""
+        },
+        {
+          "text": "Travel to school",
+          "href": "/school-life/travel-to-school",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school",
+          "classes": ""
+        },
+        {
+          "text": "Uniform",
+          "href": "/school-life/uniform",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Section navigation",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "cta",
+          "text": "School life",
+          "display": "flex",
+          "href": "/school-life",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life",
+          "classes": "",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Bell times",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Bell times",
+              "display": "block",
+              "href": "/school-life/bell-times",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/bell-times",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Bring your own device",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Bring your own device",
+              "display": "block",
+              "href": "/school-life/bring-your-own-device",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/bring-your-own-device",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Canteen",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Canteen",
+              "display": "block",
+              "href": "/school-life/canteen",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/canteen",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Events",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Events",
+              "display": "block",
+              "href": "/school-life/events",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Forms",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Forms",
+              "display": "block",
+              "href": "/school-life/forms",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/forms",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "House and Merit System",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "House and Merit System",
+              "display": "block",
+              "href": "/school-life/house-and-merit-system",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/house-and-merit-system",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Lockers and lost property",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Lockers and lost property",
+              "display": "block",
+              "href": "/school-life/lockers-and-lost-property",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/lockers-and-lost-property",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Newsletters",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Newsletters",
+              "display": "block",
+              "href": "/school-life/newsletters",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters",
+              "classes": "current",
+              "buttonLike": true,
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Parent portal",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Parent portal",
+              "display": "block",
+              "href": "/school-life/parent-portal",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Stationery",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Stationery",
+              "display": "block",
+              "href": "/school-life/stationery",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/stationery",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Student opportunities and activities",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Student opportunities and activities",
+              "display": "block",
+              "href": "/school-life/student-opportunities-and-activities",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Travel to school",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Travel to school",
+              "display": "block",
+              "href": "/school-life/travel-to-school",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Uniform",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Uniform",
+              "display": "block",
+              "href": "/school-life/uniform",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    }
+  ],
+  "residue": [
+    {
+      "sel": "header.header-wrapper",
+      "kind": "chrome",
+      "textLen": 275,
+      "lines": [
+        "Skip to navigation",
+        "Skip to content",
+        "NSW Government",
+        "Fort Street High School",
+        "Faber est suae quisque fortunae",
+        "search",
+        "Show",
+        "Search",
+        "About us",
+        "keyboard_arrow_right",
+        "School life",
+        "keyboard_arrow_right",
+        "Learning and support",
+        "keyboard_arrow_right",
+        "Our community",
+        "keyboard_arrow_right",
+        "Contact us"
+      ],
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 172
+      }
+    },
+    {
+      "sel": "footer.footer-wrapper",
+      "kind": "chrome",
+      "textLen": 496,
+      "lines": [
+        "Fort Street High School",
+        "General enquiries",
+        "fortstreet-h.school@det.nsw.edu.au",
+        "8585 1600",
+        "620 PARRAMATTA ROAD, NSW 2049 PETERSHAM",
+        "Follow us",
+        "We recognise the Ongoing Custodians of the lands and waterways where we work and live. We pay respect to Elders past and present as ongoing teachers of knowledge, songlines and stories. We strive to ensure every Aboriginal and/or Torres Strait Islander learner in NSW achieves their potential through education.",
+        "Your feedback",
+        "Policy library",
+        "Information access"
+      ],
+      "rect": {
+        "x": 0,
+        "y": 3522,
+        "w": 1440,
+        "h": 509
+      }
+    }
+  ]
+}

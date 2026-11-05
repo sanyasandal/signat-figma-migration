@@ -1,0 +1,781 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-11-04T18:30:46.434Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/",
+    "viewport": "1440x900",
+    "scope": "header.header-wrapper!,footer.footer-wrapper!",
+    "normalize": {
+      "source": "/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/home.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes, any cookie/consent/gdpr-named element inside a fixed/sticky/high-z overlay)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        }
+      ]
+    },
+    "settle": {
+      "firstLen": 5262,
+      "waitedMs": 1519,
+      "stable": true,
+      "settledLen": 5262,
+      "lateChars": 0
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "domcontentloaded",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Fort Street High School",
+    "description": "Enrol at Fort Street High School. We are a Year 7 to Year 12 Comprehensive Coed Secondary School in PETERSHAM.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/",
+    "ogTags": {
+      "og:title": "Fort Street High School",
+      "og:description": "Enrol at Fort Street High School. We are a Year 7 to Year 12 Comprehensive Coed Secondary School in PETERSHAM.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/media_1da4ecaf018659ee9fe83bb749a5d005abd6a38bd.png?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/media_1da4ecaf018659ee9fe83bb749a5d005abd6a38bd.png?width=1200&format=pjpg&optimize=medium",
+      "og:image:alt": "Fort Street High School"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Fort Street High School",
+      "twitter:description": "Enrol at Fort Street High School. We are a Year 7 to Year 12 Comprehensive Coed Secondary School in PETERSHAM.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/media_1da4ecaf018659ee9fe83bb749a5d005abd6a38bd.png?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "header.header-wrapper",
+      "whole": true
+    },
+    {
+      "sel": "footer.footer-wrapper",
+      "whole": true
+    }
+  ],
+  "visibleTextNormalized": "Skip to navigation Skip to content NSW Government Fort Street High School Faber est suae quisque fortunae search Show Search About us keyboard_arrow_right School life keyboard_arrow_right Learning and support keyboard_arrow_right Our community keyboard_arrow_right Contact us Fort Street High School General enquiries fortstreet-h.school@det.nsw.edu.au 8585 1600 620 PARRAMATTA ROAD, NSW 2049 PETERSHAM Follow us We recognise the Ongoing Custodians of the lands and waterways where we work and live. We pay respect to Elders past and present as ongoing teachers of knowledge, songlines and stories. We strive to ensure every Aboriginal and/or Torres Strait Islander learner in NSW achieves their potential through education. Your feedback Policy library Information access",
+  "coverage": {
+    "bodyTextLen": 5262,
+    "scopeTextLen": 772,
+    "ratio": 0.147,
+    "h1Text": null,
+    "h1InScope": null
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "header",
+      "rootClass": "header-wrapper",
+      "visibleText": "Skip to navigation Skip to content NSW Government Fort Street High School Faber est suae quisque fortunae search Show Search About us keyboard_arrow_right School life keyboard_arrow_right Learning and support keyboard_arrow_right Our community keyboard_arrow_right Contact us",
+      "headings": [],
+      "paragraphs": [],
+      "listItems": [
+        "About us keyboard_arrow_right",
+        "School life keyboard_arrow_right",
+        "Learning and support keyboard_arrow_right",
+        "Our community keyboard_arrow_right",
+        "Contact us"
+      ],
+      "ctas": [
+        {
+          "text": "Skip to navigation",
+          "href": "#main-nav",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/#main-nav",
+          "classes": ""
+        },
+        {
+          "text": "Skip to content",
+          "href": "#main",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/#main",
+          "classes": ""
+        },
+        {
+          "text": "NSW Government",
+          "href": "/",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/",
+          "classes": ""
+        },
+        {
+          "text": "About us keyboard_arrow_right",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+          "classes": ""
+        },
+        {
+          "text": "School life keyboard_arrow_right",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/school-life",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life",
+          "classes": ""
+        },
+        {
+          "text": "Learning and support keyboard_arrow_right",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support",
+          "classes": ""
+        },
+        {
+          "text": "Our community keyboard_arrow_right",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/our-community",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/our-community",
+          "classes": ""
+        },
+        {
+          "text": "Contact us",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [
+        {
+          "currentSrc": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/logo.png",
+          "alt": "school logo",
+          "w": 970,
+          "h": 974
+        }
+      ],
+      "formControls": [],
+      "leftovers": [
+        {
+          "text": "Fort Street High School",
+          "parentTag": "div",
+          "parentClass": "nsw-header__title"
+        },
+        {
+          "text": "Faber est suae quisque fortunae",
+          "parentTag": "div",
+          "parentClass": "nsw-header__subtitle"
+        },
+        {
+          "text": "search",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons"
+        },
+        {
+          "text": "Show",
+          "parentTag": "span",
+          "parentClass": "sr-only"
+        },
+        {
+          "text": "Search",
+          "parentTag": "span",
+          "parentClass": ""
+        }
+      ],
+      "ordered": [
+        {
+          "kind": "cta",
+          "text": "Skip to navigation",
+          "display": "block",
+          "href": "#main-nav",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/#main-nav",
+          "classes": "",
+          "srOnly": true,
+          "buttonLike": true,
+          "sep": ""
+        },
+        {
+          "kind": "cta",
+          "text": "Skip to content",
+          "display": "block",
+          "href": "#main",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/#main",
+          "classes": "",
+          "srOnly": true,
+          "buttonLike": true,
+          "sep": " "
+        },
+        {
+          "kind": "cta",
+          "text": "NSW Government",
+          "display": "flex",
+          "href": "/",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/",
+          "classes": "",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/logo.png",
+              "alt": "school logo",
+              "rw": 76,
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "NSW Government",
+              "parentTag": "span",
+              "parentClass": "sr-only",
+              "srOnly": true,
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Fort Street High School",
+          "parentTag": "div",
+          "parentClass": "nsw-header__title",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Faber est suae quisque fortunae",
+          "parentTag": "div",
+          "parentClass": "nsw-header__subtitle",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "search",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons",
+          "inButton": true,
+          "glyph": true,
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Show",
+          "parentTag": "span",
+          "parentClass": "sr-only",
+          "inButton": true,
+          "srOnly": true,
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Search",
+          "parentTag": "span",
+          "parentClass": "",
+          "inButton": true,
+          "srOnly": true,
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "About us keyboard_arrow_right",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "About us keyboard_arrow_right",
+              "display": "flex",
+              "href": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "About us",
+                  "parentTag": "span",
+                  "parentClass": "",
+                  "toggle": "sub-nav-1",
+                  "panels": [
+                    "main-nav"
+                  ],
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "keyboard_arrow_right",
+                  "parentTag": "span",
+                  "parentClass": "material-icons nsw-material-icons",
+                  "glyph": true,
+                  "toggle": "sub-nav-1",
+                  "panels": [
+                    "main-nav"
+                  ],
+                  "sep": " "
+                }
+              ],
+              "toggle": "sub-nav-1",
+              "panels": [
+                "main-nav"
+              ],
+              "sep": ""
+            }
+          ],
+          "panels": [
+            "main-nav"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "School life keyboard_arrow_right",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "School life keyboard_arrow_right",
+              "display": "flex",
+              "href": "https://fortstreet-h.schools.nsw.gov.au/school-life",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "School life",
+                  "parentTag": "span",
+                  "parentClass": "",
+                  "toggle": "sub-nav-15",
+                  "panels": [
+                    "main-nav"
+                  ],
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "keyboard_arrow_right",
+                  "parentTag": "span",
+                  "parentClass": "material-icons nsw-material-icons",
+                  "glyph": true,
+                  "toggle": "sub-nav-15",
+                  "panels": [
+                    "main-nav"
+                  ],
+                  "sep": " "
+                }
+              ],
+              "toggle": "sub-nav-15",
+              "panels": [
+                "main-nav"
+              ],
+              "sep": ""
+            }
+          ],
+          "panels": [
+            "main-nav"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Learning and support keyboard_arrow_right",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Learning and support keyboard_arrow_right",
+              "display": "flex",
+              "href": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Learning and support",
+                  "parentTag": "span",
+                  "parentClass": "",
+                  "toggle": "sub-nav-36",
+                  "panels": [
+                    "main-nav"
+                  ],
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "keyboard_arrow_right",
+                  "parentTag": "span",
+                  "parentClass": "material-icons nsw-material-icons",
+                  "glyph": true,
+                  "toggle": "sub-nav-36",
+                  "panels": [
+                    "main-nav"
+                  ],
+                  "sep": " "
+                }
+              ],
+              "toggle": "sub-nav-36",
+              "panels": [
+                "main-nav"
+              ],
+              "sep": ""
+            }
+          ],
+          "panels": [
+            "main-nav"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Our community keyboard_arrow_right",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Our community keyboard_arrow_right",
+              "display": "flex",
+              "href": "https://fortstreet-h.schools.nsw.gov.au/our-community",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/our-community",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Our community",
+                  "parentTag": "span",
+                  "parentClass": "",
+                  "toggle": "sub-nav-42",
+                  "panels": [
+                    "main-nav"
+                  ],
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "keyboard_arrow_right",
+                  "parentTag": "span",
+                  "parentClass": "material-icons nsw-material-icons",
+                  "glyph": true,
+                  "toggle": "sub-nav-42",
+                  "panels": [
+                    "main-nav"
+                  ],
+                  "sep": " "
+                }
+              ],
+              "toggle": "sub-nav-42",
+              "panels": [
+                "main-nav"
+              ],
+              "sep": ""
+            }
+          ],
+          "panels": [
+            "main-nav"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Contact us",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Contact us",
+              "display": "flex",
+              "href": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+              "classes": "",
+              "panels": [
+                "main-nav"
+              ],
+              "sep": ""
+            }
+          ],
+          "panels": [
+            "main-nav"
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s02",
+      "rootTag": "footer",
+      "rootClass": "footer-wrapper",
+      "visibleText": "Fort Street High School General enquiries fortstreet-h.school@det.nsw.edu.au 8585 1600 620 PARRAMATTA ROAD, NSW 2049 PETERSHAM Follow us We recognise the Ongoing Custodians of the lands and waterways where we work and live. We pay respect to Elders past and present as ongoing teachers of knowledge, songlines and stories. We strive to ensure every Aboriginal and/or Torres Strait Islander learner in NSW achieves their potential through education. Your feedback Policy library Information access",
+      "headings": [
+        {
+          "level": "h3",
+          "text": "Fort Street High School"
+        },
+        {
+          "level": "h6",
+          "text": "General enquiries"
+        },
+        {
+          "level": "h6",
+          "text": "Follow us"
+        }
+      ],
+      "paragraphs": [
+        "We recognise the Ongoing Custodians of the lands and waterways where we work and live. We pay respect to Elders past and present as ongoing teachers of knowledge, songlines and stories. We strive to ensure every Aboriginal and/or Torres Strait Islander learner in NSW achieves their potential through education."
+      ],
+      "listItems": [
+        "fortstreet-h.school@det.nsw.edu.au",
+        "8585 1600",
+        "620 PARRAMATTA ROAD, NSW 2049 PETERSHAM",
+        "Your feedback",
+        "Policy library",
+        "Information access"
+      ],
+      "ctas": [
+        {
+          "text": "fortstreet-h.school@det.nsw.edu.au",
+          "href": "mailto:fortstreet-h.school@det.nsw.edu.au",
+          "absHref": "mailto:fortstreet-h.school@det.nsw.edu.au",
+          "classes": ""
+        },
+        {
+          "text": "Your feedback",
+          "href": "https://education.nsw.gov.au/your-feedback",
+          "absHref": "https://education.nsw.gov.au/your-feedback",
+          "classes": ""
+        },
+        {
+          "text": "Policy library",
+          "href": "https://education.nsw.gov.au/policy-library",
+          "absHref": "https://education.nsw.gov.au/policy-library",
+          "classes": ""
+        },
+        {
+          "text": "Information access",
+          "href": "https://education.nsw.gov.au/rights-and-accountability/information-access",
+          "absHref": "https://education.nsw.gov.au/rights-and-accountability/information-access",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [
+        {
+          "label": "Facebook",
+          "href": "https://www.facebook.com/fortstreethighschool",
+          "absHref": "https://www.facebook.com/fortstreethighschool"
+        },
+        {
+          "label": "Instagram",
+          "href": "https://www.instagram.com/fortstreet_hs",
+          "absHref": "https://www.instagram.com/fortstreet_hs"
+        },
+        {
+          "label": "education.nsw.gov.au",
+          "href": "https://www.education.nsw.gov.au",
+          "absHref": "https://www.education.nsw.gov.au/"
+        }
+      ],
+      "images": [
+        {
+          "currentSrc": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/master/photos-master/nsw-logo.svg",
+          "alt": "",
+          "w": 90,
+          "h": 90
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Fort Street High School",
+          "display": "block",
+          "level": "h3",
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "General enquiries",
+          "display": "block",
+          "level": "h6",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "fortstreet-h.school@det.nsw.edu.au",
+          "display": "flex",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "fortstreet-h.school@det.nsw.edu.au",
+              "display": "block",
+              "href": "mailto:fortstreet-h.school@det.nsw.edu.au",
+              "absHref": "mailto:fortstreet-h.school@det.nsw.edu.au",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "8585 1600",
+          "display": "flex",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "620 PARRAMATTA ROAD, NSW 2049 PETERSHAM",
+          "display": "flex",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Follow us",
+          "display": "block",
+          "level": "h6",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "We recognise the Ongoing Custodians of the lands and waterways where we work and live. We pay respect to Elders past and present as ongoing teachers of knowledge, songlines and stories. We strive to ensure every Aboriginal and/or Torres Strait Islander learner in NSW achieves their potential through education.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Your feedback",
+          "display": "flex",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Your feedback",
+              "display": "flex",
+              "href": "https://education.nsw.gov.au/your-feedback",
+              "absHref": "https://education.nsw.gov.au/your-feedback",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Policy library",
+          "display": "flex",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Policy library",
+              "display": "flex",
+              "href": "https://education.nsw.gov.au/policy-library",
+              "absHref": "https://education.nsw.gov.au/policy-library",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Information access",
+          "display": "flex",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Information access",
+              "display": "flex",
+              "href": "https://education.nsw.gov.au/rights-and-accountability/information-access",
+              "absHref": "https://education.nsw.gov.au/rights-and-accountability/information-access",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "cta",
+          "text": "",
+          "display": "block",
+          "href": "https://www.education.nsw.gov.au",
+          "absHref": "https://www.education.nsw.gov.au/",
+          "classes": "footer__logo-cta",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/master/photos-master/nsw-logo.svg",
+              "alt": "",
+              "rw": 81
+            }
+          ],
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "dark",
+      "bg": "rgb(99, 0, 25)",
+      "toneEl": "footer.footer-wrapper"
+    }
+  ],
+  "residue": [
+    {
+      "sel": "main#main",
+      "kind": "nav",
+      "textLen": 4489,
+      "lines": [
+        "Welcome to Fort Street High School",
+        "Since 1849, Fortians have been encouraged to be the makers of their own destiny -",
+        "faber est suae quisque fortunae",
+        "This motto underpins the values and expectations of the school.",
+        "Why Choose Us?",
+        "The Fort Street High School difference",
+        "Our vision for student achievement",
+        "Fort Street is proud to continue its co-educational traditions. We value the mix of young men and women learning together. We expect students to develop as model citizens and work towards developing individual and collaborative skills and attributes in each student.",
+        "east",
+        "Extensive range of student opportunities and activities",
+        "At Fort Street High School, we offer a variety of programs in the classroom and across the school to help students build new skills, make friends and explore new interests.",
+        "east",
+        "Wellbeing at Fort Street is for all students",
+        "A focus on wellbeing goes beyond the welfare needs of a few individual students and aims for all students to be healthy, happy, successful and productive individuals who are active and positive contributors to the school and society in which they live.",
+        "east",
+        "Principal's message",
+        "It is my honour to serve as Principal of Fort Street High School, a school with a remarkable history and a proud tradition of nurturing some of Australia’s finest minds since its establishment in 1849. As the oldest government high school in Australia, Fort Street has long been a beacon of academic excellence, innovation, and social conscience.",
+        "Situated on Gadigal and Wangal land in Petersham, our school community is a vibrant reflection of multicultural Australia. With approximately 920 students representing over 100 Sydney suburbs and speaking around 40 different languages, Fort Street is a harmonious and inclusive environment that celebrates diversity and fosters tolerance and acceptance.",
+        "Read more from our Principal",
+        "Fort Fest is on Friday 18 September, 3:15pm - 8:30pm.",
+        "Fort Fest is an evening event for all the school and local community, with music, food, games and stalls. Run jointly by the SRC and P&C as a fundraiser, it is also a great way to meet and connect with other Fort Street families.",
+        "Find out more",
+        "School tours and open evenings",
+        "School tours and open evenings are an opportunity for prospective students and parents to get a better understanding of Fort Street's values and educational philosophy.",
+        "Dates and booking information",
+        "Quick links",
+        "Parent portals",
+        "Stay connected through our parent portal apps. Use them to make a payment, for attendance matters or to book a parent-teacher interview.",
+        "east",
+        "Student and Parent Calendar",
+        "(opens in new window)",
+        "Information for parents and students about upcoming events, exams and excursions.",
+        "east",
+        "Forms",
+        "Change of details, extended leave, and other school forms.",
+        "east",
+        "Instrumental Music Program (IMP)",
+        "How to join, ensemble and fees.",
+        "east",
+        "Duke of Edinburgh",
+        "The Duke of Edinburgh’s Award is open to students 14 years of age or older. Learn about how you can get involved.",
+        "east",
+        "Newsletters",
+        "Discover the latest updates and exciting events happening at our school. Check out our newsletters to stay connected!",
+        "east",
+        "Ready to apply?",
+        "Fort Street High School is an academically selective coeducational secondary school and does not have a local area intake.",
+        "Entry is competitive and based on academic merit. There is a maximum enrolment of 150 students in each of Years 7-10. There are between 160 and 170 students in each of Years 11 and 12.",
+        "How to apply",
+        "Key dates",
+        "Find term dates, school holidays and other important dates for all NSW public schools.",
+        "View key dates for NSW public schools",
+        "Stay connected on our socials",
+        "Today we celebrate World Teachers Day! 🍎 👩‍🏫 🏫 ⭐️ We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026",
+        "east",
+        "We looking forward to welcome everyone back on Tuesday.",
+        "east",
+        "The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/",
+        "east"
+      ],
+      "rect": {
+        "x": 0,
+        "y": 172,
+        "w": 1440,
+        "h": 5270
+      }
+    }
+  ]
+}

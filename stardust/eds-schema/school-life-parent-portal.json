@@ -1,0 +1,212 @@
+{
+  "source": "http://localhost:3000/stardust/reskin/pages/school-life-parent-portal.html",
+  "width": 1280,
+  "profile": "eds",
+  "sections": [
+    {
+      "section": "band",
+      "items": [
+        {
+          "role": "heading",
+          "order": 0,
+          "text": "Sentral"
+        },
+        {
+          "role": "body",
+          "order": 1,
+          "text": "For student attendance matters, booking parent and teacher interviews and accessing academic reports."
+        },
+        {
+          "role": "body",
+          "order": 2,
+          "text": "Log-in to the Sentral portal or:"
+        },
+        {
+          "role": "body",
+          "order": 3,
+          "text": "Download"
+        },
+        {
+          "role": "cta",
+          "order": 4,
+          "text": "Sentral on Google Play (opens in new window)",
+          "href": "https://play.google.com/store/apps/details?id=com.sentral.mobile&pli=1"
+        },
+        {
+          "role": "body",
+          "order": 5,
+          "text": "Download"
+        },
+        {
+          "role": "cta",
+          "order": 6,
+          "text": "Sentral on the Apple Store (opens in new window)",
+          "href": "https://apps.apple.com/ro/app/sentral-for-parents/id1238744022?mt=8"
+        }
+      ],
+      "imgCount": 1,
+      "editableTexts": 5,
+      "repeats": [
+        {
+          "unitSelector": "P.aux",
+          "count": 2,
+          "unit": {
+            "headings": 0,
+            "ctas": 1,
+            "imgs": 0,
+            "textRuns": 2
+          },
+          "uniform": true
+        }
+      ],
+      "slot": "s04"
+    },
+    {
+      "section": "band",
+      "items": [
+        {
+          "role": "heading",
+          "order": 0,
+          "text": "School Bytes"
+        },
+        {
+          "role": "body",
+          "order": 1,
+          "text": "For making payments, viewing financial records and giving parental consent for school events."
+        },
+        {
+          "role": "body",
+          "order": 2,
+          "text": "Log-in to the School Bytes portal or:"
+        },
+        {
+          "role": "body",
+          "order": 3,
+          "text": "Download"
+        },
+        {
+          "role": "cta",
+          "order": 4,
+          "text": "School Bytes on Google Play (opens in new window)",
+          "href": "https://play.google.com/store/apps/details?id=education.schoolbytes&hl=en_AU"
+        },
+        {
+          "role": "body",
+          "order": 5,
+          "text": "Download"
+        },
+        {
+          "role": "cta",
+          "order": 6,
+          "text": "School Bytes on the Apple Store (opens in new window)",
+          "href": "https://apps.apple.com/au/app/school-bytes-for-parents/id6463097826"
+        }
+      ],
+      "imgCount": 1,
+      "editableTexts": 5,
+      "repeats": [
+        {
+          "unitSelector": "P.aux",
+          "count": 2,
+          "unit": {
+            "headings": 0,
+            "ctas": 1,
+            "imgs": 0,
+            "textRuns": 2
+          },
+          "uniform": true
+        }
+      ],
+      "slot": "s06"
+    },
+    {
+      "section": "band",
+      "items": [
+        {
+          "role": "heading",
+          "order": 0,
+          "text": "Need help with our parent portal apps?"
+        },
+        {
+          "role": "body",
+          "order": 1,
+          "text": "Our friendly office staff will be happy to give you a hand."
+        },
+        {
+          "role": "cta",
+          "order": 2,
+          "text": "Contact us",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/contact-us"
+        }
+      ],
+      "imgCount": 0,
+      "editableTexts": 2,
+      "repeats": [],
+      "slot": "s08"
+    },
+    {
+      "section": "band",
+      "items": [
+        {
+          "role": "cta",
+          "order": 0,
+          "text": "Our community",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/our-community/pandc"
+        },
+        {
+          "role": "body",
+          "order": 1,
+          "text": "Discover ways to volunteer and help shape our school community."
+        },
+        {
+          "role": "body",
+          "order": 2,
+          "text": "east"
+        },
+        {
+          "role": "cta",
+          "order": 3,
+          "text": "Policies and reports",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports"
+        },
+        {
+          "role": "body",
+          "order": 4,
+          "text": "Discover our local school policies, reports and plans."
+        },
+        {
+          "role": "body",
+          "order": 5,
+          "text": "east"
+        }
+      ],
+      "imgCount": 0,
+      "editableTexts": 4,
+      "repeats": [
+        {
+          "unitSelector": "DIV.card",
+          "count": 2,
+          "unit": {
+            "headings": 0,
+            "ctas": 1,
+            "imgs": 0,
+            "textRuns": 3
+          },
+          "uniform": true
+        }
+      ],
+      "slot": "s09"
+    }
+  ],
+  "_defaultContent": {
+    "slots": [
+      "s01",
+      "s02",
+      "s03",
+      "s05",
+      "s07",
+      "s10"
+    ],
+    "why": "deploy Step 2 D1: authored as default content (no block)"
+  }
+}

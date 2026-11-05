@@ -1,0 +1,144 @@
+{
+  "source": "http://localhost:3000/stardust/reskin/pages/contact-us.html",
+  "width": 1280,
+  "profile": "eds",
+  "sections": [
+    {
+      "section": "band",
+      "items": [
+        {
+          "role": "heading",
+          "order": 0,
+          "text": "Call, email or visit us"
+        },
+        {
+          "role": "body",
+          "order": 1,
+          "text": "Our office is open Monday to Friday 8.30am to 3.30pm during school term."
+        },
+        {
+          "role": "cta",
+          "order": 2,
+          "text": "fortstreet-h.school@det.nsw.edu.au (opens in new window)",
+          "href": "mailto:fortstreet-h.school@det.nsw.edu.au"
+        },
+        {
+          "role": "cta",
+          "order": 3,
+          "text": "8585 1600 (opens in new window)",
+          "href": "tel:9569%204355"
+        },
+        {
+          "role": "body",
+          "order": 4,
+          "text": "620 PARRAMATTA ROAD, NSW 2049 PETERSHAM (Access via Palace Street)"
+        }
+      ],
+      "imgCount": 1,
+      "editableTexts": 5,
+      "repeats": [
+        {
+          "unitSelector": "P.aux",
+          "count": 2,
+          "unit": {
+            "headings": 0,
+            "ctas": 1,
+            "imgs": 0,
+            "textRuns": 2
+          },
+          "uniform": true
+        }
+      ],
+      "slot": "s03"
+    },
+    {
+      "section": "band",
+      "items": [
+        {
+          "role": "heading",
+          "order": 0,
+          "text": "Have a concern or feedback?"
+        },
+        {
+          "role": "body",
+          "order": 1,
+          "text": "We\u2019re here to help. If you have a question, concern or want to share feedback, please email us."
+        },
+        {
+          "role": "cta",
+          "order": 2,
+          "text": "fortstreet-h.school@det.nsw.edu.au (opens in new window)",
+          "href": "mailto:fortstreet-h.school@det.nsw.edu.au"
+        }
+      ],
+      "imgCount": 0,
+      "editableTexts": 3,
+      "repeats": [],
+      "slot": "s07"
+    },
+    {
+      "section": "band",
+      "items": [
+        {
+          "role": "cta",
+          "order": 0,
+          "text": "Travel to school",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school"
+        },
+        {
+          "role": "body",
+          "order": 1,
+          "text": "Learn about local transport options and how to get here safely."
+        },
+        {
+          "role": "body",
+          "order": 2,
+          "text": "east"
+        },
+        {
+          "role": "cta",
+          "order": 3,
+          "text": "Our community",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/our-community/pandc"
+        },
+        {
+          "role": "body",
+          "order": 4,
+          "text": "Discover ways to volunteer and help shape our school community."
+        },
+        {
+          "role": "body",
+          "order": 5,
+          "text": "east"
+        }
+      ],
+      "imgCount": 0,
+      "editableTexts": 4,
+      "repeats": [
+        {
+          "unitSelector": "DIV.card",
+          "count": 2,
+          "unit": {
+            "headings": 0,
+            "ctas": 1,
+            "imgs": 0,
+            "textRuns": 3
+          },
+          "uniform": true
+        }
+      ],
+      "slot": "s08"
+    }
+  ],
+  "_defaultContent": {
+    "slots": [
+      "s01",
+      "s02",
+      "s04",
+      "s05",
+      "s06",
+      "s09"
+    ],
+    "why": "deploy Step 2 D1: authored as default content (no block)"
+  }
+}

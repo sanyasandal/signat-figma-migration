@@ -1,0 +1,60 @@
+{
+  "slug": "about-us-policies-and-reports-nsw-public-school-information",
+  "type": "content",
+  "renderBranch": "A'",
+  "template": "learning-and-support-learning",
+  "modules": [
+    "M3",
+    "M5b",
+    "M9b",
+    "M5",
+    "M11b"
+  ],
+  "slotsFilled": [
+    "s01",
+    "s02",
+    "s03",
+    "s04",
+    "s05",
+    "s06"
+  ],
+  "canonShas": {
+    "header": "1e8e0c3eebea",
+    "footer": "a8b6d4b37731",
+    "css": "5fe9e7ffc80e"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "NSW public school information",
+    "description": "Our school is one of more than 2,200 NSW public schools working together to give every student a strong start in life. Being part of this network means your child benefits from consistent policies, shared values, high teaching standards and access to statewide resources, assets, programs and support.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports/nsw-public-school-information",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "NSW public school information",
+    "description": "Our school is one of more than 2,200 NSW public schools working together to give every student a strong start in life. Being part of this network means your child benefits from consistent policies, shared values, high teaching standards and access to statewide resources, assets, programs and support.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports/nsw-public-school-information"
+  },
+  "migratedAt": "2026-11-05T06:33:01Z",
+  "designMdSha": "187c3f2f159f",
+  "designJsonSha": "2d96d5b1c55f",
+  "sourceCurrentSha": "a66c090d9b5d",
+  "sourceProposedSha": "508ab62f9c20",
+  "fidelityTier": "sibling",
+  "archetypeSource": "learning-and-support-learning",
+  "archetypeSha": "0925840f97e7",
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 3,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "about-us/policies-and-reports/nsw-public-school-information/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "about-us/policies-and-reports/nsw-public-school-information/_meta.json",
+  "driverVersion": "1"
+}

@@ -1,0 +1,2792 @@
+{
+  "pages": {
+    "home": {
+      "residuals": [
+        {
+          "gate": "reskin-donor-probe",
+          "cause": "probe samples the first main .btn, the hero CTA on the dark panel, which correctly takes the donor's on-dark light button (buttons.secondary); light-band buttons carry buttons.primary",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T03:53:23Z"
+        },
+        {
+          "gate": "deployed.tokens",
+          "class": "deployed.tokens",
+          "cause": "the token probe samples the first main a.button.primary, the hero CTA on the dark panel, which takes the donor's on-dark light button (buttons.secondary); light-band CTAs carry buttons.primary",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T05:03:56Z"
+        },
+        {
+          "gate": "figma.ramp",
+          "class": "figma.ramp",
+          "cause": "remaining after the owner-requested fix round: (1) font.unserved — Apercu Pro licensed, fallback served; (2) content-differs — M2 promo row (18px) has no source counterpart; (3) renderer-composition — card titles/bodies use 13px body and 20px link roles vs donor 26px overlay titles (M2), 10px caps labels + 11px body (M11), 11px captions (M10); (4) renderer-composition — M5 80px statement heading has no type role (56px display); (5) body tracking -0.39px on donor statement copy not applied",
+          "verdict": "accepted",
+          "by": "user",
+          "note": "owner approved as-is (2026-11-05)",
+          "at": "2026-11-05T06:17:03Z"
+        },
+        {
+          "gate": "deployed.parity",
+          "class": "deployed.parity",
+          "cause": "footer crop @360 2.52% (bar 2%): footer content identical (positions within 1px); residual is text rasterisation in the stitched captures",
+          "verdict": "accepted",
+          "by": "user",
+          "note": "owner approved as-is (2026-11-05)",
+          "at": "2026-11-05T06:17:03Z"
+        },
+        {
+          "gate": "deployed.figma.ramp",
+          "class": "deployed.figma.ramp",
+          "cause": "same remaining type-ramp gaps as the local figma.ramp residual (font.unserved, M5 80px statement role, card label/body roles, donor body tracking); needs owner sign-off",
+          "verdict": "accepted",
+          "by": "user",
+          "note": "owner approved as-is (2026-11-05)",
+          "at": "2026-11-05T06:17:03Z"
+        }
+      ],
+      "flags": [],
+      "gates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/reports/home-content-gate.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/reports/home-slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/reports/home-donor-probe.md"
+        },
+        "mobile-adapt-static": {
+          "verdict": "PASS"
+        },
+        "mobile-adapt-runtime": {
+          "verdict": "PASS"
+        },
+        "figma": {
+          "regime": "local",
+          "figmaVersion": "2418082557428609783",
+          "join": "PASS",
+          "geometry": "PASS 10/10",
+          "ramp": "FAIL 46/177 (19 unserved)",
+          "pixel": "s01 n/a: frame content differs, s02 n/a: frame content differs, s03 n/a: frame content differs, s04 n/a: frame content differs, s05 n/a: frame content differs, s06 n/a: frame content differs, s07 n/a: frame content differs, s08 n/a: frame content differs, s09 n/a: frame content differs",
+          "register": "mandated 0 · waived 18 · unmandated 46 · out-of-kit 0 · conflict 39 · pre-existing 0",
+          "coverage": "text styles 23/48 · widths 1440 · waived 18",
+          "literals": 0,
+          "waiverBudget": 55,
+          "invocation": "figma-gate.mjs all --page home --url stardust/reskin/pages/home.html --waiver-budget 55 --dir stardust"
+        },
+        "deployed": {
+          "regime": "preview",
+          "url": "https://reskin--signat-figma-migration--sanyasandal.aem.page/reskin/",
+          "content": "PASS",
+          "tokens": "FAIL 2/68",
+          "parity": "FAIL 1/11",
+          "sanity": {
+            "verdict": "PASS",
+            "hard": true
+          },
+          "inherited": "PASS",
+          "chrome": {
+            "verdict": "PASS",
+            "hard": true
+          },
+          "figma": {
+            "regime": "preview",
+            "figmaVersion": "2418082557428609783",
+            "join": "PASS",
+            "geometry": "PASS 10/10",
+            "ramp": "FAIL 46/177 (19 unserved)",
+            "pixel": "s01 n/a: frame content differs, s02 n/a: frame content differs, s03 n/a: frame content differs, s04 n/a: frame content differs, s05 n/a: frame content differs, s06 n/a: frame content differs, s07 n/a: frame content differs, s08 n/a: frame content differs, s09 n/a: frame content differs",
+            "register": "mandated 0 · waived 18 · unmandated 46 · out-of-kit 0 · conflict 39 · pre-existing 0",
+            "coverage": "text styles 23/48 · widths 1440 · waived 18",
+            "literals": 0,
+            "waiverBudget": 55,
+            "invocation": "figma-gate.mjs all --page home --url https://reskin--signat-figma-migration--sanyasandal.aem.page/reskin/ --target preview --reskin stardust/reskin/pages/home.html --waiver-budget 55 --dir stardust"
+          },
+          "codeStamp": "f085edeade7252cf",
+          "invocation": "deployed-gate.mjs all --page home --waiver-budget 55"
+        },
+        "step10": {
+          "eyeball": "pass",
+          "cls": "0.0000",
+          "header": "pass",
+          "verdict": "PASS",
+          "note": "preview eyeball 1440 + 360 vs reskin page; CLS probe with nav/footer/fonts delayed 1.5s at 1440 and 390; mobile menu opens (aria-expanded true), Escape closes",
+          "by": "claude",
+          "at": "2026-11-05T05:05:28Z"
+        }
+      },
+      "status": "gated",
+      "prototypeSha": "715044d86445",
+      "prototypePath": "stardust/reskin/pages/home.html",
+      "recordedAt": "2026-11-05T07:47:42Z",
+      "residualHistory": [
+        {
+          "at": "2026-11-05T03:53:22Z",
+          "action": "remove",
+          "gate": "figma.geometry",
+          "cause": "renderer-composition: card grid gap (40px) gives 443px tiles vs the donor's 480px edge-to-edge tiles (1px gaps)",
+          "verdict": "needs-owner",
+          "by": "user",
+          "note": "fixed: M2 tiles edge-to-edge (geometry PASS 10/10)"
+        }
+      ],
+      "eyeball": {
+        "verdict": "pass",
+        "note": "reads as the Kay donor: tracked display headings, square CTAs, edge-to-edge tiles, greige/porcelain bands, dark footer; content byte-identical",
+        "at": "2026-11-05T05:05:28Z"
+      },
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/home/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/home/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/home/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated"
+    },
+    "learning-and-support-learning": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source (absHref ''); slot-coverage reads only a[href], so the crumb (rendered as <a aria-current=page>, text gate PASS) cannot match",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-04T18:48:44Z"
+        },
+        {
+          "gate": "reskin-donor-probe",
+          "cause": "modelHasButton counts the 8 accordion toggle labels (text in <button>) as buttons; they render as .disclosure-toggle and the page has no primary CTA, so the 5 'main .btn' probes cannot match",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-04T18:48:44Z"
+        },
+        {
+          "gate": "deployed.tokens",
+          "class": "deployed.tokens",
+          "cause": "the page has no primary CTA (accordion toggles are disclosure buttons), so the 5 'main a.button.primary' probes match nothing",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T05:03:56Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T05:03:56Z"
+        },
+        {
+          "gate": "deployed.figma.join",
+          "class": "deployed.figma.join",
+          "cause": "preview join: s08 has no heading, so its anchor is the slot text including the cards block's generated arrow ligature 'east', which is not in .plain.html; the section is authored and decorated (parity PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T05:04:14Z"
+        },
+        {
+          "gate": "deployed.figma.geometry",
+          "class": "deployed.figma.geometry",
+          "cause": "not run on the preview (join drift above); local geometry PASS 8/8 and preview parity PASS",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T05:04:14Z"
+        },
+        {
+          "gate": "figma.ramp",
+          "class": "figma.ramp",
+          "cause": "remaining after the owner-requested fix round: (1) font.unserved — Apercu Pro licensed, fallback served; (2) renderer-composition — M5 80px statement heading has no type role (56px display) on s02/s05/s06; (3) content-differs — M5 CTA measured against inline prose links; quote band paragraph measured against the 56px M9 headline; (4) renderer-composition — M11 card labels 20px link role vs donor 10px caps + 11px body; section-nav list 13px vs 16px M3 tab role; (5) body tracking -0.39px not applied",
+          "verdict": "accepted",
+          "by": "user",
+          "note": "owner approved as-is (2026-11-05)",
+          "at": "2026-11-05T06:17:03Z"
+        },
+        {
+          "gate": "deployed.figma.ramp",
+          "class": "deployed.figma.ramp",
+          "cause": "not run on the preview (join drift); same remaining type-ramp gaps as the local figma.ramp residual; needs owner sign-off",
+          "verdict": "accepted",
+          "by": "user",
+          "note": "owner approved as-is (2026-11-05)",
+          "at": "2026-11-05T06:17:03Z"
+        }
+      ],
+      "flags": [],
+      "gates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/reports/learning-and-support-learning-content-gate.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/reports/learning-and-support-learning-slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/reports/learning-and-support-learning-donor-probe.md"
+        },
+        "mobile-adapt-static": {
+          "verdict": "PASS"
+        },
+        "mobile-adapt-runtime": {
+          "verdict": "PASS"
+        },
+        "figma": {
+          "regime": "local",
+          "figmaVersion": "2418082557428609783",
+          "join": "PASS",
+          "geometry": "PASS 8/8",
+          "ramp": "FAIL 36/133 (15 unserved)",
+          "pixel": "s01 n/a: frame content differs, s02 n/a: frame content differs, s03 n/a: frame content differs, s05 n/a: frame content differs, s06 n/a: frame content differs, s07 n/a: frame content differs, s08 n/a: frame content differs, s09 n/a: frame content differs",
+          "register": "mandated 0 · waived 11 · unmandated 36 · out-of-kit 1 · conflict 2 · pre-existing 0",
+          "coverage": "text styles 15/31 · widths 1440 · waived 11",
+          "literals": 0,
+          "waiverBudget": 55,
+          "invocation": "figma-gate.mjs all --page learning-and-support-learning --url stardust/reskin/pages/learning-and-support-learning.html --waiver-budget 55 --dir stardust"
+        },
+        "deployed": {
+          "regime": "preview",
+          "url": "https://reskin--signat-figma-migration--sanyasandal.aem.page/reskin/learning-and-support/learning",
+          "content": "FAIL 1/2",
+          "tokens": "FAIL 5/68",
+          "parity": "PASS",
+          "sanity": {
+            "verdict": "PASS",
+            "hard": true
+          },
+          "inherited": "PASS",
+          "chrome": {
+            "verdict": "PASS",
+            "hard": true
+          },
+          "figma": {
+            "regime": "preview",
+            "figmaVersion": "2418082557428609783",
+            "join": "FAIL",
+            "geometry": "not run: section drift",
+            "ramp": "not run: section drift",
+            "pixel": "not run: section drift",
+            "register": "mandated 0 · waived 0 · unmandated 0 · out-of-kit 1 · conflict 2 · pre-existing 0",
+            "coverage": "not run: section drift",
+            "literals": null,
+            "waiverBudget": 55,
+            "invocation": "figma-gate.mjs all --page learning-and-support-learning --url https://reskin--signat-figma-migration--sanyasandal.aem.page/reskin/learning-and-support/learning --target preview --reskin stardust/reskin/pages/learning-and-support-learning.html --waiver-budget 55 --dir stardust"
+          },
+          "codeStamp": "f085edeade7252cf",
+          "invocation": "deployed-gate.mjs all --page learning-and-support-learning --waiver-budget 55"
+        },
+        "step10": {
+          "eyeball": "pass",
+          "cls": "0.0000",
+          "header": "pass",
+          "verdict": "PASS",
+          "note": "preview eyeball 1440 + 360 vs reskin page; CLS probe with nav/footer/fonts delayed 1.5s at 1440 and 390; mobile menu opens (aria-expanded true), Escape closes",
+          "by": "claude",
+          "at": "2026-11-05T05:05:29Z"
+        }
+      },
+      "status": "gated",
+      "prototypeSha": "0925840f97e7",
+      "prototypePath": "stardust/reskin/pages/learning-and-support-learning.html",
+      "recordedAt": "2026-11-05T07:48:02Z",
+      "residualHistory": [
+        {
+          "at": "2026-11-05T05:04:14Z",
+          "action": "remove",
+          "gate": "figma.join",
+          "cause": "preview join: s08 has no heading, so its anchor is the slot text including the cards block's generated arrow ligature 'east', which is not in .plain.html; the section is authored and decorated (parity PASS)",
+          "verdict": "accepted",
+          "by": null,
+          "note": null
+        }
+      ],
+      "eyeball": {
+        "verdict": "pass",
+        "note": "reads as the Kay donor: tracked display headings, square CTAs, edge-to-edge tiles, greige/porcelain bands, dark footer; content byte-identical",
+        "at": "2026-11-05T05:05:29Z"
+      },
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/learning-and-support-learning/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/learning-and-support-learning/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/learning-and-support-learning/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated"
+    },
+    "school-life-house-and-merit-system": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:36Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:02Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-house-and-merit-system/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/school-life-house-and-merit-system/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-house-and-merit-system/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T06:41:35Z"
+    },
+    "about-us-our-principal-and-staff": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:35Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:01Z"
+        },
+        {
+          "gate": "deployed.tokens",
+          "class": "deployed.tokens",
+          "cause": "first-match probes: the first heading/button sits on a dark band (light variant, correct) or the page has no primary CTA; section-rhythm reads 0px on hero/quote bands whose block owns its 80px padding",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:47:01Z"
+        },
+        {
+          "gate": "deployed.inherited",
+          "class": "deployed.inherited",
+          "cause": "qa-gate pairs schema sections with block instances by order; table blocks authored inside prose sections shift the pairing (tooling limitation; block-roundtrip and davids-model-lint pass)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:47:01Z"
+        },
+        {
+          "gate": "deployed.parity",
+          "class": "deployed.parity",
+          "cause": "s08 link-tile band 10.4% / 12.1% shorter than the reskin page (bar 10%); content identical",
+          "verdict": "needs-owner",
+          "note": null,
+          "at": "2026-11-05T07:47:01Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us-our-principal-and-staff/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/about-us-our-principal-and-staff/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us-our-principal-and-staff/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T07:48:38Z",
+      "gates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/reports/about-us-our-principal-and-staff-content-gate.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/reports/about-us-our-principal-and-staff-slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/reports/about-us-our-principal-and-staff-donor-probe.md"
+        },
+        "mobile-adapt-static": {
+          "verdict": "PASS"
+        },
+        "mobile-adapt-runtime": {
+          "verdict": "PASS"
+        },
+        "figma": {
+          "missing": "figma-gate all not run (Phase 5 (d))"
+        },
+        "deployed": {
+          "regime": "preview",
+          "url": "https://reskin--signat-figma-migration--sanyasandal.aem.page/reskin/about-us/our-principal-and-staff",
+          "content": "FAIL 1/2",
+          "tokens": "FAIL 3/70",
+          "parity": "FAIL 2/11",
+          "sanity": {
+            "verdict": "PASS",
+            "hard": true
+          },
+          "inherited": "FAIL 1/3",
+          "chrome": {
+            "verdict": "PASS",
+            "hard": true
+          },
+          "figma": "not run: no figma checks",
+          "codeStamp": "f085edeade7252cf",
+          "invocation": "deployed-gate.mjs all --page about-us-our-principal-and-staff --waiver-budget 55"
+        }
+      },
+      "status": "failing",
+      "prototypeSha": "9d966772821f",
+      "prototypePath": "stardust/reskin/pages/about-us-our-principal-and-staff.html"
+    },
+    "learning-and-support-additional-learning-support": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:35Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:01Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/learning-and-support-additional-learning-support/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/learning-and-support-additional-learning-support/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/learning-and-support-additional-learning-support/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T06:41:33Z"
+    },
+    "school-life-parent-portal": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:35Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:01Z"
+        },
+        {
+          "gate": "deployed.tokens",
+          "class": "deployed.tokens",
+          "cause": "first-match probes: the first heading/button sits on a dark band (light variant, correct) or the page has no primary CTA; section-rhythm reads 0px on hero/quote bands whose block owns its 80px padding",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:47:01Z"
+        },
+        {
+          "gate": "deployed.inherited",
+          "class": "deployed.inherited",
+          "cause": "qa-gate pairs schema sections with block instances by order; table blocks authored inside prose sections shift the pairing (tooling limitation; block-roundtrip and davids-model-lint pass); ai-readability 96: short page, header/footer words load as fragments by EDS convention",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:47:01Z"
+        },
+        {
+          "gate": "deployed.parity",
+          "class": "deployed.parity",
+          "cause": "s06/s07 bands 11–14% shorter than the reskin page; mobile pixel 24%; content identical",
+          "verdict": "needs-owner",
+          "note": null,
+          "at": "2026-11-05T07:47:01Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-parent-portal/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/school-life-parent-portal/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-parent-portal/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T07:48:37Z",
+      "gates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/reports/school-life-parent-portal-content-gate.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/reports/school-life-parent-portal-slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/reports/school-life-parent-portal-donor-probe.md"
+        },
+        "mobile-adapt-static": {
+          "verdict": "PASS"
+        },
+        "mobile-adapt-runtime": {
+          "verdict": "PASS"
+        },
+        "figma": {
+          "missing": "figma-gate all not run (Phase 5 (d))"
+        },
+        "deployed": {
+          "regime": "preview",
+          "url": "https://reskin--signat-figma-migration--sanyasandal.aem.page/reskin/school-life/parent-portal",
+          "content": "FAIL 1/2",
+          "tokens": "FAIL 4/70",
+          "parity": "FAIL 4/11",
+          "sanity": {
+            "verdict": "PASS",
+            "hard": true
+          },
+          "inherited": "FAIL 1/3",
+          "chrome": {
+            "verdict": "PASS",
+            "hard": true
+          },
+          "figma": "not run: no figma checks",
+          "codeStamp": "f085edeade7252cf",
+          "invocation": "deployed-gate.mjs all --page school-life-parent-portal --waiver-budget 55"
+        }
+      },
+      "status": "failing",
+      "prototypeSha": "010a8e6de0dd",
+      "prototypePath": "stardust/reskin/pages/school-life-parent-portal.html"
+    },
+    "about-us-enrol": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:35Z"
+        },
+        {
+          "gate": "reskin-donor-probe",
+          "cause": "probe samples the first main .btn, which sits on a dark band and correctly takes the donor on-dark light button (buttons.secondary)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:35Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:01Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us-enrol/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/about-us-enrol/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/about-us-enrol/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T06:41:33Z"
+    },
+    "about-us-facilities-and-resources": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:35Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:01Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us-facilities-and-resources/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/about-us-facilities-and-resources/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us-facilities-and-resources/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T07:12:37Z"
+    },
+    "about-us-hsc-results": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:35Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:01Z"
+        },
+        {
+          "gate": "deployed.tokens",
+          "class": "deployed.tokens",
+          "cause": "first-match probes: the first heading/button sits on a dark band (light variant, correct) or the page has no primary CTA; section-rhythm reads 0px on hero/quote bands whose block owns its 80px padding",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:47:01Z"
+        },
+        {
+          "gate": "deployed.inherited",
+          "class": "deployed.inherited",
+          "cause": "qa-gate pairs schema sections with block instances by order; table blocks authored inside prose sections shift the pairing (tooling limitation; block-roundtrip and davids-model-lint pass)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:47:01Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us-hsc-results/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/about-us-hsc-results/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us-hsc-results/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T07:48:40Z",
+      "gates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/reports/about-us-hsc-results-content-gate.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/reports/about-us-hsc-results-slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/reports/about-us-hsc-results-donor-probe.md"
+        },
+        "mobile-adapt-static": {
+          "verdict": "PASS"
+        },
+        "mobile-adapt-runtime": {
+          "verdict": "PASS"
+        },
+        "figma": {
+          "missing": "figma-gate all not run (Phase 5 (d))"
+        },
+        "deployed": {
+          "regime": "preview",
+          "url": "https://reskin--signat-figma-migration--sanyasandal.aem.page/reskin/about-us/hsc-results",
+          "content": "FAIL 1/2",
+          "tokens": "FAIL 7/70",
+          "parity": "PASS",
+          "sanity": {
+            "verdict": "PASS",
+            "hard": true
+          },
+          "inherited": "FAIL 1/3",
+          "chrome": {
+            "verdict": "PASS",
+            "hard": true
+          },
+          "figma": "not run: no figma checks",
+          "codeStamp": "f085edeade7252cf",
+          "invocation": "deployed-gate.mjs all --page about-us-hsc-results --waiver-budget 55"
+        }
+      },
+      "status": "failing",
+      "prototypeSha": "8bc139894e54",
+      "prototypePath": "stardust/reskin/pages/about-us-hsc-results.html"
+    },
+    "about-us-policies-and-reports-nsw-public-school-information": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:35Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:01Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us-policies-and-reports-nsw-public-school-information/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/about-us-policies-and-reports-nsw-public-school-information/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us-policies-and-reports-nsw-public-school-information/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T06:41:33Z"
+    },
+    "about-us-policies-and-reports": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:35Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:01Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us-policies-and-reports/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/about-us-policies-and-reports/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us-policies-and-reports/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T06:41:34Z"
+    },
+    "about-us-school-history-and-archives-fort-street-archives": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:35Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:01Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us-school-history-and-archives-fort-street-archives/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/about-us-school-history-and-archives-fort-street-archives/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us-school-history-and-archives-fort-street-archives/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T06:41:34Z"
+    },
+    "about-us-school-history-and-archives-the-fort-street-museum": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:35Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:01Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us-school-history-and-archives-the-fort-street-museum/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/about-us-school-history-and-archives-the-fort-street-museum/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us-school-history-and-archives-the-fort-street-museum/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T06:41:34Z"
+    },
+    "about-us-school-history-and-archives-the-fortian-digitised": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:35Z"
+        },
+        {
+          "gate": "reskin-donor-probe",
+          "cause": "probe samples the first main .btn, which sits on a dark band and correctly takes the donor on-dark light button (buttons.secondary)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:35Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:01Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us-school-history-and-archives-the-fortian-digitised/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/about-us-school-history-and-archives-the-fortian-digitised/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/about-us-school-history-and-archives-the-fortian-digitised/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T06:41:34Z"
+    },
+    "about-us-school-history-and-archives": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:35Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:01Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us-school-history-and-archives/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/about-us-school-history-and-archives/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us-school-history-and-archives/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T06:41:34Z"
+    },
+    "about-us-stories-and-highlights": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:35Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "source renders sections progressively: live reads measured 242/3532/4961/5121 chars across runs; the capture and the preview hold all 5121; current-page crumb has an empty href",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:01Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us-stories-and-highlights/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/about-us-stories-and-highlights/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us-stories-and-highlights/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T07:12:37Z"
+    },
+    "about-us-transition-to-high-school": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:36Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:01Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us-transition-to-high-school/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/about-us-transition-to-high-school/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us-transition-to-high-school/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T06:41:34Z"
+    },
+    "about-us-why-choose-us": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:36Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:01Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us-why-choose-us/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/about-us-why-choose-us/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us-why-choose-us/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T06:41:34Z"
+    },
+    "about-us": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:36Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:01Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/about-us/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/about-us/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T06:41:34Z"
+    },
+    "contact-us": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:36Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:01Z"
+        },
+        {
+          "gate": "deployed.tokens",
+          "class": "deployed.tokens",
+          "cause": "first-match probes: the first heading/button sits on a dark band (light variant, correct) or the page has no primary CTA; section-rhythm reads 0px on hero/quote bands whose block owns its 80px padding",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:47:01Z"
+        },
+        {
+          "gate": "deployed.inherited",
+          "class": "deployed.inherited",
+          "cause": "qa-gate pairs schema sections with block instances by order; table blocks authored inside prose sections shift the pairing (tooling limitation; block-roundtrip and davids-model-lint pass)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:47:01Z"
+        },
+        {
+          "gate": "deployed.parity",
+          "class": "deployed.parity",
+          "cause": "mobile pixel 10.57% (bar 10%): the Google Map embed is on the preview only (not in the reskin page)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:47:01Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/contact-us/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/contact-us/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/contact-us/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T07:47:03Z"
+    },
+    "learning-and-support-careers": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:36Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:01Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/learning-and-support-careers/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/learning-and-support-careers/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/learning-and-support-careers/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T07:12:37Z"
+    },
+    "learning-and-support-high-potential-and-gifted-education": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:36Z"
+        },
+        {
+          "gate": "reskin-donor-probe",
+          "cause": "probe samples the first main .btn, which sits on a dark band and correctly takes the donor on-dark light button (buttons.secondary)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:36Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:01Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/learning-and-support-high-potential-and-gifted-education/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/learning-and-support-high-potential-and-gifted-education/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/learning-and-support-high-potential-and-gifted-education/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T07:12:37Z"
+    },
+    "learning-and-support-wellbeing": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:36Z"
+        },
+        {
+          "gate": "reskin-donor-probe",
+          "cause": "probe samples the first main .btn, which sits on a dark band and correctly takes the donor on-dark light button (buttons.secondary)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:36Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:01Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/learning-and-support-wellbeing/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/learning-and-support-wellbeing/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/learning-and-support-wellbeing/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T06:41:34Z"
+    },
+    "learning-and-support": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:36Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:01Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/learning-and-support/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/learning-and-support/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/learning-and-support/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T06:41:34Z"
+    },
+    "our-community-alumni": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:36Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:01Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/our-community-alumni/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/our-community-alumni/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/our-community-alumni/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T06:41:34Z"
+    },
+    "our-community-fortians-union": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:36Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:01Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/our-community-fortians-union/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/our-community-fortians-union/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/our-community-fortians-union/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T06:41:34Z"
+    },
+    "our-community-foundation-tertiary-bursaries": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:36Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:02Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/our-community-foundation-tertiary-bursaries/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/our-community-foundation-tertiary-bursaries/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/our-community-foundation-tertiary-bursaries/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T06:41:34Z"
+    },
+    "our-community-pandc": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:36Z"
+        },
+        {
+          "gate": "reskin-donor-probe",
+          "cause": "probe samples the first main .btn, which sits on a dark band and correctly takes the donor on-dark light button (buttons.secondary)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:36Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:02Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/our-community-pandc/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/our-community-pandc/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/our-community-pandc/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T06:41:34Z"
+    },
+    "our-community": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:36Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:02Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/our-community/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/our-community/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/our-community/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T06:41:34Z"
+    },
+    "school-life-bell-times": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:36Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:02Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-bell-times/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/school-life-bell-times/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-bell-times/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T06:41:34Z"
+    },
+    "school-life-bring-your-own-device": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:36Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:02Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-bring-your-own-device/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/school-life-bring-your-own-device/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-bring-your-own-device/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T06:41:34Z"
+    },
+    "school-life-canteen": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:36Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:02Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-canteen/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/school-life-canteen/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-canteen/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T06:41:34Z"
+    },
+    "school-life-events": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:36Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:02Z"
+        },
+        {
+          "gate": "deployed.tokens",
+          "class": "deployed.tokens",
+          "cause": "first-match probes: the first heading/button sits on a dark band (light variant, correct) or the page has no primary CTA; section-rhythm reads 0px on hero/quote bands whose block owns its 80px padding",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:47:01Z"
+        },
+        {
+          "gate": "deployed.inherited",
+          "class": "deployed.inherited",
+          "cause": "qa-gate pairs schema sections with block instances by order; table blocks authored inside prose sections shift the pairing (tooling limitation; block-roundtrip and davids-model-lint pass)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:47:01Z"
+        },
+        {
+          "gate": "deployed.parity",
+          "class": "deployed.parity",
+          "cause": "event-card grid pixel 21% / 29% vs the reskin page; content identical",
+          "verdict": "needs-owner",
+          "note": null,
+          "at": "2026-11-05T07:47:01Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-events/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/school-life-events/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-events/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T07:48:39Z",
+      "gates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/reports/school-life-events-content-gate.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/reports/school-life-events-slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/reports/school-life-events-donor-probe.md"
+        },
+        "mobile-adapt-static": {
+          "verdict": "PASS"
+        },
+        "mobile-adapt-runtime": {
+          "verdict": "PASS"
+        },
+        "figma": {
+          "missing": "figma-gate all not run (Phase 5 (d))"
+        },
+        "deployed": {
+          "regime": "preview",
+          "url": "https://reskin--signat-figma-migration--sanyasandal.aem.page/reskin/school-life/events",
+          "content": "FAIL 1/2",
+          "tokens": "FAIL 4/70",
+          "parity": "FAIL 3/11",
+          "sanity": {
+            "verdict": "PASS",
+            "hard": true
+          },
+          "inherited": "FAIL 1/3",
+          "chrome": {
+            "verdict": "PASS",
+            "hard": true
+          },
+          "figma": "not run: no figma checks",
+          "codeStamp": "f085edeade7252cf",
+          "invocation": "deployed-gate.mjs all --page school-life-events --waiver-budget 55"
+        }
+      },
+      "status": "failing",
+      "prototypeSha": "8ef03bca6b4e",
+      "prototypePath": "stardust/reskin/pages/school-life-events.html"
+    },
+    "school-life-forms": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:36Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:02Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-forms/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/school-life-forms/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-forms/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T06:41:35Z"
+    },
+    "school-life-lockers-and-lost-property": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:36Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:02Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-lockers-and-lost-property/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/school-life-lockers-and-lost-property/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-lockers-and-lost-property/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T06:41:35Z"
+    },
+    "school-life-stationery": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:36Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:02Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-stationery/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/school-life-stationery/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-stationery/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T06:41:35Z"
+    },
+    "school-life-student-opportunities-and-activities-academic-competitions": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:37Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:02Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-academic-competitions/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-academic-competitions/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-academic-competitions/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T06:41:35Z"
+    },
+    "school-life-student-opportunities-and-activities-clubs-and-committees": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:37Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:02Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-clubs-and-committees/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-clubs-and-committees/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-clubs-and-committees/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T06:41:35Z"
+    },
+    "school-life-student-opportunities-and-activities-creative-and-performing-arts": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:37Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:02Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-creative-and-performing-arts/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-creative-and-performing-arts/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-creative-and-performing-arts/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T06:41:35Z"
+    },
+    "school-life-student-opportunities-and-activities-debating-and-public-speaking": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:37Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:02Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-debating-and-public-speaking/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-debating-and-public-speaking/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-debating-and-public-speaking/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T06:41:35Z"
+    },
+    "school-life-student-opportunities-and-activities-duke-of-edinburgh-award": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:37Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:02Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-duke-of-edinburgh-award/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-duke-of-edinburgh-award/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-duke-of-edinburgh-award/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T07:12:37Z"
+    },
+    "school-life-student-opportunities-and-activities-instrumental-music-program": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:37Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:02Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-instrumental-music-program/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-instrumental-music-program/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-instrumental-music-program/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T06:41:35Z"
+    },
+    "school-life-student-opportunities-and-activities-robotics-and-maker-society": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:37Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:02Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-robotics-and-maker-society/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-robotics-and-maker-society/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-robotics-and-maker-society/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T06:41:35Z"
+    },
+    "school-life-student-opportunities-and-activities-sport": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:37Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:02Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-sport/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-sport/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-sport/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T06:41:35Z"
+    },
+    "school-life-student-opportunities-and-activities-student-leadership-opportunities": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:37Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:02Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-student-leadership-opportunities/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-student-leadership-opportunities/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities-student-leadership-opportunities/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T06:41:35Z"
+    },
+    "school-life-student-opportunities-and-activities": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:37Z"
+        },
+        {
+          "gate": "reskin-donor-probe",
+          "cause": "probe samples the first main .btn, which sits on a dark band and correctly takes the donor on-dark light button (buttons.secondary)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:37Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:02Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/school-life-student-opportunities-and-activities/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T06:41:35Z"
+    },
+    "school-life-travel-to-school": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:37Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:03Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-travel-to-school/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/school-life-travel-to-school/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-travel-to-school/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T06:41:35Z"
+    },
+    "school-life-uniform-uniform-shop": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:37Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:03Z"
+        },
+        {
+          "gate": "deployed.tokens",
+          "class": "deployed.tokens",
+          "cause": "first-match probes: no primary CTA on the page; section-rhythm reads 0px on bands whose block owns its padding",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:53:10Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-uniform-uniform-shop/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/school-life-uniform-uniform-shop/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-uniform-uniform-shop/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T07:53:10Z",
+      "gates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/reports/school-life-uniform-uniform-shop-content-gate.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/reports/school-life-uniform-uniform-shop-slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/reports/school-life-uniform-uniform-shop-donor-probe.md"
+        },
+        "mobile-adapt-static": {
+          "verdict": "PASS"
+        },
+        "mobile-adapt-runtime": {
+          "verdict": "PASS"
+        },
+        "figma": {
+          "missing": "figma-gate all not run (Phase 5 (d))"
+        },
+        "deployed": {
+          "regime": "preview",
+          "url": "https://reskin--signat-figma-migration--sanyasandal.aem.page/reskin/school-life/uniform/uniform-shop",
+          "content": "FAIL 1/2",
+          "tokens": "FAIL 7/70",
+          "parity": "PASS",
+          "sanity": {
+            "verdict": "PASS",
+            "hard": true
+          },
+          "inherited": "FAIL 1/3",
+          "chrome": {
+            "verdict": "PASS",
+            "hard": true
+          },
+          "figma": "not run: no figma checks",
+          "codeStamp": "f085edeade7252cf",
+          "invocation": "deployed-gate.mjs all --page school-life-uniform-uniform-shop --waiver-budget 55"
+        }
+      },
+      "status": "failing",
+      "prototypeSha": "215d0a7184a5",
+      "prototypePath": "stardust/reskin/pages/school-life-uniform-uniform-shop.html"
+    },
+    "school-life-uniform": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:37Z"
+        },
+        {
+          "gate": "reskin-donor-probe",
+          "cause": "probe samples the first main .btn, which sits on a dark band and correctly takes the donor on-dark light button (buttons.secondary)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:37Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:03Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-uniform/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/school-life-uniform/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/school-life-uniform/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T07:12:37Z"
+    },
+    "school-life": {
+      "residuals": [
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:12:37Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:03Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/school-life/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T06:41:35Z"
+    },
+    "our-community-foundation": {
+      "residuals": [
+        {
+          "gate": "reskin-dom-equality",
+          "cause": "source garbage: the live page carries a broken image (src about:error) in s02; carried as a flag, not rendered — image count source 5 vs 4; text byte-equal",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T06:41:33Z"
+        },
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "s02 broken source image (about:error) not rendered; current-page crumb has an empty href; all text and other images present",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T06:41:33Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "s02 broken source image (src about:error) not carried (flagged source garbage); current-page crumb has an empty href; text byte-equal",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:02Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/our-community-foundation/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/our-community-foundation/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/our-community-foundation/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T06:41:34Z"
+    },
+    "school-life-newsletters": {
+      "residuals": [
+        {
+          "gate": "reskin-dom-equality",
+          "cause": "dynamic dependency: the Facebook feed block fetches live posts; the feed changed after capture (image set differs); text byte-equal; snapshot carried (dynamic-features.md)",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T06:41:33Z"
+        },
+        {
+          "gate": "reskin-slot-coverage",
+          "cause": "live Facebook feed images changed since capture (static snapshot carried); current-page crumb has an empty href",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T06:41:33Z"
+        },
+        {
+          "gate": "deployed.content",
+          "class": "deployed.content",
+          "cause": "live Facebook feed images changed since capture (static snapshot carried, dynamic-features.md); current-page crumb has an empty href; text byte-equal",
+          "verdict": "accepted",
+          "note": null,
+          "at": "2026-11-05T07:20:02Z"
+        }
+      ],
+      "flags": [],
+      "migratedGates": {
+        "reskin-dom-equality": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/school-life-newsletters/migrated/dom-equality.md"
+        },
+        "reskin-slot-coverage": {
+          "verdict": "FAIL",
+          "report": "stardust/reskin/gates/school-life-newsletters/migrated/slot-coverage.md"
+        },
+        "reskin-donor-probe": {
+          "verdict": "PASS",
+          "report": "stardust/reskin/gates/school-life-newsletters/migrated/donor-probe.md"
+        }
+      },
+      "migratedStatus": "gated",
+      "recordedAt": "2026-11-05T06:41:35Z"
+    }
+  },
+  "handoff": {
+    "home": {
+      "gates": {
+        "home": {
+          "reskin-dom-equality": "PASS — stardust/reskin/reports/home-content-gate.md",
+          "reskin-slot-coverage": "PASS — stardust/reskin/reports/home-slot-coverage.md",
+          "mobile-adapt-static": "PASS",
+          "mobile-adapt-runtime": "PASS",
+          "figma.join": "PASS",
+          "figma.geometry": "PASS",
+          "deployed.content": "PASS",
+          "deployed.sanity": "PASS",
+          "deployed.inherited": "PASS",
+          "deployed.chrome": "PASS",
+          "deployed.figma.join": "PASS",
+          "deployed.figma.geometry": "PASS",
+          "step10": "PASS"
+        }
+      },
+      "siblings": {
+        "home": {
+          "gate": "gated",
+          "residuals": [
+            "probe samples the first main .btn, the hero CTA on the dark panel, which correctly takes the donor's on-dark light button (buttons.secondary); light-band buttons carry buttons.primary",
+            "the token probe samples the first main a.button.primary, the hero CTA on the dark panel, which takes the donor's on-dark light button (buttons.secondary); light-band CTAs carry buttons.primary",
+            "remaining after the owner-requested fix round: (1) font.unserved — Apercu Pro licensed, fallback served; (2) content-differs — M2 promo row (18px) has no source counterpart; (3) renderer-composition — card titles/bodies use 13px body and 20px link roles vs donor 26px overlay titles (M2), 10px caps labels + 11px body (M11), 11px captions (M10); (4) renderer-composition — M5 80px statement heading has no type role (56px display); (5) body tracking -0.39px on donor statement copy not applied",
+            "footer crop @360 2.52% (bar 2%): footer content identical (positions within 1px); residual is text rasterisation in the stitched captures",
+            "same remaining type-ramp gaps as the local figma.ramp residual (font.unserved, M5 80px statement role, card label/body roles, donor body tracking); needs owner sign-off"
+          ]
+        }
+      },
+      "archetype": "home",
+      "prototypePath": "stardust/reskin/pages/home.html",
+      "prototypeSha": "715044d86445",
+      "registeredAt": "2026-11-05T07:47:01Z",
+      "tier": {
+        "claimed": "reskin-archetype",
+        "passed": [
+          "reskin-dom-equality",
+          "reskin-slot-coverage",
+          "mobile-adapt-static",
+          "mobile-adapt-runtime",
+          "figma.join",
+          "figma.geometry",
+          "deployed.content",
+          "deployed.sanity",
+          "deployed.inherited",
+          "deployed.chrome",
+          "deployed.figma.join",
+          "deployed.figma.geometry",
+          "step10"
+        ],
+        "waived": [
+          "critique",
+          "audit",
+          "anti-template",
+          "content-sourcing",
+          "motion-validation"
+        ]
+      }
+    },
+    "content": {
+      "gates": {
+        "learning-and-support-learning": {
+          "reskin-dom-equality": "PASS — stardust/reskin/reports/learning-and-support-learning-content-gate.md",
+          "mobile-adapt-static": "PASS",
+          "mobile-adapt-runtime": "PASS",
+          "figma.join": "PASS",
+          "figma.geometry": "PASS",
+          "deployed.parity": "PASS",
+          "deployed.sanity": "PASS",
+          "deployed.inherited": "PASS",
+          "deployed.chrome": "PASS",
+          "step10": "PASS"
+        },
+        "school-life-parent-portal": {
+          "reskin-dom-equality": "PASS — stardust/reskin/reports/school-life-parent-portal-content-gate.md",
+          "reskin-donor-probe": "PASS — stardust/reskin/reports/school-life-parent-portal-donor-probe.md",
+          "mobile-adapt-static": "PASS",
+          "mobile-adapt-runtime": "PASS",
+          "deployed.sanity": "PASS",
+          "deployed.chrome": "PASS"
+        },
+        "about-us-our-principal-and-staff": {
+          "reskin-dom-equality": "PASS — stardust/reskin/reports/about-us-our-principal-and-staff-content-gate.md",
+          "reskin-donor-probe": "PASS — stardust/reskin/reports/about-us-our-principal-and-staff-donor-probe.md",
+          "mobile-adapt-static": "PASS",
+          "mobile-adapt-runtime": "PASS",
+          "deployed.sanity": "PASS",
+          "deployed.chrome": "PASS"
+        },
+        "school-life-events": {
+          "reskin-dom-equality": "PASS — stardust/reskin/reports/school-life-events-content-gate.md",
+          "reskin-donor-probe": "PASS — stardust/reskin/reports/school-life-events-donor-probe.md",
+          "mobile-adapt-static": "PASS",
+          "mobile-adapt-runtime": "PASS",
+          "deployed.sanity": "PASS",
+          "deployed.chrome": "PASS"
+        },
+        "about-us-hsc-results": {
+          "reskin-dom-equality": "PASS — stardust/reskin/reports/about-us-hsc-results-content-gate.md",
+          "reskin-donor-probe": "PASS — stardust/reskin/reports/about-us-hsc-results-donor-probe.md",
+          "mobile-adapt-static": "PASS",
+          "mobile-adapt-runtime": "PASS",
+          "deployed.parity": "PASS",
+          "deployed.sanity": "PASS",
+          "deployed.chrome": "PASS"
+        },
+        "school-life-uniform-uniform-shop": {
+          "reskin-dom-equality": "PASS — stardust/reskin/reports/school-life-uniform-uniform-shop-content-gate.md",
+          "reskin-donor-probe": "PASS — stardust/reskin/reports/school-life-uniform-uniform-shop-donor-probe.md",
+          "mobile-adapt-static": "PASS",
+          "mobile-adapt-runtime": "PASS",
+          "deployed.parity": "PASS",
+          "deployed.sanity": "PASS",
+          "deployed.chrome": "PASS"
+        }
+      },
+      "siblings": {
+        "about-us-facilities-and-resources": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
+        },
+        "learning-and-support-careers": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
+        },
+        "learning-and-support-high-potential-and-gifted-education": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "probe samples the first main .btn, which sits on a dark band and correctly takes the donor on-dark light button (buttons.secondary)"
+          ]
+        },
+        "about-us-stories-and-highlights": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
+        },
+        "school-life-uniform": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "probe samples the first main .btn, which sits on a dark band and correctly takes the donor on-dark light button (buttons.secondary)"
+          ]
+        },
+        "school-life-student-opportunities-and-activities-duke-of-edinburgh-award": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)"
+          ]
+        },
+        "about-us-our-principal-and-staff": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "first-match probes: the first heading/button sits on a dark band (light variant, correct) or the page has no primary CTA; section-rhythm reads 0px on hero/quote bands whose block owns its 80px padding",
+            "qa-gate pairs schema sections with block instances by order; table blocks authored inside prose sections shift the pairing (tooling limitation; block-roundtrip and davids-model-lint pass)",
+            "s08 link-tile band 10.4% / 12.1% shorter than the reskin page (bar 10%); content identical"
+          ]
+        },
+        "school-life-parent-portal": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "first-match probes: the first heading/button sits on a dark band (light variant, correct) or the page has no primary CTA; section-rhythm reads 0px on hero/quote bands whose block owns its 80px padding",
+            "qa-gate pairs schema sections with block instances by order; table blocks authored inside prose sections shift the pairing (tooling limitation; block-roundtrip and davids-model-lint pass); ai-readability 96: short page, header/footer words load as fragments by EDS convention",
+            "s06/s07 bands 11–14% shorter than the reskin page; mobile pixel 24%; content identical"
+          ]
+        },
+        "contact-us": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "first-match probes: the first heading/button sits on a dark band (light variant, correct) or the page has no primary CTA; section-rhythm reads 0px on hero/quote bands whose block owns its 80px padding",
+            "qa-gate pairs schema sections with block instances by order; table blocks authored inside prose sections shift the pairing (tooling limitation; block-roundtrip and davids-model-lint pass)",
+            "mobile pixel 10.57% (bar 10%): the Google Map embed is on the preview only (not in the reskin page)"
+          ]
+        },
+        "about-us-hsc-results": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "first-match probes: the first heading/button sits on a dark band (light variant, correct) or the page has no primary CTA; section-rhythm reads 0px on hero/quote bands whose block owns its 80px padding",
+            "qa-gate pairs schema sections with block instances by order; table blocks authored inside prose sections shift the pairing (tooling limitation; block-roundtrip and davids-model-lint pass)"
+          ]
+        },
+        "school-life-events": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "first-match probes: the first heading/button sits on a dark band (light variant, correct) or the page has no primary CTA; section-rhythm reads 0px on hero/quote bands whose block owns its 80px padding",
+            "qa-gate pairs schema sections with block instances by order; table blocks authored inside prose sections shift the pairing (tooling limitation; block-roundtrip and davids-model-lint pass)",
+            "event-card grid pixel 21% / 29% vs the reskin page; content identical"
+          ]
+        },
+        "learning-and-support-learning": {
+          "gate": "gated",
+          "residuals": [
+            "current-page breadcrumb crumb has an empty href on the source (absHref ''); slot-coverage reads only a[href], so the crumb (rendered as <a aria-current=page>, text gate PASS) cannot match",
+            "modelHasButton counts the 8 accordion toggle labels (text in <button>) as buttons; they render as .disclosure-toggle and the page has no primary CTA, so the 5 'main .btn' probes cannot match",
+            "the page has no primary CTA (accordion toggles are disclosure buttons), so the 5 'main a.button.primary' probes match nothing",
+            "current-page breadcrumb crumb has an empty href on the source; slot-coverage reads only a[href]; the crumb text is present (dom-equality PASS)",
+            "preview join: s08 has no heading, so its anchor is the slot text including the cards block's generated arrow ligature 'east', which is not in .plain.html; the section is authored and decorated (parity PASS)",
+            "not run on the preview (join drift above); local geometry PASS 8/8 and preview parity PASS",
+            "remaining after the owner-requested fix round: (1) font.unserved — Apercu Pro licensed, fallback served; (2) renderer-composition — M5 80px statement heading has no type role (56px display) on s02/s05/s06; (3) content-differs — M5 CTA measured against inline prose links; quote band paragraph measured against the 56px M9 headline; (4) renderer-composition — M11 card labels 20px link role vs donor 10px caps + 11px body; section-nav list 13px vs 16px M3 tab role; (5) body tracking -0.39px not applied",
+            "not run on the preview (join drift); same remaining type-ramp gaps as the local figma.ramp residual; needs owner sign-off"
+          ]
+        }
+      },
+      "archetype": "learning-and-support-learning",
+      "prototypePath": "stardust/reskin/pages/learning-and-support-learning.html",
+      "prototypeSha": "0925840f97e7",
+      "registeredAt": "2026-11-05T07:47:02Z",
+      "tier": {
+        "claimed": "reskin-archetype",
+        "passed": [
+          "reskin-dom-equality",
+          "mobile-adapt-static",
+          "mobile-adapt-runtime",
+          "figma.join",
+          "figma.geometry",
+          "deployed.parity",
+          "deployed.sanity",
+          "deployed.inherited",
+          "deployed.chrome",
+          "step10"
+        ],
+        "waived": [
+          "critique",
+          "audit",
+          "anti-template",
+          "content-sourcing",
+          "motion-validation"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+import { chromium } from 'playwright';
+const [url, out, width='1440'] = process.argv.slice(2);
+const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: +width, height: 900 } });
+const errs=[]; p.on('pageerror', e=>errs.push(e.message)); p.on('console', m=>{ if(m.type()==='error') errs.push(m.text()); });
+await p.goto(url, { waitUntil: 'load' });
+await p.evaluate(async()=>{for(let y=0;y<document.body.scrollHeight;y+=500){window.scrollTo(0,y);await new Promise(r=>setTimeout(r,120));} window.scrollTo(0,0);});
+await p.waitForFunction(()=>[...document.querySelectorAll("main > .section")].every(s=>s.dataset.sectionStatus==="loaded"),null,{timeout:60000}).catch(()=>{}); await p.waitForTimeout(1500);
+await p.screenshot({ path: out, fullPage: true });
+console.log('errors:', errs.slice(0,5).join(' | ') || 'none');
+await b.close();

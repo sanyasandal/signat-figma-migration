@@ -1,0 +1,64 @@
+{
+  "slug": "school-life-parent-portal",
+  "type": "content",
+  "renderBranch": "A'",
+  "template": "learning-and-support-learning",
+  "modules": [
+    "M3",
+    "M5b",
+    "M6",
+    "M9b",
+    "M11b"
+  ],
+  "slotsFilled": [
+    "s01",
+    "s02",
+    "s03",
+    "s04",
+    "s05",
+    "s06",
+    "s07",
+    "s08",
+    "s09",
+    "s10"
+  ],
+  "canonShas": {
+    "header": "1e8e0c3eebea",
+    "footer": "a8b6d4b37731",
+    "css": "5fe9e7ffc80e"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Parent portal",
+    "description": "At Fort Street High School, we use parent portal apps to communicate to our families. Our apps are for student attendance matters, booking parent and teacher interviews, accessing academic reports, making payments, viewing financial records and giving parental consent for school events.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Parent portal",
+    "description": "At Fort Street High School, we use parent portal apps to communicate to our families. Our apps are for student attendance matters, booking parent and teacher interviews, accessing academic reports, making payments, viewing financial records and giving parental consent for school events.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal"
+  },
+  "migratedAt": "2026-11-05T06:33:01Z",
+  "designMdSha": "187c3f2f159f",
+  "designJsonSha": "2d96d5b1c55f",
+  "sourceCurrentSha": "e24e23ae14b9",
+  "sourceProposedSha": "010a8e6de0dd",
+  "fidelityTier": "sibling",
+  "archetypeSource": "learning-and-support-learning",
+  "archetypeSha": "0925840f97e7",
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 5,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "school-life/parent-portal/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "school-life/parent-portal/_meta.json",
+  "driverVersion": "1"
+}

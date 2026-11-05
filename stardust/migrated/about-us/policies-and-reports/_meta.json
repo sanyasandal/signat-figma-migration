@@ -1,0 +1,62 @@
+{
+  "slug": "about-us-policies-and-reports",
+  "type": "content",
+  "renderBranch": "A'",
+  "template": "learning-and-support-learning",
+  "modules": [
+    "M3",
+    "M5b",
+    "M9b",
+    "M11b"
+  ],
+  "slotsFilled": [
+    "s01",
+    "s02",
+    "s03",
+    "s04",
+    "s05",
+    "s06",
+    "s07",
+    "s08",
+    "s09"
+  ],
+  "canonShas": {
+    "header": "1e8e0c3eebea",
+    "footer": "a8b6d4b37731",
+    "css": "5fe9e7ffc80e"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Policies and reports",
+    "description": "At Fort Street High School, our policies and reports help families understand how our school works. Our annual report and school plan show what we’ve done and how we’re improving each year.  Our polices address attendance, absences, behaviour, uniform and how we respond to your concerns.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Policies and reports",
+    "description": "At Fort Street High School, our policies and reports help families understand how our school works. Our annual report and school plan show what we’ve done and how we’re improving each year.  Our polices address attendance, absences, behaviour, uniform and how we respond to your concerns.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports"
+  },
+  "migratedAt": "2026-11-05T06:33:01Z",
+  "designMdSha": "187c3f2f159f",
+  "designJsonSha": "2d96d5b1c55f",
+  "sourceCurrentSha": "9a8df1a6a4bd",
+  "sourceProposedSha": "484d148806bf",
+  "fidelityTier": "sibling",
+  "archetypeSource": "learning-and-support-learning",
+  "archetypeSha": "0925840f97e7",
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 4,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "about-us/policies-and-reports/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "about-us/policies-and-reports/_meta.json",
+  "driverVersion": "1"
+}

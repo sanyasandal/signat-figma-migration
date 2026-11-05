@@ -1,0 +1,90 @@
+{
+  "slug": "learning-and-support-learning",
+  "type": "content",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "M3",
+    "M5b",
+    "M11",
+    "M9b",
+    "M11b"
+  ],
+  "slotsFilled": [
+    "s01",
+    "s02",
+    "s03",
+    "s04",
+    "s05",
+    "s06",
+    "s07",
+    "s08",
+    "s09"
+  ],
+  "canonShas": {
+    "header": "1e8e0c3eebea",
+    "footer": "a8b6d4b37731",
+    "css": "5fe9e7ffc80e"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Learning",
+    "description": "At Fort Street High School, we follow the NSW curriculum. We offer a wide range of subjects to support every student’s learning journey. Our teachers use effective teaching strategies to help students reach their goals. We also provide learning support to assist students who need extra help, so all students can succeed.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/learning",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Learning",
+    "description": "At Fort Street High School, we follow the NSW curriculum. We offer a wide range of subjects to support every student’s learning journey. Our teachers use effective teaching strategies to help students reach their goals. We also provide learning support to assist students who need extra help, so all students can succeed.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/learning"
+  },
+  "migratedAt": "2026-11-05T06:33:01Z",
+  "designMdSha": "187c3f2f159f",
+  "designJsonSha": "2d96d5b1c55f",
+  "sourceCurrentSha": "be60aef79956",
+  "sourceProposedSha": "0925840f97e7",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [
+    "reskin-dom-equality",
+    "mobile-adapt-static",
+    "mobile-adapt-runtime",
+    "figma.join",
+    "figma.geometry",
+    "deployed.parity",
+    "deployed.sanity",
+    "deployed.inherited",
+    "deployed.chrome",
+    "step10"
+  ],
+  "gateEvidence": {
+    "reskin-dom-equality": "PASS — stardust/reskin/reports/learning-and-support-learning-content-gate.md",
+    "mobile-adapt-static": "PASS",
+    "mobile-adapt-runtime": "PASS",
+    "figma.join": "PASS",
+    "figma.geometry": "PASS",
+    "deployed.parity": "PASS",
+    "deployed.sanity": "PASS",
+    "deployed.inherited": "PASS",
+    "deployed.chrome": "PASS",
+    "step10": "PASS"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 4,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/www.primaryethics.com.au",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "learning-and-support/learning/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "learning-and-support/learning/_meta.json",
+  "driverVersion": "1"
+}

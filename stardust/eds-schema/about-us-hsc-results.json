@@ -1,0 +1,772 @@
+{
+  "source": "http://localhost:3000/stardust/reskin/pages/about-us-hsc-results.html",
+  "width": 1280,
+  "profile": "eds",
+  "sections": [
+    {
+      "section": "band",
+      "items": [
+        {
+          "role": "heading",
+          "order": 0,
+          "text": "HSC Distinguished Achievers"
+        },
+        {
+          "role": "heading",
+          "order": 1,
+          "text": "129 students achieved a mark of 90 or above in specific subjects."
+        },
+        {
+          "role": "body",
+          "order": 2,
+          "text": "Alonso Love, Eleanor: English Ext 1, Legal Studies, Modern History, History Ext, Spanish Cont, Spanish Ext"
+        },
+        {
+          "role": "body",
+          "order": 3,
+          "text": "Anand, Samyuktha: Biology, Chemistry, English Extension 1, Legal Studies, Mathematics Advanced"
+        },
+        {
+          "role": "body",
+          "order": 4,
+          "text": "*Anastasia, Maria Nicholette: Mathematics Advanced"
+        },
+        {
+          "role": "body",
+          "order": 5,
+          "text": "Bai, Xuan He Max: Chemistry, Mathematics Extension 1, Mathematics Extension 2"
+        },
+        {
+          "role": "body",
+          "order": 6,
+          "text": "Barker, Mia: English Extension 1, Modern History, History Extension, Society and Culture, Visual Arts"
+        },
+        {
+          "role": "body",
+          "order": 7,
+          "text": "Bentley, Claire: Society and Culture"
+        },
+        {
+          "role": "body",
+          "order": 8,
+          "text": "Burger, Christian: Earth and Environmental Science, Mathematics Advanced"
+        },
+        {
+          "role": "body",
+          "order": 9,
+          "text": "Cai, Kevin: Chemistry, Economics, English Advanced, Mathematics Extension 1, Mathematics Extension 2"
+        },
+        {
+          "role": "body",
+          "order": 10,
+          "text": "Cao, Eric: Mathematics Extension 1"
+        },
+        {
+          "role": "body",
+          "order": 11,
+          "text": "Casey, Oliver: Software Engineering"
+        },
+        {
+          "role": "body",
+          "order": 12,
+          "text": "*Chan, Xavier Shun Hei: Mathematics Advanced"
+        },
+        {
+          "role": "body",
+          "order": 13,
+          "text": "Chen, Alex: Mathematics Extension 1"
+        },
+        {
+          "role": "body",
+          "order": 14,
+          "text": "Chen, Rou-Ying: English Extension 1, English Extension 2"
+        },
+        {
+          "role": "body",
+          "order": 15,
+          "text": "*Chen, Wang: Mathematics Advanced"
+        },
+        {
+          "role": "body",
+          "order": 16,
+          "text": "Cheng, Edmund Ryan: Mathematics Extension 1, Mathematics Extension 2"
+        },
+        {
+          "role": "body",
+          "order": 17,
+          "text": "Cheng, Richard: Chinese Continuers"
+        },
+        {
+          "role": "body",
+          "order": 18,
+          "text": "Cheung, Brighton: Engineering Studies, Mathematics Extension 1, Mathematics Extension 2"
+        },
+        {
+          "role": "body",
+          "order": 19,
+          "text": "Cheung, Lucas: Mathematics Extension 1"
+        },
+        {
+          "role": "body",
+          "order": 20,
+          "text": "Chia, Thomas: Mathematics Advanced"
+        },
+        {
+          "role": "body",
+          "order": 21,
+          "text": "Deodhar, Aditya: Chemistry, English Advanced, Mathematics Ext 1, Mathematics Ext 2, Physics"
+        },
+        {
+          "role": "body",
+          "order": 22,
+          "text": "Dey, Charles: Geography, Mathematics Extension 1, Mathematics Extension 2"
+        },
+        {
+          "role": "body",
+          "order": 23,
+          "text": "Dharma, Janabelle Nadya: Biology, Mathematics Extension 1, Mathematics Advanced"
+        },
+        {
+          "role": "body",
+          "order": 24,
+          "text": "Diaz, Dante: English Extension 1, Geography, Personal Development, Health and Physical Education"
+        },
+        {
+          "role": "body",
+          "order": 25,
+          "text": "Dodai, Mohammad Amaan: Modern History"
+        },
+        {
+          "role": "body",
+          "order": 26,
+          "text": "Druery, Owen: Drama, English Extension 2, Mathematics Advanced"
+        },
+        {
+          "role": "body",
+          "order": 27,
+          "text": "Elemento, Alessandro Mikhael: Legal Studies"
+        },
+        {
+          "role": "body",
+          "order": 28,
+          "text": "Fan, Feiyi: Mathematics Extension 1, Mathematics Extension 2, Physics"
+        },
+        {
+          "role": "body",
+          "order": 29,
+          "text": "Gibian, Nina: Geography, Modern History, History Extension"
+        },
+        {
+          "role": "body",
+          "order": 30,
+          "text": "*Goel, Raghav: Mathematics Advanced"
+        },
+        {
+          "role": "body",
+          "order": 31,
+          "text": "Gray, Alistair: Legal Studies, Modern History, History Extension"
+        },
+        {
+          "role": "body",
+          "order": 32,
+          "text": "Hamilton-Brown, Declan: Mathematics Standard 2"
+        },
+        {
+          "role": "body",
+          "order": 33,
+          "text": "Hendra, Riley: Mathematics Extension 1, Mathematics Extension 2"
+        },
+        {
+          "role": "body",
+          "order": 34,
+          "text": "Ho, Michelle: Chinese Continuers, Chinese Extension"
+        },
+        {
+          "role": "body",
+          "order": 35,
+          "text": "Hong, Gina: Biology, Chemistry, English Advanced, Legal Studies, Mathematics Ext 1, Mathematics Ext 2"
+        },
+        {
+          "role": "body",
+          "order": 36,
+          "text": "Hooper, Poppy: Biology, Earth and Environmental Science, Visual Arts"
+        },
+        {
+          "role": "body",
+          "order": 37,
+          "text": "Howe, Liam: Mathematics Ext 1, Physics, Software Engineering"
+        },
+        {
+          "role": "body",
+          "order": 38,
+          "text": "Howes, Emma: Drama, Modern History, History Extension, German Extension"
+        },
+        {
+          "role": "body",
+          "order": 39,
+          "text": "Huang, Edmund: Music 2, Music Extension"
+        },
+        {
+          "role": "body",
+          "order": 40,
+          "text": "Huang, Henry: Mathematics Advanced"
+        },
+        {
+          "role": "body",
+          "order": 41,
+          "text": "Huang, Keith: English Advanced, English Extension 1, Mathematics Extension 1, Mathematics Ext 2"
+        },
+        {
+          "role": "body",
+          "order": 42,
+          "text": "Hui, Jaedene Jungmi: English Extension 1, Legal Studies"
+        },
+        {
+          "role": "body",
+          "order": 43,
+          "text": "Hurley-Stone, Emil: English Advanced, Geography, German Continuers, German Extension"
+        },
+        {
+          "role": "body",
+          "order": 44,
+          "text": "Hutchinson, Max: Economics, English Advanced, Mathematics Extension 1, Mathematics Extension 2"
+        },
+        {
+          "role": "body",
+          "order": 45,
+          "text": "*Jeney Mark, Ian: Mathematics Advanced"
+        },
+        {
+          "role": "body",
+          "order": 46,
+          "text": "Jin, Emily: Chemistry, Economics, English Advanced, English Ext 1, Math Ext 1, Math Advanced"
+        },
+        {
+          "role": "body",
+          "order": 47,
+          "text": "*Ju, Hyejeong Erin: Mathematics Advanced"
+        },
+        {
+          "role": "body",
+          "order": 48,
+          "text": "Kameron, Jasper: Mathematics Extension 1"
+        },
+        {
+          "role": "body",
+          "order": 49,
+          "text": "Hui, Jaedene Jungmi: English Extension 1, Legal Studies"
+        },
+        {
+          "role": "body",
+          "order": 50,
+          "text": "Hurley-Stone, Emil: English Advanced, Geography, German Continuers, German Extension"
+        },
+        {
+          "role": "body",
+          "order": 51,
+          "text": "Hutchinson, Max: Economics, English Advanced, Mathematics Extension 1, Mathematics Extension 2"
+        },
+        {
+          "role": "body",
+          "order": 52,
+          "text": "Jeney Mark, Ian: Mathematics Advanced"
+        },
+        {
+          "role": "body",
+          "order": 53,
+          "text": "Jin, Emily: Chemistry, Economics, English Advanced, English Ext 1, Mathematics Ext 1, Math Advanced"
+        },
+        {
+          "role": "body",
+          "order": 54,
+          "text": "Ju, Hyejeong Erin: Mathematics Advanced"
+        },
+        {
+          "role": "body",
+          "order": 55,
+          "text": "Kameron, Jasper: Mathematics Extension 1"
+        },
+        {
+          "role": "body",
+          "order": 56,
+          "text": "Kilburn, Sophie: English Extension 1, English Extension 2, History Extension, Visual Arts"
+        },
+        {
+          "role": "body",
+          "order": 57,
+          "text": "Kim, Bo Min Ashley: English Advanced, English Ext 1, Math Ext 1, Math Ext 2, Modern History"
+        },
+        {
+          "role": "body",
+          "order": 58,
+          "text": "Kim, Damon: English Advanced, English Extension 1, History Extension"
+        },
+        {
+          "role": "body",
+          "order": 59,
+          "text": "Kim, Joseph: Mathematics Extension 1"
+        },
+        {
+          "role": "body",
+          "order": 60,
+          "text": "Kim, Kevin: English Extension 1, Korean Continuers"
+        },
+        {
+          "role": "body",
+          "order": 61,
+          "text": "Koh, Richard: Mathematics Advanced"
+        },
+        {
+          "role": "body",
+          "order": 62,
+          "text": "Koit, Andrew: Mathematics Extension 1, Mathematics Extension 2"
+        },
+        {
+          "role": "body",
+          "order": 63,
+          "text": "Laureti, Lorenzo: Legal Studies, Mathematics Extension 1, Mathematics Advanced, Modern History, Physics"
+        },
+        {
+          "role": "body",
+          "order": 64,
+          "text": "Lay, Arden Teresa: Mathematics Advanced"
+        },
+        {
+          "role": "body",
+          "order": 65,
+          "text": "Lee, Issey: Mathematics Advanced, Japanese Continuers, Japanese Extension"
+        },
+        {
+          "role": "body",
+          "order": 66,
+          "text": "Lee, Sean: Mathematics Extension 1, Mathematics Extension 2,"
+        },
+        {
+          "role": "body",
+          "order": 67,
+          "text": "Lee, Tymon: Mathematics Extension 1, Mathematics Extension 2, Physics"
+        },
+        {
+          "role": "body",
+          "order": 68,
+          "text": "*Lie, Denzel: Mathematics Advanced"
+        },
+        {
+          "role": "body",
+          "order": 69,
+          "text": "*Lin, Elliott: Mathematics Advanced"
+        },
+        {
+          "role": "body",
+          "order": 70,
+          "text": "Liu, Katie: Mathematics Advanced, Chinese Continuers"
+        },
+        {
+          "role": "body",
+          "order": 71,
+          "text": "Lo, Ella: Chinese Continuers"
+        },
+        {
+          "role": "body",
+          "order": 72,
+          "text": "Lu, Caitlyn: English Extension 1, Personal Development, Health and Physical Education"
+        },
+        {
+          "role": "body",
+          "order": 73,
+          "text": "*Lum, Maxaviar: Mathematics Advanced"
+        },
+        {
+          "role": "body",
+          "order": 74,
+          "text": "Ly, Sarah: Chinese Continuers"
+        },
+        {
+          "role": "body",
+          "order": 75,
+          "text": "*Ly, William: Mathematics Advanced"
+        },
+        {
+          "role": "body",
+          "order": 76,
+          "text": "Mai, Victor: Chemistry, Mathematics Advanced"
+        },
+        {
+          "role": "body",
+          "order": 77,
+          "text": "Martin, Daisy: English Advanced, English Extension 1, Modern History"
+        },
+        {
+          "role": "body",
+          "order": 78,
+          "text": "Martin, Henry: Mathematics Advanced, French Continuers"
+        },
+        {
+          "role": "body",
+          "order": 79,
+          "text": "Martin, Pia: Legal Studies"
+        },
+        {
+          "role": "body",
+          "order": 80,
+          "text": "Matthews, Pippin: Biology, Visual Arts, German Continuers"
+        },
+        {
+          "role": "body",
+          "order": 81,
+          "text": "McGee, Joseph: English Advanced, English Ext 1, Geography, Legal Studies, Modern History, History Ext"
+        },
+        {
+          "role": "body",
+          "order": 82,
+          "text": "McIntyre, Lachlan: English Advanced, Geography, Math Advanced, PDHPE, German Cont, German Ext"
+        },
+        {
+          "role": "body",
+          "order": 83,
+          "text": "McQueen, Charlie Thomas: Drama, English Advanced, English Extension 1"
+        },
+        {
+          "role": "body",
+          "order": 84,
+          "text": "Moran, Anna: Earth and Environmental Science, Modern History, Visual Arts"
+        },
+        {
+          "role": "body",
+          "order": 85,
+          "text": "Nguyen, Benjamin: Legal Studies, Mathematics Extension 1, Mathematics Advanced"
+        },
+        {
+          "role": "body",
+          "order": 86,
+          "text": "Nguyen, Jayden: Chemistry, English Advanced, Mathematics Extension 1, Mathematics Extension 2, Physics"
+        },
+        {
+          "role": "body",
+          "order": 87,
+          "text": "Nguyen, Lan: English Advanced, Mathematics Ext 1, Mathematics Ext 2, Chinese Beg, Japanese Cont"
+        },
+        {
+          "role": "body",
+          "order": 88,
+          "text": "*Niu, Kuo: Mathematics Advanced"
+        },
+        {
+          "role": "body",
+          "order": 89,
+          "text": "*O'Keeffe, Gabriel: Mathematics Advanced"
+        },
+        {
+          "role": "body",
+          "order": 90,
+          "text": "On, Jolene: Legal Studies, Mathematics Extension 1, Mathematics Advanced, Chinese Continuers"
+        },
+        {
+          "role": "body",
+          "order": 91,
+          "text": "Ouw, Abigail: Biology, Mathematics Advanced, Modern History, Indonesian Continuers, Indonesian Ext"
+        },
+        {
+          "role": "body",
+          "order": 92,
+          "text": "Park, Min: English Advanced, English Ext 1, Geography, Legal Studies, History Ext, Society and Culture"
+        },
+        {
+          "role": "body",
+          "order": 93,
+          "text": "Parkes, Robert: Biology, Mathematics Ext 1, Mathematics Advanced, Modern History, PDHPE"
+        },
+        {
+          "role": "body",
+          "order": 94,
+          "text": "Peiris, Arun: Economics, English Adv, Mathematics Ext 1, Mathematics Adv, Modern History, French Cont"
+        },
+        {
+          "role": "body",
+          "order": 95,
+          "text": "Penney, Luka: Earth & Enviro Science, English Adv, English Ext 1, Geography, Legal Studies, Math Adv"
+        },
+        {
+          "role": "body",
+          "order": 96,
+          "text": "Phan, Hugh: Design and Technology, Engineering Studies, Mathematics Advanced"
+        },
+        {
+          "role": "body",
+          "order": 97,
+          "text": "Rajan, Anirudh: English Advanced, English Ext 1, Legal Studies, Mathematics Ext 1, Mathematics Ext 2"
+        },
+        {
+          "role": "body",
+          "order": 98,
+          "text": "Rameshbabu, Akshaya: Chemistry, English Advanced, Mathematics Ext 1, Mathematics Ext 2, Physics"
+        },
+        {
+          "role": "body",
+          "order": 99,
+          "text": "Rashid, Waiz Al: Biology, Chemistry"
+        },
+        {
+          "role": "body",
+          "order": 100,
+          "text": "Razzaghi-Pour, Maya: English Extension 1"
+        },
+        {
+          "role": "body",
+          "order": 101,
+          "text": "Rivard-Hyde, Melody: Chemistry, Mathematics Extension 1, Mathematics Advanced, Physics"
+        },
+        {
+          "role": "body",
+          "order": 102,
+          "text": "Robertson, Archie: History Extension, German Extension"
+        },
+        {
+          "role": "body",
+          "order": 103,
+          "text": "Rochfort, Nina: Modern History, History Extension, Japanese Continuers, Japanese Extension"
+        },
+        {
+          "role": "body",
+          "order": 104,
+          "text": "Roper, Joseph: English Extension 1"
+        },
+        {
+          "role": "body",
+          "order": 105,
+          "text": "Sabir, Jai: Chemistry, English Advanced, Legal Studies, Mathematics Ext 1, Mathematics Ext 2, Physics"
+        },
+        {
+          "role": "body",
+          "order": 106,
+          "text": "Salmon, Alexa: English Advanced, English Ext 1, Geography, Legal Studies, Modern History, History Ext"
+        },
+        {
+          "role": "body",
+          "order": 107,
+          "text": "Seino, Koharu: Japanese Continuers, Japanese Extension"
+        },
+        {
+          "role": "body",
+          "order": 108,
+          "text": "Sheeth, Adil Samee: Mathematics Extension 1"
+        },
+        {
+          "role": "body",
+          "order": 109,
+          "text": "Sima, Jessica: Chemistry, English Advanced, Mathematics Ext 1, Mathematics Ext 2, Chinese Continuers"
+        },
+        {
+          "role": "body",
+          "order": 110,
+          "text": "Smith, Toby: Chemistry, Mathematics Extension 1, Mathematics Extension 2, German Continuers"
+        },
+        {
+          "role": "body",
+          "order": 111,
+          "text": "*Soriano, Alexander: Mathematics Advanced"
+        },
+        {
+          "role": "body",
+          "order": 112,
+          "text": "Srivastava, Eehit: Mathematics Advanced"
+        },
+        {
+          "role": "body",
+          "order": 113,
+          "text": "Sumner, Jack: English Advanced, English Ext 1, English Ext 2, Society and Culture, Software Engineering"
+        },
+        {
+          "role": "body",
+          "order": 114,
+          "text": "Szmajda, Yvonne: Biology, Chemistry, Geography, Mathematics Extension 1, Mathematics Advanced"
+        },
+        {
+          "role": "body",
+          "order": 115,
+          "text": "Tadros, Sarah: Mathematics Extension 1"
+        },
+        {
+          "role": "body",
+          "order": 116,
+          "text": "Tay, Jonathan: Mathematics Extension 1"
+        },
+        {
+          "role": "body",
+          "order": 117,
+          "text": "Tong, Joshua: English Advanced, English Extension 1, English Extension 2, Legal Studies"
+        },
+        {
+          "role": "body",
+          "order": 118,
+          "text": "Tran, Frank: Engineering Studies, Mathematics Extension 1"
+        },
+        {
+          "role": "body",
+          "order": 119,
+          "text": "Tran, Scott: Mathematics Extension 1, Mathematics Extension 2"
+        },
+        {
+          "role": "body",
+          "order": 120,
+          "text": "Truong, Ryan: Mathematics Extension 1"
+        },
+        {
+          "role": "body",
+          "order": 121,
+          "text": "*Vu, Andrew: Mathematics Advanced"
+        },
+        {
+          "role": "body",
+          "order": 122,
+          "text": "Vujovic, Lily: Biology, English Advanced, English Extension 1, Geography, Modern History"
+        },
+        {
+          "role": "body",
+          "order": 123,
+          "text": "Webster, Julia: Chemistry, Economics, Mathematics Extension 1, Mathematics Extension 2, Physics"
+        },
+        {
+          "role": "body",
+          "order": 124,
+          "text": "White, Kit (Callum): Drama, English Advanced, Music 2, Music Extension, French Beginners"
+        },
+        {
+          "role": "body",
+          "order": 125,
+          "text": "Williams, Milo: Software Engineering"
+        },
+        {
+          "role": "body",
+          "order": 126,
+          "text": "Xian, Ethan: Biology. Chemistry, Mathematics Extension 1, Mathematics Extension 2"
+        },
+        {
+          "role": "body",
+          "order": 127,
+          "text": "Xiao, Kevin: Mathematics Advanced"
+        },
+        {
+          "role": "body",
+          "order": 128,
+          "text": "Xu, Kevin: Mathematics Extension 1"
+        },
+        {
+          "role": "body",
+          "order": 129,
+          "text": "Yi, Raytone: Geography"
+        },
+        {
+          "role": "body",
+          "order": 130,
+          "text": "Yu, Abbie: Biology, English Advanced, Mathematics Advanced, Chinese Continuers, Chinese Extension"
+        },
+        {
+          "role": "body",
+          "order": 131,
+          "text": "Yuan, Tonger Eva: Chinese Continuers"
+        },
+        {
+          "role": "body",
+          "order": 132,
+          "text": "Zeng, Raymond: Biology, English Advanced, Mathematics Extension 1, Mathematics Extension 2, Physics"
+        },
+        {
+          "role": "body",
+          "order": 133,
+          "text": "Zhang, Erick: Mathematics Extension 1"
+        },
+        {
+          "role": "body",
+          "order": 134,
+          "text": "Zhang, Kelvin: Chinese Continuers"
+        },
+        {
+          "role": "body",
+          "order": 135,
+          "text": "Zhen, Livia: Biology, Mathematics Advanced,"
+        },
+        {
+          "role": "body",
+          "order": 136,
+          "text": "Zhou, Yujing: Chemistry, English Advanced, Mathematics Ext 1, Mathematics Adv, Physics, Chinese Cont"
+        },
+        {
+          "role": "body",
+          "order": 137,
+          "text": "Zhu, Jayden: Mathematics Extension 1. Mathematics Extension 2, Physics"
+        },
+        {
+          "role": "body",
+          "order": 138,
+          "text": "*Accelerated student"
+        }
+      ],
+      "imgCount": 0,
+      "editableTexts": 139,
+      "repeats": [],
+      "slot": "s03"
+    },
+    {
+      "section": "band",
+      "items": [
+        {
+          "role": "cta",
+          "order": 0,
+          "text": "Learning",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/learning"
+        },
+        {
+          "role": "body",
+          "order": 1,
+          "text": "Discover what students learn in our classrooms and how we help them progress."
+        },
+        {
+          "role": "body",
+          "order": 2,
+          "text": "east"
+        },
+        {
+          "role": "cta",
+          "order": 3,
+          "text": "Student opportunities and activities",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities"
+        },
+        {
+          "role": "body",
+          "order": 4,
+          "text": "Discover clubs, sports and other activities your child can enjoy at school."
+        },
+        {
+          "role": "body",
+          "order": 5,
+          "text": "east"
+        }
+      ],
+      "imgCount": 0,
+      "editableTexts": 4,
+      "repeats": [
+        {
+          "unitSelector": "DIV.card",
+          "count": 2,
+          "unit": {
+            "headings": 0,
+            "ctas": 1,
+            "imgs": 0,
+            "textRuns": 3
+          },
+          "uniform": true
+        }
+      ],
+      "slot": "s04"
+    }
+  ],
+  "_defaultContent": {
+    "slots": [
+      "s01",
+      "s02",
+      "s05"
+    ],
+    "why": "deploy Step 2 D1: authored as default content (no block)"
+  }
+}

@@ -1,0 +1,1207 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-11-05T07:07:11.433Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/stories-and-highlights",
+    "viewport": "1440x900",
+    "scope": "nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!",
+    "normalize": {
+      "source": "/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/about-us-stories-and-highlights.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes, any cookie/consent/gdpr-named element inside a fixed/sticky/high-z overlay)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N3",
+          "what": "open every .nsw-accordion panel (unhide its content region, aria-expanded=true)",
+          "why": "closed panel text is content; capture-only — the rendered accordion keeps the closed rest state"
+        },
+        {
+          "id": "N4",
+          "what": "de-carousel .nsw-carousel: every slide static and visible, pager/prev/next removed",
+          "why": "the NSW carousel paints one slide at a time and its pager numbers are UI chrome; the reskin renders all slides in DOM order, so both sides compare deterministically"
+        }
+      ]
+    },
+    "settle": {
+      "firstLen": 5948,
+      "waitedMs": 1512,
+      "stable": true,
+      "settledLen": 5948,
+      "lateChars": 0
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "domcontentloaded",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Stories and highlights",
+    "description": "At Fort Street High School, there's always something to celebrate at our school! From exciting events to proud moments and everyday wins, here are some of our highlights.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/about-us/stories-and-highlights",
+    "ogTags": {
+      "og:title": "Stories and highlights",
+      "og:description": "At Fort Street High School, there's always something to celebrate at our school! From exciting events to proud moments and everyday wins, here are some of our highlights.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/about-us/stories-and-highlights",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_1a7eb996ba70c251c4839ed24cb1baf1c4f8f85be.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_1a7eb996ba70c251c4839ed24cb1baf1c4f8f85be.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:alt": "Speech day"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Stories and highlights",
+      "twitter:description": "At Fort Street High School, there's always something to celebrate at our school! From exciting events to proud moments and everyday wins, here are some of our highlights.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_1a7eb996ba70c251c4839ed24cb1baf1c4f8f85be.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "nav.nsw-breadcrumbs",
+      "whole": true
+    },
+    {
+      "sel": "main",
+      "whole": false
+    },
+    {
+      "sel": "aside.nsw-layout__sidebar--desktop",
+      "whole": true
+    }
+  ],
+  "visibleTextNormalized": "HomeAbout usStories and highlights Stories and highlights There's always something to celebrate at our school! From exciting events to proud moments and everyday wins, here are some of our highlights. A year at our school Speech Day In February we held our annual Speech Day. The gathering at Sydney Town Hall, is an opportunity to celebrate the outstanding achievements of our students and it is wonderful to be able to share this occasion with parents and former Fortians in such a beautiful venue. Our guest speaker, Professor Margaret Burgess, Fortian from the Class of 1954, shared her insightful reflections including her memories of starting at Fort Street during the Centenary year. Additionally, Auslee Pamintuan, the School Dux of 2024, delivered a wonderful valedictorian speech, making particular mention of his gratitude to his cohort. Year 11 Life Ready Camp Year 11 attended the Life Ready Camp at the Sydney Academy of Sport and Recreation at Narrabeen. Life Ready is a course mandated by the Department of Education designed to prepare students for situations related to health and safety they may encounter as they grow into more independent people increasingly responsible for themselves and others. It was a busy time divided across a range of outdoor activities and a suite of sessions on topics such as independence, relationships, sexual health. Year 7 camp The Year 7 Camp was held at Point Wolstoncroft Sport and Recreation Centre. During the camp, students had the opportunity to participate in a range of activities including: raft building, canoeing, sailing, archery, team challenge, standup paddleboard and teacher and peer support led sessions in the day and evening. Swimming Carnival The swimming carnival proved to be a resounding success again this year, with a commendable turnout from our students. Mawson’s enthusiasm and house spirit saw them win the hotly contested house chant – congratulations to them! There were also action-packed inflatables house races that proved to be lots of fun. It was great to witness enthusiastic student participation in various events, setting a positive tone for the upcoming fiercely contested Kennedy Cup. Multicultural Day Multicultural Day was held in August with over 20 different cultural stalls open at recess and lunch in the Kilgour Quad to showcase the incredible cultures that make up our school community. Students were invited to wear their best cultural dress and represent their culture. The SRC also hosted a Multicultural Day assembly, including our flag bearing parade and some wonderful student cultural performances. IMP Camp IMP camp, held from 21-23 March, was a huge success with 186 participants and 22 amazing conducting and tutoring staff. Students spent the weekend immersed in music, in the beautiful natural setting of CRU Galston Gorge, culminating in a spectacular final concert featuring diverse range of music from Romantic, Modern Classical and Jazz through to Taiko drumming and the Beatles. Rather than being a rehearsal camp for our regular ensemble, at IMP Camp we form 16 entirely new ensembles for the weekend, in which the focus is on skill-building through the repertoire we play. The development of all of the students in such a short space of time was phenomenal to see! Fort Street has been a fantastic high school for our son. It’s a community of families and staff who value education, well being and students achieving their potential, rather than a narrow focus on achieving high marks. The teachers are of a very high standard and are available to students who want to get more help and support. — Emma, a parent of Fort Street High School Discover more highlights Visit our Facebook for more photos, videos, events and updates from our school. Today we celebrate World Teachers Day! 🍎 👩‍🏫 🏫 ⭐️ We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026 east We looking forward to welcome everyone back on Tuesday. east The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/ east Have a story to share? Do you have a great school moment to share? We’d love to hear from you! Contact us Events Find out about school events, celebrations and what’s coming up. east Our community Discover ways to volunteer and help shape our school community. east Section navigation About us Enrol Facilities and resources HSC Results Our principal and staff Policies and reports School history and archives Stories and highlights Transition to high school Why choose us?",
+  "coverage": {
+    "bodyTextLen": 5894,
+    "scopeTextLen": 5121,
+    "ratio": 0.869,
+    "h1Text": "Stories and highlights",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "nav",
+      "rootClass": "nsw-breadcrumbs js-breadcrumbs",
+      "visibleText": "HomeAbout usStories and highlights",
+      "headings": [],
+      "paragraphs": [],
+      "listItems": [
+        "Home",
+        "About us",
+        "Stories and highlights"
+      ],
+      "ctas": [
+        {
+          "text": "Home",
+          "href": "https://fortstreet-h.schools.nsw.gov.au",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/",
+          "classes": ""
+        },
+        {
+          "text": "About us",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+          "classes": "breadcrumb"
+        },
+        {
+          "text": "Stories and highlights",
+          "href": "",
+          "absHref": "",
+          "classes": "current"
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Home",
+          "display": "inline-block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Home",
+              "display": "inline-block",
+              "href": "https://fortstreet-h.schools.nsw.gov.au",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "About us",
+          "display": "inline-block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "About us",
+              "display": "inline-block",
+              "href": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+              "classes": "breadcrumb",
+              "sep": ""
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Stories and highlights",
+          "display": "inline-block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Stories and highlights",
+              "display": "inline-block",
+              "href": "",
+              "absHref": "",
+              "classes": "current",
+              "sep": ""
+            }
+          ],
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section gallery-container",
+      "visibleText": "Stories and highlights There's always something to celebrate at our school! From exciting events to proud moments and everyday wins, here are some of our highlights. A year at our school Speech Day In February we held our annual Speech Day. The gathering at Sydney Town Hall, is an opportunity to celebrate the outstanding achievements of our students and it is wonderful to be able to share this occasion with parents and former Fortians in such a beautiful venue. Our guest speaker, Professor Margaret Burgess, Fortian from the Class of 1954, shared her insightful reflections including her memories of starting at Fort Street during the Centenary year. Additionally, Auslee Pamintuan, the School Dux of 2024, delivered a wonderful valedictorian speech, making particular mention of his gratitude to his cohort. Year 11 Life Ready Camp Year 11 attended the Life Ready Camp at the Sydney Academy of Sport and Recreation at Narrabeen. Life Ready is a course mandated by the Department of Education designed to prepare students for situations related to health and safety they may encounter as they grow into more independent people increasingly responsible for themselves and others. It was a busy time divided across a range of outdoor activities and a suite of sessions on topics such as independence, relationships, sexual health. Year 7 camp The Year 7 Camp was held at Point Wolstoncroft Sport and Recreation Centre. During the camp, students had the opportunity to participate in a range of activities including: raft building, canoeing, sailing, archery, team challenge, standup paddleboard and teacher and peer support led sessions in the day and evening. Swimming Carnival The swimming carnival proved to be a resounding success again this year, with a commendable turnout from our students. Mawson’s enthusiasm and house spirit saw them win the hotly contested house chant – congratulations to them! There were also action-packed inflatables house races that proved to be lots of fun. It was great to witness enthusiastic student participation in various events, setting a positive tone for the upcoming fiercely contested Kennedy Cup. Multicultural Day Multicultural Day was held in August with over 20 different cultural stalls open at recess and lunch in the Kilgour Quad to showcase the incredible cultures that make up our school community. Students were invited to wear their best cultural dress and represent their culture. The SRC also hosted a Multicultural Day assembly, including our flag bearing parade and some wonderful student cultural performances. IMP Camp IMP camp, held from 21-23 March, was a huge success with 186 participants and 22 amazing conducting and tutoring staff. Students spent the weekend immersed in music, in the beautiful natural setting of CRU Galston Gorge, culminating in a spectacular final concert featuring diverse range of music from Romantic, Modern Classical and Jazz through to Taiko drumming and the Beatles. Rather than being a rehearsal camp for our regular ensemble, at IMP Camp we form 16 entirely new ensembles for the weekend, in which the focus is on skill-building through the repertoire we play. The development of all of the students in such a short space of time was phenomenal to see!",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Stories and highlights"
+        },
+        {
+          "level": "h2",
+          "text": "A year at our school"
+        }
+      ],
+      "paragraphs": [
+        "There's always something to celebrate at our school! From exciting events to proud moments and everyday wins, here are some of our highlights.",
+        "Speech Day",
+        "In February we held our annual Speech Day. The gathering at Sydney Town Hall, is an opportunity to celebrate the outstanding achievements of our students and it is wonderful to be able to share this occasion with parents and former Fortians in such a beautiful venue.",
+        "Our guest speaker, Professor Margaret Burgess, Fortian from the Class of 1954, shared her insightful reflections including her memories of starting at Fort Street during the Centenary year.",
+        "Additionally, Auslee Pamintuan, the School Dux of 2024, delivered a wonderful valedictorian speech, making particular mention of his gratitude to his cohort.",
+        "Year 11 Life Ready Camp",
+        "Year 11 attended the Life Ready Camp at the Sydney Academy of Sport and Recreation at Narrabeen. Life Ready is a course mandated by the Department of Education designed to prepare students for situations related to health and safety they may encounter as they grow into more independent people increasingly responsible for themselves and others. It was a busy time divided across a range of outdoor activities and a suite of sessions on topics such as independence, relationships, sexual health.",
+        "Year 7 camp",
+        "The Year 7 Camp was held at Point Wolstoncroft Sport and Recreation Centre.",
+        "During the camp, students had the opportunity to participate in a range of activities including: raft building, canoeing, sailing, archery, team challenge, standup paddleboard and teacher and peer support led sessions in the day and evening.",
+        "Swimming Carnival",
+        "The swimming carnival proved to be a resounding success again this year, with a commendable turnout from our students. Mawson’s enthusiasm and house spirit saw them win the hotly contested house chant – congratulations to them! There were also action-packed inflatables house races that proved to be lots of fun. It was great to witness enthusiastic student participation in various events, setting a positive tone for the upcoming fiercely contested Kennedy Cup.",
+        "Multicultural Day",
+        "Multicultural Day was held in August with over 20 different cultural stalls open at recess and lunch in the Kilgour Quad to showcase the incredible cultures that make up our school community. Students were invited to wear their best cultural dress and represent their culture. The SRC also hosted a Multicultural Day assembly, including our flag bearing parade and some wonderful student cultural performances.",
+        "IMP Camp",
+        "IMP camp, held from 21-23 March, was a huge success with 186 participants and 22 amazing conducting and tutoring staff. Students spent the weekend immersed in music, in the beautiful natural setting of CRU Galston Gorge, culminating in a spectacular final concert featuring diverse range of music from Romantic, Modern Classical and Jazz through to Taiko drumming and the Beatles. Rather than being a rehearsal camp for our regular ensemble, at IMP Camp we form 16 entirely new ensembles for the weekend, in which the focus is on skill-building through the repertoire we play. The development of all of the students in such a short space of time was phenomenal to see!"
+      ],
+      "listItems": [
+        "Speech Day In February we held our annual Speech Day. The gathering at Sydney Town Hall, is an opportunity to celebrate the outstanding achievements of our students and it is wonderful to be able to share this occasion with parents and former Fortians in such a beautiful venue. Our guest speaker, Professor Margaret Burgess, Fortian from the Class of 1954, shared her insightful reflections including her memories of starting at Fort Street during the Centenary year. Additionally, Auslee Pamintuan, the School Dux of 2024, delivered a wonderful valedictorian speech, making particular mention of his gratitude to his cohort.",
+        "Year 11 Life Ready Camp Year 11 attended the Life Ready Camp at the Sydney Academy of Sport and Recreation at Narrabeen. Life Ready is a course mandated by the Department of Education designed to prepare students for situations related to health and safety they may encounter as they grow into more independent people increasingly responsible for themselves and others. It was a busy time divided across a range of outdoor activities and a suite of sessions on topics such as independence, relationships, sexual health.",
+        "Year 7 camp The Year 7 Camp was held at Point Wolstoncroft Sport and Recreation Centre. During the camp, students had the opportunity to participate in a range of activities including: raft building, canoeing, sailing, archery, team challenge, standup paddleboard and teacher and peer support led sessions in the day and evening.",
+        "Swimming Carnival The swimming carnival proved to be a resounding success again this year, with a commendable turnout from our students. Mawson’s enthusiasm and house spirit saw them win the hotly contested house chant – congratulations to them! There were also action-packed inflatables house races that proved to be lots of fun. It was great to witness enthusiastic student participation in various events, setting a positive tone for the upcoming fiercely contested Kennedy Cup.",
+        "Multicultural Day Multicultural Day was held in August with over 20 different cultural stalls open at recess and lunch in the Kilgour Quad to showcase the incredible cultures that make up our school community. Students were invited to wear their best cultural dress and represent their culture. The SRC also hosted a Multicultural Day assembly, including our flag bearing parade and some wonderful student cultural performances.",
+        "IMP Camp IMP camp, held from 21-23 March, was a huge success with 186 participants and 22 amazing conducting and tutoring staff. Students spent the weekend immersed in music, in the beautiful natural setting of CRU Galston Gorge, culminating in a spectacular final concert featuring diverse range of music from Romantic, Modern Classical and Jazz through to Taiko drumming and the Beatles. Rather than being a rehearsal camp for our regular ensemble, at IMP Camp we form 16 entirely new ensembles for the weekend, in which the focus is on skill-building through the repertoire we play. The development of all of the students in such a short space of time was phenomenal to see!"
+      ],
+      "ctas": [],
+      "iconLinks": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_1a7eb996ba70c251c4839ed24cb1baf1c4f8f85be.jpg?width=750&format=jpg&optimize=medium",
+          "alt": "Speech day",
+          "w": 750,
+          "h": 647
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_19d25580c16233087a1c95606d2ad7a8370e6e94f.jpg?width=750&format=jpg&optimize=medium",
+          "alt": "Year 11 Life Ready Camp",
+          "w": 750,
+          "h": 563
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_1f72ce2e3c3332a0b1c7dd74342407259860765e1.jpg?width=750&format=jpg&optimize=medium",
+          "alt": "Year 7 camp",
+          "w": 750,
+          "h": 1000
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_1bacbed255da6406a6f7e310a5843dcc02b1684a3.png?width=750&format=png&optimize=medium",
+          "alt": "Swimming Carnival",
+          "w": 750,
+          "h": 437
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_1145293b25a61ef63fc51759017f43fc0c527d128.jpg?width=750&format=jpg&optimize=medium",
+          "alt": "Multicultural day",
+          "w": 750,
+          "h": 500
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_1b37ffc240e5c586742cdad77d2e066cb7a0aed1a.jpg?width=750&format=jpg&optimize=medium",
+          "alt": "IMP camp",
+          "w": 750,
+          "h": 563
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Stories and highlights",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "There's always something to celebrate at our school! From exciting events to proud moments and everyday wins, here are some of our highlights.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "A year at our school",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Speech Day In February we held our annual Speech Day. The gathering at Sydney Town Hall, is an opportunity to celebrate the outstanding achievements of our students and it is wonderful to be able to share this occasion with parents and former Fortians in such a beautiful venue. Our guest speaker, Professor Margaret Burgess, Fortian from the Class of 1954, shared her insightful reflections including her memories of starting at Fort Street during the Centenary year. Additionally, Auslee Pamintuan, the School Dux of 2024, delivered a wonderful valedictorian speech, making particular mention of his gratitude to his cohort.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_1a7eb996ba70c251c4839ed24cb1baf1c4f8f85be.jpg?width=750&format=jpg&optimize=medium",
+              "alt": "Speech day",
+              "rw": 736,
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Speech Day",
+              "display": "block",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "In February we held our annual Speech Day. The gathering at Sydney Town Hall, is an opportunity to celebrate the outstanding achievements of our students and it is wonderful to be able to share this occasion with parents and former Fortians in such a beautiful venue.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "paragraph",
+              "text": "Our guest speaker, Professor Margaret Burgess, Fortian from the Class of 1954, shared her insightful reflections including her memories of starting at Fort Street during the Centenary year.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "paragraph",
+              "text": "Additionally, Auslee Pamintuan, the School Dux of 2024, delivered a wonderful valedictorian speech, making particular mention of his gratitude to his cohort.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Year 11 Life Ready Camp Year 11 attended the Life Ready Camp at the Sydney Academy of Sport and Recreation at Narrabeen. Life Ready is a course mandated by the Department of Education designed to prepare students for situations related to health and safety they may encounter as they grow into more independent people increasingly responsible for themselves and others. It was a busy time divided across a range of outdoor activities and a suite of sessions on topics such as independence, relationships, sexual health.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_19d25580c16233087a1c95606d2ad7a8370e6e94f.jpg?width=750&format=jpg&optimize=medium",
+              "alt": "Year 11 Life Ready Camp",
+              "rw": 736,
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Year 11 Life Ready Camp",
+              "display": "block",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Year 11 attended the Life Ready Camp at the Sydney Academy of Sport and Recreation at Narrabeen. Life Ready is a course mandated by the Department of Education designed to prepare students for situations related to health and safety they may encounter as they grow into more independent people increasingly responsible for themselves and others. It was a busy time divided across a range of outdoor activities and a suite of sessions on topics such as independence, relationships, sexual health.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Year 7 camp The Year 7 Camp was held at Point Wolstoncroft Sport and Recreation Centre. During the camp, students had the opportunity to participate in a range of activities including: raft building, canoeing, sailing, archery, team challenge, standup paddleboard and teacher and peer support led sessions in the day and evening.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_1f72ce2e3c3332a0b1c7dd74342407259860765e1.jpg?width=750&format=jpg&optimize=medium",
+              "alt": "Year 7 camp",
+              "rw": 736,
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Year 7 camp",
+              "display": "block",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "The Year 7 Camp was held at Point Wolstoncroft Sport and Recreation Centre.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "paragraph",
+              "text": "During the camp, students had the opportunity to participate in a range of activities including: raft building, canoeing, sailing, archery, team challenge, standup paddleboard and teacher and peer support led sessions in the day and evening.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Swimming Carnival The swimming carnival proved to be a resounding success again this year, with a commendable turnout from our students. Mawson’s enthusiasm and house spirit saw them win the hotly contested house chant – congratulations to them! There were also action-packed inflatables house races that proved to be lots of fun. It was great to witness enthusiastic student participation in various events, setting a positive tone for the upcoming fiercely contested Kennedy Cup.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_1bacbed255da6406a6f7e310a5843dcc02b1684a3.png?width=750&format=png&optimize=medium",
+              "alt": "Swimming Carnival",
+              "rw": 736,
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Swimming Carnival",
+              "display": "block",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "The swimming carnival proved to be a resounding success again this year, with a commendable turnout from our students. Mawson’s enthusiasm and house spirit saw them win the hotly contested house chant – congratulations to them! There were also action-packed inflatables house races that proved to be lots of fun. It was great to witness enthusiastic student participation in various events, setting a positive tone for the upcoming fiercely contested Kennedy Cup.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Multicultural Day Multicultural Day was held in August with over 20 different cultural stalls open at recess and lunch in the Kilgour Quad to showcase the incredible cultures that make up our school community. Students were invited to wear their best cultural dress and represent their culture. The SRC also hosted a Multicultural Day assembly, including our flag bearing parade and some wonderful student cultural performances.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_1145293b25a61ef63fc51759017f43fc0c527d128.jpg?width=750&format=jpg&optimize=medium",
+              "alt": "Multicultural day",
+              "rw": 736,
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Multicultural Day",
+              "display": "block",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Multicultural Day was held in August with over 20 different cultural stalls open at recess and lunch in the Kilgour Quad to showcase the incredible cultures that make up our school community. Students were invited to wear their best cultural dress and represent their culture. The SRC also hosted a Multicultural Day assembly, including our flag bearing parade and some wonderful student cultural performances.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "IMP Camp IMP camp, held from 21-23 March, was a huge success with 186 participants and 22 amazing conducting and tutoring staff. Students spent the weekend immersed in music, in the beautiful natural setting of CRU Galston Gorge, culminating in a spectacular final concert featuring diverse range of music from Romantic, Modern Classical and Jazz through to Taiko drumming and the Beatles. Rather than being a rehearsal camp for our regular ensemble, at IMP Camp we form 16 entirely new ensembles for the weekend, in which the focus is on skill-building through the repertoire we play. The development of all of the students in such a short space of time was phenomenal to see!",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_1b37ffc240e5c586742cdad77d2e066cb7a0aed1a.jpg?width=750&format=jpg&optimize=medium",
+              "alt": "IMP camp",
+              "rw": 736,
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "IMP Camp",
+              "display": "block",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "IMP camp, held from 21-23 March, was a huge success with 186 participants and 22 amazing conducting and tutoring staff. Students spent the weekend immersed in music, in the beautiful natural setting of CRU Galston Gorge, culminating in a spectacular final concert featuring diverse range of music from Romantic, Modern Classical and Jazz through to Taiko drumming and the Beatles. Rather than being a rehearsal camp for our regular ensemble, at IMP Camp we form 16 entirely new ensembles for the weekend, in which the focus is on skill-building through the repertoire we play. The development of all of the students in such a short space of time was phenomenal to see!",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--off-white",
+      "visibleText": "Fort Street has been a fantastic high school for our son. It’s a community of families and staff who value education, well being and students achieving their potential, rather than a narrow focus on achieving high marks. The teachers are of a very high standard and are available to students who want to get more help and support. — Emma, a parent of Fort Street High School",
+      "headings": [],
+      "paragraphs": [
+        "Fort Street has been a fantastic high school for our son.",
+        "It’s a community of families and staff who value education, well being and students achieving their potential, rather than a narrow focus on achieving high marks.",
+        "The teachers are of a very high standard and are available to students who want to get more help and support.",
+        "— Emma, a parent of Fort Street High School"
+      ],
+      "listItems": [],
+      "ctas": [],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "paragraph",
+          "text": "Fort Street has been a fantastic high school for our son.",
+          "display": "block",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "It’s a community of families and staff who value education, well being and students achieving their potential, rather than a narrow focus on achieving high marks.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The teachers are of a very high standard and are available to students who want to get more help and support.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "— Emma, a parent of Fort Street High School",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "tinted",
+      "bg": "rgb(242, 242, 242)",
+      "toneEl": "main#main > div.section.nsw-section"
+    },
+    {
+      "slot": "s04",
+      "rootTag": "div",
+      "rootClass": "section nsw-section facebook-feed-container",
+      "visibleText": "Discover more highlights Visit our Facebook for more photos, videos, events and updates from our school. Today we celebrate World Teachers Day! 🍎 👩‍🏫 🏫 ⭐️ We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026 east We looking forward to welcome everyone back on Tuesday. east The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/ east",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Discover more highlights"
+        }
+      ],
+      "paragraphs": [
+        "Visit our Facebook for more photos, videos, events and updates from our school.",
+        "Today we celebrate World Teachers Day! 🍎 👩‍🏫 🏫 ⭐️ We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026",
+        "We looking forward to welcome everyone back on Tuesday.",
+        "The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Today we celebrate World Teachers Day! 🍎 👩‍🏫 🏫 ⭐️ We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026",
+          "href": "https://m.facebook.com/1661675895966806/posts/1770173321783729#no_universal_links",
+          "absHref": "https://m.facebook.com/1661675895966806/posts/1770173321783729#no_universal_links",
+          "classes": ""
+        },
+        {
+          "text": "We looking forward to welcome everyone back on Tuesday.",
+          "href": "https://m.facebook.com/1661675895966806/posts/1746224677511927#no_universal_links",
+          "absHref": "https://m.facebook.com/1661675895966806/posts/1746224677511927#no_universal_links",
+          "classes": ""
+        },
+        {
+          "text": "The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/",
+          "href": "https://m.facebook.com/1661675895966806/posts/1746223814178680#no_universal_links",
+          "absHref": "https://m.facebook.com/1661675895966806/posts/1746223814178680#no_universal_links",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [
+        {
+          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/854710675_1770172005117194_7603390710119696328_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=o0QGyZ4DXtQQ7kNvwGeBomM&_nc_oc=Adq-QwuhGcssa9U9qrsmY0yIFCYTsR3XtfehH32YLcmZV5ZhSPBFYAv8FCHVFCt0J4k&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=nEXtFtVehqEv0PNTqBeWgg&_nc_tpa=Q5bMBQKI9S6yOGdTlLlYYHB0gVGpqSRosI5sR1nOITWzplYziatiLv9ZMq3eYDAXyg0D5meLlSHqEnyPZQ&oh=00_AQR0N6hNam--JJjG4ew9saTWokV07scCo417yXWOPT--GA&oe=6AF1EF73",
+          "alt": "Facebook post image",
+          "w": 465,
+          "h": 660
+        },
+        {
+          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/836259297_1746224134178648_3432439322237656274_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=VuZ5KrGVWa4Q7kNvwHwsb3g&_nc_oc=AdqX59xnAp9ItgBNYCOl-4kTRuzTUbcAgFFctpiXEmjulMl8-u-7RY300DEIuruWD58&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=nEXtFtVehqEv0PNTqBeWgg&_nc_tpa=Q5bMBQLgUDpoZGfP3z96T8vpz2UbVLZKyuhHjXUaxkLNobAb904ujRwFBkzWhzz69AsyEuXv5ssNGmpaQw&oh=00_AQR4sH3b7GRnCjqegtw8yaHs9G7axyYSB8MdIt34Jfv_Dw&oe=6AF1CE76",
+          "alt": "Facebook post image",
+          "w": 859,
+          "h": 720
+        },
+        {
+          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t15.5256-10/842235604_1693597185715273_5724099017723056825_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=3Sf55f6vu3MQ7kNvwE0SrAQ&_nc_oc=AdrRNyOIl8GmEB3iKYxvviJEDg4XnlvlqEuxnXLyoU2B8ZcM5PQTv0UaKVJQ5x_R4Js&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=nEXtFtVehqEv0PNTqBeWgg&_nc_tpa=Q5bMBQJ_BgTrpjUu0iryI8dN4CfoQV5n9ksqYCH-uoIBN-Vi46y5ti0jlhM7ggzQT92OxeK3AO4O7jTTOg&oh=00_AQRil84P_o3p6Qcb9TeJz2yOQt0GxrE8zx9guM3OO6Ejag&oe=6AF1D36B",
+          "alt": "Facebook post image",
+          "w": 1080,
+          "h": 1920
+        }
+      ],
+      "formControls": [],
+      "leftovers": [
+        {
+          "text": "east",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons"
+        },
+        {
+          "text": "east",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons"
+        },
+        {
+          "text": "east",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons"
+        }
+      ],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Discover more highlights",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Visit our Facebook for more photos, videos, events and updates from our school.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/854710675_1770172005117194_7603390710119696328_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=o0QGyZ4DXtQQ7kNvwGeBomM&_nc_oc=Adq-QwuhGcssa9U9qrsmY0yIFCYTsR3XtfehH32YLcmZV5ZhSPBFYAv8FCHVFCt0J4k&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=nEXtFtVehqEv0PNTqBeWgg&_nc_tpa=Q5bMBQKI9S6yOGdTlLlYYHB0gVGpqSRosI5sR1nOITWzplYziatiLv9ZMq3eYDAXyg0D5meLlSHqEnyPZQ&oh=00_AQR0N6hNam--JJjG4ew9saTWokV07scCo417yXWOPT--GA&oe=6AF1EF73",
+          "alt": "Facebook post image",
+          "rw": 235,
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Today we celebrate World Teachers Day! 🍎 👩‍🏫 🏫 ⭐️ We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026",
+          "display": "block",
+          "lineClamp": 3,
+          "clampGroup": 1,
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Today we celebrate World Teachers Day! 🍎 👩‍🏫 🏫 ⭐️ We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026",
+              "display": "inline",
+              "href": "https://m.facebook.com/1661675895966806/posts/1770173321783729#no_universal_links",
+              "absHref": "https://m.facebook.com/1661675895966806/posts/1770173321783729#no_universal_links",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "east",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons",
+          "glyph": true,
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/836259297_1746224134178648_3432439322237656274_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=VuZ5KrGVWa4Q7kNvwHwsb3g&_nc_oc=AdqX59xnAp9ItgBNYCOl-4kTRuzTUbcAgFFctpiXEmjulMl8-u-7RY300DEIuruWD58&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=nEXtFtVehqEv0PNTqBeWgg&_nc_tpa=Q5bMBQLgUDpoZGfP3z96T8vpz2UbVLZKyuhHjXUaxkLNobAb904ujRwFBkzWhzz69AsyEuXv5ssNGmpaQw&oh=00_AQR4sH3b7GRnCjqegtw8yaHs9G7axyYSB8MdIt34Jfv_Dw&oe=6AF1CE76",
+          "alt": "Facebook post image",
+          "rw": 235,
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "We looking forward to welcome everyone back on Tuesday.",
+          "display": "block",
+          "lineClamp": 3,
+          "clampGroup": 2,
+          "children": [
+            {
+              "kind": "cta",
+              "text": "We looking forward to welcome everyone back on Tuesday.",
+              "display": "inline",
+              "href": "https://m.facebook.com/1661675895966806/posts/1746224677511927#no_universal_links",
+              "absHref": "https://m.facebook.com/1661675895966806/posts/1746224677511927#no_universal_links",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "east",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons",
+          "glyph": true,
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t15.5256-10/842235604_1693597185715273_5724099017723056825_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=3Sf55f6vu3MQ7kNvwE0SrAQ&_nc_oc=AdrRNyOIl8GmEB3iKYxvviJEDg4XnlvlqEuxnXLyoU2B8ZcM5PQTv0UaKVJQ5x_R4Js&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=nEXtFtVehqEv0PNTqBeWgg&_nc_tpa=Q5bMBQJ_BgTrpjUu0iryI8dN4CfoQV5n9ksqYCH-uoIBN-Vi46y5ti0jlhM7ggzQT92OxeK3AO4O7jTTOg&oh=00_AQRil84P_o3p6Qcb9TeJz2yOQt0GxrE8zx9guM3OO6Ejag&oe=6AF1D36B",
+          "alt": "Facebook post image",
+          "rw": 235,
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/",
+          "display": "block",
+          "lineClamp": 3,
+          "clampGroup": 3,
+          "children": [
+            {
+              "kind": "cta",
+              "text": "The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/",
+              "display": "inline",
+              "href": "https://m.facebook.com/1661675895966806/posts/1746223814178680#no_universal_links",
+              "absHref": "https://m.facebook.com/1661675895966806/posts/1746223814178680#no_universal_links",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "east",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons",
+          "glyph": true,
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s05",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "Have a story to share? Do you have a great school moment to share? We’d love to hear from you! Contact us",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Have a story to share?"
+        }
+      ],
+      "paragraphs": [
+        "Do you have a great school moment to share? We’d love to hear from you!",
+        "Contact us"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Contact us",
+          "href": "/contact-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+          "classes": "button"
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Have a story to share?",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Do you have a great school moment to share? We’d love to hear from you!",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact us",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Contact us",
+              "display": "inline-block",
+              "href": "/contact-us",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+              "classes": "button",
+              "buttonLike": true,
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "dark",
+      "bg": "rgb(99, 0, 25)",
+      "toneEl": "main#main > div.section.nsw-section"
+    },
+    {
+      "slot": "s06",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Events Find out about school events, celebrations and what’s coming up. east Our community Discover ways to volunteer and help shape our school community. east",
+      "headings": [],
+      "paragraphs": [
+        "Find out about school events, celebrations and what’s coming up.",
+        "Discover ways to volunteer and help shape our school community."
+      ],
+      "listItems": [
+        "Events Find out about school events, celebrations and what’s coming up. east",
+        "Our community Discover ways to volunteer and help shape our school community. east"
+      ],
+      "ctas": [
+        {
+          "text": "Events",
+          "href": "/school-life/events",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+          "classes": ""
+        },
+        {
+          "text": "Our community",
+          "href": "/our-community/pandc",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/our-community/pandc",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Events Find out about school events, celebrations and what’s coming up. east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Events",
+              "display": "inline",
+              "href": "/school-life/events",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Find out about school events, celebrations and what’s coming up.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Our community Discover ways to volunteer and help shape our school community. east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Our community",
+              "display": "inline",
+              "href": "/our-community/pandc",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/our-community/pandc",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Discover ways to volunteer and help shape our school community.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s07",
+      "rootTag": "aside",
+      "rootClass": "nsw-layout__sidebar nsw-layout__sidebar--desktop sidebar-wrapper",
+      "visibleText": "Section navigation About us Enrol Facilities and resources HSC Results Our principal and staff Policies and reports School history and archives Stories and highlights Transition to high school Why choose us?",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Section navigation"
+        }
+      ],
+      "paragraphs": [],
+      "listItems": [
+        "Enrol",
+        "Facilities and resources",
+        "HSC Results",
+        "Our principal and staff",
+        "Policies and reports",
+        "School history and archives",
+        "Stories and highlights",
+        "Transition to high school",
+        "Why choose us?"
+      ],
+      "ctas": [
+        {
+          "text": "About us",
+          "href": "/about-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+          "classes": ""
+        },
+        {
+          "text": "Enrol",
+          "href": "/about-us/enrol",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/enrol",
+          "classes": ""
+        },
+        {
+          "text": "Facilities and resources",
+          "href": "/about-us/facilities-and-resources",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources",
+          "classes": ""
+        },
+        {
+          "text": "HSC Results",
+          "href": "/about-us/hsc-results",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/hsc-results",
+          "classes": ""
+        },
+        {
+          "text": "Our principal and staff",
+          "href": "/about-us/our-principal-and-staff",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff",
+          "classes": ""
+        },
+        {
+          "text": "Policies and reports",
+          "href": "/about-us/policies-and-reports",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports",
+          "classes": ""
+        },
+        {
+          "text": "School history and archives",
+          "href": "/about-us/school-history-and-archives",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives",
+          "classes": ""
+        },
+        {
+          "text": "Stories and highlights",
+          "href": "/about-us/stories-and-highlights",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/stories-and-highlights",
+          "classes": "current"
+        },
+        {
+          "text": "Transition to high school",
+          "href": "/about-us/transition-to-high-school",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/transition-to-high-school",
+          "classes": ""
+        },
+        {
+          "text": "Why choose us?",
+          "href": "/about-us/why-choose-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/why-choose-us",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Section navigation",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "cta",
+          "text": "About us",
+          "display": "flex",
+          "href": "/about-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+          "classes": "",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Enrol",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Enrol",
+              "display": "block",
+              "href": "/about-us/enrol",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/enrol",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Facilities and resources",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Facilities and resources",
+              "display": "block",
+              "href": "/about-us/facilities-and-resources",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "HSC Results",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "HSC Results",
+              "display": "block",
+              "href": "/about-us/hsc-results",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/hsc-results",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Our principal and staff",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Our principal and staff",
+              "display": "block",
+              "href": "/about-us/our-principal-and-staff",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Policies and reports",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Policies and reports",
+              "display": "block",
+              "href": "/about-us/policies-and-reports",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "School history and archives",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "School history and archives",
+              "display": "block",
+              "href": "/about-us/school-history-and-archives",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Stories and highlights",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Stories and highlights",
+              "display": "block",
+              "href": "/about-us/stories-and-highlights",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/stories-and-highlights",
+              "classes": "current",
+              "buttonLike": true,
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Transition to high school",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Transition to high school",
+              "display": "block",
+              "href": "/about-us/transition-to-high-school",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/transition-to-high-school",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Why choose us?",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Why choose us?",
+              "display": "block",
+              "href": "/about-us/why-choose-us",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/why-choose-us",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    }
+  ],
+  "residue": [
+    {
+      "sel": "header.header-wrapper",
+      "kind": "chrome",
+      "textLen": 275,
+      "lines": [
+        "Skip to navigation",
+        "Skip to content",
+        "NSW Government",
+        "Fort Street High School",
+        "Faber est suae quisque fortunae",
+        "search",
+        "Show",
+        "Search",
+        "About us",
+        "keyboard_arrow_right",
+        "School life",
+        "keyboard_arrow_right",
+        "Learning and support",
+        "keyboard_arrow_right",
+        "Our community",
+        "keyboard_arrow_right",
+        "Contact us"
+      ],
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 172
+      }
+    },
+    {
+      "sel": "footer.footer-wrapper",
+      "kind": "chrome",
+      "textLen": 496,
+      "lines": [
+        "Fort Street High School",
+        "General enquiries",
+        "fortstreet-h.school@det.nsw.edu.au",
+        "8585 1600",
+        "620 PARRAMATTA ROAD, NSW 2049 PETERSHAM",
+        "Follow us",
+        "We recognise the Ongoing Custodians of the lands and waterways where we work and live. We pay respect to Elders past and present as ongoing teachers of knowledge, songlines and stories. We strive to ensure every Aboriginal and/or Torres Strait Islander learner in NSW achieves their potential through education.",
+        "Your feedback",
+        "Policy library",
+        "Information access"
+      ],
+      "rect": {
+        "x": 0,
+        "y": 13249,
+        "w": 1440,
+        "h": 509
+      }
+    }
+  ]
+}

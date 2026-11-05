@@ -1,0 +1,70 @@
+{
+  "slug": "school-life-student-opportunities-and-activities-duke-of-edinburgh-award",
+  "type": "content",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "M3",
+    "M5b",
+    "M9b",
+    "M11b"
+  ],
+  "slotsFilled": [
+    "s01",
+    "s02",
+    "s03",
+    "s04",
+    "s05",
+    "s06",
+    "s07",
+    "s08",
+    "s09",
+    "s10",
+    "s11",
+    "s12"
+  ],
+  "canonShas": {
+    "header": "1e8e0c3eebea",
+    "footer": "a8b6d4b37731",
+    "css": "5fe9e7ffc80e"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Duke of Edinburgh Award",
+    "description": "Fort Street High School is proud to deliver the Duke of Edinburgh’s International Award (Duke of Ed). As an award centre, we support our young people to achieve personal growth and collaboration through developing their voluntary service, physical recreation and skills.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/duke-of-edinburgh-award",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Duke of Edinburgh Award",
+    "description": "Fort Street High School is proud to deliver the Duke of Edinburgh’s International Award (Duke of Ed). As an award centre, we support our young people to achieve personal growth and collaboration through developing their voluntary service, physical recreation and skills.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/duke-of-edinburgh-award"
+  },
+  "migratedAt": "2026-11-05T07:08:24Z",
+  "designMdSha": "187c3f2f159f",
+  "designJsonSha": "2d96d5b1c55f",
+  "sourceCurrentSha": "2a0427214b88",
+  "sourceProposedSha": "1574325f6579",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 13,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://fortstreet-h.schools.nsw.gov.au/about-our-school/exit-profile.html",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "school-life/student-opportunities-and-activities/duke-of-edinburgh-award/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "school-life/student-opportunities-and-activities/duke-of-edinburgh-award/_meta.json",
+  "driverVersion": "1"
+}

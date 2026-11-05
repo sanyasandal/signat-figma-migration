@@ -1,0 +1,46 @@
+{
+  "model": "stardust/reskin/content-model/home/content-model.json",
+  "target": "stardust/reskin/pages/home.html",
+  "verdict": "PASS",
+  "fails": 0,
+  "rows": [
+    {
+      "check": "S2",
+      "verdict": "ok",
+      "detail": "settled in 1509ms, 0 late chars captured"
+    },
+    {
+      "check": "S3",
+      "slot": "s01",
+      "source": "dark",
+      "target": "dark",
+      "verdict": "carried",
+      "probe": "Welcome to Fort Street High School"
+    },
+    {
+      "check": "S3",
+      "slot": "s03",
+      "source": "tinted",
+      "target": "tinted",
+      "verdict": "carried",
+      "probe": "Principal's message"
+    },
+    {
+      "check": "S3",
+      "slot": "s05",
+      "source": "dark",
+      "target": "dark",
+      "verdict": "carried",
+      "probe": "School tours and open evenings"
+    },
+    {
+      "check": "S3",
+      "slot": "s07",
+      "source": "dark",
+      "target": "tinted",
+      "verdict": "declared",
+      "why": "M5 centered statement band is greige (rgb 229,225,222) in the donor; the donor reserves black for the photo banner and footer, and maroon has no donor equivalent",
+      "probe": "Ready to apply?"
+    }
+  ]
+}

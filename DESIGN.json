@@ -1,0 +1,2969 @@
+{
+  "$schema": "stardust:DESIGN.json",
+  "source": {
+    "kind": "donor",
+    "designSource": {
+      "url": "https://www.figma.com/design/Nb8RS4SM2kSDkV1yW058yl",
+      "capturedAt": "2026-11-04T18:22:42Z",
+      "path": "stardust/canon-source/"
+    },
+    "tokens": "stardust/reskin/donor-tokens.json",
+    "generatedAt": "2026-11-05T06:31:12Z",
+    "generatedBy": "stardust:reskin/canon-from-reskin"
+  },
+  "tokens": {
+    "_provenance": {
+      "writtenBy": "stardust:reskin/figma-donor.mjs",
+      "writtenAt": "2026-11-04T18:22:42Z",
+      "readArtifacts": [
+        "stardust/reskin/curation-rules.json",
+        "stardust/canon-source/foundation/",
+        "stardust/canon-source/module-candidates.json",
+        "stardust/canon-source/assets/screenshots/index.json"
+      ],
+      "synthesizedInputs": []
+    },
+    "donor": "https://www.figma.com/design/Nb8RS4SM2kSDkV1yW058yl",
+    "curatedFrom": "reskin/curation-rules.json@v1; canon-source/foundation (figma version 2418082557428609783)",
+    "note": "Pinned reference per module family: home: D Home (node 19443:23241, 1440px). Other frames corroborate.",
+    "palette": {
+      "pageBg": "rgb(242, 240, 239)",
+      "bodyFg": "rgb(40, 40, 40)",
+      "headingFg": "rgb(0, 0, 0)",
+      "mutedFg": "rgb(100, 100, 100)",
+      "accent": "rgb(0, 0, 0)",
+      "darkBandBg": "rgb(0, 0, 0)",
+      "darkBandFg": "rgb(255, 255, 255)",
+      "lightBandBg": "rgb(229, 225, 222)",
+      "rule": "rgb(216, 211, 204)",
+      "sale": "rgb(191, 0, 19)"
+    },
+    "type": {
+      "family": "\"Apercu Pro\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "familyNote": "adopted as a token string with a local fallback; no font files from Figma; family equivalence applied: \"Apercu Pro\" → \"\"Apercu Pro\", \"Helvetica Neue\", Helvetica, Arial, sans-serif\"",
+      "display": {
+        "fontFamily": "\"Apercu Pro\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "56px",
+        "fontWeight": "400",
+        "lineHeight": "1",
+        "letterSpacing": "-3.36px",
+        "textAlign": "left"
+      },
+      "h2": {
+        "fontFamily": "\"Apercu Pro\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "56px",
+        "fontWeight": "400",
+        "lineHeight": "1",
+        "letterSpacing": "-3.36px"
+      },
+      "h3": {
+        "fontFamily": "\"Apercu Pro\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "26px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "-1.56px"
+      },
+      "h4": {
+        "fontFamily": "\"Apercu Pro\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "26px",
+        "letterSpacing": "-0.6px"
+      },
+      "lede": {
+        "fontFamily": "\"Apercu Pro\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "26px",
+        "letterSpacing": "-0.6px"
+      },
+      "body": {
+        "fontFamily": "\"Apercu Pro\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "lineHeight": "19px",
+        "letterSpacing": "normal"
+      },
+      "eyebrow": {
+        "fontFamily": "\"Apercu Pro\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "10px",
+        "fontWeight": "400",
+        "lineHeight": "12px",
+        "letterSpacing": "0.6px"
+      },
+      "tab": {
+        "fontFamily": "\"Apercu Pro\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "20px",
+        "letterSpacing": "-0.48px"
+      },
+      "promo": {
+        "fontFamily": "\"Apercu Pro\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "22px",
+        "letterSpacing": "-0.54px"
+      }
+    },
+    "layout": {
+      "containerMaxWidth": "1440px",
+      "sectionPaddingY": "80px",
+      "gutter": "16px",
+      "mobile": {
+        "gutter": "16px",
+        "sectionPaddingY": "40px"
+      },
+      "navAlign": "end"
+    },
+    "buttons": {
+      "primary": {
+        "background": "rgb(0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Apercu Pro\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "lineHeight": "13px",
+        "letterSpacing": "normal",
+        "padding": "12px 20px",
+        "height": "44px",
+        "borderRadius": "0px"
+      },
+      "secondary": {
+        "background": "rgb(242, 240, 239)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "\"Apercu Pro\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "lineHeight": "13px",
+        "letterSpacing": "normal",
+        "padding": "12px 20px",
+        "height": "44px",
+        "borderRadius": "0px"
+      }
+    },
+    "cards": {
+      "primary": {
+        "background": "rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "padding": "16px",
+        "titleColor": "rgb(0, 0, 0)"
+      }
+    },
+    "radii": {
+      "radius-3-33": "3.33px",
+      "radius-1-33": "1.33px",
+      "radius-100": "100px",
+      "radius-300": "300px",
+      "radius-40": "40px"
+    },
+    "shadows": {
+      "cardFloating": "rgba(0, 0, 0, 0.1) 0px 5px 11px 0px, rgba(0, 0, 0, 0.09) 0px 21px 21px 0px, rgba(0, 0, 0, 0.05) 0px 47px 28px 0px, rgba(0, 0, 0, 0.01) 0px 84px 33px 0px, rgba(0, 0, 0, 0) 0px 131px 37px 0px"
+    },
+    "motifs": [
+      "full-bleed photography with text anchored bottom-left",
+      "tight negative letter-spacing on large Apercu headings (-6%)",
+      "edge-to-edge tile grids separated by hairline gaps",
+      "warm neutral bands (off-white / greige) with a single black footer"
+    ],
+    "nodeRefs": {
+      "palette.pageBg": {
+        "node": "19443:23241",
+        "figma": {
+          "color": {
+            "r": 0.9490196108818054,
+            "g": 0.9411764740943909,
+            "b": 0.9372549057006836,
+            "a": 1
+          },
+          "opacity": 1
+        },
+        "via": "rest"
+      },
+      "palette.bodyFg": {
+        "node": "I19443:23247;18641:22721",
+        "figma": {
+          "color": {
+            "r": 0.1568627506494522,
+            "g": 0.1568627506494522,
+            "b": 0.1568627506494522,
+            "a": 1
+          },
+          "opacity": 1
+        },
+        "via": "rest"
+      },
+      "palette.headingFg": {
+        "node": "19443:23246",
+        "figma": {
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "opacity": 1
+        },
+        "via": "rest"
+      },
+      "palette.mutedFg": {
+        "node": "I19443:23377;18871:2929",
+        "figma": {
+          "color": {
+            "r": 0.3913627564907074,
+            "g": 0.3913627564907074,
+            "b": 0.3913627564907074,
+            "a": 1
+          },
+          "opacity": 1
+        },
+        "via": "rest"
+      },
+      "palette.accent": {
+        "node": "19443:23246",
+        "figma": {
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "opacity": 1
+        },
+        "via": "rest"
+      },
+      "palette.darkBandBg": {
+        "node": "19443:23246",
+        "figma": {
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "opacity": 1
+        },
+        "via": "rest"
+      },
+      "palette.darkBandFg": {
+        "node": "19443:23280",
+        "figma": {
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "opacity": 1
+        },
+        "via": "rest"
+      },
+      "palette.lightBandBg": {
+        "node": "19443:23242",
+        "figma": {
+          "color": {
+            "r": 0.8980392217636108,
+            "g": 0.8823529481887817,
+            "b": 0.8705882430076599,
+            "a": 1
+          },
+          "opacity": 1
+        },
+        "via": "rest"
+      },
+      "palette.rule": {
+        "node": "19443:23388",
+        "figma": {
+          "color": {
+            "r": 0.8470588326454163,
+            "g": 0.8274509906768799,
+            "b": 0.800000011920929,
+            "a": 1
+          },
+          "opacity": 1
+        },
+        "via": "rest"
+      },
+      "type.family": {
+        "node": "19443:23334",
+        "figma": "Apercu Pro",
+        "via": "rest",
+        "normalizedBy": [
+          "apercu-stack"
+        ]
+      },
+      "type.display.fontFamily": {
+        "node": "19443:23333",
+        "figma": "Apercu Pro",
+        "via": "rest",
+        "normalizedBy": [
+          "apercu-stack"
+        ]
+      },
+      "type.display.fontSize": {
+        "node": "19443:23333",
+        "figma": 56,
+        "via": "rest"
+      },
+      "type.display.fontWeight": {
+        "node": "19443:23333",
+        "figma": 400,
+        "via": "rest"
+      },
+      "type.display.lineHeight": {
+        "node": "19443:23333",
+        "figma": {
+          "lineHeightPx": 56,
+          "lineHeightUnit": "PIXELS",
+          "fontSize": 56
+        },
+        "via": "rest",
+        "normalizedBy": [
+          "display-lh"
+        ]
+      },
+      "type.display.letterSpacing": {
+        "node": "19443:23333",
+        "figma": {
+          "letterSpacing": -3.36,
+          "fontSize": 56
+        },
+        "via": "rest"
+      },
+      "type.h2.fontFamily": {
+        "node": "19443:23333",
+        "figma": "Apercu Pro",
+        "via": "rest",
+        "normalizedBy": [
+          "apercu-stack"
+        ]
+      },
+      "type.h2.fontSize": {
+        "node": "19443:23333",
+        "figma": 56,
+        "via": "rest"
+      },
+      "type.h2.fontWeight": {
+        "node": "19443:23333",
+        "figma": 400,
+        "via": "rest"
+      },
+      "type.h2.lineHeight": {
+        "node": "19443:23333",
+        "figma": {
+          "lineHeightPx": 56,
+          "lineHeightUnit": "PIXELS",
+          "fontSize": 56
+        },
+        "via": "rest",
+        "normalizedBy": [
+          "display-lh"
+        ]
+      },
+      "type.h2.letterSpacing": {
+        "node": "19443:23333",
+        "figma": {
+          "letterSpacing": -3.36,
+          "fontSize": 56
+        },
+        "via": "rest"
+      },
+      "type.h3.fontFamily": {
+        "node": "19443:23416",
+        "figma": "Apercu Pro",
+        "via": "rest",
+        "normalizedBy": [
+          "apercu-stack"
+        ]
+      },
+      "type.h3.fontSize": {
+        "node": "19443:23416",
+        "figma": 26,
+        "via": "rest"
+      },
+      "type.h3.fontWeight": {
+        "node": "19443:23416",
+        "figma": 400,
+        "via": "rest"
+      },
+      "type.h3.lineHeight": {
+        "node": "19443:23416",
+        "figma": {
+          "lineHeightPx": 32,
+          "lineHeightUnit": "PIXELS",
+          "fontSize": 26
+        },
+        "via": "rest"
+      },
+      "type.h3.letterSpacing": {
+        "node": "19443:23416",
+        "figma": {
+          "letterSpacing": -1.56,
+          "fontSize": 26
+        },
+        "via": "rest"
+      },
+      "type.h4.fontFamily": {
+        "node": "19443:23382",
+        "figma": "Apercu Pro",
+        "via": "rest",
+        "normalizedBy": [
+          "apercu-stack"
+        ]
+      },
+      "type.h4.fontSize": {
+        "node": "19443:23382",
+        "figma": 20,
+        "via": "rest"
+      },
+      "type.h4.fontWeight": {
+        "node": "19443:23382",
+        "figma": 400,
+        "via": "rest"
+      },
+      "type.h4.lineHeight": {
+        "node": "19443:23382",
+        "figma": {
+          "lineHeightPx": 26,
+          "lineHeightUnit": "PIXELS",
+          "fontSize": 20
+        },
+        "via": "rest"
+      },
+      "type.h4.letterSpacing": {
+        "node": "19443:23382",
+        "figma": {
+          "letterSpacing": -0.6,
+          "fontSize": 20
+        },
+        "via": "rest"
+      },
+      "type.lede.fontFamily": {
+        "node": "19443:23382",
+        "figma": "Apercu Pro",
+        "via": "rest",
+        "normalizedBy": [
+          "apercu-stack"
+        ]
+      },
+      "type.lede.fontSize": {
+        "node": "19443:23382",
+        "figma": 20,
+        "via": "rest"
+      },
+      "type.lede.fontWeight": {
+        "node": "19443:23382",
+        "figma": 400,
+        "via": "rest"
+      },
+      "type.lede.lineHeight": {
+        "node": "19443:23382",
+        "figma": {
+          "lineHeightPx": 26,
+          "lineHeightUnit": "PIXELS",
+          "fontSize": 20
+        },
+        "via": "rest"
+      },
+      "type.lede.letterSpacing": {
+        "node": "19443:23382",
+        "figma": {
+          "letterSpacing": -0.6,
+          "fontSize": 20
+        },
+        "via": "rest"
+      },
+      "type.body.fontFamily": {
+        "node": "19443:23334",
+        "figma": "Apercu Pro",
+        "via": "rest",
+        "normalizedBy": [
+          "apercu-stack"
+        ]
+      },
+      "type.body.fontSize": {
+        "node": "19443:23334",
+        "figma": 13,
+        "via": "rest"
+      },
+      "type.body.fontWeight": {
+        "node": "19443:23334",
+        "figma": 400,
+        "via": "rest"
+      },
+      "type.body.lineHeight": {
+        "node": "19443:23334",
+        "figma": {
+          "lineHeightPx": 19,
+          "lineHeightUnit": "PIXELS",
+          "fontSize": 13
+        },
+        "via": "rest"
+      },
+      "type.body.letterSpacing": {
+        "node": "19443:23334",
+        "figma": {
+          "letterSpacing": 0,
+          "fontSize": 13
+        },
+        "via": "rest"
+      },
+      "type.eyebrow.fontFamily": {
+        "node": "19443:23332",
+        "figma": "Apercu Pro",
+        "via": "rest",
+        "normalizedBy": [
+          "apercu-stack"
+        ]
+      },
+      "type.eyebrow.fontSize": {
+        "node": "19443:23332",
+        "figma": 10,
+        "via": "rest"
+      },
+      "type.eyebrow.fontWeight": {
+        "node": "19443:23332",
+        "figma": 400,
+        "via": "rest"
+      },
+      "type.eyebrow.lineHeight": {
+        "node": "19443:23332",
+        "figma": {
+          "lineHeightPx": 12,
+          "lineHeightUnit": "PIXELS",
+          "fontSize": 10
+        },
+        "via": "rest"
+      },
+      "type.eyebrow.letterSpacing": {
+        "node": "19443:23332",
+        "figma": {
+          "letterSpacing": 0.6,
+          "fontSize": 10
+        },
+        "via": "rest"
+      },
+      "type.tab.fontFamily": {
+        "node": "19443:23355",
+        "figma": "Apercu Pro",
+        "via": "rest",
+        "normalizedBy": [
+          "apercu-stack"
+        ]
+      },
+      "type.tab.fontSize": {
+        "node": "19443:23355",
+        "figma": 16,
+        "via": "rest"
+      },
+      "type.tab.fontWeight": {
+        "node": "19443:23355",
+        "figma": 400,
+        "via": "rest"
+      },
+      "type.tab.lineHeight": {
+        "node": "19443:23355",
+        "figma": {
+          "lineHeightPx": 20,
+          "lineHeightUnit": "PIXELS",
+          "fontSize": 16
+        },
+        "via": "rest"
+      },
+      "type.tab.letterSpacing": {
+        "node": "19443:23355",
+        "figma": {
+          "letterSpacing": -0.48,
+          "fontSize": 16
+        },
+        "via": "rest"
+      },
+      "type.promo.fontFamily": {
+        "node": "19443:23345",
+        "figma": "Apercu Pro",
+        "via": "rest",
+        "normalizedBy": [
+          "apercu-stack"
+        ]
+      },
+      "type.promo.fontSize": {
+        "node": "19443:23345",
+        "figma": 18,
+        "via": "rest"
+      },
+      "type.promo.fontWeight": {
+        "node": "19443:23345",
+        "figma": 400,
+        "via": "rest"
+      },
+      "type.promo.lineHeight": {
+        "node": "19443:23345",
+        "figma": {
+          "lineHeightPx": 22,
+          "lineHeightUnit": "PIXELS",
+          "fontSize": 18
+        },
+        "via": "rest"
+      },
+      "type.promo.letterSpacing": {
+        "node": "19443:23345",
+        "figma": {
+          "letterSpacing": -0.54,
+          "fontSize": 18
+        },
+        "via": "rest"
+      },
+      "buttons.primary.background": {
+        "node": "19443:23385",
+        "figma": {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        },
+        "via": "rest"
+      },
+      "buttons.primary.color": {
+        "node": "I19443:23385;18542:172",
+        "figma": {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        },
+        "via": "rest"
+      },
+      "buttons.primary.fontFamily": {
+        "node": "I19443:23385;18542:172",
+        "figma": "Apercu Pro",
+        "via": "rest",
+        "normalizedBy": [
+          "apercu-stack"
+        ]
+      },
+      "buttons.primary.fontSize": {
+        "node": "I19443:23385;18542:172",
+        "figma": 13,
+        "via": "rest"
+      },
+      "buttons.primary.fontWeight": {
+        "node": "I19443:23385;18542:172",
+        "figma": 400,
+        "via": "rest"
+      },
+      "buttons.primary.lineHeight": {
+        "node": "I19443:23385;18542:172",
+        "figma": {
+          "lineHeightPx": 13,
+          "lineHeightUnit": "PIXELS",
+          "fontSize": 13
+        },
+        "via": "rest"
+      },
+      "buttons.primary.letterSpacing": {
+        "node": "I19443:23385;18542:172",
+        "figma": {
+          "letterSpacing": 0,
+          "fontSize": 13
+        },
+        "via": "rest"
+      },
+      "buttons.primary.padding": {
+        "node": "19443:23385",
+        "figma": [
+          12,
+          20,
+          12,
+          20
+        ],
+        "via": "rest"
+      },
+      "buttons.primary.height": {
+        "node": "19443:23385",
+        "figma": 44,
+        "via": "rest"
+      },
+      "buttons.secondary.background": {
+        "node": "19443:23336",
+        "figma": {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.9490196108818054,
+            "g": 0.9411764740943909,
+            "b": 0.9372549057006836,
+            "a": 1
+          }
+        },
+        "via": "rest"
+      },
+      "buttons.secondary.color": {
+        "node": "I19443:23336;18641:24601",
+        "figma": {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        },
+        "via": "rest"
+      },
+      "buttons.secondary.fontFamily": {
+        "node": "I19443:23336;18641:24601",
+        "figma": "Apercu Pro",
+        "via": "rest",
+        "normalizedBy": [
+          "apercu-stack"
+        ]
+      },
+      "buttons.secondary.fontSize": {
+        "node": "I19443:23336;18641:24601",
+        "figma": 13,
+        "via": "rest"
+      },
+      "buttons.secondary.fontWeight": {
+        "node": "I19443:23336;18641:24601",
+        "figma": 400,
+        "via": "rest"
+      },
+      "buttons.secondary.lineHeight": {
+        "node": "I19443:23336;18641:24601",
+        "figma": {
+          "lineHeightPx": 13,
+          "lineHeightUnit": "PIXELS",
+          "fontSize": 13
+        },
+        "via": "rest"
+      },
+      "buttons.secondary.letterSpacing": {
+        "node": "I19443:23336;18641:24601",
+        "figma": {
+          "letterSpacing": 0,
+          "fontSize": 13
+        },
+        "via": "rest"
+      },
+      "buttons.secondary.padding": {
+        "node": "19443:23336",
+        "figma": [
+          12,
+          20,
+          12,
+          20
+        ],
+        "via": "rest"
+      },
+      "buttons.secondary.height": {
+        "node": "19443:23336",
+        "figma": 44,
+        "via": "rest"
+      },
+      "layout.containerMaxWidth": {
+        "node": "19443:23343",
+        "figma": {
+          "kind": "width",
+          "px": 1440
+        },
+        "via": "rest"
+      },
+      "layout.sectionPaddingY": {
+        "node": "19443:23508",
+        "figma": {
+          "kind": "padding",
+          "px": 80
+        },
+        "via": "rest"
+      },
+      "layout.gutter": {
+        "node": "19443:23242",
+        "figma": {
+          "kind": "padding",
+          "px": 16
+        },
+        "via": "rest"
+      },
+      "shadows.cardFloating": {
+        "node": "19443:23338",
+        "figma": [
+          {
+            "type": "DROP_SHADOW",
+            "visible": true,
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.10000000149011612
+            },
+            "blendMode": "NORMAL",
+            "offset": {
+              "x": 0,
+              "y": 5
+            },
+            "radius": 11,
+            "showShadowBehindNode": true
+          },
+          {
+            "type": "DROP_SHADOW",
+            "visible": true,
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.09000000357627869
+            },
+            "blendMode": "NORMAL",
+            "offset": {
+              "x": 0,
+              "y": 21
+            },
+            "radius": 21,
+            "showShadowBehindNode": true
+          },
+          {
+            "type": "DROP_SHADOW",
+            "visible": true,
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.05000000074505806
+            },
+            "blendMode": "NORMAL",
+            "offset": {
+              "x": 0,
+              "y": 47
+            },
+            "radius": 28,
+            "showShadowBehindNode": true
+          },
+          {
+            "type": "DROP_SHADOW",
+            "visible": true,
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.009999999776482582
+            },
+            "blendMode": "NORMAL",
+            "offset": {
+              "x": 0,
+              "y": 84
+            },
+            "radius": 33,
+            "showShadowBehindNode": true
+          },
+          {
+            "type": "DROP_SHADOW",
+            "visible": true,
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0
+            },
+            "blendMode": "NORMAL",
+            "offset": {
+              "x": 0,
+              "y": 131
+            },
+            "radius": 37,
+            "showShadowBehindNode": true
+          }
+        ],
+        "via": "rest"
+      },
+      "palette.sale": {
+        "node": "I19443:23327;18641:22721",
+        "figma": {
+          "color": {
+            "r": 0.7470703125,
+            "g": 0,
+            "b": 0.07470703125,
+            "a": 1
+          },
+          "opacity": 1
+        },
+        "via": "rest"
+      },
+      "layout.mobile.gutter": {
+        "node": "19443:23242",
+        "figma": {
+          "kind": "padding",
+          "px": 16
+        },
+        "via": "rest"
+      },
+      "radii.radius-3-33": {
+        "node": "I19443:23756;1587:16944",
+        "figma": 3.3299999237060547,
+        "via": "rest"
+      },
+      "radii.radius-1-33": {
+        "node": "I19443:23756;1587:16946",
+        "figma": 1.3333333730697632,
+        "via": "rest"
+      },
+      "radii.radius-100": {
+        "node": "19444:22299",
+        "figma": 100,
+        "via": "rest"
+      },
+      "radii.radius-300": {
+        "node": "19444:22305",
+        "figma": 300,
+        "via": "rest"
+      },
+      "radii.radius-40": {
+        "node": "19688:24092",
+        "figma": 40,
+        "via": "rest"
+      },
+      "buttons.primary.borderRadius": {
+        "node": "18542:171",
+        "figma": null,
+        "via": "rest",
+        "curated": {
+          "from": null,
+          "rule": "the Underline Swipe CTA component has no cornerRadius: square corners",
+          "evidence": "18542:171"
+        }
+      },
+      "buttons.secondary.borderRadius": {
+        "node": "18641:24600",
+        "figma": null,
+        "via": "rest",
+        "curated": {
+          "from": null,
+          "rule": "the Underline Swipe CTA component has no cornerRadius: square corners",
+          "evidence": "18641:24600"
+        }
+      },
+      "cards.primary.background": {
+        "node": "19443:23465",
+        "figma": null,
+        "via": "rest",
+        "curated": {
+          "from": null,
+          "rule": "product tiles in the For Every Milestone rail paint a white fill",
+          "evidence": "19443:23465"
+        }
+      },
+      "cards.primary.borderRadius": {
+        "node": "19443:23465",
+        "figma": null,
+        "via": "rest",
+        "curated": {
+          "from": null,
+          "rule": "every tile in the reference frame is square-cornered (no radii on tile frames)",
+          "evidence": "19443:23465"
+        }
+      },
+      "cards.primary.padding": {
+        "node": "19443:23344",
+        "figma": null,
+        "via": "rest",
+        "curated": {
+          "from": null,
+          "rule": "tile text blocks inset 16px (pad-16 on the tile content frames)",
+          "evidence": "19443:23344"
+        }
+      },
+      "cards.primary.titleColor": {
+        "node": "19443:23416",
+        "figma": null,
+        "via": "rest",
+        "curated": {
+          "from": null,
+          "rule": "tile titles on light tiles are black",
+          "evidence": "19443:23416"
+        }
+      },
+      "layout.mobile.sectionPaddingY": {
+        "node": "19443:23927",
+        "figma": null,
+        "via": "rest",
+        "curated": {
+          "from": null,
+          "rule": "the mobile frame halves band padding (pad-40 on stacked bands)",
+          "evidence": "19443:23927"
+        }
+      },
+      "type.display.textAlign": {
+        "node": "19443:23333",
+        "figma": {
+          "textAlignHorizontal": {
+            "left": 140,
+            "center": 17
+          }
+        },
+        "via": "rest",
+        "derived": "majority by characters"
+      },
+      "layout.navAlign": {
+        "node": "19443:23242",
+        "figma": {
+          "headerRows": {
+            "end": 3,
+            "start": 2
+          }
+        },
+        "via": "rest",
+        "derived": "majority of desktop header rows"
+      }
+    },
+    "coverage": {
+      "asserted": 13,
+      "absent": [],
+      "suspect": [],
+      "recommended": {
+        "curated": [
+          "cards.primary.background",
+          "cards.primary.borderRadius",
+          "cards.primary.padding",
+          "cards.primary.titleColor",
+          "buttons.primary.height",
+          "layout.mobile.sectionPaddingY",
+          "layout.mobile.gutter"
+        ],
+        "missing": []
+      }
+    }
+  },
+  "extensions": {
+    "canon": {
+      "sourceSlug": "home",
+      "approvedAt": "2026-11-05T06:17:03Z",
+      "files": {
+        "header": {
+          "path": "stardust/canon/header.html",
+          "sha": "1e8e0c3eebea"
+        },
+        "footer": {
+          "path": "stardust/canon/footer.html",
+          "sha": "a8b6d4b37731"
+        },
+        "css": {
+          "path": "stardust/canon/canon.css",
+          "sha": "5fe9e7ffc80e"
+        }
+      },
+      "pinned": {
+        "sectionPadding.desktop": "80px",
+        "layout.containerMaxWidth": "1440px",
+        "sectionPadding.tablet": "80px",
+        "sectionPadding.mobile": "40px",
+        "densityTier": null,
+        "typeScale": null
+      },
+      "compositionalMoves": [
+        "Chrome is the site's own header/footer content restyled with donor tokens (header regions: 1, footer regions: 1); never donor chrome copy.",
+        "Module M1 composes as a media-band section at wide width.",
+        "Module M2 composes as a cards section at wide width.",
+        "Module M6 composes as a split section at wide width.",
+        "Module M7 composes as a split section at wide width.",
+        "Module M9 composes as a media-band section at wide width.",
+        "Module M11 composes as a cards section at wide width."
+      ],
+      "history": [
+        {
+          "at": "2026-11-05T06:17:32Z",
+          "from": "home",
+          "kind": "first-approval",
+          "via": "reskin",
+          "shot": "stardust/reskin/approvals/home.2026-11-05T06-17-32Z.png"
+        },
+        {
+          "at": "2026-11-05T06:20:28Z",
+          "from": "home",
+          "kind": "re-approval",
+          "via": "reskin",
+          "shot": "stardust/reskin/approvals/home.2026-11-05T06-20-28Z.png",
+          "visual": {
+            "against": "stardust/reskin/approvals/home.2026-11-05T06-17-32Z.png",
+            "againstSlug": "home",
+            "pct": 0,
+            "threshold": 10,
+            "heightDelta": 0,
+            "diff": "stardust/reskin/approvals/home.2026-11-05T06-20-28Z.diff.png"
+          }
+        },
+        {
+          "at": "2026-11-05T06:31:12Z",
+          "from": "home",
+          "kind": "re-approval",
+          "via": "reskin"
+        }
+      ]
+    },
+    "modules": [
+      {
+        "id": "M1",
+        "eds": {
+          "block": "hero",
+          "variant": null
+        },
+        "slots": [
+          {
+            "name": "home:s01",
+            "type": "stream",
+            "required": true
+          }
+        ],
+        "canonicalRendering": {
+          "path": "stardust/canon/modules/M1.html",
+          "sha": "04e874b19ccb",
+          "from": "home"
+        }
+      },
+      {
+        "id": "M2",
+        "eds": {
+          "block": "cards",
+          "variant": null
+        },
+        "slots": [
+          {
+            "name": "home:s02",
+            "type": "stream",
+            "required": true
+          }
+        ],
+        "canonicalRendering": {
+          "path": "stardust/canon/modules/M2.html",
+          "sha": "b63c96f5b329",
+          "from": "home"
+        }
+      },
+      {
+        "id": "M6",
+        "eds": {
+          "block": "columns",
+          "variant": "editorial"
+        },
+        "slots": [
+          {
+            "name": "home:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-parent-portal:s04",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-parent-portal:s06",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "our-community-foundation:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-events:s07",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-newsletters:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-instrumental-music-program:s06",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-travel-to-school:s06",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-travel-to-school:s07",
+            "type": "stream",
+            "required": true
+          }
+        ],
+        "canonicalRendering": {
+          "path": "stardust/canon/modules/M6.html",
+          "sha": "1169ade3d265",
+          "from": "home"
+        }
+      },
+      {
+        "id": "M7",
+        "eds": {
+          "block": "columns",
+          "variant": "split"
+        },
+        "slots": [
+          {
+            "name": "home:s04",
+            "type": "stream",
+            "required": true
+          }
+        ],
+        "canonicalRendering": {
+          "path": "stardust/canon/modules/M7.html",
+          "sha": "2fd03fc8e6f4",
+          "from": "home"
+        }
+      },
+      {
+        "id": "M9",
+        "eds": {
+          "block": "hero",
+          "variant": "banner"
+        },
+        "slots": [
+          {
+            "name": "home:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-our-principal-and-staff:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-facilities-and-resources:s04",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-transition-to-high-school:s04",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-travel-to-school:s09",
+            "type": "stream",
+            "required": true
+          }
+        ],
+        "canonicalRendering": {
+          "path": "stardust/canon/modules/M9.html",
+          "sha": "f4c718ad1e87",
+          "from": "home"
+        }
+      },
+      {
+        "id": "M11",
+        "eds": {
+          "block": "cards",
+          "variant": "value"
+        },
+        "slots": [
+          {
+            "name": "home:s06",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "learning-and-support-learning:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-events:s05",
+            "type": "stream",
+            "required": true
+          }
+        ],
+        "canonicalRendering": {
+          "path": "stardust/canon/modules/M11.html",
+          "sha": "a0d020028d32",
+          "from": "home"
+        }
+      },
+      {
+        "id": "M5",
+        "eds": {
+          "block": null,
+          "variant": null
+        },
+        "slots": [
+          {
+            "name": "home:s07",
+            "type": "stream",
+            "required": true
+          }
+        ],
+        "canonicalRendering": {
+          "path": "stardust/canon/modules/M5.html",
+          "sha": "b3a4834a7a9c",
+          "from": "home"
+        }
+      },
+      {
+        "id": "M6b",
+        "eds": null,
+        "slots": [
+          {
+            "name": "home:s08",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "learning-and-support-additional-learning-support:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-enrol:s04",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-school-history-and-archives:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "contact-us:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-house-and-merit-system:s05",
+            "type": "stream",
+            "required": true
+          }
+        ],
+        "canonicalRendering": {
+          "path": "stardust/canon/modules/M6b.html",
+          "sha": "2baa20acf58e",
+          "from": "home"
+        }
+      },
+      {
+        "id": "M10",
+        "eds": {
+          "block": "cards",
+          "variant": "social"
+        },
+        "slots": [
+          {
+            "name": "home:s09",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-stories-and-highlights:s04",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-events:s08",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-newsletters:s06",
+            "type": "stream",
+            "required": true
+          }
+        ],
+        "canonicalRendering": {
+          "path": "stardust/canon/modules/M10.html",
+          "sha": "5b51a54280b4",
+          "from": "home"
+        }
+      },
+      {
+        "id": "M3",
+        "eds": {
+          "block": null,
+          "variant": null
+        },
+        "slots": [
+          {
+            "name": "learning-and-support-learning:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "learning-and-support-learning:s09",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-our-principal-and-staff:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-our-principal-and-staff:s13",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "learning-and-support-additional-learning-support:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "learning-and-support-additional-learning-support:s10",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-parent-portal:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-parent-portal:s10",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-enrol:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-enrol:s10",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-facilities-and-resources:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-facilities-and-resources:s06",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-hsc-results:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-hsc-results:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-policies-and-reports-nsw-public-school-information:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-policies-and-reports-nsw-public-school-information:s06",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-policies-and-reports:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-policies-and-reports:s09",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-school-history-and-archives-fort-street-archives:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-school-history-and-archives-fort-street-archives:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-school-history-and-archives-the-fort-street-museum:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-school-history-and-archives-the-fort-street-museum:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-school-history-and-archives-the-fortian-digitised:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-school-history-and-archives-the-fortian-digitised:s06",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-school-history-and-archives:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-school-history-and-archives:s07",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-stories-and-highlights:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-stories-and-highlights:s07",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-transition-to-high-school:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-transition-to-high-school:s07",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-why-choose-us:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-why-choose-us:s12",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "contact-us:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "contact-us:s09",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "learning-and-support-careers:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "learning-and-support-careers:s06",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "learning-and-support-high-potential-and-gifted-education:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "learning-and-support-high-potential-and-gifted-education:s08",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "learning-and-support-wellbeing:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "learning-and-support-wellbeing:s09",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "learning-and-support:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "learning-and-support:s04",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "our-community-alumni:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "our-community-alumni:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "our-community-fortians-union:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "our-community-fortians-union:s06",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "our-community-foundation-tertiary-bursaries:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "our-community-foundation-tertiary-bursaries:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "our-community-foundation:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "our-community-foundation:s07",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "our-community-pandc:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "our-community-pandc:s08",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "our-community:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "our-community:s06",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-bell-times:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-bell-times:s07",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-bring-your-own-device:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-bring-your-own-device:s08",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-canteen:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-canteen:s08",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-events:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-events:s10",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-forms:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-forms:s06",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-house-and-merit-system:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-house-and-merit-system:s08",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-lockers-and-lost-property:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-lockers-and-lost-property:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-newsletters:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-newsletters:s08",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-stationery:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-stationery:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-academic-competitions:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-academic-competitions:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-clubs-and-committees:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-clubs-and-committees:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-creative-and-performing-arts:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-creative-and-performing-arts:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-debating-and-public-speaking:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-debating-and-public-speaking:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-duke-of-edinburgh-award:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-duke-of-edinburgh-award:s12",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-instrumental-music-program:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-instrumental-music-program:s10",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-robotics-and-maker-society:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-robotics-and-maker-society:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-sport:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-sport:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-student-leadership-opportunities:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-student-leadership-opportunities:s08",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities:s08",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-travel-to-school:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-travel-to-school:s13",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-uniform-uniform-shop:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-uniform-uniform-shop:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-uniform:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-uniform:s07",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life:s01",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life:s04",
+            "type": "stream",
+            "required": true
+          }
+        ],
+        "canonicalRendering": {
+          "path": "stardust/canon/modules/M3.html",
+          "sha": "61980313775d",
+          "from": "learning-and-support-learning"
+        }
+      },
+      {
+        "id": "M5b",
+        "eds": null,
+        "slots": [
+          {
+            "name": "learning-and-support-learning:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "learning-and-support-learning:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "learning-and-support-learning:s06",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-our-principal-and-staff:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-our-principal-and-staff:s04",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "learning-and-support-additional-learning-support:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "learning-and-support-additional-learning-support:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-parent-portal:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-parent-portal:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-parent-portal:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-parent-portal:s07",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-enrol:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-enrol:s06",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-enrol:s07",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-facilities-and-resources:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-facilities-and-resources:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-policies-and-reports-nsw-public-school-information:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-policies-and-reports:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-policies-and-reports:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-policies-and-reports:s04",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-policies-and-reports:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-school-history-and-archives-fort-street-archives:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-school-history-and-archives-the-fort-street-museum:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-school-history-and-archives-the-fortian-digitised:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-school-history-and-archives:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-school-history-and-archives:s04",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-stories-and-highlights:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-transition-to-high-school:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-transition-to-high-school:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-why-choose-us:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-why-choose-us:s04",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-why-choose-us:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-why-choose-us:s07",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "contact-us:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "contact-us:s04",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "contact-us:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "contact-us:s06",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "learning-and-support-careers:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "learning-and-support-careers:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "learning-and-support-high-potential-and-gifted-education:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "learning-and-support-high-potential-and-gifted-education:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "learning-and-support-wellbeing:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "learning-and-support-wellbeing:s04",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "learning-and-support:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "our-community-alumni:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "our-community-fortians-union:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "our-community-fortians-union:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "our-community-foundation-tertiary-bursaries:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "our-community-foundation-tertiary-bursaries:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "our-community-foundation:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "our-community-pandc:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "our-community-pandc:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "our-community:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-bell-times:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-bell-times:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-bell-times:s04",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-bring-your-own-device:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-bring-your-own-device:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-bring-your-own-device:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-canteen:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-canteen:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-canteen:s04",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-canteen:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-events:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-events:s04",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-forms:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-house-and-merit-system:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-house-and-merit-system:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-house-and-merit-system:s04",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-newsletters:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-stationery:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-stationery:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-academic-competitions:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-clubs-and-committees:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-creative-and-performing-arts:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-debating-and-public-speaking:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-duke-of-edinburgh-award:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-duke-of-edinburgh-award:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-duke-of-edinburgh-award:s04",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-duke-of-edinburgh-award:s06",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-duke-of-edinburgh-award:s08",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-instrumental-music-program:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-instrumental-music-program:s04",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-instrumental-music-program:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-instrumental-music-program:s07",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-robotics-and-maker-society:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-student-leadership-opportunities:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-student-leadership-opportunities:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-travel-to-school:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-travel-to-school:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-travel-to-school:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-travel-to-school:s10",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-uniform:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-uniform:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life:s02",
+            "type": "stream",
+            "required": true
+          }
+        ],
+        "canonicalRendering": {
+          "path": "stardust/canon/modules/M5b.html",
+          "sha": "b0c480b6290c",
+          "from": "learning-and-support-learning"
+        }
+      },
+      {
+        "id": "M9b",
+        "eds": null,
+        "slots": [
+          {
+            "name": "learning-and-support-learning:s07",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "learning-and-support-additional-learning-support:s04",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "learning-and-support-additional-learning-support:s07",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-parent-portal:s08",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-enrol:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-enrol:s08",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-hsc-results:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-policies-and-reports-nsw-public-school-information:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-policies-and-reports:s07",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-school-history-and-archives-fort-street-archives:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-school-history-and-archives-the-fort-street-museum:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-school-history-and-archives-the-fortian-digitised:s04",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-school-history-and-archives:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-stories-and-highlights:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-why-choose-us:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-why-choose-us:s10",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "contact-us:s07",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "learning-and-support-careers:s04",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "learning-and-support-high-potential-and-gifted-education:s06",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "learning-and-support-wellbeing:s07",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "our-community-alumni:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "our-community-fortians-union:s04",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "our-community-foundation:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "our-community-pandc:s06",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-bell-times:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-bring-your-own-device:s06",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-canteen:s06",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-events:s06",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-forms:s04",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-house-and-merit-system:s06",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-lockers-and-lost-property:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-newsletters:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-academic-competitions:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-clubs-and-committees:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-creative-and-performing-arts:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-debating-and-public-speaking:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-duke-of-edinburgh-award:s07",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-duke-of-edinburgh-award:s10",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-instrumental-music-program:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-instrumental-music-program:s08",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-robotics-and-maker-society:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-sport:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-student-leadership-opportunities:s04",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities:s06",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-travel-to-school:s11",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-uniform-uniform-shop:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-uniform:s05",
+            "type": "stream",
+            "required": true
+          }
+        ],
+        "canonicalRendering": {
+          "path": "stardust/canon/modules/M9b.html",
+          "sha": "6233eca0cccb",
+          "from": "learning-and-support-learning"
+        }
+      },
+      {
+        "id": "M11b",
+        "eds": null,
+        "slots": [
+          {
+            "name": "learning-and-support-learning:s08",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-our-principal-and-staff:s08",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-our-principal-and-staff:s12",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "learning-and-support-additional-learning-support:s09",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-parent-portal:s09",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-enrol:s09",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-facilities-and-resources:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-hsc-results:s04",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-policies-and-reports-nsw-public-school-information:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-policies-and-reports:s08",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-school-history-and-archives-fort-street-archives:s04",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-school-history-and-archives-the-fort-street-museum:s04",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-school-history-and-archives-the-fortian-digitised:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-school-history-and-archives:s06",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-stories-and-highlights:s06",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-transition-to-high-school:s06",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-why-choose-us:s08",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us-why-choose-us:s11",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "about-us:s02",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "contact-us:s08",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "learning-and-support-careers:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "learning-and-support-high-potential-and-gifted-education:s07",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "learning-and-support-wellbeing:s08",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "learning-and-support:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "our-community-alumni:s04",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "our-community-fortians-union:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "our-community-foundation-tertiary-bursaries:s04",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "our-community-foundation:s06",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "our-community-pandc:s07",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "our-community:s03",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "our-community:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-bell-times:s06",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-bring-your-own-device:s07",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-canteen:s07",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-events:s09",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-forms:s05",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-house-and-merit-system:s07",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-lockers-and-lost-property:s04",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-newsletters:s07",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-stationery:s04",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-academic-competitions:s04",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-clubs-and-committees:s04",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-creative-and-performing-arts:s04",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-debating-and-public-speaking:s04",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-duke-of-edinburgh-award:s11",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-instrumental-music-program:s09",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-robotics-and-maker-society:s04",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-sport:s04",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities-student-leadership-opportunities:s07",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-student-opportunities-and-activities:s07",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-travel-to-school:s12",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-uniform-uniform-shop:s04",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life-uniform:s06",
+            "type": "stream",
+            "required": true
+          },
+          {
+            "name": "school-life:s03",
+            "type": "stream",
+            "required": true
+          }
+        ],
+        "canonicalRendering": {
+          "path": "stardust/canon/modules/M11b.html",
+          "sha": "366721d9d936",
+          "from": "learning-and-support-learning"
+        }
+      },
+      {
+        "id": "M4",
+        "eds": {
+          "block": "hero",
+          "variant": "detail"
+        },
+        "slots": [],
+        "canonicalRendering": null
+      },
+      {
+        "id": "M8",
+        "eds": {
+          "block": "cards",
+          "variant": "product"
+        },
+        "slots": [],
+        "canonicalRendering": null
+      },
+      {
+        "id": "M12",
+        "eds": {
+          "block": "footer",
+          "variant": null
+        },
+        "slots": [],
+        "canonicalRendering": null
+      },
+      {
+        "id": "M13",
+        "eds": {
+          "block": "header",
+          "variant": null
+        },
+        "slots": [],
+        "canonicalRendering": null
+      }
+    ]
+  }
+}

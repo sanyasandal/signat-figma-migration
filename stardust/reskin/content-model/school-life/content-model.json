@@ -1,0 +1,1458 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-11-05T06:24:17.301Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life",
+    "viewport": "1440x900",
+    "scope": "nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!",
+    "normalize": {
+      "source": "/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/school-life.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes, any cookie/consent/gdpr-named element inside a fixed/sticky/high-z overlay)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N3",
+          "what": "open every .nsw-accordion panel (unhide its content region, aria-expanded=true)",
+          "why": "closed panel text is content; capture-only — the rendered accordion keeps the closed rest state"
+        }
+      ]
+    },
+    "settle": {
+      "firstLen": 2578,
+      "waitedMs": 1513,
+      "stable": true,
+      "settledLen": 2578,
+      "lateChars": 0
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "domcontentloaded",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "School life",
+    "description": "Find out more about school life at Fort Street High School.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life",
+    "ogTags": {
+      "og:title": "School life",
+      "og:description": "Find out more about school life at Fort Street High School.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/school-life",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/media_13970bd7cc833ec1e513fbe45655b9c42e1b0a611.png?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/media_13970bd7cc833ec1e513fbe45655b9c42e1b0a611.png?width=1200&format=pjpg&optimize=medium"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "School life",
+      "twitter:description": "Find out more about school life at Fort Street High School.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/media_13970bd7cc833ec1e513fbe45655b9c42e1b0a611.png?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "nav.nsw-breadcrumbs",
+      "whole": true
+    },
+    {
+      "sel": "main",
+      "whole": false
+    },
+    {
+      "sel": "aside.nsw-layout__sidebar--desktop",
+      "whole": true
+    }
+  ],
+  "visibleTextNormalized": "HomeSchool life School life Important Dates See our calendar for important dates to start 2026. east Uniform Learn about our uniform and where to buy it. east Stationery See our list of stationery requirements for Year 7. east Bring Your Own Device Student Bring Your Own Device (BYOD) guidelines east Travel to school Getting to our school is simple with various safe transport options, check our location map and public transport details. east Parent portal Keep up with the latest school news and events, make a payment and learn how to get involved. east Bell times See our bell times, attendance, school hours and timetables. east Canteen See our canteen opening hours, our menu and how to order. east Student opportunities and activities We offer a range of co-curricular programs to support students goals both inside and outside of the classroom. east Lockers and lost property Student hire of lockers and where to find lost property. east House and Merit System The Fort Street High School merit system rewards students with profile points aligned to the school exit profile. east Forms The forms are provided for the convenience of parents/carers, members of the public and students to easily submit forms electronically any day at any time. east Events Our school hosts a variety of events throughout the year, from fun-filled celebrations to educational excursions. east Newsletters Discover the latest updates and exciting events happening at our school. Check out our newsletters to stay connected! east Section navigation About us Contact us Learning and support Our community School life Bell times Bring your own device Canteen Events Forms House and Merit System Lockers and lost property Newsletters Parent portal Stationery Student opportunities and activities Travel to school Uniform",
+  "coverage": {
+    "bodyTextLen": 2578,
+    "scopeTextLen": 1805,
+    "ratio": 0.7,
+    "h1Text": "School life",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "nav",
+      "rootClass": "nsw-breadcrumbs js-breadcrumbs",
+      "visibleText": "HomeSchool life",
+      "headings": [],
+      "paragraphs": [],
+      "listItems": [
+        "Home",
+        "School life"
+      ],
+      "ctas": [
+        {
+          "text": "Home",
+          "href": "https://fortstreet-h.schools.nsw.gov.au",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/",
+          "classes": ""
+        },
+        {
+          "text": "School life",
+          "href": "",
+          "absHref": "",
+          "classes": "current"
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Home",
+          "display": "inline-block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Home",
+              "display": "inline-block",
+              "href": "https://fortstreet-h.schools.nsw.gov.au",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "School life",
+          "display": "inline-block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "School life",
+              "display": "inline-block",
+              "href": "",
+              "absHref": "",
+              "classes": "current",
+              "sep": ""
+            }
+          ],
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "School life",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "School life"
+        }
+      ],
+      "paragraphs": [],
+      "listItems": [],
+      "ctas": [],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "School life",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Important Dates See our calendar for important dates to start 2026. east Uniform Learn about our uniform and where to buy it. east Stationery See our list of stationery requirements for Year 7. east Bring Your Own Device Student Bring Your Own Device (BYOD) guidelines east Travel to school Getting to our school is simple with various safe transport options, check our location map and public transport details. east Parent portal Keep up with the latest school news and events, make a payment and learn how to get involved. east Bell times See our bell times, attendance, school hours and timetables. east Canteen See our canteen opening hours, our menu and how to order. east Student opportunities and activities We offer a range of co-curricular programs to support students goals both inside and outside of the classroom. east Lockers and lost property Student hire of lockers and where to find lost property. east House and Merit System The Fort Street High School merit system rewards students with profile points aligned to the school exit profile. east Forms The forms are provided for the convenience of parents/carers, members of the public and students to easily submit forms electronically any day at any time. east Events Our school hosts a variety of events throughout the year, from fun-filled celebrations to educational excursions. east Newsletters Discover the latest updates and exciting events happening at our school. Check out our newsletters to stay connected! east",
+      "headings": [],
+      "paragraphs": [
+        "See our calendar for important dates to start 2026.",
+        "Learn about our uniform and where to buy it.",
+        "See our list of stationery requirements for Year 7.",
+        "Student Bring Your Own Device (BYOD) guidelines",
+        "Getting to our school is simple with various safe transport options, check our location map and public transport details.",
+        "Keep up with the latest school news and events, make a payment and learn how to get involved.",
+        "See our bell times, attendance, school hours and timetables.",
+        "See our canteen opening hours, our menu and how to order.",
+        "We offer a range of co-curricular programs to support students goals both inside and outside of the classroom.",
+        "Student hire of lockers and where to find lost property.",
+        "The Fort Street High School merit system rewards students with profile points aligned to the school exit profile.",
+        "The forms are provided for the convenience of parents/carers, members of the public and students to easily submit forms electronically any day at any time.",
+        "Our school hosts a variety of events throughout the year, from fun-filled celebrations to educational excursions.",
+        "Discover the latest updates and exciting events happening at our school. Check out our newsletters to stay connected!"
+      ],
+      "listItems": [
+        "Important Dates See our calendar for important dates to start 2026. east",
+        "Uniform Learn about our uniform and where to buy it. east",
+        "Stationery See our list of stationery requirements for Year 7. east",
+        "Bring Your Own Device Student Bring Your Own Device (BYOD) guidelines east",
+        "Travel to school Getting to our school is simple with various safe transport options, check our location map and public transport details. east",
+        "Parent portal Keep up with the latest school news and events, make a payment and learn how to get involved. east",
+        "Bell times See our bell times, attendance, school hours and timetables. east",
+        "Canteen See our canteen opening hours, our menu and how to order. east",
+        "Student opportunities and activities We offer a range of co-curricular programs to support students goals both inside and outside of the classroom. east",
+        "Lockers and lost property Student hire of lockers and where to find lost property. east",
+        "House and Merit System The Fort Street High School merit system rewards students with profile points aligned to the school exit profile. east",
+        "Forms The forms are provided for the convenience of parents/carers, members of the public and students to easily submit forms electronically any day at any time. east",
+        "Events Our school hosts a variety of events throughout the year, from fun-filled celebrations to educational excursions. east",
+        "Newsletters Discover the latest updates and exciting events happening at our school. Check out our newsletters to stay connected! east"
+      ],
+      "ctas": [
+        {
+          "text": "Important Dates",
+          "href": "/school-life/events",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+          "classes": ""
+        },
+        {
+          "text": "Uniform",
+          "href": "/school-life/uniform",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform",
+          "classes": ""
+        },
+        {
+          "text": "Stationery",
+          "href": "/school-life/stationery",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/stationery",
+          "classes": ""
+        },
+        {
+          "text": "Bring Your Own Device",
+          "href": "/school-life/bring-your-own-device",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/bring-your-own-device",
+          "classes": ""
+        },
+        {
+          "text": "Travel to school",
+          "href": "/school-life/travel-to-school",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school",
+          "classes": ""
+        },
+        {
+          "text": "Parent portal",
+          "href": "/school-life/parent-portal",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+          "classes": ""
+        },
+        {
+          "text": "Bell times",
+          "href": "/school-life/bell-times",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/bell-times",
+          "classes": ""
+        },
+        {
+          "text": "Canteen",
+          "href": "/school-life/canteen",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/canteen",
+          "classes": ""
+        },
+        {
+          "text": "Student opportunities and activities",
+          "href": "/school-life/student-opportunities-and-activities",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities",
+          "classes": ""
+        },
+        {
+          "text": "Lockers and lost property",
+          "href": "/school-life/lockers-and-lost-property",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/lockers-and-lost-property",
+          "classes": ""
+        },
+        {
+          "text": "House and Merit System",
+          "href": "/school-life/house-and-merit-system",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/house-and-merit-system",
+          "classes": ""
+        },
+        {
+          "text": "Forms",
+          "href": "/school-life/forms",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/forms",
+          "classes": ""
+        },
+        {
+          "text": "Events",
+          "href": "/school-life/events",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+          "classes": ""
+        },
+        {
+          "text": "Newsletters",
+          "href": "/school-life/newsletters",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_13970bd7cc833ec1e513fbe45655b9c42e1b0a611.png?width=750&format=webply&optimize=medium",
+          "alt": "",
+          "w": 400,
+          "h": 400
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_1f015f156762cde036b85952b8ae01aba7c527111.jpg?width=750&format=webply&optimize=medium",
+          "alt": "students",
+          "w": 750,
+          "h": 530
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_106b4fd5d5a6fd4903602676c1c66c142c80c1c7d.jpg?width=750&format=webply&optimize=medium",
+          "alt": "Winc BTS Smart Start Kit Website Tile 565x360.jpg",
+          "w": 750,
+          "h": 478
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_1c5727ec93cb68f4d3c8761e4d9c6c10c3aba7374.jpg?width=750&format=webply&optimize=medium",
+          "alt": "students",
+          "w": 750,
+          "h": 500
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_18584905c9b96fbe7d14e44b6d96839a4f70737dc.png?width=750&format=webply&optimize=medium",
+          "alt": "Opal card",
+          "w": 300,
+          "h": 190
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_144b2eec1d073bf819d4c8f458d725970bbc78347.png?width=750&format=webply&optimize=medium",
+          "alt": "parent portal",
+          "w": 750,
+          "h": 511
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_18bb10f67ea8be0529af26bad2784911d2d942349.png?width=750&format=webply&optimize=medium",
+          "alt": "bell times",
+          "w": 750,
+          "h": 511
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_128fd219545ea03c832087b3d7f032cd825fa7771.jpg?width=750&format=webply&optimize=medium",
+          "alt": "Canteen menu",
+          "w": 750,
+          "h": 1060
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_120147759de8a2ce2d79e6eb21fec3fa093c00b38.jpg?width=750&format=webply&optimize=medium",
+          "alt": "",
+          "w": 750,
+          "h": 565
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_11893371bce6bf3f45a2d3d0c296bd3482d94d465.png?width=750&format=webply&optimize=medium",
+          "alt": "school lockers",
+          "w": 750,
+          "h": 515
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_1660d7a0d52fa3acd7105fdfd6b06229088d197db.jpg?width=750&format=webply&optimize=medium",
+          "alt": "",
+          "w": 750,
+          "h": 173
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_1dfbc3a331b07d6b258f99fb529ba74f743e09bcc.png?width=750&format=webply&optimize=medium",
+          "alt": "online forms",
+          "w": 736,
+          "h": 400
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_1145293b25a61ef63fc51759017f43fc0c527d128.jpg?width=750&format=webply&optimize=medium",
+          "alt": "school events",
+          "w": 750,
+          "h": 500
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_1980e057ec6ccea2088683d84b46c8c6d07a4dfab.png?width=750&format=webply&optimize=medium",
+          "alt": "online newsletters",
+          "w": 736,
+          "h": 400
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Important Dates See our calendar for important dates to start 2026. east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_13970bd7cc833ec1e513fbe45655b9c42e1b0a611.png?width=750&format=webply&optimize=medium",
+              "alt": "",
+              "rw": 368,
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Important Dates",
+              "display": "inline",
+              "href": "/school-life/events",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "See our calendar for important dates to start 2026.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Uniform Learn about our uniform and where to buy it. east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_1f015f156762cde036b85952b8ae01aba7c527111.jpg?width=750&format=webply&optimize=medium",
+              "alt": "students",
+              "rw": 368,
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Uniform",
+              "display": "inline",
+              "href": "/school-life/uniform",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Learn about our uniform and where to buy it.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Stationery See our list of stationery requirements for Year 7. east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_106b4fd5d5a6fd4903602676c1c66c142c80c1c7d.jpg?width=750&format=webply&optimize=medium",
+              "alt": "Winc BTS Smart Start Kit Website Tile 565x360.jpg",
+              "rw": 368,
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Stationery",
+              "display": "inline",
+              "href": "/school-life/stationery",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/stationery",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "See our list of stationery requirements for Year 7.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Bring Your Own Device Student Bring Your Own Device (BYOD) guidelines east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_1c5727ec93cb68f4d3c8761e4d9c6c10c3aba7374.jpg?width=750&format=webply&optimize=medium",
+              "alt": "students",
+              "rw": 368,
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Bring Your Own Device",
+              "display": "inline",
+              "href": "/school-life/bring-your-own-device",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/bring-your-own-device",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Student Bring Your Own Device (BYOD) guidelines",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Travel to school Getting to our school is simple with various safe transport options, check our location map and public transport details. east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_18584905c9b96fbe7d14e44b6d96839a4f70737dc.png?width=750&format=webply&optimize=medium",
+              "alt": "Opal card",
+              "rw": 368,
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Travel to school",
+              "display": "inline",
+              "href": "/school-life/travel-to-school",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Getting to our school is simple with various safe transport options, check our location map and public transport details.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Parent portal Keep up with the latest school news and events, make a payment and learn how to get involved. east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_144b2eec1d073bf819d4c8f458d725970bbc78347.png?width=750&format=webply&optimize=medium",
+              "alt": "parent portal",
+              "rw": 368,
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Parent portal",
+              "display": "inline",
+              "href": "/school-life/parent-portal",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Keep up with the latest school news and events, make a payment and learn how to get involved.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Bell times See our bell times, attendance, school hours and timetables. east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_18bb10f67ea8be0529af26bad2784911d2d942349.png?width=750&format=webply&optimize=medium",
+              "alt": "bell times",
+              "rw": 368,
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Bell times",
+              "display": "inline",
+              "href": "/school-life/bell-times",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/bell-times",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "See our bell times, attendance, school hours and timetables.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Canteen See our canteen opening hours, our menu and how to order. east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_128fd219545ea03c832087b3d7f032cd825fa7771.jpg?width=750&format=webply&optimize=medium",
+              "alt": "Canteen menu",
+              "rw": 368,
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Canteen",
+              "display": "inline",
+              "href": "/school-life/canteen",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/canteen",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "See our canteen opening hours, our menu and how to order.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Student opportunities and activities We offer a range of co-curricular programs to support students goals both inside and outside of the classroom. east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_120147759de8a2ce2d79e6eb21fec3fa093c00b38.jpg?width=750&format=webply&optimize=medium",
+              "alt": "",
+              "rw": 368,
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Student opportunities and activities",
+              "display": "inline",
+              "href": "/school-life/student-opportunities-and-activities",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "We offer a range of co-curricular programs to support students goals both inside and outside of the classroom.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Lockers and lost property Student hire of lockers and where to find lost property. east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_11893371bce6bf3f45a2d3d0c296bd3482d94d465.png?width=750&format=webply&optimize=medium",
+              "alt": "school lockers",
+              "rw": 368,
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Lockers and lost property",
+              "display": "inline",
+              "href": "/school-life/lockers-and-lost-property",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/lockers-and-lost-property",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Student hire of lockers and where to find lost property.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "House and Merit System The Fort Street High School merit system rewards students with profile points aligned to the school exit profile. east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_1660d7a0d52fa3acd7105fdfd6b06229088d197db.jpg?width=750&format=webply&optimize=medium",
+              "alt": "",
+              "rw": 368,
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "House and Merit System",
+              "display": "inline",
+              "href": "/school-life/house-and-merit-system",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/house-and-merit-system",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "The Fort Street High School merit system rewards students with profile points aligned to the school exit profile.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Forms The forms are provided for the convenience of parents/carers, members of the public and students to easily submit forms electronically any day at any time. east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_1dfbc3a331b07d6b258f99fb529ba74f743e09bcc.png?width=750&format=webply&optimize=medium",
+              "alt": "online forms",
+              "rw": 368,
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Forms",
+              "display": "inline",
+              "href": "/school-life/forms",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/forms",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "The forms are provided for the convenience of parents/carers, members of the public and students to easily submit forms electronically any day at any time.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Events Our school hosts a variety of events throughout the year, from fun-filled celebrations to educational excursions. east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_1145293b25a61ef63fc51759017f43fc0c527d128.jpg?width=750&format=webply&optimize=medium",
+              "alt": "school events",
+              "rw": 368,
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Events",
+              "display": "inline",
+              "href": "/school-life/events",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Our school hosts a variety of events throughout the year, from fun-filled celebrations to educational excursions.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Newsletters Discover the latest updates and exciting events happening at our school. Check out our newsletters to stay connected! east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_1980e057ec6ccea2088683d84b46c8c6d07a4dfab.png?width=750&format=webply&optimize=medium",
+              "alt": "online newsletters",
+              "rw": 368,
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Newsletters",
+              "display": "inline",
+              "href": "/school-life/newsletters",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Discover the latest updates and exciting events happening at our school. Check out our newsletters to stay connected!",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s04",
+      "rootTag": "aside",
+      "rootClass": "nsw-layout__sidebar nsw-layout__sidebar--desktop sidebar-wrapper",
+      "visibleText": "Section navigation About us Contact us Learning and support Our community School life Bell times Bring your own device Canteen Events Forms House and Merit System Lockers and lost property Newsletters Parent portal Stationery Student opportunities and activities Travel to school Uniform",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Section navigation"
+        }
+      ],
+      "paragraphs": [],
+      "listItems": [
+        "About us",
+        "Contact us",
+        "Learning and support",
+        "Our community",
+        "School life Bell times Bring your own device Canteen Events Forms House and Merit System Lockers and lost property Newsletters Parent portal Stationery Student opportunities and activities Travel to school Uniform",
+        "Bell times",
+        "Bring your own device",
+        "Canteen",
+        "Events",
+        "Forms",
+        "House and Merit System",
+        "Lockers and lost property",
+        "Newsletters",
+        "Parent portal",
+        "Stationery",
+        "Student opportunities and activities",
+        "Travel to school",
+        "Uniform"
+      ],
+      "ctas": [
+        {
+          "text": "About us",
+          "href": "/about-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+          "classes": ""
+        },
+        {
+          "text": "Contact us",
+          "href": "/contact-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+          "classes": ""
+        },
+        {
+          "text": "Learning and support",
+          "href": "/learning-and-support",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support",
+          "classes": ""
+        },
+        {
+          "text": "Our community",
+          "href": "/our-community",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/our-community",
+          "classes": ""
+        },
+        {
+          "text": "School life",
+          "href": "/school-life",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life",
+          "classes": "current"
+        },
+        {
+          "text": "Bell times",
+          "href": "/school-life/bell-times",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/bell-times",
+          "classes": ""
+        },
+        {
+          "text": "Bring your own device",
+          "href": "/school-life/bring-your-own-device",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/bring-your-own-device",
+          "classes": ""
+        },
+        {
+          "text": "Canteen",
+          "href": "/school-life/canteen",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/canteen",
+          "classes": ""
+        },
+        {
+          "text": "Events",
+          "href": "/school-life/events",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+          "classes": ""
+        },
+        {
+          "text": "Forms",
+          "href": "/school-life/forms",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/forms",
+          "classes": ""
+        },
+        {
+          "text": "House and Merit System",
+          "href": "/school-life/house-and-merit-system",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/house-and-merit-system",
+          "classes": ""
+        },
+        {
+          "text": "Lockers and lost property",
+          "href": "/school-life/lockers-and-lost-property",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/lockers-and-lost-property",
+          "classes": ""
+        },
+        {
+          "text": "Newsletters",
+          "href": "/school-life/newsletters",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters",
+          "classes": ""
+        },
+        {
+          "text": "Parent portal",
+          "href": "/school-life/parent-portal",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+          "classes": ""
+        },
+        {
+          "text": "Stationery",
+          "href": "/school-life/stationery",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/stationery",
+          "classes": ""
+        },
+        {
+          "text": "Student opportunities and activities",
+          "href": "/school-life/student-opportunities-and-activities",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities",
+          "classes": ""
+        },
+        {
+          "text": "Travel to school",
+          "href": "/school-life/travel-to-school",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school",
+          "classes": ""
+        },
+        {
+          "text": "Uniform",
+          "href": "/school-life/uniform",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Section navigation",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "About us",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "About us",
+              "display": "block",
+              "href": "/about-us",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Contact us",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Contact us",
+              "display": "block",
+              "href": "/contact-us",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Learning and support",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Learning and support",
+              "display": "block",
+              "href": "/learning-and-support",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Our community",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Our community",
+              "display": "block",
+              "href": "/our-community",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/our-community",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "School life Bell times Bring your own device Canteen Events Forms House and Merit System Lockers and lost property Newsletters Parent portal Stationery Student opportunities and activities Travel to school Uniform",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "School life",
+              "display": "block",
+              "href": "/school-life",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life",
+              "classes": "current",
+              "buttonLike": true,
+              "sep": ""
+            },
+            {
+              "kind": "listItem",
+              "text": "Bell times",
+              "display": "list-item",
+              "children": [
+                {
+                  "kind": "cta",
+                  "text": "Bell times",
+                  "display": "block",
+                  "href": "/school-life/bell-times",
+                  "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/bell-times",
+                  "classes": "",
+                  "sep": ""
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "listItem",
+              "text": "Bring your own device",
+              "display": "list-item",
+              "children": [
+                {
+                  "kind": "cta",
+                  "text": "Bring your own device",
+                  "display": "block",
+                  "href": "/school-life/bring-your-own-device",
+                  "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/bring-your-own-device",
+                  "classes": "",
+                  "sep": ""
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "listItem",
+              "text": "Canteen",
+              "display": "list-item",
+              "children": [
+                {
+                  "kind": "cta",
+                  "text": "Canteen",
+                  "display": "block",
+                  "href": "/school-life/canteen",
+                  "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/canteen",
+                  "classes": "",
+                  "sep": ""
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "listItem",
+              "text": "Events",
+              "display": "list-item",
+              "children": [
+                {
+                  "kind": "cta",
+                  "text": "Events",
+                  "display": "block",
+                  "href": "/school-life/events",
+                  "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+                  "classes": "",
+                  "sep": ""
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "listItem",
+              "text": "Forms",
+              "display": "list-item",
+              "children": [
+                {
+                  "kind": "cta",
+                  "text": "Forms",
+                  "display": "block",
+                  "href": "/school-life/forms",
+                  "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/forms",
+                  "classes": "",
+                  "sep": ""
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "listItem",
+              "text": "House and Merit System",
+              "display": "list-item",
+              "children": [
+                {
+                  "kind": "cta",
+                  "text": "House and Merit System",
+                  "display": "block",
+                  "href": "/school-life/house-and-merit-system",
+                  "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/house-and-merit-system",
+                  "classes": "",
+                  "sep": ""
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "listItem",
+              "text": "Lockers and lost property",
+              "display": "list-item",
+              "children": [
+                {
+                  "kind": "cta",
+                  "text": "Lockers and lost property",
+                  "display": "block",
+                  "href": "/school-life/lockers-and-lost-property",
+                  "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/lockers-and-lost-property",
+                  "classes": "",
+                  "sep": ""
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "listItem",
+              "text": "Newsletters",
+              "display": "list-item",
+              "children": [
+                {
+                  "kind": "cta",
+                  "text": "Newsletters",
+                  "display": "block",
+                  "href": "/school-life/newsletters",
+                  "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters",
+                  "classes": "",
+                  "sep": ""
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "listItem",
+              "text": "Parent portal",
+              "display": "list-item",
+              "children": [
+                {
+                  "kind": "cta",
+                  "text": "Parent portal",
+                  "display": "block",
+                  "href": "/school-life/parent-portal",
+                  "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+                  "classes": "",
+                  "sep": ""
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "listItem",
+              "text": "Stationery",
+              "display": "list-item",
+              "children": [
+                {
+                  "kind": "cta",
+                  "text": "Stationery",
+                  "display": "block",
+                  "href": "/school-life/stationery",
+                  "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/stationery",
+                  "classes": "",
+                  "sep": ""
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "listItem",
+              "text": "Student opportunities and activities",
+              "display": "list-item",
+              "children": [
+                {
+                  "kind": "cta",
+                  "text": "Student opportunities and activities",
+                  "display": "block",
+                  "href": "/school-life/student-opportunities-and-activities",
+                  "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities",
+                  "classes": "",
+                  "sep": ""
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "listItem",
+              "text": "Travel to school",
+              "display": "list-item",
+              "children": [
+                {
+                  "kind": "cta",
+                  "text": "Travel to school",
+                  "display": "block",
+                  "href": "/school-life/travel-to-school",
+                  "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school",
+                  "classes": "",
+                  "sep": ""
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "listItem",
+              "text": "Uniform",
+              "display": "list-item",
+              "children": [
+                {
+                  "kind": "cta",
+                  "text": "Uniform",
+                  "display": "block",
+                  "href": "/school-life/uniform",
+                  "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform",
+                  "classes": "",
+                  "sep": ""
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    }
+  ],
+  "residue": [
+    {
+      "sel": "header.header-wrapper",
+      "kind": "chrome",
+      "textLen": 275,
+      "lines": [
+        "Skip to navigation",
+        "Skip to content",
+        "NSW Government",
+        "Fort Street High School",
+        "Faber est suae quisque fortunae",
+        "search",
+        "Show",
+        "Search",
+        "About us",
+        "keyboard_arrow_right",
+        "School life",
+        "keyboard_arrow_right",
+        "Learning and support",
+        "keyboard_arrow_right",
+        "Our community",
+        "keyboard_arrow_right",
+        "Contact us"
+      ],
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 172
+      }
+    },
+    {
+      "sel": "footer.footer-wrapper",
+      "kind": "chrome",
+      "textLen": 496,
+      "lines": [
+        "Fort Street High School",
+        "General enquiries",
+        "fortstreet-h.school@det.nsw.edu.au",
+        "8585 1600",
+        "620 PARRAMATTA ROAD, NSW 2049 PETERSHAM",
+        "Follow us",
+        "We recognise the Ongoing Custodians of the lands and waterways where we work and live. We pay respect to Elders past and present as ongoing teachers of knowledge, songlines and stories. We strive to ensure every Aboriginal and/or Torres Strait Islander learner in NSW achieves their potential through education.",
+        "Your feedback",
+        "Policy library",
+        "Information access"
+      ],
+      "rect": {
+        "x": 0,
+        "y": 3833,
+        "w": 1440,
+        "h": 509
+      }
+    }
+  ]
+}

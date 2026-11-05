@@ -1,0 +1,63 @@
+{
+  "slug": "school-life-newsletters",
+  "type": "content",
+  "renderBranch": "A'",
+  "template": "learning-and-support-learning",
+  "modules": [
+    "M3",
+    "M5b",
+    "M6",
+    "M9b",
+    "M10",
+    "M11b"
+  ],
+  "slotsFilled": [
+    "s01",
+    "s02",
+    "s03",
+    "s04",
+    "s05",
+    "s06",
+    "s07",
+    "s08"
+  ],
+  "canonShas": {
+    "header": "1e8e0c3eebea",
+    "footer": "a8b6d4b37731",
+    "css": "5fe9e7ffc80e"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Newsletters",
+    "description": "At Fort Street High School, our school newsletter helps you stay connected with our school community. We use them to share our latest events, achievements and important updates.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Newsletters",
+    "description": "At Fort Street High School, our school newsletter helps you stay connected with our school community. We use them to share our latest events, achievements and important updates.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters"
+  },
+  "migratedAt": "2026-11-05T06:33:01Z",
+  "designMdSha": "187c3f2f159f",
+  "designJsonSha": "2d96d5b1c55f",
+  "sourceCurrentSha": "58e32526c2cd",
+  "sourceProposedSha": "cbbe06177fe5",
+  "fidelityTier": "sibling",
+  "archetypeSource": "learning-and-support-learning",
+  "archetypeSha": "0925840f97e7",
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 6,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "school-life/newsletters/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "school-life/newsletters/_meta.json",
+  "driverVersion": "1"
+}

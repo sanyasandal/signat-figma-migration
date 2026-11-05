@@ -1,0 +1,398 @@
+{
+  "source": "http://localhost:3000/stardust/reskin/pages/home.html",
+  "width": 1280,
+  "profile": "eds",
+  "sections": [
+    {
+      "section": "band",
+      "items": [
+        {
+          "role": "heading",
+          "order": 0,
+          "text": "Welcome to Fort Street High School"
+        },
+        {
+          "role": "body",
+          "order": 1,
+          "text": "Since 1849, Fortians have been encouraged to be the makers of their own destiny - faber est suae quisque fortunae. This motto underpins the values and expectations of the school."
+        },
+        {
+          "role": "cta",
+          "order": 2,
+          "text": "Why Choose Us?",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/about-us/why-choose-us"
+        }
+      ],
+      "imgCount": 1,
+      "editableTexts": 3,
+      "repeats": [],
+      "slot": "s01"
+    },
+    {
+      "section": "band",
+      "items": [
+        {
+          "role": "heading",
+          "order": 0,
+          "text": "The Fort Street High School difference"
+        },
+        {
+          "role": "cta",
+          "order": 1,
+          "text": "Our vision for student achievement",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/about-us/why-choose-us"
+        },
+        {
+          "role": "body",
+          "order": 2,
+          "text": "Fort Street is proud to continue its co-educational traditions. We value the mix of young men and women learning together. We expect students to develop as model citizens and work towards developing individual and collaborative skills and attributes in each student."
+        },
+        {
+          "role": "body",
+          "order": 3,
+          "text": "east"
+        },
+        {
+          "role": "cta",
+          "order": 4,
+          "text": "Extensive range of student opportunities and activities",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities"
+        },
+        {
+          "role": "body",
+          "order": 5,
+          "text": "At Fort Street High School, we offer a variety of programs in the classroom and across the school to help students build new skills, make friends and explore new interests."
+        },
+        {
+          "role": "body",
+          "order": 6,
+          "text": "east"
+        },
+        {
+          "role": "cta",
+          "order": 7,
+          "text": "Wellbeing at Fort Street is for all students",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/wellbeing"
+        },
+        {
+          "role": "body",
+          "order": 8,
+          "text": "A focus on wellbeing goes beyond the welfare needs of a few individual students and aims for all students to be healthy, happy, successful and productive individuals who are active and positive contributors to the school and society in which they live."
+        },
+        {
+          "role": "body",
+          "order": 9,
+          "text": "east"
+        }
+      ],
+      "imgCount": 3,
+      "editableTexts": 7,
+      "repeats": [
+        {
+          "unitSelector": "DIV.card",
+          "count": 3,
+          "unit": {
+            "headings": 0,
+            "ctas": 1,
+            "imgs": 1,
+            "textRuns": 3
+          },
+          "uniform": true
+        }
+      ],
+      "slot": "s02"
+    },
+    {
+      "section": "band",
+      "items": [
+        {
+          "role": "heading",
+          "order": 0,
+          "text": "Principal's message"
+        },
+        {
+          "role": "body",
+          "order": 1,
+          "text": "It is my honour to serve as Principal of Fort Street High School, a school with a remarkable history and a proud tradition of nurturing some of Australia\u2019s finest minds since its establishment in 1849. As the oldest government high school in Australia, Fort Street has long been a beacon of academic excellence, innovation, and social conscience."
+        },
+        {
+          "role": "body",
+          "order": 2,
+          "text": "Situated on Gadigal and Wangal land in Petersham, our school community is a vibrant reflection of multicultural Australia. With approximately 920 students representing over 100 Sydney suburbs and speaking around 40 different languages, Fort Street is a harmonious and inclusive environment that celebrates diversity and fosters tolerance and acceptance."
+        },
+        {
+          "role": "cta",
+          "order": 3,
+          "text": "Read more from our Principal",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff"
+        }
+      ],
+      "imgCount": 1,
+      "editableTexts": 3,
+      "repeats": [],
+      "slot": "s03"
+    },
+    {
+      "section": "band",
+      "items": [
+        {
+          "role": "heading",
+          "order": 0,
+          "text": "Fort Fest is on Friday 18 September, 3:15pm - 8:30pm."
+        },
+        {
+          "role": "body",
+          "order": 1,
+          "text": "Fort Fest is an evening event for all the school and local community, with music, food, games and stalls. Run jointly by the SRC and P&C as a fundraiser, it is also a great way to meet and connect with other Fort Street families."
+        },
+        {
+          "role": "cta",
+          "order": 2,
+          "text": "Find out more",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/our-community/pandc"
+        }
+      ],
+      "imgCount": 1,
+      "editableTexts": 3,
+      "repeats": [],
+      "slot": "s04"
+    },
+    {
+      "section": "band",
+      "items": [
+        {
+          "role": "heading",
+          "order": 0,
+          "text": "School tours and open evenings"
+        },
+        {
+          "role": "body",
+          "order": 1,
+          "text": "School tours and open evenings are an opportunity for prospective students and parents to get a better understanding of Fort Street's values and educational philosophy."
+        },
+        {
+          "role": "cta",
+          "order": 2,
+          "text": "Dates and booking information",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/about-us/enrol"
+        }
+      ],
+      "imgCount": 1,
+      "editableTexts": 3,
+      "repeats": [],
+      "slot": "s05"
+    },
+    {
+      "section": "band",
+      "items": [
+        {
+          "role": "heading",
+          "order": 0,
+          "text": "Quick links"
+        },
+        {
+          "role": "cta",
+          "order": 1,
+          "text": "Parent portals",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal"
+        },
+        {
+          "role": "body",
+          "order": 2,
+          "text": "Stay connected through our parent portal apps. Use them to make a payment, for attendance matters or to book a parent-teacher interview."
+        },
+        {
+          "role": "body",
+          "order": 3,
+          "text": "east"
+        },
+        {
+          "role": "cta",
+          "order": 4,
+          "text": "Student and Parent Calendar (opens in new window)",
+          "href": "https://fortstreeths.sentral.com.au/webcal/calendar/12?type=term&year=2022"
+        },
+        {
+          "role": "body",
+          "order": 5,
+          "text": "Information for parents and students about upcoming events, exams and excursions."
+        },
+        {
+          "role": "body",
+          "order": 6,
+          "text": "east"
+        },
+        {
+          "role": "cta",
+          "order": 7,
+          "text": "Forms",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/school-life/forms"
+        },
+        {
+          "role": "body",
+          "order": 8,
+          "text": "Change of details, extended leave, and other school forms."
+        },
+        {
+          "role": "body",
+          "order": 9,
+          "text": "east"
+        },
+        {
+          "role": "cta",
+          "order": 10,
+          "text": "Instrumental Music Program (IMP)",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/instrumental-music-program"
+        },
+        {
+          "role": "body",
+          "order": 11,
+          "text": "How to join, ensemble and fees."
+        },
+        {
+          "role": "body",
+          "order": 12,
+          "text": "east"
+        },
+        {
+          "role": "cta",
+          "order": 13,
+          "text": "Duke of Edinburgh",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/duke-of-edinburgh-award"
+        },
+        {
+          "role": "body",
+          "order": 14,
+          "text": "The Duke of Edinburgh\u2019s Award is open to students 14 years of age or older. Learn about how you can get involved."
+        },
+        {
+          "role": "body",
+          "order": 15,
+          "text": "east"
+        },
+        {
+          "role": "cta",
+          "order": 16,
+          "text": "Newsletters",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters"
+        },
+        {
+          "role": "body",
+          "order": 17,
+          "text": "Discover the latest updates and exciting events happening at our school. Check out our newsletters to stay connected!"
+        },
+        {
+          "role": "body",
+          "order": 18,
+          "text": "east"
+        }
+      ],
+      "imgCount": 6,
+      "editableTexts": 13,
+      "repeats": [
+        {
+          "unitSelector": "DIV.card",
+          "count": 6,
+          "unit": {
+            "headings": 0,
+            "ctas": 1,
+            "imgs": 1,
+            "textRuns": 3
+          },
+          "uniform": false
+        }
+      ],
+      "slot": "s06"
+    },
+    {
+      "section": "band",
+      "items": [
+        {
+          "role": "heading",
+          "order": 0,
+          "text": "Key dates"
+        },
+        {
+          "role": "body",
+          "order": 1,
+          "text": "Find term dates, school holidays and other important dates for all NSW public schools."
+        },
+        {
+          "role": "cta",
+          "order": 2,
+          "text": "View key dates for NSW public schools",
+          "href": "https://education.nsw.gov.au/schooling/calendars"
+        }
+      ],
+      "imgCount": 1,
+      "editableTexts": 3,
+      "repeats": [],
+      "slot": "s08"
+    },
+    {
+      "section": "band",
+      "items": [
+        {
+          "role": "heading",
+          "order": 0,
+          "text": "Stay connected on our socials"
+        },
+        {
+          "role": "cta",
+          "order": 1,
+          "text": "Today we celebrate World Teachers Day! \ud83c\udf4e \ud83d\udc69\u200d\ud83c\udfeb \ud83c\udfeb \u2b50\ufe0f We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026",
+          "href": "https://m.facebook.com/1661675895966806/posts/1770173321783729#no_universal_links"
+        },
+        {
+          "role": "body",
+          "order": 2,
+          "text": "east"
+        },
+        {
+          "role": "cta",
+          "order": 3,
+          "text": "We looking forward to welcome everyone back on Tuesday.",
+          "href": "https://m.facebook.com/1661675895966806/posts/1746224677511927#no_universal_links"
+        },
+        {
+          "role": "body",
+          "order": 4,
+          "text": "east"
+        },
+        {
+          "role": "cta",
+          "order": 5,
+          "text": "The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/",
+          "href": "https://m.facebook.com/1661675895966806/posts/1746223814178680#no_universal_links"
+        },
+        {
+          "role": "body",
+          "order": 6,
+          "text": "east"
+        }
+      ],
+      "imgCount": 3,
+      "editableTexts": 4,
+      "repeats": [
+        {
+          "unitSelector": "DIV.card",
+          "count": 3,
+          "unit": {
+            "headings": 0,
+            "ctas": 1,
+            "imgs": 1,
+            "textRuns": 2
+          },
+          "uniform": true
+        }
+      ],
+      "slot": "s09"
+    }
+  ],
+  "_defaultContent": {
+    "slots": [
+      "s07"
+    ],
+    "why": "deploy Step 2 D1: these slots are authored as default content (no block), so they are not schema sections qa-gate pairs with block instances by order"
+  }
+}

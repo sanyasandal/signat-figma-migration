@@ -1,0 +1,1617 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-11-05T06:23:32.487Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/our-community/foundation",
+    "viewport": "1440x900",
+    "scope": "nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!",
+    "normalize": {
+      "source": "/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/our-community-foundation.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes, any cookie/consent/gdpr-named element inside a fixed/sticky/high-z overlay)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N3",
+          "what": "open every .nsw-accordion panel (unhide its content region, aria-expanded=true)",
+          "why": "closed panel text is content; capture-only — the rendered accordion keeps the closed rest state"
+        }
+      ]
+    },
+    "settle": {
+      "firstLen": 6393,
+      "waitedMs": 1506,
+      "stable": true,
+      "settledLen": 6393,
+      "lateChars": 0
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "domcontentloaded",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "The Fort Street Foundation",
+    "description": "The Fort Street Foundation was formed in 1998 as the brainchild of a group of 1949 Fortians who were returning to the School for their 50th year anniversary.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/our-community/foundation",
+    "ogTags": {
+      "og:title": "The Fort Street Foundation",
+      "og:description": "The Fort Street Foundation was formed in 1998 as the brainchild of a group of 1949 Fortians who were returning to the School for their 50th year anniversary.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/our-community/foundation",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/our-community/media_19c6cff9975b6320859bc465733d151e7d7f317f2.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/our-community/media_19c6cff9975b6320859bc465733d151e7d7f317f2.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "The Fort Street Foundation",
+      "twitter:description": "The Fort Street Foundation was formed in 1998 as the brainchild of a group of 1949 Fortians who were returning to the School for their 50th year anniversary.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/our-community/media_19c6cff9975b6320859bc465733d151e7d7f317f2.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "nav.nsw-breadcrumbs",
+      "whole": true
+    },
+    {
+      "sel": "main",
+      "whole": false
+    },
+    {
+      "sel": "aside.nsw-layout__sidebar--desktop",
+      "whole": true
+    }
+  ],
+  "visibleTextNormalized": "HomeOur communityThe Fort Street Foundation The Fort Street Foundation The Fort Street Foundation was formed in 1998 as the brainchild of a group of 1949 Fortians who were returning to the School for their 50th year anniversary. It is a registered charity and supports the school financially for initiatives including the development of buildings and facilities. The Foundation runs three funds: the Building Fund, the Library Fund (both tax deductible) and the Education Fund. They saw the need to establish a way to raise funds for the school but as a separate entity. Then, as now, the focus was to support the school by raising money for a wide range of projects including the development and refurbishment of facilities, bursaries and student support. The Foundation is governed by a Board consisting of Fortian alumni and representatives of the school community. Students can apply to the Foundation for a grant to support them participating in a co-curricular activity or representing the school in interstate or international competitions. Donations Donations to the Fort Street Foundation can be made using this link to online payments (opens in new window) . You will need to select Add Item from the bottom left hand corner. A pop up box will appear where you can select Fort Street Foundation Library Fund (tax deductible) and tick the box to the left. Then click on Add Item. You can then enter the amount you wish to pay and select Pay Now. After your payment is processed you will be emailed a receipt. Alternatively you can send a cheque made payable to ‘The Fort Street Foundation’ indicating where you would like your donation to be directed. Please mail to Fort Street High School, Parramatta Road, Petersham. NSW 2049 For more assistance please contact Ms Juliette McMurray on 8585 1600 or email (opens in new window) . Donations to the Building Fund and Library Fund are tax deductible The Building Fund Gifts made to the Building Fund are used to assist in financing major capital works. In recent years this has included: The refurbishment of the school library The refurbishment of existing areas into technology spaces and additional learning areas including the \"Newby\" Lecture Theatre and a flexible learning space The building of a covered outdoor learning space with power, lighting and seating for 150 The establishment of the “Ron Horan Museum” – an interactive area where students can research the rich history of Fort Street High School and its alumni The Library Fund The Foundation Library Fund is an ancillary fund registered with the ACNC. It exists solely to support The Fort Street High School library and library services. Gifts made to the School Library Fund can only be used for library purposes – books, literacy resources, training and learning activities that take place within the library space. This also includes the archives. This includes: Literacy resources eg books, text books, interactive whiteboards, online learning subscriptions The purchase of specialised computing equipment including laptops and software Additional learning support staff Supporting the school website Supporting the school archival program The Education Fund The Education Fund is NOT tax deductible. It is used to support out of pocket expenses for students and staff involved in co curricular activities. In recent years this has included: Providing bursary assistance to families in need Supporting the Duke of Edinburgh Award program The acquisition of educational equipment Enhancing the professional development of our teaching staff Providing financial support for students involved robotics, F1, music, sport and more Many Australian companies offer a matching gifts program, where any donation made to an Australian based registered charity is matched by the employer. The Fort Street Foundation is an eligible registered charity and we encourage donors to ask their employer about registering their gifts via this program. Matching gifts is a simple and easy way to double the impact. Online payments can be accessed here (opens in new window) Many Australian companies offer a matching gifts program, where any donation made to an Australian based registered charity is matched by the employer. The Fort Street Foundation is an eligible registered charity and we encourage donors to ask their employer about registering their gifts via this program. Matching gifts is a simple and easy way to double the impact. Foundation Directors Mr Colin Long President Mr Mark Lindsay Public Officer and Director Ms Juliette McMurray Principal Ms David Sherwin Staff Director Ms Kylie Salisbury Staff Director Mr Don Newby Fortians Union Director Ms Caroline Aow P&C Director Ms Karen Charles Further Director Mr Iain Wallace Executive Officer Minutes Minutes are available by request from iain.wallace@det.nsw.edu.au (opens in new window) Reunions Reunions are a fantastic opportunity for Fortians to reconnect with others from their year group and with the current school. If you would like to visit the school as part of your reunion activities then please contact Mr Iain Wallace on 8585 1600 (Thursdays and/or Fridays) or at iain.wallace@det.nsw.edu.au (opens in new window) . Contact: Mr Iain Wallace Executive Officer Email: iain.wallace@det.nsw.edu.au (opens in new window) Newsletters Read our latest newsletter and stay connected with our school life. east Events Find out about school events, celebrations and what’s coming up. east Section navigation Our community Alumni The Fortians Union The Fort Street Foundation Foundation Tertiary Bursaries Parents and Citizens Association",
+  "coverage": {
+    "bodyTextLen": 6393,
+    "scopeTextLen": 5620,
+    "ratio": 0.879,
+    "h1Text": "The Fort Street Foundation",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "nav",
+      "rootClass": "nsw-breadcrumbs js-breadcrumbs",
+      "visibleText": "HomeOur communityThe Fort Street Foundation",
+      "headings": [],
+      "paragraphs": [],
+      "listItems": [
+        "Home",
+        "Our community",
+        "The Fort Street Foundation"
+      ],
+      "ctas": [
+        {
+          "text": "Home",
+          "href": "https://fortstreet-h.schools.nsw.gov.au",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/",
+          "classes": ""
+        },
+        {
+          "text": "Our community",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/our-community",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/our-community",
+          "classes": "breadcrumb"
+        },
+        {
+          "text": "The Fort Street Foundation",
+          "href": "",
+          "absHref": "",
+          "classes": "current"
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Home",
+          "display": "inline-block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Home",
+              "display": "inline-block",
+              "href": "https://fortstreet-h.schools.nsw.gov.au",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Our community",
+          "display": "inline-block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Our community",
+              "display": "inline-block",
+              "href": "https://fortstreet-h.schools.nsw.gov.au/our-community",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/our-community",
+              "classes": "breadcrumb",
+              "sep": ""
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "The Fort Street Foundation",
+          "display": "inline-block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "The Fort Street Foundation",
+              "display": "inline-block",
+              "href": "",
+              "absHref": "",
+              "classes": "current",
+              "sep": ""
+            }
+          ],
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "The Fort Street Foundation The Fort Street Foundation was formed in 1998 as the brainchild of a group of 1949 Fortians who were returning to the School for their 50th year anniversary. It is a registered charity and supports the school financially for initiatives including the development of buildings and facilities. The Foundation runs three funds: the Building Fund, the Library Fund (both tax deductible) and the Education Fund. They saw the need to establish a way to raise funds for the school but as a separate entity. Then, as now, the focus was to support the school by raising money for a wide range of projects including the development and refurbishment of facilities, bursaries and student support. The Foundation is governed by a Board consisting of Fortian alumni and representatives of the school community. Students can apply to the Foundation for a grant to support them participating in a co-curricular activity or representing the school in interstate or international competitions. Donations Donations to the Fort Street Foundation can be made using this link to online payments (opens in new window) . You will need to select Add Item from the bottom left hand corner. A pop up box will appear where you can select Fort Street Foundation Library Fund (tax deductible) and tick the box to the left. Then click on Add Item. You can then enter the amount you wish to pay and select Pay Now. After your payment is processed you will be emailed a receipt. Alternatively you can send a cheque made payable to ‘The Fort Street Foundation’ indicating where you would like your donation to be directed. Please mail to Fort Street High School, Parramatta Road, Petersham. NSW 2049 For more assistance please contact Ms Juliette McMurray on 8585 1600 or email (opens in new window) . Donations to the Building Fund and Library Fund are tax deductible The Building Fund Gifts made to the Building Fund are used to assist in financing major capital works. In recent years this has included: The refurbishment of the school library The refurbishment of existing areas into technology spaces and additional learning areas including the \"Newby\" Lecture Theatre and a flexible learning space The building of a covered outdoor learning space with power, lighting and seating for 150 The establishment of the “Ron Horan Museum” – an interactive area where students can research the rich history of Fort Street High School and its alumni The Library Fund The Foundation Library Fund is an ancillary fund registered with the ACNC. It exists solely to support The Fort Street High School library and library services. Gifts made to the School Library Fund can only be used for library purposes – books, literacy resources, training and learning activities that take place within the library space. This also includes the archives. This includes: Literacy resources eg books, text books, interactive whiteboards, online learning subscriptions The purchase of specialised computing equipment including laptops and software Additional learning support staff Supporting the school website Supporting the school archival program The Education Fund The Education Fund is NOT tax deductible. It is used to support out of pocket expenses for students and staff involved in co curricular activities. In recent years this has included: Providing bursary assistance to families in need Supporting the Duke of Edinburgh Award program The acquisition of educational equipment Enhancing the professional development of our teaching staff Providing financial support for students involved robotics, F1, music, sport and more Many Australian companies offer a matching gifts program, where any donation made to an Australian based registered charity is matched by the employer. The Fort Street Foundation is an eligible registered charity and we encourage donors to ask their employer about registering their gifts via this program. Matching gifts is a simple and easy way to double the impact. Online payments can be accessed here (opens in new window)",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "The Fort Street Foundation"
+        },
+        {
+          "level": "h2",
+          "text": "Donations"
+        },
+        {
+          "level": "h2",
+          "text": "The Building Fund"
+        },
+        {
+          "level": "h2",
+          "text": "The Library Fund"
+        },
+        {
+          "level": "h2",
+          "text": "The Education Fund"
+        }
+      ],
+      "paragraphs": [
+        "The Fort Street Foundation was formed in 1998 as the brainchild of a group of 1949 Fortians who were returning to the School for their 50th year anniversary. It is a registered charity and supports the school financially for initiatives including the development of buildings and facilities. The Foundation runs three funds: the Building Fund, the Library Fund (both tax deductible) and the Education Fund.",
+        "They saw the need to establish a way to raise funds for the school but as a separate entity. Then, as now, the focus was to support the school by raising money for a wide range of projects including the development and refurbishment of facilities, bursaries and student support. The Foundation is governed by a Board consisting of Fortian alumni and representatives of the school community.",
+        "Students can apply to the Foundation for a grant to support them participating in a co-curricular activity or representing the school in interstate or international competitions.",
+        "Donations to the Fort Street Foundation can be made using this link to online payments (opens in new window) .",
+        "You will need to select Add Item from the bottom left hand corner.",
+        "A pop up box will appear where you can select Fort Street Foundation Library Fund (tax deductible) and tick the box to the left. Then click on Add Item.",
+        "You can then enter the amount you wish to pay and select Pay Now. After your payment is processed you will be emailed a receipt.",
+        "Alternatively you can send a cheque made payable to ‘The Fort Street Foundation’ indicating where you would like your donation to be directed. Please mail to Fort Street High School, Parramatta Road, Petersham. NSW 2049",
+        "For more assistance please contact Ms Juliette McMurray on 8585 1600 or email (opens in new window) .",
+        "Donations to the Building Fund and Library Fund are tax deductible",
+        "Gifts made to the Building Fund are used to assist in financing major capital works.",
+        "In recent years this has included:",
+        "The Foundation Library Fund is an ancillary fund registered with the ACNC. It exists solely to support The Fort Street High School library and library services. Gifts made to the School Library Fund can only be used for library purposes – books, literacy resources, training and learning activities that take place within the library space. This also includes the archives.",
+        "This includes:",
+        "The Education Fund is NOT tax deductible. It is used to support out of pocket expenses for students and staff involved in co curricular activities.",
+        "In recent years this has included:",
+        "Many Australian companies offer a matching gifts program, where any donation made to an Australian based registered charity is matched by the employer. The Fort Street Foundation is an eligible registered charity and we encourage donors to ask their employer about registering their gifts via this program. Matching gifts is a simple and easy way to double the impact.",
+        "Online payments can be accessed here (opens in new window)"
+      ],
+      "listItems": [
+        "The refurbishment of the school library",
+        "The refurbishment of existing areas into technology spaces and additional learning areas including the \"Newby\" Lecture Theatre and a flexible learning space",
+        "The building of a covered outdoor learning space with power, lighting and seating for 150",
+        "The establishment of the “Ron Horan Museum” – an interactive area where students can research the rich history of Fort Street High School and its alumni",
+        "Literacy resources eg books, text books, interactive whiteboards, online learning subscriptions",
+        "The purchase of specialised computing equipment including laptops and software",
+        "Additional learning support staff",
+        "Supporting the school website",
+        "Supporting the school archival program",
+        "Providing bursary assistance to families in need",
+        "Supporting the Duke of Edinburgh Award program",
+        "The acquisition of educational equipment",
+        "Enhancing the professional development of our teaching staff",
+        "Providing financial support for students involved robotics, F1, music, sport and more"
+      ],
+      "ctas": [
+        {
+          "text": "online payments (opens in new window)",
+          "href": "https://portal.schoolbytes.education/other-payment/1657",
+          "absHref": "https://portal.schoolbytes.education/other-payment/1657",
+          "classes": ""
+        },
+        {
+          "text": "email (opens in new window)",
+          "href": "mailto:fortstreet-h.school@det.nsw.edu.au",
+          "absHref": "mailto:fortstreet-h.school@det.nsw.edu.au",
+          "classes": ""
+        },
+        {
+          "text": "here (opens in new window)",
+          "href": "https://portal.schoolbytes.education/other-payment/1657",
+          "absHref": "https://portal.schoolbytes.education/other-payment/1657",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/our-community/media_19c6cff9975b6320859bc465733d151e7d7f317f2.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "w": 500,
+          "h": 300
+        },
+        {
+          "currentSrc": "about:error",
+          "alt": "",
+          "w": 0,
+          "h": 0
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/our-community/media_1d2e9d9d11fd54e4a94f2f9ae56bbae85f3c1b02c.png?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "w": 1265,
+          "h": 463
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/our-community/media_12aeeb890750ea14b0b78dadab07dacad4e41e4c5.png?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "w": 528,
+          "h": 373
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "The Fort Street Foundation",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Fort Street Foundation was formed in 1998 as the brainchild of a group of 1949 Fortians who were returning to the School for their 50th year anniversary. It is a registered charity and supports the school financially for initiatives including the development of buildings and facilities. The Foundation runs three funds: the Building Fund, the Library Fund (both tax deductible) and the Education Fund.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/our-community/media_19c6cff9975b6320859bc465733d151e7d7f317f2.jpg?width=2000&format=webply&optimize=medium",
+              "alt": "",
+              "rw": 500
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "They saw the need to establish a way to raise funds for the school but as a separate entity. Then, as now, the focus was to support the school by raising money for a wide range of projects including the development and refurbishment of facilities, bursaries and student support. The Foundation is governed by a Board consisting of Fortian alumni and representatives of the school community.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students can apply to the Foundation for a grant to support them participating in a co-curricular activity or representing the school in interstate or international competitions.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Donations",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Donations to the Fort Street Foundation can be made using this link to online payments (opens in new window) .",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Donations to the Fort Street Foundation can be made using this link to",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "online payments (opens in new window)",
+              "display": "inline",
+              "href": "https://portal.schoolbytes.education/other-payment/1657",
+              "absHref": "https://portal.schoolbytes.education/other-payment/1657",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "online payments",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "srOnly": true,
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ".",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "You will need to select Add Item from the bottom left hand corner.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "about:error",
+              "alt": "",
+              "rw": 0
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/our-community/media_1d2e9d9d11fd54e4a94f2f9ae56bbae85f3c1b02c.png?width=2000&format=webply&optimize=medium",
+              "alt": "",
+              "rw": 768
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "A pop up box will appear where you can select Fort Street Foundation Library Fund (tax deductible) and tick the box to the left. Then click on Add Item.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "A pop up box will appear where you can select",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Fort Street Foundation Library Fund (tax deductible)",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "and tick the box to the left. Then click on",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Add Item.",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/our-community/media_12aeeb890750ea14b0b78dadab07dacad4e41e4c5.png?width=2000&format=webply&optimize=medium",
+              "alt": "",
+              "rw": 528
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "You can then enter the amount you wish to pay and select Pay Now. After your payment is processed you will be emailed a receipt.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "You can then enter the amount you wish to pay and select",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Pay Now",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ". After your payment is processed you will be emailed a receipt.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Alternatively you can send a cheque made payable to ‘The Fort Street Foundation’ indicating where you would like your donation to be directed. Please mail to Fort Street High School, Parramatta Road, Petersham. NSW 2049",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "For more assistance please contact Ms Juliette McMurray on 8585 1600 or email (opens in new window) .",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "For more assistance please contact Ms Juliette McMurray on 8585 1600 or",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "email (opens in new window)",
+              "display": "inline",
+              "href": "mailto:fortstreet-h.school@det.nsw.edu.au",
+              "absHref": "mailto:fortstreet-h.school@det.nsw.edu.au",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "email",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "srOnly": true,
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ".",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Donations to the Building Fund and Library Fund are tax deductible",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "The Building Fund",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Gifts made to the Building Fund are used to assist in financing major capital works.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "In recent years this has included:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "The refurbishment of the school library",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "The refurbishment of existing areas into technology spaces and additional learning areas including the \"Newby\" Lecture Theatre and a flexible learning space",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "The building of a covered outdoor learning space with power, lighting and seating for 150",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "The establishment of the “Ron Horan Museum” – an interactive area where students can research the rich history of Fort Street High School and its alumni",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "The Library Fund",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Foundation Library Fund is an ancillary fund registered with the ACNC. It exists solely to support The Fort Street High School library and library services. Gifts made to the School Library Fund can only be used for library purposes – books, literacy resources, training and learning activities that take place within the library space. This also includes the archives.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "This includes:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Literacy resources eg books, text books, interactive whiteboards, online learning subscriptions",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "The purchase of specialised computing equipment including laptops and software",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Additional learning support staff",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Supporting the school website",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Supporting the school archival program",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "The Education Fund",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Education Fund is NOT tax deductible. It is used to support out of pocket expenses for students and staff involved in co curricular activities.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "In recent years this has included:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Providing bursary assistance to families in need",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Supporting the Duke of Edinburgh Award program",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "The acquisition of educational equipment",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Enhancing the professional development of our teaching staff",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Providing financial support for students involved robotics, F1, music, sport and more",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Many Australian companies offer a matching gifts program, where any donation made to an Australian based registered charity is matched by the employer. The Fort Street Foundation is an eligible registered charity and we encourage donors to ask their employer about registering their gifts via this program. Matching gifts is a simple and easy way to double the impact.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Online payments can be accessed here (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Online payments can be accessed",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "here (opens in new window)",
+              "display": "inline",
+              "href": "https://portal.schoolbytes.education/other-payment/1657",
+              "absHref": "https://portal.schoolbytes.education/other-payment/1657",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "here",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "srOnly": true,
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--off-white columns-container",
+      "visibleText": "Many Australian companies offer a matching gifts program, where any donation made to an Australian based registered charity is matched by the employer. The Fort Street Foundation is an eligible registered charity and we encourage donors to ask their employer about registering their gifts via this program. Matching gifts is a simple and easy way to double the impact.",
+      "headings": [],
+      "paragraphs": [
+        "Many Australian companies offer a matching gifts program, where any donation made to an Australian based registered charity is matched by the employer. The Fort Street Foundation is an eligible registered charity and we encourage donors to ask their employer about registering their gifts via this program. Matching gifts is a simple and easy way to double the impact."
+      ],
+      "listItems": [],
+      "ctas": [],
+      "iconLinks": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/our-community/media_1ad593501f4b5a0c864032550623888cff9b2510c.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "w": 300,
+          "h": 283
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/our-community/media_1ad593501f4b5a0c864032550623888cff9b2510c.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "rw": 336,
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Many Australian companies offer a matching gifts program, where any donation made to an Australian based registered charity is matched by the employer. The Fort Street Foundation is an eligible registered charity and we encourage donors to ask their employer about registering their gifts via this program. Matching gifts is a simple and easy way to double the impact.",
+          "display": "block",
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "tinted",
+      "bg": "rgb(242, 242, 242)",
+      "toneEl": "main#main > div.section.nsw-section"
+    },
+    {
+      "slot": "s04",
+      "rootTag": "div",
+      "rootClass": "section nsw-section table-container",
+      "visibleText": "Foundation Directors Mr Colin Long President Mr Mark Lindsay Public Officer and Director Ms Juliette McMurray Principal Ms David Sherwin Staff Director Ms Kylie Salisbury Staff Director Mr Don Newby Fortians Union Director Ms Caroline Aow P&C Director Ms Karen Charles Further Director Mr Iain Wallace Executive Officer Minutes Minutes are available by request from iain.wallace@det.nsw.edu.au (opens in new window)",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Minutes"
+        }
+      ],
+      "paragraphs": [
+        "Foundation Directors",
+        "Mr Colin Long",
+        "President",
+        "Mr Mark Lindsay",
+        "Public Officer and Director",
+        "Ms Juliette McMurray",
+        "Principal",
+        "Ms David Sherwin",
+        "Staff Director",
+        "Ms Kylie Salisbury",
+        "Staff Director",
+        "Mr Don Newby",
+        "Fortians Union Director",
+        "Ms Caroline Aow",
+        "P&C Director",
+        "Ms Karen Charles",
+        "Further Director",
+        "Mr Iain Wallace",
+        "Executive Officer",
+        "Minutes are available by request from iain.wallace@det.nsw.edu.au (opens in new window)"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "iain.wallace@det.nsw.edu.au (opens in new window)",
+          "href": "http://iain.wallace@det.nsw.edu.au/",
+          "absHref": "http://iain.wallace@det.nsw.edu.au/",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "table",
+          "text": "Foundation Directors Mr Colin Long President Mr Mark Lindsay Public Officer and Director Ms Juliette McMurray Principal Ms David Sherwin Staff Director Ms Kylie Salisbury Staff Director Mr Don Newby Fortians Union Director Ms Caroline Aow P&C Director Ms Karen Charles Further Director Mr Iain Wallace Executive Officer",
+          "rows": [
+            [
+              {
+                "text": "Foundation Directors",
+                "header": true,
+                "children": [
+                  {
+                    "kind": "paragraph",
+                    "text": "Foundation Directors",
+                    "display": "block",
+                    "sep": ""
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "Mr Colin Long",
+                "children": [
+                  {
+                    "kind": "paragraph",
+                    "text": "Mr Colin Long",
+                    "display": "block",
+                    "sep": ""
+                  }
+                ]
+              },
+              {
+                "text": "President",
+                "children": [
+                  {
+                    "kind": "paragraph",
+                    "text": "President",
+                    "display": "block",
+                    "sep": ""
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Mr Mark Lindsay",
+                "children": [
+                  {
+                    "kind": "paragraph",
+                    "text": "Mr Mark Lindsay",
+                    "display": "block",
+                    "sep": ""
+                  }
+                ]
+              },
+              {
+                "text": "Public Officer and Director",
+                "children": [
+                  {
+                    "kind": "paragraph",
+                    "text": "Public Officer and Director",
+                    "display": "block",
+                    "sep": ""
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Ms Juliette McMurray",
+                "children": [
+                  {
+                    "kind": "paragraph",
+                    "text": "Ms Juliette McMurray",
+                    "display": "block",
+                    "sep": ""
+                  }
+                ]
+              },
+              {
+                "text": "Principal",
+                "children": [
+                  {
+                    "kind": "paragraph",
+                    "text": "Principal",
+                    "display": "block",
+                    "sep": ""
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Ms David Sherwin",
+                "children": [
+                  {
+                    "kind": "paragraph",
+                    "text": "Ms David Sherwin",
+                    "display": "block",
+                    "sep": ""
+                  }
+                ]
+              },
+              {
+                "text": "Staff Director",
+                "children": [
+                  {
+                    "kind": "paragraph",
+                    "text": "Staff Director",
+                    "display": "block",
+                    "sep": ""
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Ms Kylie Salisbury",
+                "children": [
+                  {
+                    "kind": "paragraph",
+                    "text": "Ms Kylie Salisbury",
+                    "display": "block",
+                    "sep": ""
+                  }
+                ]
+              },
+              {
+                "text": "Staff Director",
+                "children": [
+                  {
+                    "kind": "paragraph",
+                    "text": "Staff Director",
+                    "display": "block",
+                    "sep": ""
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Mr Don Newby",
+                "children": [
+                  {
+                    "kind": "paragraph",
+                    "text": "Mr Don Newby",
+                    "display": "block",
+                    "sep": ""
+                  }
+                ]
+              },
+              {
+                "text": "Fortians Union Director",
+                "children": [
+                  {
+                    "kind": "paragraph",
+                    "text": "Fortians Union Director",
+                    "display": "block",
+                    "sep": ""
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Ms Caroline Aow",
+                "children": [
+                  {
+                    "kind": "paragraph",
+                    "text": "Ms Caroline Aow",
+                    "display": "block",
+                    "sep": ""
+                  }
+                ]
+              },
+              {
+                "text": "P&C Director",
+                "children": [
+                  {
+                    "kind": "paragraph",
+                    "text": "P&C Director",
+                    "display": "block",
+                    "sep": ""
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Ms Karen Charles",
+                "children": [
+                  {
+                    "kind": "paragraph",
+                    "text": "Ms Karen Charles",
+                    "display": "block",
+                    "sep": ""
+                  }
+                ]
+              },
+              {
+                "text": "Further Director",
+                "children": [
+                  {
+                    "kind": "paragraph",
+                    "text": "Further Director",
+                    "display": "block",
+                    "sep": ""
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Mr Iain Wallace",
+                "children": [
+                  {
+                    "kind": "paragraph",
+                    "text": "Mr Iain Wallace",
+                    "display": "block",
+                    "sep": ""
+                  }
+                ]
+              },
+              {
+                "text": "Executive Officer",
+                "children": [
+                  {
+                    "kind": "paragraph",
+                    "text": "Executive Officer",
+                    "display": "block",
+                    "sep": ""
+                  }
+                ]
+              }
+            ]
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "Minutes",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Minutes are available by request from iain.wallace@det.nsw.edu.au (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Minutes are available by request from",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "iain.wallace@det.nsw.edu.au (opens in new window)",
+              "display": "inline",
+              "href": "http://iain.wallace@det.nsw.edu.au/",
+              "absHref": "http://iain.wallace@det.nsw.edu.au/",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "iain.wallace@det.nsw.edu.au",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "srOnly": true,
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s05",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "Reunions Reunions are a fantastic opportunity for Fortians to reconnect with others from their year group and with the current school. If you would like to visit the school as part of your reunion activities then please contact Mr Iain Wallace on 8585 1600 (Thursdays and/or Fridays) or at iain.wallace@det.nsw.edu.au (opens in new window) . Contact: Mr Iain Wallace Executive Officer Email: iain.wallace@det.nsw.edu.au (opens in new window)",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Reunions"
+        }
+      ],
+      "paragraphs": [
+        "Reunions are a fantastic opportunity for Fortians to reconnect with others from their year group and with the current school. If you would like to visit the school as part of your reunion activities then please contact Mr Iain Wallace on 8585 1600 (Thursdays and/or Fridays) or at iain.wallace@det.nsw.edu.au (opens in new window) .",
+        "Contact: Mr Iain Wallace Executive Officer Email: iain.wallace@det.nsw.edu.au (opens in new window)"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "iain.wallace@det.nsw.edu.au (opens in new window)",
+          "href": "http://iain.wallace@det.nsw.edu.au/",
+          "absHref": "http://iain.wallace@det.nsw.edu.au/",
+          "classes": ""
+        },
+        {
+          "text": "iain.wallace@det.nsw.edu.au (opens in new window)",
+          "href": "http://iain.wallace@det.nsw.edu.au/",
+          "absHref": "http://iain.wallace@det.nsw.edu.au/",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Reunions",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reunions are a fantastic opportunity for Fortians to reconnect with others from their year group and with the current school. If you would like to visit the school as part of your reunion activities then please contact Mr Iain Wallace on 8585 1600 (Thursdays and/or Fridays) or at iain.wallace@det.nsw.edu.au (opens in new window) .",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Reunions are a fantastic opportunity for Fortians to reconnect with others from their year group and with the current school. If you would like to visit the school as part of your reunion activities then please contact Mr Iain Wallace on 8585 1600 (Thursdays and/or Fridays) or at",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "iain.wallace@det.nsw.edu.au (opens in new window)",
+              "display": "inline",
+              "href": "http://iain.wallace@det.nsw.edu.au/",
+              "absHref": "http://iain.wallace@det.nsw.edu.au/",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "iain.wallace@det.nsw.edu.au",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "srOnly": true,
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ".",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact: Mr Iain Wallace Executive Officer Email: iain.wallace@det.nsw.edu.au (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Contact:",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Mr Iain Wallace",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Executive Officer",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Email:",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "cta",
+              "text": "iain.wallace@det.nsw.edu.au (opens in new window)",
+              "display": "inline",
+              "href": "http://iain.wallace@det.nsw.edu.au/",
+              "absHref": "http://iain.wallace@det.nsw.edu.au/",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "iain.wallace@det.nsw.edu.au",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "srOnly": true,
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "dark",
+      "bg": "rgb(99, 0, 25)",
+      "toneEl": "main#main > div.section.nsw-section"
+    },
+    {
+      "slot": "s06",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Newsletters Read our latest newsletter and stay connected with our school life. east Events Find out about school events, celebrations and what’s coming up. east",
+      "headings": [],
+      "paragraphs": [
+        "Read our latest newsletter and stay connected with our school life.",
+        "Find out about school events, celebrations and what’s coming up."
+      ],
+      "listItems": [
+        "Newsletters Read our latest newsletter and stay connected with our school life. east",
+        "Events Find out about school events, celebrations and what’s coming up. east"
+      ],
+      "ctas": [
+        {
+          "text": "Newsletters",
+          "href": "/school-life/newsletters",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters",
+          "classes": ""
+        },
+        {
+          "text": "Events",
+          "href": "/school-life/events",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Newsletters Read our latest newsletter and stay connected with our school life. east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Newsletters",
+              "display": "inline",
+              "href": "/school-life/newsletters",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Read our latest newsletter and stay connected with our school life.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Events Find out about school events, celebrations and what’s coming up. east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Events",
+              "display": "inline",
+              "href": "/school-life/events",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Find out about school events, celebrations and what’s coming up.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s07",
+      "rootTag": "aside",
+      "rootClass": "nsw-layout__sidebar nsw-layout__sidebar--desktop sidebar-wrapper",
+      "visibleText": "Section navigation Our community Alumni The Fortians Union The Fort Street Foundation Foundation Tertiary Bursaries Parents and Citizens Association",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Section navigation"
+        }
+      ],
+      "paragraphs": [],
+      "listItems": [
+        "Alumni",
+        "The Fortians Union",
+        "The Fort Street Foundation",
+        "Foundation Tertiary Bursaries",
+        "Parents and Citizens Association"
+      ],
+      "ctas": [
+        {
+          "text": "Our community",
+          "href": "/our-community",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/our-community",
+          "classes": ""
+        },
+        {
+          "text": "Alumni",
+          "href": "/our-community/alumni",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/our-community/alumni",
+          "classes": ""
+        },
+        {
+          "text": "The Fortians Union",
+          "href": "/our-community/fortians-union",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/our-community/fortians-union",
+          "classes": ""
+        },
+        {
+          "text": "The Fort Street Foundation",
+          "href": "/our-community/foundation",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/our-community/foundation",
+          "classes": "current"
+        },
+        {
+          "text": "Foundation Tertiary Bursaries",
+          "href": "/our-community/foundation-tertiary-bursaries",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/our-community/foundation-tertiary-bursaries",
+          "classes": ""
+        },
+        {
+          "text": "Parents and Citizens Association",
+          "href": "/our-community/pandc",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/our-community/pandc",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Section navigation",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "cta",
+          "text": "Our community",
+          "display": "flex",
+          "href": "/our-community",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/our-community",
+          "classes": "",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Alumni",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Alumni",
+              "display": "block",
+              "href": "/our-community/alumni",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/our-community/alumni",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "The Fortians Union",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "The Fortians Union",
+              "display": "block",
+              "href": "/our-community/fortians-union",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/our-community/fortians-union",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "The Fort Street Foundation",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "The Fort Street Foundation",
+              "display": "block",
+              "href": "/our-community/foundation",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/our-community/foundation",
+              "classes": "current",
+              "buttonLike": true,
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Foundation Tertiary Bursaries",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Foundation Tertiary Bursaries",
+              "display": "block",
+              "href": "/our-community/foundation-tertiary-bursaries",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/our-community/foundation-tertiary-bursaries",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Parents and Citizens Association",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Parents and Citizens Association",
+              "display": "block",
+              "href": "/our-community/pandc",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/our-community/pandc",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    }
+  ],
+  "residue": [
+    {
+      "sel": "header.header-wrapper",
+      "kind": "chrome",
+      "textLen": 275,
+      "lines": [
+        "Skip to navigation",
+        "Skip to content",
+        "NSW Government",
+        "Fort Street High School",
+        "Faber est suae quisque fortunae",
+        "search",
+        "Show",
+        "Search",
+        "About us",
+        "keyboard_arrow_right",
+        "School life",
+        "keyboard_arrow_right",
+        "Learning and support",
+        "keyboard_arrow_right",
+        "Our community",
+        "keyboard_arrow_right",
+        "Contact us"
+      ],
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 172
+      }
+    },
+    {
+      "sel": "footer.footer-wrapper",
+      "kind": "chrome",
+      "textLen": 496,
+      "lines": [
+        "Fort Street High School",
+        "General enquiries",
+        "fortstreet-h.school@det.nsw.edu.au",
+        "8585 1600",
+        "620 PARRAMATTA ROAD, NSW 2049 PETERSHAM",
+        "Follow us",
+        "We recognise the Ongoing Custodians of the lands and waterways where we work and live. We pay respect to Elders past and present as ongoing teachers of knowledge, songlines and stories. We strive to ensure every Aboriginal and/or Torres Strait Islander learner in NSW achieves their potential through education.",
+        "Your feedback",
+        "Policy library",
+        "Information access"
+      ],
+      "rect": {
+        "x": 0,
+        "y": 5159,
+        "w": 1440,
+        "h": 509
+      }
+    }
+  ]
+}

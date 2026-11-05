@@ -1,0 +1,1747 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-11-05T06:22:49.875Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/enrol",
+    "viewport": "1440x900",
+    "scope": "nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!",
+    "normalize": {
+      "source": "/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/about-us-enrol.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes, any cookie/consent/gdpr-named element inside a fixed/sticky/high-z overlay)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N3",
+          "what": "open every .nsw-accordion panel (unhide its content region, aria-expanded=true)",
+          "why": "closed panel text is content; capture-only — the rendered accordion keeps the closed rest state"
+        }
+      ]
+    },
+    "settle": {
+      "firstLen": 3920,
+      "waitedMs": 1510,
+      "stable": true,
+      "settledLen": 3920,
+      "lateChars": 0
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "domcontentloaded",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Enrol",
+    "description": "At Fort Street High School, we welcome enrolments throughout the school year. Enrol today or talk to us to find out how your family can join our school community.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/about-us/enrol",
+    "ogTags": {
+      "og:title": "Enrol",
+      "og:description": "At Fort Street High School, we welcome enrolments throughout the school year. Enrol today or talk to us to find out how your family can join our school community.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/about-us/enrol",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_1041211bbbef9171abe5644d79d167331061a37ac.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_1041211bbbef9171abe5644d79d167331061a37ac.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Enrol",
+      "twitter:description": "At Fort Street High School, we welcome enrolments throughout the school year. Enrol today or talk to us to find out how your family can join our school community.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_1041211bbbef9171abe5644d79d167331061a37ac.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "nav.nsw-breadcrumbs",
+      "whole": true
+    },
+    {
+      "sel": "main",
+      "whole": false
+    },
+    {
+      "sel": "aside.nsw-layout__sidebar--desktop",
+      "whole": true
+    }
+  ],
+  "visibleTextNormalized": "HomeAbout usEnrol Application and enrolment information Fort Street High School is a fully academically selective coeducational secondary school. Entry is competitive and based on academic merit. There is a maximum enrolment of 150 students in each of Years 7-10. There are between 160 and 170 students in each of Years 11 and 12. Fort Street High School does not have a local area intake. Students interested in enrolling must be Australian Citizens or Permanent Residents of Australia. Citizens of New Zealand are eligible for selective high school entry. All successful applicants will be required to show original documentation such as certificates of evidence or Australian Citizenship, birth certificates or visas before enrolment can be finalised. Offers of enrolment will be terminated if placement is made using false or misleading information. Learn more about the application and enrolment process for Fort Street High School: Entry into Year 7 keyboard_arrow_down Entry into Year 7 is managed through the NSW Department of Education - Selective Education Team. All enquiries should be directed to this Unit. Applications open in October of each year (when the applicant is in Year 5). A state wide selective schools test is conducted in March of the following year. Students must sit the Placement Test and apply through the online application website. Important dates and more information about the selective school placement test can be found here. For further information, translation or assistance contact: Selective Education Team Email: set@det.nsw.edu.au (opens in new window) Phone: 1300 880 367 Need an interpreter? You can talk to someone in your language. Call the interpretor service on 131 450. Tell the operator: the language you need our phone number: 1300 880 367. The operator will connect you with an interpreter at no cost. The interpreter will help you during the call. Entry into Years 8 - 10 keyboard_arrow_down Applications for entry into 2027 have now closed. Applications for entry in 2028 will open mid June 2027. Further information on application requirements will be updated at that time. Applicants will have approximately 4 weeks to submit their application and payment. Please note that no late applications or payments will be accepted, no execeptions. We strongly advise you aim to submit your application earlier than the cutoff date. Entry into Years 8-10 is limited with vacancies occurring only when a current student leaves the school. All applications are reviewed by a selection panel and a short list of applications is established. When a place becomes available, selected candidates on the short list will be interviewed and a place offered. There is no entrance test for entry into Year 8 - 10. Further information about how to apply can be found here. Entry into Year 11 keyboard_arrow_down Applications for entry into 2027 have now closed. Applications for entry in 2028 will open mid June 2027. Further information on application requirements will be updated at that time. Applicants will have approximately 4 weeks to submit their application and payment. Please note that no late applications or payments will be accepted, no execeptions. We strongly advise you aim to submit your application earlier than the cutoff date. All applicants are also required to sit the Acer HAST (Higher Ability Selection Test). Fort Street High together with eleven other schools coordinate the sitting of the Acer HAST on the same day. When applying, applicants can list up to 3 schools as their preferences but need to sit the entrance test at the school that is their first preference. If the first preference school is not included in the list of schools doing the Acer HAST, the applicant would then sit the test at their second or third preference school - if that school is part of the same Acer HAST cluster. Successful applicants will be invited to attend interviews depending on their Acer HAST results and merit of application. Further information about how to apply can be found here. Visit us before you enrol Starting a new school is a big step. We're here to help make the transition a smooth and positive experience for every student and their family. Open Days School tours and open evenings are an opportunity for prospective students and parents to get a better understanding of Fort Street's values and educational philosophy. We will be holding the following open events in 2026. Bookings are essential and places are limited to 2 per family. Monday March 2, 2026 - 4pm - 6pm Bookings open Tuesday February 17th at 4pm. Bookings can be made here: Bookings are essential and places are limited to 2 per family. Wednesday May 27 – School tours – 9.30am – 11am Bookings are essential and places are limited to 2 per family. Bookings will open on Wednesday May 13th from 9am. Friday September 18 -Schools tours will be included as part of Fort Fest Bookings are essential and places are limited to 2 per family. Bookings will open 2 weeks prior to the event. The booking will open on Friday the 4th of September from 9am. School tours will run every 15 minutes from 3:45pm, which each tour lasting approximately 45 minutes. Final tour departs at 6pm. https://www.trybooking.com/DPCLA (opens in new window) Orientation Days Successful applicants will be invited to an orientation day in Term 4. Families will be sent specific date and program information closer to the date. Year 7 orientation is held on the same day as all public high schools. To learn more about our school, please watch the virtual tour below. Skip Google Map Ready to apply? Learn more about the application and enrolment process for selective schools: Selective high schools Why choose us? Find out what makes our school special and why families choose us. east Facilities and resources See the range of spaces, tools and resources to support student learning that our school offers. east Section navigation About us Enrol Facilities and resources HSC Results Our principal and staff Policies and reports School history and archives Stories and highlights Transition to high school Why choose us?",
+  "coverage": {
+    "bodyTextLen": 6902,
+    "scopeTextLen": 6129,
+    "ratio": 0.888,
+    "h1Text": "Application and enrolment information",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "nav",
+      "rootClass": "nsw-breadcrumbs js-breadcrumbs",
+      "visibleText": "HomeAbout usEnrol",
+      "headings": [],
+      "paragraphs": [],
+      "listItems": [
+        "Home",
+        "About us",
+        "Enrol"
+      ],
+      "ctas": [
+        {
+          "text": "Home",
+          "href": "https://fortstreet-h.schools.nsw.gov.au",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/",
+          "classes": ""
+        },
+        {
+          "text": "About us",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+          "classes": "breadcrumb"
+        },
+        {
+          "text": "Enrol",
+          "href": "",
+          "absHref": "",
+          "classes": "current"
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Home",
+          "display": "inline-block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Home",
+              "display": "inline-block",
+              "href": "https://fortstreet-h.schools.nsw.gov.au",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "About us",
+          "display": "inline-block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "About us",
+              "display": "inline-block",
+              "href": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+              "classes": "breadcrumb",
+              "sep": ""
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Enrol",
+          "display": "inline-block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Enrol",
+              "display": "inline-block",
+              "href": "",
+              "absHref": "",
+              "classes": "current",
+              "sep": ""
+            }
+          ],
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Application and enrolment information Fort Street High School is a fully academically selective coeducational secondary school. Entry is competitive and based on academic merit. There is a maximum enrolment of 150 students in each of Years 7-10. There are between 160 and 170 students in each of Years 11 and 12. Fort Street High School does not have a local area intake. Students interested in enrolling must be Australian Citizens or Permanent Residents of Australia. Citizens of New Zealand are eligible for selective high school entry. All successful applicants will be required to show original documentation such as certificates of evidence or Australian Citizenship, birth certificates or visas before enrolment can be finalised. Offers of enrolment will be terminated if placement is made using false or misleading information. Learn more about the application and enrolment process for Fort Street High School:",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Application and enrolment information"
+        }
+      ],
+      "paragraphs": [
+        "Fort Street High School is a fully academically selective coeducational secondary school. Entry is competitive and based on academic merit. There is a maximum enrolment of 150 students in each of Years 7-10. There are between 160 and 170 students in each of Years 11 and 12. Fort Street High School does not have a local area intake.",
+        "Students interested in enrolling must be Australian Citizens or Permanent Residents of Australia. Citizens of New Zealand are eligible for selective high school entry. All successful applicants will be required to show original documentation such as certificates of evidence or Australian Citizenship, birth certificates or visas before enrolment can be finalised.",
+        "Offers of enrolment will be terminated if placement is made using false or misleading information.",
+        "Learn more about the application and enrolment process for Fort Street High School:"
+      ],
+      "listItems": [],
+      "ctas": [],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Application and enrolment information",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Fort Street High School is a fully academically selective coeducational secondary school. Entry is competitive and based on academic merit. There is a maximum enrolment of 150 students in each of Years 7-10. There are between 160 and 170 students in each of Years 11 and 12. Fort Street High School does not have a local area intake.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students interested in enrolling must be Australian Citizens or Permanent Residents of Australia. Citizens of New Zealand are eligible for selective high school entry. All successful applicants will be required to show original documentation such as certificates of evidence or Australian Citizenship, birth certificates or visas before enrolment can be finalised.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Offers of enrolment will be terminated if placement is made using false or misleading information.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Learn more about the application and enrolment process for Fort Street High School:",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section accordions-container",
+      "visibleText": "Entry into Year 7 keyboard_arrow_down Entry into Year 7 is managed through the NSW Department of Education - Selective Education Team. All enquiries should be directed to this Unit. Applications open in October of each year (when the applicant is in Year 5). A state wide selective schools test is conducted in March of the following year. Students must sit the Placement Test and apply through the online application website. Important dates and more information about the selective school placement test can be found here. For further information, translation or assistance contact: Selective Education Team Email: set@det.nsw.edu.au (opens in new window) Phone: 1300 880 367 Need an interpreter? You can talk to someone in your language. Call the interpretor service on 131 450. Tell the operator: the language you need our phone number: 1300 880 367. The operator will connect you with an interpreter at no cost. The interpreter will help you during the call. Entry into Years 8 - 10 keyboard_arrow_down Applications for entry into 2027 have now closed. Applications for entry in 2028 will open mid June 2027. Further information on application requirements will be updated at that time. Applicants will have approximately 4 weeks to submit their application and payment. Please note that no late applications or payments will be accepted, no execeptions. We strongly advise you aim to submit your application earlier than the cutoff date. Entry into Years 8-10 is limited with vacancies occurring only when a current student leaves the school. All applications are reviewed by a selection panel and a short list of applications is established. When a place becomes available, selected candidates on the short list will be interviewed and a place offered. There is no entrance test for entry into Year 8 - 10. Further information about how to apply can be found here. Entry into Year 11 keyboard_arrow_down Applications for entry into 2027 have now closed. Applications for entry in 2028 will open mid June 2027. Further information on application requirements will be updated at that time. Applicants will have approximately 4 weeks to submit their application and payment. Please note that no late applications or payments will be accepted, no execeptions. We strongly advise you aim to submit your application earlier than the cutoff date. All applicants are also required to sit the Acer HAST (Higher Ability Selection Test). Fort Street High together with eleven other schools coordinate the sitting of the Acer HAST on the same day. When applying, applicants can list up to 3 schools as their preferences but need to sit the entrance test at the school that is their first preference. If the first preference school is not included in the list of schools doing the Acer HAST, the applicant would then sit the test at their second or third preference school - if that school is part of the same Acer HAST cluster. Successful applicants will be invited to attend interviews depending on their Acer HAST results and merit of application. Further information about how to apply can be found here.",
+      "headings": [
+        {
+          "level": "h3",
+          "text": "Need an interpreter?"
+        },
+        {
+          "level": "h2",
+          "text": "Applications for entry into 2027 have now closed."
+        },
+        {
+          "level": "h2",
+          "text": "Applications for entry into 2027 have now closed."
+        }
+      ],
+      "paragraphs": [
+        "Entry into Year 7 is managed through the NSW Department of Education - Selective Education Team. All enquiries should be directed to this Unit.",
+        "Applications open in October of each year (when the applicant is in Year 5). A state wide selective schools test is conducted in March of the following year.",
+        "Students must sit the Placement Test and apply through the online application website.",
+        "Important dates and more information about the selective school placement test can be found here.",
+        "For further information, translation or assistance contact:",
+        "Selective Education Team Email: set@det.nsw.edu.au (opens in new window) Phone: 1300 880 367",
+        "You can talk to someone in your language. Call the interpretor service on 131 450.",
+        "Tell the operator:",
+        "The operator will connect you with an interpreter at no cost. The interpreter will help you during the call.",
+        "Applications for entry in 2028 will open mid June 2027. Further information on application requirements will be updated at that time.",
+        "Applicants will have approximately 4 weeks to submit their application and payment.",
+        "Please note that no late applications or payments will be accepted, no execeptions. We strongly advise you aim to submit your application earlier than the cutoff date.",
+        "Entry into Years 8-10 is limited with vacancies occurring only when a current student leaves the school. All applications are reviewed by a selection panel and a short list of applications is established. When a place becomes available, selected candidates on the short list will be interviewed and a place offered. There is no entrance test for entry into Year 8 - 10.",
+        "Further information about how to apply can be found here.",
+        "Applications for entry in 2028 will open mid June 2027. Further information on application requirements will be updated at that time.",
+        "Applicants will have approximately 4 weeks to submit their application and payment.",
+        "Please note that no late applications or payments will be accepted, no execeptions. We strongly advise you aim to submit your application earlier than the cutoff date.",
+        "All applicants are also required to sit the Acer HAST (Higher Ability Selection Test).",
+        "Fort Street High together with eleven other schools coordinate the sitting of the Acer HAST on the same day.",
+        "When applying, applicants can list up to 3 schools as their preferences but need to sit the entrance test at the school that is their first preference. If the first preference school is not included in the list of schools doing the Acer HAST, the applicant would then sit the test at their second or third preference school - if that school is part of the same Acer HAST cluster.",
+        "Successful applicants will be invited to attend interviews depending on their Acer HAST results and merit of application.",
+        "Further information about how to apply can be found here."
+      ],
+      "listItems": [
+        "the language you need",
+        "our phone number: 1300 880 367."
+      ],
+      "ctas": [
+        {
+          "text": "Placement Test",
+          "href": "https://education.nsw.gov.au/schooling/parents-and-carers/choosing-a-school-setting/selective-high-schools/placement-test",
+          "absHref": "https://education.nsw.gov.au/schooling/parents-and-carers/choosing-a-school-setting/selective-high-schools/placement-test",
+          "classes": ""
+        },
+        {
+          "text": "application website",
+          "href": "https://shsoc.education.nsw.gov.au/",
+          "absHref": "https://shsoc.education.nsw.gov.au/",
+          "classes": ""
+        },
+        {
+          "text": "here",
+          "href": "https://education.nsw.gov.au/schooling/parents-and-carers/choosing-a-school-setting/selective-high-schools/choosing-a-school/selective-high-schools",
+          "absHref": "https://education.nsw.gov.au/schooling/parents-and-carers/choosing-a-school-setting/selective-high-schools/choosing-a-school/selective-high-schools",
+          "classes": ""
+        },
+        {
+          "text": "set@det.nsw.edu.au (opens in new window)",
+          "href": "mailto:set@det.nsw.edu.au",
+          "absHref": "mailto:set@det.nsw.edu.au",
+          "classes": ""
+        },
+        {
+          "text": "here",
+          "href": "https://education.nsw.gov.au/schooling/parents-and-carers/choosing-a-school-setting/selective-high-schools/application-process/selective-high-schools---years-8-to-12-applications#tabs_copy1",
+          "absHref": "https://education.nsw.gov.au/schooling/parents-and-carers/choosing-a-school-setting/selective-high-schools/application-process/selective-high-schools---years-8-to-12-applications#tabs_copy1",
+          "classes": ""
+        },
+        {
+          "text": "here",
+          "href": "https://education.nsw.gov.au/schooling/parents-and-carers/choosing-a-school-setting/selective-high-schools/application-process/selective-high-schools---years-8-to-12-applications#tabs_copy1",
+          "absHref": "https://education.nsw.gov.au/schooling/parents-and-carers/choosing-a-school-setting/selective-high-schools/application-process/selective-high-schools---years-8-to-12-applications#tabs_copy1",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [
+        {
+          "text": "Entry into Year 7",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        },
+        {
+          "text": "keyboard_arrow_down",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons"
+        },
+        {
+          "text": "Entry into Years 8 - 10",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        },
+        {
+          "text": "keyboard_arrow_down",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons"
+        },
+        {
+          "text": "Entry into Year 11",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        },
+        {
+          "text": "keyboard_arrow_down",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons"
+        }
+      ],
+      "ordered": [
+        {
+          "kind": "text",
+          "text": "Entry into Year 7",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "toggle": "accordion-e77d3195-cc1a-43aa-b9b2-5ce486e62a72",
+          "sep": ""
+        },
+        {
+          "kind": "text",
+          "text": "keyboard_arrow_down",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons",
+          "inButton": true,
+          "glyph": true,
+          "toggle": "accordion-e77d3195-cc1a-43aa-b9b2-5ce486e62a72",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Entry into Year 7 is managed through the NSW Department of Education - Selective Education Team. All enquiries should be directed to this Unit.",
+          "display": "block",
+          "panels": [
+            "accordion-e77d3195-cc1a-43aa-b9b2-5ce486e62a72"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Applications open in October of each year (when the applicant is in Year 5). A state wide selective schools test is conducted in March of the following year.",
+          "display": "block",
+          "panels": [
+            "accordion-e77d3195-cc1a-43aa-b9b2-5ce486e62a72"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students must sit the Placement Test and apply through the online application website.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Students must sit the",
+              "parentTag": "p",
+              "parentClass": "",
+              "panels": [
+                "accordion-e77d3195-cc1a-43aa-b9b2-5ce486e62a72"
+              ],
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Placement Test",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/schooling/parents-and-carers/choosing-a-school-setting/selective-high-schools/placement-test",
+              "absHref": "https://education.nsw.gov.au/schooling/parents-and-carers/choosing-a-school-setting/selective-high-schools/placement-test",
+              "classes": "",
+              "panels": [
+                "accordion-e77d3195-cc1a-43aa-b9b2-5ce486e62a72"
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "and apply through the online",
+              "parentTag": "p",
+              "parentClass": "",
+              "panels": [
+                "accordion-e77d3195-cc1a-43aa-b9b2-5ce486e62a72"
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "cta",
+              "text": "application website",
+              "display": "inline",
+              "href": "https://shsoc.education.nsw.gov.au/",
+              "absHref": "https://shsoc.education.nsw.gov.au/",
+              "classes": "",
+              "panels": [
+                "accordion-e77d3195-cc1a-43aa-b9b2-5ce486e62a72"
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ".",
+              "parentTag": "p",
+              "parentClass": "",
+              "panels": [
+                "accordion-e77d3195-cc1a-43aa-b9b2-5ce486e62a72"
+              ],
+              "sep": ""
+            }
+          ],
+          "panels": [
+            "accordion-e77d3195-cc1a-43aa-b9b2-5ce486e62a72"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Important dates and more information about the selective school placement test can be found here.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Important dates and more information about the selective school placement test can be found",
+              "parentTag": "p",
+              "parentClass": "",
+              "panels": [
+                "accordion-e77d3195-cc1a-43aa-b9b2-5ce486e62a72"
+              ],
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "here",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/schooling/parents-and-carers/choosing-a-school-setting/selective-high-schools/choosing-a-school/selective-high-schools",
+              "absHref": "https://education.nsw.gov.au/schooling/parents-and-carers/choosing-a-school-setting/selective-high-schools/choosing-a-school/selective-high-schools",
+              "classes": "",
+              "panels": [
+                "accordion-e77d3195-cc1a-43aa-b9b2-5ce486e62a72"
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ".",
+              "parentTag": "p",
+              "parentClass": "",
+              "panels": [
+                "accordion-e77d3195-cc1a-43aa-b9b2-5ce486e62a72"
+              ],
+              "sep": ""
+            }
+          ],
+          "panels": [
+            "accordion-e77d3195-cc1a-43aa-b9b2-5ce486e62a72"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "For further information, translation or assistance contact:",
+          "display": "block",
+          "panels": [
+            "accordion-e77d3195-cc1a-43aa-b9b2-5ce486e62a72"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Selective Education Team Email: set@det.nsw.edu.au (opens in new window) Phone: 1300 880 367",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Selective Education Team",
+              "parentTag": "strong",
+              "parentClass": "",
+              "panels": [
+                "accordion-e77d3195-cc1a-43aa-b9b2-5ce486e62a72"
+              ],
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Email:",
+              "parentTag": "p",
+              "parentClass": "",
+              "panels": [
+                "accordion-e77d3195-cc1a-43aa-b9b2-5ce486e62a72"
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "cta",
+              "text": "set@det.nsw.edu.au (opens in new window)",
+              "display": "inline",
+              "href": "mailto:set@det.nsw.edu.au",
+              "absHref": "mailto:set@det.nsw.edu.au",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "set@det.nsw.edu.au",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "panels": [
+                    "accordion-e77d3195-cc1a-43aa-b9b2-5ce486e62a72"
+                  ],
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "srOnly": true,
+                  "panels": [
+                    "accordion-e77d3195-cc1a-43aa-b9b2-5ce486e62a72"
+                  ],
+                  "sep": " "
+                }
+              ],
+              "panels": [
+                "accordion-e77d3195-cc1a-43aa-b9b2-5ce486e62a72"
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Phone: 1300 880 367",
+              "parentTag": "p",
+              "parentClass": "",
+              "panels": [
+                "accordion-e77d3195-cc1a-43aa-b9b2-5ce486e62a72"
+              ],
+              "sep": " "
+            }
+          ],
+          "panels": [
+            "accordion-e77d3195-cc1a-43aa-b9b2-5ce486e62a72"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Need an interpreter?",
+          "display": "block",
+          "level": "h3",
+          "panels": [
+            "accordion-e77d3195-cc1a-43aa-b9b2-5ce486e62a72"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "You can talk to someone in your language. Call the interpretor service on 131 450.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "You can talk to someone in your language.",
+              "parentTag": "p",
+              "parentClass": "",
+              "panels": [
+                "accordion-e77d3195-cc1a-43aa-b9b2-5ce486e62a72"
+              ],
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Call the interpretor service on",
+              "parentTag": "p",
+              "parentClass": "",
+              "panels": [
+                "accordion-e77d3195-cc1a-43aa-b9b2-5ce486e62a72"
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "131 450.",
+              "parentTag": "strong",
+              "parentClass": "",
+              "panels": [
+                "accordion-e77d3195-cc1a-43aa-b9b2-5ce486e62a72"
+              ],
+              "sep": " "
+            }
+          ],
+          "panels": [
+            "accordion-e77d3195-cc1a-43aa-b9b2-5ce486e62a72"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Tell the operator:",
+          "display": "block",
+          "panels": [
+            "accordion-e77d3195-cc1a-43aa-b9b2-5ce486e62a72"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "the language you need",
+          "display": "list-item",
+          "panels": [
+            "accordion-e77d3195-cc1a-43aa-b9b2-5ce486e62a72"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "our phone number: 1300 880 367.",
+          "display": "list-item",
+          "panels": [
+            "accordion-e77d3195-cc1a-43aa-b9b2-5ce486e62a72"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The operator will connect you with an interpreter at no cost. The interpreter will help you during the call.",
+          "display": "block",
+          "panels": [
+            "accordion-e77d3195-cc1a-43aa-b9b2-5ce486e62a72"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Entry into Years 8 - 10",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "toggle": "accordion-9f1a7b82-ec16-459f-a950-a6c290a70694",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "keyboard_arrow_down",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons",
+          "inButton": true,
+          "glyph": true,
+          "toggle": "accordion-9f1a7b82-ec16-459f-a950-a6c290a70694",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Applications for entry into 2027 have now closed.",
+          "display": "block",
+          "level": "h2",
+          "panels": [
+            "accordion-9f1a7b82-ec16-459f-a950-a6c290a70694"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Applications for entry in 2028 will open mid June 2027. Further information on application requirements will be updated at that time.",
+          "display": "block",
+          "panels": [
+            "accordion-9f1a7b82-ec16-459f-a950-a6c290a70694"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Applicants will have approximately 4 weeks to submit their application and payment.",
+          "display": "block",
+          "panels": [
+            "accordion-9f1a7b82-ec16-459f-a950-a6c290a70694"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Please note that no late applications or payments will be accepted, no execeptions. We strongly advise you aim to submit your application earlier than the cutoff date.",
+          "display": "block",
+          "panels": [
+            "accordion-9f1a7b82-ec16-459f-a950-a6c290a70694"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Entry into Years 8-10 is limited with vacancies occurring only when a current student leaves the school. All applications are reviewed by a selection panel and a short list of applications is established. When a place becomes available, selected candidates on the short list will be interviewed and a place offered. There is no entrance test for entry into Year 8 - 10.",
+          "display": "block",
+          "panels": [
+            "accordion-9f1a7b82-ec16-459f-a950-a6c290a70694"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Further information about how to apply can be found here.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Further information about how to apply can be found",
+              "parentTag": "p",
+              "parentClass": "",
+              "panels": [
+                "accordion-9f1a7b82-ec16-459f-a950-a6c290a70694"
+              ],
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "here",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/schooling/parents-and-carers/choosing-a-school-setting/selective-high-schools/application-process/selective-high-schools---years-8-to-12-applications#tabs_copy1",
+              "absHref": "https://education.nsw.gov.au/schooling/parents-and-carers/choosing-a-school-setting/selective-high-schools/application-process/selective-high-schools---years-8-to-12-applications#tabs_copy1",
+              "classes": "",
+              "panels": [
+                "accordion-9f1a7b82-ec16-459f-a950-a6c290a70694"
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ".",
+              "parentTag": "p",
+              "parentClass": "",
+              "panels": [
+                "accordion-9f1a7b82-ec16-459f-a950-a6c290a70694"
+              ],
+              "sep": ""
+            }
+          ],
+          "panels": [
+            "accordion-9f1a7b82-ec16-459f-a950-a6c290a70694"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Entry into Year 11",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "toggle": "accordion-339f0080-1a78-4aba-b4be-79e52d7296b5",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "keyboard_arrow_down",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons",
+          "inButton": true,
+          "glyph": true,
+          "toggle": "accordion-339f0080-1a78-4aba-b4be-79e52d7296b5",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Applications for entry into 2027 have now closed.",
+          "display": "block",
+          "level": "h2",
+          "panels": [
+            "accordion-339f0080-1a78-4aba-b4be-79e52d7296b5"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Applications for entry in 2028 will open mid June 2027. Further information on application requirements will be updated at that time.",
+          "display": "block",
+          "panels": [
+            "accordion-339f0080-1a78-4aba-b4be-79e52d7296b5"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Applicants will have approximately 4 weeks to submit their application and payment.",
+          "display": "block",
+          "panels": [
+            "accordion-339f0080-1a78-4aba-b4be-79e52d7296b5"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Please note that no late applications or payments will be accepted, no execeptions. We strongly advise you aim to submit your application earlier than the cutoff date.",
+          "display": "block",
+          "panels": [
+            "accordion-339f0080-1a78-4aba-b4be-79e52d7296b5"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "All applicants are also required to sit the Acer HAST (Higher Ability Selection Test).",
+          "display": "block",
+          "panels": [
+            "accordion-339f0080-1a78-4aba-b4be-79e52d7296b5"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Fort Street High together with eleven other schools coordinate the sitting of the Acer HAST on the same day.",
+          "display": "block",
+          "panels": [
+            "accordion-339f0080-1a78-4aba-b4be-79e52d7296b5"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "When applying, applicants can list up to 3 schools as their preferences but need to sit the entrance test at the school that is their first preference. If the first preference school is not included in the list of schools doing the Acer HAST, the applicant would then sit the test at their second or third preference school - if that school is part of the same Acer HAST cluster.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "When applying, applicants can list up to 3 schools as their preferences but need to sit the entrance test at the school that is their first preference. If the first preference school is",
+              "parentTag": "p",
+              "parentClass": "",
+              "panels": [
+                "accordion-339f0080-1a78-4aba-b4be-79e52d7296b5"
+              ],
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "not",
+              "parentTag": "strong",
+              "parentClass": "",
+              "panels": [
+                "accordion-339f0080-1a78-4aba-b4be-79e52d7296b5"
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "included in the list of schools doing the Acer HAST, the applicant would then sit the test at their second or third preference school - if that school is part of the same Acer HAST cluster.",
+              "parentTag": "p",
+              "parentClass": "",
+              "panels": [
+                "accordion-339f0080-1a78-4aba-b4be-79e52d7296b5"
+              ],
+              "sep": " "
+            }
+          ],
+          "panels": [
+            "accordion-339f0080-1a78-4aba-b4be-79e52d7296b5"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Successful applicants will be invited to attend interviews depending on their Acer HAST results and merit of application.",
+          "display": "block",
+          "panels": [
+            "accordion-339f0080-1a78-4aba-b4be-79e52d7296b5"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Further information about how to apply can be found here.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Further information about how to apply can be found",
+              "parentTag": "p",
+              "parentClass": "",
+              "panels": [
+                "accordion-339f0080-1a78-4aba-b4be-79e52d7296b5"
+              ],
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "here",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/schooling/parents-and-carers/choosing-a-school-setting/selective-high-schools/application-process/selective-high-schools---years-8-to-12-applications#tabs_copy1",
+              "absHref": "https://education.nsw.gov.au/schooling/parents-and-carers/choosing-a-school-setting/selective-high-schools/application-process/selective-high-schools---years-8-to-12-applications#tabs_copy1",
+              "classes": "",
+              "panels": [
+                "accordion-339f0080-1a78-4aba-b4be-79e52d7296b5"
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ".",
+              "parentTag": "p",
+              "parentClass": "",
+              "panels": [
+                "accordion-339f0080-1a78-4aba-b4be-79e52d7296b5"
+              ],
+              "sep": ""
+            }
+          ],
+          "panels": [
+            "accordion-339f0080-1a78-4aba-b4be-79e52d7296b5"
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s04",
+      "rootTag": "div",
+      "rootClass": "section nsw-section columns-container",
+      "visibleText": "Visit us before you enrol Starting a new school is a big step. We're here to help make the transition a smooth and positive experience for every student and their family.",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Visit us before you enrol"
+        }
+      ],
+      "paragraphs": [
+        "Starting a new school is a big step. We're here to help make the transition a smooth and positive experience for every student and their family."
+      ],
+      "listItems": [],
+      "ctas": [],
+      "iconLinks": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_1041211bbbef9171abe5644d79d167331061a37ac.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "w": 500,
+          "h": 300
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Visit us before you enrol",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Starting a new school is a big step. We're here to help make the transition a smooth and positive experience for every student and their family.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_1041211bbbef9171abe5644d79d167331061a37ac.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "rw": 368,
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s05",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "Open Days School tours and open evenings are an opportunity for prospective students and parents to get a better understanding of Fort Street's values and educational philosophy. We will be holding the following open events in 2026. Bookings are essential and places are limited to 2 per family. Monday March 2, 2026 - 4pm - 6pm Bookings open Tuesday February 17th at 4pm. Bookings can be made here: Bookings are essential and places are limited to 2 per family. Wednesday May 27 – School tours – 9.30am – 11am Bookings are essential and places are limited to 2 per family. Bookings will open on Wednesday May 13th from 9am. Friday September 18 -Schools tours will be included as part of Fort Fest Bookings are essential and places are limited to 2 per family. Bookings will open 2 weeks prior to the event. The booking will open on Friday the 4th of September from 9am. School tours will run every 15 minutes from 3:45pm, which each tour lasting approximately 45 minutes. Final tour departs at 6pm. https://www.trybooking.com/DPCLA (opens in new window)",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Open Days"
+        },
+        {
+          "level": "h4",
+          "text": "Monday March 2, 2026 - 4pm - 6pm"
+        },
+        {
+          "level": "h4",
+          "text": "Wednesday May 27 – School tours – 9.30am – 11am"
+        },
+        {
+          "level": "h4",
+          "text": "Friday September 18 -Schools tours will be included as part of Fort Fest"
+        }
+      ],
+      "paragraphs": [
+        "School tours and open evenings are an opportunity for prospective students and parents to get a better understanding of Fort Street's values and educational philosophy.",
+        "We will be holding the following open events in 2026. Bookings are essential and places are limited to 2 per family.",
+        "Bookings open Tuesday February 17th at 4pm. Bookings can be made here:",
+        "Bookings are essential and places are limited to 2 per family.",
+        "Bookings are essential and places are limited to 2 per family. Bookings will open on Wednesday May 13th from 9am.",
+        "Bookings are essential and places are limited to 2 per family. Bookings will open 2 weeks prior to the event.",
+        "The booking will open on Friday the 4th of September from 9am.",
+        "School tours will run every 15 minutes from 3:45pm, which each tour lasting approximately 45 minutes. Final tour departs at 6pm.",
+        "https://www.trybooking.com/DPCLA (opens in new window)"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "https://www.trybooking.com/DPCLA (opens in new window)",
+          "href": "https://www.trybooking.com/DPCLA",
+          "absHref": "https://www.trybooking.com/DPCLA",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Open Days",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "School tours and open evenings are an opportunity for prospective students and parents to get a better understanding of Fort Street's values and educational philosophy.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "We will be holding the following open events in 2026. Bookings are essential and places are limited to 2 per family.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Monday March 2, 2026 - 4pm - 6pm",
+          "display": "block",
+          "level": "h4",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Bookings open Tuesday February 17th at 4pm. Bookings can be made here:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Bookings are essential and places are limited to 2 per family.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Wednesday May 27 – School tours – 9.30am – 11am",
+          "display": "block",
+          "level": "h4",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Bookings are essential and places are limited to 2 per family. Bookings will open on Wednesday May 13th from 9am.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Friday September 18 -Schools tours will be included as part of Fort Fest",
+          "display": "block",
+          "level": "h4",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Bookings are essential and places are limited to 2 per family. Bookings will open 2 weeks prior to the event.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The booking will open on Friday the 4th of September from 9am.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "School tours will run every 15 minutes from 3:45pm, which each tour lasting approximately 45 minutes. Final tour departs at 6pm.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "https://www.trybooking.com/DPCLA (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "https://www.trybooking.com/DPCLA (opens in new window)",
+              "display": "inline",
+              "href": "https://www.trybooking.com/DPCLA",
+              "absHref": "https://www.trybooking.com/DPCLA",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "https://www.trybooking.com/DPCLA",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "srOnly": true,
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "dark",
+      "bg": "rgb(99, 0, 25)",
+      "toneEl": "main#main > div.section.nsw-section"
+    },
+    {
+      "slot": "s06",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Orientation Days Successful applicants will be invited to an orientation day in Term 4. Families will be sent specific date and program information closer to the date. Year 7 orientation is held on the same day as all public high schools.",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Orientation Days"
+        }
+      ],
+      "paragraphs": [
+        "Successful applicants will be invited to an orientation day in Term 4. Families will be sent specific date and program information closer to the date.",
+        "Year 7 orientation is held on the same day as all public high schools."
+      ],
+      "listItems": [],
+      "ctas": [],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Orientation Days",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Successful applicants will be invited to an orientation day in Term 4. Families will be sent specific date and program information closer to the date.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Year 7 orientation is held on the same day as all public high schools.",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s07",
+      "rootTag": "div",
+      "rootClass": "section nsw-section embed-container",
+      "visibleText": "To learn more about our school, please watch the virtual tour below. Skip Google Map",
+      "headings": [],
+      "paragraphs": [
+        "To learn more about our school, please watch the virtual tour below."
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Skip Google Map",
+          "href": "#after-map",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/enrol#after-map",
+          "classes": "skip-map-link"
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "paragraph",
+          "text": "To learn more about our school, please watch the virtual tour below.",
+          "display": "block",
+          "sep": ""
+        },
+        {
+          "kind": "cta",
+          "text": "Skip Google Map",
+          "display": "block",
+          "href": "#after-map",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/enrol#after-map",
+          "classes": "skip-map-link",
+          "srOnly": true,
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s08",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "Ready to apply? Learn more about the application and enrolment process for selective schools: Selective high schools",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Ready to apply?"
+        }
+      ],
+      "paragraphs": [
+        "Learn more about the application and enrolment process for selective schools:",
+        "Selective high schools"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Selective high schools",
+          "href": "https://education.nsw.gov.au/schooling/parents-and-carers/choosing-a-school-setting/selective-high-schools",
+          "absHref": "https://education.nsw.gov.au/schooling/parents-and-carers/choosing-a-school-setting/selective-high-schools",
+          "classes": "button"
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Ready to apply?",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Learn more about the application and enrolment process for selective schools:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Selective high schools",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Selective high schools",
+              "display": "inline-block",
+              "href": "https://education.nsw.gov.au/schooling/parents-and-carers/choosing-a-school-setting/selective-high-schools",
+              "absHref": "https://education.nsw.gov.au/schooling/parents-and-carers/choosing-a-school-setting/selective-high-schools",
+              "classes": "button",
+              "buttonLike": true,
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "dark",
+      "bg": "rgb(99, 0, 25)",
+      "toneEl": "main#main > div.section.nsw-section"
+    },
+    {
+      "slot": "s09",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Why choose us? Find out what makes our school special and why families choose us. east Facilities and resources See the range of spaces, tools and resources to support student learning that our school offers. east",
+      "headings": [],
+      "paragraphs": [
+        "Find out what makes our school special and why families choose us.",
+        "See the range of spaces, tools and resources to support student learning that our school offers."
+      ],
+      "listItems": [
+        "Why choose us? Find out what makes our school special and why families choose us. east",
+        "Facilities and resources See the range of spaces, tools and resources to support student learning that our school offers. east"
+      ],
+      "ctas": [
+        {
+          "text": "Why choose us?",
+          "href": "/about-us/why-choose-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/why-choose-us",
+          "classes": ""
+        },
+        {
+          "text": "Facilities and resources",
+          "href": "/about-us/facilities-and-resources",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Why choose us? Find out what makes our school special and why families choose us. east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Why choose us?",
+              "display": "inline",
+              "href": "/about-us/why-choose-us",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/why-choose-us",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Find out what makes our school special and why families choose us.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Facilities and resources See the range of spaces, tools and resources to support student learning that our school offers. east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Facilities and resources",
+              "display": "inline",
+              "href": "/about-us/facilities-and-resources",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "See the range of spaces, tools and resources to support student learning that our school offers.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s10",
+      "rootTag": "aside",
+      "rootClass": "nsw-layout__sidebar nsw-layout__sidebar--desktop sidebar-wrapper",
+      "visibleText": "Section navigation About us Enrol Facilities and resources HSC Results Our principal and staff Policies and reports School history and archives Stories and highlights Transition to high school Why choose us?",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Section navigation"
+        }
+      ],
+      "paragraphs": [],
+      "listItems": [
+        "Enrol",
+        "Facilities and resources",
+        "HSC Results",
+        "Our principal and staff",
+        "Policies and reports",
+        "School history and archives",
+        "Stories and highlights",
+        "Transition to high school",
+        "Why choose us?"
+      ],
+      "ctas": [
+        {
+          "text": "About us",
+          "href": "/about-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+          "classes": ""
+        },
+        {
+          "text": "Enrol",
+          "href": "/about-us/enrol",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/enrol",
+          "classes": "current"
+        },
+        {
+          "text": "Facilities and resources",
+          "href": "/about-us/facilities-and-resources",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources",
+          "classes": ""
+        },
+        {
+          "text": "HSC Results",
+          "href": "/about-us/hsc-results",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/hsc-results",
+          "classes": ""
+        },
+        {
+          "text": "Our principal and staff",
+          "href": "/about-us/our-principal-and-staff",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff",
+          "classes": ""
+        },
+        {
+          "text": "Policies and reports",
+          "href": "/about-us/policies-and-reports",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports",
+          "classes": ""
+        },
+        {
+          "text": "School history and archives",
+          "href": "/about-us/school-history-and-archives",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives",
+          "classes": ""
+        },
+        {
+          "text": "Stories and highlights",
+          "href": "/about-us/stories-and-highlights",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/stories-and-highlights",
+          "classes": ""
+        },
+        {
+          "text": "Transition to high school",
+          "href": "/about-us/transition-to-high-school",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/transition-to-high-school",
+          "classes": ""
+        },
+        {
+          "text": "Why choose us?",
+          "href": "/about-us/why-choose-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/why-choose-us",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Section navigation",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "cta",
+          "text": "About us",
+          "display": "flex",
+          "href": "/about-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+          "classes": "",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Enrol",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Enrol",
+              "display": "block",
+              "href": "/about-us/enrol",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/enrol",
+              "classes": "current",
+              "buttonLike": true,
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Facilities and resources",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Facilities and resources",
+              "display": "block",
+              "href": "/about-us/facilities-and-resources",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "HSC Results",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "HSC Results",
+              "display": "block",
+              "href": "/about-us/hsc-results",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/hsc-results",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Our principal and staff",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Our principal and staff",
+              "display": "block",
+              "href": "/about-us/our-principal-and-staff",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Policies and reports",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Policies and reports",
+              "display": "block",
+              "href": "/about-us/policies-and-reports",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "School history and archives",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "School history and archives",
+              "display": "block",
+              "href": "/about-us/school-history-and-archives",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Stories and highlights",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Stories and highlights",
+              "display": "block",
+              "href": "/about-us/stories-and-highlights",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/stories-and-highlights",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Transition to high school",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Transition to high school",
+              "display": "block",
+              "href": "/about-us/transition-to-high-school",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/transition-to-high-school",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Why choose us?",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Why choose us?",
+              "display": "block",
+              "href": "/about-us/why-choose-us",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/why-choose-us",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    }
+  ],
+  "residue": [
+    {
+      "sel": "header.header-wrapper",
+      "kind": "chrome",
+      "textLen": 275,
+      "lines": [
+        "Skip to navigation",
+        "Skip to content",
+        "NSW Government",
+        "Fort Street High School",
+        "Faber est suae quisque fortunae",
+        "search",
+        "Show",
+        "Search",
+        "About us",
+        "keyboard_arrow_right",
+        "School life",
+        "keyboard_arrow_right",
+        "Learning and support",
+        "keyboard_arrow_right",
+        "Our community",
+        "keyboard_arrow_right",
+        "Contact us"
+      ],
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 172
+      }
+    },
+    {
+      "sel": "footer.footer-wrapper",
+      "kind": "chrome",
+      "textLen": 496,
+      "lines": [
+        "Fort Street High School",
+        "General enquiries",
+        "fortstreet-h.school@det.nsw.edu.au",
+        "8585 1600",
+        "620 PARRAMATTA ROAD, NSW 2049 PETERSHAM",
+        "Follow us",
+        "We recognise the Ongoing Custodians of the lands and waterways where we work and live. We pay respect to Elders past and present as ongoing teachers of knowledge, songlines and stories. We strive to ensure every Aboriginal and/or Torres Strait Islander learner in NSW achieves their potential through education.",
+        "Your feedback",
+        "Policy library",
+        "Information access"
+      ],
+      "rect": {
+        "x": 0,
+        "y": 5151,
+        "w": 1440,
+        "h": 509
+      }
+    }
+  ]
+}

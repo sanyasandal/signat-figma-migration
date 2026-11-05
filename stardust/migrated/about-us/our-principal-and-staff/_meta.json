@@ -1,0 +1,67 @@
+{
+  "slug": "about-us-our-principal-and-staff",
+  "type": "content",
+  "renderBranch": "A'",
+  "template": "learning-and-support-learning",
+  "modules": [
+    "M3",
+    "M5b",
+    "M9",
+    "M11b",
+    "M5"
+  ],
+  "slotsFilled": [
+    "s01",
+    "s02",
+    "s03",
+    "s04",
+    "s05",
+    "s06",
+    "s07",
+    "s08",
+    "s09",
+    "s10",
+    "s11",
+    "s12",
+    "s13"
+  ],
+  "canonShas": {
+    "header": "1e8e0c3eebea",
+    "footer": "a8b6d4b37731",
+    "css": "5fe9e7ffc80e"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Our principal and staff",
+    "description": "At Fort Street High School, our school team is committed to every student’s learning, wellbeing, and sense of belonging. We work together to create a supportive and inclusive school where every child is set up for success.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Our principal and staff",
+    "description": "At Fort Street High School, our school team is committed to every student’s learning, wellbeing, and sense of belonging. We work together to create a supportive and inclusive school where every child is set up for success.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff"
+  },
+  "migratedAt": "2026-11-05T06:33:01Z",
+  "designMdSha": "187c3f2f159f",
+  "designJsonSha": "2d96d5b1c55f",
+  "sourceCurrentSha": "5316fd2be0bc",
+  "sourceProposedSha": "9d966772821f",
+  "fidelityTier": "sibling",
+  "archetypeSource": "learning-and-support-learning",
+  "archetypeSha": "0925840f97e7",
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 5,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "about-us/our-principal-and-staff/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "about-us/our-principal-and-staff/_meta.json",
+  "driverVersion": "1"
+}

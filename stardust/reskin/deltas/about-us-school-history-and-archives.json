@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "blocking": true,
+  "images": "count+alt+width",
+  "links": {
+    "localize": {
+      "sourceHost": "fortstreet-h.schools.nsw.gov.au"
+    }
+  },
+  "metadata": {
+    "ignore": [
+      "canonical",
+      "og:url",
+      "og:image",
+      "og:image:secure_url",
+      "twitter:image"
+    ],
+    "jsonLd": "count-only",
+    "absent": []
+  }
+}

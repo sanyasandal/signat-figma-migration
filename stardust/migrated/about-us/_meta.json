@@ -1,0 +1,54 @@
+{
+  "slug": "about-us",
+  "type": "content",
+  "renderBranch": "A'",
+  "template": "learning-and-support-learning",
+  "modules": [
+    "M3",
+    "M11b"
+  ],
+  "slotsFilled": [
+    "s01",
+    "s02",
+    "s03"
+  ],
+  "canonShas": {
+    "header": "1e8e0c3eebea",
+    "footer": "a8b6d4b37731",
+    "css": "5fe9e7ffc80e"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "About us",
+    "description": "Learn more about Fort Street High School.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "About us",
+    "description": "Learn more about Fort Street High School.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/about-us"
+  },
+  "migratedAt": "2026-11-05T06:33:01Z",
+  "designMdSha": "187c3f2f159f",
+  "designJsonSha": "2d96d5b1c55f",
+  "sourceCurrentSha": "83893e2a58e5",
+  "sourceProposedSha": "d163b0f238cb",
+  "fidelityTier": "sibling",
+  "archetypeSource": "learning-and-support-learning",
+  "archetypeSha": "0925840f97e7",
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 10,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "about-us/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "about-us/_meta.json",
+  "driverVersion": "1"
+}

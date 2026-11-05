@@ -1,0 +1,686 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- stardust:migrate
+  writtenBy:        stardust:migrate
+  writtenAt:        2026-11-05T06:33:01Z
+  page:             Newsletters
+  slug:             school-life-newsletters
+  pagePath:         migrated/school-life/newsletters/index.html
+  renderBranch:     A'
+  template:         learning-and-support-learning
+  archetypePath:    stardust/reskin/pages/learning-and-support-learning.html
+  archetypeSha:     0925840f97e7
+  sourceCurrent:    stardust/current/pages/school-life-newsletters.json
+  againstDirection: stardust/direction.md (Active 2026-11-05T06:31:12Z)
+  designMd:         DESIGN.md (sha: 187c3f2f159f)
+  designJson:       DESIGN.json (sha: 2d96d5b1c55f)
+  canonShas:        header:1e8e0c3eebea footer:a8b6d4b37731 css:5fe9e7ffc80e
+  decisionTrace:    _meta.json
+  brokenInternalLinks: 0
+  stardustVersion:  local
+-->
+<style>
+:root {
+  --heading-font-family: "Apercu Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --body-font-family: "Apercu Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --heading-xxl: 56px;
+  --heading-xl: 56px;
+  --heading-lg: 26px;
+  --heading-md: 20px;
+  --body: 13px;
+  --line-height-heading: 1;
+  --line-height-body: 19px;
+  --color-bg: rgb(242, 240, 239);
+  --color-fg: rgb(40, 40, 40);
+  --color-accent: rgb(0, 0, 0);
+  --section-padding: 80px;
+  --max-width: 1440px;
+  --radius: 0px;
+  --card-bg: rgb(255, 255, 255);
+  --card-radius: 0px;
+  --card-padding: 16px;
+  --card-title-color: rgb(0, 0, 0);
+  --button-height: 44px;
+  --section-padding-mobile: 40px;
+  --gutter-mobile: 16px;
+  --type-display-size: 56px;
+  --type-display-line-height: 1;
+  --type-display-weight: 400;
+  --type-display-letter-spacing: -3.36px;
+  --type-h2-size: 56px;
+  --type-h2-line-height: 1;
+  --type-h2-weight: 400;
+  --type-h2-letter-spacing: -3.36px;
+  --type-h3-size: 26px;
+  --type-h3-line-height: 32px;
+  --type-h3-weight: 400;
+  --type-h3-letter-spacing: -1.56px;
+  --type-h4-size: 20px;
+  --type-h4-line-height: 26px;
+  --type-h4-weight: 400;
+  --type-h4-letter-spacing: -0.6px;
+  --type-lede-size: 20px;
+  --type-lede-line-height: 26px;
+  --type-lede-weight: 400;
+  --type-lede-letter-spacing: -0.6px;
+  --type-body-size: 13px;
+  --type-body-line-height: 19px;
+  --type-body-weight: 400;
+  --type-body-letter-spacing: normal;
+  --type-eyebrow-size: 10px;
+  --type-eyebrow-line-height: 12px;
+  --type-eyebrow-weight: 400;
+  --type-eyebrow-letter-spacing: 0.6px;
+  --type-tab-size: 16px;
+  --type-tab-line-height: 20px;
+  --type-tab-weight: 400;
+  --type-tab-letter-spacing: -0.48px;
+  --type-promo-size: 18px;
+  --type-promo-line-height: 22px;
+  --type-promo-weight: 400;
+  --type-promo-letter-spacing: -0.54px;
+  --palette-page-bg: rgb(242, 240, 239);
+  --palette-body-fg: rgb(40, 40, 40);
+  --palette-heading-fg: rgb(0, 0, 0);
+  --palette-muted-fg: rgb(100, 100, 100);
+  --palette-accent: rgb(0, 0, 0);
+  --palette-dark-band-bg: rgb(0, 0, 0);
+  --palette-dark-band-fg: rgb(255, 255, 255);
+  --palette-light-band-bg: rgb(229, 225, 222);
+  --palette-rule: rgb(216, 211, 204);
+  --palette-sale: rgb(191, 0, 19);
+  --type-family: "Apercu Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --type-display-font-family: "Apercu Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --type-display-font-size: 56px;
+  --type-display-font-weight: 400;
+  --type-display-text-align: left;
+  --type-h2-font-family: "Apercu Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --type-h2-font-size: 56px;
+  --type-h2-font-weight: 400;
+  --type-h3-font-family: "Apercu Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --type-h3-font-size: 26px;
+  --type-h3-font-weight: 400;
+  --type-h4-font-family: "Apercu Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --type-h4-font-size: 20px;
+  --type-h4-font-weight: 400;
+  --type-lede-font-family: "Apercu Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --type-lede-font-size: 20px;
+  --type-lede-font-weight: 400;
+  --type-body-font-family: "Apercu Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --type-body-font-size: 13px;
+  --type-body-font-weight: 400;
+  --type-eyebrow-font-family: "Apercu Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --type-eyebrow-font-size: 10px;
+  --type-eyebrow-font-weight: 400;
+  --type-tab-font-family: "Apercu Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --type-tab-font-size: 16px;
+  --type-tab-font-weight: 400;
+  --type-promo-font-family: "Apercu Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --type-promo-font-size: 18px;
+  --type-promo-font-weight: 400;
+  --layout-container-max-width: 1440px;
+  --layout-section-padding-y: 80px;
+  --layout-gutter: 16px;
+  --layout-mobile-gutter: 16px;
+  --layout-mobile-section-padding-y: 40px;
+  --layout-nav-align: end;
+  --buttons-primary-background: rgb(0, 0, 0);
+  --buttons-primary-color: rgb(255, 255, 255);
+  --buttons-primary-font-family: "Apercu Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --buttons-primary-font-size: 13px;
+  --buttons-primary-font-weight: 400;
+  --buttons-primary-line-height: 13px;
+  --buttons-primary-letter-spacing: normal;
+  --buttons-primary-padding: 12px 20px;
+  --buttons-primary-height: 44px;
+  --buttons-primary-border-radius: 0px;
+  --buttons-secondary-background: rgb(242, 240, 239);
+  --buttons-secondary-color: rgb(0, 0, 0);
+  --buttons-secondary-font-family: "Apercu Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --buttons-secondary-font-size: 13px;
+  --buttons-secondary-font-weight: 400;
+  --buttons-secondary-line-height: 13px;
+  --buttons-secondary-letter-spacing: normal;
+  --buttons-secondary-padding: 12px 20px;
+  --buttons-secondary-height: 44px;
+  --buttons-secondary-border-radius: 0px;
+  --cards-primary-background: rgb(255, 255, 255);
+  --cards-primary-border-radius: 0px;
+  --cards-primary-padding: 16px;
+  --cards-primary-title-color: rgb(0, 0, 0);
+  --radii-radius-3-33: 3.33px;
+  --radii-radius-1-33: 1.33px;
+  --radii-radius-100: 100px;
+  --radii-radius-300: 300px;
+  --radii-radius-40: 40px;
+  --shadows-card-floating: rgba(0, 0, 0, 0.1) 0px 5px 11px 0px, rgba(0, 0, 0, 0.09) 0px 21px 21px 0px, rgba(0, 0, 0, 0.05) 0px 47px 28px 0px, rgba(0, 0, 0, 0.01) 0px 84px 33px 0px, rgba(0, 0, 0, 0) 0px 131px 37px 0px;
+}
+</style>
+<link rel="stylesheet" href="../../assets/canon.css">
+<script type="application/ld+json" data-migrate-default>{"@context":"https://schema.org","@type":"WebPage","name":"Newsletters","description":"At Fort Street High School, our school newsletter helps you stay connected with our school community. We use them to share our latest events, achievements and important updates.","url":"https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters"}</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Newsletters</title>
+<meta name="description" content="At Fort Street High School, our school newsletter helps you stay connected with our school community. We use them to share our latest events, achievements and important updates.">
+<link rel="canonical" href="https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters">
+<meta property="og:title" content="Newsletters">
+<meta property="og:description" content="At Fort Street High School, our school newsletter helps you stay connected with our school community. We use them to share our latest events, achievements and important updates.">
+<meta property="og:url" content="https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters">
+<meta property="og:image" content="about:error">
+<meta property="og:image:secure_url" content="about:error">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Newsletters">
+<meta name="twitter:description" content="At Fort Street High School, our school newsletter helps you stay connected with our school community. We use them to share our latest events, achievements and important updates.">
+<meta name="twitter:image" content="about:error">
+<style>
+:root {
+  --heading-font-family: "Apercu Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --body-font-family: "Apercu Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --heading-xxl: 56px;
+  --heading-xl: 56px;
+  --heading-lg: 26px;
+  --heading-md: 20px;
+  --body: 13px;
+  --line-height-heading: 1;
+  --line-height-body: 19px;
+  --color-bg: rgb(242, 240, 239);
+  --color-fg: rgb(40, 40, 40);
+  --color-accent: rgb(0, 0, 0);
+  --section-padding: 80px;
+  --max-width: 1440px;
+  --radius: 0px;
+  --card-bg: rgb(255, 255, 255);
+  --card-radius: 0px;
+  --card-padding: 16px;
+  --card-title-color: rgb(0, 0, 0);
+  --button-height: 44px;
+  --section-padding-mobile: 40px;
+  --gutter-mobile: 16px;
+  --type-display-size: 56px;
+  --type-display-line-height: 1;
+  --type-display-weight: 400;
+  --type-display-letter-spacing: -3.36px;
+  --type-h2-size: 56px;
+  --type-h2-line-height: 1;
+  --type-h2-weight: 400;
+  --type-h2-letter-spacing: -3.36px;
+  --type-h3-size: 26px;
+  --type-h3-line-height: 32px;
+  --type-h3-weight: 400;
+  --type-h3-letter-spacing: -1.56px;
+  --type-h4-size: 20px;
+  --type-h4-line-height: 26px;
+  --type-h4-weight: 400;
+  --type-h4-letter-spacing: -0.6px;
+  --type-lede-size: 20px;
+  --type-lede-line-height: 26px;
+  --type-lede-weight: 400;
+  --type-lede-letter-spacing: -0.6px;
+  --type-body-size: 13px;
+  --type-body-line-height: 19px;
+  --type-body-weight: 400;
+  --type-body-letter-spacing: normal;
+  --type-eyebrow-size: 10px;
+  --type-eyebrow-line-height: 12px;
+  --type-eyebrow-weight: 400;
+  --type-eyebrow-letter-spacing: 0.6px;
+  --type-tab-size: 16px;
+  --type-tab-line-height: 20px;
+  --type-tab-weight: 400;
+  --type-tab-letter-spacing: -0.48px;
+  --type-promo-size: 18px;
+  --type-promo-line-height: 22px;
+  --type-promo-weight: 400;
+  --type-promo-letter-spacing: -0.54px;
+  /* absent in donor-tokens.json: --body-sm, --spacing-xs, --spacing-sm, --spacing-md, --spacing-lg, --spacing-xl, --spacing-2xl */
+}
+  :root {
+    --palette-page-bg: rgb(242, 240, 239);
+  --palette-body-fg: rgb(40, 40, 40);
+  --palette-heading-fg: rgb(0, 0, 0);
+  --palette-muted-fg: rgb(100, 100, 100);
+  --palette-accent: rgb(0, 0, 0);
+  --palette-dark-band-bg: rgb(0, 0, 0);
+  --palette-dark-band-fg: rgb(255, 255, 255);
+  --palette-light-band-bg: rgb(229, 225, 222);
+  --palette-rule: rgb(216, 211, 204);
+  --palette-sale: rgb(191, 0, 19);
+  --type-family: "Apercu Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --type-display-font-family: "Apercu Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --type-display-font-size: 56px;
+  --type-display-font-weight: 400;
+  --type-display-line-height: 1;
+  --type-display-letter-spacing: -3.36px;
+  --type-display-text-align: left;
+  --type-h2-font-family: "Apercu Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --type-h2-font-size: 56px;
+  --type-h2-font-weight: 400;
+  --type-h2-line-height: 1;
+  --type-h2-letter-spacing: -3.36px;
+  --type-h3-font-family: "Apercu Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --type-h3-font-size: 26px;
+  --type-h3-font-weight: 400;
+  --type-h3-line-height: 32px;
+  --type-h3-letter-spacing: -1.56px;
+  --type-h4-font-family: "Apercu Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --type-h4-font-size: 20px;
+  --type-h4-font-weight: 400;
+  --type-h4-line-height: 26px;
+  --type-h4-letter-spacing: -0.6px;
+  --type-lede-font-family: "Apercu Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --type-lede-font-size: 20px;
+  --type-lede-font-weight: 400;
+  --type-lede-line-height: 26px;
+  --type-lede-letter-spacing: -0.6px;
+  --type-body-font-family: "Apercu Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --type-body-font-size: 13px;
+  --type-body-font-weight: 400;
+  --type-body-line-height: 19px;
+  --type-body-letter-spacing: normal;
+  --type-eyebrow-font-family: "Apercu Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --type-eyebrow-font-size: 10px;
+  --type-eyebrow-font-weight: 400;
+  --type-eyebrow-line-height: 12px;
+  --type-eyebrow-letter-spacing: 0.6px;
+  --type-tab-font-family: "Apercu Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --type-tab-font-size: 16px;
+  --type-tab-font-weight: 400;
+  --type-tab-line-height: 20px;
+  --type-tab-letter-spacing: -0.48px;
+  --type-promo-font-family: "Apercu Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --type-promo-font-size: 18px;
+  --type-promo-font-weight: 400;
+  --type-promo-line-height: 22px;
+  --type-promo-letter-spacing: -0.54px;
+  --layout-container-max-width: 1440px;
+  --layout-section-padding-y: 80px;
+  --layout-gutter: 16px;
+  --layout-mobile-gutter: 16px;
+  --layout-mobile-section-padding-y: 40px;
+  --layout-nav-align: end;
+  --buttons-primary-background: rgb(0, 0, 0);
+  --buttons-primary-color: rgb(255, 255, 255);
+  --buttons-primary-font-family: "Apercu Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --buttons-primary-font-size: 13px;
+  --buttons-primary-font-weight: 400;
+  --buttons-primary-line-height: 13px;
+  --buttons-primary-letter-spacing: normal;
+  --buttons-primary-padding: 12px 20px;
+  --buttons-primary-height: 44px;
+  --buttons-primary-border-radius: 0px;
+  --buttons-secondary-background: rgb(242, 240, 239);
+  --buttons-secondary-color: rgb(0, 0, 0);
+  --buttons-secondary-font-family: "Apercu Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --buttons-secondary-font-size: 13px;
+  --buttons-secondary-font-weight: 400;
+  --buttons-secondary-line-height: 13px;
+  --buttons-secondary-letter-spacing: normal;
+  --buttons-secondary-padding: 12px 20px;
+  --buttons-secondary-height: 44px;
+  --buttons-secondary-border-radius: 0px;
+  --cards-primary-background: rgb(255, 255, 255);
+  --cards-primary-border-radius: 0px;
+  --cards-primary-padding: 16px;
+  --cards-primary-title-color: rgb(0, 0, 0);
+  --radii-radius-3-33: 3.33px;
+  --radii-radius-1-33: 1.33px;
+  --radii-radius-100: 100px;
+  --radii-radius-300: 300px;
+  --radii-radius-40: 40px;
+  --shadows-card-floating: rgba(0, 0, 0, 0.1) 0px 5px 11px 0px, rgba(0, 0, 0, 0.09) 0px 21px 21px 0px, rgba(0, 0, 0, 0.05) 0px 47px 28px 0px, rgba(0, 0, 0, 0.01) 0px 84px 33px 0px, rgba(0, 0, 0, 0) 0px 131px 37px 0px;
+  }
+  :where(.site-header, .site-main, .site-footer), :where(.site-header, .site-main, .site-footer) *, :where(.site-header, .site-main, .site-footer) *::before, :where(.site-header, .site-main, .site-footer) *::after { box-sizing: border-box; }
+  body:has(> .site-header, > .site-main, > .site-footer) { margin: 0; background: var(--palette-page-bg); color: var(--palette-body-fg); font-family: var(--type-family); font-size: var(--type-body-font-size); line-height: var(--type-body-line-height); }
+  .site-main .embed-placeholder { position: relative; height: 440px; margin-top: 48px; background: var(--palette-light-band-bg); }
+  .site-main .embed-placeholder::after { content: ""; position: absolute; left: 50%; top: 50%; width: 36px; height: 36px; margin: -18px 0 0 -18px; border-radius: 50%; background: var(--palette-accent); }
+  @media (max-width: 640px) { .site-main .embed-placeholder { height: 280px; margin-top: 32px; } }
+  .site-main .clamp { display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; }
+  .container { box-sizing: content-box; max-width: var(--layout-container-max-width); margin: 0 auto; padding: 0 24px; }
+  :where(.site-header, .site-main, .site-footer) a { color: inherit; }
+  .link { color: var(--palette-accent); text-decoration: underline; }
+  :where(.site-header, .site-main, .site-footer) img { max-width: 100%; height: auto; }
+  .site-header .chrome-row { border-bottom: 1px solid var(--palette-light-band-bg); }
+  .site-header .chrome-row .container { display: flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 56px; flex-wrap: wrap; }
+  .site-header nav { display: flex; gap: 16px; flex-wrap: wrap; margin-left: auto; }
+  .site-header nav a { text-decoration: none; }
+  .site-header nav { align-items: center; }
+  .site-header .nav-menu { display: inline-flex; align-items: center; gap: 8px; padding: 0; border: 0; background: none; color: inherit; font: inherit; cursor: pointer; }
+  .site-header .nav-menu::after { content: ""; width: 6px; height: 6px; border: solid currentcolor; border-width: 0 1.5px 1.5px 0; transform: translateY(-2px) rotate(45deg); }
+  .site-header .nav-actions { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+  .site-header .nav-align-start nav { margin-left: 0; }
+  .site-header .nav-align-start .nav-actions { margin-left: auto; }
+  @media (min-width: 900px) {
+    .site-header .nav-align-center .container { display: grid; grid-template-columns: 1fr auto 1fr; }
+    .site-header .nav-align-center .logo { grid-column: 1; justify-self: start; }
+    .site-header .nav-align-center nav { grid-column: 2; margin-left: 0; justify-content: center; }
+    .site-header .nav-align-center .nav-actions { grid-column: 3; justify-self: end; }
+  }
+  .logo { height: 32px; width: auto; }
+  .site-main section { position: relative; padding-top: var(--layout-section-padding-y); padding-bottom: var(--layout-section-padding-y); }
+  .site-main .layout-media-band { background: var(--palette-light-band-bg); overflow: hidden; }
+  .site-main .band-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .site-main .panel { position: relative; }
+  .site-main .layout-media-band .panel { background: var(--palette-page-bg); border-radius: 0; padding: 40px; }
+  .site-main .width-narrow .panel { max-width: 550px; }
+  .site-main .layout-grid-2 .flow { display: grid; grid-template-columns: 1fr 1fr; column-gap: 40px; }
+  .site-main .layout-grid-2 .flow > :not(.field) { grid-column: 1 / -1; }
+  .site-main h1, .site-main h2, .site-main h3, .site-main h4 { font-family: var(--type-display-font-family); font-weight: var(--type-display-font-weight); color: var(--palette-heading-fg); margin: 0 0 24px; }
+  .site-main .heading { font-size: var(--type-display-font-size); line-height: var(--type-display-line-height); text-align: var(--type-display-text-align); }
+  .site-main .heading-h2 .heading { font-size: var(--type-h2-font-size); line-height: var(--type-h2-line-height); }
+  .site-main .heading-h3 .heading { font-size: var(--type-h3-font-size); line-height: var(--type-h3-line-height); }
+  .site-main .heading-h4 .heading { font-size: var(--type-h4-font-size); line-height: var(--type-h4-line-height); }
+  .site-main .band .flow .heading.role-h2 { font-size: var(--type-h2-font-size); line-height: var(--type-h2-line-height); }
+  .site-main .band .flow .heading.role-h3 { font-size: var(--type-h3-font-size); line-height: var(--type-h3-line-height); }
+  .site-main .band .flow .heading.role-h4 { font-size: var(--type-h4-font-size); line-height: var(--type-h4-line-height); }
+  .site-main .heading-display .heading { font-size: var(--type-display-font-size); line-height: var(--type-display-line-height); }
+  .site-main .inset > .container { max-width: none; padding: 0 var(--band-inset); }
+  .site-main h2.heading { font-size: var(--type-h2-font-size); line-height: var(--type-h2-line-height); font-weight: var(--type-h2-font-weight); }
+  .site-main h3.heading { font-size: var(--type-h3-font-size); line-height: var(--type-h3-line-height); font-weight: var(--type-h3-font-weight); }
+  .site-main h4.heading { font-size: var(--type-h4-font-size); line-height: var(--type-h4-line-height); font-weight: var(--type-h4-font-weight); }
+  .site-main .card .heading { font-size: var(--type-h3-font-size); line-height: var(--type-h3-line-height); font-weight: var(--type-h3-font-weight); }
+  
+  .site-main p { margin: 0 0 16px; }
+  .site-main .field { display: flex; flex-direction: column; gap: 8px; margin-bottom: 24px; }
+  .site-main .field label { font-weight: 600; }
+  .site-main .req { color: var(--palette-accent); font-weight: inherit; }
+  .site-main input:not([type=checkbox]):not([type=radio]), .site-main select, .site-main textarea { font: inherit; min-height: 48px; padding: 0 16px; width: 100%; border: 1px solid var(--palette-light-band-bg); border-radius: 4px; color: inherit; background: var(--palette-page-bg); }
+  .site-main .check { display: flex; gap: 12px; align-items: center; margin-bottom: 12px; }
+  .site-main .check input { flex: none; width: 20px; height: 20px; accent-color: var(--palette-accent); }
+  .site-main .actions { margin: 24px 0 0; }
+  :is(.site-main, .site-header) .btn { display: inline-flex; align-items: center; justify-content: center; min-height: var(--button-height); background: var(--buttons-primary-background); color: var(--buttons-primary-color); border: 0; border-radius: var(--buttons-primary-border-radius); padding: var(--buttons-primary-padding); font-family: inherit; font-size: var(--buttons-primary-font-size); font-weight: var(--buttons-primary-font-weight); line-height: var(--buttons-primary-line-height); text-decoration: none; cursor: pointer; }
+  :is(.site-main, .site-header) .btn-secondary { background: var(--buttons-secondary-background); color: var(--buttons-secondary-color); border: 1px solid currentColor; }
+  .site-main .width-narrow .btn { width: 100%; }
+
+  .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+  .glyph { display: inline-flex; align-items: center; justify-content: center; width: 16px; height: 16px; font-size: 0; vertical-align: middle; }
+  .glyph::before { content: ""; width: 7px; height: 7px; border: solid currentcolor; border-width: 0 2px 2px 0; }
+  .glyph-right::before { transform: rotate(-45deg); } .glyph-left::before { transform: rotate(135deg); }
+  .glyph-down::before { transform: translateY(-2px) rotate(45deg); } .glyph-up::before { transform: translateY(2px) rotate(-135deg); }
+  .glyph-search::before { width: 9px; height: 9px; border: 2px solid currentcolor; border-radius: 50%; }
+  .glyph-close::before { content: "×"; width: auto; height: auto; border: 0; font-size: 20px; line-height: 1; }
+  .glyph-menu::before { width: 16px; height: 2px; border: 0; background: currentcolor; box-shadow: 0 -5px 0 currentcolor, 0 5px 0 currentcolor; }
+  .site-header .icon-btn { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; padding: 0; border: 0; background: none; color: inherit; cursor: pointer; }
+  .site-header .icon-btn .glyph { width: 20px; height: 20px; }
+  .site-header .brand { display: flex; align-items: center; gap: 12px; min-width: 0; }
+  .site-header .brand .logo { height: 56px; width: auto; }
+  .site-header .brand-text { display: flex; flex-direction: column; white-space: nowrap; }
+  .site-header .nav-actions { flex-wrap: nowrap; }
+  .site-header .icon-btn .glyph-search::before { width: 13px; height: 13px; }
+  .site-header .brand-text .nav-text:first-child { font-family: var(--type-display-font-family); color: var(--palette-heading-fg); font-size: 1.25em; line-height: 1.2; }
+  .site-header .brand-text .nav-text + .nav-text { font-size: 0.875em; font-style: italic; line-height: 1.3; }
+  .site-header nav .glyph { display: none; }
+  .site-header .utility-bar { border-bottom: 1px solid var(--palette-light-band-bg); font-size: 12px; line-height: 1; }
+  .site-header .utility-bar .container { display: flex; justify-content: flex-end; gap: 16px; padding-top: 10px; padding-bottom: 10px; }
+  .site-header .utility-bar a { text-decoration: underline; }
+  @media (min-width: 901px) {
+    .site-header .chrome-row .container { min-height: 80px; }
+    .site-header nav { gap: 24px; font-family: inherit; font-size: inherit; }
+  }
+  .site-header .nav-toggle { display: none; }
+  .site-header .glyph-search::before { box-shadow: none; }
+  .site-header .glyph-search { position: relative; }
+  .site-header .glyph-search::after { content: ""; position: absolute; width: 2px; height: 6px; background: currentcolor; transform: translate(7px, 7px) rotate(-45deg); }
+  @media (max-width: 900px) {
+    .site-header nav, .site-header .utility-bar { display: none; }
+    .site-header .nav-toggle { display: inline-flex; }
+    .site-header.nav-open .chrome-row .container { flex-wrap: wrap; }
+    .site-header.nav-open nav { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; flex-basis: 100%; order: 3; margin: 0; padding: 8px 0 16px; }
+    .site-header .chrome-row .container { flex-wrap: nowrap; min-height: 64px; }
+    .site-header .brand .logo { height: 40px; }
+    .site-header .brand-text { font-size: 14px; }
+  }
+  .site-main .disclosure { border-bottom: 1px solid var(--palette-light-band-bg); }
+  .site-main .disclosure:first-of-type, .site-main :not(.disclosure) + .disclosure { border-top: 1px solid var(--palette-light-band-bg); }
+  .site-main .disclosure-toggle { display: flex; width: 100%; align-items: center; justify-content: space-between; gap: 24px; padding: 20px 0; border: 0; background: none; color: var(--palette-heading-fg); font-family: var(--type-display-font-family); font-size: var(--type-h3-font-size); line-height: var(--type-h3-line-height); font-weight: var(--type-h3-font-weight); text-align: left; cursor: pointer; }
+  .site-main .disclosure-toggle .glyph { color: var(--palette-accent); width: 24px; height: 24px; }
+  .site-main .disclosure-toggle[aria-expanded="true"] .glyph::before { transform: translateY(2px) rotate(-135deg); }
+  .site-main .disclosure-panel { padding: 0 0 24px; }
+  .site-main .table-wrap { overflow-x: auto; margin: 0 0 24px; }
+  .site-main .table { width: 100%; border-collapse: collapse; }
+  .site-main .table :is(th, td) { padding: 16px; border-bottom: 1px solid var(--palette-light-band-bg); text-align: left; vertical-align: top; }
+  .site-main .table th { background: var(--palette-light-band-bg); color: var(--palette-heading-fg); }
+  .site-main .table :is(th, td) p { margin: 0; }
+  .site-main .media-wide img { width: 100%; max-height: none; }
+  .site-main .inline-media { display: block; width: 100%; height: auto; margin: 0 0 16px; }
+  .site-main .list { padding-left: 1.2em; }
+  .site-main .media img { max-height: 360px; width: auto; }
+  .site-main .icon { display: inline-block; height: 1.6em; width: auto; vertical-align: middle; margin-right: 0.5em; }
+  .site-main .logos { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 24px 40px; margin: 0 0 16px; }
+  .site-main .logos img { height: 48px; width: auto; }
+  .site-main .layout-split .panel { display: grid; grid-template-columns: var(--split-columns, 1fr 1fr); gap: 40px; align-items: center; }
+  .site-main .split-img { max-width: 100%; max-height: 520px; justify-self: end; }
+  .site-main .media-first .split-img { order: -1; justify-self: start; }
+  .site-main .align-center .flow { text-align: center; justify-items: center; }
+  .site-main .align-center .flow > :is(.actions, .logos) { justify-content: center; }
+  .site-main .align-center .card { text-align: start; }
+  .site-main .band.align-center .flow > .heading:first-child { justify-self: center; }
+  .site-main .align-center .flow > .heading { text-align: center; }
+  .site-main .align-center.width-narrow .panel { margin-inline: auto; }
+  .site-main .cards { display: grid; grid-template-columns: repeat(var(--cards-columns, 3), minmax(0, 1fr)); gap: 40px; margin: 16px 0; }
+  .site-main .card { background: var(--card-bg); border-radius: var(--card-radius); box-shadow: none; padding: var(--card-padding); }
+  .site-main .card :is(h2, h3, h4, .heading) { color: var(--card-title-color); }
+  .site-main .card > p.aux:first-child:has(> .link:only-child) .link { font-family: inherit; font-size: var(--type-h4-font-size); line-height: 1.25; color: var(--palette-accent); text-decoration: none; }
+  .site-main .card > .glyph:last-child { display: flex; width: 28px; height: 28px; margin-top: 12px; color: var(--palette-accent); position: relative; }
+  .site-main .card > .glyph-right:last-child::before { position: absolute; right: 6px; width: 9px; height: 9px; transform: rotate(-45deg); }
+  .site-main .card > .glyph-right:last-child::after { content: ""; position: absolute; left: 4px; right: 5px; top: 13px; height: 2px; background: currentcolor; }
+  .site-main .card > :last-child { margin-bottom: 0; }
+  .site-main .card:has(> .media:first-child) { padding: 0 0 32px; overflow: hidden; }
+  .site-main .card:has(> .media:first-child) > :not(.media:first-child) { margin-inline: 24px; }
+  .site-main .card > .media:first-child { margin: 0 0 24px; }
+  .site-main .card > .media:first-child img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; max-height: none; }
+  .site-main :is(.cards-dark, .cards-accent, .cards-light) .card { border-color: transparent; }
+  .site-main .cards-dark .card { background: var(--palette-dark-band-bg); color: var(--palette-dark-band-fg); }
+  .site-main .cards-accent .card { background: var(--palette-accent); color: var(--palette-dark-band-fg); }
+  .site-main .cards-light .card { background: var(--palette-light-band-bg); }
+  .site-main :is(.cards-dark, .cards-accent) .card :is(h1, h2, h3, h4, .heading, .link) { color: inherit; }
+  .site-main .tone-dark .panel, .site-main .tone-light .panel, .site-main .tone-accent .panel { border-radius: 0; padding: 50px 60px; }
+  .site-main .bleed.tone-dark, .site-main .bleed.tone-light, .site-main .bleed.tone-accent { padding-top: var(--layout-section-padding-y); padding-bottom: var(--layout-section-padding-y); }
+  .site-main .bleed.tone-dark { background: var(--palette-dark-band-bg); color: var(--palette-dark-band-fg); }
+  .site-main .bleed.tone-light { background: var(--palette-light-band-bg); }
+  .site-main .bleed.tone-accent { background: var(--palette-accent); }
+  .site-main .bleed .panel { background: none !important; border-radius: 0; padding: 0; }
+  .site-main .tone-dark .panel { background: var(--palette-dark-band-bg); color: var(--palette-dark-band-fg); }
+  .site-main .tone-dark :is(h1, h2, h3, h4) { color: inherit; }
+  .site-main .tone-dark .card { background: transparent; box-shadow: none; border-color: transparent; }
+  .site-main .tone-light .panel { background: var(--palette-light-band-bg); }
+  .site-main .tone-light .card { background: var(--palette-page-bg); }
+  .site-main .tone-accent .panel { background: var(--palette-accent); }
+  .site-main .tone-accent .link { color: inherit; }
+  .site-footer { padding: 48px 0; }
+  .site-footer .chrome-footer { display: grid; grid-template-columns: 1fr 2fr; gap: 40px; }
+  .site-footer ul { list-style: none; margin: 0; padding: 0; columns: 2; }
+  .site-footer li { margin-bottom: 16px; }
+  .site-footer a { text-decoration: none; }
+  .site-footer.tone-dark { background: var(--palette-dark-band-bg); color: var(--palette-dark-band-fg); border-radius: 0 0 0 0; }
+  .site-footer.tone-light { background: var(--palette-light-band-bg); }
+  .site-footer.tone-accent { background: var(--palette-accent); }
+  .site-footer .footer-zoned { display: block; font-size: 0.889em; }
+  .site-footer .footer-main { display: flex; gap: 40px; }
+  .site-footer .footer-main > * { flex: 1 1 0; min-width: 0; }
+  .site-footer .footer-zoned a { color: inherit; }
+  .site-footer .footer-zoned ul { columns: 1; }
+  .site-footer .footer-zoned p { margin: 0 0 16px; }
+  .site-footer .footer-brand > p { max-width: 300px; }
+  .site-footer .footer-brand .logo { display: block; height: 40px; width: auto; margin-bottom: 24px; }
+  .site-footer .footer-name { font-family: inherit; color: var(--palette-heading-fg); font-size: 1.25em; }
+  .site-footer .footer-col-title { font-weight: 700; }
+  .site-footer .footer-social { margin-top: 40px; display: flex; align-items: center; gap: 16px; font-size: 0.875em; }
+  .site-footer .footer-social p { margin: 0; }
+  .site-footer .footer-social ul { display: flex; gap: 16px; }
+  .site-footer .footer-social li { margin: 0; }
+  @media (max-width: 900px) {
+    .site-main .layout-grid-2 .flow { grid-template-columns: 1fr; }
+    .site-main .layout-split .panel { grid-template-columns: minmax(0, 1fr); }
+    .site-main .layout-split .panel > * { min-width: 0; }
+    .site-main .split-img { justify-self: stretch; width: 100%; }
+    .site-main .cards { grid-template-columns: minmax(0, 1fr); }
+    .site-footer .chrome-footer { grid-template-columns: 1fr; }
+    .site-footer .footer-main { flex-direction: column; gap: 24px; }
+    .site-footer .footer-zoned { text-align: center; line-height: 1.4; }
+    .site-footer .footer-brand > p { max-width: none; }
+    .site-footer .footer-brand .logo { margin: 0 auto 24px; }
+    .site-footer .footer-social { justify-content: center; margin-top: 24px; white-space: nowrap; }
+    .site-footer .footer-zoned li { margin-bottom: 12px; }
+  }
+  @media (max-width: 640px) {
+    .site-main section { padding-top: var(--section-padding-mobile); padding-bottom: var(--section-padding-mobile); }
+    .site-main .layout-media-band .panel { padding: 24px; }
+    .site-main .inset > .container { padding: 0 var(--gutter-mobile); }
+    .container { padding-left: var(--gutter-mobile); padding-right: var(--gutter-mobile); }
+    .site-main .tone-dark .panel, .site-main .tone-light .panel, .site-main .tone-accent .panel { padding: 32px var(--gutter-mobile); }
+    .site-footer ul { columns: 1; }
+    .site-main .table :is(th, td) { padding: 8px; }
+    .site-main :is(.heading, .heading-display .heading) { font-size: min(var(--type-display-font-size), 11vw); }
+    .site-main .heading { overflow-wrap: break-word; }
+  }
+  .site-footer .footer-brand .logo { height: 48px; min-height: 48px; }
+  .site-footer .social-icon { display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; }
+  .site-footer .social-icon svg { width: 24px; height: 24px; fill: currentcolor; }
+</style>
+<!-- stardust:prototype
+  writtenBy:        stardust:reskin/stream-render
+  writtenAt:        2026-11-05T06:29:51.904Z
+  page:             school-life-newsletters
+  pageUrl:          https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters
+  template:         learning-and-support-learning
+  readArtifacts:
+    - reskin/content-model/school-life-newsletters/content-model.json
+    - reskin/donor-tokens.json
+    - reskin/mapping.json
+    - stardust/reskin/content-model/_chrome/content-model.json
+  unsourcedContent: []
+-->
+<style>.site-main .tone-dark .link, .site-main .tone-dark .panel a:not(.btn) { color: inherit; }
+.site-footer.tone-dark .footer-name { color: inherit; }
+.site-main .heading { letter-spacing: var(--type-display-letter-spacing); }
+.site-main .heading-h2 .heading { letter-spacing: var(--type-h2-letter-spacing); }
+.site-main .heading-h3 .heading { letter-spacing: var(--type-h3-letter-spacing); }
+.site-main .heading-h4 .heading { letter-spacing: var(--type-h4-letter-spacing); }
+.site-main .band .flow .heading.role-h2 { letter-spacing: var(--type-h2-letter-spacing); }
+.site-main .band .flow .heading.role-h3 { letter-spacing: var(--type-h3-letter-spacing); }
+.site-main .band .flow .heading.role-h4 { letter-spacing: var(--type-h4-letter-spacing); }
+.site-main .heading-display .heading { letter-spacing: var(--type-display-letter-spacing); }
+.site-main h2.heading { letter-spacing: var(--type-h2-letter-spacing); }
+.site-main h3.heading { letter-spacing: var(--type-h3-letter-spacing); }
+.site-main h4.heading { letter-spacing: var(--type-h4-letter-spacing); }
+.site-main .card .heading { letter-spacing: var(--type-h3-letter-spacing); }
+.site-main .disclosure-toggle { letter-spacing: var(--type-h3-letter-spacing); }
+.site-main section[data-module="M2"] .cards { gap: 0; }
+.site-main section[data-module="M2"] .card { border-right: 1px solid var(--palette-page-bg); }
+.site-main section[data-module="M2"] .card:nth-child(3n) { border-right: 0; }
+.site-main section[data-module="M2"] .flow > .heading { padding-inline: var(--layout-gutter); }
+.site-main section[data-module="M11"] .cards { gap: 1px; }
+.site-main .clamp { display: block; overflow: visible; }
+.site-main .tone-dark .btn { background: var(--buttons-secondary-background); color: var(--buttons-secondary-color); }
+@media (max-width: 900px) { .site-main section[data-module="M2"] .card { border-right: 0; border-bottom: 1px solid var(--palette-page-bg); } }</style>
+<style>.site-main .list-inline { list-style: none; padding: 0; margin: 0; font-size: var(--type-tab-font-size, 16px); line-height: var(--type-tab-line-height, 20px); letter-spacing: var(--type-tab-letter-spacing, normal); }
+.site-main .list-inline li { display: inline; }
+.site-main .list-inline li + li { border-left: 1px solid var(--palette-rule, currentColor); margin-left: 12px; padding-left: 12px; }
+.site-main .list-inline a[aria-current] { text-decoration: none; color: var(--palette-muted-fg, inherit); }</style>
+</head>
+<body>
+<header class="site-header" data-canon="header">
+  <div class="utility-bar"><div class="container"><a href="../../index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/">NSW Government</a></div></div><div class="chrome-row nav-align-center"><div class="container">
+      <div class="brand"><img class="logo" src="../../assets/img/assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/logo.png" data-source-src="https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/logo.png" alt="school logo"><div class="brand-text"><span class="nav-text">Fort Street High School</span><span class="nav-text">Faber est suae quisque fortunae</span></div></div>
+      <nav id="site-nav"><a href="../../about-us/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/about-us">About us <span class="glyph glyph-right" aria-hidden="true">keyboard_arrow_right</span></a><a href="../../school-life/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life">School life <span class="glyph glyph-right" aria-hidden="true">keyboard_arrow_right</span></a><a href="../../learning-and-support/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/learning-and-support">Learning and support <span class="glyph glyph-right" aria-hidden="true">keyboard_arrow_right</span></a><a href="../../our-community/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/our-community">Our community <span class="glyph glyph-right" aria-hidden="true">keyboard_arrow_right</span></a><a href="../../contact-us/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/contact-us">Contact us</a></nav>
+      <div class="nav-actions"><a class="sr-only" href="../../index.html#main-nav" data-source-href="https://fortstreet-h.schools.nsw.gov.au/#main-nav">Skip to navigation</a><a class="sr-only" href="../../index.html#main" data-source-href="https://fortstreet-h.schools.nsw.gov.au/#main">Skip to content</a><button class="icon-btn" type="button"><span class="glyph glyph-search" aria-hidden="true">search</span></button><button class="sr-only" type="button"><span class="sr-only">Show</span></button><button class="sr-only" type="button"><span class="sr-only">Search</span></button><button class="icon-btn nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><span class="glyph glyph-menu" aria-hidden="true"></span></button></div>
+    </div></div>
+</header>
+<main class="site-main" data-template="learning-and-support-learning">
+  <section class="band layout-stack width-wide inset" style="--band-inset: 16px" data-slot="s01" data-module="M3" data-section="1">
+      
+      <div class="container"><div class="panel"><div class="flow" data-slot-body>
+          <ul class="list list-inline"><li><a class="link" href="../../index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/">Home</a></li><li><a class="link" href="../../school-life/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life">School life</a></li><li><a class="link" aria-current="page">Newsletters</a></li></ul>
+      </div></div></div>
+    </section>
+  <section class="band layout-stack width-wide heading-display inset" style="--band-inset: 16px" data-slot="s02" data-module="M5b" data-section="2">
+      
+      <div class="container"><div class="panel"><div class="flow" data-slot-body>
+          <h1 class="heading">Newsletters</h1>
+        <p class="lead">Mercurius is the school newsletter and is published fortnightly. Mercurius contains news and information about happenings in the Fort Street Community as well as important details about school activities and upcoming events.</p>
+        <p class="lead">Contributions and feedback are most welcome.</p>
+        <p class="aux">Please contact us at: <a class="link" href="mailto:fortstreet-h.school@det.nsw.edu.au">fortstreet-h.school@det.nsw.edu.au <span class="sr-only">(opens in new window)</span></a></p>
+      </div></div></div>
+    </section>
+  <section class="band layout-split width-wide tone-light heading-h3 inset bleed" style="--band-inset: 16px" data-slot="s03" data-module="M6" data-section="3">
+      
+      <div class="container"><div class="panel"><div class="flow" data-slot-body>
+          <h2 class="heading">Latest newsletter</h2>
+        <p class="lead">Our school newsletter helps you stay connected with our school community. We use them to share our latest events, achievements and important updates.</p>
+        <div class="actions"><a class="btn" href="https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-9-2026/">Mercurius Issue 9 - 25 September 2026 (opens in new window)</a></div>
+        <p class="lead"><img class="icon" src="about:error" alt=""></p>
+      </div></div></div>
+    </section>
+  <section class="band layout-stack width-wide heading-h2 inset" style="--band-inset: 16px" data-slot="s04" data-section="4">
+      
+      <div class="container"><div class="panel"><div class="flow" data-slot-body>
+          <h2 class="heading">Previous newsletters</h2>
+        <div class="disclosure"><button class="disclosure-toggle" type="button" aria-expanded="false" aria-controls="disclosure-1">Term 3 newsletters 2026 <span class="glyph glyph-down" aria-hidden="true">keyboard_arrow_down</span></button><div class="disclosure-panel" id="disclosure-1" hidden="until-found"><p class="aux"><a class="link" href="https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-8-2026/">Mercurius Issue 8 - 28 August 2026 <span class="sr-only">(opens in new window)</span></a></p>
+        <p class="aux"><a class="link" href="https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-7-2026/">Mercurius Issue 7 - 7 August 2026 <span class="sr-only">(opens in new window)</span></a></p></div></div>
+        <div class="disclosure"><button class="disclosure-toggle" type="button" aria-expanded="false" aria-controls="disclosure-2">Term 2 newsletters 2026 <span class="glyph glyph-down" aria-hidden="true">keyboard_arrow_down</span></button><div class="disclosure-panel" id="disclosure-2" hidden="until-found"><p class="aux"><a class="link" href="https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-4-2026/">Mercurius Issue 4 - 15 May 2026 <span class="sr-only">(opens in new window)</span></a></p>
+        <p class="aux"><a class="link" href="https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-5-2026/">Mercurius Issue 5 - 9 June 2026 <span class="sr-only">(opens in new window)</span></a></p>
+        <p class="aux"><a class="link" href="https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-6-2026/">Mercurius Issue 6 - 30 June 2026 <span class="sr-only">(opens in new window)</span></a></p></div></div>
+        <div class="disclosure"><button class="disclosure-toggle" type="button" aria-expanded="false" aria-controls="disclosure-3">Term 1 newsletters 2026 <span class="glyph glyph-down" aria-hidden="true">keyboard_arrow_down</span></button><div class="disclosure-panel" id="disclosure-3" hidden="until-found"><p class="aux"><a class="link" href="https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-1-2026/">Mercurius Issue 1 - 23 February 202 <span class="sr-only">(opens in new window)</span></a> 6</p>
+        <p class="aux"><a class="link" href="https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-2-2026/">Mercurius Issue 2 - 23 March 2026 <span class="sr-only">(opens in new window)</span></a></p>
+        <p class="aux"><a class="link" href="https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-3-2026/">Mercurius Issue 3- 2 April 2026 <span class="sr-only">(opens in new window)</span></a></p></div></div>
+        <div class="disclosure"><button class="disclosure-toggle" type="button" aria-expanded="false" aria-controls="disclosure-4">Term 4 newsletters 2025 <span class="glyph glyph-down" aria-hidden="true">keyboard_arrow_down</span></button><div class="disclosure-panel" id="disclosure-4" hidden="until-found"><p class="aux"><a class="link" href="https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-11-2025/">Mercurius Issue 11 - 28 November 2025 <span class="sr-only">(opens in new window)</span></a></p>
+        <p class="aux"><a class="link" href="https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-10-2025/">Mercurius Issue 10 - 12 November 2025 <span class="sr-only">(opens in new window)</span></a> <a class="link" href="https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-9-2025/">Mercurius Issue 9 - 26 September 2025 <span class="sr-only">(opens in new window)</span></a></p></div></div>
+        <div class="disclosure"><button class="disclosure-toggle" type="button" aria-expanded="false" aria-controls="disclosure-5">Term 3 newsletters 2025 <span class="glyph glyph-down" aria-hidden="true">keyboard_arrow_down</span></button><div class="disclosure-panel" id="disclosure-5" hidden="until-found"><p class="aux"><a class="link" href="https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-8-2025/">Mercurius Issue 8 - 5 September 2025 <span class="sr-only">(opens in new window)</span></a> <a class="link" href="https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-7-2025/">Mercurius Issue 7 - 15 August 2025 <span class="sr-only">(opens in new window)</span></a></p></div></div>
+        <div class="disclosure"><button class="disclosure-toggle" type="button" aria-expanded="false" aria-controls="disclosure-6">Term 2 newsletters 2025 <span class="glyph glyph-down" aria-hidden="true">keyboard_arrow_down</span></button><div class="disclosure-panel" id="disclosure-6" hidden="until-found"><p class="aux"><a class="link" href="https://www.thebuzz.net.au/fortstreet/newsletter/__trashed/">Mercurius Issue 6 - 4 July 2025 <span class="sr-only">(opens in new window)</span></a> <a class="link" href="https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-5-june-2025/">Mercurius Issue 5 - 10 June 2025 <span class="sr-only">(opens in new window)</span></a> <a class="link" href="https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-4-may-2025/">Mercurius Issue 4 - 16 May 2025 <span class="sr-only">(opens in new window)</span></a></p></div></div>
+        <div class="disclosure"><button class="disclosure-toggle" type="button" aria-expanded="false" aria-controls="disclosure-7">Term 1 newsletters 2025 <span class="glyph glyph-down" aria-hidden="true">keyboard_arrow_down</span></button><div class="disclosure-panel" id="disclosure-7" hidden="until-found"><p class="aux"><a class="link" href="https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-3-march-2025/">Mercurius Issue 3 - 28 March 2025 <span class="sr-only">(opens in new window)</span></a> <a class="link" href="https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-2-2025/">Mercurius Issue 2 - 5 March 2025 <span class="sr-only">(opens in new window)</span></a> <a class="link" href="https://www.thebuzz.net.au/fortstreet/newsletter/mercurius-issue-1-2025/">Mercurius Issue 1 - 14 February 2025 <span class="sr-only">(opens in new window)</span></a></p></div></div>
+      </div></div></div>
+    </section>
+  <section class="band layout-stack width-wide tone-dark heading-h3 inset bleed" style="--band-inset: 16px" data-slot="s05" data-module="M9b" data-section="5">
+      
+      <div class="container"><div class="panel"><div class="flow" data-slot-body>
+          <h2 class="heading">Have something to share?</h2>
+        <p class="lead">We love featuring stories, achievements and updates from our school community. Contact us if you have something to include in an upcoming newsletter.</p>
+        <div class="actions"><a class="btn" href="../../contact-us/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/contact-us">Contact us</a></div>
+      </div></div></div>
+    </section>
+  <section class="band layout-cards width-wide heading-h2 inset align-center" style="--band-inset: 16px" data-slot="s06" data-module="M10" data-section="6">
+      
+      <div class="container"><div class="panel"><div class="flow" data-slot-body>
+          <h2 class="heading">Stay connected on our socials</h2>
+        <p class="lead">Visit our Facebook for more photos, videos, events and updates from our school.</p>
+        <div class="cards" style="--cards-columns: 3"><div class="card"><figure class="media"><img src="../../assets/img/scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/854710675_1770172005117194_7603390710119696328_n-86749909.jpg" data-source-src="https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/854710675_1770172005117194_7603390710119696328_n.jpg?_nc_cat=104&amp;_nc_map=urlgen_bucketless&amp;ccb=1-7&amp;_nc_sid=127cfc&amp;_nc_ohc=o0QGyZ4DXtQQ7kNvwGeBomM&amp;_nc_oc=Adq-QwuhGcssa9U9qrsmY0yIFCYTsR3XtfehH32YLcmZV5ZhSPBFYAv8FCHVFCt0J4k&amp;_nc_zt=23&amp;_nc_ht=scontent-syd2-1.xx&amp;edm=AKK4YLsEAAAA&amp;_nc_gid=nEXtFtVehqEv0PNTqBeWgg&amp;_nc_tpa=Q5bMBQKI9S6yOGdTlLlYYHB0gVGpqSRosI5sR1nOITWzplYziatiLv9ZMq3eYDAXyg0D5meLlSHqEnyPZQ&amp;oh=00_AQR0N6hNam--JJjG4ew9saTWokV07scCo417yXWOPT--GA&amp;oe=6AF1EF73" alt="Facebook post image"></figure>
+        <div class="clamp" style="-webkit-line-clamp: 3"><p class="aux"><a class="link" href="https://m.facebook.com/1661675895966806/posts/1770173321783729#no_universal_links">Today we celebrate World Teachers Day! 🍎 👩‍🏫 🏫 ⭐️ We have an amazing team of teachers at the Fort and are grateful for all they do for our students and school. Let us know which teacher has had a positive impact on your or your child by posting a message below. You can also leave a gem for our amazing teachers on the world teachers day map via this link: https://world-teachers-day-map.nesa.nsw.edu.au/ #WorldTeachersDay2026</a></p></div>
+        <span class="glyph glyph-right" aria-hidden="true">east</span></div><div class="card"><figure class="media"><img src="../../assets/img/scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/836259297_1746224134178648_3432439322237656274_n-97dc7d82.jpg" data-source-src="https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/836259297_1746224134178648_3432439322237656274_n.jpg?stp=dst-jpg_p720x720_tt6&amp;_nc_cat=101&amp;_nc_map=urlgen_bucketless&amp;ccb=1-7&amp;_nc_sid=127cfc&amp;_nc_ohc=VuZ5KrGVWa4Q7kNvwHwsb3g&amp;_nc_oc=AdqX59xnAp9ItgBNYCOl-4kTRuzTUbcAgFFctpiXEmjulMl8-u-7RY300DEIuruWD58&amp;_nc_zt=23&amp;_nc_ht=scontent-syd2-1.xx&amp;edm=AKK4YLsEAAAA&amp;_nc_gid=nEXtFtVehqEv0PNTqBeWgg&amp;_nc_tpa=Q5bMBQLgUDpoZGfP3z96T8vpz2UbVLZKyuhHjXUaxkLNobAb904ujRwFBkzWhzz69AsyEuXv5ssNGmpaQw&amp;oh=00_AQR4sH3b7GRnCjqegtw8yaHs9G7axyYSB8MdIt34Jfv_Dw&amp;oe=6AF1CE76" alt="Facebook post image"></figure>
+        <div class="clamp" style="-webkit-line-clamp: 3"><p class="aux"><a class="link" href="https://m.facebook.com/1661675895966806/posts/1746224677511927#no_universal_links">We looking forward to welcome everyone back on Tuesday.</a></p></div>
+        <span class="glyph glyph-right" aria-hidden="true">east</span></div><div class="card"><figure class="media"><img src="../../assets/img/scontent-syd2-1.xx.fbcdn.net/v/t15.5256-10/842235604_1693597185715273_5724099017723056825_n-036ef4dd.jpg" data-source-src="https://scontent-syd2-1.xx.fbcdn.net/v/t15.5256-10/842235604_1693597185715273_5724099017723056825_n.jpg?_nc_cat=102&amp;_nc_map=urlgen_bucketless&amp;ccb=1-7&amp;_nc_sid=5fad0e&amp;_nc_ohc=3Sf55f6vu3MQ7kNvwE0SrAQ&amp;_nc_oc=AdrRNyOIl8GmEB3iKYxvviJEDg4XnlvlqEuxnXLyoU2B8ZcM5PQTv0UaKVJQ5x_R4Js&amp;_nc_zt=23&amp;_nc_ht=scontent-syd2-1.xx&amp;edm=AKK4YLsEAAAA&amp;_nc_gid=nEXtFtVehqEv0PNTqBeWgg&amp;_nc_tpa=Q5bMBQJ_BgTrpjUu0iryI8dN4CfoQV5n9ksqYCH-uoIBN-Vi46y5ti0jlhM7ggzQT92OxeK3AO4O7jTTOg&amp;oh=00_AQRil84P_o3p6Qcb9TeJz2yOQt0GxrE8zx9guM3OO6Ejag&amp;oe=6AF1D36B" alt="Facebook post image"></figure>
+        <div class="clamp" style="-webkit-line-clamp: 3"><p class="aux"><a class="link" href="https://m.facebook.com/1661675895966806/posts/1746223814178680#no_universal_links">The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/</a></p></div>
+        <span class="glyph glyph-right" aria-hidden="true">east</span></div></div>
+      </div></div></div>
+    </section>
+  <section class="band layout-cards width-wide heading-h2 inset" style="--band-inset: 16px" data-slot="s07" data-module="M11b" data-section="7">
+      
+      <div class="container"><div class="panel"><div class="flow" data-slot-body>
+          <div class="cards" style="--cards-columns: 2"><div class="card"><p class="aux"><a class="link" href="../../about-us/stories-and-highlights/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/about-us/stories-and-highlights">Stories and highlights</a></p>
+        <p class="lead">Hear about stories, wins and proud moments from our staff and students.</p>
+        <span class="glyph glyph-right" aria-hidden="true">east</span></div><div class="card"><p class="aux"><a class="link" href="../../school-life/events/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/events">Events</a></p>
+        <p class="lead">Find out about school events, celebrations and what’s coming up.</p>
+        <span class="glyph glyph-right" aria-hidden="true">east</span></div></div>
+      </div></div></div>
+    </section>
+  <section class="band layout-stack width-wide heading-h4 inset" style="--band-inset: 16px" data-slot="s08" data-module="M3" data-section="8">
+      
+      <div class="container"><div class="panel"><div class="flow" data-slot-body>
+          <h2 class="heading">Section navigation</h2>
+        <p class="aux"><a class="link" href="../../school-life/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life">School life</a></p>
+        <ul class="list"><li><a class="link" href="../../school-life/bell-times/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/bell-times">Bell times</a></li><li><a class="link" href="../../school-life/bring-your-own-device/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/bring-your-own-device">Bring your own device</a></li><li><a class="link" href="../../school-life/canteen/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/canteen">Canteen</a></li><li><a class="link" href="../../school-life/events/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/events">Events</a></li><li><a class="link" href="../../school-life/forms/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/forms">Forms</a></li><li><a class="link" href="../../school-life/house-and-merit-system/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/house-and-merit-system">House and Merit System</a></li><li><a class="link" href="../../school-life/lockers-and-lost-property/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/lockers-and-lost-property">Lockers and lost property</a></li><li><a class="link" href="../../school-life/newsletters/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters">Newsletters</a></li><li><a class="link" href="../../school-life/parent-portal/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal">Parent portal</a></li><li><a class="link" href="../../school-life/stationery/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/stationery">Stationery</a></li><li><a class="link" href="../../school-life/student-opportunities-and-activities/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities">Student opportunities and activities</a></li><li><a class="link" href="../../school-life/travel-to-school/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school">Travel to school</a></li><li><a class="link" href="../../school-life/uniform/index.html" data-source-href="https://fortstreet-h.schools.nsw.gov.au/school-life/uniform">Uniform</a></li></ul>
+      </div></div></div>
+    </section>
+</main>
+<footer class="site-footer tone-dark" data-canon="footer">
+  <div class="container chrome-footer footer-zoned">
+      <div class="footer-main"><div class="footer-brand"><img class="logo" src="../../assets/img/assets.schools.nsw.gov.au/content/dam/doe/sws/master/photos-master/nsw-logo.svg" data-source-src="https://assets.schools.nsw.gov.au/content/dam/doe/sws/master/photos-master/nsw-logo.svg" alt=""><p class="footer-name">Fort Street High School</p><p class="footer-prose">We recognise the Ongoing Custodians of the lands and waterways where we work and live. We pay respect to Elders past and present as ongoing teachers of knowledge, songlines and stories. We strive to ensure every Aboriginal and/or Torres Strait Islander learner in NSW achieves their potential through education.</p></div>
+      <div class="footer-col"><p class="footer-col-title">General enquiries</p><ul><li><a class="link" href="mailto:fortstreet-h.school@det.nsw.edu.au">fortstreet-h.school@det.nsw.edu.au</a></li><li>8585 1600</li><li>620 PARRAMATTA ROAD, NSW 2049 PETERSHAM</li></ul></div>
+      <div class="footer-col"><ul><li><a class="link" href="https://education.nsw.gov.au/your-feedback">Your feedback</a></li><li><a class="link" href="https://education.nsw.gov.au/policy-library">Policy library</a></li><li><a class="link" href="https://education.nsw.gov.au/rights-and-accountability/information-access">Information access</a></li></ul></div></div>
+      <div class="footer-social"><p class="footer-social-label">Follow us</p><ul class="icon-links"><li><a class="social-icon" href="https://www.facebook.com/fortstreethighschool"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path fill-rule="evenodd" d="M4 2h16a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2h-5v-7h2.5l.5-3h-3V9.5c0-.9.4-1.5 1.6-1.5H18V5.3A20 20 0 0 0 15.6 5C13.2 5 12 6.4 12 8.8V12H9.5v3H12v7H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/></svg><span class="sr-only">Facebook</span></a></li><li><a class="social-icon" href="https://www.instagram.com/fortstreet_hs"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path fill-rule="evenodd" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm5.3-4a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4z"/></svg><span class="sr-only">Instagram</span></a></li><li><a href="https://www.education.nsw.gov.au/" aria-label="education.nsw.gov.au">education.nsw.gov.au</a></li></ul></div>
+    </div>
+</footer>
+<script>document.addEventListener('click', (e) => { const b = e.target.closest('.nav-toggle'); if (!b) return; const open = b.getAttribute('aria-expanded') !== 'true'; b.setAttribute('aria-expanded', String(open)); b.closest('.site-header').classList.toggle('nav-open', open); });</script>
+<script>document.addEventListener('click', (e) => { const b = e.target.closest('.disclosure-toggle'); if (!b) return; const p = document.getElementById(b.getAttribute('aria-controls')); const open = b.getAttribute('aria-expanded') !== 'true'; b.setAttribute('aria-expanded', String(open)); if (open) p.removeAttribute('hidden'); else p.setAttribute('hidden', 'until-found'); });</script>
+</body>
+</html>

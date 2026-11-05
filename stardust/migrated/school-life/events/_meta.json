@@ -1,0 +1,66 @@
+{
+  "slug": "school-life-events",
+  "type": "content",
+  "renderBranch": "A'",
+  "template": "learning-and-support-learning",
+  "modules": [
+    "M3",
+    "M5b",
+    "M11",
+    "M9b",
+    "M6",
+    "M10",
+    "M11b"
+  ],
+  "slotsFilled": [
+    "s01",
+    "s02",
+    "s03",
+    "s04",
+    "s05",
+    "s06",
+    "s07",
+    "s08",
+    "s09",
+    "s10"
+  ],
+  "canonShas": {
+    "header": "1e8e0c3eebea",
+    "footer": "a8b6d4b37731",
+    "css": "5fe9e7ffc80e"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Events",
+    "description": "At Fort Street High School, our events are an important part of your child’s learning and school experience. They help students build confidence, connect with others and celebrate their progress. Events also give families a chance to be involved in school life and share in their child’s achievements.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Events",
+    "description": "At Fort Street High School, our events are an important part of your child’s learning and school experience. They help students build confidence, connect with others and celebrate their progress. Events also give families a chance to be involved in school life and share in their child’s achievements.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/events"
+  },
+  "migratedAt": "2026-11-05T06:33:01Z",
+  "designMdSha": "187c3f2f159f",
+  "designJsonSha": "2d96d5b1c55f",
+  "sourceCurrentSha": "8203c171e9d0",
+  "sourceProposedSha": "8ef03bca6b4e",
+  "fidelityTier": "sibling",
+  "archetypeSource": "learning-and-support-learning",
+  "archetypeSha": "0925840f97e7",
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 21,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "school-life/events/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "school-life/events/_meta.json",
+  "driverVersion": "1"
+}

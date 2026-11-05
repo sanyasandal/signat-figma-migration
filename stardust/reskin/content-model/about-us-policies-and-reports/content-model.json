@@ -1,0 +1,1729 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-11-05T06:22:58.899Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports",
+    "viewport": "1440x900",
+    "scope": "nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!",
+    "normalize": {
+      "source": "/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/about-us-policies-and-reports.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes, any cookie/consent/gdpr-named element inside a fixed/sticky/high-z overlay)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N3",
+          "what": "open every .nsw-accordion panel (unhide its content region, aria-expanded=true)",
+          "why": "closed panel text is content; capture-only — the rendered accordion keeps the closed rest state"
+        }
+      ]
+    },
+    "settle": {
+      "firstLen": 4011,
+      "waitedMs": 1506,
+      "stable": true,
+      "settledLen": 4011,
+      "lateChars": 0
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "domcontentloaded",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Policies and reports",
+    "description": "At Fort Street High School, our policies and reports help families understand how our school works. Our annual report and school plan show what we’ve done and how we’re improving each year.  Our polices address attendance, absences, behaviour, uniform and how we respond to your concerns.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports",
+    "ogTags": {
+      "og:title": "Policies and reports",
+      "og:description": "At Fort Street High School, our policies and reports help families understand how our school works. Our annual report and school plan show what we’ve done and how we’re improving each year.  Our polices address attendance, absences, behaviour, uniform and how we respond to your concerns.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_15ae5ac8f7b47dc97dc30da00418f4d2110090d2e.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_15ae5ac8f7b47dc97dc30da00418f4d2110090d2e.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Policies and reports",
+      "twitter:description": "At Fort Street High School, our policies and reports help families understand how our school works. Our annual report and school plan show what we’ve done and how we’re improving each year.  Our polices address attendance, absences, behaviour, uniform and how we respond to your concerns.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_15ae5ac8f7b47dc97dc30da00418f4d2110090d2e.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "nav.nsw-breadcrumbs",
+      "whole": true
+    },
+    {
+      "sel": "main",
+      "whole": false
+    },
+    {
+      "sel": "aside.nsw-layout__sidebar--desktop",
+      "whole": true
+    }
+  ],
+  "visibleTextNormalized": "HomeAbout usPolicies and reports Our policies and reports Our policies and reports help families understand how our school works. Our annual report and school plan show what we’ve done and how we’re improving each year. Our policies address attendance, absences, behaviour, uniform and how we respond to your concerns. Annual school report The annual report provides an account of our operations and achievements throughout the year. It's the result of rigorous self-assessment by staff, parents and carers, as well as student leaders. The report includes: the progress we have made to provide high-quality educational opportunities for every child as set out in the school plan the impact of our strategies for improved learning the benefit to all students from resources including equity funding our operations and achievements throughout the year. 2025 Annual Report (PDF 672.3KB) 2024 Annual Report (PDF 689.7KB) School excellence plan We have developed a School Excellence Plan (SEP) in consultation with our community, identifying student outcomes and connected to a budget. The School Excellence Framework (SEF) underpins our school planning and reporting approach. The framework provides a clear description of the key elements of high-quality practice across learning, teaching and leading. The SEP is a working document that details the steps our school will take to improve learning outcomes, and the achievement and growth of all students. To ensure continuous improvement, the SEP reflects where our school is at and how it will further improve learning, teaching and leading. It demonstrates our alignment and our commitment to excellence as part of public education in NSW to ensure a profound difference to the ongoing growth and development of our students. Download our current and previous school plan/s: 2024-2027 School Excellence Plan (PDF 466.3KB) 2021-2025 School Excellence Plan (PDF 488.1KB) School behaviour support and management plan Our school has a school behaviour support and management plan (SBSMP). The SBSMP helps us create a safe, respectful and supportive learning environment for all students. It sets clear expectations for student behaviour. This includes how we respond to bullying and cyberbullying. We work together with our school community to shape the plan and review it each year. Fort Street High School behaviour support and management plan School policies Electronic Communications Devices Policy and Procedures keyboard_arrow_down Code of Practice Electronic communication devices such as mobile phones, laptops and other personal music or communication devices should not impact on teaching and learning: At school all phones must be turned off or on silent and placed away, out of sight, between 8:45am and 3:15pm. Students are not permitted to use their devices during lessons unless they are given specific permission to do so by the teacher. This includes mobile phones, laptops and headphones, earphones/Air Pods. Students are not permitted to use mobile phones during recess or lunch. Printed copies of timetables will be distributed to all students at the beginning of each semester. Students are not permitted to use laptops or tablets in the playground during recess and lunch. Students who wish to use their device for schoolwork during recess/lunch can do so in the library (7-12) or the Rowe Quad (11-12). Under no circumstances should electronic communication devices be used or in the student’s possession during examinations or formal assessment tasks. This is malpractice and will be dealt with accordingly. If these items are brought to school, safe keeping and security of each item is the responsibility of the owner. Parents/carers are able to communicate with their child at any time during the school day by contacting the front office. These expectations apply both at school and offsite during excursions etc. Consequences of Inappropriate Use of Electronic Devices including mobile phones, laptops and tablets: The following consequences may be put in place as a result of inappropriate use of communication devices: Mobile phones and/or other devices may be confiscated from individual students. In some cases, parents may be asked to collect them. Students who continue to breach the Code of Practice may be asked to hand in their phone to a Deputy Principal at the beginning of each day for a specified period. Bullying of Students – Prevention and Response Policy keyboard_arrow_down Bullying of any kind is not acceptable in NSW schools. The NSW anti-bullying (opens in new window) website brings together information and resources for teachers, students, parents and carers. It helps to identify, prevent and respond effectively to student bullying, including online bullying. It provides information about online safety and what you can do if your child has been bullied, witnessed bullying or been involved in bullying. For more information on anti-bullying strategies for NSW public schools refer to the department’s Bullying of Students – Prevention and Response Policy. For information on racial bullying and anti-racism education for NSW public schools refer to: Anti-Racism Policy Anti-racism education Racism. No way (opens in new window) . Anti-Racism Policy keyboard_arrow_down The Anti-Racism Policy confirms the department’s commitment to rejecting all forms of racial discrimination in NSW public schools and eliminating expressions of racism in its learning and working environments. Anti-Racism Contact Officer (ARCO) - Ms Jenny Xu Have a question about a policy or a report? If you have a question about a policy or want to know how we respond to concerns, contact us. We're here to help. Contact us NSW public school information Learn how the NSW Department of Education helps shape our policies and reports. east Our principal and staff Get to know our principal and staff, who work together to create a positive school culture. east Section navigation About us Enrol Facilities and resources HSC Results Our principal and staff Policies and reports NSW public school information School history and archives Stories and highlights Transition to high school Why choose us?",
+  "coverage": {
+    "bodyTextLen": 6946,
+    "scopeTextLen": 6173,
+    "ratio": 0.889,
+    "h1Text": "Our policies and reports",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "nav",
+      "rootClass": "nsw-breadcrumbs js-breadcrumbs",
+      "visibleText": "HomeAbout usPolicies and reports",
+      "headings": [],
+      "paragraphs": [],
+      "listItems": [
+        "Home",
+        "About us",
+        "Policies and reports"
+      ],
+      "ctas": [
+        {
+          "text": "Home",
+          "href": "https://fortstreet-h.schools.nsw.gov.au",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/",
+          "classes": ""
+        },
+        {
+          "text": "About us",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+          "classes": "breadcrumb"
+        },
+        {
+          "text": "Policies and reports",
+          "href": "",
+          "absHref": "",
+          "classes": "current"
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Home",
+          "display": "inline-block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Home",
+              "display": "inline-block",
+              "href": "https://fortstreet-h.schools.nsw.gov.au",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "About us",
+          "display": "inline-block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "About us",
+              "display": "inline-block",
+              "href": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+              "classes": "breadcrumb",
+              "sep": ""
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Policies and reports",
+          "display": "inline-block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Policies and reports",
+              "display": "inline-block",
+              "href": "",
+              "absHref": "",
+              "classes": "current",
+              "sep": ""
+            }
+          ],
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Our policies and reports Our policies and reports help families understand how our school works. Our annual report and school plan show what we’ve done and how we’re improving each year. Our policies address attendance, absences, behaviour, uniform and how we respond to your concerns.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Our policies and reports"
+        }
+      ],
+      "paragraphs": [
+        "Our policies and reports help families understand how our school works. Our annual report and school plan show what we’ve done and how we’re improving each year. Our policies address attendance, absences, behaviour, uniform and how we respond to your concerns."
+      ],
+      "listItems": [],
+      "ctas": [],
+      "iconLinks": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_15ae5ac8f7b47dc97dc30da00418f4d2110090d2e.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "w": 2000,
+          "h": 1335
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Our policies and reports",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_15ae5ac8f7b47dc97dc30da00418f4d2110090d2e.jpg?width=2000&format=webply&optimize=medium",
+              "alt": "",
+              "rw": 768
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our policies and reports help families understand how our school works. Our annual report and school plan show what we’ve done and how we’re improving each year. Our policies address attendance, absences, behaviour, uniform and how we respond to your concerns.",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section planningreporting-container",
+      "visibleText": "Annual school report The annual report provides an account of our operations and achievements throughout the year. It's the result of rigorous self-assessment by staff, parents and carers, as well as student leaders. The report includes: the progress we have made to provide high-quality educational opportunities for every child as set out in the school plan the impact of our strategies for improved learning the benefit to all students from resources including equity funding our operations and achievements throughout the year. 2025 Annual Report (PDF 672.3KB) 2024 Annual Report (PDF 689.7KB)",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Annual school report"
+        }
+      ],
+      "paragraphs": [
+        "The annual report provides an account of our operations and achievements throughout the year. It's the result of rigorous self-assessment by staff, parents and carers, as well as student leaders.",
+        "The report includes:"
+      ],
+      "listItems": [
+        "the progress we have made to provide high-quality educational opportunities for every child as set out in the school plan",
+        "the impact of our strategies for improved learning",
+        "the benefit to all students from resources including equity funding",
+        "our operations and achievements throughout the year.",
+        "2025 Annual Report (PDF 672.3KB)",
+        "2024 Annual Report (PDF 689.7KB)"
+      ],
+      "ctas": [
+        {
+          "text": "2025 Annual Report (PDF 672.3KB)",
+          "href": "https://reports.sparo.schools.nsw.gov.au/annual-report/2025/8504/2025_Fort_Street_High_School_Annual_Report.pdf",
+          "absHref": "https://reports.sparo.schools.nsw.gov.au/annual-report/2025/8504/2025_Fort_Street_High_School_Annual_Report.pdf",
+          "classes": ""
+        },
+        {
+          "text": "2024 Annual Report (PDF 689.7KB)",
+          "href": "https://reports.sparo.schools.nsw.gov.au/annual-report/2024/8504/2024_Fort_Street_High_School_Annual_Report.pdf",
+          "absHref": "https://reports.sparo.schools.nsw.gov.au/annual-report/2024/8504/2024_Fort_Street_High_School_Annual_Report.pdf",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Annual school report",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "The annual report provides an account of our operations and achievements throughout the year. It's the result of rigorous self-assessment by staff, parents and carers, as well as student leaders.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The report includes:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "the progress we have made to provide high-quality educational opportunities for every child as set out in the school plan",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "the impact of our strategies for improved learning",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "the benefit to all students from resources including equity funding",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "our operations and achievements throughout the year.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "2025 Annual Report (PDF 672.3KB)",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "2025 Annual Report (PDF 672.3KB)",
+              "display": "inline",
+              "href": "https://reports.sparo.schools.nsw.gov.au/annual-report/2025/8504/2025_Fort_Street_High_School_Annual_Report.pdf",
+              "absHref": "https://reports.sparo.schools.nsw.gov.au/annual-report/2025/8504/2025_Fort_Street_High_School_Annual_Report.pdf",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "2024 Annual Report (PDF 689.7KB)",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "2024 Annual Report (PDF 689.7KB)",
+              "display": "inline",
+              "href": "https://reports.sparo.schools.nsw.gov.au/annual-report/2024/8504/2024_Fort_Street_High_School_Annual_Report.pdf",
+              "absHref": "https://reports.sparo.schools.nsw.gov.au/annual-report/2024/8504/2024_Fort_Street_High_School_Annual_Report.pdf",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s04",
+      "rootTag": "div",
+      "rootClass": "section nsw-section planningreporting-container",
+      "visibleText": "School excellence plan We have developed a School Excellence Plan (SEP) in consultation with our community, identifying student outcomes and connected to a budget. The School Excellence Framework (SEF) underpins our school planning and reporting approach. The framework provides a clear description of the key elements of high-quality practice across learning, teaching and leading. The SEP is a working document that details the steps our school will take to improve learning outcomes, and the achievement and growth of all students. To ensure continuous improvement, the SEP reflects where our school is at and how it will further improve learning, teaching and leading. It demonstrates our alignment and our commitment to excellence as part of public education in NSW to ensure a profound difference to the ongoing growth and development of our students. Download our current and previous school plan/s: 2024-2027 School Excellence Plan (PDF 466.3KB) 2021-2025 School Excellence Plan (PDF 488.1KB)",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "School excellence plan"
+        }
+      ],
+      "paragraphs": [
+        "We have developed a School Excellence Plan (SEP) in consultation with our community, identifying student outcomes and connected to a budget.",
+        "The School Excellence Framework (SEF) underpins our school planning and reporting approach. The framework provides a clear description of the key elements of high-quality practice across learning, teaching and leading.",
+        "The SEP is a working document that details the steps our school will take to improve learning outcomes, and the achievement and growth of all students. To ensure continuous improvement, the SEP reflects where our school is at and how it will further improve learning, teaching and leading.",
+        "It demonstrates our alignment and our commitment to excellence as part of public education in NSW to ensure a profound difference to the ongoing growth and development of our students.",
+        "Download our current and previous school plan/s:"
+      ],
+      "listItems": [
+        "2024-2027 School Excellence Plan (PDF 466.3KB)",
+        "2021-2025 School Excellence Plan (PDF 488.1KB)"
+      ],
+      "ctas": [
+        {
+          "text": "School Excellence Framework",
+          "href": "https://education.nsw.gov.au/about-us/strategies-and-reports/school-excellence-and-accountability/school-excellence/about-sef",
+          "absHref": "https://education.nsw.gov.au/about-us/strategies-and-reports/school-excellence-and-accountability/school-excellence/about-sef",
+          "classes": ""
+        },
+        {
+          "text": "2024-2027 School Excellence Plan (PDF 466.3KB)",
+          "href": "https://reports.sparo.schools.nsw.gov.au/plan-report/2024/8504/2024-2027_Fort_Street_High_School_SIP.pdf",
+          "absHref": "https://reports.sparo.schools.nsw.gov.au/plan-report/2024/8504/2024-2027_Fort_Street_High_School_SIP.pdf",
+          "classes": ""
+        },
+        {
+          "text": "2021-2025 School Excellence Plan (PDF 488.1KB)",
+          "href": "https://reports.sparo.schools.nsw.gov.au/plan-report/2021/8504/2021-2025_Fort_Street_High_School_SIP.pdf",
+          "absHref": "https://reports.sparo.schools.nsw.gov.au/plan-report/2021/8504/2021-2025_Fort_Street_High_School_SIP.pdf",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "School excellence plan",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "We have developed a School Excellence Plan (SEP) in consultation with our community, identifying student outcomes and connected to a budget.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The School Excellence Framework (SEF) underpins our school planning and reporting approach. The framework provides a clear description of the key elements of high-quality practice across learning, teaching and leading.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "The",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "School Excellence Framework",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/about-us/strategies-and-reports/school-excellence-and-accountability/school-excellence/about-sef",
+              "absHref": "https://education.nsw.gov.au/about-us/strategies-and-reports/school-excellence-and-accountability/school-excellence/about-sef",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "(SEF) underpins our school planning and reporting approach. The framework provides a clear description of the key elements of high-quality practice across learning, teaching and leading.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The SEP is a working document that details the steps our school will take to improve learning outcomes, and the achievement and growth of all students. To ensure continuous improvement, the SEP reflects where our school is at and how it will further improve learning, teaching and leading.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "It demonstrates our alignment and our commitment to excellence as part of public education in NSW to ensure a profound difference to the ongoing growth and development of our students.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Download our current and previous school plan/s:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "2024-2027 School Excellence Plan (PDF 466.3KB)",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "2024-2027 School Excellence Plan (PDF 466.3KB)",
+              "display": "inline",
+              "href": "https://reports.sparo.schools.nsw.gov.au/plan-report/2024/8504/2024-2027_Fort_Street_High_School_SIP.pdf",
+              "absHref": "https://reports.sparo.schools.nsw.gov.au/plan-report/2024/8504/2024-2027_Fort_Street_High_School_SIP.pdf",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "2021-2025 School Excellence Plan (PDF 488.1KB)",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "2021-2025 School Excellence Plan (PDF 488.1KB)",
+              "display": "inline",
+              "href": "https://reports.sparo.schools.nsw.gov.au/plan-report/2021/8504/2021-2025_Fort_Street_High_School_SIP.pdf",
+              "absHref": "https://reports.sparo.schools.nsw.gov.au/plan-report/2021/8504/2021-2025_Fort_Street_High_School_SIP.pdf",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s05",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "School behaviour support and management plan Our school has a school behaviour support and management plan (SBSMP). The SBSMP helps us create a safe, respectful and supportive learning environment for all students. It sets clear expectations for student behaviour. This includes how we respond to bullying and cyberbullying. We work together with our school community to shape the plan and review it each year. Fort Street High School behaviour support and management plan",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "School behaviour support and management plan"
+        }
+      ],
+      "paragraphs": [
+        "Our school has a school behaviour support and management plan (SBSMP). The SBSMP helps us create a safe, respectful and supportive learning environment for all students. It sets clear expectations for student behaviour. This includes how we respond to bullying and cyberbullying. We work together with our school community to shape the plan and review it each year.",
+        "Fort Street High School behaviour support and management plan"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Fort Street High School behaviour support and management plan",
+          "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/Fort%20Street%20HS%20-%20School%20Behaviour%20Support%20and%20Management%20Plan%20as%20of%2016%20June%202026.pdf",
+          "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/Fort%20Street%20HS%20-%20School%20Behaviour%20Support%20and%20Management%20Plan%20as%20of%2016%20June%202026.pdf",
+          "classes": "button"
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "School behaviour support and management plan",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our school has a school behaviour support and management plan (SBSMP). The SBSMP helps us create a safe, respectful and supportive learning environment for all students. It sets clear expectations for student behaviour. This includes how we respond to bullying and cyberbullying. We work together with our school community to shape the plan and review it each year.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Fort Street High School behaviour support and management plan",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Fort Street High School behaviour support and management plan",
+              "display": "inline-block",
+              "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/Fort%20Street%20HS%20-%20School%20Behaviour%20Support%20and%20Management%20Plan%20as%20of%2016%20June%202026.pdf",
+              "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/Fort%20Street%20HS%20-%20School%20Behaviour%20Support%20and%20Management%20Plan%20as%20of%2016%20June%202026.pdf",
+              "classes": "button",
+              "buttonLike": true,
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s06",
+      "rootTag": "div",
+      "rootClass": "section nsw-section accordions-container",
+      "visibleText": "School policies Electronic Communications Devices Policy and Procedures keyboard_arrow_down Code of Practice Electronic communication devices such as mobile phones, laptops and other personal music or communication devices should not impact on teaching and learning: At school all phones must be turned off or on silent and placed away, out of sight, between 8:45am and 3:15pm. Students are not permitted to use their devices during lessons unless they are given specific permission to do so by the teacher. This includes mobile phones, laptops and headphones, earphones/Air Pods. Students are not permitted to use mobile phones during recess or lunch. Printed copies of timetables will be distributed to all students at the beginning of each semester. Students are not permitted to use laptops or tablets in the playground during recess and lunch. Students who wish to use their device for schoolwork during recess/lunch can do so in the library (7-12) or the Rowe Quad (11-12). Under no circumstances should electronic communication devices be used or in the student’s possession during examinations or formal assessment tasks. This is malpractice and will be dealt with accordingly. If these items are brought to school, safe keeping and security of each item is the responsibility of the owner. Parents/carers are able to communicate with their child at any time during the school day by contacting the front office. These expectations apply both at school and offsite during excursions etc. Consequences of Inappropriate Use of Electronic Devices including mobile phones, laptops and tablets: The following consequences may be put in place as a result of inappropriate use of communication devices: Mobile phones and/or other devices may be confiscated from individual students. In some cases, parents may be asked to collect them. Students who continue to breach the Code of Practice may be asked to hand in their phone to a Deputy Principal at the beginning of each day for a specified period. Bullying of Students – Prevention and Response Policy keyboard_arrow_down Bullying of any kind is not acceptable in NSW schools. The NSW anti-bullying (opens in new window) website brings together information and resources for teachers, students, parents and carers. It helps to identify, prevent and respond effectively to student bullying, including online bullying. It provides information about online safety and what you can do if your child has been bullied, witnessed bullying or been involved in bullying. For more information on anti-bullying strategies for NSW public schools refer to the department’s Bullying of Students – Prevention and Response Policy. For information on racial bullying and anti-racism education for NSW public schools refer to: Anti-Racism Policy Anti-racism education Racism. No way (opens in new window) . Anti-Racism Policy keyboard_arrow_down The Anti-Racism Policy confirms the department’s commitment to rejecting all forms of racial discrimination in NSW public schools and eliminating expressions of racism in its learning and working environments. Anti-Racism Contact Officer (ARCO) - Ms Jenny Xu",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "School policies"
+        }
+      ],
+      "paragraphs": [
+        "Code of Practice",
+        "Electronic communication devices such as mobile phones, laptops and other personal music or communication devices should not impact on teaching and learning:",
+        "Consequences of Inappropriate Use of Electronic Devices including mobile phones, laptops and tablets:",
+        "The following consequences may be put in place as a result of inappropriate use of communication devices:",
+        "Bullying of any kind is not acceptable in NSW schools.",
+        "The NSW anti-bullying (opens in new window) website brings together information and resources for teachers, students, parents and carers. It helps to identify, prevent and respond effectively to student bullying, including online bullying. It provides information about online safety and what you can do if your child has been bullied, witnessed bullying or been involved in bullying.",
+        "For more information on anti-bullying strategies for NSW public schools refer to the department’s Bullying of Students – Prevention and Response Policy.",
+        "For information on racial bullying and anti-racism education for NSW public schools refer to:",
+        "Anti-Racism Policy",
+        "Anti-racism education",
+        "Racism. No way (opens in new window) .",
+        "The Anti-Racism Policy confirms the department’s commitment to rejecting all forms of racial discrimination in NSW public schools and eliminating expressions of racism in its learning and working environments.",
+        "Anti-Racism Contact Officer (ARCO) - Ms Jenny Xu"
+      ],
+      "listItems": [
+        "At school all phones must be turned off or on silent and placed away, out of sight, between 8:45am and 3:15pm.",
+        "Students are not permitted to use their devices during lessons unless they are given specific permission to do so by the teacher. This includes mobile phones, laptops and headphones, earphones/Air Pods.",
+        "Students are not permitted to use mobile phones during recess or lunch. Printed copies of timetables will be distributed to all students at the beginning of each semester.",
+        "Students are not permitted to use laptops or tablets in the playground during recess and lunch. Students who wish to use their device for schoolwork during recess/lunch can do so in the library (7-12) or the Rowe Quad (11-12).",
+        "Under no circumstances should electronic communication devices be used or in the student’s possession during examinations or formal assessment tasks. This is malpractice and will be dealt with accordingly.",
+        "If these items are brought to school, safe keeping and security of each item is the responsibility of the owner.",
+        "Parents/carers are able to communicate with their child at any time during the school day by contacting the front office.",
+        "These expectations apply both at school and offsite during excursions etc.",
+        "Mobile phones and/or other devices may be confiscated from individual students. In some cases, parents may be asked to collect them.",
+        "Students who continue to breach the Code of Practice may be asked to hand in their phone to a Deputy Principal at the beginning of each day for a specified period.",
+        "Anti-Racism Policy",
+        "Anti-racism education",
+        "Racism. No way (opens in new window) ."
+      ],
+      "ctas": [
+        {
+          "text": "NSW anti-bullying (opens in new window)",
+          "href": "https://antibullying.nsw.gov.au/",
+          "absHref": "https://antibullying.nsw.gov.au/",
+          "classes": ""
+        },
+        {
+          "text": "Bullying of Students – Prevention and Response Policy",
+          "href": "https://education.nsw.gov.au/policy-library/policies/bullying-of-students-prevention-and-response-policy",
+          "absHref": "https://education.nsw.gov.au/policy-library/policies/bullying-of-students-prevention-and-response-policy",
+          "classes": ""
+        },
+        {
+          "text": "Anti-Racism Policy",
+          "href": "https://education.nsw.gov.au/policy-library/policies/anti-racism-policy?refid=285776",
+          "absHref": "https://education.nsw.gov.au/policy-library/policies/anti-racism-policy?refid=285776",
+          "classes": "button primary"
+        },
+        {
+          "text": "Anti-racism education",
+          "href": "https://education.nsw.gov.au/teaching-and-learning/curriculum/multicultural-education/anti-racism-education",
+          "absHref": "https://education.nsw.gov.au/teaching-and-learning/curriculum/multicultural-education/anti-racism-education",
+          "classes": "button primary"
+        },
+        {
+          "text": "Racism. No way (opens in new window)",
+          "href": "http://www.racismnoway.com.au/",
+          "absHref": "http://www.racismnoway.com.au/",
+          "classes": ""
+        },
+        {
+          "text": "Anti-Racism Policy",
+          "href": "https://education.nsw.gov.au/policy-library/policies/anti-racism-policy?refid=285776",
+          "absHref": "https://education.nsw.gov.au/policy-library/policies/anti-racism-policy?refid=285776",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [
+        {
+          "text": "Electronic Communications Devices Policy and Procedures",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        },
+        {
+          "text": "keyboard_arrow_down",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons"
+        },
+        {
+          "text": "Bullying of Students – Prevention and Response Policy",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        },
+        {
+          "text": "keyboard_arrow_down",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons"
+        },
+        {
+          "text": "Anti-Racism Policy",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        },
+        {
+          "text": "keyboard_arrow_down",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons"
+        }
+      ],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "School policies",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "text",
+          "text": "Electronic Communications Devices Policy and Procedures",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "toggle": "accordion-a6445f94-90bf-4a6c-8259-6c129864f474",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "keyboard_arrow_down",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons",
+          "inButton": true,
+          "glyph": true,
+          "toggle": "accordion-a6445f94-90bf-4a6c-8259-6c129864f474",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Code of Practice",
+          "display": "block",
+          "panels": [
+            "accordion-a6445f94-90bf-4a6c-8259-6c129864f474"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Electronic communication devices such as mobile phones, laptops and other personal music or communication devices should not impact on teaching and learning:",
+          "display": "block",
+          "panels": [
+            "accordion-a6445f94-90bf-4a6c-8259-6c129864f474"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "At school all phones must be turned off or on silent and placed away, out of sight, between 8:45am and 3:15pm.",
+          "display": "list-item",
+          "panels": [
+            "accordion-a6445f94-90bf-4a6c-8259-6c129864f474"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Students are not permitted to use their devices during lessons unless they are given specific permission to do so by the teacher. This includes mobile phones, laptops and headphones, earphones/Air Pods.",
+          "display": "list-item",
+          "panels": [
+            "accordion-a6445f94-90bf-4a6c-8259-6c129864f474"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Students are not permitted to use mobile phones during recess or lunch. Printed copies of timetables will be distributed to all students at the beginning of each semester.",
+          "display": "list-item",
+          "panels": [
+            "accordion-a6445f94-90bf-4a6c-8259-6c129864f474"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Students are not permitted to use laptops or tablets in the playground during recess and lunch. Students who wish to use their device for schoolwork during recess/lunch can do so in the library (7-12) or the Rowe Quad (11-12).",
+          "display": "list-item",
+          "panels": [
+            "accordion-a6445f94-90bf-4a6c-8259-6c129864f474"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Under no circumstances should electronic communication devices be used or in the student’s possession during examinations or formal assessment tasks. This is malpractice and will be dealt with accordingly.",
+          "display": "list-item",
+          "panels": [
+            "accordion-a6445f94-90bf-4a6c-8259-6c129864f474"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "If these items are brought to school, safe keeping and security of each item is the responsibility of the owner.",
+          "display": "list-item",
+          "panels": [
+            "accordion-a6445f94-90bf-4a6c-8259-6c129864f474"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Parents/carers are able to communicate with their child at any time during the school day by contacting the front office.",
+          "display": "list-item",
+          "panels": [
+            "accordion-a6445f94-90bf-4a6c-8259-6c129864f474"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "These expectations apply both at school and offsite during excursions etc.",
+          "display": "list-item",
+          "panels": [
+            "accordion-a6445f94-90bf-4a6c-8259-6c129864f474"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Consequences of Inappropriate Use of Electronic Devices including mobile phones, laptops and tablets:",
+          "display": "block",
+          "panels": [
+            "accordion-a6445f94-90bf-4a6c-8259-6c129864f474"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The following consequences may be put in place as a result of inappropriate use of communication devices:",
+          "display": "block",
+          "panels": [
+            "accordion-a6445f94-90bf-4a6c-8259-6c129864f474"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Mobile phones and/or other devices may be confiscated from individual students. In some cases, parents may be asked to collect them.",
+          "display": "list-item",
+          "panels": [
+            "accordion-a6445f94-90bf-4a6c-8259-6c129864f474"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Students who continue to breach the Code of Practice may be asked to hand in their phone to a Deputy Principal at the beginning of each day for a specified period.",
+          "display": "list-item",
+          "panels": [
+            "accordion-a6445f94-90bf-4a6c-8259-6c129864f474"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Bullying of Students – Prevention and Response Policy",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "toggle": "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "keyboard_arrow_down",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons",
+          "inButton": true,
+          "glyph": true,
+          "toggle": "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Bullying of any kind is not acceptable in NSW schools.",
+          "display": "block",
+          "panels": [
+            "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The NSW anti-bullying (opens in new window) website brings together information and resources for teachers, students, parents and carers. It helps to identify, prevent and respond effectively to student bullying, including online bullying. It provides information about online safety and what you can do if your child has been bullied, witnessed bullying or been involved in bullying.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "The",
+              "parentTag": "p",
+              "parentClass": "",
+              "panels": [
+                "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+              ],
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "NSW anti-bullying (opens in new window)",
+              "display": "inline",
+              "href": "https://antibullying.nsw.gov.au/",
+              "absHref": "https://antibullying.nsw.gov.au/",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "NSW anti-bullying",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "panels": [
+                    "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+                  ],
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "srOnly": true,
+                  "panels": [
+                    "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+                  ],
+                  "sep": " "
+                }
+              ],
+              "panels": [
+                "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "website brings together information and resources for teachers, students, parents and carers. It helps to identify, prevent and respond effectively to student bullying, including online bullying. It provides information about online safety and what you can do if your child has been bullied, witnessed bullying or been involved in bullying.",
+              "parentTag": "p",
+              "parentClass": "",
+              "panels": [
+                "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+              ],
+              "sep": " "
+            }
+          ],
+          "panels": [
+            "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "For more information on anti-bullying strategies for NSW public schools refer to the department’s Bullying of Students – Prevention and Response Policy.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "For more information on anti-bullying strategies for NSW public schools refer to the department’s",
+              "parentTag": "p",
+              "parentClass": "",
+              "panels": [
+                "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+              ],
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Bullying of Students – Prevention and Response Policy",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/policy-library/policies/bullying-of-students-prevention-and-response-policy",
+              "absHref": "https://education.nsw.gov.au/policy-library/policies/bullying-of-students-prevention-and-response-policy",
+              "classes": "",
+              "panels": [
+                "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ".",
+              "parentTag": "p",
+              "parentClass": "",
+              "panels": [
+                "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+              ],
+              "sep": ""
+            }
+          ],
+          "panels": [
+            "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "For information on racial bullying and anti-racism education for NSW public schools refer to:",
+          "display": "block",
+          "panels": [
+            "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Anti-Racism Policy",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "paragraph",
+              "text": "Anti-Racism Policy",
+              "display": "block",
+              "children": [
+                {
+                  "kind": "cta",
+                  "text": "Anti-Racism Policy",
+                  "display": "inline",
+                  "href": "https://education.nsw.gov.au/policy-library/policies/anti-racism-policy?refid=285776",
+                  "absHref": "https://education.nsw.gov.au/policy-library/policies/anti-racism-policy?refid=285776",
+                  "classes": "button primary",
+                  "panels": [
+                    "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+                  ],
+                  "sep": ""
+                }
+              ],
+              "panels": [
+                "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+              ],
+              "sep": ""
+            }
+          ],
+          "panels": [
+            "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Anti-racism education",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "paragraph",
+              "text": "Anti-racism education",
+              "display": "block",
+              "children": [
+                {
+                  "kind": "cta",
+                  "text": "Anti-racism education",
+                  "display": "inline",
+                  "href": "https://education.nsw.gov.au/teaching-and-learning/curriculum/multicultural-education/anti-racism-education",
+                  "absHref": "https://education.nsw.gov.au/teaching-and-learning/curriculum/multicultural-education/anti-racism-education",
+                  "classes": "button primary",
+                  "panels": [
+                    "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+                  ],
+                  "sep": ""
+                }
+              ],
+              "panels": [
+                "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+              ],
+              "sep": ""
+            }
+          ],
+          "panels": [
+            "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Racism. No way (opens in new window) .",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "paragraph",
+              "text": "Racism. No way (opens in new window) .",
+              "display": "block",
+              "children": [
+                {
+                  "kind": "cta",
+                  "text": "Racism. No way (opens in new window)",
+                  "display": "inline",
+                  "href": "http://www.racismnoway.com.au/",
+                  "absHref": "http://www.racismnoway.com.au/",
+                  "classes": "",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Racism. No way",
+                      "parentTag": "a",
+                      "parentClass": "",
+                      "panels": [
+                        "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+                      ],
+                      "sep": ""
+                    },
+                    {
+                      "kind": "text",
+                      "text": "(opens in new window)",
+                      "parentTag": "span",
+                      "parentClass": "sr-only",
+                      "srOnly": true,
+                      "panels": [
+                        "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+                      ],
+                      "sep": " "
+                    }
+                  ],
+                  "panels": [
+                    "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+                  ],
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": ".",
+                  "parentTag": "p",
+                  "parentClass": "",
+                  "panels": [
+                    "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+                  ],
+                  "sep": " "
+                }
+              ],
+              "panels": [
+                "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+              ],
+              "sep": ""
+            }
+          ],
+          "panels": [
+            "accordion-cb3470cc-4401-4c59-9f80-452fe3c22e60"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Anti-Racism Policy",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "toggle": "accordion-20946a6f-04ef-496d-9e98-5fb6ac015263",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "keyboard_arrow_down",
+          "parentTag": "span",
+          "parentClass": "material-icons nsw-material-icons",
+          "inButton": true,
+          "glyph": true,
+          "toggle": "accordion-20946a6f-04ef-496d-9e98-5fb6ac015263",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Anti-Racism Policy confirms the department’s commitment to rejecting all forms of racial discrimination in NSW public schools and eliminating expressions of racism in its learning and working environments.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "The",
+              "parentTag": "p",
+              "parentClass": "",
+              "panels": [
+                "accordion-20946a6f-04ef-496d-9e98-5fb6ac015263"
+              ],
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Anti-Racism Policy",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/policy-library/policies/anti-racism-policy?refid=285776",
+              "absHref": "https://education.nsw.gov.au/policy-library/policies/anti-racism-policy?refid=285776",
+              "classes": "",
+              "panels": [
+                "accordion-20946a6f-04ef-496d-9e98-5fb6ac015263"
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "confirms the department’s commitment to rejecting all forms of racial discrimination in NSW public schools and eliminating expressions of racism in its learning and working environments.",
+              "parentTag": "p",
+              "parentClass": "",
+              "panels": [
+                "accordion-20946a6f-04ef-496d-9e98-5fb6ac015263"
+              ],
+              "sep": " "
+            }
+          ],
+          "panels": [
+            "accordion-20946a6f-04ef-496d-9e98-5fb6ac015263"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Anti-Racism Contact Officer (ARCO) - Ms Jenny Xu",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Anti-Racism Contact Officer (ARCO)",
+              "parentTag": "strong",
+              "parentClass": "",
+              "panels": [
+                "accordion-20946a6f-04ef-496d-9e98-5fb6ac015263"
+              ],
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "- Ms Jenny Xu",
+              "parentTag": "p",
+              "parentClass": "",
+              "panels": [
+                "accordion-20946a6f-04ef-496d-9e98-5fb6ac015263"
+              ],
+              "sep": " "
+            }
+          ],
+          "panels": [
+            "accordion-20946a6f-04ef-496d-9e98-5fb6ac015263"
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s07",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "Have a question about a policy or a report? If you have a question about a policy or want to know how we respond to concerns, contact us. We're here to help. Contact us",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Have a question about a policy or a report?"
+        }
+      ],
+      "paragraphs": [
+        "If you have a question about a policy or want to know how we respond to concerns, contact us. We're here to help.",
+        "Contact us"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Contact us",
+          "href": "/contact-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+          "classes": "button"
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Have a question about a policy or a report?",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "If you have a question about a policy or want to know how we respond to concerns, contact us. We're here to help.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact us",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Contact us",
+              "display": "inline-block",
+              "href": "/contact-us",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+              "classes": "button",
+              "buttonLike": true,
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "dark",
+      "bg": "rgb(99, 0, 25)",
+      "toneEl": "main#main > div.section.nsw-section"
+    },
+    {
+      "slot": "s08",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "NSW public school information Learn how the NSW Department of Education helps shape our policies and reports. east Our principal and staff Get to know our principal and staff, who work together to create a positive school culture. east",
+      "headings": [],
+      "paragraphs": [
+        "Learn how the NSW Department of Education helps shape our policies and reports.",
+        "Get to know our principal and staff, who work together to create a positive school culture."
+      ],
+      "listItems": [
+        "NSW public school information Learn how the NSW Department of Education helps shape our policies and reports. east",
+        "Our principal and staff Get to know our principal and staff, who work together to create a positive school culture. east"
+      ],
+      "ctas": [
+        {
+          "text": "NSW public school information",
+          "href": "/about-us/policies-and-reports/nsw-public-school-information",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports/nsw-public-school-information",
+          "classes": ""
+        },
+        {
+          "text": "Our principal and staff",
+          "href": "/about-us/our-principal-and-staff",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "NSW public school information Learn how the NSW Department of Education helps shape our policies and reports. east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "NSW public school information",
+              "display": "inline",
+              "href": "/about-us/policies-and-reports/nsw-public-school-information",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports/nsw-public-school-information",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Learn how the NSW Department of Education helps shape our policies and reports.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Our principal and staff Get to know our principal and staff, who work together to create a positive school culture. east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Our principal and staff",
+              "display": "inline",
+              "href": "/about-us/our-principal-and-staff",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Get to know our principal and staff, who work together to create a positive school culture.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s09",
+      "rootTag": "aside",
+      "rootClass": "nsw-layout__sidebar nsw-layout__sidebar--desktop sidebar-wrapper",
+      "visibleText": "Section navigation About us Enrol Facilities and resources HSC Results Our principal and staff Policies and reports NSW public school information School history and archives Stories and highlights Transition to high school Why choose us?",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Section navigation"
+        }
+      ],
+      "paragraphs": [],
+      "listItems": [
+        "Enrol",
+        "Facilities and resources",
+        "HSC Results",
+        "Our principal and staff",
+        "Policies and reports NSW public school information",
+        "NSW public school information",
+        "School history and archives",
+        "Stories and highlights",
+        "Transition to high school",
+        "Why choose us?"
+      ],
+      "ctas": [
+        {
+          "text": "About us",
+          "href": "/about-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+          "classes": ""
+        },
+        {
+          "text": "Enrol",
+          "href": "/about-us/enrol",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/enrol",
+          "classes": ""
+        },
+        {
+          "text": "Facilities and resources",
+          "href": "/about-us/facilities-and-resources",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources",
+          "classes": ""
+        },
+        {
+          "text": "HSC Results",
+          "href": "/about-us/hsc-results",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/hsc-results",
+          "classes": ""
+        },
+        {
+          "text": "Our principal and staff",
+          "href": "/about-us/our-principal-and-staff",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff",
+          "classes": ""
+        },
+        {
+          "text": "Policies and reports",
+          "href": "/about-us/policies-and-reports",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports",
+          "classes": "current"
+        },
+        {
+          "text": "NSW public school information",
+          "href": "/about-us/policies-and-reports/nsw-public-school-information",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports/nsw-public-school-information",
+          "classes": ""
+        },
+        {
+          "text": "School history and archives",
+          "href": "/about-us/school-history-and-archives",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives",
+          "classes": ""
+        },
+        {
+          "text": "Stories and highlights",
+          "href": "/about-us/stories-and-highlights",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/stories-and-highlights",
+          "classes": ""
+        },
+        {
+          "text": "Transition to high school",
+          "href": "/about-us/transition-to-high-school",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/transition-to-high-school",
+          "classes": ""
+        },
+        {
+          "text": "Why choose us?",
+          "href": "/about-us/why-choose-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/why-choose-us",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Section navigation",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "cta",
+          "text": "About us",
+          "display": "flex",
+          "href": "/about-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+          "classes": "",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Enrol",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Enrol",
+              "display": "block",
+              "href": "/about-us/enrol",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/enrol",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Facilities and resources",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Facilities and resources",
+              "display": "block",
+              "href": "/about-us/facilities-and-resources",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "HSC Results",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "HSC Results",
+              "display": "block",
+              "href": "/about-us/hsc-results",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/hsc-results",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Our principal and staff",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Our principal and staff",
+              "display": "block",
+              "href": "/about-us/our-principal-and-staff",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Policies and reports NSW public school information",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Policies and reports",
+              "display": "block",
+              "href": "/about-us/policies-and-reports",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports",
+              "classes": "current",
+              "buttonLike": true,
+              "sep": ""
+            },
+            {
+              "kind": "listItem",
+              "text": "NSW public school information",
+              "display": "list-item",
+              "children": [
+                {
+                  "kind": "cta",
+                  "text": "NSW public school information",
+                  "display": "block",
+                  "href": "/about-us/policies-and-reports/nsw-public-school-information",
+                  "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports/nsw-public-school-information",
+                  "classes": "",
+                  "sep": ""
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "School history and archives",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "School history and archives",
+              "display": "block",
+              "href": "/about-us/school-history-and-archives",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Stories and highlights",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Stories and highlights",
+              "display": "block",
+              "href": "/about-us/stories-and-highlights",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/stories-and-highlights",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Transition to high school",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Transition to high school",
+              "display": "block",
+              "href": "/about-us/transition-to-high-school",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/transition-to-high-school",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Why choose us?",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Why choose us?",
+              "display": "block",
+              "href": "/about-us/why-choose-us",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/why-choose-us",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    }
+  ],
+  "residue": [
+    {
+      "sel": "header.header-wrapper",
+      "kind": "chrome",
+      "textLen": 275,
+      "lines": [
+        "Skip to navigation",
+        "Skip to content",
+        "NSW Government",
+        "Fort Street High School",
+        "Faber est suae quisque fortunae",
+        "search",
+        "Show",
+        "Search",
+        "About us",
+        "keyboard_arrow_right",
+        "School life",
+        "keyboard_arrow_right",
+        "Learning and support",
+        "keyboard_arrow_right",
+        "Our community",
+        "keyboard_arrow_right",
+        "Contact us"
+      ],
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 172
+      }
+    },
+    {
+      "sel": "footer.footer-wrapper",
+      "kind": "chrome",
+      "textLen": 496,
+      "lines": [
+        "Fort Street High School",
+        "General enquiries",
+        "fortstreet-h.school@det.nsw.edu.au",
+        "8585 1600",
+        "620 PARRAMATTA ROAD, NSW 2049 PETERSHAM",
+        "Follow us",
+        "We recognise the Ongoing Custodians of the lands and waterways where we work and live. We pay respect to Elders past and present as ongoing teachers of knowledge, songlines and stories. We strive to ensure every Aboriginal and/or Torres Strait Islander learner in NSW achieves their potential through education.",
+        "Your feedback",
+        "Policy library",
+        "Information access"
+      ],
+      "rect": {
+        "x": 0,
+        "y": 4609,
+        "w": 1440,
+        "h": 509
+      }
+    }
+  ]
+}

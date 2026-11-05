@@ -1,0 +1,57 @@
+{
+  "slug": "about-us-hsc-results",
+  "type": "content",
+  "renderBranch": "A'",
+  "template": "learning-and-support-learning",
+  "modules": [
+    "M3",
+    "M9b",
+    "M11b"
+  ],
+  "slotsFilled": [
+    "s01",
+    "s02",
+    "s03",
+    "s04",
+    "s05"
+  ],
+  "canonShas": {
+    "header": "1e8e0c3eebea",
+    "footer": "a8b6d4b37731",
+    "css": "5fe9e7ffc80e"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "HSC Results",
+    "description": "Fort Street’s outstanding reputation for academic excellence is reflected in the consistently high results that students achieve in the Higher School Certificate.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/about-us/hsc-results",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "HSC Results",
+    "description": "Fort Street’s outstanding reputation for academic excellence is reflected in the consistently high results that students achieve in the Higher School Certificate.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/hsc-results"
+  },
+  "migratedAt": "2026-11-05T06:33:01Z",
+  "designMdSha": "187c3f2f159f",
+  "designJsonSha": "2d96d5b1c55f",
+  "sourceCurrentSha": "a2a3108b168f",
+  "sourceProposedSha": "8bc139894e54",
+  "fidelityTier": "sibling",
+  "archetypeSource": "learning-and-support-learning",
+  "archetypeSha": "0925840f97e7",
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 4,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "about-us/hsc-results/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "about-us/hsc-results/_meta.json",
+  "driverVersion": "1"
+}

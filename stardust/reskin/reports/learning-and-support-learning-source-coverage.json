@@ -1,0 +1,21 @@
+{
+  "model": "stardust/reskin/content-model/learning-and-support-learning/content-model.json",
+  "target": "stardust/reskin/pages/learning-and-support-learning.html",
+  "verdict": "PASS",
+  "fails": 0,
+  "rows": [
+    {
+      "check": "S2",
+      "verdict": "ok",
+      "detail": "settled in 1512ms, 0 late chars captured"
+    },
+    {
+      "check": "S3",
+      "slot": "s07",
+      "source": "dark",
+      "target": "dark",
+      "verdict": "carried",
+      "probe": "\"The quality of the teaching staff is exceptional. They are"
+    }
+  ]
+}

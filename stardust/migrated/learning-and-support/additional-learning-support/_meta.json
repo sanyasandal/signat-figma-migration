@@ -1,0 +1,65 @@
+{
+  "slug": "learning-and-support-additional-learning-support",
+  "type": "content",
+  "renderBranch": "A'",
+  "template": "learning-and-support-learning",
+  "modules": [
+    "M3",
+    "M5b",
+    "M9b",
+    "M6b",
+    "M5",
+    "M11b"
+  ],
+  "slotsFilled": [
+    "s01",
+    "s02",
+    "s03",
+    "s04",
+    "s05",
+    "s06",
+    "s07",
+    "s08",
+    "s09",
+    "s10"
+  ],
+  "canonShas": {
+    "header": "1e8e0c3eebea",
+    "footer": "a8b6d4b37731",
+    "css": "5fe9e7ffc80e"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Additional learning support",
+    "description": "At Fort Street High School, we want every student to feel safe, supported and ready to learn. We support students with disability and additional learning needs so they can take part in all areas of school life.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Additional learning support",
+    "description": "At Fort Street High School, we want every student to feel safe, supported and ready to learn. We support students with disability and additional learning needs so they can take part in all areas of school life.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support"
+  },
+  "migratedAt": "2026-11-05T06:33:01Z",
+  "designMdSha": "187c3f2f159f",
+  "designJsonSha": "2d96d5b1c55f",
+  "sourceCurrentSha": "bb65ee3eb180",
+  "sourceProposedSha": "03d862e2adca",
+  "fidelityTier": "sibling",
+  "archetypeSource": "learning-and-support-learning",
+  "archetypeSha": "0925840f97e7",
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 5,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "learning-and-support/additional-learning-support/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "learning-and-support/additional-learning-support/_meta.json",
+  "driverVersion": "1"
+}

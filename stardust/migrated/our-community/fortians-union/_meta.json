@@ -1,0 +1,59 @@
+{
+  "slug": "our-community-fortians-union",
+  "type": "content",
+  "renderBranch": "A'",
+  "template": "learning-and-support-learning",
+  "modules": [
+    "M3",
+    "M5b",
+    "M9b",
+    "M11b"
+  ],
+  "slotsFilled": [
+    "s01",
+    "s02",
+    "s03",
+    "s04",
+    "s05",
+    "s06"
+  ],
+  "canonShas": {
+    "header": "1e8e0c3eebea",
+    "footer": "a8b6d4b37731",
+    "css": "5fe9e7ffc80e"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "The Fortians Union",
+    "description": "The Fortian alumni associations began in 1894 to build a strong community, give back to Fort Street and celebrate our legacy.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/our-community/fortians-union",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "The Fortians Union",
+    "description": "The Fortian alumni associations began in 1894 to build a strong community, give back to Fort Street and celebrate our legacy.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/our-community/fortians-union"
+  },
+  "migratedAt": "2026-11-05T06:33:01Z",
+  "designMdSha": "187c3f2f159f",
+  "designJsonSha": "2d96d5b1c55f",
+  "sourceCurrentSha": "4a5d02a4eae9",
+  "sourceProposedSha": "3907d525f918",
+  "fidelityTier": "sibling",
+  "archetypeSource": "learning-and-support-learning",
+  "archetypeSha": "0925840f97e7",
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 3,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "our-community/fortians-union/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "our-community/fortians-union/_meta.json",
+  "driverVersion": "1"
+}

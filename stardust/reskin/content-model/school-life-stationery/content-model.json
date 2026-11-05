@@ -1,0 +1,996 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-11-05T06:23:51.773Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/stationery",
+    "viewport": "1440x900",
+    "scope": "nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!",
+    "normalize": {
+      "source": "/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/school-life-stationery.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes, any cookie/consent/gdpr-named element inside a fixed/sticky/high-z overlay)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N3",
+          "what": "open every .nsw-accordion panel (unhide its content region, aria-expanded=true)",
+          "why": "closed panel text is content; capture-only — the rendered accordion keeps the closed rest state"
+        }
+      ]
+    },
+    "settle": {
+      "firstLen": 2419,
+      "waitedMs": 1506,
+      "stable": true,
+      "settledLen": 2419,
+      "lateChars": 0
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "domcontentloaded",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Stationery",
+    "description": "In Year 7 parents are provided with a list of stationery requirements for their child(ren). Parents may choose to purchase these items from any supplier or store of their choosing.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/stationery",
+    "ogTags": {
+      "og:title": "Stationery",
+      "og:description": "In Year 7 parents are provided with a list of stationery requirements for their child(ren). Parents may choose to purchase these items from any supplier or store of their choosing.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/school-life/stationery",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_106b4fd5d5a6fd4903602676c1c66c142c80c1c7d.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_106b4fd5d5a6fd4903602676c1c66c142c80c1c7d.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:alt": "Winc BTS Smart Start Kit Website Tile 565x360.jpg"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Stationery",
+      "twitter:description": "In Year 7 parents are provided with a list of stationery requirements for their child(ren). Parents may choose to purchase these items from any supplier or store of their choosing.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_106b4fd5d5a6fd4903602676c1c66c142c80c1c7d.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "nav.nsw-breadcrumbs",
+      "whole": true
+    },
+    {
+      "sel": "main",
+      "whole": false
+    },
+    {
+      "sel": "aside.nsw-layout__sidebar--desktop",
+      "whole": true
+    }
+  ],
+  "visibleTextNormalized": "HomeSchool lifeStationery Stationery In Year 7 parents are provided with a list of stationery requirements for their child(ren). Parents may choose to purchase these items from any supplier or store of their choosing. Parents may also use the link provided in the form to order from Winc if that is more convenient. Download the Year 7 stationery list here. To order through Winc visit wincschools.com.au (opens in new window) and follow these four steps. Search for your school, Fort Street High School, Petersham, NSW and enter your school access key 8KB4T if required. Complete the student’s details and select Year 7. Simply select all relevant subjects. Review your requirements list and make changes if required. Please note: some list items have been denoted by your school as a prerequisite for the subject or year. Proceed to checkout. Please note: For home deliveries only, if you have more than one student at the same school, please repeat the above steps. Please see the stationary list for further details. From Year 8 onwards parents should work with their child to determine what items need replenishing. Some electives may at times require additional items and these will be requested directly from the teacher if necessary. Bring your own device Read about our policies and procedures to bring your own device. east Uniform Learn about our school uniform requirements and where to buy them. east Section navigation School life Bell times Bring your own device Canteen Events Forms House and Merit System Lockers and lost property Newsletters Parent portal Stationery Student opportunities and activities Travel to school Uniform",
+  "coverage": {
+    "bodyTextLen": 2419,
+    "scopeTextLen": 1646,
+    "ratio": 0.68,
+    "h1Text": "Stationery",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "nav",
+      "rootClass": "nsw-breadcrumbs js-breadcrumbs",
+      "visibleText": "HomeSchool lifeStationery",
+      "headings": [],
+      "paragraphs": [],
+      "listItems": [
+        "Home",
+        "School life",
+        "Stationery"
+      ],
+      "ctas": [
+        {
+          "text": "Home",
+          "href": "https://fortstreet-h.schools.nsw.gov.au",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/",
+          "classes": ""
+        },
+        {
+          "text": "School life",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/school-life",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life",
+          "classes": "breadcrumb"
+        },
+        {
+          "text": "Stationery",
+          "href": "",
+          "absHref": "",
+          "classes": "current"
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Home",
+          "display": "inline-block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Home",
+              "display": "inline-block",
+              "href": "https://fortstreet-h.schools.nsw.gov.au",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "School life",
+          "display": "inline-block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "School life",
+              "display": "inline-block",
+              "href": "https://fortstreet-h.schools.nsw.gov.au/school-life",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life",
+              "classes": "breadcrumb",
+              "sep": ""
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Stationery",
+          "display": "inline-block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Stationery",
+              "display": "inline-block",
+              "href": "",
+              "absHref": "",
+              "classes": "current",
+              "sep": ""
+            }
+          ],
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Stationery In Year 7 parents are provided with a list of stationery requirements for their child(ren). Parents may choose to purchase these items from any supplier or store of their choosing. Parents may also use the link provided in the form to order from Winc if that is more convenient. Download the Year 7 stationery list here. To order through Winc visit wincschools.com.au (opens in new window) and follow these four steps. Search for your school, Fort Street High School, Petersham, NSW and enter your school access key 8KB4T if required. Complete the student’s details and select Year 7. Simply select all relevant subjects. Review your requirements list and make changes if required. Please note: some list items have been denoted by your school as a prerequisite for the subject or year. Proceed to checkout. Please note: For home deliveries only, if you have more than one student at the same school, please repeat the above steps. Please see the stationary list for further details. From Year 8 onwards parents should work with their child to determine what items need replenishing. Some electives may at times require additional items and these will be requested directly from the teacher if necessary.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Stationery"
+        }
+      ],
+      "paragraphs": [
+        "In Year 7 parents are provided with a list of stationery requirements for their child(ren). Parents may choose to purchase these items from any supplier or store of their choosing. Parents may also use the link provided in the form to order from Winc if that is more convenient.",
+        "Download the Year 7 stationery list here.",
+        "To order through Winc visit wincschools.com.au (opens in new window) and follow these four steps.",
+        "Please see the stationary list for further details.",
+        "From Year 8 onwards parents should work with their child to determine what items need replenishing. Some electives may at times require additional items and these will be requested directly from the teacher if necessary."
+      ],
+      "listItems": [
+        "Search for your school, Fort Street High School, Petersham, NSW and enter your school access key 8KB4T if required.",
+        "Complete the student’s details and select Year 7. Simply select all relevant subjects.",
+        "Review your requirements list and make changes if required. Please note: some list items have been denoted by your school as a prerequisite for the subject or year.",
+        "Proceed to checkout. Please note: For home deliveries only, if you have more than one student at the same school, please repeat the above steps."
+      ],
+      "ctas": [
+        {
+          "text": "here",
+          "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/Fort%20Street%20High%20School%20%20Petersham%20%20NSW-10656882-Year%207-Requirements%20List.pdf",
+          "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/Fort%20Street%20High%20School%20%20Petersham%20%20NSW-10656882-Year%207-Requirements%20List.pdf",
+          "classes": ""
+        },
+        {
+          "text": "wincschools.com.au (opens in new window)",
+          "href": "https://www.wincschools.com.au/school-search",
+          "absHref": "https://www.wincschools.com.au/school-search",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Stationery",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "In Year 7 parents are provided with a list of stationery requirements for their child(ren). Parents may choose to purchase these items from any supplier or store of their choosing. Parents may also use the link provided in the form to order from Winc if that is more convenient.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Download the Year 7 stationery list here.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Download the Year 7 stationery list",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "here",
+              "display": "inline",
+              "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/Fort%20Street%20High%20School%20%20Petersham%20%20NSW-10656882-Year%207-Requirements%20List.pdf",
+              "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/Fort%20Street%20High%20School%20%20Petersham%20%20NSW-10656882-Year%207-Requirements%20List.pdf",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ".",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "To order through Winc visit wincschools.com.au (opens in new window) and follow these four steps.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "To order through",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Winc",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "visit",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "cta",
+              "text": "wincschools.com.au (opens in new window)",
+              "display": "inline",
+              "href": "https://www.wincschools.com.au/school-search",
+              "absHref": "https://www.wincschools.com.au/school-search",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "wincschools.com.au",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "srOnly": true,
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "and follow these four steps.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Search for your school, Fort Street High School, Petersham, NSW and enter your school access key 8KB4T if required.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Search for your school, Fort Street High School, Petersham, NSW and enter your",
+              "parentTag": "li",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "school access key 8KB4T",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "if required.",
+              "parentTag": "li",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Complete the student’s details and select Year 7. Simply select all relevant subjects.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Review your requirements list and make changes if required. Please note: some list items have been denoted by your school as a prerequisite for the subject or year.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Review your requirements list and make changes if required.",
+              "parentTag": "li",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Please note:",
+              "parentTag": "em",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "some list items have been denoted by your school as a prerequisite for the subject or year.",
+              "parentTag": "li",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Proceed to checkout. Please note: For home deliveries only, if you have more than one student at the same school, please repeat the above steps.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Proceed to checkout.",
+              "parentTag": "li",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Please note:",
+              "parentTag": "em",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "For home deliveries only, if you have more than one student at the same school, please repeat the above steps.",
+              "parentTag": "li",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Please see the stationary list for further details.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "From Year 8 onwards parents should work with their child to determine what items need replenishing. Some electives may at times require additional items and these will be requested directly from the teacher if necessary.",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "",
+      "headings": [],
+      "paragraphs": [],
+      "listItems": [],
+      "ctas": [],
+      "iconLinks": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_106b4fd5d5a6fd4903602676c1c66c142c80c1c7d.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "Winc BTS Smart Start Kit Website Tile 565x360.jpg",
+          "w": 848,
+          "h": 540
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "",
+          "display": "block",
+          "level": "h2",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_106b4fd5d5a6fd4903602676c1c66c142c80c1c7d.jpg?width=2000&format=webply&optimize=medium",
+              "alt": "Winc BTS Smart Start Kit Website Tile 565x360.jpg",
+              "rw": 768
+            }
+          ],
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s04",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Bring your own device Read about our policies and procedures to bring your own device. east Uniform Learn about our school uniform requirements and where to buy them. east",
+      "headings": [],
+      "paragraphs": [
+        "Read about our policies and procedures to bring your own device.",
+        "Learn about our school uniform requirements and where to buy them."
+      ],
+      "listItems": [
+        "Bring your own device Read about our policies and procedures to bring your own device. east",
+        "Uniform Learn about our school uniform requirements and where to buy them. east"
+      ],
+      "ctas": [
+        {
+          "text": "Bring your own device",
+          "href": "/school-life/bring-your-own-device",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/bring-your-own-device",
+          "classes": ""
+        },
+        {
+          "text": "Uniform",
+          "href": "/school-life/uniform",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Bring your own device Read about our policies and procedures to bring your own device. east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Bring your own device",
+              "display": "inline",
+              "href": "/school-life/bring-your-own-device",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/bring-your-own-device",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Read about our policies and procedures to bring your own device.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Uniform Learn about our school uniform requirements and where to buy them. east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Uniform",
+              "display": "inline",
+              "href": "/school-life/uniform",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Learn about our school uniform requirements and where to buy them.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s05",
+      "rootTag": "aside",
+      "rootClass": "nsw-layout__sidebar nsw-layout__sidebar--desktop sidebar-wrapper",
+      "visibleText": "Section navigation School life Bell times Bring your own device Canteen Events Forms House and Merit System Lockers and lost property Newsletters Parent portal Stationery Student opportunities and activities Travel to school Uniform",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Section navigation"
+        }
+      ],
+      "paragraphs": [],
+      "listItems": [
+        "Bell times",
+        "Bring your own device",
+        "Canteen",
+        "Events",
+        "Forms",
+        "House and Merit System",
+        "Lockers and lost property",
+        "Newsletters",
+        "Parent portal",
+        "Stationery",
+        "Student opportunities and activities",
+        "Travel to school",
+        "Uniform"
+      ],
+      "ctas": [
+        {
+          "text": "School life",
+          "href": "/school-life",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life",
+          "classes": ""
+        },
+        {
+          "text": "Bell times",
+          "href": "/school-life/bell-times",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/bell-times",
+          "classes": ""
+        },
+        {
+          "text": "Bring your own device",
+          "href": "/school-life/bring-your-own-device",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/bring-your-own-device",
+          "classes": ""
+        },
+        {
+          "text": "Canteen",
+          "href": "/school-life/canteen",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/canteen",
+          "classes": ""
+        },
+        {
+          "text": "Events",
+          "href": "/school-life/events",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+          "classes": ""
+        },
+        {
+          "text": "Forms",
+          "href": "/school-life/forms",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/forms",
+          "classes": ""
+        },
+        {
+          "text": "House and Merit System",
+          "href": "/school-life/house-and-merit-system",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/house-and-merit-system",
+          "classes": ""
+        },
+        {
+          "text": "Lockers and lost property",
+          "href": "/school-life/lockers-and-lost-property",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/lockers-and-lost-property",
+          "classes": ""
+        },
+        {
+          "text": "Newsletters",
+          "href": "/school-life/newsletters",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters",
+          "classes": ""
+        },
+        {
+          "text": "Parent portal",
+          "href": "/school-life/parent-portal",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+          "classes": ""
+        },
+        {
+          "text": "Stationery",
+          "href": "/school-life/stationery",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/stationery",
+          "classes": "current"
+        },
+        {
+          "text": "Student opportunities and activities",
+          "href": "/school-life/student-opportunities-and-activities",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities",
+          "classes": ""
+        },
+        {
+          "text": "Travel to school",
+          "href": "/school-life/travel-to-school",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school",
+          "classes": ""
+        },
+        {
+          "text": "Uniform",
+          "href": "/school-life/uniform",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Section navigation",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "cta",
+          "text": "School life",
+          "display": "flex",
+          "href": "/school-life",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life",
+          "classes": "",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Bell times",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Bell times",
+              "display": "block",
+              "href": "/school-life/bell-times",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/bell-times",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Bring your own device",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Bring your own device",
+              "display": "block",
+              "href": "/school-life/bring-your-own-device",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/bring-your-own-device",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Canteen",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Canteen",
+              "display": "block",
+              "href": "/school-life/canteen",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/canteen",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Events",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Events",
+              "display": "block",
+              "href": "/school-life/events",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Forms",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Forms",
+              "display": "block",
+              "href": "/school-life/forms",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/forms",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "House and Merit System",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "House and Merit System",
+              "display": "block",
+              "href": "/school-life/house-and-merit-system",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/house-and-merit-system",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Lockers and lost property",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Lockers and lost property",
+              "display": "block",
+              "href": "/school-life/lockers-and-lost-property",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/lockers-and-lost-property",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Newsletters",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Newsletters",
+              "display": "block",
+              "href": "/school-life/newsletters",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Parent portal",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Parent portal",
+              "display": "block",
+              "href": "/school-life/parent-portal",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Stationery",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Stationery",
+              "display": "block",
+              "href": "/school-life/stationery",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/stationery",
+              "classes": "current",
+              "buttonLike": true,
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Student opportunities and activities",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Student opportunities and activities",
+              "display": "block",
+              "href": "/school-life/student-opportunities-and-activities",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Travel to school",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Travel to school",
+              "display": "block",
+              "href": "/school-life/travel-to-school",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Uniform",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Uniform",
+              "display": "block",
+              "href": "/school-life/uniform",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    }
+  ],
+  "residue": [
+    {
+      "sel": "header.header-wrapper",
+      "kind": "chrome",
+      "textLen": 275,
+      "lines": [
+        "Skip to navigation",
+        "Skip to content",
+        "NSW Government",
+        "Fort Street High School",
+        "Faber est suae quisque fortunae",
+        "search",
+        "Show",
+        "Search",
+        "About us",
+        "keyboard_arrow_right",
+        "School life",
+        "keyboard_arrow_right",
+        "Learning and support",
+        "keyboard_arrow_right",
+        "Our community",
+        "keyboard_arrow_right",
+        "Contact us"
+      ],
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 172
+      }
+    },
+    {
+      "sel": "footer.footer-wrapper",
+      "kind": "chrome",
+      "textLen": 496,
+      "lines": [
+        "Fort Street High School",
+        "General enquiries",
+        "fortstreet-h.school@det.nsw.edu.au",
+        "8585 1600",
+        "620 PARRAMATTA ROAD, NSW 2049 PETERSHAM",
+        "Follow us",
+        "We recognise the Ongoing Custodians of the lands and waterways where we work and live. We pay respect to Elders past and present as ongoing teachers of knowledge, songlines and stories. We strive to ensure every Aboriginal and/or Torres Strait Islander learner in NSW achieves their potential through education.",
+        "Your feedback",
+        "Policy library",
+        "Information access"
+      ],
+      "rect": {
+        "x": 0,
+        "y": 1785,
+        "w": 1440,
+        "h": 509
+      }
+    }
+  ]
+}

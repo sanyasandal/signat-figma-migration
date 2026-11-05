@@ -1,0 +1,1030 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/figma-donor.mjs",
+    "writtenAt": "2026-11-04T18:22:42Z",
+    "readArtifacts": [
+      "stardust/reskin/curation-rules.json",
+      "stardust/canon-source/foundation/",
+      "stardust/canon-source/module-candidates.json",
+      "stardust/canon-source/assets/screenshots/index.json"
+    ],
+    "synthesizedInputs": []
+  },
+  "donor": "https://www.figma.com/design/Nb8RS4SM2kSDkV1yW058yl",
+  "curatedFrom": "reskin/curation-rules.json@v1; canon-source/foundation (figma version 2418082557428609783)",
+  "note": "Pinned reference per module family: home: D Home (node 19443:23241, 1440px). Other frames corroborate.",
+  "palette": {
+    "pageBg": "rgb(242, 240, 239)",
+    "bodyFg": "rgb(40, 40, 40)",
+    "headingFg": "rgb(0, 0, 0)",
+    "mutedFg": "rgb(100, 100, 100)",
+    "accent": "rgb(0, 0, 0)",
+    "darkBandBg": "rgb(0, 0, 0)",
+    "darkBandFg": "rgb(255, 255, 255)",
+    "lightBandBg": "rgb(229, 225, 222)",
+    "rule": "rgb(216, 211, 204)",
+    "sale": "rgb(191, 0, 19)"
+  },
+  "type": {
+    "family": "\"Apercu Pro\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "familyNote": "adopted as a token string with a local fallback; no font files from Figma; family equivalence applied: \"Apercu Pro\" → \"\"Apercu Pro\", \"Helvetica Neue\", Helvetica, Arial, sans-serif\"",
+    "display": {
+      "fontFamily": "\"Apercu Pro\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": "56px",
+      "fontWeight": "400",
+      "lineHeight": "1",
+      "letterSpacing": "-3.36px",
+      "textAlign": "left"
+    },
+    "h2": {
+      "fontFamily": "\"Apercu Pro\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": "56px",
+      "fontWeight": "400",
+      "lineHeight": "1",
+      "letterSpacing": "-3.36px"
+    },
+    "h3": {
+      "fontFamily": "\"Apercu Pro\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": "26px",
+      "fontWeight": "400",
+      "lineHeight": "32px",
+      "letterSpacing": "-1.56px"
+    },
+    "h4": {
+      "fontFamily": "\"Apercu Pro\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "lineHeight": "26px",
+      "letterSpacing": "-0.6px"
+    },
+    "lede": {
+      "fontFamily": "\"Apercu Pro\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "lineHeight": "26px",
+      "letterSpacing": "-0.6px"
+    },
+    "body": {
+      "fontFamily": "\"Apercu Pro\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "lineHeight": "19px",
+      "letterSpacing": "normal"
+    },
+    "eyebrow": {
+      "fontFamily": "\"Apercu Pro\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "lineHeight": "12px",
+      "letterSpacing": "0.6px"
+    },
+    "tab": {
+      "fontFamily": "\"Apercu Pro\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "20px",
+      "letterSpacing": "-0.48px"
+    },
+    "promo": {
+      "fontFamily": "\"Apercu Pro\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "lineHeight": "22px",
+      "letterSpacing": "-0.54px"
+    }
+  },
+  "layout": {
+    "containerMaxWidth": "1440px",
+    "sectionPaddingY": "80px",
+    "gutter": "16px",
+    "mobile": {
+      "gutter": "16px",
+      "sectionPaddingY": "40px"
+    },
+    "navAlign": "end"
+  },
+  "buttons": {
+    "primary": {
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "\"Apercu Pro\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "lineHeight": "13px",
+      "letterSpacing": "normal",
+      "padding": "12px 20px",
+      "height": "44px",
+      "borderRadius": "0px"
+    },
+    "secondary": {
+      "background": "rgb(242, 240, 239)",
+      "color": "rgb(0, 0, 0)",
+      "fontFamily": "\"Apercu Pro\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "lineHeight": "13px",
+      "letterSpacing": "normal",
+      "padding": "12px 20px",
+      "height": "44px",
+      "borderRadius": "0px"
+    }
+  },
+  "cards": {
+    "primary": {
+      "background": "rgb(255, 255, 255)",
+      "borderRadius": "0px",
+      "padding": "16px",
+      "titleColor": "rgb(0, 0, 0)"
+    }
+  },
+  "radii": {
+    "radius-3-33": "3.33px",
+    "radius-1-33": "1.33px",
+    "radius-100": "100px",
+    "radius-300": "300px",
+    "radius-40": "40px"
+  },
+  "shadows": {
+    "cardFloating": "rgba(0, 0, 0, 0.1) 0px 5px 11px 0px, rgba(0, 0, 0, 0.09) 0px 21px 21px 0px, rgba(0, 0, 0, 0.05) 0px 47px 28px 0px, rgba(0, 0, 0, 0.01) 0px 84px 33px 0px, rgba(0, 0, 0, 0) 0px 131px 37px 0px"
+  },
+  "motifs": [
+    "full-bleed photography with text anchored bottom-left",
+    "tight negative letter-spacing on large Apercu headings (-6%)",
+    "edge-to-edge tile grids separated by hairline gaps",
+    "warm neutral bands (off-white / greige) with a single black footer"
+  ],
+  "nodeRefs": {
+    "palette.pageBg": {
+      "node": "19443:23241",
+      "figma": {
+        "color": {
+          "r": 0.9490196108818054,
+          "g": 0.9411764740943909,
+          "b": 0.9372549057006836,
+          "a": 1
+        },
+        "opacity": 1
+      },
+      "via": "rest"
+    },
+    "palette.bodyFg": {
+      "node": "I19443:23247;18641:22721",
+      "figma": {
+        "color": {
+          "r": 0.1568627506494522,
+          "g": 0.1568627506494522,
+          "b": 0.1568627506494522,
+          "a": 1
+        },
+        "opacity": 1
+      },
+      "via": "rest"
+    },
+    "palette.headingFg": {
+      "node": "19443:23246",
+      "figma": {
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        },
+        "opacity": 1
+      },
+      "via": "rest"
+    },
+    "palette.mutedFg": {
+      "node": "I19443:23377;18871:2929",
+      "figma": {
+        "color": {
+          "r": 0.3913627564907074,
+          "g": 0.3913627564907074,
+          "b": 0.3913627564907074,
+          "a": 1
+        },
+        "opacity": 1
+      },
+      "via": "rest"
+    },
+    "palette.accent": {
+      "node": "19443:23246",
+      "figma": {
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        },
+        "opacity": 1
+      },
+      "via": "rest"
+    },
+    "palette.darkBandBg": {
+      "node": "19443:23246",
+      "figma": {
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        },
+        "opacity": 1
+      },
+      "via": "rest"
+    },
+    "palette.darkBandFg": {
+      "node": "19443:23280",
+      "figma": {
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "opacity": 1
+      },
+      "via": "rest"
+    },
+    "palette.lightBandBg": {
+      "node": "19443:23242",
+      "figma": {
+        "color": {
+          "r": 0.8980392217636108,
+          "g": 0.8823529481887817,
+          "b": 0.8705882430076599,
+          "a": 1
+        },
+        "opacity": 1
+      },
+      "via": "rest"
+    },
+    "palette.rule": {
+      "node": "19443:23388",
+      "figma": {
+        "color": {
+          "r": 0.8470588326454163,
+          "g": 0.8274509906768799,
+          "b": 0.800000011920929,
+          "a": 1
+        },
+        "opacity": 1
+      },
+      "via": "rest"
+    },
+    "type.family": {
+      "node": "19443:23334",
+      "figma": "Apercu Pro",
+      "via": "rest",
+      "normalizedBy": [
+        "apercu-stack"
+      ]
+    },
+    "type.display.fontFamily": {
+      "node": "19443:23333",
+      "figma": "Apercu Pro",
+      "via": "rest",
+      "normalizedBy": [
+        "apercu-stack"
+      ]
+    },
+    "type.display.fontSize": {
+      "node": "19443:23333",
+      "figma": 56,
+      "via": "rest"
+    },
+    "type.display.fontWeight": {
+      "node": "19443:23333",
+      "figma": 400,
+      "via": "rest"
+    },
+    "type.display.lineHeight": {
+      "node": "19443:23333",
+      "figma": {
+        "lineHeightPx": 56,
+        "lineHeightUnit": "PIXELS",
+        "fontSize": 56
+      },
+      "via": "rest",
+      "normalizedBy": [
+        "display-lh"
+      ]
+    },
+    "type.display.letterSpacing": {
+      "node": "19443:23333",
+      "figma": {
+        "letterSpacing": -3.36,
+        "fontSize": 56
+      },
+      "via": "rest"
+    },
+    "type.h2.fontFamily": {
+      "node": "19443:23333",
+      "figma": "Apercu Pro",
+      "via": "rest",
+      "normalizedBy": [
+        "apercu-stack"
+      ]
+    },
+    "type.h2.fontSize": {
+      "node": "19443:23333",
+      "figma": 56,
+      "via": "rest"
+    },
+    "type.h2.fontWeight": {
+      "node": "19443:23333",
+      "figma": 400,
+      "via": "rest"
+    },
+    "type.h2.lineHeight": {
+      "node": "19443:23333",
+      "figma": {
+        "lineHeightPx": 56,
+        "lineHeightUnit": "PIXELS",
+        "fontSize": 56
+      },
+      "via": "rest",
+      "normalizedBy": [
+        "display-lh"
+      ]
+    },
+    "type.h2.letterSpacing": {
+      "node": "19443:23333",
+      "figma": {
+        "letterSpacing": -3.36,
+        "fontSize": 56
+      },
+      "via": "rest"
+    },
+    "type.h3.fontFamily": {
+      "node": "19443:23416",
+      "figma": "Apercu Pro",
+      "via": "rest",
+      "normalizedBy": [
+        "apercu-stack"
+      ]
+    },
+    "type.h3.fontSize": {
+      "node": "19443:23416",
+      "figma": 26,
+      "via": "rest"
+    },
+    "type.h3.fontWeight": {
+      "node": "19443:23416",
+      "figma": 400,
+      "via": "rest"
+    },
+    "type.h3.lineHeight": {
+      "node": "19443:23416",
+      "figma": {
+        "lineHeightPx": 32,
+        "lineHeightUnit": "PIXELS",
+        "fontSize": 26
+      },
+      "via": "rest"
+    },
+    "type.h3.letterSpacing": {
+      "node": "19443:23416",
+      "figma": {
+        "letterSpacing": -1.56,
+        "fontSize": 26
+      },
+      "via": "rest"
+    },
+    "type.h4.fontFamily": {
+      "node": "19443:23382",
+      "figma": "Apercu Pro",
+      "via": "rest",
+      "normalizedBy": [
+        "apercu-stack"
+      ]
+    },
+    "type.h4.fontSize": {
+      "node": "19443:23382",
+      "figma": 20,
+      "via": "rest"
+    },
+    "type.h4.fontWeight": {
+      "node": "19443:23382",
+      "figma": 400,
+      "via": "rest"
+    },
+    "type.h4.lineHeight": {
+      "node": "19443:23382",
+      "figma": {
+        "lineHeightPx": 26,
+        "lineHeightUnit": "PIXELS",
+        "fontSize": 20
+      },
+      "via": "rest"
+    },
+    "type.h4.letterSpacing": {
+      "node": "19443:23382",
+      "figma": {
+        "letterSpacing": -0.6,
+        "fontSize": 20
+      },
+      "via": "rest"
+    },
+    "type.lede.fontFamily": {
+      "node": "19443:23382",
+      "figma": "Apercu Pro",
+      "via": "rest",
+      "normalizedBy": [
+        "apercu-stack"
+      ]
+    },
+    "type.lede.fontSize": {
+      "node": "19443:23382",
+      "figma": 20,
+      "via": "rest"
+    },
+    "type.lede.fontWeight": {
+      "node": "19443:23382",
+      "figma": 400,
+      "via": "rest"
+    },
+    "type.lede.lineHeight": {
+      "node": "19443:23382",
+      "figma": {
+        "lineHeightPx": 26,
+        "lineHeightUnit": "PIXELS",
+        "fontSize": 20
+      },
+      "via": "rest"
+    },
+    "type.lede.letterSpacing": {
+      "node": "19443:23382",
+      "figma": {
+        "letterSpacing": -0.6,
+        "fontSize": 20
+      },
+      "via": "rest"
+    },
+    "type.body.fontFamily": {
+      "node": "19443:23334",
+      "figma": "Apercu Pro",
+      "via": "rest",
+      "normalizedBy": [
+        "apercu-stack"
+      ]
+    },
+    "type.body.fontSize": {
+      "node": "19443:23334",
+      "figma": 13,
+      "via": "rest"
+    },
+    "type.body.fontWeight": {
+      "node": "19443:23334",
+      "figma": 400,
+      "via": "rest"
+    },
+    "type.body.lineHeight": {
+      "node": "19443:23334",
+      "figma": {
+        "lineHeightPx": 19,
+        "lineHeightUnit": "PIXELS",
+        "fontSize": 13
+      },
+      "via": "rest"
+    },
+    "type.body.letterSpacing": {
+      "node": "19443:23334",
+      "figma": {
+        "letterSpacing": 0,
+        "fontSize": 13
+      },
+      "via": "rest"
+    },
+    "type.eyebrow.fontFamily": {
+      "node": "19443:23332",
+      "figma": "Apercu Pro",
+      "via": "rest",
+      "normalizedBy": [
+        "apercu-stack"
+      ]
+    },
+    "type.eyebrow.fontSize": {
+      "node": "19443:23332",
+      "figma": 10,
+      "via": "rest"
+    },
+    "type.eyebrow.fontWeight": {
+      "node": "19443:23332",
+      "figma": 400,
+      "via": "rest"
+    },
+    "type.eyebrow.lineHeight": {
+      "node": "19443:23332",
+      "figma": {
+        "lineHeightPx": 12,
+        "lineHeightUnit": "PIXELS",
+        "fontSize": 10
+      },
+      "via": "rest"
+    },
+    "type.eyebrow.letterSpacing": {
+      "node": "19443:23332",
+      "figma": {
+        "letterSpacing": 0.6,
+        "fontSize": 10
+      },
+      "via": "rest"
+    },
+    "type.tab.fontFamily": {
+      "node": "19443:23355",
+      "figma": "Apercu Pro",
+      "via": "rest",
+      "normalizedBy": [
+        "apercu-stack"
+      ]
+    },
+    "type.tab.fontSize": {
+      "node": "19443:23355",
+      "figma": 16,
+      "via": "rest"
+    },
+    "type.tab.fontWeight": {
+      "node": "19443:23355",
+      "figma": 400,
+      "via": "rest"
+    },
+    "type.tab.lineHeight": {
+      "node": "19443:23355",
+      "figma": {
+        "lineHeightPx": 20,
+        "lineHeightUnit": "PIXELS",
+        "fontSize": 16
+      },
+      "via": "rest"
+    },
+    "type.tab.letterSpacing": {
+      "node": "19443:23355",
+      "figma": {
+        "letterSpacing": -0.48,
+        "fontSize": 16
+      },
+      "via": "rest"
+    },
+    "type.promo.fontFamily": {
+      "node": "19443:23345",
+      "figma": "Apercu Pro",
+      "via": "rest",
+      "normalizedBy": [
+        "apercu-stack"
+      ]
+    },
+    "type.promo.fontSize": {
+      "node": "19443:23345",
+      "figma": 18,
+      "via": "rest"
+    },
+    "type.promo.fontWeight": {
+      "node": "19443:23345",
+      "figma": 400,
+      "via": "rest"
+    },
+    "type.promo.lineHeight": {
+      "node": "19443:23345",
+      "figma": {
+        "lineHeightPx": 22,
+        "lineHeightUnit": "PIXELS",
+        "fontSize": 18
+      },
+      "via": "rest"
+    },
+    "type.promo.letterSpacing": {
+      "node": "19443:23345",
+      "figma": {
+        "letterSpacing": -0.54,
+        "fontSize": 18
+      },
+      "via": "rest"
+    },
+    "buttons.primary.background": {
+      "node": "19443:23385",
+      "figma": {
+        "blendMode": "NORMAL",
+        "type": "SOLID",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        }
+      },
+      "via": "rest"
+    },
+    "buttons.primary.color": {
+      "node": "I19443:23385;18542:172",
+      "figma": {
+        "blendMode": "NORMAL",
+        "type": "SOLID",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        }
+      },
+      "via": "rest"
+    },
+    "buttons.primary.fontFamily": {
+      "node": "I19443:23385;18542:172",
+      "figma": "Apercu Pro",
+      "via": "rest",
+      "normalizedBy": [
+        "apercu-stack"
+      ]
+    },
+    "buttons.primary.fontSize": {
+      "node": "I19443:23385;18542:172",
+      "figma": 13,
+      "via": "rest"
+    },
+    "buttons.primary.fontWeight": {
+      "node": "I19443:23385;18542:172",
+      "figma": 400,
+      "via": "rest"
+    },
+    "buttons.primary.lineHeight": {
+      "node": "I19443:23385;18542:172",
+      "figma": {
+        "lineHeightPx": 13,
+        "lineHeightUnit": "PIXELS",
+        "fontSize": 13
+      },
+      "via": "rest"
+    },
+    "buttons.primary.letterSpacing": {
+      "node": "I19443:23385;18542:172",
+      "figma": {
+        "letterSpacing": 0,
+        "fontSize": 13
+      },
+      "via": "rest"
+    },
+    "buttons.primary.padding": {
+      "node": "19443:23385",
+      "figma": [
+        12,
+        20,
+        12,
+        20
+      ],
+      "via": "rest"
+    },
+    "buttons.primary.height": {
+      "node": "19443:23385",
+      "figma": 44,
+      "via": "rest"
+    },
+    "buttons.secondary.background": {
+      "node": "19443:23336",
+      "figma": {
+        "blendMode": "NORMAL",
+        "type": "SOLID",
+        "color": {
+          "r": 0.9490196108818054,
+          "g": 0.9411764740943909,
+          "b": 0.9372549057006836,
+          "a": 1
+        }
+      },
+      "via": "rest"
+    },
+    "buttons.secondary.color": {
+      "node": "I19443:23336;18641:24601",
+      "figma": {
+        "blendMode": "NORMAL",
+        "type": "SOLID",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        }
+      },
+      "via": "rest"
+    },
+    "buttons.secondary.fontFamily": {
+      "node": "I19443:23336;18641:24601",
+      "figma": "Apercu Pro",
+      "via": "rest",
+      "normalizedBy": [
+        "apercu-stack"
+      ]
+    },
+    "buttons.secondary.fontSize": {
+      "node": "I19443:23336;18641:24601",
+      "figma": 13,
+      "via": "rest"
+    },
+    "buttons.secondary.fontWeight": {
+      "node": "I19443:23336;18641:24601",
+      "figma": 400,
+      "via": "rest"
+    },
+    "buttons.secondary.lineHeight": {
+      "node": "I19443:23336;18641:24601",
+      "figma": {
+        "lineHeightPx": 13,
+        "lineHeightUnit": "PIXELS",
+        "fontSize": 13
+      },
+      "via": "rest"
+    },
+    "buttons.secondary.letterSpacing": {
+      "node": "I19443:23336;18641:24601",
+      "figma": {
+        "letterSpacing": 0,
+        "fontSize": 13
+      },
+      "via": "rest"
+    },
+    "buttons.secondary.padding": {
+      "node": "19443:23336",
+      "figma": [
+        12,
+        20,
+        12,
+        20
+      ],
+      "via": "rest"
+    },
+    "buttons.secondary.height": {
+      "node": "19443:23336",
+      "figma": 44,
+      "via": "rest"
+    },
+    "layout.containerMaxWidth": {
+      "node": "19443:23343",
+      "figma": {
+        "kind": "width",
+        "px": 1440
+      },
+      "via": "rest"
+    },
+    "layout.sectionPaddingY": {
+      "node": "19443:23508",
+      "figma": {
+        "kind": "padding",
+        "px": 80
+      },
+      "via": "rest"
+    },
+    "layout.gutter": {
+      "node": "19443:23242",
+      "figma": {
+        "kind": "padding",
+        "px": 16
+      },
+      "via": "rest"
+    },
+    "shadows.cardFloating": {
+      "node": "19443:23338",
+      "figma": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.10000000149011612
+          },
+          "blendMode": "NORMAL",
+          "offset": {
+            "x": 0,
+            "y": 5
+          },
+          "radius": 11,
+          "showShadowBehindNode": true
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.09000000357627869
+          },
+          "blendMode": "NORMAL",
+          "offset": {
+            "x": 0,
+            "y": 21
+          },
+          "radius": 21,
+          "showShadowBehindNode": true
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.05000000074505806
+          },
+          "blendMode": "NORMAL",
+          "offset": {
+            "x": 0,
+            "y": 47
+          },
+          "radius": 28,
+          "showShadowBehindNode": true
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.009999999776482582
+          },
+          "blendMode": "NORMAL",
+          "offset": {
+            "x": 0,
+            "y": 84
+          },
+          "radius": 33,
+          "showShadowBehindNode": true
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "blendMode": "NORMAL",
+          "offset": {
+            "x": 0,
+            "y": 131
+          },
+          "radius": 37,
+          "showShadowBehindNode": true
+        }
+      ],
+      "via": "rest"
+    },
+    "palette.sale": {
+      "node": "I19443:23327;18641:22721",
+      "figma": {
+        "color": {
+          "r": 0.7470703125,
+          "g": 0,
+          "b": 0.07470703125,
+          "a": 1
+        },
+        "opacity": 1
+      },
+      "via": "rest"
+    },
+    "layout.mobile.gutter": {
+      "node": "19443:23242",
+      "figma": {
+        "kind": "padding",
+        "px": 16
+      },
+      "via": "rest"
+    },
+    "radii.radius-3-33": {
+      "node": "I19443:23756;1587:16944",
+      "figma": 3.3299999237060547,
+      "via": "rest"
+    },
+    "radii.radius-1-33": {
+      "node": "I19443:23756;1587:16946",
+      "figma": 1.3333333730697632,
+      "via": "rest"
+    },
+    "radii.radius-100": {
+      "node": "19444:22299",
+      "figma": 100,
+      "via": "rest"
+    },
+    "radii.radius-300": {
+      "node": "19444:22305",
+      "figma": 300,
+      "via": "rest"
+    },
+    "radii.radius-40": {
+      "node": "19688:24092",
+      "figma": 40,
+      "via": "rest"
+    },
+    "buttons.primary.borderRadius": {
+      "node": "18542:171",
+      "figma": null,
+      "via": "rest",
+      "curated": {
+        "from": null,
+        "rule": "the Underline Swipe CTA component has no cornerRadius: square corners",
+        "evidence": "18542:171"
+      }
+    },
+    "buttons.secondary.borderRadius": {
+      "node": "18641:24600",
+      "figma": null,
+      "via": "rest",
+      "curated": {
+        "from": null,
+        "rule": "the Underline Swipe CTA component has no cornerRadius: square corners",
+        "evidence": "18641:24600"
+      }
+    },
+    "cards.primary.background": {
+      "node": "19443:23465",
+      "figma": null,
+      "via": "rest",
+      "curated": {
+        "from": null,
+        "rule": "product tiles in the For Every Milestone rail paint a white fill",
+        "evidence": "19443:23465"
+      }
+    },
+    "cards.primary.borderRadius": {
+      "node": "19443:23465",
+      "figma": null,
+      "via": "rest",
+      "curated": {
+        "from": null,
+        "rule": "every tile in the reference frame is square-cornered (no radii on tile frames)",
+        "evidence": "19443:23465"
+      }
+    },
+    "cards.primary.padding": {
+      "node": "19443:23344",
+      "figma": null,
+      "via": "rest",
+      "curated": {
+        "from": null,
+        "rule": "tile text blocks inset 16px (pad-16 on the tile content frames)",
+        "evidence": "19443:23344"
+      }
+    },
+    "cards.primary.titleColor": {
+      "node": "19443:23416",
+      "figma": null,
+      "via": "rest",
+      "curated": {
+        "from": null,
+        "rule": "tile titles on light tiles are black",
+        "evidence": "19443:23416"
+      }
+    },
+    "layout.mobile.sectionPaddingY": {
+      "node": "19443:23927",
+      "figma": null,
+      "via": "rest",
+      "curated": {
+        "from": null,
+        "rule": "the mobile frame halves band padding (pad-40 on stacked bands)",
+        "evidence": "19443:23927"
+      }
+    },
+    "type.display.textAlign": {
+      "node": "19443:23333",
+      "figma": {
+        "textAlignHorizontal": {
+          "left": 140,
+          "center": 17
+        }
+      },
+      "via": "rest",
+      "derived": "majority by characters"
+    },
+    "layout.navAlign": {
+      "node": "19443:23242",
+      "figma": {
+        "headerRows": {
+          "end": 3,
+          "start": 2
+        }
+      },
+      "via": "rest",
+      "derived": "majority of desktop header rows"
+    }
+  },
+  "coverage": {
+    "asserted": 13,
+    "absent": [],
+    "suspect": [],
+    "recommended": {
+      "curated": [
+        "cards.primary.background",
+        "cards.primary.borderRadius",
+        "cards.primary.padding",
+        "cards.primary.titleColor",
+        "buttons.primary.height",
+        "layout.mobile.sectionPaddingY",
+        "layout.mobile.gutter"
+      ],
+      "missing": []
+    }
+  }
+}

@@ -1,0 +1,1152 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-11-05T06:23:41.842Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/canteen",
+    "viewport": "1440x900",
+    "scope": "nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!",
+    "normalize": {
+      "source": "/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/school-life-canteen.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes, any cookie/consent/gdpr-named element inside a fixed/sticky/high-z overlay)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N3",
+          "what": "open every .nsw-accordion panel (unhide its content region, aria-expanded=true)",
+          "why": "closed panel text is content; capture-only — the rendered accordion keeps the closed rest state"
+        }
+      ]
+    },
+    "settle": {
+      "firstLen": 3359,
+      "waitedMs": 1509,
+      "stable": true,
+      "settledLen": 3359,
+      "lateChars": 0
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "domcontentloaded",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Canteen",
+    "description": "At Fort Street High School, our school canteen offers healthy, affordable food options for students. Learn about our canteen opening hours, our menu and how to order lunch.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/canteen",
+    "ogTags": {
+      "og:title": "Canteen",
+      "og:description": "At Fort Street High School, our school canteen offers healthy, affordable food options for students. Learn about our canteen opening hours, our menu and how to order lunch.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/school-life/canteen",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_128fd219545ea03c832087b3d7f032cd825fa7771.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_128fd219545ea03c832087b3d7f032cd825fa7771.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:alt": "Canteen menu"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Canteen",
+      "twitter:description": "At Fort Street High School, our school canteen offers healthy, affordable food options for students. Learn about our canteen opening hours, our menu and how to order lunch.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_128fd219545ea03c832087b3d7f032cd825fa7771.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "nav.nsw-breadcrumbs",
+      "whole": true
+    },
+    {
+      "sel": "main",
+      "whole": false
+    },
+    {
+      "sel": "aside.nsw-layout__sidebar--desktop",
+      "whole": true
+    }
+  ],
+  "visibleTextNormalized": "HomeSchool lifeCanteen Canteen All canteens in NSW public schools must meet certain requirements. These include providing more healthy food and drink options – to make the healthy choice an easy choice for students. Visit Healthy school canteens to learn more. Bon Appetit Catering operate the Fort Street High School canteen and is a family-operated business with over 20 years of experience. They are dedicated to providing high-quality, healthy food options to students and staff. Our canteen is open daily from 8:00am, offering a delicious breakfast menu. Payment can be made via either cash or card or via Flexischools. Our school uses Flexischools for online ordering. Flexischools, operates in more than 1650 schools across Australia, enabling cashless ordering for schools. How to setup your Flexischools account Simply use the QR code to download the Flexischools App from the Apple or Google stores and follow the prompts to create an account. You can also signup through the Flexischools website flexischools.com.au (opens in new window) If you already have a Flexischools account you can simply add a new student to your existing account. Cancelling your order Orders can be cancelled through the Flexischools app prior to being sent to the canteen each morning. To cancel your order click on “Orders” in the Flexischools app and then click on the order you wish to cancel. If the order is still available to cancel, simply click on the cancel button. The full amount of your order will be refunded to your Flexischools Wallet. Fee & Charges A 29c transaction fee is charged on every canteen order placed through the Flexischools App. This fee is in addition to the cost of the canteen items and is charged at the time of purchase. There is an additional surcharge for purchases or account top ups made by credit card or PayPal, however parents can top up their Flexischools wallet by EFT which incurs no surcharge. Please visit Flexischools Help & Support (opens in new window) section for additional information and tips. Our Terms & Conditions can be found here: Legal & Privacy (opens in new window) Contact the Canteen The canteen can be reached on 8585 1628 Parent portal Use our parent portal apps to make a payment, view reports and record absences. east Bell times Learn about our start and finish times, breaks and activities. east Section navigation School life Bell times Bring your own device Canteen Events Forms House and Merit System Lockers and lost property Newsletters Parent portal Stationery Student opportunities and activities Travel to school Uniform",
+  "coverage": {
+    "bodyTextLen": 3359,
+    "scopeTextLen": 2586,
+    "ratio": 0.77,
+    "h1Text": "Canteen",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "nav",
+      "rootClass": "nsw-breadcrumbs js-breadcrumbs",
+      "visibleText": "HomeSchool lifeCanteen",
+      "headings": [],
+      "paragraphs": [],
+      "listItems": [
+        "Home",
+        "School life",
+        "Canteen"
+      ],
+      "ctas": [
+        {
+          "text": "Home",
+          "href": "https://fortstreet-h.schools.nsw.gov.au",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/",
+          "classes": ""
+        },
+        {
+          "text": "School life",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/school-life",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life",
+          "classes": "breadcrumb"
+        },
+        {
+          "text": "Canteen",
+          "href": "",
+          "absHref": "",
+          "classes": "current"
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Home",
+          "display": "inline-block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Home",
+              "display": "inline-block",
+              "href": "https://fortstreet-h.schools.nsw.gov.au",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "School life",
+          "display": "inline-block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "School life",
+              "display": "inline-block",
+              "href": "https://fortstreet-h.schools.nsw.gov.au/school-life",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life",
+              "classes": "breadcrumb",
+              "sep": ""
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Canteen",
+          "display": "inline-block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Canteen",
+              "display": "inline-block",
+              "href": "",
+              "absHref": "",
+              "classes": "current",
+              "sep": ""
+            }
+          ],
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Canteen All canteens in NSW public schools must meet certain requirements. These include providing more healthy food and drink options – to make the healthy choice an easy choice for students. Visit Healthy school canteens to learn more. Bon Appetit Catering operate the Fort Street High School canteen and is a family-operated business with over 20 years of experience. They are dedicated to providing high-quality, healthy food options to students and staff. Our canteen is open daily from 8:00am, offering a delicious breakfast menu. Payment can be made via either cash or card or via Flexischools. Our school uses Flexischools for online ordering. Flexischools, operates in more than 1650 schools across Australia, enabling cashless ordering for schools.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Canteen"
+        }
+      ],
+      "paragraphs": [
+        "All canteens in NSW public schools must meet certain requirements. These include providing more healthy food and drink options – to make the healthy choice an easy choice for students. Visit Healthy school canteens to learn more.",
+        "Bon Appetit Catering operate the Fort Street High School canteen and is a family-operated business with over 20 years of experience. They are dedicated to providing high-quality, healthy food options to students and staff. Our canteen is open daily from 8:00am, offering a delicious breakfast menu. Payment can be made via either cash or card or via Flexischools.",
+        "Our school uses Flexischools for online ordering.",
+        "Flexischools, operates in more than 1650 schools across Australia, enabling cashless ordering for schools."
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Healthy school canteens",
+          "href": "https://education.nsw.gov.au/student-wellbeing/whole-school-approach/healthy-canteens",
+          "absHref": "https://education.nsw.gov.au/student-wellbeing/whole-school-approach/healthy-canteens",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_128fd219545ea03c832087b3d7f032cd825fa7771.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "Canteen menu",
+          "w": 1191,
+          "h": 1684
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Canteen",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "All canteens in NSW public schools must meet certain requirements. These include providing more healthy food and drink options – to make the healthy choice an easy choice for students. Visit Healthy school canteens to learn more.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "All canteens in NSW public schools must meet certain requirements. These include providing more healthy food and drink options – to make the healthy choice an easy choice for students. Visit",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Healthy school canteens",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/student-wellbeing/whole-school-approach/healthy-canteens",
+              "absHref": "https://education.nsw.gov.au/student-wellbeing/whole-school-approach/healthy-canteens",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "to learn more.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Bon Appetit Catering operate the Fort Street High School canteen and is a family-operated business with over 20 years of experience. They are dedicated to providing high-quality, healthy food options to students and staff. Our canteen is open daily from 8:00am, offering a delicious breakfast menu. Payment can be made via either cash or card or via Flexischools.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our school uses Flexischools for online ordering.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Flexischools, operates in more than 1650 schools across Australia, enabling cashless ordering for schools.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_128fd219545ea03c832087b3d7f032cd825fa7771.jpg?width=2000&format=webply&optimize=medium",
+              "alt": "Canteen menu",
+              "rw": 768
+            }
+          ],
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "How to setup your Flexischools account Simply use the QR code to download the Flexischools App from the Apple or Google stores and follow the prompts to create an account. You can also signup through the Flexischools website flexischools.com.au (opens in new window) If you already have a Flexischools account you can simply add a new student to your existing account.",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "How to setup your Flexischools account"
+        }
+      ],
+      "paragraphs": [
+        "Simply use the QR code to download the Flexischools App from the Apple or Google stores and follow the prompts to create an account.",
+        "You can also signup through the Flexischools website flexischools.com.au (opens in new window)",
+        "If you already have a Flexischools account you can simply add a new student to your existing account."
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "flexischools.com.au (opens in new window)",
+          "href": "https://user.flexischools.com.au/deeplink/home?utm_source=referral&utm_medium=school_link&utm_campaign=parents",
+          "absHref": "https://user.flexischools.com.au/deeplink/home?utm_source=referral&utm_medium=school_link&utm_campaign=parents",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "How to setup your Flexischools account",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Simply use the QR code to download the Flexischools App from the Apple or Google stores and follow the prompts to create an account.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "You can also signup through the Flexischools website flexischools.com.au (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "You can also signup through the Flexischools website",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "flexischools.com.au (opens in new window)",
+              "display": "inline",
+              "href": "https://user.flexischools.com.au/deeplink/home?utm_source=referral&utm_medium=school_link&utm_campaign=parents",
+              "absHref": "https://user.flexischools.com.au/deeplink/home?utm_source=referral&utm_medium=school_link&utm_campaign=parents",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "flexischools.com.au",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "srOnly": true,
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "If you already have a Flexischools account you can simply add a new student to your existing account.",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s04",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "",
+      "headings": [],
+      "paragraphs": [],
+      "listItems": [],
+      "ctas": [],
+      "iconLinks": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_13acf190dfadd101eab66415808c5252237459207.png?width=2000&format=webply&optimize=medium",
+          "alt": "Facebook tiles school promo assets - Register",
+          "w": 1080,
+          "h": 1080
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_13acf190dfadd101eab66415808c5252237459207.png?width=2000&format=webply&optimize=medium",
+          "alt": "Facebook tiles school promo assets - Register",
+          "rw": 768,
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s05",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Cancelling your order Orders can be cancelled through the Flexischools app prior to being sent to the canteen each morning. To cancel your order click on “Orders” in the Flexischools app and then click on the order you wish to cancel. If the order is still available to cancel, simply click on the cancel button. The full amount of your order will be refunded to your Flexischools Wallet. Fee & Charges A 29c transaction fee is charged on every canteen order placed through the Flexischools App. This fee is in addition to the cost of the canteen items and is charged at the time of purchase. There is an additional surcharge for purchases or account top ups made by credit card or PayPal, however parents can top up their Flexischools wallet by EFT which incurs no surcharge. Please visit Flexischools Help & Support (opens in new window) section for additional information and tips. Our Terms & Conditions can be found here: Legal & Privacy (opens in new window)",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Cancelling your order"
+        },
+        {
+          "level": "h2",
+          "text": "Fee & Charges"
+        }
+      ],
+      "paragraphs": [
+        "Orders can be cancelled through the Flexischools app prior to being sent to the canteen each morning.",
+        "To cancel your order click on “Orders” in the Flexischools app and then click on the order you wish to cancel. If the order is still available to cancel, simply click on the cancel button. The full amount of your order will be refunded to your Flexischools Wallet.",
+        "A 29c transaction fee is charged on every canteen order placed through the Flexischools App. This fee is in addition to the cost of the canteen items and is charged at the time of purchase.",
+        "There is an additional surcharge for purchases or account top ups made by credit card or PayPal, however parents can top up their Flexischools wallet by EFT which incurs no surcharge.",
+        "Please visit Flexischools Help & Support (opens in new window) section for additional information and tips.",
+        "Our Terms & Conditions can be found here: Legal & Privacy (opens in new window)"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Help & Support (opens in new window)",
+          "href": "https://support.flexischools.com.au/",
+          "absHref": "https://support.flexischools.com.au/",
+          "classes": ""
+        },
+        {
+          "text": "Legal & Privacy (opens in new window)",
+          "href": "https://flexischools.com.au/legal",
+          "absHref": "https://flexischools.com.au/legal",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Cancelling your order",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Orders can be cancelled through the Flexischools app prior to being sent to the canteen each morning.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "To cancel your order click on “Orders” in the Flexischools app and then click on the order you wish to cancel. If the order is still available to cancel, simply click on the cancel button. The full amount of your order will be refunded to your Flexischools Wallet.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Fee & Charges",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "A 29c transaction fee is charged on every canteen order placed through the Flexischools App. This fee is in addition to the cost of the canteen items and is charged at the time of purchase.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "There is an additional surcharge for purchases or account top ups made by credit card or PayPal, however parents can top up their Flexischools wallet by EFT which incurs no surcharge.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Please visit Flexischools Help & Support (opens in new window) section for additional information and tips.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Please visit Flexischools",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Help & Support (opens in new window)",
+              "display": "inline",
+              "href": "https://support.flexischools.com.au/",
+              "absHref": "https://support.flexischools.com.au/",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Help & Support",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "srOnly": true,
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "section for additional information and tips.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our Terms & Conditions can be found here: Legal & Privacy (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Our Terms & Conditions can be found here:",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Legal & Privacy (opens in new window)",
+              "display": "inline",
+              "href": "https://flexischools.com.au/legal",
+              "absHref": "https://flexischools.com.au/legal",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Legal & Privacy",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "srOnly": true,
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s06",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "Contact the Canteen The canteen can be reached on 8585 1628",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Contact the Canteen"
+        }
+      ],
+      "paragraphs": [
+        "The canteen can be reached on 8585 1628"
+      ],
+      "listItems": [],
+      "ctas": [],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Contact the Canteen",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "The canteen can be reached on 8585 1628",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "dark",
+      "bg": "rgb(99, 0, 25)",
+      "toneEl": "main#main > div.section.nsw-section"
+    },
+    {
+      "slot": "s07",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Parent portal Use our parent portal apps to make a payment, view reports and record absences. east Bell times Learn about our start and finish times, breaks and activities. east",
+      "headings": [],
+      "paragraphs": [
+        "Use our parent portal apps to make a payment, view reports and record absences.",
+        "Learn about our start and finish times, breaks and activities."
+      ],
+      "listItems": [
+        "Parent portal Use our parent portal apps to make a payment, view reports and record absences. east",
+        "Bell times Learn about our start and finish times, breaks and activities. east"
+      ],
+      "ctas": [
+        {
+          "text": "Parent portal",
+          "href": "/school-life/parent-portal",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+          "classes": ""
+        },
+        {
+          "text": "Bell times",
+          "href": "/school-life/bell-times",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/bell-times",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Parent portal Use our parent portal apps to make a payment, view reports and record absences. east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Parent portal",
+              "display": "inline",
+              "href": "/school-life/parent-portal",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Use our parent portal apps to make a payment, view reports and record absences.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Bell times Learn about our start and finish times, breaks and activities. east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Bell times",
+              "display": "inline",
+              "href": "/school-life/bell-times",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/bell-times",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Learn about our start and finish times, breaks and activities.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s08",
+      "rootTag": "aside",
+      "rootClass": "nsw-layout__sidebar nsw-layout__sidebar--desktop sidebar-wrapper",
+      "visibleText": "Section navigation School life Bell times Bring your own device Canteen Events Forms House and Merit System Lockers and lost property Newsletters Parent portal Stationery Student opportunities and activities Travel to school Uniform",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Section navigation"
+        }
+      ],
+      "paragraphs": [],
+      "listItems": [
+        "Bell times",
+        "Bring your own device",
+        "Canteen",
+        "Events",
+        "Forms",
+        "House and Merit System",
+        "Lockers and lost property",
+        "Newsletters",
+        "Parent portal",
+        "Stationery",
+        "Student opportunities and activities",
+        "Travel to school",
+        "Uniform"
+      ],
+      "ctas": [
+        {
+          "text": "School life",
+          "href": "/school-life",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life",
+          "classes": ""
+        },
+        {
+          "text": "Bell times",
+          "href": "/school-life/bell-times",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/bell-times",
+          "classes": ""
+        },
+        {
+          "text": "Bring your own device",
+          "href": "/school-life/bring-your-own-device",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/bring-your-own-device",
+          "classes": ""
+        },
+        {
+          "text": "Canteen",
+          "href": "/school-life/canteen",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/canteen",
+          "classes": "current"
+        },
+        {
+          "text": "Events",
+          "href": "/school-life/events",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+          "classes": ""
+        },
+        {
+          "text": "Forms",
+          "href": "/school-life/forms",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/forms",
+          "classes": ""
+        },
+        {
+          "text": "House and Merit System",
+          "href": "/school-life/house-and-merit-system",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/house-and-merit-system",
+          "classes": ""
+        },
+        {
+          "text": "Lockers and lost property",
+          "href": "/school-life/lockers-and-lost-property",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/lockers-and-lost-property",
+          "classes": ""
+        },
+        {
+          "text": "Newsletters",
+          "href": "/school-life/newsletters",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters",
+          "classes": ""
+        },
+        {
+          "text": "Parent portal",
+          "href": "/school-life/parent-portal",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+          "classes": ""
+        },
+        {
+          "text": "Stationery",
+          "href": "/school-life/stationery",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/stationery",
+          "classes": ""
+        },
+        {
+          "text": "Student opportunities and activities",
+          "href": "/school-life/student-opportunities-and-activities",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities",
+          "classes": ""
+        },
+        {
+          "text": "Travel to school",
+          "href": "/school-life/travel-to-school",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school",
+          "classes": ""
+        },
+        {
+          "text": "Uniform",
+          "href": "/school-life/uniform",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Section navigation",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "cta",
+          "text": "School life",
+          "display": "flex",
+          "href": "/school-life",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life",
+          "classes": "",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Bell times",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Bell times",
+              "display": "block",
+              "href": "/school-life/bell-times",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/bell-times",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Bring your own device",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Bring your own device",
+              "display": "block",
+              "href": "/school-life/bring-your-own-device",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/bring-your-own-device",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Canteen",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Canteen",
+              "display": "block",
+              "href": "/school-life/canteen",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/canteen",
+              "classes": "current",
+              "buttonLike": true,
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Events",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Events",
+              "display": "block",
+              "href": "/school-life/events",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Forms",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Forms",
+              "display": "block",
+              "href": "/school-life/forms",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/forms",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "House and Merit System",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "House and Merit System",
+              "display": "block",
+              "href": "/school-life/house-and-merit-system",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/house-and-merit-system",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Lockers and lost property",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Lockers and lost property",
+              "display": "block",
+              "href": "/school-life/lockers-and-lost-property",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/lockers-and-lost-property",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Newsletters",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Newsletters",
+              "display": "block",
+              "href": "/school-life/newsletters",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Parent portal",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Parent portal",
+              "display": "block",
+              "href": "/school-life/parent-portal",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Stationery",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Stationery",
+              "display": "block",
+              "href": "/school-life/stationery",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/stationery",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Student opportunities and activities",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Student opportunities and activities",
+              "display": "block",
+              "href": "/school-life/student-opportunities-and-activities",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Travel to school",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Travel to school",
+              "display": "block",
+              "href": "/school-life/travel-to-school",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Uniform",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Uniform",
+              "display": "block",
+              "href": "/school-life/uniform",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    }
+  ],
+  "residue": [
+    {
+      "sel": "header.header-wrapper",
+      "kind": "chrome",
+      "textLen": 275,
+      "lines": [
+        "Skip to navigation",
+        "Skip to content",
+        "NSW Government",
+        "Fort Street High School",
+        "Faber est suae quisque fortunae",
+        "search",
+        "Show",
+        "Search",
+        "About us",
+        "keyboard_arrow_right",
+        "School life",
+        "keyboard_arrow_right",
+        "Learning and support",
+        "keyboard_arrow_right",
+        "Our community",
+        "keyboard_arrow_right",
+        "Contact us"
+      ],
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 172
+      }
+    },
+    {
+      "sel": "footer.footer-wrapper",
+      "kind": "chrome",
+      "textLen": 496,
+      "lines": [
+        "Fort Street High School",
+        "General enquiries",
+        "fortstreet-h.school@det.nsw.edu.au",
+        "8585 1600",
+        "620 PARRAMATTA ROAD, NSW 2049 PETERSHAM",
+        "Follow us",
+        "We recognise the Ongoing Custodians of the lands and waterways where we work and live. We pay respect to Elders past and present as ongoing teachers of knowledge, songlines and stories. We strive to ensure every Aboriginal and/or Torres Strait Islander learner in NSW achieves their potential through education.",
+        "Your feedback",
+        "Policy library",
+        "Information access"
+      ],
+      "rect": {
+        "x": 0,
+        "y": 3851,
+        "w": 1440,
+        "h": 509
+      }
+    }
+  ]
+}

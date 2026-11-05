@@ -1,0 +1,747 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-11-05T06:25:38.243Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support",
+    "viewport": "1440x900",
+    "scope": "nav.nsw-breadcrumbs!,main,aside.nsw-layout__sidebar--desktop!",
+    "normalize": {
+      "source": "/Users/ssandal/repos/dummy_repos/signat-figma-migration/stardust/reskin/normalize/learning-and-support.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes, any cookie/consent/gdpr-named element inside a fixed/sticky/high-z overlay)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N3",
+          "what": "open every .nsw-accordion panel (unhide its content region, aria-expanded=true)",
+          "why": "closed panel text is content; capture-only — the rendered accordion keeps the closed rest state"
+        }
+      ]
+    },
+    "settle": {
+      "firstLen": 1514,
+      "waitedMs": 1510,
+      "stable": true,
+      "settledLen": 1514,
+      "lateChars": 0
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "domcontentloaded",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Learning and support",
+    "description": "Learn more about learning and support at Fort Street High School.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support",
+    "ogTags": {
+      "og:title": "Learning and support",
+      "og:description": "Learn more about learning and support at Fort Street High School.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/media_1cf7f6a804191758b506ef257522ed6c9db65555b.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/media_1cf7f6a804191758b506ef257522ed6c9db65555b.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:alt": "students"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Learning and support",
+      "twitter:description": "Learn more about learning and support at Fort Street High School.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/media_1cf7f6a804191758b506ef257522ed6c9db65555b.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "nav.nsw-breadcrumbs",
+      "whole": true
+    },
+    {
+      "sel": "main",
+      "whole": false
+    },
+    {
+      "sel": "aside.nsw-layout__sidebar--desktop",
+      "whole": true
+    }
+  ],
+  "visibleTextNormalized": "HomeLearning and support Learning and support Learning Explore our diverse subjects and effective teaching strategies designed to support every student's learning journey! east Wellbeing Find out about how we support student wellbeing in our school. east Additional learning support Discover how we ensure every student feels safe and ready to learn, including those with disabilities and additional learning needs! east Inspire – High potential and gifted education Find out about how our school recognises, supports and nurtures advanced learners. east Section navigation About us Contact us Learning and support Additional learning support Careers Inspire – High potential and gifted education Learning Wellbeing Our community School life",
+  "coverage": {
+    "bodyTextLen": 1514,
+    "scopeTextLen": 741,
+    "ratio": 0.489,
+    "h1Text": "Learning and support",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "nav",
+      "rootClass": "nsw-breadcrumbs js-breadcrumbs",
+      "visibleText": "HomeLearning and support",
+      "headings": [],
+      "paragraphs": [],
+      "listItems": [
+        "Home",
+        "Learning and support"
+      ],
+      "ctas": [
+        {
+          "text": "Home",
+          "href": "https://fortstreet-h.schools.nsw.gov.au",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/",
+          "classes": ""
+        },
+        {
+          "text": "Learning and support",
+          "href": "",
+          "absHref": "",
+          "classes": "current"
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Home",
+          "display": "inline-block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Home",
+              "display": "inline-block",
+              "href": "https://fortstreet-h.schools.nsw.gov.au",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Learning and support",
+          "display": "inline-block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Learning and support",
+              "display": "inline-block",
+              "href": "",
+              "absHref": "",
+              "classes": "current",
+              "sep": ""
+            }
+          ],
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Learning and support",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Learning and support"
+        }
+      ],
+      "paragraphs": [],
+      "listItems": [],
+      "ctas": [],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Learning and support",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Learning Explore our diverse subjects and effective teaching strategies designed to support every student's learning journey! east Wellbeing Find out about how we support student wellbeing in our school. east Additional learning support Discover how we ensure every student feels safe and ready to learn, including those with disabilities and additional learning needs! east Inspire – High potential and gifted education Find out about how our school recognises, supports and nurtures advanced learners. east",
+      "headings": [],
+      "paragraphs": [
+        "Explore our diverse subjects and effective teaching strategies designed to support every student's learning journey!",
+        "Find out about how we support student wellbeing in our school.",
+        "Discover how we ensure every student feels safe and ready to learn, including those with disabilities and additional learning needs!",
+        "Find out about how our school recognises, supports and nurtures advanced learners."
+      ],
+      "listItems": [
+        "Learning Explore our diverse subjects and effective teaching strategies designed to support every student's learning journey! east",
+        "Wellbeing Find out about how we support student wellbeing in our school. east",
+        "Additional learning support Discover how we ensure every student feels safe and ready to learn, including those with disabilities and additional learning needs! east",
+        "Inspire – High potential and gifted education Find out about how our school recognises, supports and nurtures advanced learners. east"
+      ],
+      "ctas": [
+        {
+          "text": "Learning",
+          "href": "/learning-and-support/learning",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/learning",
+          "classes": ""
+        },
+        {
+          "text": "Wellbeing",
+          "href": "/learning-and-support/wellbeing",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/wellbeing",
+          "classes": ""
+        },
+        {
+          "text": "Additional learning support",
+          "href": "/learning-and-support/additional-learning-support",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support",
+          "classes": ""
+        },
+        {
+          "text": "Inspire – High potential and gifted education",
+          "href": "/learning-and-support/high-potential-and-gifted-education",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/high-potential-and-gifted-education",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_1cf7f6a804191758b506ef257522ed6c9db65555b.jpg?width=750&format=webply&optimize=medium",
+          "alt": "students",
+          "w": 750,
+          "h": 501
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_19ef0ac1f3b662bac6ce8ee537dc93be686fa662e.jpg?width=750&format=webply&optimize=medium",
+          "alt": "students",
+          "w": 750,
+          "h": 501
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_187890be11be32aebae7a65c2def69dc96c89be8d.jpg?width=750&format=webply&optimize=medium",
+          "alt": "students",
+          "w": 750,
+          "h": 500
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_13e571d4b9eeefd9a4133a1d707c3d7036e93b911.jpg?width=750&format=webply&optimize=medium",
+          "alt": "",
+          "w": 750,
+          "h": 525
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Learning Explore our diverse subjects and effective teaching strategies designed to support every student's learning journey! east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_1cf7f6a804191758b506ef257522ed6c9db65555b.jpg?width=750&format=webply&optimize=medium",
+              "alt": "students",
+              "rw": 368,
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Learning",
+              "display": "inline",
+              "href": "/learning-and-support/learning",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/learning",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Explore our diverse subjects and effective teaching strategies designed to support every student's learning journey!",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Wellbeing Find out about how we support student wellbeing in our school. east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_19ef0ac1f3b662bac6ce8ee537dc93be686fa662e.jpg?width=750&format=webply&optimize=medium",
+              "alt": "students",
+              "rw": 368,
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Wellbeing",
+              "display": "inline",
+              "href": "/learning-and-support/wellbeing",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/wellbeing",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Find out about how we support student wellbeing in our school.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Additional learning support Discover how we ensure every student feels safe and ready to learn, including those with disabilities and additional learning needs! east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_187890be11be32aebae7a65c2def69dc96c89be8d.jpg?width=750&format=webply&optimize=medium",
+              "alt": "students",
+              "rw": 368,
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Additional learning support",
+              "display": "inline",
+              "href": "/learning-and-support/additional-learning-support",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Discover how we ensure every student feels safe and ready to learn, including those with disabilities and additional learning needs!",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Inspire – High potential and gifted education Find out about how our school recognises, supports and nurtures advanced learners. east",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_13e571d4b9eeefd9a4133a1d707c3d7036e93b911.jpg?width=750&format=webply&optimize=medium",
+              "alt": "",
+              "rw": 368,
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Inspire – High potential and gifted education",
+              "display": "inline",
+              "href": "/learning-and-support/high-potential-and-gifted-education",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/high-potential-and-gifted-education",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Find out about how our school recognises, supports and nurtures advanced learners.",
+              "display": "block",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "east",
+              "parentTag": "span",
+              "parentClass": "material-icons nsw-material-icons",
+              "glyph": true,
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "slot": "s04",
+      "rootTag": "aside",
+      "rootClass": "nsw-layout__sidebar nsw-layout__sidebar--desktop sidebar-wrapper",
+      "visibleText": "Section navigation About us Contact us Learning and support Additional learning support Careers Inspire – High potential and gifted education Learning Wellbeing Our community School life",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Section navigation"
+        }
+      ],
+      "paragraphs": [],
+      "listItems": [
+        "About us",
+        "Contact us",
+        "Learning and support Additional learning support Careers Inspire – High potential and gifted education Learning Wellbeing",
+        "Additional learning support",
+        "Careers",
+        "Inspire – High potential and gifted education",
+        "Learning",
+        "Wellbeing",
+        "Our community",
+        "School life"
+      ],
+      "ctas": [
+        {
+          "text": "About us",
+          "href": "/about-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+          "classes": ""
+        },
+        {
+          "text": "Contact us",
+          "href": "/contact-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+          "classes": ""
+        },
+        {
+          "text": "Learning and support",
+          "href": "/learning-and-support",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support",
+          "classes": "current"
+        },
+        {
+          "text": "Additional learning support",
+          "href": "/learning-and-support/additional-learning-support",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support",
+          "classes": ""
+        },
+        {
+          "text": "Careers",
+          "href": "/learning-and-support/careers",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/careers",
+          "classes": ""
+        },
+        {
+          "text": "Inspire – High potential and gifted education",
+          "href": "/learning-and-support/high-potential-and-gifted-education",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/high-potential-and-gifted-education",
+          "classes": ""
+        },
+        {
+          "text": "Learning",
+          "href": "/learning-and-support/learning",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/learning",
+          "classes": ""
+        },
+        {
+          "text": "Wellbeing",
+          "href": "/learning-and-support/wellbeing",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/wellbeing",
+          "classes": ""
+        },
+        {
+          "text": "Our community",
+          "href": "/our-community",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/our-community",
+          "classes": ""
+        },
+        {
+          "text": "School life",
+          "href": "/school-life",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life",
+          "classes": ""
+        }
+      ],
+      "iconLinks": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Section navigation",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "About us",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "About us",
+              "display": "block",
+              "href": "/about-us",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Contact us",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Contact us",
+              "display": "block",
+              "href": "/contact-us",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Learning and support Additional learning support Careers Inspire – High potential and gifted education Learning Wellbeing",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Learning and support",
+              "display": "block",
+              "href": "/learning-and-support",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support",
+              "classes": "current",
+              "buttonLike": true,
+              "sep": ""
+            },
+            {
+              "kind": "listItem",
+              "text": "Additional learning support",
+              "display": "list-item",
+              "children": [
+                {
+                  "kind": "cta",
+                  "text": "Additional learning support",
+                  "display": "block",
+                  "href": "/learning-and-support/additional-learning-support",
+                  "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support",
+                  "classes": "",
+                  "sep": ""
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "listItem",
+              "text": "Careers",
+              "display": "list-item",
+              "children": [
+                {
+                  "kind": "cta",
+                  "text": "Careers",
+                  "display": "block",
+                  "href": "/learning-and-support/careers",
+                  "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/careers",
+                  "classes": "",
+                  "sep": ""
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "listItem",
+              "text": "Inspire – High potential and gifted education",
+              "display": "list-item",
+              "children": [
+                {
+                  "kind": "cta",
+                  "text": "Inspire – High potential and gifted education",
+                  "display": "block",
+                  "href": "/learning-and-support/high-potential-and-gifted-education",
+                  "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/high-potential-and-gifted-education",
+                  "classes": "",
+                  "sep": ""
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "listItem",
+              "text": "Learning",
+              "display": "list-item",
+              "children": [
+                {
+                  "kind": "cta",
+                  "text": "Learning",
+                  "display": "block",
+                  "href": "/learning-and-support/learning",
+                  "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/learning",
+                  "classes": "",
+                  "sep": ""
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "listItem",
+              "text": "Wellbeing",
+              "display": "list-item",
+              "children": [
+                {
+                  "kind": "cta",
+                  "text": "Wellbeing",
+                  "display": "block",
+                  "href": "/learning-and-support/wellbeing",
+                  "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/wellbeing",
+                  "classes": "",
+                  "sep": ""
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Our community",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Our community",
+              "display": "block",
+              "href": "/our-community",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/our-community",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "School life",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "School life",
+              "display": "block",
+              "href": "/school-life",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "tone": "page",
+      "bg": "rgb(255, 255, 255)"
+    }
+  ],
+  "residue": [
+    {
+      "sel": "header.header-wrapper",
+      "kind": "chrome",
+      "textLen": 275,
+      "lines": [
+        "Skip to navigation",
+        "Skip to content",
+        "NSW Government",
+        "Fort Street High School",
+        "Faber est suae quisque fortunae",
+        "search",
+        "Show",
+        "Search",
+        "About us",
+        "keyboard_arrow_right",
+        "School life",
+        "keyboard_arrow_right",
+        "Learning and support",
+        "keyboard_arrow_right",
+        "Our community",
+        "keyboard_arrow_right",
+        "Contact us"
+      ],
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 172
+      }
+    },
+    {
+      "sel": "footer.footer-wrapper",
+      "kind": "chrome",
+      "textLen": 496,
+      "lines": [
+        "Fort Street High School",
+        "General enquiries",
+        "fortstreet-h.school@det.nsw.edu.au",
+        "8585 1600",
+        "620 PARRAMATTA ROAD, NSW 2049 PETERSHAM",
+        "Follow us",
+        "We recognise the Ongoing Custodians of the lands and waterways where we work and live. We pay respect to Elders past and present as ongoing teachers of knowledge, songlines and stories. We strive to ensure every Aboriginal and/or Torres Strait Islander learner in NSW achieves their potential through education.",
+        "Your feedback",
+        "Policy library",
+        "Information access"
+      ],
+      "rect": {
+        "x": 0,
+        "y": 1458,
+        "w": 1440,
+        "h": 509
+      }
+    }
+  ]
+}

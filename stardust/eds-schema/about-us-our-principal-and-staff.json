@@ -1,0 +1,229 @@
+{
+  "source": "http://localhost:3000/stardust/reskin/pages/about-us-our-principal-and-staff.html",
+  "width": 1280,
+  "profile": "eds",
+  "sections": [
+    {
+      "section": "band",
+      "items": [
+        {
+          "role": "heading",
+          "order": 0,
+          "text": "Welcome from our principal"
+        },
+        {
+          "role": "body",
+          "order": 1,
+          "text": "It is my honour to be Principal at Fort Street High School. It goes without saying that it is also an incredible responsibility to lead a school with such a history in nurturing and producing so many great Australians."
+        },
+        {
+          "role": "body",
+          "order": 2,
+          "text": "Fort Street High School is a co-educational, academically selective, public high school with a long and proud history. Established in 1849 as a Model school, it is the oldest government high school in Australia."
+        },
+        {
+          "role": "body",
+          "order": 3,
+          "text": "All students at Fort Street are encouraged to reach their full potential and enjoy a dynamic and rich school experience. The school fosters an environment where intelligent young men and women can express both their individuality and develop a strong sense of belonging and a commitment to social justice."
+        },
+        {
+          "role": "body",
+          "order": 4,
+          "text": "Fort Street High School offers a broad curriculum and an extensive range of co-curricular programs to challenge and inspire all students."
+        },
+        {
+          "role": "body",
+          "order": 5,
+          "text": "We have a strong focus on student leadership, on promoting positive values and developing a sense of global citizenship."
+        },
+        {
+          "role": "body",
+          "order": 6,
+          "text": "The school community truly represents multicultural Australia, and is a harmonious community which respects each individual. Students come from 100 suburbs of Sydney."
+        },
+        {
+          "role": "body",
+          "order": 7,
+          "text": "Our students speak about 40 different languages and enrich the life of this great school, a school which is known for tolerance and acceptance."
+        },
+        {
+          "role": "body",
+          "order": 8,
+          "text": "It is my privilege to work with the wider community, parents, P&C, the Fort Street Foundation, the School Council and the Fortians Union to maintain the important traditions and ensure that the school is a leader in education in the twenty first century."
+        },
+        {
+          "role": "body",
+          "order": 9,
+          "text": "Our alumni continue a deep connection with our community and have extensive involvement in the life of the school which is evidence of their rich and significant educational journey and the Fortian pride that has been fostered."
+        },
+        {
+          "role": "body",
+          "order": 10,
+          "text": "Ms Juliette McMurray, Principal of Fort Street High School"
+        }
+      ],
+      "imgCount": 1,
+      "editableTexts": 11,
+      "repeats": [],
+      "slot": "s03"
+    },
+    {
+      "section": "band",
+      "items": [
+        {
+          "role": "heading",
+          "order": 0,
+          "text": "Our teachers make the difference"
+        },
+        {
+          "role": "cta",
+          "order": 1,
+          "text": "Committed to your child\u2019s success",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/learning"
+        },
+        {
+          "role": "body",
+          "order": 2,
+          "text": "Our teachers ensure every student can thrive. They use proven ways to teach and tailor learning support for their students"
+        },
+        {
+          "role": "body",
+          "order": 3,
+          "text": "east"
+        },
+        {
+          "role": "cta",
+          "order": 4,
+          "text": "Expert, connected and accredited",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/learning"
+        },
+        {
+          "role": "body",
+          "order": 5,
+          "text": "Our teachers are part of a strong education network. They may hold advanced accreditation. This ensuring high-quality teaching for your child."
+        },
+        {
+          "role": "body",
+          "order": 6,
+          "text": "east"
+        },
+        {
+          "role": "cta",
+          "order": 7,
+          "text": "Teachers who never stop learning",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/learning"
+        },
+        {
+          "role": "body",
+          "order": 8,
+          "text": "Our teachers are lifelong learners. They stay current through regular training and keep improving how they teach students."
+        },
+        {
+          "role": "body",
+          "order": 9,
+          "text": "east"
+        },
+        {
+          "role": "cta",
+          "order": 10,
+          "text": "Teacher\u2013family partnerships",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support"
+        },
+        {
+          "role": "body",
+          "order": 11,
+          "text": "Our teachers build trust through clear communication. Our families know that their child has support and is ready to learn."
+        },
+        {
+          "role": "body",
+          "order": 12,
+          "text": "east"
+        }
+      ],
+      "imgCount": 0,
+      "editableTexts": 9,
+      "repeats": [
+        {
+          "unitSelector": "DIV.card",
+          "count": 4,
+          "unit": {
+            "headings": 0,
+            "ctas": 1,
+            "imgs": 0,
+            "textRuns": 3
+          },
+          "uniform": true
+        }
+      ],
+      "slot": "s08"
+    },
+    {
+      "section": "band",
+      "items": [
+        {
+          "role": "cta",
+          "order": 0,
+          "text": "Additional learning support",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support"
+        },
+        {
+          "role": "body",
+          "order": 1,
+          "text": "Find out how we support students with disability or additional learning needs."
+        },
+        {
+          "role": "body",
+          "order": 2,
+          "text": "east"
+        },
+        {
+          "role": "cta",
+          "order": 3,
+          "text": "Stories and highlights",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/about-us/stories-and-highlights"
+        },
+        {
+          "role": "body",
+          "order": 4,
+          "text": "Hear about stories, wins and proud moments from our staff and students."
+        },
+        {
+          "role": "body",
+          "order": 5,
+          "text": "east"
+        }
+      ],
+      "imgCount": 0,
+      "editableTexts": 4,
+      "repeats": [
+        {
+          "unitSelector": "DIV.card",
+          "count": 2,
+          "unit": {
+            "headings": 0,
+            "ctas": 1,
+            "imgs": 0,
+            "textRuns": 3
+          },
+          "uniform": true
+        }
+      ],
+      "slot": "s12"
+    }
+  ],
+  "_defaultContent": {
+    "slots": [
+      "s01",
+      "s02",
+      "s04",
+      "s05",
+      "s06",
+      "s07",
+      "s09",
+      "s10",
+      "s11",
+      "s13"
+    ],
+    "why": "deploy Step 2 D1: authored as default content (no block)"
+  }
+}

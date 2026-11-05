@@ -1,0 +1,62 @@
+{
+  "slug": "our-community-pandc",
+  "type": "content",
+  "renderBranch": "A'",
+  "template": "learning-and-support-learning",
+  "modules": [
+    "M3",
+    "M5b",
+    "M5",
+    "M9b",
+    "M11b"
+  ],
+  "slotsFilled": [
+    "s01",
+    "s02",
+    "s03",
+    "s04",
+    "s05",
+    "s06",
+    "s07",
+    "s08"
+  ],
+  "canonShas": {
+    "header": "1e8e0c3eebea",
+    "footer": "a8b6d4b37731",
+    "css": "5fe9e7ffc80e"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Parents and Citizens Association",
+    "description": "At Fort Street High School, we value strong partnerships with families and the community. Parents and carers can get involved through our Parents and Citizens Association (P&amp;C) or by volunteering at school. Your time and support help make our school a better place for everyone.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/our-community/pandc",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Parents and Citizens Association",
+    "description": "At Fort Street High School, we value strong partnerships with families and the community. Parents and carers can get involved through our Parents and Citizens Association (P&amp;C) or by volunteering at school. Your time and support help make our school a better place for everyone.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/our-community/pandc"
+  },
+  "migratedAt": "2026-11-05T06:33:01Z",
+  "designMdSha": "187c3f2f159f",
+  "designJsonSha": "2d96d5b1c55f",
+  "sourceCurrentSha": "9b8d5600d45e",
+  "sourceProposedSha": "77bb9c866c62",
+  "fidelityTier": "sibling",
+  "archetypeSource": "learning-and-support-learning",
+  "archetypeSha": "0925840f97e7",
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 4,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "our-community/pandc/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "our-community/pandc/_meta.json",
+  "driverVersion": "1"
+}
