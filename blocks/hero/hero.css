@@ -1,37 +1,89 @@
-.hero-container .hero-wrapper {
-  max-width: unset;
+main > .section.hero-container {
+  padding: 0;
+}
+
+main > .section.hero-container > .hero-wrapper {
   padding: 0;
 }
 
 .hero {
   position: relative;
-  padding: 40px 24px;
-  min-height: 300px;
+  overflow: hidden;
+  padding: var(--layout-section-padding-y) 24px;
+  background: var(--palette-light-band-bg);
 }
 
-.hero h1 {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  color: var(--background-color);
-}
-
-.hero picture {
+.hero .hero-media img {
   position: absolute;
-  z-index: -1;
   inset: 0;
-  object-fit: cover;
-  box-sizing: border-box;
-}
-
-.hero img {
-  object-fit: cover;
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
-@media (width >= 900px) {
+.hero .hero-inner {
+  position: relative;
+  max-width: var(--layout-container-max-width);
+  margin: 0 auto;
+}
+
+.hero .hero-panel {
+  padding: 50px 60px;
+  background: var(--palette-dark-band-bg);
+  color: var(--palette-dark-band-fg);
+}
+
+.hero .hero-panel :is(h1, h2, h3, h4) {
+  color: inherit;
+  font-size: var(--type-display-font-size);
+  line-height: var(--type-display-line-height);
+  letter-spacing: var(--type-display-letter-spacing);
+}
+
+/* the donor's on-dark CTA: the light (porcelain) button */
+.hero .hero-panel a.button:any-link {
+  background: var(--buttons-secondary-background);
+  color: var(--buttons-secondary-color);
+}
+
+.hero .hero-panel a:any-link:not(.button) {
+  color: inherit;
+}
+
+/* banner with no photograph: the whole band is the dark ground (quote band) */
+.hero.no-media {
+  padding: var(--layout-section-padding-y) var(--layout-gutter);
+  background: var(--palette-dark-band-bg);
+  color: var(--palette-dark-band-fg);
+}
+
+.hero.no-media .hero-inner {
+  max-width: none;
+}
+
+.hero.no-media .hero-panel {
+  padding: 0;
+  background: none;
+}
+
+@media (width <= 640px) {
   .hero {
-    padding: 40px 32px;
+    padding: var(--layout-mobile-section-padding-y) var(--layout-mobile-gutter);
+  }
+
+  .hero .hero-panel {
+    padding: 32px var(--layout-mobile-gutter);
+  }
+
+  .hero .hero-panel :is(h1, h2, h3, h4) {
+    font-size: min(var(--type-display-font-size), 11vw);
+  }
+
+  .hero.no-media {
+    padding: var(--layout-section-padding-y) var(--layout-mobile-gutter);
+  }
+
+  .hero.no-media .hero-panel {
+    padding: 32px var(--layout-mobile-gutter);
   }
 }

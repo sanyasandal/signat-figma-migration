@@ -11,3 +11,13 @@ helix-importer-ui
 # Ensure these files are tracked
 !CLAUDE.md
 !AGENTS.md
+stardust/node_modules/
+stardust/.work/
+# Figma-derived donor evidence (client design file) — kept out of the public repo
+stardust/canon-source/
+stardust/reskin/figma-checks/
+
+# DA / IMS tokens
+.env
+.env.*
+stardust/.da-token

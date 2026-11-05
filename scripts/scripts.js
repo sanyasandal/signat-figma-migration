@@ -143,6 +143,36 @@ function decorateButtons(main) {
 }
 
 /**
+ * External links (not the school or the department's site) open in a new window and carry the
+ * source site's screen-reader suffix. Buttons and the social feed are excluded, as on the source.
+ * Idempotent: a link is decorated once.
+ * @param {Element} root The container to decorate
+ */
+function decorateExternalLinks(root) {
+  root.querySelectorAll('a[href^="http"], a[href^="mailto:"]').forEach((a) => {
+    if (a.dataset.external) return;
+    let host;
+    try {
+      host = new URL(a.href).hostname;
+    } catch {
+      return;
+    }
+    if (a.protocol !== 'mailto:') {
+      if (host === window.location.hostname || host === 'fortstreet-h.schools.nsw.gov.au') return;
+      if (host.endsWith('education.nsw.gov.au')) return;
+    }
+    if (a.classList.contains('button') || a.closest('.cards.social')) return;
+    a.dataset.external = 'true';
+    a.target = '_blank';
+    a.rel = 'noopener';
+    const note = document.createElement('span');
+    note.className = 'sr-only';
+    note.textContent = '(opens in new window)';
+    a.append(' ', note);
+  });
+}
+
+/**
  * Decorates the main element.
  * @param {Element} main The main element
  */
@@ -165,6 +195,7 @@ async function loadEager(doc) {
   const main = doc.querySelector('main');
   if (main) {
     decorateMain(main);
+    decorateExternalLinks(main);
     document.body.classList.add('appear');
     await loadSection(main.querySelector('.section'), waitForFirstImage);
   }

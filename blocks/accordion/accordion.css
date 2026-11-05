@@ -1,0 +1,62 @@
+.accordion .disclosure {
+  border-bottom: 1px solid var(--palette-light-band-bg);
+}
+
+.accordion .disclosure:first-child {
+  border-top: 1px solid var(--palette-light-band-bg);
+}
+
+.accordion .disclosure-head {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 20px 0;
+  font-family: var(--type-display-font-family);
+  font-size: var(--type-h3-font-size);
+  line-height: var(--type-h3-line-height);
+  color: var(--palette-heading-fg);
+  cursor: pointer;
+}
+
+.accordion .disclosure-head > :is(p, h2, h3, h4) {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.accordion .disclosure-toggle {
+  display: flex;
+  flex: none;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--palette-accent);
+  cursor: pointer;
+}
+
+.accordion .disclosure-toggle::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.accordion .disclosure-toggle .glyph {
+  width: 24px;
+  height: 24px;
+}
+
+.accordion .disclosure-toggle[aria-expanded="true"] .glyph::before {
+  transform: translateY(2px) rotate(-135deg);
+}
+
+.accordion .disclosure-panel {
+  padding: 0 0 24px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .accordion .glyph::before {
+    transition: transform 0.2s ease;
+  }
+}

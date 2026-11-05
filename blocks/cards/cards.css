@@ -1,27 +1,155 @@
-.cards > ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.cards .cards-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
-  gap: 24px;
+  grid-template-columns: repeat(var(--cards-columns, 3), minmax(0, 1fr));
+  gap: 40px;
+  margin: 16px 0;
 }
 
-.cards > ul > li {
-  border: 1px solid #dadada;
-  background-color: var(--background-color);
+.cards .card {
+  padding: var(--cards-primary-padding);
+  border-radius: var(--cards-primary-border-radius);
+  background: var(--cards-primary-background);
 }
 
-.cards .cards-card-body {
-  margin: 16px;
+.cards .card > :last-child {
+  margin-bottom: 0;
 }
 
-.cards .cards-card-image {
-  line-height: 0;
+.cards .card :is(h3, h4) {
+  margin: 0 0 16px;
+  font-family: var(--type-body-font-family);
+  font-size: var(--type-h4-font-size);
+  line-height: 1.25;
+  color: var(--cards-primary-title-color);
 }
 
-.cards > ul > li img {
+.cards .card :is(h3, h4) a:any-link {
+  text-decoration: none;
+}
+
+.cards .card.has-media {
+  overflow: hidden;
+  padding: 0 0 32px;
+}
+
+.cards .card.has-media > :not(.card-media) {
+  margin-inline: 24px;
+}
+
+.cards .card .card-media {
+  margin: 0 0 24px;
+}
+
+.cards .card .card-media img {
   width: 100%;
-  aspect-ratio: 4 / 3;
+  height: auto;
+  aspect-ratio: 16 / 9;
   object-fit: cover;
+}
+
+.cards .card.has-media :is(h3, h4) {
+  font-size: var(--type-body-font-size);
+  line-height: var(--type-body-line-height);
+}
+
+.cards .card.has-media :is(h3, h4) a:any-link {
+  text-decoration: underline;
+}
+
+.cards .card > .glyph {
+  display: flex;
+  width: 28px;
+  height: 28px;
+  margin-top: 12px;
+  color: var(--palette-accent);
+}
+
+.cards .card > .glyph::before {
+  position: absolute;
+  right: 6px;
+  width: 9px;
+  height: 9px;
+  transform: rotate(-45deg);
+}
+
+.cards .card > .glyph::after {
+  content: "";
+  position: absolute;
+  left: 4px;
+  right: 5px;
+  top: 13px;
+  height: 2px;
+  background: currentcolor;
+}
+
+/* tinted band: greige ground, porcelain cards */
+main .section.cards-container:has(.cards.tinted) {
+  background: var(--palette-light-band-bg);
+}
+
+.cards.tinted .card {
+  background: var(--palette-page-bg);
+}
+
+/* M2 tiles (plain cards): edge-to-edge, hairline dividers, the head keeps the page gutter */
+main .section.cards-container:has(.cards:not(.value, .social)) > .cards-wrapper {
+  padding: 0;
+}
+
+.cards:not(.value, .social) .cards-list {
+  gap: 0;
+}
+
+.cards:not(.value, .social) .card {
+  border-right: 1px solid var(--palette-page-bg);
+}
+
+.cards:not(.value, .social) .card:nth-child(3n) {
+  border-right: 0;
+}
+
+/* M11 value props: hairline rules between tiles */
+.cards.value .cards-list {
+  gap: 1px;
+}
+
+/* social strip: centred head, post excerpts clamp at three lines */
+main .section.cards-container:has(.cards.social) .default-content-wrapper {
+  text-align: center;
+}
+
+.cards.social .card p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+@media (width <= 900px) {
+  .cards .cards-list {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .cards:not(.value, .social) .card {
+    border-right: 0;
+    border-bottom: 1px solid var(--palette-page-bg);
+  }
+}
+
+@media (width <= 640px) {
+  main .section.cards-container:has(.cards.tinted) {
+    padding: var(--layout-section-padding-y) 0;
+  }
+
+  main .section.cards-container:has(.cards.tinted) > div {
+    padding-inline: calc(var(--layout-mobile-gutter) * 2);
+  }
+
+  main .section.cards-container:has(.cards.tinted) > div:first-child {
+    padding-top: 32px;
+  }
+
+  main .section.cards-container:has(.cards.tinted) > div:last-child {
+    padding-bottom: 32px;
+  }
 }
