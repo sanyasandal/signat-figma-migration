@@ -21,6 +21,7 @@
 }
 
 .accordion .disclosure-head > :is(p, h2, h3, h4) {
+  flex: 1 1 auto;
   margin: 0;
   font: inherit;
   color: inherit;

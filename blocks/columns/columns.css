@@ -52,7 +52,8 @@ main .section.columns-container:has(.columns.tinted) {
 }
 
 @media (width <= 640px) {
-  .columns h2 {
+  .columns h2,
+  .columns.editorial h2 {
     font-size: min(var(--type-display-font-size), 11vw);
   }
 
