@@ -1,0 +1,44 @@
+{
+  "variantName": "table",
+  "baseBlock": "table",
+  "version": "1.0.0",
+  "created": "2026-11-05T08:07:41.000Z",
+  "visualCharacteristics": {
+    "purpose": "data-table"
+  },
+  "contentPattern": {
+    "structure": "rows-cells"
+  },
+  "name": "Table",
+  "description": "Data table; the first row is the header.",
+  "options": [
+    {
+      "class": "no-header",
+      "label": "no header"
+    }
+  ],
+  "usage": {
+    "pagesUsing": [
+      "reskin/about-us/hsc-results",
+      "reskin/about-us/our-principal-and-staff",
+      "reskin/fragments/learning-and-support-additional-learning-support-1",
+      "reskin/fragments/learning-and-support-learning-1",
+      "reskin/fragments/school-life-student-opportunities-and-activities-duke-of-edinburgh-award-1",
+      "reskin/fragments/school-life-student-opportunities-and-activities-duke-of-edinburgh-award-2",
+      "reskin/fragments/school-life-student-opportunities-and-activities-duke-of-edinburgh-award-3",
+      "reskin/learning-and-support/wellbeing",
+      "reskin/our-community/foundation",
+      "reskin/our-community/pandc",
+      "reskin/school-life/events",
+      "reskin/school-life/forms",
+      "reskin/school-life/lockers-and-lost-property",
+      "reskin/school-life/student-opportunities-and-activities",
+      "reskin/school-life/student-opportunities-and-activities/duke-of-edinburgh-award",
+      "reskin/school-life/student-opportunities-and-activities/sport",
+      "reskin/school-life/travel-to-school",
+      "reskin/school-life/uniform/uniform-shop"
+    ],
+    "reuseCount": 18,
+    "lastUsed": "2026-11-05T08:07:41.000Z"
+  }
+}

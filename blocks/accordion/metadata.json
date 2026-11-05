@@ -1,0 +1,33 @@
+{
+  "variantName": "accordion",
+  "baseBlock": "accordion",
+  "version": "1.0.0",
+  "created": "2026-11-05T08:07:41.000Z",
+  "visualCharacteristics": {
+    "purpose": "disclosure"
+  },
+  "contentPattern": {
+    "structure": "title-body-expandable"
+  },
+  "name": "Accordion",
+  "description": "Disclosures, closed at rest. One row per item: title | panel content (a panel holding a table links a fragment).",
+  "usage": {
+    "pagesUsing": [
+      "reskin/about-us/enrol",
+      "reskin/about-us/policies-and-reports",
+      "reskin/about-us/school-history-and-archives/the-fortian-digitised",
+      "reskin/learning-and-support/additional-learning-support",
+      "reskin/learning-and-support/high-potential-and-gifted-education",
+      "reskin/learning-and-support/learning",
+      "reskin/learning-and-support/wellbeing",
+      "reskin/our-community/pandc",
+      "reskin/school-life/newsletters",
+      "reskin/school-life/student-opportunities-and-activities",
+      "reskin/school-life/student-opportunities-and-activities/duke-of-edinburgh-award",
+      "reskin/school-life/student-opportunities-and-activities/student-leadership-opportunities",
+      "reskin/school-life/uniform"
+    ],
+    "reuseCount": 13,
+    "lastUsed": "2026-11-05T08:07:41.000Z"
+  }
+}

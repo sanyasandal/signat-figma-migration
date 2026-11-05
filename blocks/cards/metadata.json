@@ -1,0 +1,86 @@
+{
+  "variantName": "cards",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-11-05T08:07:41.000Z",
+  "visualCharacteristics": {
+    "purpose": "content-grid"
+  },
+  "contentPattern": {
+    "structure": "image-title-body repeating"
+  },
+  "name": "Cards",
+  "description": "Edge-to-edge image tiles with hairline dividers (Kay M2). One row per card: picture | heading link + text.",
+  "options": [
+    {
+      "class": "value",
+      "label": "value"
+    },
+    {
+      "class": "value tinted",
+      "label": "value, tinted"
+    },
+    {
+      "class": "social",
+      "label": "social"
+    }
+  ],
+  "usage": {
+    "pagesUsing": [
+      "reskin/about-us",
+      "reskin/about-us/enrol",
+      "reskin/about-us/facilities-and-resources",
+      "reskin/about-us/hsc-results",
+      "reskin/about-us/our-principal-and-staff",
+      "reskin/about-us/policies-and-reports",
+      "reskin/about-us/policies-and-reports/nsw-public-school-information",
+      "reskin/about-us/school-history-and-archives",
+      "reskin/about-us/school-history-and-archives/fort-street-archives",
+      "reskin/about-us/school-history-and-archives/the-fort-street-museum",
+      "reskin/about-us/school-history-and-archives/the-fortian-digitised",
+      "reskin/about-us/stories-and-highlights",
+      "reskin/about-us/transition-to-high-school",
+      "reskin/about-us/why-choose-us",
+      "reskin/contact-us",
+      "reskin/index",
+      "reskin/learning-and-support",
+      "reskin/learning-and-support/additional-learning-support",
+      "reskin/learning-and-support/careers",
+      "reskin/learning-and-support/high-potential-and-gifted-education",
+      "reskin/learning-and-support/learning",
+      "reskin/learning-and-support/wellbeing",
+      "reskin/our-community",
+      "reskin/our-community/alumni",
+      "reskin/our-community/fortians-union",
+      "reskin/our-community/foundation-tertiary-bursaries",
+      "reskin/our-community/foundation",
+      "reskin/our-community/pandc",
+      "reskin/school-life",
+      "reskin/school-life/bell-times",
+      "reskin/school-life/bring-your-own-device",
+      "reskin/school-life/canteen",
+      "reskin/school-life/events",
+      "reskin/school-life/forms",
+      "reskin/school-life/house-and-merit-system",
+      "reskin/school-life/lockers-and-lost-property",
+      "reskin/school-life/newsletters",
+      "reskin/school-life/parent-portal",
+      "reskin/school-life/stationery",
+      "reskin/school-life/student-opportunities-and-activities",
+      "reskin/school-life/student-opportunities-and-activities/academic-competitions",
+      "reskin/school-life/student-opportunities-and-activities/clubs-and-committees",
+      "reskin/school-life/student-opportunities-and-activities/creative-and-performing-arts",
+      "reskin/school-life/student-opportunities-and-activities/debating-and-public-speaking",
+      "reskin/school-life/student-opportunities-and-activities/duke-of-edinburgh-award",
+      "reskin/school-life/student-opportunities-and-activities/instrumental-music-program",
+      "reskin/school-life/student-opportunities-and-activities/robotics-and-maker-society",
+      "reskin/school-life/student-opportunities-and-activities/sport",
+      "reskin/school-life/student-opportunities-and-activities/student-leadership-opportunities",
+      "reskin/school-life/travel-to-school",
+      "reskin/school-life/uniform",
+      "reskin/school-life/uniform/uniform-shop"
+    ],
+    "reuseCount": 52,
+    "lastUsed": "2026-11-05T08:07:41.000Z"
+  }
+}

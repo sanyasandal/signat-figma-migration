@@ -1,0 +1,14 @@
+{
+  "variantName": "embed",
+  "baseBlock": "embed",
+  "version": "1.0.0",
+  "created": "2026-11-05T08:07:41.000Z",
+  "visualCharacteristics": {
+    "purpose": "media-embed"
+  },
+  "contentPattern": {
+    "structure": "single-link"
+  },
+  "name": "Embed",
+  "description": "A Google Map, Brightcove or YouTube URL rendered as an iframe. Authors normally just paste the URL on its own line; it is auto-blocked."
+}

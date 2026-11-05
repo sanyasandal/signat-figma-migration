@@ -1,0 +1,43 @@
+{
+  "variantName": "columns",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-11-05T08:07:41.000Z",
+  "visualCharacteristics": {
+    "purpose": "media-text"
+  },
+  "contentPattern": {
+    "structure": "text-image split"
+  },
+  "name": "Columns",
+  "description": "Image beside text, one row of two cells.",
+  "options": [
+    {
+      "class": "editorial",
+      "label": "editorial"
+    },
+    {
+      "class": "editorial tinted",
+      "label": "editorial, tinted"
+    },
+    {
+      "class": "split",
+      "label": "split"
+    }
+  ],
+  "usage": {
+    "pagesUsing": [
+      "reskin/about-us/enrol",
+      "reskin/contact-us",
+      "reskin/index",
+      "reskin/learning-and-support/additional-learning-support",
+      "reskin/our-community/foundation",
+      "reskin/school-life/events",
+      "reskin/school-life/parent-portal",
+      "reskin/school-life/student-opportunities-and-activities/instrumental-music-program",
+      "reskin/school-life/travel-to-school"
+    ],
+    "reuseCount": 9,
+    "lastUsed": "2026-11-05T08:07:41.000Z"
+  }
+}
