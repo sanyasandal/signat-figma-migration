@@ -43,3 +43,18 @@ Section `style` values (closed set): `statement`, `breadcrumb`, `section-nav`.
 
 Apercu Pro (licensed, Figma supplies no files): declared as the token string; `Helvetica Neue` / Helvetica / Arial render.
 No `@font-face` shipped. `font.unserved` residual recorded.
+
+## Links (localize after every generation)
+
+`eds-content.mjs` writes each captured href as the source URL (`https://fortstreet-h.schools.nsw.gov.au/…`).
+Before every `deploy-batch` — and after ANY regeneration of a page — localize the whole tree, then assert:
+
+```bash
+node stardust/scripts/deploy/localize-links.mjs --source-host fortstreet-h.schools.nsw.gov.au --content content --prefix /reskin
+node stardust/scripts/deploy/localize-links.mjs --source-host fortstreet-h.schools.nsw.gov.au --content content --prefix /reskin --check
+```
+
+2026-11-06: 1013 links localized onto `/reskin/…` (nav, footer, 51 pages, home, 3 library samples) — they had shipped
+pointing at the old site. Kept absolute (not in the migration): `/enrol`, `/about-our-school/exit-profile`, and the
+source's malformed `/learning-and-support/www.primaryethics.com.au`. `deployed-gate inherited` (`internal links`)
+fails a page, nav or footer that links back to the old site.
